@@ -64,11 +64,16 @@ Awesome AI Pathology papers
 - Distributed Parallel Gradient Stacking (DPGS): Solving Whole Slide Image Stacking Challenge in Multi-Instance Learning [[paper](https://icml.cc/virtual/2025/poster/43811)]  
 - L-Diffusion: Laplace Diffusion for Efficient Pathology Image Segmentation [[paper](https://icml.cc/virtual/2025/poster/46562)]  
 - Do Multiple Instance Learning Models Transfer? [[paper](https://icml.cc/virtual/2025/poster/44403)]  
-- How Effective Can Dropout Be in Multiple Instance Learning? [[paper](https://icml.cc/virtual/2025/poster/43917)]  
+- How Effective Can Dropout Be in Multiple Instance Learning? [[paper](https://icml.cc/virtual/2025/poster/43917)]
+  
+**Neurips 2025**
+
 
 **Advanced Science 25**
- Artificial Intelligence Revolution in Transcriptomics: From Single Cells to Spatial Atlases [[paper](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202518949)]  
+-  Artificial Intelligence Revolution in Transcriptomics: From Single Cells to Spatial Atlases [[paper](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202518949)]  
 
 **IJCV 2025**
- -  Multiple Instance Learning Framework with Masked Hard Instance Mining for Gigapixel Histopathology Image Analysis [[paper](https://arxiv.org/abs/2509.11526)]  
- 
+ -  Multiple Instance Learning Framework with Masked Hard Instance Mining for Gigapixel Histopathology Image Analysis [[paper](https://arxiv.org/abs/2509.11526)]
+
+ **Nature Cancer 2025**
+  -  SMMILe enables accurate spatial quantification in digital pathology using multiple-instance [[paper]([https://arxiv.org/abs/2509.11526](https://www.nature.com/articles/s43018-025-01060-8))]
