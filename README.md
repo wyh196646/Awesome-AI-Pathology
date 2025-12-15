@@ -17,7 +17,7 @@ Awesome AI Pathology papers
 
 ### 2025
 
-**CVPR'25**
+**CVPR 25**
 - FOCUS: Knowledge-enhanced Adaptive Visual Compression for Few-shot Whole Slide Image Classification [[paper](https://arxiv.org/abs/2411.14743)]
 - Distilled Prompt Learning for Incomplete Multimodal Survival Prediction [[paper](https://arxiv.org/pdf/2503.01653)]
 - Fast and Accurate Gigapixel Pathological Image Classification with Hierarchical Distillation Multi-Instance Learning [[paper](https://arxiv.org/abs/2502.21130)]
@@ -39,7 +39,7 @@ Awesome AI Pathology papers
 - Unsupervised Foundation Model-Agnostic Slide-Level Representation Learning [[paper](https://arxiv.org/abs/2411.13623)]
 - WISE: A Framework for Gigapixel Whole-Slide-Image Lossless Compression [[paper](https://cvpr.thecvf.com/Conferences/2025/AcceptedPapers)]
 
-**ICCV'25**
+**ICCV 25**
 - Bridging Local Inductive Bias and Long-Range Dependencies with Pixel-Mamba for End-to-end Whole Slide Image Analysis [[paper](https://iccv.thecvf.com/virtual/2025/poster/1316)]
 - Continual Multiple Instance Learning with Enhanced Localization for Histopathological Whole Slide Image Analysis [[paper](https://iccv.thecvf.com/virtual/2025/poster/2524)]
 - Cracking Instance Jigsaw Puzzles: A Superior Alternative to Multiple Instance Learning for Whole Slide Image Analysis [[paper](https://iccv.thecvf.com/virtual/2025/poster/1527)]
@@ -66,5 +66,9 @@ Awesome AI Pathology papers
 - Do Multiple Instance Learning Models Transfer? [[paper](https://icml.cc/virtual/2025/poster/44403)]  
 - How Effective Can Dropout Be in Multiple Instance Learning? [[paper](https://icml.cc/virtual/2025/poster/43917)]  
 
+**Advanced Science 25**
+ Artificial Intelligence Revolution in Transcriptomics: From Single Cells to Spatial Atlases [[paper](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202518949)]  
 
-
+**IJCV 2025**
+ -  Multiple Instance Learning Framework with Masked Hard Instance Mining for Gigapixel Histopathology Image Analysis [[paper](https://arxiv.org/abs/2509.11526)]  
+ 
