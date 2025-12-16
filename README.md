@@ -76,4 +76,8 @@ Awesome AI Pathology papers
  -  Multiple Instance Learning Framework with Masked Hard Instance Mining for Gigapixel Histopathology Image Analysis [[paper](https://arxiv.org/abs/2509.11526)]
 
  **Nature Cancer 2025**
-  -  SMMILe enables accurate spatial quantification in digital pathology using multiple-instance [[paper]([https://arxiv.org/abs/2509.11526](https://www.nature.com/articles/s43018-025-01060-8))]
+  -  SMMILe enables accurate spatial quantification in digital pathology using multiple-instance [[paper](https://arxiv.org/abs/2509.11526](https://www.nature.com/articles/s43018-025-01060-8))]
+
+
+ **MICCAI 2025**
+  -  Historical Report Guided Bi-modal Concurrent Learning for Pathology Report Generation [[paper](https://arxiv.org/pdf/2506.18658v1)]
