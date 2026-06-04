@@ -10,9 +10,7 @@ Awesome AI Pathology papers
 ### 2026
 **AAAI'26**
 - Patho-R1: A Multimodal Reinforcement Learning-Based Pathology Expert Reasoner [[paper](https://arxiv.org/abs/2505.11404)][[code](https://github.com/Wenchuan-Zhang/Patho-R1)]
-- S2D-ALIGN: Shallow-to-Deep Auxiliary Learning for Anatomically-Grounded Radiology Report Generation [[paper](https://arxiv.org/pdf/2511.11066)]
-- A Disease-Aware Dual-Stage Framework for Chest X-ray Report Generation [[paper](https://arxiv.org/pdf/2511.12259)]
-- Explainable Melanoma Diagnosis with Contrastive Learning and LLM-based Report Generation [[paper](https://arxiv.org/pdf/2512.06105v1)][[code](https://eattt-wen.github.io/CEFM/)]
+
 
 
 ### 2025
