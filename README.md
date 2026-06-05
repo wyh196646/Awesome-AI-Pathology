@@ -8,6 +8,14 @@
 # Awesome-AI-Pathology
 Awesome AI Pathology papers, including top AI conferences and journals such as CVPR, ICCV, ECCV, NeurIPS, ICML, ICLR, ACM MM, MICCAI, MIDL, Nature, Nature Medicine, Nature Methods, Nature Biomedical Engineering, npj Digital Medicine, The Lancet Digital Health, Medical Image Analysis, and IEEE Transactions on Medical Imaging.
 
+## Highlights
+
+- 📚 500+ curated papers in computational pathology
+- 🧠 Foundation models, WSI analysis, VLMs, agents, and spatial omics
+- 🏛️ Top conferences and journals: CVPR, ICCV, NeurIPS, ICML, ICLR, MICCAI, MIDL, Nature, Cell, Lancet, IEEE TMI, MedIA
+- 📊 Year-by-year and venue-by-venue paper tracking
+- 🔎 Tags for tasks, diseases, modalities, and model types
+- 🤝 Open for community contributions
 
 ## Surveyed Venue List
 The following venues were included in the collection and screening scope. Some venues may not yet have confirmed computational-pathology papers for every year.
@@ -73,6 +81,7 @@ The following venues were included in the collection and screening scope. Some v
 - [AI in Pathology](#papers)
 
 # Papers
+
 ## 2026
 
 **Nature Medicine**
@@ -93,6 +102,9 @@ The following venues were included in the collection and screening scope. Some v
 - Boosting pathology foundation models via few-shot prompt-tuning for rare cancer subtyping [[paper](https://www.nature.com/articles/s41467-026-71715-2)]
 - Generative AI for misalignment-resistant virtual staining to accelerate histopathology workflows [[paper](https://www.nature.com/articles/s41467-026-71038-2)]
 - Meta-encoder: a unified integration framework for multiple pathological foundation models in cancer detection [[paper](https://www.nature.com/articles/s41467-026-71558-x)]
+- KidRare [[paper](https://doi.org/10.1038/s41467-026-71715-2)][[dataset](https://huggingface.co/datasets/Firehdx233/KidRare)]
+- STimage [[paper](https://doi.org/10.1038/s41467-026-68487-0)][[code](https://github.com/BiomedicalMachineLearning/STimage)]
+- Gastric Early Recurrence [[paper](https://www.nature.com/articles/s41467-026-71347-6)]
 
 **Nature Biomedical Engineering**
 - A multimodal vision–language model for generalizable annotation-free pathology localization [[paper](https://www.nature.com/articles/s41551-025-01574-7)]
@@ -126,6 +138,7 @@ The following venues were included in the collection and screening scope. Some v
 
 **Cancer Cell**
 - Knowledge-enhanced pretraining for vision-language pathology foundation model on cancer diagnosis [[paper](https://linkinghub.elsevier.com/retrieve/pii/S1535610826000589)]
+- KEEP [[paper](https://www.cell.com/cancer-cell/fulltext/S1535-6108(26)00058-9)]
 
 **Cell**
 - AI-predicted spatial transcriptomics unlocks breast cancer biomarkers from pathology [[paper](https://linkinghub.elsevier.com/retrieve/pii/S0092867426004587)]
@@ -209,6 +222,7 @@ The following venues were included in the collection and screening scope. Some v
 - Content-aware Information Compression and Selection for Efficient Whole Slide Image Analysis [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/38350)]
 - Libra-MIL: Multimodal Prototypes Stereoscopic Infused with Task-specific Language Priors for Few-shot Whole Slide Image Classification [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/38415)]
 - HiFusion: Hierarchical Intra-Spot Alignment and Regional Context Fusion for Spatial Gene Expression Prediction from Histopathology [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/38036)]
+- Patho-AgenticRAG [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/40239)]
 
 **The Web Conference 2026**
 - HAAF: Hierarchical Adaptation and Alignment of Foundation Models for Few-Shot Pathology Anomaly Detection [[paper](https://dl.acm.org/doi/10.1145/3774904.3793015)]
@@ -258,13 +272,30 @@ The following venues were included in the collection and screening scope. Some v
 - To What Extent Do Token-Level Representations from Pathology Foundation Models Improve Dense Prediction? [[paper](https://arxiv.org/abs/2602.03887)]
 - Towards Spatial Transcriptomics-driven Pathology Foundation Models [[paper](https://arxiv.org/abs/2602.14177)]
 - Whole Slide Concepts: A Supervised Foundation Model For Pathological Images [[paper](https://arxiv.org/abs/2507.05742)]
+- Atlas 2 [[paper](https://arxiv.org/abs/2601.05148)][[website](https://www.aignostics.com/products/foundation-models)]
+- CerS-Path [[paper](https://arxiv.org/abs/2510.10196)]
+- CARE [[paper](https://arxiv.org/abs/2602.21637)]
+- Hepato-LLaVA [[paper](https://arxiv.org/abs/2602.19424)]
+- MLLM-HWSI [[paper](https://arxiv.org/abs/2603.23067)]
+- PBSBench [[paper](https://arxiv.org/abs/2604.17570)]
+- AtlasPatch [[paper](https://arxiv.org/abs/2602.03998)][[code](https://github.com/AtlasAnalyticsLab/AtlasPatch)]
 
 **bioRxiv**
 - H2O: A Foundation Model Bridging Histopathology to Spatial Multi-Omics Profiling [[paper](https://www.biorxiv.org/content/10.64898/2026.04.21.717342v1)]
 - InSTaPath: Integrating Spatial Transcriptomics and histoPathology Images via Multimodal Topic Learning [[paper](https://www.biorxiv.org/content/10.64898/2026.03.16.712067v1)]
+- SpatialFusion [[paper](https://www.biorxiv.org/content/10.64898/2026.03.16.712056v1)][[code](https://github.com/uhlerlab/spatialfusion)]
 
 **TechRxiv**
 - The Landscape of Computational Pathology Agents From Static Analysis to Autonomous Diagnostic Workflows [[paper](https://www.techrxiv.org/doi/full/10.36227/techrxiv.176773877.76155111/v1)]
+
+**Biomedical Signal Processing and Control**
+- FedDMIL [[paper](https://www.sciencedirect.com/science/article/abs/pii/S1746809425015708)]
+
+**Preprint**
+- GenBio-PathFM [[paper](https://genbio.ai/papers/genbio-pathfm.pdf)]
+
+**Journal of Pathology Informatics**
+- Breast pTNM Stage Prediction [[paper](https://www.sciencedirect.com/science/article/pii/S2153353926001021)]
 
 ### 2025
 
@@ -277,6 +308,7 @@ The following venues were included in the collection and screening scope. Some v
 **Nature Methods**
 - A visual–omics foundation model to bridge histopathology with spatial transcriptomics [[paper](https://www.nature.com/articles/s41592-025-02707-1)]
 - Spatial gene expression at single-cell resolution from histology using deep learning with GHIST [[paper](https://www.nature.com/articles/s41592-025-02795-z)]
+- iSCALE [[paper](https://www.nature.com/articles/s41592-025-02770-8)][[code](https://github.com/amesch441/iSCALE)]
 
 **Nature Communications**
 - A multimodal knowledge-enhanced whole-slide pathology foundation model [[paper](https://www.nature.com/articles/s41467-025-66220-x)]
@@ -287,6 +319,11 @@ The following venues were included in the collection and screening scope. Some v
 - A clinical benchmark of public self-supervised pathology foundation models [[paper](https://www.nature.com/articles/s41467-025-58796-1)]
 - Knowledge-guided adaptation of pathology foundation models effectively improves cross-domain generalization and demographic fairness [[paper](https://www.nature.com/articles/s41467-025-66300-y)]
 - Uncertainty-aware ensemble of foundation models improves brain tumour diagnosis in digital pathology [[paper](https://www.nature.com/articles/s41467-025-64249-6)]
+- DualCytoNet [[paper](https://www.nature.com/articles/s41467-025-62589-x)]
+- LBC-DL [[paper](https://www.nature.com/articles/s41467-025-58883-3)][[code](https://github.com/LuZWCHA/LBC_WSI_Classification)]
+- sCellST [[paper](https://www.nature.com/articles/s41467-025-67965-1)][[code](https://github.com/loicchadoutaud/sCellST)]
+- Pixel SR Virtual Staining [[paper](https://www.nature.com/articles/s41467-025-60387-z)][[code](https://github.com/Yijie-Zhang/Super-resolved-virtual-staining)]
+- Orpheus [[paper](https://www.nature.com/articles/s41467-025-57283-x)][[code](https://github.com/kmboehm/orpheus)]
 
 **Nature Biomedical Engineering**
 - A robust and scalable framework for hallucination detection in virtual tissue staining and digital pathology [[paper](https://www.nature.com/articles/s41551-025-01421-9)]
@@ -297,6 +334,7 @@ The following venues were included in the collection and screening scope. Some v
 - Joint modeling histology and molecular markers for cancer classification [[paper](https://linkinghub.elsevier.com/retrieve/pii/S1361841525000532)]
 - M4: Multi-proxy multi-gate mixture of experts network for multiple instance learning in histopathology image analysis [[paper](https://linkinghub.elsevier.com/retrieve/pii/S1361841525001082)]
 - Self-interactive learning: Fusion and evolution of multi-scale histomorphology features for molecular traits prediction in computational pathology [[paper](https://linkinghub.elsevier.com/retrieve/pii/S1361841524003621)]
+- PathFL [[paper](https://www.sciencedirect.com/science/article/pii/S1361841525002178)][[code](https://github.com/yuanzhang7/PathFL)]
 
 **IEEE Transactions on Medical Imaging**
 - Histo-Genomic Knowledge Association for Cancer Prognosis From Histopathology Whole Slide Images [[paper](https://ieeexplore.ieee.org/document/10830530/)]
@@ -305,6 +343,8 @@ The following venues were included in the collection and screening scope. Some v
 - ToPoFM: Topology-Guided Pathology Foundation Model for High-Resolution Pathology Image Synthesis With Cellular-Level Control [[paper](https://ieeexplore.ieee.org/document/10915718/)]
 - TAD-Graph: Enhancing Whole Slide Image Analysis via Task-Aware Subgraph Disentanglement [[paper](https://doi.org/10.1109/TMI.2025.3545680)]
 - Navigating Through Whole Slide Images With Hierarchy, Multi-Object, and Multi-Scale Data [[paper](https://doi.org/10.1109/TMI.2025.3532728)]
+- FR-MIL [[paper](https://pubmed.ncbi.nlm.nih.gov/39163176/)][[code](https://github.com/PhilipChicco/FRMIL)]
+- PathBench [[paper](https://pubmed.ncbi.nlm.nih.gov/40601458/)][[code](https://github.com/superjamessyx/PathBench)]
 
 **npj Digital Medicine**
 - Large language models driven neural architecture search for universal and lightweight disease diagnosis on histopathology slide images [[paper](https://www.nature.com/articles/s41746-025-02042-x)]
@@ -313,12 +353,15 @@ The following venues were included in the collection and screening scope. Some v
 **Scientific Data**
 - A fully annotated pathology slide dataset for early gastric cancer and precancerous lesions [[paper](https://www.nature.com/articles/s41597-025-05679-1)]
 - A large histological images dataset of gastric cancer with tumour microenvironment annotation for AI [[paper](https://www.nature.com/articles/s41597-025-04489-9)]
+- HMCHH-TCT-CellDet [[paper](https://www.nature.com/articles/s41597-025-04374-5)][[dataset](https://springernature.figshare.com/articles/dataset/A_large_annotated_cervical_cytology_images_dataset_for_AI_models_to_aid_cervical_cancer_screening/27901206)]
 
 **eBioMedicine**
 - A generative vision-language model for holistic pathological assessment using preoperative imaging in hepatocellular carcinoma [[paper](https://linkinghub.elsevier.com/retrieve/pii/S2352396425005043)]
+- Breast DCIS Recurrence [[paper](https://www.sciencedirect.com/science/article/pii/S235239642500194X)]
 
 **Nucleic Acids Research**
 - FmH2ST: foundation model-based spatial transcriptomics generation from histological images [[paper](https://academic.oup.com/nar/article/doi/10.1093/nar/gkaf865/8249850)]
+- FmH2ST [[paper](https://academic.oup.com/nar/article/53/17/gkaf865/8249850)][[website](https://www.sdu-idea.cn/codes.php?name=FmH2ST)]
 
 **CVPR 2025**
 - BioX-CPath: Biologically-driven Explainable Diagnostics for Multistain IHC Computational Pathology [[paper](https://cvpr.thecvf.com/Conferences/2025/AcceptedPapers)]
@@ -343,7 +386,9 @@ The following venues were included in the collection and screening scope. Some v
 - Learning Heterogeneous Tissues with Mixture of Experts for Gigapixel Whole Slide Images [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Wu_Learning_Heterogeneous_Tissues_with_Mixture_of_Experts_for_Gigapixel_Whole_CVPR_2025_paper.html)]
 - Distilled Prompt Learning for Incomplete Multimodal Survival Prediction [[paper](https://arxiv.org/abs/2503.01653)]
 - Fast and Accurate Gigapixel Pathological Image Classification with Hierarchical Distillation Multi-Instance Learning [[paper](https://arxiv.org/abs/2502.21130)]
-  
+- MERGE [[paper](https://arxiv.org/abs/2412.02601)][[code](https://github.com/ags3927/MERGE)]
+- ODA-GAN [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Wang_ODA-GAN_Orthogonal_Decoupling_Alignment_GAN_Assisted_by_Weakly-supervised_Learning_for_CVPR_2025_paper.html)][[code](https://github.com/ittong/ODA-GAN)]
+- ZoomLDM [[paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Yellapragada_ZoomLDM_Latent_Diffusion_Model_for_Multi-scale_Image_Generation_CVPR_2025_paper.pdf)][[code](https://github.com/cvlab-stonybrook/ZoomLDM)]
 
 **ICCV 2025**
 - AcZeroTS: Active Learning for Zero-shot Tissue Segmentation in Pathology Images [[paper](https://iccv.thecvf.com/virtual/2025/poster/2172)]
@@ -371,6 +416,10 @@ The following venues were included in the collection and screening scope. Some v
 - Distilled Prompt Learning for Incomplete Multimodal Survival Prediction [[paper](https://arxiv.org/abs/2503.01653)]
 - Fast and Accurate Gigapixel Pathological Image Classification with Hierarchical Distillation Multi-Instance Learning [[paper](https://arxiv.org/abs/2502.21130)]
 - - Bridging Local Inductive Bias and Long-Range Dependencies with Pixel-Mamba for End-to-end Whole Slide Image Analysis [[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Qiu_Bridging_Local_Inductive_Bias_and_Long-Range_Dependencies_with_Pixel-Mamba_for_ICCV_2025_paper.html)]
+- Flow-MIL [[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Ma_Flow-MIL_Constructing_Highly-expressive_Latent_Feature_Space_For_Whole_Slide_Image_ICCV_2025_paper.html)]
+- PathDiff [[paper](https://openaccess.thecvf.com/content/ICCV2025/papers/Bhosale_PathDiff_Histopathology_Image_Synthesis_with_Unpaired_Text_and_Mask_Conditions_ICCV_2025_paper.pdf)]
+- WSI-LLaVA [[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Liang_WSI-LLaVA_A_Multimodal_Large_Language_Model_for_Whole_Slide_Image_ICCV_2025_paper.html)]
+- PathFinder [[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Ghezloo_PathFinder_A_Multi-Modal_Multi-Agent_System_for_Medical_Diagnostic_Decision-Making_Applied_ICCV_2025_paper.html)]
 
 **NeurIPS 2025**
 - Cancer Survival Analysis via Zero-shot Tumor Microenvironment Segmentation on Low-resolution Whole Slide Pathology Images [[paper](https://openreview.net/forum?id=BkSRQ1y37l)]
@@ -385,11 +434,22 @@ The following venues were included in the collection and screening scope. Some v
 
 **ICLR 2025**
 - Interpretable Vision-Language Survival Analysis with Ordinal Inductive Bias for Computational Pathology [[paper](https://openreview.net/forum?id=trj2Jq8riA)]
+- PathGen-1.6M [[paper](https://openreview.net/forum?id=rFpZnn11gj)][[dataset](https://huggingface.co/datasets/jamessyx/PathGen)]
 
 **MICCAI 2025**
 - Explain Any Pathological Concept: Discovering Hierarchical Explanations for Pathology Foundation Models [[paper](https://link.springer.com/10.1007/978-3-032-04978-0_21)]
 - Historical Report Guided Bi-modal Concurrent Learning for Pathology Report Generation [[paper](https://link.springer.com/10.1007/978-3-032-04978-0_33)]
 - Training state-of-the-art pathology foundation models with orders of magnitude less data [[paper](https://papers.miccai.org/miccai-2025/0947-Paper4651.html)]
+- PLISM Benchmark [[paper](https://arxiv.org/abs/2506.19674)][[code](https://github.com/owkin/plism-benchmark)]
+- FedWSIDD [[paper](https://papers.miccai.org/miccai-2025/0331-Paper1647.html)]
+- Midnight [[paper](https://arxiv.org/abs/2504.05186)]
+- MurreNet [[paper](https://papers.miccai.org/miccai-2025/paper/0057_paper.pdf)]
+- PathoPainter [[paper](https://arxiv.org/abs/2503.04634)][[code](https://github.com/HongLiuuuuu/PathoPainter)]
+- Pathology Autoencoder [[paper](https://papers.miccai.org/miccai-2025/0671-Paper1570.html)]
+- PathVG / RefPath [[paper](https://papers.miccai.org/miccai-2025/0678-Paper1180.html)][[dataset](https://huggingface.co/datasets/fengluo/RefPath)]
+- PathoPrompt [[paper](https://papers.miccai.org/miccai-2025/0677-Paper4278.html)]
+- WSI-Agents [[paper](https://papers.miccai.org/miccai-2025/1022-Paper0994.html)][[code](https://github.com/CVI-SZU/WSI-Agents)]
+- SIA-WSSS [[paper](https://papers.miccai.org/miccai-2025/paper/5096_paper.pdf)][[code](https://github.com/Jsf826/SIA-WSSS)]
 
 **ML4H 2024 / PMLR**
 - Path-RAG: Knowledge-Guided Key Region Retrieval for Open-ended Pathology Visual Question Answering [[paper](https://proceedings.mlr.press/v259/naeem25a.html)]
@@ -399,12 +459,14 @@ The following venues were included in the collection and screening scope. Some v
 - M2OST: Many-to-one Regression for Predicting Spatial Transcriptomics from Digital Pathology Images [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/32830)]
 - Promptable Representation Distribution Learning and Data Augmentation for Gigapixel Histopathology WSI Analysis [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/32779)]
 - Unpaired Multi-Domain Histopathology Virtual Staining Using Dual Path Prompted Inversion [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/32949)]
+- M2OST [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/32830/34985)][[code](https://github.com/dootmaan/m2ost)]
 
 **IJCAI 2025**
 - POMP: Pathology-omics Multimodal Pre-training Framework for Cancer Survival Prediction [[paper](https://www.ijcai.org/proceedings/2025/869)]
 - RPMIL: Rethinking Uncertainty-Aware Probabilistic Multiple Instance Learning for Whole Slide Pathology Diagnosis [[paper](https://www.ijcai.org/proceedings/2025/275)]
 - Self-calibration Enhanced Whole Slide Pathology Image Analysis [[paper](https://www.ijcai.org/proceedings/2025/192)]
 - SMILE: a Scale-aware Multiple Instance Learning Method for Multicenter STAS Lung Cancer Histopathology Diagnosis [[paper](https://www.ijcai.org/proceedings/2025/1093)]
+- MRePath [[paper](https://www.ijcai.org/proceedings/2025/0201.pdf)][[code](https://github.com/MCPathology/MRePath)]
 
 **ACM MM 2025**
 - Dual-Prototype Learning in Multiple Instance Learning for Histopathology Image Classification [[paper](https://dl.acm.org/doi/10.1145/3746027.3755663)]
@@ -455,22 +517,105 @@ The following venues were included in the collection and screening scope. Some v
 - STAMP: Multi-pattern Attention-aware Multiple Instance Learning for STAS Diagnosis in Multi-center Histopathology Images [[paper](https://arxiv.org/abs/2508.10473)]
 - TeamPath: Building MultiModal Pathology Experts with Reasoning AI Copilots [[paper](https://arxiv.org/abs/2511.17652)]
 - VLM-based Prompts as the Optimal Assistant for Unpaired Histopathology Virtual Staining [[paper](https://arxiv.org/abs/2504.15545)]
+- HISTAI [[paper](https://arxiv.org/abs/2505.12120)][[code](https://github.com/HistAI/HISTAI)]
+- Lin-MIL [[paper](https://arxiv.org/abs/2502.13417)][[code](https://github.com/charlotterchtr/Lin-MIL)]
+- PackMIL [[paper](https://arxiv.org/abs/2502.12917)][[code](https://github.com/FangHeng/PackMIL)]
+- Digepath [[paper](https://arxiv.org/abs/2505.21928)]
+- PathOrchestra [[paper](https://arxiv.org/abs/2503.24345)][[code](https://github.com/yanfang-research/PathOrchestra)]
+- PLUTO-4 [[paper](https://arxiv.org/abs/2511.02826)]
+- StainNet [[paper](https://arxiv.org/abs/2512.10326)]
+- Smart-CCS [[paper](https://arxiv.org/abs/2502.09662)][[code](https://github.com/hjiangaz/Smart-CCS)]
+- KRONOS [[paper](https://arxiv.org/abs/2506.03373)]
+- HistDiST [[paper](https://arxiv.org/abs/2505.06793)][[code](https://github.com/ErikGro/HistDiST)]
+- GANs vs Diffusion for Virtual Staining [[paper](https://arxiv.org/abs/2506.18484)]
+- MLLM4PUE [[paper](https://arxiv.org/abs/2502.07221)]
+- PolyPath [[paper](https://arxiv.org/abs/2502.10536)]
+- ChatEXAONEPath [[paper](https://arxiv.org/abs/2504.13023)]
+- VideoPath-LLaVA [[paper](https://arxiv.org/abs/2505.04192)][[code](https://github.com/trinhvg/VideoPath-LLaVA)]
+- PathGenIC [[paper](https://arxiv.org/abs/2506.17645)]
+- TCP-LLaVA [[paper](https://arxiv.org/abs/2507.14497)]
+- SmartPath-R1 [[paper](https://arxiv.org/abs/2507.17303)]
+- DiagR1 [[paper](https://arxiv.org/abs/2507.18433)]
+- PathReasoning [[paper](https://arxiv.org/abs/2511.21902)]
+- MPath [[paper](https://arxiv.org/abs/2512.11906)]
+- PathoSAM [[paper](https://arxiv.org/abs/2502.00408)][[code](https://github.com/computational-cell-analytics/patho-sam)]
+- MIL-Lab [[paper](https://arxiv.org/abs/2506.09022)]
 
 **bioRxiv**
 - Counterfactual Diffusion Models for Interpretable Morphology-based Explanations of Artificial Intelligence Models in Pathology [[paper](https://www.biorxiv.org/content/10.1101/2024.10.29.620913v3)]
 - Features fusion or not: harnessing multiple pathological foundation models using Meta-Encoder for downstream tasks fine-tuning [[paper](https://www.biorxiv.org/content/10.1101/2025.06.05.657960v1)]
+- LazySlide [[paper](https://www.biorxiv.org/content/10.1101/2025.05.28.656548v1)][[website](https://lazyslide.readthedocs.io/)][[code](https://github.com/rendeirolab/LazySlide)]
 
 **Harvard Thesis**
 - Combining Foundation Models in Computational Pathology: [[paper](https://dash.harvard.edu/items/21a5a3ba-6df6-4389-826a-8647b2e9c88d)]
 
+**Annual Review of Biomedical Data Science**
+- Artificial Intelligence in Pathology [[paper](https://www.annualreviews.org/content/journals/10.1146/annurev-biodatasci-103123-095814)]
+
+**The Lancet Digital Health**
+- AI and Digital Tools in Cancer Pathology [[paper](https://www.thelancet.com/journals/landig/article/PIIS2589-7500%2825%2900115-3/fulltext)]
+
+**Journal of Medical Imaging**
+- FLCP Review [[paper](https://www.spiedigitallibrary.org/journals/journal-of-medical-imaging/volume-12/issue-06/061412/Federated-learning-in-computational-pathology-a-literature-review/10.1117/1.JMI.12.6.061412.full)]
+
+**Journal of Pathology Informatics**
+- RW-CPath-FL [[paper](https://www.sciencedirect.com/science/article/pii/S2153353925000501)]
+- PathVLM-Eval [[paper](https://www.sciencedirect.com/science/article/pii/S2153353925000409)]
+
+**npj Precision Oncology**
+- Fed-cSCC [[paper](https://www.nature.com/articles/s41698-025-00997-4)]
+
+**Nature**
+- MUSK [[paper](https://www.nature.com/articles/s41586-024-08437-2)]
+
+**ICML 2025**
+- FEATHER [[paper](https://arxiv.org/abs/2506.09960)]
+
+**Cell Reports Medicine**
+- UniCAS [[paper](https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791%2825%2900643-3)][[code](https://github.com/peter-fei/UniCAS)]
+
+**medRxiv**
+- DeepSpot [[paper](https://www.medrxiv.org/content/10.1101/2025.02.09.25321567v2)][[code](https://github.com/ratschlab/DeepSpot)]
+- ALPaCA / Llama-slideQA [[paper](https://www.medrxiv.org/content/10.1101/2025.04.22.25326190v1)]
+
+**WACV 2025**
+- F2FLDM [[paper](https://openaccess.thecvf.com/content/WACV2025/papers/Ho_F2FLDM_Latent_Diffusion_Models_with_Histopathology_Pre-Trained_Embeddings_for_Unpaired_WACV_2025_paper.pdf)][[code](https://github.com/minhmanho/f2f_ldm)]
+
+**Biomedical Signal Processing and Control**
+- SAStainDiff [[paper](https://www.sciencedirect.com/science/article/abs/pii/S1746809425003726)][[code](https://github.com/yhuaishui/SAStainDiff)]
+
+**Optik**
+- MaskGAN [[paper](https://www.sciencedirect.com/science/article/abs/pii/S0030399225015567)]
+
+**OpenReview**
+- D-VST [[paper](https://openreview.net/pdf/01a05d9580a2101283275c60780b243faa2836b0.pdf)]
+
+**Nature Computational Science**
+- CLOVER [[paper](https://www.nature.com/articles/s43588-025-00818-5)][[code](https://github.com/jlinekai/clover)]
+
+**Artificial Intelligence Review**
+- PA-LLaVA / Pathology-LLaVA [[paper](https://link.springer.com/article/10.1007/s10462-025-11190-1)]
+
+**EMNLP 2025**
+- PathoHR [[paper](https://aclanthology.org/2025.findings-emnlp.124/)]
+
+**Scientific Reports**
+- Breast LN Staging [[paper](https://www.nature.com/articles/s41598-025-21787-9)]
+- Early Breast Cancer Recurrence [[paper](https://www.nature.com/articles/s41598-025-16679-x)]
+
+**European Journal of Cancer**
+- PARP Benefit Prediction [[paper](https://www.sciencedirect.com/science/article/pii/S0959804924018069)]
 
 ### 2024
 
 **Nature Medicine**
 - A visual-language foundation model for computational pathology [[paper](https://www.nature.com/articles/s41591-024-02856-4)]
+- UNI [[paper](https://www.nature.com/articles/s41591-024-02857-3)]
+- Virchow [[paper](https://www.nature.com/articles/s41591-024-03141-0)]
 
 **Scientific Data**
 - LungHist700: A dataset of histological images for deep learning in pulmonary pathology [[paper](https://www.nature.com/articles/s41597-024-03944-3)]
+- BMT [[paper](https://www.nature.com/articles/s41597-024-04328-3)]
 
 **Scientific Reports**
 - A self-supervised framework for cross-modal search in histopathology archives using scale harmonization [[paper](https://www.nature.com/articles/s41598-024-60256-7)]
@@ -479,24 +624,42 @@ The following venues were included in the collection and screening scope. Some v
 - CPLIP: Zero-Shot Learning for Histopathology with Comprehensive Vision-Language Alignment [[paper](https://ieeexplore.ieee.org/document/10655627/)]
 - Dynamic Graph Representation with Knowledge-Aware Attention for Histopathology Whole Slide Image Analysis [[paper](https://ieeexplore.ieee.org/document/10658067/)]
 - Quilt-LLaVA: Visual Instruction Tuning by Extracting Localized Narratives from Open-Source Histopathology Videos [[paper](https://ieeexplore.ieee.org/document/10656199/)]
+- WiKG [[paper](https://arxiv.org/abs/2403.07719)][[code](https://github.com/WonderLandxD/WiKG)]
+- RRT-MIL [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Tang_Feature_Re-Embedding_Towards_Foundation_Model-Level_Performance_in_Computational_Pathology_CVPR_2024_paper.html)][[code](https://github.com/DearCaat/RRT-MIL)]
+- ViLa-MIL [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Shi_ViLa-MIL_Dual-scale_Vision-Language_Multiple_Instance_Learning_for_Whole_Slide_Image_CVPR_2024_paper.html)][[code](https://github.com/Jiangbo-Shi/ViLa-MIL)]
+- SI-MIL [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Bhattacharya_SI-MIL_Taming_Deep_MIL_for_Self-Interpretability_in_Gigapixel_Histopathology_CVPR_2024_paper.html)][[code](https://github.com/bmi-imaginelab/SI-MIL)]
+- FG-VSI [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Li_Generalizable_Whole_Slide_Image_Classification_with_Fine-Grained_Visual-Semantic_Interaction_CVPR_2024_paper.html)]
+- PANTHER [[paper](https://arxiv.org/abs/2405.11643)][[code](https://github.com/mahmoodlab/PANTHER)]
+- TANGLE [[paper](https://arxiv.org/abs/2405.11618)][[code](https://github.com/mahmoodlab/TANGLE)]
+- SurvPath [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Shao_Modeling_Dense_Multimodal_Interactions_Between_Biological_Pathways_and_Histology_for_CVPR_2024_paper.html)][[code](https://github.com/mahmoodlab/SurvPath)]
+- CPLIP [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Javed_CPLIP_Zero-Shot_Learning_for_Histopathology_with_Comprehensive_Vision-Language_Alignment_CVPR_2024_paper.html)][[website](https://cplip.github.io/)]
+- Quilt-LLaVA [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Seyfioglu_Quilt-LLaVA_Visual_Instruction_Tuning_by_Extracting_Localized_Narratives_from_Open-Source_CVPR_2024_paper.html)][[code](https://github.com/aldraus/quilt-llava)]
 
 **NeurIPS 2024**
 - Free Lunch in Pathology Foundation Model: Task-specific Model Adaptation with Concept-Guided Feature Enhancement [[paper](https://openreview.net/forum?id=dwYekpbmYG)]
+- LongMIL [[paper](https://arxiv.org/abs/2410.14195)][[code](https://github.com/invoker-LL/Long-MIL)]
 
 **MICCAI 2024**
 - HistGen: Histopathology Report Generation via Local-Global Feature Encoding and Cross-Modal Context Interaction [[paper](https://link.springer.com/10.1007/978-3-031-72083-3_18)]
 - HistoSyn: Histomorphology-Focused Pathology Image Synthesis [[paper](https://link.springer.com/10.1007/978-3-031-72083-3_19)]
 - WsiCaption: Multiple Instance Generation of Pathology Reports for Gigapixel Whole-Slide Images [[paper](https://link.springer.com/10.1007/978-3-031-72083-3_51)]
+- RetMIL [[paper](https://papers.miccai.org/miccai-2024/657-Paper1723.html)][[code](https://github.com/Hongbo-Chu/RetMIL)]
+- MambaMIL [[paper](https://arxiv.org/abs/2403.06800)][[code](https://github.com/isyangshu/MambaMIL)]
+- HistGen [[paper](https://papers.miccai.org/miccai-2024/387-Paper0796.html)][[code](https://github.com/dddavid4real/HistGen)]
+- PathM3 [[paper](https://papers.miccai.org/miccai-2024/593-Paper3991.html)]
 
 **MIDL 2024**
 - HoVer-NeXt: A Fast Nuclei Segmentation and Classification Pipeline for Next Generation Histopathology [[paper](https://proceedings.mlr.press/v250/baumann24a.html)]
 - Model-based Cleaning of the QUILT-1M Pathology Dataset for Text-Conditional Image Synthesis [[paper](https://openreview.net/forum?id=m7wYKrUjzV)]
+- EVA [[paper](https://openreview.net/forum?id=FNBQOPj18N)][[code](https://github.com/kaiko-ai/eva)]
+- PathAlign [[paper](https://proceedings.mlr.press/v254/ahmed24a.html)]
 
 **AAAI 2024**
 - PathAsst: A Generative Foundation AI Assistant towards Artificial General Intelligence of Pathology [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/28308)]
 
 **WACV 2024**
 - PathLDM: Text conditioned Latent Diffusion Model for Histopathology [[paper](https://ieeexplore.ieee.org/document/10483856/)]
+- PathLDM [[paper](https://arxiv.org/abs/2309.00748)][[code](https://github.com/cvlab-stonybrook/PathLDM)]
 
 **arXiv**
 - Comparative Analysis of Diffusion Generative Models in Computational Pathology [[paper](https://arxiv.org/abs/2411.15719)]
@@ -504,42 +667,484 @@ The following venues were included in the collection and screening scope. Some v
 - Multimodal Cross-Task Interaction for Survival Analysis in Whole Slide Pathological Images [[paper](https://arxiv.org/abs/2406.17225)]
 - PathGen-1.6M: 1.6 Million Pathology Image-Text Pairs Generation through Multi-Agent Collaboration [[paper](https://arxiv.org/abs/2407.00203)]
 - PathMMU: A Massive Multimodal Expert-Level Benchmark for Understanding and Reasoning in Pathology [[paper](https://arxiv.org/abs/2401.16355)]
+- HMIL [[paper](https://arxiv.org/abs/2411.07660)][[code](https://github.com/ChengJin-git/HMIL)]
+- FedMM [[paper](https://arxiv.org/abs/2402.15858)]
+- Virchow2 [[paper](https://arxiv.org/abs/2408.00738)]
+- Phikon-v2 [[paper](https://arxiv.org/abs/2409.09173)]
+- Hibou [[paper](https://arxiv.org/abs/2406.05074)]
+- kaiko Pathology FMs [[paper](https://arxiv.org/abs/2404.15217)]
+- PLUTO [[paper](https://arxiv.org/abs/2405.07905)]
+- PRISM [[paper](https://arxiv.org/abs/2405.10254)]
+- STRIDE [[paper](https://arxiv.org/abs/2407.19512)]
+- StainFuser [[paper](https://arxiv.org/abs/2403.09302)][[code](https://github.com/R-J96/stainFuser)]
+- Multi-target StainNorm [[paper](https://arxiv.org/abs/2406.02077)]
+- Histo-Diffusion [[paper](https://arxiv.org/abs/2408.15218)][[code](https://github.com/zhexu1997/I2I-Generation)]
+- Dr-LLaVA [[paper](https://arxiv.org/abs/2405.19567)][[code](https://github.com/AlaaLab/Dr-LLaVA)]
+- PathInsight [[paper](https://arxiv.org/abs/2408.07037)]
+- UniCell [[paper](https://arxiv.org/abs/2402.12938)][[code](https://github.com/lhaof/UniCell)]
+- AWGUNET [[paper](https://arxiv.org/abs/2406.08425)][[code](https://github.com/AyushRoy2001/AWGUNET)]
+- LKCell [[paper](https://arxiv.org/abs/2407.18054)][[code](https://github.com/hustvl/LKCell)]
+- SAM2-PATH [[paper](https://arxiv.org/abs/2408.03651)][[code](https://github.com/simzhangbest/SAM2PATH)]
+- CISCA [[paper](https://arxiv.org/abs/2409.04175)]
+- HisynSeg [[paper](https://arxiv.org/abs/2412.20924)][[code](https://github.com/Vison307/HisynSeg)]
+- DeeperHistReg [[paper](https://arxiv.org/abs/2404.14434)][[code](https://github.com/MWod/DeeperHistReg)]
 
 **bioRxiv**
 - <i>ROSIE</i> : AI generation of multiplex immunofluorescence staining from histopathology images [[paper](http://biorxiv.org/lookup/doi/10.1101/2024.11.10.622859)]
+- THItoGene [[paper](https://www.biorxiv.org/content/10.1101/2024.01.25.577035v1)][[code](https://github.com/yrjia1015/THItoGene)]
 
 **Nature**
 - A multimodal generative AI copilot for human pathology [[paper](https://www.nature.com/articles/s41586-024-07618-3)]
+- Prov-GigaPath [[paper](https://www.nature.com/articles/s41586-024-07441-w)]
+- CHIEF [[paper](https://www.nature.com/articles/s41586-024-07894-z)][[code](https://github.com/hms-dbmi/CHIEF)]
 
+**Annual Review of Cancer Biology**
+- Applications of Digital Pathology in Cancer [[paper](https://www.annualreviews.org/content/journals/10.1146/annurev-cancerbio-062822-010523)]
+
+**Annual Review of Pathology**
+- Explainable AI for Precision Pathology [[paper](https://www.annualreviews.org/content/journals/10.1146/annurev-pathmechdis-051222-113147)]
+
+**npj Digital Medicine**
+- AI in Digital Pathology: Diagnostic Meta-analysis [[paper](https://www.nature.com/articles/s41746-024-01106-8)]
+
+**The Lancet Digital Health**
+- Pathology in the Era of Generative AI [[paper](https://www.thelancet.com/journals/landig/article/PIIS2589-7500%2824%2900157-2/fulltext)]
+
+**ICLR 2024**
+- CA-MIL [[paper](https://openreview.net/forum?id=rzBskAEmoc)][[code](https://github.com/olgarithmics/ICLR_CAMIL)]
+
+**ECCV 2024**
+- AC-MIL [[paper](https://arxiv.org/abs/2403.05351)][[code](https://github.com/dazhangyu123/ACMIL)]
+- cDP-MIL [[paper](https://arxiv.org/abs/2407.11448)][[code](https://github.com/HKU-MedAI/cDPMIL)]
+- DGR-MIL [[paper](https://arxiv.org/abs/2407.03575)][[code](https://github.com/ChongQingNoSubway/DGR-MIL)]
+- MADELEINE [[paper](https://link.springer.com/chapter/10.1007/978-3-031-73414-4_2)]
+- WSI-VQA [[paper](https://arxiv.org/abs/2407.05603)][[code](https://github.com/cpystan/WSI-VQA)]
+
+**ACM MM 2024**
+- AMD-MIL [[paper](https://arxiv.org/abs/2409.11664)][[code](https://github.com/sigsminx/AMD-MIL)]
+- SAM-MIL [[paper](https://dl.acm.org/doi/10.1145/3664647.3681534)][[code](https://github.com/FangHeng/SAM-MIL)]
+
+**IEEE Transactions on Medical Imaging**
+- PseMix [[paper](https://arxiv.org/abs/2306.16180)][[code](https://github.com/liupei101/PseMix)]
+- HiCervix [[paper](https://pubmed.ncbi.nlm.nih.gov/38923481/)][[code](https://github.com/Scu-sen/HiCervix)]
+
+**Computational and Structural Biotechnology Journal**
+- CPath-FL Review [[paper](https://www.sciencedirect.com/science/article/pii/S200103702400357X)]
+
+**Neurocomputing**
+- Cervical Cytology Deep Learning Review [[paper](https://www.sciencedirect.com/science/article/pii/S0925231224014012)]
+
+**Medical Image Analysis**
+- LESS [[paper](https://www.sciencedirect.com/science/article/pii/S1361841524000343)][[code](https://github.com/ubc-tea/LESS-WSI)]
+- CellViT [[paper](https://www.sciencedirect.com/science/article/pii/S1361841524000689)][[code](https://github.com/TIO-IKIM/CellViT)]
+- ACROBAT [[paper](https://www.sciencedirect.com/science/article/pii/S1361841524001828)][[dataset](https://acrobat.grand-challenge.org/)]
+
+**Nature Communications**
+- AICCS [[paper](https://www.nature.com/articles/s41467-024-48705-3)][[code](https://github.com/cellsvision/AICCS)]
+- PathoRiCH [[paper](https://www.nature.com/articles/s41467-024-48667-6)][[code](https://github.com/dmmoon/PathoRICH)]
+
+**IEEE Transactions on Artificial Intelligence**
+- Patch-to-Sample Reasoning [[paper](https://www.computer.org/csdl/journal/ai/2024/06/10285382/1Rd2FdKWJHO)]
+
+**Nature Methods**
+- BLEEP [[paper](https://www.nature.com/articles/s41592-024-02318-8)][[code](https://github.com/bowang-lab/BLEEP)]
+
+**Bioinformatics**
+- HE2Gene [[paper](https://academic.oup.com/bioinformatics/article/40/6/btae343/7688334)][[code](https://github.com/Microbiods/HE2Gene)]
+
+**Briefings in Bioinformatics**
+- HGGEP [[paper](https://academic.oup.com/bib/article/25/6/bbae500/7821151)][[code](https://github.com/QSong-github/HGGEP)]
+
+**ICML 2024**
+- MMP [[paper](https://proceedings.mlr.press/v235/song24b.html)][[code](https://github.com/mahmoodlab/MMP)]
+
+**MLMI 2024**
+- VIMs [[paper](https://arxiv.org/abs/2407.19113)]
+
+**INTERSPEECH 2024**
+- TM-PATHVQA [[paper](https://www.isca-archive.org/interspeech_2024/rajkhowa24_interspeech.html)]
+
+**ML4H 2024**
+- Path-RAG [[paper](https://arxiv.org/abs/2411.17073)]
+
+**Breast Cancer Research and Treatment**
+- Breast TP53 Prediction [[paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC11638532/)]
+
+**Journal of Clinical Oncology**
+- DeepHRD [[paper](https://ascopubs.org/doi/10.1200/JCO.23.02641)][[code](https://github.com/AlexandrovLab/DeepHRD)]
+
+**Computer Methods and Programs in Biomedicine**
+- RegWSI [[paper](https://dl.acm.org/doi/10.1016/j.cmpb.2024.108187)]
 
 ### 2023
 
 **NeurIPS 2023**
 - Quilt-1M: One Million Image-Text Pairs for Histopathology [[paper](https://proceedings.neurips.cc/paper_files/paper/2023/hash/775ec578876fa6812c062644964b9870-Abstract-Datasets_and_Benchmarks.html)]
+- Phikon [[paper](https://arxiv.org/abs/2309.16864)]
+- DiffInfinite [[paper](https://arxiv.org/abs/2306.13384)][[code](https://github.com/marcoaversa/diffinfinite)]
+- Quilt-1M / QuiltNet [[paper](https://openreview.net/forum?id=OL2JQoO0kq)][[website](https://quilt1m.github.io/)]
 
 **IJCAI 2023**
 - Diagnose Like a Pathologist: Transformer-Enabled Hierarchical Attention-Guided Multiple Instance Learning for Whole Slide Image Classification [[paper](https://www.ijcai.org/proceedings/2023/176)]
 
+**Annual Review of Cancer Biology**
+- AI in Computational Pathology of Cancer [[paper](https://www.annualreviews.org/content/journals/10.1146/annurev-cancerbio-061521-092038)]
+
+**EBioMedicine**
+- Computational Pathology in 2030 [[paper](https://www.thelancet.com/journals/ebiom/article/PIIS2352-3964%2822%2900609-0/fulltext)]
+
+**Nature Reviews Bioengineering**
+- AI for Digital and Computational Pathology [[paper](https://www.nature.com/articles/s44222-023-00096-8)]
+
+**CVPR 2023**
+- OCELOT [[paper](https://openaccess.thecvf.com/content/CVPR2023/html/Ryu_OCELOT_Overlapping_Cell_on_Tissue_Dataset_for_Histopathology_CVPR_2023_paper.html)][[code](https://github.com/lunit-io/ocelot-benchmark)]
+- Benchmarking SSL on Pathology [[paper](https://openaccess.thecvf.com/content/CVPR2023/html/Kang_Benchmarking_Self-Supervised_Learning_on_Diverse_Pathology_Datasets_CVPR_2023_paper.html)][[code](https://github.com/lunit-io/benchmark-ssl-pathology)]
+- MI-Zero [[paper](https://openaccess.thecvf.com/content/CVPR2023/html/Lu_Visual_Language_Pretrained_Multiple_Instance_Zero-Shot_Transfer_for_Histopathology_Images_CVPR_2023_paper.html)][[code](https://github.com/mahmoodlab/MI-Zero)]
+
+**ICCV 2023**
+- MHIM-MIL [[paper](https://arxiv.org/abs/2307.15254)][[code](https://github.com/DearCaat/MHIM-MIL)]
+- LNPL-MIL [[paper](https://openaccess.thecvf.com/content/ICCV2023/html/Shao_LNPL-MIL_Learning_from_Noisy_Pseudo_Labels_for_Promoting_Multiple_Instance_ICCV_2023_paper.html)]
+- MILBooster [[paper](https://openaccess.thecvf.com/content/ICCV2023/html/Qu_Boosting_Whole_Slide_Image_Classification_from_the_Perspectives_of_Distribution_ICCV_2023_paper.html)]
+- MOTCat [[paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Xu_Multimodal_Optimal_Transport-based_Co-Attention_Transformer_with_Global_Structure_Consistency_for_ICCV_2023_paper.pdf)][[code](https://github.com/Innse/MOTCat)]
+
+**ICLR 2023**
+- ILRA-MIL [[paper](https://openreview.net/forum?id=8hH4Q3f8c2)][[code](https://github.com/lingxitong/MIL_BASELINE)]
+
+**MICCAI 2023**
+- PromptMIL [[paper](https://arxiv.org/abs/2303.03362)][[code](https://github.com/Zhenghui-Wu/PromptMIL)]
+- S4MIL [[paper](https://conferences.miccai.org/2023/papers/622-Paper3313.html)][[code](https://github.com/MICS-Lab/s4_digital_pathology)]
+- Robust Cervical Detection [[paper](https://conferences.miccai.org/2023/papers/552-Paper2082.html)][[code](https://github.com/feimanman/Cervical-Abnormal-Cell-Detection)]
+- CellGAN [[paper](https://doi.org/10.1007/978-3-031-43987-2_47)][[code](https://github.com/ZhenrongShen/CellGAN)]
+- Detection-Free Pipeline [[paper](https://dl.acm.org/doi/10.1007/978-3-031-43987-2_24)][[code](https://github.com/thebestannie/Detection-free-MICCAI2023)]
+- PathOmics [[paper](https://conferences.miccai.org/2023/papers/485-Paper1847.html)][[code](https://github.com/Cassie07/PathOmics)]
+
+**Medical Image Analysis**
+- RetCCL [[paper](https://www.sciencedirect.com/science/article/abs/pii/S1361841522002730)]
+- Computational Cytology Survey [[paper](https://www.sciencedirect.com/science/article/pii/S136184152200319X)]
+
+**Nature Medicine**
+- PLIP [[paper](https://www.nature.com/articles/s41591-023-02504-3)]
+
+**arXiv**
+- PathoDuet [[paper](https://arxiv.org/abs/2312.09894)][[code](https://github.com/openmedlab/pathoduet)]
+- SAM-Path [[paper](https://arxiv.org/abs/2307.09570)][[code](https://github.com/cvlab-stonybrook/SAMPath)]
+- Slideflow [[paper](https://arxiv.org/abs/2304.04142)][[code](https://github.com/slideflow/slideflow)]
+
+**Cell Systems**
+- TESLA [[paper](https://www.cell.com/cell-systems/fulltext/S2405-4712(23)00084-4)][[code](https://github.com/jianhuupenn/TESLA)]
+
+**Computers in Biology and Medicine**
+- ScoreDiff StainNorm [[paper](https://pubmed.ncbi.nlm.nih.gov/36473344/)]
+
+**IEEE Journal of Biomedical and Health Informatics**
+- K-PathVQA [[paper](https://ieeexplore.ieee.org/document/10177791)]
+
+**Modern Pathology**
+- Breast LN Metastasis Workflow [[paper](https://pubmed.ncbi.nlm.nih.gov/37178923/)]
+
+**Journal of Pathology Informatics**
+- CGNReg [[paper](https://www.sciencedirect.com/science/article/pii/S2153353923001256)]
+- WSIMIR [[paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC10527458/)][[code](https://github.com/AstroPathJHU/WSIMIR)]
+
+**Nature Communications**
+- Valis [[paper](https://www.nature.com/articles/s41467-023-40218-9)][[website](https://valis.readthedocs.io/en/latest/index.html)][[code](https://github.com/MathOnco/valis)]
+- STalign [[paper](https://www.nature.com/articles/s41467-023-43915-7)][[code](https://github.com/JEFworks-Lab/STalign)]
 
 ### 2022
 
 **arXiv**
 - Inference of captions from histopathological patches [[paper](https://arxiv.org/abs/2202.03432)]
+- MultiPathGAN [[paper](https://arxiv.org/abs/2204.09782)][[code](https://github.com/mlandcv/MultiPathGAN)]
+- HistoSeg [[paper](https://arxiv.org/abs/2209.00729)][[code](https://github.com/saadwazir/HistoSeg)]
 
+**Modern Pathology**
+- Digital Pathology in Translational Medicine [[paper](https://www.nature.com/articles/s41379-021-00919-2)]
+
+**Scientific Data**
+- BRACS [[paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC9575967/)][[code](https://github.com/histocartography/hact-net)]
+- OV-Bevacizumab [[paper](https://www.nature.com/articles/s41597-022-01127-6)]
+- EBHI-Seg [[paper](https://www.nature.com/articles/s41597-022-01435-y)][[dataset](https://figshare.com/articles/dataset/EBHI-Seg/19602495)]
+
+**Medical Image Analysis**
+- CoNIC [[paper](https://www.sciencedirect.com/science/article/pii/S1361841522000755)][[dataset](https://zenodo.org/record/6559981)]
+- HEROHE [[paper](https://www.sciencedirect.com/science/article/pii/S1361841521002369)][[dataset](https://herohe.inesctec.pt/)]
+- DigestPath [[paper](https://www.sciencedirect.com/science/article/pii/S1361841521003571)][[dataset](https://digestpath2019.grand-challenge.org/)]
+- HistoFL [[paper](https://www.sciencedirect.com/science/article/pii/S1361841521003431)][[code](https://github.com/mahmoodlab/HistoFL)]
+- CTransPath [[paper](https://www.sciencedirect.com/science/article/abs/pii/S1361841522002043)]
+- MPS [[paper](https://www.sciencedirect.com/science/article/pii/S1361841522001347)][[code](https://github.com/ChuHan89/WSSS-Tissue)]
+
+**CVPR 2022**
+- BCI [[paper](https://openaccess.thecvf.com/content/CVPR2022/html/Liu_Translating_From_HE_to_IHC_A_New_Trajectory_for_Translational_CVPR_2022_paper.html)][[code](https://github.com/bupt-ai-cz/BCI)]
+- HIPT [[paper](https://openaccess.thecvf.com/content/CVPR2022/html/Chen_Scaling_Vision_Transformers_to_Gigapixel_Images_via_Hierarchical_Self-Supervised_Learning_CVPR_2022_paper.html)][[code](https://github.com/mahmoodlab/HIPT)]
+- DTFD-MIL [[paper](https://openaccess.thecvf.com/content/CVPR2022/html/Zhang_DTFD-MIL_Double-Tier_Feature_Distillation_Multiple_Instance_Learning_for_Histopathology_Whole_CVPR_2022_paper.html)][[code](https://github.com/hrzhang1123/DTFD-MIL)]
+- IBMIL [[paper](https://openaccess.thecvf.com/content/CVPR2022/html/Lin_Interventional_Multi-Instance_Learning_with_Deconfounded_Instance-Level_Prediction_CVPR_2022_paper.html)][[code](https://github.com/TencentAILabHealthcare/IBMIL)]
+
+**ECCV 2022**
+- ZoomMIL [[paper](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136810689.pdf)][[code](https://github.com/histocartography/zoommil)]
+
+**IEEE Transactions on Medical Imaging**
+- GTP [[paper](https://ieeexplore.ieee.org/document/9779215)][[code](https://github.com/vkola-lab/tmi2022)]
+- TDCC-Net [[paper](https://ieeexplore.ieee.org/document/9744114)]
+
+**MICCAI 2022**
+- FedStain [[paper](https://link.springer.com/chapter/10.1007/978-3-031-16434-7_2)][[code](https://github.com/MECLabTUDA/BottleGAN)]
+- OEEM [[paper](https://arxiv.org/abs/2206.06665)][[code](https://github.com/xmed-lab/OEEM)]
+
+**NeurIPS 2022**
+- FLamby [[paper](https://proceedings.neurips.cc/paper_files/paper/2022/hash/5e637100c63800cc078ad0da3d1697e9-Abstract-Datasets_and_Benchmarks.html)][[code](https://github.com/owkin/FLamby)]
+
+**Journal of Pathology Informatics**
+- WSI-FL Tool [[paper](https://www.sciencedirect.com/science/article/pii/S2153353922006952)][[code](https://github.com/SarderLab/federated_learning)]
+
+**IEEE Journal of Biomedical and Health Informatics**
+- Multi-Task Feature Fusion [[paper](https://pubmed.ncbi.nlm.nih.gov/35671309/)]
+- TraP-VQA [[paper](https://ieeexplore.ieee.org/document/9733299)]
+
+**GigaScience**
+- NuCLS [[paper](https://academic.oup.com/gigascience/article/doi/10.1093/gigascience/giac037/6586817)][[dataset](https://sites.google.com/view/nucls/home)]
+
+**Briefings in Bioinformatics**
+- Hist2ST [[paper](https://academic.oup.com/bib/article/23/5/bbac297/6645485)][[code](https://github.com/biomed-AI/Hist2ST)]
+
+**Scientific Reports**
+- DeepSpaCE [[paper](https://doi.org/10.1038/s41598-022-07685-4)][[code](https://github.com/tmonjo/DeepSpaCE)]
+
+**Cell Reports Medicine**
+- PathomicFusion [[paper](https://www.sciencedirect.com/science/article/pii/S2666379122003171)][[code](https://github.com/mahmoodlab/PathomicFusion)]
+
+**Cancer Cell**
+- PORPOISE [[paper](https://doi.org/10.1016/j.ccell.2022.07.004)][[code](https://github.com/mahmoodlab/PORPOISE)]
+
+**Nature Medicine**
+- Prostate Diagnosis & Grading [[paper](https://www.nature.com/articles/s41591-021-01620-2)]
+
+**Bioinformatics**
+- ASHLAR [[paper](https://academic.oup.com/bioinformatics/article/38/19/4613/6668278)][[website](https://labsyspharm.github.io/ashlar/)][[code](https://github.com/labsyspharm/ashlar)]
+
+**Nature Machine Intelligence**
+- DeepLIIF [[paper](https://www.nature.com/articles/s42256-022-00471-x.epdf?sharing_token=TfIQdFzqGrYolrSS_NyOJtRgN0jAjWel9jnR3ZoTv0P90KdmGq_lkIuepQpaAnx9M_HMX0dkqP8OF91EhA0P9AAsgUeGoCtaqab2DQMx50ft_LVCW8JvZUJ-qQxqZjpYLSzzUo00YLH8PJ-XBckUsuikhsZl8LQ1us1rXPrAWKE%3D)][[code](https://github.com/nadeemlab/DeepLIIF)]
+
+**Communications Medicine**
+- TIAToolbox [[paper](https://www.nature.com/articles/s43856-022-00186-5)][[code](https://github.com/TissueImageAnalytics/tiatoolbox)]
+
+**Journal of the American Medical Informatics Association**
+- PathML [[paper](https://pubmed.ncbi.nlm.nih.gov/34880124/)][[code](https://github.com/Dana-Farber-AIOS/pathml)]
+
+**SoftwareX**
+- histolab [[paper](https://www.sciencedirect.com/science/article/pii/S2352711022001558)][[code](https://github.com/histolab/histolab)]
 
 ### 2021
 
 **AAAI 2021**
 - Diagnose Like A Pathologist: Weakly-Supervised Pathologist-Tree Network for Slide-Level Immunohistochemical Scoring [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/16076)]
 
+**Laboratory Investigation**
+- Artificial Intelligence and Computational Pathology [[paper](https://www.nature.com/articles/s41374-020-00514-0)]
+
+**IEEE Transactions on Medical Imaging**
+- MoNuSAC2020 [[paper](https://ieeexplore.ieee.org/document/9446924)][[dataset](https://monusac-2020.grand-challenge.org/)]
+
+**ICCV 2021**
+- Lizard [[paper](https://openaccess.thecvf.com/content/ICCV2021/html/Graham_Lizard_A_Large-Scale_Dataset_for_Colonic_Nuclear_Instance_Segmentation_and_Classification_ICCV_2021_paper.html)]
+- ReMix [[paper](https://openaccess.thecvf.com/content/ICCV2021/html/Yang_ReMix_Towards_Image_Mixup_for_Whole_Slide_Image_Classification_ICCV_2021_paper.html)][[code](https://github.com/Jiawei-Yang/ReMix)]
+
+**Medical Image Analysis**
+- PAIP [[paper](https://www.sciencedirect.com/science/article/pii/S1361841521000577)][[dataset](https://paip2019.grand-challenge.org/)]
+- Residual CycleGAN [[paper](https://doi.org/10.1016/j.media.2021.102108)][[code](https://github.com/computationalpathologygroup/pathology-cyclegan-stain-transformation)]
+- CAGAN [[paper](https://doi.org/10.1016/j.media.2021.102204)][[code](https://github.com/thomascong121/CAGAN_Stain_Norm)]
+
+**Nature Methods**
+- TissueNet [[paper](https://www.nature.com/articles/s41592-021-01249-6)][[dataset](https://datasets.deepcell.org/)]
+- Cellpose [[paper](https://www.nature.com/articles/s41592-020-01018-x)][[code](https://github.com/MouseLand/cellpose)]
+- SpaGCN [[paper](https://www.nature.com/articles/s41592-021-01255-8)][[code](https://github.com/jianhuupenn/SpaGCN)]
+
+**Nature Biomedical Engineering**
+- CLAM [[paper](https://www.nature.com/articles/s41551-020-00682-w)][[code](https://github.com/mahmoodlab/CLAM)]
+
+**CVPR 2021**
+- DSMIL [[paper](https://arxiv.org/abs/2011.08939)][[code](https://github.com/binli123/dsmil-wsi)]
+
+**MICCAI 2021**
+- Patch-GCN [[paper](https://arxiv.org/abs/2107.13048)][[code](https://github.com/mahmoodlab/Patch-GCN)]
+- DT-MIL [[paper](https://link.springer.com/chapter/10.1007/978-3-030-87240-3_34)][[code](https://github.com/yfzon/DT-MIL)]
+- MCAT [[paper](https://link.springer.com/chapter/10.1007/978-3-030-87240-3_67)][[code](https://github.com/mahmoodlab/mcat)]
+- PCGAN [[paper](https://arxiv.org/abs/2104.09462)][[code](https://github.com/Pathology-Consistent-Stain-Transfer/Unpaired-Stain-Transfer-using-Pathology-Consistent-Constrained-Generative-Adversarial-Networks)]
+- HistAuGAN [[paper](https://miccai2021.org/openaccess/paperlinks/2021/09/01/456-Paper1521.html)][[code](https://github.com/sophiajw/HistAuGAN)]
+
+**COMPAY 2021**
+- SparseConvMIL [[paper](https://proceedings.mlr.press/v156/lerousseau21a.html)][[code](https://github.com/MarvinLer/SparseConvMIL)]
+
+**NeurIPS 2021**
+- TransMIL [[paper](https://proceedings.neurips.cc/paper/2021/hash/10c272d06794d3e5785d5e7c5356e9ff-Abstract.html)][[code](https://github.com/szc19990412/TransMIL)]
+
+**Neurocomputing**
+- Comparison Detector [[paper](https://www.sciencedirect.com/science/article/abs/pii/S092523122100014X)][[code](https://github.com/kuku-sichuan/ComparisonDetector)]
+
+**Nature Communications**
+- AIATBS [[paper](https://www.nature.com/articles/s41467-021-23913-3)]
+- Cervical WSI Screening [[paper](https://www.nature.com/articles/s41467-021-25296-x)][[code](https://github.com/ShenghuaCheng/Aided-Diagnosis-System-for-Cervical-Cancer-Screening)]
+
+**Nature Biotechnology**
+- Mesmer [[paper](https://www.nature.com/articles/s41587-021-01094-0)][[code](https://github.com/vanvalenlab/deepcell-tf)]
+- XFuse [[paper](https://doi.org/10.1038/s41587-021-01075-3)][[code](https://github.com/ludvb/xfuse)]
+
+**ECCV Workshop 2021**
+- PanNuke [[paper](https://arxiv.org/abs/2003.10778)][[dataset](https://jgamper.github.io/PanNukeDataset/)]
+
+**bioRxiv**
+- HisToGene [[paper](https://www.biorxiv.org/content/10.1101/2021.11.28.470212)][[code](https://github.com/maxpmx/HisToGene)]
+
+**arXiv**
+- PointNu-Net [[paper](https://arxiv.org/abs/2111.01557)][[code](https://github.com/Kaiseem/PointNu-Net)]
+
+**IEEE Journal of Biomedical and Health Informatics**
+- Self-learning Gleason Grading [[paper](https://ieeexplore.ieee.org/document/9361085)][[code](https://github.com/jusiro/mil_histology)]
+
+**Modern Pathology**
+- AI-assisted Gleason Grading [[paper](https://www.nature.com/articles/s41379-020-0640-y)]
+
+**Scientific Reports**
+- Ovarian Platinum Response [[paper](https://www.nature.com/articles/s41598-021-98480-0)]
+- Breast IDC Classification [[paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC8582388/)]
+
+**Nature**
+- TOAD [[paper](https://www.nature.com/articles/s41586-021-03512-4)][[code](https://github.com/mahmoodlab/TOAD)]
+
+**Bioinformatics**
+- GridNet [[paper](https://academic.oup.com/bioinformatics/article/37/22/4216/6299384)][[code](https://github.com/flatironinstitute/st_gridnet)]
 
 ### 2020
 
 **IEEE Transactions on Medical Imaging**
 - PathSRGAN: Multi-Supervised Super-Resolution for Cytopathological Images Using Generative Adversarial Network [[paper](https://ieeexplore.ieee.org/document/9036984/)]
+- MoNuSeg [[paper](https://ieeexplore.ieee.org/document/8880654)][[dataset](https://monuseg.grand-challenge.org/)]
+- ANHIR [[paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC7584382/)][[dataset](https://anhir.grand-challenge.org/)]
 
+**Nature Reviews Nephrology**
+- Digital Pathology in Nephropathology [[paper](https://www.nature.com/articles/s41581-020-0321-6)]
+
+**IEEE Journal of Biomedical and Health Informatics**
+- SICAPv2 [[paper](https://ieeexplore.ieee.org/document/9144365)][[dataset](https://data.mendeley.com/datasets/9xxm58dvs3/1)]
+
+**ECCV 2020**
+- UniToPatho [[paper](https://arxiv.org/abs/2009.00650)][[dataset](https://zenodo.org/record/3934241)]
+
+**medRxiv**
+- NADT-Prostate [[paper](https://www.medrxiv.org/content/10.1101/2020.09.29.20199711v1)]
+
+**Medical Image Analysis**
+- DeepAttnMISL [[paper](https://www.sciencedirect.com/science/article/pii/S1361841520301535)][[code](https://github.com/uta-smile/DeepAttnMISL)]
+
+**Bioinformatics**
+- SpaCell [[paper](https://academic.oup.com/bioinformatics/article/36/7/2293/5663455)][[code](https://github.com/BiomedicalMachineLearning/SpaCell)]
+
+**Nature Communications**
+- HE2RNA [[paper](https://www.nature.com/articles/s41467-020-17678-4)][[code](https://github.com/owkin/HE2RNA_code)]
+
+**Nature Biomedical Engineering**
+- ST-Net [[paper](https://www.nature.com/articles/s41551-020-0578-x)][[code](https://github.com/bryanhe/ST-Net)]
+
+**CVPRW 2020**
+- PathVQA [[paper](https://arxiv.org/abs/2003.10286)]
+
+**The Lancet Oncology**
+- AI Prostate Grading [[paper](https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(19)30738-7/fulltext)]
+
+**The Lancet Digital Health**
+- Prostate AI Validation [[paper](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(20)30159-X/fulltext)]
+
+**Nature Cancer**
+- Pan-cancer Genetic Alterations [[paper](https://www.nature.com/articles/s43018-020-0087-6)][[code](https://github.com/jnkather/DeepHistology)]
+
+**bioRxiv**
+- PathFlow-MixMatch [[paper](https://www.biorxiv.org/content/10.1101/2020.03.22.002402.full)][[code](https://github.com/jlevy44/PathFlow-MixMatch)]
+
+### 2019
+
+**The Lancet Oncology**
+- Digital Pathology and Artificial Intelligence [[paper](https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045%2819%2930154-8/abstract)]
+
+**Nature Reviews Clinical Oncology**
+- AI in Digital Pathology for Precision Oncology [[paper](https://www.nature.com/articles/s41571-019-0252-y)]
+
+**The Journal of Pathology**
+- Computational Pathology White Paper [[paper](https://pathsocjournals.onlinelibrary.wiley.com/doi/10.1002/path.5331)]
+
+**Medical Image Analysis**
+- BACH [[paper](https://www.sciencedirect.com/science/article/pii/S1361841518301789)][[dataset](https://iciar2018-challenge.grand-challenge.org/)]
+- HoVer-Net [[paper](https://www.sciencedirect.com/science/article/pii/S1361841519301045)][[code](https://github.com/vqdang/hover_net)]
+
+**Nature Medicine**
+- Clinical-grade WSI [[paper](https://www.nature.com/articles/s41591-019-0508-1)]
+- MSI from H&E [[paper](https://www.nature.com/articles/s41591-019-0462-y)]
+
+**ICCV 2019**
+- CAMEL [[paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Li_Camel_A_Weakly_Supervised_Learning_Framework_for_Histopathology_Image_Segmentation_ICCV_2019_paper.html)]
+
+**ISBI 2019**
+- StainGAN [[paper](https://ieeexplore.ieee.org/document/8759152)][[code](https://github.com/xtarx/StainGAN)]
+
+**arXiv**
+- Virtual Re-staining [[paper](https://arxiv.org/abs/1901.04059)][[code](https://github.com/Zhaoyang-XU/Virtual-Staining)]
+- HistoReg [[paper](https://arxiv.org/abs/1904.11929)][[code](https://github.com/CBICA/HistoReg)]
+
+**PLOS ONE**
+- Re-stained-Regist [[paper](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0220074)][[code](https://github.com/smujiang/Re-stained_WSIs_Registration)]
+
+**JCO Clinical Cancer Informatics**
+- HistoQC [[paper](https://pubmed.ncbi.nlm.nih.gov/30990737/)][[code](https://github.com/choosehappy/HistoQC)]
 
 ### 2018
 
 **JAMA Dermatology**
 - Accuracy of Digital Pathologic Analysis vs Traditional Microscopy in the Interpretation of Melanocytic Lesions [[paper](http://archderm.jamanetwork.com/article.aspx?doi=10.1001/jamadermatol.2018.2388)]
+
+**Journal of Digital Imaging**
+- DICOM WSI [[paper](https://link.springer.com/article/10.1007/s10278-017-0034-3)][[website](https://dicom.nema.org/dicom/dicomwsi/)]
+
+**Cell Reports**
+- TCGA-TIL Maps [[paper](https://www.cell.com/cell-reports/fulltext/S2211-1247(18)31438-5)][[dataset](https://www.cancerimagingarchive.net/analysis-result/til-maps/)]
+
+**arXiv**
+- ABMIL [[paper](https://arxiv.org/abs/1802.04712)][[code](https://github.com/AMLab-Amsterdam/AttentionDeepMIL)]
+
+**ICIP 2018**
+- SIPaKMeD [[paper](https://www.cse.uoi.gr/~cnikou/Publications/C072%20-%20Plissiti%20-%20icip%202018%20-%20Athens.pdf)][[dataset](https://www.kaggle.com/datasets/marinaeplissiti/sipakmed)]
+
+**Nature Medicine**
+- DeepPATH [[paper](https://www.nature.com/articles/s41591-018-0177-5)][[code](https://github.com/ncoudray/DeepPATH)]
+
+### 2017
+
+**Medical Image Analysis**
+- GlaS [[paper](https://www.sciencedirect.com/science/article/pii/S1361841516301736)][[dataset](https://warwick.ac.uk/fac/cross_fac/tia/data/glascontest/)]
+
+**IEEE Journal of Biomedical and Health Informatics**
+- DeepPap [[paper](https://pubmed.ncbi.nlm.nih.gov/28541229/)]
+
+**JAMA**
+- Breast LN Metastasis [[paper](https://jamanetwork.com/journals/jama/fullarticle/2665774)]
+
+**Scientific Reports**
+- Breast Invasion Detection [[paper](https://www.nature.com/articles/srep46450)]
+- QuPath [[paper](https://www.nature.com/articles/s41598-017-17204-5)][[website](https://qupath.github.io/)]
+
+### 2013
+
+**Journal of Pathology Informatics**
+- OpenSlide [[paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC3815078/)][[code](https://github.com/openslide/openslide)]
+
+### 2012
+
+**Nature Methods**
+- CellProfiler [[paper](https://www.nature.com/articles/nmeth.2083)][[code](https://github.com/CellProfiler/CellProfiler)]
+
+### 2011
+
+**Computerized Medical Imaging and Graphics**
+- Computational Pathology: Challenges and Promises [[paper](https://www.sciencedirect.com/science/article/abs/pii/S0895611111000383)]
+
+### 2010
+
+**Nature Methods**
+- Bio-Formats [[paper](https://www.nature.com/articles/nmeth.1426)][[website](https://www.openmicroscopy.org/bio-formats/)]
