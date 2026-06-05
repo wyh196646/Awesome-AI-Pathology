@@ -5,8 +5,8 @@ Awesome AI Pathology papers
 
 - [AI in Pathology](#papers)
 
-## Papers
-### 2026
+# Papers
+## 2026
 
 **Nature Medicine**
 - AI-enabled virtual spatial proteomics from histopathology for interpretable biomarker discovery in lung cancer [[paper](https://www.nature.com/articles/s41591-025-04060-4)]
