@@ -20,6 +20,8 @@ Awesome AI Pathology papers, including top AI conference and journals like CVPR,
 - PRET is a few-shot system for pan-cancer recognition without example training [[paper](https://www.nature.com/articles/s43018-026-01141-2)]
 - The automated computational workflow QUICHE reveals structural definitions of antitumor responses in triple-negative breast cancer [[paper](https://www.nature.com/articles/s43018-026-01122-5)]
 - Temporal and spatial composition of the tumor microenvironment predicts response to immune checkpoint inhibition in metastatic TNBC [[paper](https://www.nature.com/articles/s43018-026-01114-5)]
+- LazySlide: accessible and interoperable whole-slide image analysis [[paper](https://www.nature.com/articles/s41592-026-03044-7)]
+
 
 **Nature Communications**
 - Boosting pathology foundation models via few-shot prompt-tuning for rare cancer subtyping [[paper](https://www.nature.com/articles/s41467-026-71715-2)]
@@ -70,6 +72,25 @@ Awesome AI Pathology papers, including top AI conference and journals like CVPR,
 - FBTA: Enabling Single-GPU End-to-End Gigapixel Whole Slide Image Classification with Feature Bridging and Translation Alignment  [[paper](https://openaccess.thecvf.com/content/CVPR2026/papers/Dong_FBTA_Enabling_Single-GPU_End-to-End_Gigapixel_WSI_Classification_with_Feature_Bridging_CVPR_2026_paper.pdf)]
 - Beyond Pixel Simulation: Pathology Image Generation via Diagnostic Semantic Tokens and Prototype Control [[paper](https://arxiv.org/abs/2512.21058)]
 - Adapting a Pre-trained Single-Cell Foundation Model to Spatial Gene Expression Generation from Histology Images [[paper](https://arxiv.org/abs/2603.19766)]
+- TopoSlide: Topologically-Informed Histopathology Whole Slide Image Representation Learning [[paper](https://openaccess.thecvf.com/content/CVPR2026/html/Abousamra_TopoSlide_Topologically-Informed_Histopathology_Whole_Slide_Image_Representation_Learning_CVPR_2026_paper.html)]
+- Turning Pre-Trained Vision Transformers into End-to-End Histopathology Whole Slide Image Models for Survival Prediction [[paper](https://openaccess.thecvf.com/content/CVPR2026/html/Li_Turning_Pre-Trained_Vision_Transformers_into_End-to-End_Histopathology_Whole_Slide_Image_CVPR_2026_paper.html)]
+- Beyond Pixel Simulation: Pathology Image Generation via Diagnostic Semantic Tokens and Prototype Control [[paper](https://openaccess.thecvf.com/content/CVPR2026/html/Han_Beyond_Pixel_Simulation_Pathology_Image_Generation_via_Diagnostic_Semantic_Tokens_CVPR_2026_paper.html)]
+- Universal-to-Specific Dynamic Knowledge-Guided Multiple Instance Learning for Few-Shot Whole Slide Image Classification [[paper](https://openaccess.thecvf.com/content/CVPR2026/html/Li_Universal-to-Specific_Dynamic_Knowledge-Guided_Multiple_Instance_Learning_for_Few-Shot_Whole_Slide_CVPR_2026_paper.html)]
+- Momentum Memory for Knowledge Distillation in Computational Pathology [[paper](https://openaccess.thecvf.com/content/CVPR2026/html/Guo_Momentum_Memory_for_Knowledge_Distillation_in_Computational_Pathology_CVPR_2026_paper.html)]
+- Act Like a Pathologist: Tissue-Aware Whole Slide Image Reasoning [[paper](https://openaccess.thecvf.com/content/CVPR2026/html/Huang_Act_Like_a_Pathologist_Tissue-Aware_Whole_Slide_Image_Reasoning_CVPR_2026_paper.html)]
+- CARE: A Molecular-Guided Foundation Model with Adaptive Region Modeling for Whole Slide Image Analysis [[paper](https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_CARE_A_Molecular-Guided_Foundation_Model_with_Adaptive_Region_Modeling_for_CVPR_2026_paper.html)]
+- WSI-LLaVA: A Multimodal Large Language Model for Hierarchical Whole Slide Image Understanding [[paper](https://openaccess.thecvf.com/content/CVPR2026/html/Alawode_MLLM-HWSI_A_Multimodal_Large_Language_Model_for_Hierarchical_Whole_Slide_CVPR_2026_paper.html)]
+- URICA: A Uniformity Region Affine Identifier Capture Algorithm for Arbitrary Region Retrieval in Pathology Images [[paper](https://openaccess.thecvf.com/content/CVPR2026/html/Su_URICA_A_Uniformity_Region_Affine_Identifier_Capture_Algorithm_for_Arbitrary_CVPR_2026_paper.html)]
+- From Spots to Pixels: Dense Spatial Gene Expression Prediction from Histology Images [[paper](https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_From_Spots_to_Pixels_Dense_Spatial_Gene_Expression_Prediction_from_CVPR_2026_paper.html)]
+- Dual-Level Hypergraph Generation for Addressing Feature Scarcity in Whole-Slide Image Classification [[paper](https://openaccess.thecvf.com/content/CVPR2026/html/Yao_Dual-Level_Hypergraph_Generation_for_Addressing_Feature_Scarcity_in_Whole-Slide_Image_CVPR_2026_paper.html)]
+- FBTA: Enabling Single-GPU End-to-End Gigapixel WSI Classification with Feature Bridging and Translation Alignment [[paper](https://openaccess.thecvf.com/content/CVPR2026/html/Dong_FBTA_Enabling_Single-GPU_End-to-End_Gigapixel_WSI_Classification_with_Feature_Bridging_CVPR_2026_paper.html)]
+- SAR2Net: Learning Spatially Anchored Representations for Retrieval-Guided Cross-Stain Alignment [[paper](https://openaccess.thecvf.com/content/CVPR2026/html/Shen_SAR2Net_Learning_Spatially_Anchored_Representations_for_Retrieval-Guided_Cross-Stain_Alignment_CVPR_2026_paper.html)]
+- Bridging RGB and Hematoxylin Components: An Interleaved Guidance and Fusion Framework for Point Supervised Nuclei Segmentation [[paper](https://openaccess.thecvf.com/content/CVPR2026/html/Huan_Bridging_RGB_and_Hematoxylin_Components_An_Interleaved_Guidance_and_Fusion_CVPR_2026_paper.html)]
+- MUSE: Harnessing Precise and Diverse Semantics for Few-Shot Whole Slide Image Classification [[paper](https://openaccess.thecvf.com/content/CVPR2026/html/Xu_MUSE_Harnessing_Precise_and_Diverse_Semantics_for_Few-Shot_Whole_Slide_CVPR_2026_paper.html)]
+- H2-Surv: Hierarchical Hyperbolic Multimodal Representation Learning for Survival Prediction [[paper](https://openaccess.thecvf.com/content/CVPR2026/html/Yang_H2-Surv_Hierarchical_Hyperbolic_Multimodal_Representation_Learning_for_Survival_Prediction_CVPR_2026_paper.html)]
+- MuViT: Multi-Resolution Vision Transformers for Learning Across Scales in Microscopy [[paper](https://openaccess.thecvf.com/content/CVPR2026/html/Mantes_MuViT_Multi-Resolution_Vision_Transformers_for_Learning_Across_Scales_in_Microscopy_CVPR_2026_paper.html)]
+- Cell-Type Prototype-Informed Neural Network for Gene Expression Estimation from Pathology Images [[paper](https://openaccess.thecvf.com/content/CVPR2026/html/Nishimura_Cell-Type_Prototype-Informed_Neural_Network_for_Gene_Expression_Estimation_from_Pathology_CVPR_2026_paper.html)]
+- KAMP: Knowledge-Anchored Multimodal Pretraining Framework for Medical Image Representation [[paper](https://openaccess.thecvf.com/content/CVPR2026/html/Huang_KAMP_Knowledge-Anchored_Multimodal_Pretraining_Framework_for_Medical_Image_Representation_CVPR_2026_paper.html)]
 
 
 **ICLR 2026**
@@ -137,6 +158,11 @@ Awesome AI Pathology papers, including top AI conference and journals like CVPR,
 - A multimodal knowledge-enhanced whole-slide pathology foundation model [[paper](https://www.nature.com/articles/s41467-025-66220-x)]
 - Generating crossmodal gene expression from cancer histopathology improves multimodal AI predictions [[paper](https://www.nature.com/articles/s41467-025-66961-9)]
 - Systematic inference of super-resolution cell spatial profiles from histology images [[paper](https://www.nature.com/articles/s41467-025-57072-6)]
+- A foundation model for generalizable cancer diagnosis and survival prediction from histopathological images [[paper](https://www.nature.com/articles/s41467-025-57587-y)]
+- Generating dermatopathology reports from gigapixel whole slide images with HistoGPT [[paper](https://www.nature.com/articles/s41467-025-60014-x)]
+- A clinical benchmark of public self-supervised pathology foundation models [[paper](https://www.nature.com/articles/s41467-025-58796-1)]
+- Knowledge-guided adaptation of pathology foundation models effectively improves cross-domain generalization and demographic fairness [[paper](https://www.nature.com/articles/s41467-025-66300-y)]
+- Uncertainty-aware ensemble of foundation models improves brain tumour diagnosis in digital pathology [[paper](https://www.nature.com/articles/s41467-025-64249-6)]
 
 **Nature Biomedical Engineering**
 - A robust and scalable framework for hallucination detection in virtual tissue staining and digital pathology [[paper](https://www.nature.com/articles/s41551-025-01421-9)]
@@ -153,6 +179,8 @@ Awesome AI Pathology papers, including top AI conference and journals like CVPR,
 - PathBench: Advancing the Benchmark of Large Multimodal Models for Pathology Image Understanding at Patch and Whole Slide Level [[paper](https://ieeexplore.ieee.org/document/11062674/)]
 - Slide-Based Graph Collaborative Training for Histopathology Whole Slide Image Analysis [[paper](https://ieeexplore.ieee.org/document/11007022/)]
 - ToPoFM: Topology-Guided Pathology Foundation Model for High-Resolution Pathology Image Synthesis With Cellular-Level Control [[paper](https://ieeexplore.ieee.org/document/10915718/)]
+- TAD-Graph: Enhancing Whole Slide Image Analysis via Task-Aware Subgraph Disentanglement [[paper](https://doi.org/10.1109/TMI.2025.3545680)]
+- Navigating Through Whole Slide Images With Hierarchy, Multi-Object, and Multi-Scale Data [[paper](https://doi.org/10.1109/TMI.2025.3532728)]
 
 **npj Digital Medicine**
 - Large language models driven neural architecture search for universal and lightweight disease diagnosis on histopathology slide images [[paper](https://www.nature.com/articles/s41746-025-02042-x)]
@@ -178,7 +206,20 @@ Awesome AI Pathology papers, including top AI conference and journals like CVPR,
 - TopoCellGen: Generating Histopathology Cell Topology with a Diffusion Model [[paper](https://arxiv.org/abs/2412.06011)]
 - TICON: A Slide-Level Tile Contextualizer for Histopathology Representation Learning [[paper](https://openaccess.thecvf.com/content/CVPR2026F/papers/Belagali_TICON_A_Slide-Level_Tile_Contextualizer_for_Histopathology_Representation_Learning_CVPRF_2026_paper.pdf)]
 - CPath-Omni: A Unified Multimodal Foundation Model for Patch and Whole Slide Image Analysis in Computational Pathology [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Sun_CPath-Omni_A_Unified_Multimodal_Foundation_Model_for_Patch_and_Whole_CVPR_2025_paper.html)]
-- 
+- SlideChat: A Large Vision-Language Assistant for Whole-Slide Pathology Image Understanding [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Chen_SlideChat_A_Large_Vision-Language_Assistant_for_Whole-Slide_Pathology_Image_Understanding_CVPR_2025_paper.html)]
+- HistoFS: Non-IID Histopathologic Whole Slide Image Classification via Federated Style Transfer with RoI-Preserving [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Raswa_HistoFS_Non-IID_Histopathologic_Whole_Slide_Image_Classification_via_Federated_Style_CVPR_2025_paper.html)]
+- TopoCellGen: Generating Histopathology Cell Topology with a Diffusion Model [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Xu_TopoCellGen_Generating_Histopathology_Cell_Topology_with_a_Diffusion_Model_CVPR_2025_paper.html)]
+- Multi-Resolution Pathology-Language Pre-training Model with Text-Guided Visual Representation [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Albastaki_Multi-Resolution_Pathology-Language_Pre-training_Model_with_Text-Guided_Visual_Representation_CVPR_2025_paper.html)]
+- Unsupervised Foundation Model-Agnostic Slide-Level Representation Learning [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Lenz_Unsupervised_Foundation_Model-Agnostic_Slide-Level_Representation_Learning_CVPR_2025_paper.html)]
+- FOCUS: Knowledge-enhanced Adaptive Visual Compression for Few-shot Whole Slide Image Classification [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Guo_FOCUS_Knowledge-enhanced_Adaptive_Visual_Compression_for_Few-shot_Whole_Slide_Image_CVPR_2025_paper.html)]
+- MERGE: Multi-faceted Hierarchical Graph-based GNN for Gene Expression Prediction from Whole Slide Histopathology Images [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Ganguly_MERGE_Multi-faceted_Hierarchical_Graph-based_GNN_for_Gene_Expression_Prediction_from_CVPR_2025_paper.html)]
+- 2DMamba: Efficient State Space Model for Image Representation with Applications on Giga-Pixel Whole Slide Image Classification [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_2DMamba_Efficient_State_Space_Model_for_Image_Representation_with_Applications_CVPR_2025_paper.html)]
+- M3amba: Memory Mamba is All You Need for Whole Slide Image Classification [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Zheng_M3amba_Memory_Mamba_is_All_You_Need_for_Whole_Slide_CVPR_2025_paper.html)]
+- Advancing Multiple Instance Learning with Continual Learning for Whole Slide Imaging [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Li_Advancing_Multiple_Instance_Learning_with_Continual_Learning_for_Whole_Slide_CVPR_2025_paper.html)]
+- Learning Heterogeneous Tissues with Mixture of Experts for Gigapixel Whole Slide Images [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Wu_Learning_Heterogeneous_Tissues_with_Mixture_of_Experts_for_Gigapixel_Whole_CVPR_2025_paper.html)]
+- Distilled Prompt Learning for Incomplete Multimodal Survival Prediction [[paper](https://arxiv.org/abs/2503.01653)]
+- Fast and Accurate Gigapixel Pathological Image Classification with Hierarchical Distillation Multi-Instance Learning [[paper](https://arxiv.org/abs/2502.21130)]
+  
 
 **ICCV 2025**
 - AcZeroTS: Active Learning for Zero-shot Tissue Segmentation in Pathology Images [[paper](https://iccv.thecvf.com/virtual/2025/poster/2172)]
@@ -200,11 +241,12 @@ Awesome AI Pathology papers, including top AI conference and journals like CVPR,
 - FOCUS: Knowledge-enhanced Adaptive Visual Compression for Few-shot Whole Slide Image Classification [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Guo_FOCUS_Knowledge-enhanced_Adaptive_Visual_Compression_for_Few-shot_Whole_Slide_Image_CVPR_2025_paper.html)]
 - MERGE: Multi-faceted Hierarchical Graph-based GNN for Gene Expression Prediction from Whole Slide Histopathology Images [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Ganguly_MERGE_Multi-faceted_Hierarchical_Graph-based_GNN_for_Gene_Expression_Prediction_from_CVPR_2025_paper.html)]
 - 2DMamba: Efficient State Space Model for Image Representation with Applications on Giga-Pixel Whole Slide Image Classification [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_2DMamba_Efficient_State_Space_Model_for_Image_Representation_with_Applications_CVPR_2025_paper.html)]
-* M3amba: Memory Mamba is All You Need for Whole Slide Image Classification [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Zheng_M3amba_Memory_Mamba_is_All_You_Need_for_Whole_Slide_CVPR_2025_paper.html)]
-* Advancing Multiple Instance Learning with Continual Learning for Whole Slide Imaging [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Li_Advancing_Multiple_Instance_Learning_with_Continual_Learning_for_Whole_Slide_CVPR_2025_paper.html)]
-* Learning Heterogeneous Tissues with Mixture of Experts for Gigapixel Whole Slide Images [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Wu_Learning_Heterogeneous_Tissues_with_Mixture_of_Experts_for_Gigapixel_Whole_CVPR_2025_paper.html)]
-* Distilled Prompt Learning for Incomplete Multimodal Survival Prediction [[paper](https://arxiv.org/abs/2503.01653)]
-* Fast and Accurate Gigapixel Pathological Image Classification with Hierarchical Distillation Multi-Instance Learning [[paper](https://arxiv.org/abs/2502.21130)]
+- M3amba: Memory Mamba is All You Need for Whole Slide Image Classification [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Zheng_M3amba_Memory_Mamba_is_All_You_Need_for_Whole_Slide_CVPR_2025_paper.html)]
+- Advancing Multiple Instance Learning with Continual Learning for Whole Slide Imaging [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Li_Advancing_Multiple_Instance_Learning_with_Continual_Learning_for_Whole_Slide_CVPR_2025_paper.html)]
+- Learning Heterogeneous Tissues with Mixture of Experts for Gigapixel Whole Slide Images [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Wu_Learning_Heterogeneous_Tissues_with_Mixture_of_Experts_for_Gigapixel_Whole_CVPR_2025_paper.html)]
+- Distilled Prompt Learning for Incomplete Multimodal Survival Prediction [[paper](https://arxiv.org/abs/2503.01653)]
+- Fast and Accurate Gigapixel Pathological Image Classification with Hierarchical Distillation Multi-Instance Learning [[paper](https://arxiv.org/abs/2502.21130)]
+- - Bridging Local Inductive Bias and Long-Range Dependencies with Pixel-Mamba for End-to-end Whole Slide Image Analysis [[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Qiu_Bridging_Local_Inductive_Bias_and_Long-Range_Dependencies_with_Pixel-Mamba_for_ICCV_2025_paper.html)]
 
 **NeurIPS 2025**
 - Cancer Survival Analysis via Zero-shot Tumor Microenvironment Segmentation on Low-resolution Whole Slide Pathology Images [[paper](https://openreview.net/forum?id=BkSRQ1y37l)]
