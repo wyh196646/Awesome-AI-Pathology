@@ -1,3 +1,10 @@
+
+
+<p align="center">
+  <img src="AI4P.png" alt="Awesome World Models" width="100%" style="border-radius: 15px; box-shadow: 0 4px 24px rgba(0,0,0,.1); margin: 5px 0;">
+</p>
+
+
 # Awesome-AI-Pathology
 Awesome AI Pathology papers, including top AI conferences and journals such as CVPR, ICCV, ECCV, NeurIPS, ICML, ICLR, ACM MM, MICCAI, MIDL, Nature, Nature Medicine, Nature Methods, Nature Biomedical Engineering, npj Digital Medicine, The Lancet Digital Health, Medical Image Analysis, and IEEE Transactions on Medical Imaging.
 
