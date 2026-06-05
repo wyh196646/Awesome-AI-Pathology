@@ -199,6 +199,7 @@ The following venues were included in the collection and screening scope. Some v
 - Cross-Slice Knowledge Transfer via Masked Multi-Modal Heterogeneous Graph Contrastive Learning for Spatial Gene Expression Inference [[paper](https://openaccess.thecvf.com/content/CVPR2026/html/Shi_Cross-Slice_Knowledge_Transfer_via_Masked_Multi-Modal_Heterogeneous_Graph_Contrastive_Learning_CVPR_2026_paper.html)]
 - HyperST: Hierarchical Hyperbolic Learning for Spatial Transcriptomics Prediction [[paper](https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_HyperST_Hierarchical_Hyperbolic_Learning_for_Spatial_Transcriptomics_Prediction_CVPR_2026_paper.html)]
 - Bulk RNA-seq Guided Multi-modal Detection of Anomalous Regions in Human Cancer via Spatial Transcriptomics [[paper](https://openaccess.thecvf.com/content/CVPR2026/html/Shi_Bulk_RNA-seq_Guided_Multi-modal_Detection_of_Anomalous_Regions_in_Human_CVPR_2026_paper.html)]
+- MUST: Modality-Specific Representation-Aware Transformer for Diffusion-Enhanced Survival Prediction with Missing Modality[[paper](https://openaccess.thecvf.com/content/CVPR2026/papers/Kim_MUST_Modality-Specific_Representation-Aware_Transformer_for_Diffusion-Enhanced_Survival_Prediction_with_Missing_CVPR_2026_paper.pdf)]
 
 **ICLR 2026**
 - Bridging Radiology and Pathology Foundation Models via Concept-Based Multimodal Co-Adaptation [[paper](https://openreview.net/forum?id=oxgcPoDkNv)]
