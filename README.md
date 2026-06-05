@@ -297,7 +297,7 @@ The following venues were included in the collection and screening scope. Some v
 **Journal of Pathology Informatics**
 - Breast pTNM Stage Prediction [[paper](https://www.sciencedirect.com/science/article/pii/S2153353926001021)]
 
-### 2025
+## 2025
 
 **Nature Medicine**
 - A multimodal whole-slide foundation model for pathology [[paper](https://www.nature.com/articles/s41591-025-03982-3)]
