@@ -60,6 +60,12 @@ Awesome AI Pathology papers
 - TopoSlide: Topologically-Informed Histopathology Whole Slide Image Representation Learning [[paper](https://openaccess.thecvf.com/content/CVPR2026/html/Abousamra_TopoSlide_Topologically-Informed_Histopathology_Whole_Slide_Image_Representation_Learning_CVPR_2026_paper.html)]
 - Turning Pre-Trained Vision Transformers into End-to-End Histopathology Whole Slide Image Models for Survival Prediction [[paper](https://openaccess.thecvf.com/content/CVPR2026/html/Li_Turning_Pre-Trained_Vision_Transformers_into_End-to-End_Histopathology_Whole_Slide_Image_CVPR_2026_paper.html)]
 - URICA: A Uniformity Region Affine Identifier Capture Algorithm for Arbitrary Region Retrieval in Pathology Images [[paper](https://openaccess.thecvf.com/content/CVPR2026/papers/Su_URICA_A_Uniformity_Region_Affine_Identifier_Capture_Algorithm_for_Arbitrary_CVPR_2026_paper.pdf)]
+- Act Like a Pathologist: Tissue-Aware Whole Slide Image Reasoning [[paper](https://arxiv.org/abs/2603.00667)]
+- Momentum Memory for Knowledge Distillation in Computational Pathology [[paper](https://arxiv.org/abs/2602.21395)]
+- Universal-to-Specific: Dynamic Knowledge-Guided Multiple Instance Learning for Few-Shot Whole Slide Image Classification [[paper](https://openaccess.thecvf.com/content/CVPR2026/papers/Li_Universal-to-Specific_Dynamic_Knowledge-Guided_Multiple_Instance_Learning_for_Few-Shot_Whole_Slide_CVPR_2026_paper.pdf)]
+- CARE: A Molecular-Guided Foundation Model with Adaptive Region Modeling for Whole Slide Image Analysis [[paper](https://openaccess.thecvf.com/content/CVPR2026/papers/Zhang_CARE_A_Molecular-Guided_Foundation_Model_with_Adaptive_Region_Modeling_for_CVPR_2026_paper.pdf)]
+- FBTA: Enabling Single-GPU End-to-End Gigapixel Whole Slide Image Classification with Feature Bridging and Translation Alignment  [[paper](https://openaccess.thecvf.com/content/CVPR2026/papers/Dong_FBTA_Enabling_Single-GPU_End-to-End_Gigapixel_WSI_Classification_with_Feature_Bridging_CVPR_2026_paper.pdf)]
+
 
 **ICLR 2026**
 - Bridging Radiology and Pathology Foundation Models via Concept-Based Multimodal Co-Adaptation [[paper](https://openreview.net/forum?id=oxgcPoDkNv)]
@@ -73,7 +79,7 @@ Awesome AI Pathology papers
 - A Clinically Validated Foundation Model for Comprehensive Lung Pathology Interpretation [[paper](https://arxiv.org/abs/2605.25878)]
 - A Generative Foundation Model for Multimodal Histopathology [[paper](https://arxiv.org/abs/2604.03635)]
 - A Multimodal Foundation Model of Spatial Transcriptomics and Histology for Biological Discovery and Clinical Prediction [[paper](https://arxiv.org/abs/2604.03630)]
-- Act Like a Pathologist: Tissue-Aware Whole Slide Image Reasoning [[paper](https://arxiv.org/abs/2603.00667)]
+- 
 - Adapting a Pre-trained Single-Cell Foundation Model to Spatial Gene Expression Generation from Histology Images [[paper](https://arxiv.org/abs/2603.19766)]
 - Advancing Cancer Prognosis with Hierarchical Fusion of Genomic, Proteomic and Pathology Imaging Data from a Systems Biology Perspective [[paper](https://arxiv.org/abs/2603.13787)]
 - Benchmarking Pathology Foundation Models for Spatial Domain Understanding [[paper](https://arxiv.org/abs/2605.25764)]
@@ -91,7 +97,7 @@ Awesome AI Pathology papers
 - HistDiT: A Structure-Aware Latent Conditional Diffusion Model for High-Fidelity Virtual Staining in Histopathology [[paper](https://arxiv.org/abs/2604.08305)]
 - HistoMet: A Pan-Cancer Deep Learning Framework for Prognostic Prediction of Metastatic Progression and Site Tropism from Primary Tumor Histopathology [[paper](https://arxiv.org/abs/2602.07608)]
 - LAMMI-Pathology: A Tool-Centric Bottom-Up LVLM-Agent Framework for Molecularly Informed Medical Intelligence in Pathology [[paper](https://arxiv.org/abs/2602.18773)]
-- Momentum Memory for Knowledge Distillation in Computational Pathology [[paper](https://arxiv.org/abs/2602.21395)]
+
 - MOOZY: A Patient-First Foundation Model for Computational Pathology [[paper](https://arxiv.org/abs/2603.27048)]
 - PathMem: Toward Cognition-Aligned Memory Transformation for Pathology MLLMs [[paper](https://arxiv.org/abs/2603.09943)]
 - PathNavigate: A Training-Free Pathology Agent with Surprise-Guided Scan and Shared Slide Memory for Whole-Slide Image VQA [[paper](https://arxiv.org/abs/2605.23559)]
@@ -169,6 +175,7 @@ Awesome AI Pathology papers
 - Multi-Resolution Pathology-Language Pre-training Model with Text-Guided Visual Representation [[paper](https://cvpr.thecvf.com/Conferences/2025/AcceptedPapers)]
 - SlideChat: A Large Vision-Language Assistant for Whole-Slide Pathology Image Understanding [[paper](https://arxiv.org/abs/2410.11761)]
 - TopoCellGen: Generating Histopathology Cell Topology with a Diffusion Model [[paper](https://arxiv.org/abs/2412.06011)]
+- TICON: A Slide-Level Tile Contextualizer for Histopathology Representation Learning [[paper](https://openaccess.thecvf.com/content/CVPR2026F/papers/Belagali_TICON_A_Slide-Level_Tile_Contextualizer_for_Histopathology_Representation_Learning_CVPRF_2026_paper.pdf)]
 
 **ICCV 2025**
 - AcZeroTS: Active Learning for Zero-shot Tissue Segmentation in Pathology Images [[paper](https://iccv.thecvf.com/virtual/2025/poster/2172)]
@@ -189,6 +196,10 @@ Awesome AI Pathology papers
 - From Pretraining to Pathology: How Noise Leads to Catastrophic Inheritance in Medical Models [[paper](https://openreview.net/forum?id=9c8J2C7ajq)]
 - SGCD: Stain-Guided CycleDiffusion for Unsupervised Domain Adaptation of Histopathology Image Classification [[paper](https://proceedings.neurips.cc/paper_files/paper/2025/hash/37964391303da7d70d07e83d2b0c3c5e-Abstract-Conference.html)]
 - STARC-9: A Large-scale Dataset for Multi-Class Tissue Classification for CRC Histopathology [[paper](https://papers.nips.cc/paper_files/paper/2025/hash/f90cd97544e17dfd76af5c4f1b698a50-Abstract-Datasets_and_Benchmarks_Track.html)]
+- Single GPU Task Adaptation of Pathology Foundation Models for Whole Slide Image Analysis [[paper](https://arxiv.org/abs/2506.05184)]
+- CPathAgent: An Agent-based Foundation Model for Interpretable High-Resolution Pathology Image Analysis Mimicking Pathologists' Diagnostic Logic [[paper](https://arxiv.org/abs/2505.20510)]
+- HookMIL: Revisiting Context Modeling in Multiple Instance Learning for Computational Pathology [[paper](https://arxiv.org/abs/2512.22188)]
+- PathVQ: Reforming Computational Pathology Foundation Model for Whole Slide Image Analysis via Vector Quantization [[paper](https://arxiv.org/abs/2503.06482)]
 
 **ICLR 2025**
 - Interpretable Vision-Language Survival Analysis with Ordinal Inductive Bias for Computational Pathology [[paper](https://openreview.net/forum?id=trj2Jq8riA)]
@@ -230,13 +241,11 @@ Awesome AI Pathology papers
 - AdaFusion: Prompt-Guided Inference with Adaptive Fusion of Pathology Foundation Models [[paper](https://arxiv.org/abs/2508.05084)]
 - Any-to-Any Learning in Computational Pathology via Triplet Multimodal Pretraining [[paper](https://arxiv.org/abs/2505.12711)]
 - Content Generation Models in Computational Pathology: A Comprehensive Survey on Methods, Applications, and Challenges [[paper](https://arxiv.org/abs/2505.10993)]
-- CPathAgent: An Agent-based Foundation Model for Interpretable High-Resolution Pathology Image Analysis Mimicking Pathologists' Diagnostic Logic [[paper](https://arxiv.org/abs/2505.20510)]
 - Democratizing Pathology Co-Pilots: An Open Pipeline and Dataset for Whole-Slide Vision-Language Modelling [[paper](https://arxiv.org/abs/2512.17326)]
 - Discovering Pathology Rationale and Token Allocation for Efficient Multimodal Pathology Reasoning [[paper](https://arxiv.org/abs/2505.15687)]
 - Evidence-based diagnostic reasoning with multi-agent copilot for human pathology [[paper](https://arxiv.org/abs/2506.20964)]
 - EXAONE Path 2.5: Pathology Foundation Model with Multi-Omics Alignment [[paper](https://arxiv.org/abs/2512.14019)]
 - Fusion of Multi-scale Heterogeneous Pathology Foundation Models for Whole Slide Image Analysis [[paper](https://arxiv.org/abs/2510.27237)]
-- HookMIL: Revisiting Context Modeling in Multiple Instance Learning for Computational Pathology [[paper](https://arxiv.org/abs/2512.22188)]
 - Information-driven Fusion of Pathology Foundation Models for Enhanced Disease Characterization [[paper](https://arxiv.org/abs/2512.11104)]
 - Learning Relative Gene Expression Trends from Pathology Images in Spatial Transcriptomics [[paper](https://arxiv.org/abs/2512.06612)]
 - LoC-Path: Learning to Compress for Pathology Multimodal Large Language Models [[paper](https://arxiv.org/abs/2512.05391)]
@@ -255,13 +264,12 @@ Awesome AI Pathology papers
 - Patho-AgenticRAG: Towards Multimodal Agentic Retrieval-Augmented Generation for Pathology VLMs via Reinforcement Learning [[paper](https://arxiv.org/abs/2508.02258)]
 - Pathology-CoT: Learning Visual Chain-of-Thought Agent from Expert Whole Slide Image Diagnosis Behavior [[paper](https://arxiv.org/abs/2510.04587)]
 - PathVLM-R1: A Reinforcement Learning-Driven Reasoning Model for Pathology Visual-Language Tasks [[paper](https://arxiv.org/abs/2504.09258)]
-- PathVQ: Reforming Computational Pathology Foundation Model for Whole Slide Image Analysis via Vector Quantization [[paper](https://arxiv.org/abs/2503.06482)]
 - PixCell: A generative foundation model for digital histopathology images [[paper](https://arxiv.org/abs/2506.05127)]
 - Prototype-Based Image Prompting for Weakly Supervised Histopathological Image Segmentation [[paper](https://arxiv.org/abs/2503.12068)]
 - Revisiting End-to-End Learning with Slide-level Supervision in Computational Pathology [[paper](https://arxiv.org/abs/2506.02408)]
 - Self-Supervision Enhances Instance-based Multiple Instance Learning Methods in Digital Pathology: A Benchmark Study [[paper](https://arxiv.org/abs/2505.01109)]
 - Semantic and Visual Crop-Guided Diffusion Models for Heterogeneous Tissue Synthesis in Histopathology [[paper](https://arxiv.org/abs/2509.17847)]
-- Single GPU Task Adaptation of Pathology Foundation Models for Whole Slide Image Analysis [[paper](https://arxiv.org/abs/2506.05184)]
+
 - SPIDER: A Comprehensive Multi-Organ Supervised Pathology Dataset and Baseline Models [[paper](https://arxiv.org/abs/2503.02876)]
 - STAMP: Multi-pattern Attention-aware Multiple Instance Learning for STAS Diagnosis in Multi-center Histopathology Images [[paper](https://arxiv.org/abs/2508.10473)]
 - TeamPath: Building MultiModal Pathology Experts with Reasoning AI Copilots [[paper](https://arxiv.org/abs/2511.17652)]
