@@ -170,7 +170,7 @@ The following venues were included in the collection and screening scope. Some v
 **Computers in Biology and Medicine**
 - MIPHEI-ViT: Multiplex Immunofluorescence Prediction from H&E Images Using ViT Foundation Models [[paper](https://doi.org/10.1016/j.compbiomed.2026.111564)]
 
-**CVPR 2026**
+**CVPR 2026** ✅
 - From Spots to Pixels: Dense Spatial Gene Expression Prediction from Histology Images [[paper](https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_From_Spots_to_Pixels_Dense_Spatial_Gene_Expression_Prediction_from_CVPR_2026_paper.html)]
 - Predicting Spatial Transcriptomics from Histology Images via High-Order Multi-Cell Interaction Modeling [[paper](https://openaccess.thecvf.com/content/CVPR2026/html/Sun_Predicting_Spatial_Transcriptomics_from_Histology_Images_via_High-Order_Multi-Cell_Interaction_CVPR_2026_paper.html)]
 - TopoSlide: Topologically-Informed Histopathology Whole Slide Image Representation Learning [[paper](https://openaccess.thecvf.com/content/CVPR2026/html/Abousamra_TopoSlide_Topologically-Informed_Histopathology_Whole_Slide_Image_Representation_Learning_CVPR_2026_paper.html)]
@@ -211,7 +211,7 @@ The following venues were included in the collection and screening scope. Some v
 - Multi-View Hierarchical Alignment Learning for Spatial Transcriptomics[[paper](https://openaccess.thecvf.com/content/CVPR2026/papers/Zhu_Multi-View_Hierarchical_Alignment_Learning_for_Spatial_Transcriptomics_CVPR_2026_paper.pdf)]
   
 
-**ICLR 2026**
+**ICLR 2026**✅
 - Bridging Radiology and Pathology Foundation Models via Concept-Based Multimodal Co-Adaptation [[paper](https://openreview.net/forum?id=oxgcPoDkNv)]
 - Histopathology-Genomics Multi-modal Structural Representation Learning for Data-Efficient Precision Oncology [[paper](https://openreview.net/forum?id=24QX6XpvSL)]
 - ASMIL: Attention-Stabilized Multiple Instance Learning for Whole-Slide Imaging [[paper](https://openreview.net/forum?id=6m8uYPDdXz)]
@@ -225,7 +225,7 @@ The following venues were included in the collection and screening scope. Some v
 - HistoPrism: Unlocking Functional Pathway Analysis from Pan-Cancer Histology via Gene Expression Prediction [[paper](https://openreview.net/forum?id=6dTHxb9JuA)]
 - Disco: Densely-overlapping Cell Instance Segmentation via Adjacency-aware Collaborative Coloring [[paper](https://openreview.net/forum?id=1W7RRQl3lH)]
 
-**ICML 2026**
+**ICML 2026**✅
 - Thinking in Scales: Accelerating Gigapixel Pathology Image Analysis via Adaptive Continuous Reasoning [[paper](https://arxiv.org/abs/2605.19491)]
 - Cello: A Universal Cell-wise Feature Aggregation framework for Reliable Pathology Images Analysis [[paper](https://icml.cc/virtual/2026/poster/66532)]
 - Discontinuous Galerkin Neural Operator for Pathology Defocus Deblurring [[paper](https://arxiv.org/abs/2605.23282)]
@@ -239,7 +239,7 @@ The following venues were included in the collection and screening scope. Some v
 - Thinking in Scales: Accelerating Gigapixel Pathology Image Analysis via Adaptive Continuous Reasoning [[paper](https://arxiv.org/abs/2605.19491)]
 - Transitive Representation Learning Enhances Histopathology Annotation [[paper](https://icml.cc/virtual/2026/poster/63144)]
 
-**AAAI 2026**
+**AAAI 2026**✅
 - Patho-R1: A Multimodal Reinforcement Learning-Based Pathology Expert Reasoner [[paper](https://arxiv.org/abs/2505.11404)][[code](https://github.com/Wenchuan-Zhang/Patho-R1)]
 - Towards Effective and Efficient Context-aware Nucleus Detection in Histopathology Whole Slide Images [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/37860)]
 - Content-aware Information Compression and Selection for Efficient Whole Slide Image Analysis [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/38350)]
@@ -408,7 +408,7 @@ The following venues were included in the collection and screening scope. Some v
 - FmH2ST: foundation model-based spatial transcriptomics generation from histological images [[paper](https://academic.oup.com/nar/article/doi/10.1093/nar/gkaf865/8249850)]
 - FmH2ST [[paper](https://academic.oup.com/nar/article/53/17/gkaf865/8249850)][[website](https://www.sdu-idea.cn/codes.php?name=FmH2ST)]
 
-**CVPR 2025**
+**CVPR 2025** ✅
 - BioX-CPath: Biologically-driven Explainable Diagnostics for Multistain IHC Computational Pathology [[paper](https://cvpr.thecvf.com/Conferences/2025/AcceptedPapers)]
 - Fast and Accurate Gigapixel Pathological Image Classification with Hierarchical Distillation Multi-Instance Learning [[paper](https://arxiv.org/abs/2502.21130)]
 - MERGE: Multi-faceted Hierarchical Graph-based GNN for Gene Expression Prediction from Whole Slide Histopathology Images [[paper](https://arxiv.org/html/2412.02601v1)]
@@ -435,7 +435,7 @@ The following venues were included in the collection and screening scope. Some v
 - ODA-GAN: Orthogonal Decoupling Alignment GAN Assisted by Weakly-supervised Learning for Virtual Immunohistochemistry Staining [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Wang_ODA-GAN_Orthogonal_Decoupling_Alignment_GAN_Assisted_by_Weakly-supervised_Learning_for_CVPR_2025_paper.html)][[code](https://github.com/ittong/ODA-GAN)]
 - ZoomLDM: Latent Diffusion Model for multi-scale image generation [[paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Yellapragada_ZoomLDM_Latent_Diffusion_Model_for_Multi-scale_Image_Generation_CVPR_2025_paper.pdf)][[code](https://github.com/cvlab-stonybrook/ZoomLDM)]
 
-**ICCV 2025**
+**ICCV 2025** ✅
 - AcZeroTS: Active Learning for Zero-shot Tissue Segmentation in Pathology Images [[paper](https://iccv.thecvf.com/virtual/2025/poster/2172)]
 - Conditional Visual Autoregressive Modeling for Pathological Image Restoration [[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Liu_Conditional_Visual_Autoregressive_Modeling_for_Pathological_Image_Restoration_ICCV_2025_paper.html)]
 - Continual Multiple Instance Learning with Enhanced Localization for Histopathological Whole Slide Image Analysis [[paper](https://iccv.thecvf.com/virtual/2025/poster/2524)]
@@ -466,7 +466,7 @@ The following venues were included in the collection and screening scope. Some v
 - WSI-LLaVA [[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Liang_WSI-LLaVA_A_Multimodal_Large_Language_Model_for_Whole_Slide_Image_ICCV_2025_paper.html)]
 - PathFinder [[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Ghezloo_PathFinder_A_Multi-Modal_Multi-Agent_System_for_Medical_Diagnostic_Decision-Making_Applied_ICCV_2025_paper.html)]
 
-**NeurIPS 2025**
+**NeurIPS 2025** ✅
 - Cancer Survival Analysis via Zero-shot Tumor Microenvironment Segmentation on Low-resolution Whole Slide Pathology Images [[paper](https://openreview.net/forum?id=BkSRQ1y37l)]
 - D-VST: Diffusion Transformer for Pathology-Correct Tone-Controllable Cross-Dye Virtual Staining of Whole Slide Images [[paper](https://openreview.net/forum?id=jl0O0MYLyh)]
 - From Pretraining to Pathology: How Noise Leads to Catastrophic Inheritance in Medical Models [[paper](https://openreview.net/forum?id=9c8J2C7ajq)]
@@ -517,7 +517,7 @@ The following venues were included in the collection and screening scope. Some v
 - Unpaired Multi-Domain Histopathology Virtual Staining Using Dual Path Prompted Inversion [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/32949)]
 - M2OST [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/32830/34985)][[code](https://github.com/dootmaan/m2ost)]
 
-**IJCAI 2025**
+**IJCAI 2025** ✅
 - POMP: Pathology-omics Multimodal Pre-training Framework for Cancer Survival Prediction [[paper](https://www.ijcai.org/proceedings/2025/869)]
 - Self-calibration Enhanced Whole Slide Pathology Image Analysis [[paper](https://www.ijcai.org/proceedings/2025/192)]
 - MRePath [[paper](https://www.ijcai.org/proceedings/2025/0201.pdf)][[code](https://github.com/MCPathology/MRePath)]
@@ -531,7 +531,7 @@ The following venues were included in the collection and screening scope. Some v
 - SMILE: A Scale-aware Multiple Instance Learning Method for Multicenter STAS Lung Cancer Histopathology Diagnosis [[paper](https://www.ijcai.org/proceedings/2025/1093)]
 - A Survey of Pathology Foundation Model: Progress and Future Directions [[paper](https://www.ijcai.org/proceedings/2025/1193)]
 
-**ACM MM 2025**
+**ACM MM 2025** ✅
 - Pathology-Aware Reconstruction with Discriminative Knowledge Boosting Alignment for Che-Xray Vision-Language Pre-training [[paper](https://dl.acm.org/doi/10.1145/3746027.3755336)]
 - HER2 Expression Prediction with Flexible Multi-Modal Inputs via Dynamic Bidirectional Reconstruction [[paper](https://dl.acm.org/doi/10.1145/3746027.3755619)]
 - Dynamic Residual Encoding with Slide-Level Contrastive Learning for End-to-End Whole Slide Image Representation [[paper](https://dl.acm.org/doi/10.1145/3746027.3755469)]
