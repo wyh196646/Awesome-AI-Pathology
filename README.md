@@ -53,11 +53,13 @@ The following venues were included in the collection and screening scope. Some v
 - Nature Medicine
 - Nature Cancer
 - Nature Methods
+- Nature Machine Intelligence
 - Nature Communications
 - Nature Biomedical Engineering
 - Communications Medicine
 - npj Digital Medicine
 - npj Precision Oncology
+- npj Imaging
 - Scientific Data
 - Scientific Reports
 - Cell
@@ -83,6 +85,7 @@ The following venues were included in the collection and screening scope. Some v
 # Papers
 
 # 2026
+
 **Nature**
 - Clinical-grade autonomous cytopathology through whole-slide edge tomography [[paper](https://www.nature.com/articles/s41586-025-10094-y)]
 
@@ -128,6 +131,9 @@ The following venues were included in the collection and screening scope. Some v
 - An Evaluation of Artificial Intelligence Assisted Prostate Biopsy Reporting in the Articulate Pro Study [[paper](https://www.nature.com/articles/s41746-026-02592-8)]
 - Distinction Between Primary and Metastatic Mucinous Ovarian Carcinoma from Histopathology Images Using Deep Learning [[paper](https://www.nature.com/articles/s41746-026-02459-y)]
 - Soft Multiclass Feature Augmented Deep Learning to Predict Tumor Origins Using Cytology or Histology Whole Slide Images [[paper](https://www.nature.com/articles/s41746-026-02604-7)]
+- Geometric multi-instance learning for weakly supervised gastric cancer segmentation [[paper](https://www.nature.com/articles/s41746-025-02287-6)]
+- A human-in-the-loop explanation framework for morphologically transparent AI predictions from whole-slide images [[paper](https://www.nature.com/articles/s41746-026-02741-z)]
+
 
 **npj Precision Oncology**
 - Real-world Benchmarking and Validation of Foundation Model Transformers for Endometrial Cancer Subtyping from Histopathology [[paper](https://www.nature.com/articles/s41698-026-01402-4)]
@@ -135,6 +141,8 @@ The following venues were included in the collection and screening scope. Some v
 
 **Scientific Data**
 - STHELAR, a Multi-tissue Dataset Linking Spatial Transcriptomics and Histology for Cell Type Annotation [[paper](https://www.nature.com/articles/s41597-026-06937-6)]
+- Malignant vs. non-malignant annotations on TCGA breast tumor whole slide images [[paper](https://www.nature.com/articles/s41597-026-07106-5)]
+
 
 **Scientific Reports**
 - Multimodal Survival Analysis of Glioblastoma Using Whole-slide Histopathology, Clinical, and Gene Expression Data [[paper](https://www.nature.com/articles/s41598-026-48666-1)]
@@ -348,6 +356,8 @@ The following venues were included in the collection and screening scope. Some v
 
 **Nature Medicine**
 - A multimodal whole-slide foundation model for pathology [[paper](https://www.nature.com/articles/s41591-025-03982-3)]
+- Real-world deployment of a fine-tuned pathology foundation model for lung cancer biomarker detection [[paper](https://www.nature.com/articles/s41591-025-03780-x)]
+
 
 **Nature Cancer**
 - SMMILe enables accurate spatial quantification in digital pathology using multiple-instance learning [[paper](https://www.nature.com/articles/s43018-025-01060-8)]
@@ -371,10 +381,15 @@ The following venues were included in the collection and screening scope. Some v
 - sCellST [[paper](https://www.nature.com/articles/s41467-025-67965-1)][[code](https://github.com/loicchadoutaud/sCellST)]
 - Pixel SR Virtual Staining [[paper](https://www.nature.com/articles/s41467-025-60387-z)][[code](https://github.com/Yijie-Zhang/Super-resolved-virtual-staining)]
 - Orpheus [[paper](https://www.nature.com/articles/s41467-025-57283-x)][[code](https://github.com/kmboehm/orpheus)]
+- HIBRID: histology-based risk-stratification with deep learning for colorectal cancer [[paper](https://www.nature.com/articles/s41467-025-62910-8)]
+- A deep learning-based multiscale integration of spatial omics with tumor morphology [[paper](https://www.nature.com/articles/s41467-025-66691-y)]
+
 
 **Nature Biomedical Engineering**
 - A robust and scalable framework for hallucination detection in virtual tissue staining and digital pathology [[paper](https://www.nature.com/articles/s41551-025-01421-9)]
 - Generation of synthetic whole-slide image tiles of tumours from RNA-sequencing data via cascaded diffusion models[[paper](https://www.nature.com/articles/s41551-024-01193-8)]
+- Benchmarking foundation models as feature extractors for weakly supervised computational pathology [[paper](https://www.nature.com/articles/s41551-025-01516-3)]
+
 
 **Medical Image Analysis**
 - AttriMIL: Revisiting attention-based multiple instance learning for whole-slide pathological image classification from a perspective of instance attributes [[paper](https://linkinghub.elsevier.com/retrieve/pii/S1361841525001781)]
@@ -397,11 +412,18 @@ The following venues were included in the collection and screening scope. Some v
 **npj Digital Medicine**
 - Large language models driven neural architecture search for universal and lightweight disease diagnosis on histopathology slide images [[paper](https://www.nature.com/articles/s41746-025-02042-x)]
 - PathOrchestra: a comprehensive foundation model for computational pathology with over 100 diverse clinical-grade tasks [[paper](https://www.nature.com/articles/s41746-025-02027-w)]
+- Whole slide image based deep learning refines prognosis and therapeutic response evaluation in lung adenocarcinoma [[paper](https://www.nature.com/articles/s41746-025-01470-z)]
+- AI in Histopathology Explorer for comprehensive analysis of deep learning in histopathology [[paper](https://www.nature.com/articles/s41746-025-01524-2)]
+- Multimodal analysis of whole slide images in colorectal cancer [[paper](https://www.nature.com/articles/s41746-025-02095-y)]
+
 
 **Scientific Data**
 - A fully annotated pathology slide dataset for early gastric cancer and precancerous lesions [[paper](https://www.nature.com/articles/s41597-025-05679-1)]
 - A large histological images dataset of gastric cancer with tumour microenvironment annotation for AI [[paper](https://www.nature.com/articles/s41597-025-04489-9)]
 - HMCHH-TCT-CellDet [[paper](https://www.nature.com/articles/s41597-025-04374-5)][[dataset](https://springernature.figshare.com/articles/dataset/A_large_annotated_cervical_cytology_images_dataset_for_AI_models_to_aid_cervical_cancer_screening/27901206)]
+- A fusocellular skin dataset with whole slide images for deep learning models [[paper](https://www.nature.com/articles/s41597-025-05108-3)]
+- Comprehensive Benchmark Dataset for Pathological Lymph Node Metastasis in Breast Cancer Sections [[paper](https://www.nature.com/articles/s41597-025-05586-5)]
+
 
 **eBioMedicine**
 - A generative vision-language model for holistic pathological assessment using preoperative imaging in hepatocellular carcinoma [[paper](https://linkinghub.elsevier.com/retrieve/pii/S2352396425005043)]
@@ -640,6 +662,11 @@ The following venues were included in the collection and screening scope. Some v
 
 **npj Precision Oncology**
 - Fed-cSCC [[paper](https://www.nature.com/articles/s41698-025-00997-4)]
+- Annotation-free deep learning for predicting gene mutations from acute myeloid leukemia whole slide images [[paper](https://www.nature.com/articles/s41698-025-00804-0)]
+- A comprehensive evaluation of histopathology foundation models for ovarian carcinoma subtyping [[paper](https://www.nature.com/articles/s41698-025-00799-8)]
+- Deepath-MSI: a clinic-ready deep learning model for microsatellite instability detection in colorectal cancer using whole-slide imaging [[paper](https://www.nature.com/articles/s41698-025-01094-2)]
+- Validation of histopathology-based deep learning for metastatic nonsquamous NSCLC [[paper](https://www.nature.com/articles/s41698-025-01267-z)]
+
 
 **Nature**
 - MUSK [[paper](https://www.nature.com/articles/s41586-024-08437-2)]
@@ -682,8 +709,18 @@ The following venues were included in the collection and screening scope. Some v
 **European Journal of Cancer**
 - PARP Benefit Prediction [[paper](https://www.sciencedirect.com/science/article/pii/S0959804924018069)]
 
-#2024
-**Nature 2024**
+**Nature Machine Intelligence**
+- Histopathology-based protein multiplex generation using deep learning [[paper](https://www.nature.com/articles/s42256-025-01074-y)]
+
+**Communications Medicine**
+- Synergistic H&E and IHC image analysis by AI predicts immunotherapy response in lung cancer [[paper](https://www.nature.com/articles/s43856-025-01045-9)]
+
+**npj Imaging**
+- Multimodal whole slide image processing pipeline for quantitative mapping of tissue architecture and tissue microenvironment [[paper](https://www.nature.com/articles/s44303-025-00088-w)]
+
+# 2024
+
+**Nature**
 - A whole-slide foundation model for digital pathology from real-world data [[paper](https://www.nature.com/articles/s41586-024-07441-w)]
 - A pathology foundation model for cancer diagnosis and prognosis prediction [[paper](https://www.nature.com/articles/s41586-024-07894-z)]
 - Foundation models for fast, label-free detection of glioma infiltration [[paper](https://www.nature.com/articles/s41586-024-08169-3)]
@@ -694,6 +731,10 @@ The following venues were included in the collection and screening scope. Some v
 - A visual-language foundation model for computational pathology [[paper](https://www.nature.com/articles/s41591-024-02856-4)]
 - UNI [[paper](https://www.nature.com/articles/s41591-024-02857-3)]
 - Virchow [[paper](https://www.nature.com/articles/s41591-024-03141-0)]
+- Prediction of tumor origin in cancers of unknown primary origin with cytology-based deep learning [[paper](https://www.nature.com/articles/s41591-024-02915-w)]
+- Prediction of recurrence risk in endometrial cancer with multimodal deep learning [[paper](https://www.nature.com/articles/s41591-024-02993-w)]
+- Prediction of DNA methylation-based tumor types from histopathology in central nervous system tumors with deep learning [[paper](https://www.nature.com/articles/s41591-024-02995-8)]
+
 
 **Scientific Data**
 - LungHist700: A dataset of histological images for deep learning in pulmonary pathology [[paper](https://www.nature.com/articles/s41597-024-03944-3)]
@@ -791,6 +832,12 @@ The following venues were included in the collection and screening scope. Some v
 
 **npj Digital Medicine**
 - AI in Digital Pathology: Diagnostic Meta-analysis [[paper](https://www.nature.com/articles/s41746-024-01106-8)]
+- Deep learning to assess microsatellite instability directly from hematoxylin and eosin-stained colorectal histopathology slides [[paper](https://www.nature.com/articles/s41746-024-01131-7)]
+- Histopathology images-based deep learning prediction of prognosis and therapeutic response in lung adenocarcinoma [[paper](https://www.nature.com/articles/s41746-024-01003-0)]
+- Public evidence on AI products for digital pathology [[paper](https://www.nature.com/articles/s41746-024-01294-3)]
+- Ecologically sustainable benchmarking of AI models for digital pathology [[paper](https://www.nature.com/articles/s41746-024-01397-x)]
+- Aligning knowledge concepts to whole slide images for precise histopathology image analysis [[paper](https://www.nature.com/articles/s41746-024-01411-2)]
+
 
 **The Lancet Digital Health**
 - Pathology in the Era of Generative AI [[paper](https://www.thelancet.com/journals/landig/article/PIIS2589-7500%2824%2900157-2/fulltext)]
@@ -827,6 +874,11 @@ The following venues were included in the collection and screening scope. Some v
 **Nature Communications**
 - AICCS [[paper](https://www.nature.com/articles/s41467-024-48705-3)][[code](https://github.com/cellsvision/AICCS)]
 - PathoRiCH [[paper](https://www.nature.com/articles/s41467-024-48667-6)][[code](https://github.com/dmmoon/PathoRICH)]
+- Regression-based Deep-Learning predicts molecular biomarkers from pathology slides [[paper](https://www.nature.com/articles/s41467-024-45589-1)]
+- Development and deployment of a histopathology-based deep learning algorithm for patient prescreening in advanced urothelial cancers [[paper](https://www.nature.com/articles/s41467-024-49153-9)]
+- Mapping the landscape of histomorphological cancer phenotypes using self-supervised learning on unannotated pathology slides [[paper](https://www.nature.com/articles/s41467-024-48666-7)]
+- Digital profiling of gene expression from histology images with linearized attention [[paper](https://www.nature.com/articles/s41467-024-54182-5)]
+
 
 **IEEE Transactions on Artificial Intelligence**
 - Patch-to-Sample Reasoning [[paper](https://www.computer.org/csdl/journal/ai/2024/06/10285382/1Rd2FdKWJHO)]
@@ -860,6 +912,21 @@ The following venues were included in the collection and screening scope. Some v
 
 **Computer Methods and Programs in Biomedicine**
 - RegWSI [[paper](https://dl.acm.org/doi/10.1016/j.cmpb.2024.108187)]
+
+**Nature Machine Intelligence**
+- Accelerating histopathology workflows with generative AI-based virtual staining [[paper](https://www.nature.com/articles/s42256-024-00889-5)]
+
+**Communications Medicine**
+- A systematic pan-cancer study on deep learning-based prediction of multi-omic biomarkers from routine pathology images [[paper](https://www.nature.com/articles/s43856-024-00471-5)]
+- A comprehensive AI model development framework for pathology images [[paper](https://www.nature.com/articles/s43856-024-00502-1)]
+
+**npj Precision Oncology**
+- Open and reusable deep learning for pathology with Slideflow [[paper](https://www.nature.com/articles/s41698-024-00499-9)]
+- Deep learning for dual detection of microsatellite instability and POLE mutations in colorectal cancer histopathology [[paper](https://www.nature.com/articles/s41698-024-00592-z)]
+- Artificial intelligence-based morphologic classification and molecular genotyping in glioma [[paper](https://www.nature.com/articles/s41698-024-00745-0)]
+
+**Nature Cancer**
+- Tumor evolution metrics predict recurrence beyond 10 years in locally advanced prostate cancer [[paper](https://www.nature.com/articles/s43018-024-00787-0)]
 
 ### 2023
 
@@ -934,6 +1001,21 @@ The following venues were included in the collection and screening scope. Some v
 **Nature Communications**
 - Valis [[paper](https://www.nature.com/articles/s41467-023-40218-9)][[website](https://valis.readthedocs.io/en/latest/index.html)][[code](https://github.com/MathOnco/valis)]
 - STalign [[paper](https://www.nature.com/articles/s41467-023-43915-7)][[code](https://github.com/JEFworks-Lab/STalign)]
+- Neuropathologist-level integrated classification of adult-type diffuse gliomas using deep learning from whole-slide pathological images [[paper](https://www.nature.com/articles/s41467-023-41195-9)]
+- Validation of MSIntuit as an AI-based pre-screening tool for microsatellite instability in colorectal cancer [[paper](https://www.nature.com/articles/s41467-023-42453-6)]
+- Deep learning-based phenotyping reclassifies combined hepatocellular-cholangiocarcinoma [[paper](https://www.nature.com/articles/s41467-023-43749-3)]
+
+
+**npj Precision Oncology**
+- Self-supervised attention-based deep learning for pan-cancer mutation prediction from histopathology [[paper](https://www.nature.com/articles/s41698-023-00365-0)]
+- Deep learning generates synthetic cancer histology for explainability and education [[paper](https://www.nature.com/articles/s41698-023-00399-4)]
+- Deep learning predicts patients outcome and mutations from histology in gastrointestinal stromal tumors [[paper](https://www.nature.com/articles/s41698-023-00421-9)]
+
+**Nature Cancer**
+- The artificial intelligence-based model ANORAK improves histopathological grading of lung adenocarcinoma [[paper](https://www.nature.com/articles/s43018-023-00694-w)]
+
+**npj Imaging**
+- Artificial intelligence unravels interpretable malignancy grades of prostate cancer on histology images [[paper](https://www.nature.com/articles/s44303-023-00005-z)]
 
 ### 2022
 
@@ -949,6 +1031,10 @@ The following venues were included in the collection and screening scope. Some v
 - BRACS [[paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC9575967/)][[code](https://github.com/histocartography/hact-net)]
 - OV-Bevacizumab [[paper](https://www.nature.com/articles/s41597-022-01127-6)]
 - EBHI-Seg [[paper](https://www.nature.com/articles/s41597-022-01435-y)][[dataset](https://figshare.com/articles/dataset/EBHI-Seg/19602495)]
+- The Digital Brain Tumour Atlas, an open histopathology resource [[paper](https://www.nature.com/articles/s41597-022-01157-0)]
+- HunCRC: annotated pathological slides to enhance deep learning in colorectal cancer [[paper](https://www.nature.com/articles/s41597-022-01450-y)]
+- HistoML, a markup language for representation and exchange of histopathology annotations [[paper](https://www.nature.com/articles/s41597-022-01505-0)]
+
 
 **Medical Image Analysis**
 - CoNIC [[paper](https://www.sciencedirect.com/science/article/pii/S1361841522000755)][[dataset](https://zenodo.org/record/6559981)]
@@ -1002,6 +1088,9 @@ The following venues were included in the collection and screening scope. Some v
 
 **Nature Medicine**
 - Prostate Diagnosis & Grading [[paper](https://www.nature.com/articles/s41591-021-01620-2)]
+- Deep learning-enabled assessment of cardiac allograft rejection from endomyocardial biopsies [[paper](https://www.nature.com/articles/s41591-022-01709-2)]
+- Swarm learning for decentralized artificial intelligence in cancer histopathology [[paper](https://www.nature.com/articles/s41591-022-01768-5)]
+
 
 **Bioinformatics**
 - ASHLAR [[paper](https://academic.oup.com/bioinformatics/article/38/19/4613/6668278)][[website](https://labsyspharm.github.io/ashlar/)][[code](https://github.com/labsyspharm/ashlar)]
@@ -1018,8 +1107,24 @@ The following venues were included in the collection and screening scope. Some v
 **SoftwareX**
 - histolab [[paper](https://www.sciencedirect.com/science/article/pii/S2352711022001558)][[code](https://github.com/histolab/histolab)]
 
-#2021
-**Nature 2021**
+**Nature Biomedical Engineering**
+- Fast and scalable search of whole-slide images via self-supervised deep learning [[paper](https://www.nature.com/articles/s41551-022-00929-8)]
+
+**npj Precision Oncology**
+- Image analysis reveals molecularly distinct patterns of tumor-infiltrating lymphocytes in NSCLC associated with treatment outcome [[paper](https://www.nature.com/articles/s41698-022-00277-5)]
+
+**Nature Communications**
+- A deep learning model and human-machine fusion for prediction of EBV-associated gastric cancer from histopathology [[paper](https://www.nature.com/articles/s41467-022-30459-5)]
+
+**npj Digital Medicine**
+- Unleashing the potential of digital pathology data by training computer-aided diagnosis models without human annotations [[paper](https://www.nature.com/articles/s41746-022-00635-4)]
+
+**Nature Cancer**
+- Multimodal data integration using machine learning improves risk stratification of high-grade serous ovarian cancer [[paper](https://www.nature.com/articles/s43018-022-00388-9)]
+
+# 2021
+
+**Nature**
 - AI-based pathology predicts origins for cancers of unknown primary [[paper](https://www.nature.com/articles/s41586-021-03512-4)]
 
 **AAAI 2021**
@@ -1070,6 +1175,9 @@ The following venues were included in the collection and screening scope. Some v
 **Nature Communications**
 - AIATBS [[paper](https://www.nature.com/articles/s41467-021-23913-3)]
 - Cervical WSI Screening [[paper](https://www.nature.com/articles/s41467-021-25296-x)][[code](https://github.com/ShenghuaCheng/Aided-Diagnosis-System-for-Cervical-Cancer-Screening)]
+- An annotation-free whole-slide training approach to pathological classification of lung cancer types using deep learning [[paper](https://www.nature.com/articles/s41467-021-21467-y)]
+- The impact of site-specific digital histology signatures on deep learning model accuracy and bias [[paper](https://www.nature.com/articles/s41467-021-24698-1)]
+
 
 **Nature Biotechnology**
 - Mesmer [[paper](https://www.nature.com/articles/s41587-021-01094-0)][[code](https://github.com/vanvalenlab/deepcell-tf)]
@@ -1100,6 +1208,13 @@ The following venues were included in the collection and screening scope. Some v
 **Bioinformatics**
 - GridNet [[paper](https://academic.oup.com/bioinformatics/article/37/22/4216/6299384)][[code](https://github.com/flatironinstitute/st_gridnet)]
 
+**npj Precision Oncology**
+- Genetic mutation and biological pathway prediction based on whole slide images in breast carcinoma using deep learning [[paper](https://www.nature.com/articles/s41698-021-00225-9)]
+
+**npj Digital Medicine**
+- Interpretable survival prediction for colorectal cancer using deep learning [[paper](https://www.nature.com/articles/s41746-021-00427-2)]
+- Efficient cellular annotation of histopathology slides with crowdsourcing and deep learning [[paper](https://www.nature.com/articles/s41746-021-00534-0)]
+
 ### 2020
 
 **IEEE Transactions on Medical Imaging**
@@ -1127,6 +1242,8 @@ The following venues were included in the collection and screening scope. Some v
 
 **Nature Communications**
 - HE2RNA [[paper](https://www.nature.com/articles/s41467-020-17678-4)][[code](https://github.com/owkin/HE2RNA_code)]
+- Computational analysis of pathological images enables a better diagnosis of TFE3 Xp11.2 translocation renal cell carcinoma [[paper](https://www.nature.com/articles/s41467-020-15671-5)]
+
 
 **Nature Biomedical Engineering**
 - ST-Net [[paper](https://www.nature.com/articles/s41551-020-0578-x)][[code](https://github.com/bryanhe/ST-Net)]
@@ -1142,9 +1259,20 @@ The following venues were included in the collection and screening scope. Some v
 
 **Nature Cancer**
 - Pan-cancer Genetic Alterations [[paper](https://www.nature.com/articles/s43018-020-0087-6)][[code](https://github.com/jnkather/DeepHistology)]
+- Pan-cancer computational histopathology reveals mutations, tumor composition and prognosis [[paper](https://www.nature.com/articles/s43018-020-0085-8)]
+
 
 **bioRxiv**
 - PathFlow-MixMatch [[paper](https://www.biorxiv.org/content/10.1101/2020.03.22.002402.full)][[code](https://github.com/jlevy44/PathFlow-MixMatch)]
+
+**npj Digital Medicine**
+- Pan-cancer diagnostic consensus through searching archival histopathology images using artificial intelligence [[paper](https://www.nature.com/articles/s41746-020-0238-2)]
+
+**Scientific Reports**
+- Resolving challenges in deep learning-based analyses of histopathological images using explanation methods [[paper](https://www.nature.com/articles/s41598-020-62724-2)]
+- Weakly-supervised learning for lung carcinoma classification using deep learning [[paper](https://www.nature.com/articles/s41598-020-66333-x)]
+- Spatial transcriptomics inferred from pathology whole-slide images links tumor heterogeneity to survival in breast and lung cancer [[paper](https://www.nature.com/articles/s41598-020-75708-z)]
+- SHIFT: speedy histological-to-immunofluorescent translation of whole slide images [[paper](https://www.nature.com/articles/s41598-020-74500-3)]
 
 ### 2019
 
@@ -1164,6 +1292,9 @@ The following venues were included in the collection and screening scope. Some v
 **Nature Medicine**
 - Clinical-grade WSI [[paper](https://www.nature.com/articles/s41591-019-0508-1)]
 - MSI from H&E [[paper](https://www.nature.com/articles/s41591-019-0462-y)]
+- Deep learning-based classification of mesothelioma improves prediction of patient outcome [[paper](https://www.nature.com/articles/s41591-019-0583-3)]
+- Near real-time intraoperative brain tumor diagnosis using stimulated Raman histology and deep neural networks [[paper](https://www.nature.com/articles/s41591-019-0715-9)]
+
 
 **ICCV 2019**
 - CAMEL [[paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Li_Camel_A_Weakly_Supervised_Learning_Framework_for_Histopathology_Image_Segmentation_ICCV_2019_paper.html)]
@@ -1180,6 +1311,15 @@ The following venues were included in the collection and screening scope. Some v
 
 **JCO Clinical Cancer Informatics**
 - HistoQC [[paper](https://pubmed.ncbi.nlm.nih.gov/30990737/)][[code](https://github.com/choosehappy/HistoQC)]
+
+**Nature Machine Intelligence**
+- Pathologist-level interpretable whole-slide cancer diagnosis with deep learning [[paper](https://www.nature.com/articles/s42256-019-0052-1)]
+
+**npj Digital Medicine**
+- Similar image search for histopathology: SMILY [[paper](https://www.nature.com/articles/s41746-019-0131-z)]
+
+**Scientific Reports**
+- ARA: accurate, reliable and active histopathological image classification framework with Bayesian deep learning [[paper](https://www.nature.com/articles/s41598-019-50587-1)]
 
 ### 2018
 
@@ -1215,6 +1355,11 @@ The following venues were included in the collection and screening scope. Some v
 **Scientific Reports**
 - Breast Invasion Detection [[paper](https://www.nature.com/articles/srep46450)]
 - QuPath [[paper](https://www.nature.com/articles/s41598-017-17204-5)][[website](https://qupath.github.io/)]
+
+### 2016
+
+**Nature Communications**
+- Predicting non-small cell lung cancer prognosis by fully automated microscopic pathology image features [[paper](https://www.nature.com/articles/ncomms12474)]
 
 ### 2013
 
