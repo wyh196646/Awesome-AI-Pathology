@@ -224,7 +224,17 @@ The following venues were included in the collection and screening scope. Some v
 
 **ICML 2026**
 - Thinking in Scales: Accelerating Gigapixel Pathology Image Analysis via Adaptive Continuous Reasoning [[paper](https://arxiv.org/abs/2605.19491)]
+- Cello: A Universal Cell-wise Feature Aggregation framework for Reliable Pathology Images Analysis [[paper](https://icml.cc/virtual/2026/poster/66532)]
+- Discontinuous Galerkin Neural Operator for Pathology Defocus Deblurring [[paper](https://arxiv.org/abs/2605.23282)]
 - DPsurv: Dual-Prototype Evidential Fusion for Uncertainty-Aware and Interpretable Whole-Slide Image Survival Prediction [[paper](https://arxiv.org/abs/2510.00053)]
+- Federated Distillation for Whole Slide Image via Gaussian-Mixture Feature Alignment and Curriculum Integration [[paper](https://arxiv.org/abs/2605.00578)]
+- FLAG: Foundation model representation with Latent diffusion Alignment via Graph for spatial gene expression prediction [[paper](https://arxiv.org/abs/2605.18055)]
+- HEXST: Hexagonal Shifted-Window Transformer for Spatial Transcriptomics Gene Expression Prediction [[paper](https://arxiv.org/abs/2605.04682)]
+- HiST: A Hierarchical Sparse Transformer for Cross-Modal Spatial Transcriptomics Modeling [[paper](https://icml.cc/virtual/2026/poster/61463)]
+- MoLF: Mixture-of-Latent-Flow for Pan-Cancer Spatial Gene Expression Prediction from Histology [[paper](https://arxiv.org/abs/2602.02282)]
+- SPATIA: Multimodal Generation and Prediction of Spatial Cell Phenotypes [[paper](https://arxiv.org/abs/2507.04704)]
+- Thinking in Scales: Accelerating Gigapixel Pathology Image Analysis via Adaptive Continuous Reasoning [[paper](https://arxiv.org/abs/2605.19491)]
+- Transitive Representation Learning Enhances Histopathology Annotation [[paper](https://icml.cc/virtual/2026/poster/63144)]
 
 **AAAI 2026**
 - Patho-R1: A Multimodal Reinforcement Learning-Based Pathology Expert Reasoner [[paper](https://arxiv.org/abs/2505.11404)][[code](https://github.com/Wenchuan-Zhang/Patho-R1)]
