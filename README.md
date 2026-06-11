@@ -371,6 +371,7 @@ The following venues were included in the collection and screening scope. Some v
 
 **Nature Biomedical Engineering**
 - A robust and scalable framework for hallucination detection in virtual tissue staining and digital pathology [[paper](https://www.nature.com/articles/s41551-025-01421-9)]
+- Generation of synthetic whole-slide image tiles of tumours from RNA-sequencing data via cascaded diffusion models[[paper](https://www.nature.com/articles/s41551-024-01193-8)]
 
 **Medical Image Analysis**
 - AttriMIL: Revisiting attention-based multiple instance learning for whole-slide pathological image classification from a perspective of instance attributes [[paper](https://linkinghub.elsevier.com/retrieve/pii/S1361841525001781)]
@@ -475,6 +476,17 @@ The following venues were included in the collection and screening scope. Some v
 - CPathAgent: An Agent-based Foundation Model for Interpretable High-Resolution Pathology Image Analysis Mimicking Pathologists' Diagnostic Logic [[paper](https://arxiv.org/abs/2505.20510)]
 - HookMIL: Revisiting Context Modeling in Multiple Instance Learning for Computational Pathology [[paper](https://arxiv.org/abs/2512.22188)]
 - PathVQ: Reforming Computational Pathology Foundation Model for Whole Slide Image Analysis via Vector Quantization [[paper](https://arxiv.org/abs/2503.06482)]
+- Learning Relative Gene Expression Trends from Pathology Images in Spatial Transcriptomics [[paper](https://proceedings.neurips.cc/paper_files/paper/2025/hash/7d535a224c8ae54ba75bac0457b6b279-Abstract-Conference.html)]
+- From Pretraining to Pathology: How Noise Leads to Catastrophic Inheritance in Medical Models [[paper](https://proceedings.neurips.cc/paper_files/paper/2025/hash/854ba5f89c3b048265a5e00231ea5477-Abstract-Conference.html)]
+- CPathAgent: An Agent-based Foundation Model for Interpretable High-Resolution Pathology Image Analysis Mimicking Pathologists' Diagnostic Logic [[paper](https://proceedings.neurips.cc/paper_files/paper/2025/hash/933b5d002cf251b3e854d586e55ac58c-Abstract-Conference.html)]
+- Revisiting End-to-End Learning with Slide-level Supervision in Computational Pathology [[paper](https://proceedings.neurips.cc/paper_files/paper/2025/hash/eae33167166b44df7c929f70984c0c0b-Abstract-Conference.html)]
+- MATCH: Multi-faceted Adaptive Topo-Consistency for Semi-Supervised Histopathology Segmentation [[paper](https://proceedings.neurips.cc/paper_files/paper/2025/hash/97e2df4bb8b2f1913657344a693166a2-Abstract-Conference.html)]
+- Semantic and Visual Crop-Guided Diffusion Models for Heterogeneous Tissue Synthesis in Histopathology [[paper](https://proceedings.neurips.cc/paper_files/paper/2025/hash/b6ae90f159bb5d2e48bad834e12bf1d8-Abstract-Conference.html)]
+- THUNDER: Tile-level Histopathology image UNDERstanding benchmark [[paper](https://proceedings.neurips.cc/paper_files/paper/2025/hash/e3a2bd22ef74970b2fff74a16f806237-Abstract-Datasets_and_Benchmarks_Track.html)] - STARC-9: A Large-scale Dataset for Multi-Class Tissue Classification for CRC Histopathology [[paper](https://proceedings.neurips.cc/paper_files/paper/2025/hash/f90cd97544e17dfd76af5c4f1b698a50-Abstract-Datasets_and_Benchmarks_Track.html)]
+- Navigating the MIL Trade-Off: Flexible Pooling for Whole Slide Image Classification [[paper](https://proceedings.neurips.cc/paper_files/paper/2025/hash/8bacb23a4f6b6f52dd5c81c15b4e4ac5-Abstract-Conference.html)]
+- MAPLE: Multi-scale Attribute-enhanced Prompt Learning for Few-shot Whole Slide Image Classification [[paper](https://proceedings.neurips.cc/paper_files/paper/2025/hash/a94a8800a4b0af45600bab91164849df-Abstract-Conference.html)]
+- GeneFlow: Translation of Single-cell Gene Expression to Histopathological Images via Rectified Flow [[paper](https://proceedings.neurips.cc/paper_files/paper/2025/hash/40ae6c3a8dea3b20ea2352b33f52243f-Abstract-Conference.html)]
+- Sequential Attention-based Sampling for Histopathological Analysis [[paper](https://proceedings.neurips.cc/paper_files/paper/2025/hash/e45e17a501d2c77511eb29d138b33a01-Abstract-Conference.html)]
 
 **ICLR 2025**
 - Interpretable Vision-Language Survival Analysis with Ordinal Inductive Bias for Computational Pathology [[paper](https://openreview.net/forum?id=trj2Jq8riA)]
@@ -507,17 +519,34 @@ The following venues were included in the collection and screening scope. Some v
 
 **IJCAI 2025**
 - POMP: Pathology-omics Multimodal Pre-training Framework for Cancer Survival Prediction [[paper](https://www.ijcai.org/proceedings/2025/869)]
-- RPMIL: Rethinking Uncertainty-Aware Probabilistic Multiple Instance Learning for Whole Slide Pathology Diagnosis [[paper](https://www.ijcai.org/proceedings/2025/275)]
 - Self-calibration Enhanced Whole Slide Pathology Image Analysis [[paper](https://www.ijcai.org/proceedings/2025/192)]
-- SMILE: a Scale-aware Multiple Instance Learning Method for Multicenter STAS Lung Cancer Histopathology Diagnosis [[paper](https://www.ijcai.org/proceedings/2025/1093)]
 - MRePath [[paper](https://www.ijcai.org/proceedings/2025/0201.pdf)][[code](https://github.com/MCPathology/MRePath)]
+- Curriculum Hierarchical Knowledge Distillation for Bias-Free Survival Prediction [[paper](https://www.ijcai.org/proceedings/2025/149)]
+- Self-calibration Enhanced Whole Slide Pathology Image Analysis [[paper](https://www.ijcai.org/proceedings/2025/192)]
+- Multimodal Cancer Survival Analysis via Hypergraph Learning with Cross-Modality Rebalance [[paper](https://www.ijcai.org/proceedings/2025/201)]
+- Advancing Stain Transfer for Multi-Biomarkers: A Human Annotation-Free Method Based on Auxiliary Task Supervision [[paper](https://www.ijcai.org/proceedings/2025/236)]
+- RPMIL: Rethinking Uncertainty-Aware Probabilistic Multiple Instance Learning for Whole Slide Pathology Diagnosis [[paper](https://www.ijcai.org/proceedings/2025/275)]
+- Image-Enhanced Hybrid Encoding with Reinforced Contrastive Learning for Spatial Domain Identification in Spatial Transcriptomics [[paper](https://www.ijcai.org/proceedings/2025/864)]
+- POMP: Pathology-omics Multimodal Pre-training Framework for Cancer Survival Prediction [[paper](https://www.ijcai.org/proceedings/2025/869)]
+- SMILE: A Scale-aware Multiple Instance Learning Method for Multicenter STAS Lung Cancer Histopathology Diagnosis [[paper](https://www.ijcai.org/proceedings/2025/1093)]
+- A Survey of Pathology Foundation Model: Progress and Future Directions [[paper](https://www.ijcai.org/proceedings/2025/1193)]
 
 **ACM MM 2025**
-- Dual-Prototype Learning in Multiple Instance Learning for Histopathology Image Classification [[paper](https://dl.acm.org/doi/10.1145/3746027.3755663)]
 - Pathology-Aware Reconstruction with Discriminative Knowledge Boosting Alignment for Che-Xray Vision-Language Pre-training [[paper](https://dl.acm.org/doi/10.1145/3746027.3755336)]
+- HER2 Expression Prediction with Flexible Multi-Modal Inputs via Dynamic Bidirectional Reconstruction [[paper](https://dl.acm.org/doi/10.1145/3746027.3755619)]
+- Dynamic Residual Encoding with Slide-Level Contrastive Learning for End-to-End Whole Slide Image Representation [[paper](https://dl.acm.org/doi/10.1145/3746027.3755469)]
+- VLM-based Prompts as the Optimal Assistant for Unpaired Histopathology Virtual Staining [[paper](https://dl.acm.org/doi/10.1145/3746027.3755105)]
+- Counting by Points: Density-Guided Weakly-Supervised Nuclei Segmentation in Histopathological Images [[paper](https://dl.acm.org/doi/10.1145/3746027.3754883)]
+- Domain-Specific Interactive Prompting for Generalized Nuclei Classification [[paper](https://dl.acm.org/doi/10.1145/3746027.3755012)]
+- PRINTER: Deformation-Aware Adversarial Learning for Virtual IHC Staining with In Situ Fidelity [[paper](https://dl.acm.org/doi/10.1145/3746027.3755487)]
+- Efficient Multi-Slide Visual-Language Feature Fusion for Placental Disease Classification [[paper](https://dl.acm.org/doi/10.1145/3746027.3755262)]
+- Dual-Prototype Learning in Multiple Instance Learning for Histopathology Image Classification [[paper](https://dl.acm.org/doi/10.1145/3746027.3755663)]
+- PREMISE: Individual Preference-aware Multi-modal Cooperation for Survival Prediction [[paper](https://dl.acm.org/doi/10.1145/3746027.3755079)]
+- Single Domain Generalization for Multimodal Cross-Cancer Prognosis via Dirac Rebalancer and Distribution Entanglement [[paper](https://dl.acm.org/doi/10.1145/3746027.3754838)]
+- TopoImages: Incorporating Local Topology Encoding into Deep Learning Models for Medical Image Classification [[paper](https://dl.acm.org/doi/10.1145/3746027.3755546)]
 
-**Computer Vision – ECCV 2024**
-- Co-synthesis of Histopathology Nuclei Image-Label Pairs Using a Context-Conditioned Joint Diffusion Model [[paper](https://link.springer.com/10.1007/978-3-031-72624-8_9)]
+
+
 
 **IJCV 2025**
 - Multiple Instance Learning Framework with Masked Hard Instance Mining for Gigapixel Histopathology Image Analysis [[paper](https://link.springer.com/10.1007/s11263-025-02587-0)]
@@ -678,6 +707,9 @@ The following venues were included in the collection and screening scope. Some v
 - SurvPath [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Shao_Modeling_Dense_Multimodal_Interactions_Between_Biological_Pathways_and_Histology_for_CVPR_2024_paper.html)][[code](https://github.com/mahmoodlab/SurvPath)]
 - CPLIP [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Javed_CPLIP_Zero-Shot_Learning_for_Histopathology_with_Comprehensive_Vision-Language_Alignment_CVPR_2024_paper.html)][[website](https://cplip.github.io/)]
 - Quilt-LLaVA [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Seyfioglu_Quilt-LLaVA_Visual_Instruction_Tuning_by_Extracting_Localized_Narratives_from_Open-Source_CVPR_2024_paper.html)][[code](https://github.com/aldraus/quilt-llava)]
+
+**ECCV 2024**
+- Co-synthesis of Histopathology Nuclei Image-Label Pairs Using a Context-Conditioned Joint Diffusion Model [[paper](https://link.springer.com/10.1007/978-3-031-72624-8_9)]
 
 **NeurIPS 2024**
 - Free Lunch in Pathology Foundation Model: Task-specific Model Adaptation with Concept-Guided Feature Enhancement [[paper](https://openreview.net/forum?id=dwYekpbmYG)]
