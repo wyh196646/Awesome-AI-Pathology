@@ -83,6 +83,9 @@ The following venues were included in the collection and screening scope. Some v
 # Papers
 
 # 2026
+**Nature**
+- Clinical-grade autonomous cytopathology through whole-slide edge tomography [[paper](https://www.nature.com/articles/s41586-025-10094-y)]
+
 
 **Nature Medicine**
 - AI-enabled virtual spatial proteomics from histopathology for interpretable biomarker discovery in lung cancer [[paper](https://www.nature.com/articles/s41591-025-04060-4)]
@@ -679,7 +682,13 @@ The following venues were included in the collection and screening scope. Some v
 **European Journal of Cancer**
 - PARP Benefit Prediction [[paper](https://www.sciencedirect.com/science/article/pii/S0959804924018069)]
 
-### 2024
+#2024
+**Nature 2024**
+- A whole-slide foundation model for digital pathology from real-world data [[paper](https://www.nature.com/articles/s41586-024-07441-w)]
+- A pathology foundation model for cancer diagnosis and prognosis prediction [[paper](https://www.nature.com/articles/s41586-024-07894-z)]
+- Foundation models for fast, label-free detection of glioma infiltration [[paper](https://www.nature.com/articles/s41586-024-08169-3)]
+- A vision–language foundation model for precision oncology [[paper](https://www.nature.com/articles/s41586-024-08378-w)]
+
 
 **Nature Medicine**
 - A visual-language foundation model for computational pathology [[paper](https://www.nature.com/articles/s41591-024-02856-4)]
@@ -1009,7 +1018,9 @@ The following venues were included in the collection and screening scope. Some v
 **SoftwareX**
 - histolab [[paper](https://www.sciencedirect.com/science/article/pii/S2352711022001558)][[code](https://github.com/histolab/histolab)]
 
-### 2021
+#2021
+**Nature 2021**
+- AI-based pathology predicts origins for cancers of unknown primary [[paper](https://www.nature.com/articles/s41586-021-03512-4)]
 
 **AAAI 2021**
 - Diagnose Like A Pathologist: Weakly-Supervised Pathologist-Tree Network for Slide-Level Immunohistochemical Scoring [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/16076)]
