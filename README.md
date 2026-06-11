@@ -82,7 +82,7 @@ The following venues were included in the collection and screening scope. Some v
 
 # Papers
 
-## 2026
+# 2026
 
 **Nature Medicine**
 - AI-enabled virtual spatial proteomics from histopathology for interpretable biomarker discovery in lung cancer [[paper](https://www.nature.com/articles/s41591-025-04060-4)]
@@ -217,10 +217,13 @@ The following venues were included in the collection and screening scope. Some v
 - ASMIL: Attention-Stabilized Multiple Instance Learning for Whole-Slide Imaging [[paper](https://openreview.net/forum?id=6m8uYPDdXz)]
 - Mixture of Mini Experts: Overcoming the Linear Layer Bottleneck in Multiple Instance Learning for Gigapixel Whole Slide Imaging [[paper](https://openreview.net/forum?id=S5Io33pc78)]
 - Fusing Pixels and Genes: Spatially-Aware Learning in Computational Pathology [[paper](https://openreview.net/forum?id=uVXO6gzVzj)]
-- HistoPrism: Unlocking Functional Pathway Analysis from Pan-Cancer Histology via Gene Expression Prediction [[paper](https://openreview.net/forum?id=6dTHxb9JuA)]
 - Exploiting Low-Dimensional Manifold of Features for Few-Shot Whole Slide Image Classification [[paper](https://openreview.net/forum?id=HBP9uSEYME)]
 - Structural Prognostic Event Modeling for Multimodal Cancer Survival Analysis [[paper](https://openreview.net/forum?id=WqCRSn2WAY)]
 - PathChat-SegR1: Reasoning Segmentation in Pathology via SO-GRPO [[paper](https://openreview.net/forum?id=DQESI75YrD)]
+- Exploiting Low-Dimensional Manifold of Features for Few-Shot Whole Slide Image Classification [[paper](https://openreview.net/forum?id=HBP9uSEYME)]
+- Histopathology-Genomics Multi-modal Structural Representation Learning for Data-Efficient Precision Oncology [[paper](https://openreview.net/forum?id=24QX6XpvSL)]
+- HistoPrism: Unlocking Functional Pathway Analysis from Pan-Cancer Histology via Gene Expression Prediction [[paper](https://openreview.net/forum?id=6dTHxb9JuA)]
+- Disco: Densely-overlapping Cell Instance Segmentation via Adjacency-aware Collaborative Coloring [[paper](https://openreview.net/forum?id=1W7RRQl3lH)]
 
 **ICML 2026**
 - Thinking in Scales: Accelerating Gigapixel Pathology Image Analysis via Adaptive Continuous Reasoning [[paper](https://arxiv.org/abs/2605.19491)]
@@ -335,7 +338,10 @@ The following venues were included in the collection and screening scope. Some v
 **Journal of Pathology Informatics**
 - Breast pTNM Stage Prediction [[paper](https://www.sciencedirect.com/science/article/pii/S2153353926001021)]
 
-## 2025
+
+---
+
+# 2025
 
 **Nature Medicine**
 - A multimodal whole-slide foundation model for pathology [[paper](https://www.nature.com/articles/s41591-025-03982-3)]
@@ -424,9 +430,9 @@ The following venues were included in the collection and screening scope. Some v
 - Learning Heterogeneous Tissues with Mixture of Experts for Gigapixel Whole Slide Images [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Wu_Learning_Heterogeneous_Tissues_with_Mixture_of_Experts_for_Gigapixel_Whole_CVPR_2025_paper.html)]
 - Distilled Prompt Learning for Incomplete Multimodal Survival Prediction [[paper](https://arxiv.org/abs/2503.01653)]
 - Fast and Accurate Gigapixel Pathological Image Classification with Hierarchical Distillation Multi-Instance Learning [[paper](https://arxiv.org/abs/2502.21130)]
-- MERGE [[paper](https://arxiv.org/abs/2412.02601)][[code](https://github.com/ags3927/MERGE)]
-- ODA-GAN [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Wang_ODA-GAN_Orthogonal_Decoupling_Alignment_GAN_Assisted_by_Weakly-supervised_Learning_for_CVPR_2025_paper.html)][[code](https://github.com/ittong/ODA-GAN)]
-- ZoomLDM [[paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Yellapragada_ZoomLDM_Latent_Diffusion_Model_for_Multi-scale_Image_Generation_CVPR_2025_paper.pdf)][[code](https://github.com/cvlab-stonybrook/ZoomLDM)]
+- Multi-faceted Hierarchical Graph-based GNN for Gene Expression Prediction from Whole Slide Histopathology Images [[paper](https://arxiv.org/abs/2412.02601)][[code](https://github.com/ags3927/MERGE)]
+- ODA-GAN: Orthogonal Decoupling Alignment GAN Assisted by Weakly-supervised Learning for Virtual Immunohistochemistry Staining [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Wang_ODA-GAN_Orthogonal_Decoupling_Alignment_GAN_Assisted_by_Weakly-supervised_Learning_for_CVPR_2025_paper.html)][[code](https://github.com/ittong/ODA-GAN)]
+- ZoomLDM: Latent Diffusion Model for multi-scale image generation [[paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Yellapragada_ZoomLDM_Latent_Diffusion_Model_for_Multi-scale_Image_Generation_CVPR_2025_paper.pdf)][[code](https://github.com/cvlab-stonybrook/ZoomLDM)]
 
 **ICCV 2025**
 - AcZeroTS: Active Learning for Zero-shot Tissue Segmentation in Pathology Images [[paper](https://iccv.thecvf.com/virtual/2025/poster/2172)]
