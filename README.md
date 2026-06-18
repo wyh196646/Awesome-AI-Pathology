@@ -235,6 +235,8 @@ The following venues were included in the collection and screening scope. Some v
 - Histopathology-Genomics Multi-modal Structural Representation Learning for Data-Efficient Precision Oncology [[paper](https://openreview.net/forum?id=24QX6XpvSL)]
 - HistoPrism: Unlocking Functional Pathway Analysis from Pan-Cancer Histology via Gene Expression Prediction [[paper](https://openreview.net/forum?id=6dTHxb9JuA)]
 - Disco: Densely-overlapping Cell Instance Segmentation via Adjacency-aware Collaborative Coloring [[paper](https://openreview.net/forum?id=1W7RRQl3lH)]
+- Diffusion Generative Modeling for Spatially Resolved Gene Expression Inference from Histology Images[[paper](https://proceedings.iclr.cc/paper_files/paper/2025/file/31cc93d156b4ab1514d71ca5147a6e67-Paper-Conference.pdf)]
+- 
 
 **ICML 2026**✅
 - Thinking in Scales: Accelerating Gigapixel Pathology Image Analysis via Adaptive Continuous Reasoning [[paper](https://arxiv.org/abs/2605.19491)]
@@ -249,6 +251,8 @@ The following venues were included in the collection and screening scope. Some v
 - SPATIA: Multimodal Generation and Prediction of Spatial Cell Phenotypes [[paper](https://arxiv.org/abs/2507.04704)]
 - Thinking in Scales: Accelerating Gigapixel Pathology Image Analysis via Adaptive Continuous Reasoning [[paper](https://arxiv.org/abs/2605.19491)]
 - Transitive Representation Learning Enhances Histopathology Annotation [[paper](https://icml.cc/virtual/2026/poster/63144)]
+- RNA-FM: Flow-Matching Generative Model for  Genome-wide RNA-Seq Prediction[[paper](https://icml.cc/virtual/2026/poster/60953)]
+- 
 
 **AAAI 2026**✅
 - Patho-R1: A Multimodal Reinforcement Learning-Based Pathology Expert Reasoner [[paper](https://arxiv.org/abs/2505.11404)][[code](https://github.com/Wenchuan-Zhang/Patho-R1)]
