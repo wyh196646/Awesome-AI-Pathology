@@ -220,6 +220,7 @@ The following venues were included in the collection and screening scope. Some v
 - Uni-Hema: Unified Model for Digital Hematopathology[[paper](https://openaccess.thecvf.com/content/CVPR2026/papers/Rehman_Uni-Hema_Unified_Model_for_Digital_Hematopathology_CVPR_2026_paper.pdf)]
 - Virtual Immunohistochemistry Staining with Dual-Aligned Multi-Task Feature Guidance[[paper](https://openaccess.thecvf.com/content/CVPR2026/papers/Xie_Virtual_Immunohistochemistry_Staining_with_Dual-Aligned_Multi-Task_Feature_Guidance_CVPR_2026_paper.pdf)]
 - Multi-View Hierarchical Alignment Learning for Spatial Transcriptomics[[paper](https://openaccess.thecvf.com/content/CVPR2026/papers/Zhu_Multi-View_Hierarchical_Alignment_Learning_for_Spatial_Transcriptomics_CVPR_2026_paper.pdf)]
+- Every Error has Its Magnitude: Asymmetric Mistake Severity Training for Multiclass Multiple Instance Learning[[paper](https://openaccess.thecvf.com/content/CVPR2026/papers/Hong_Every_Error_has_Its_Magnitude_Asymmetric_Mistake_Severity_Training_for_CVPR_2026_paper.pdf)]
   
 
 **ICLR 2026**✅
