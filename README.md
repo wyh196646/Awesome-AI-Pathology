@@ -403,6 +403,7 @@ The following venues were included in the collection and screening scope. Some v
 - M4: Multi-proxy multi-gate mixture of experts network for multiple instance learning in histopathology image analysis [[paper](https://linkinghub.elsevier.com/retrieve/pii/S1361841525001082)]
 - Self-interactive learning: Fusion and evolution of multi-scale histomorphology features for molecular traits prediction in computational pathology [[paper](https://linkinghub.elsevier.com/retrieve/pii/S1361841524003621)]
 - PathFL [[paper](https://www.sciencedirect.com/science/article/pii/S1361841525002178)][[code](https://github.com/yuanzhang7/PathFL)]
+- MoHD: Multi-mOdal survival prediction through Hierarchical Decoupling of whole-slide image pyramids and genomics[[paper](https://www.sciencedirect.com/science/article/pii/S1361841526001672)]
 
 **IEEE Transactions on Medical Imaging**
 - Histo-Genomic Knowledge Association for Cancer Prognosis From Histopathology Whole Slide Images [[paper](https://ieeexplore.ieee.org/document/10830530/)]
