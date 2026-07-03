@@ -253,7 +253,7 @@ The following venues were included in the collection and screening scope. Some v
 - Thinking in Scales: Accelerating Gigapixel Pathology Image Analysis via Adaptive Continuous Reasoning [[paper](https://arxiv.org/abs/2605.19491)]
 - Transitive Representation Learning Enhances Histopathology Annotation [[paper](https://icml.cc/virtual/2026/poster/63144)]
 - RNA-FM: Flow-Matching Generative Model for  Genome-wide RNA-Seq Prediction[[paper](https://icml.cc/virtual/2026/poster/60953)]
-- 
+- Mitigating Gradient Pathology in PINNs through Aligned Constraint[[paper](https://arxiv.org/pdf/2605.25001)]
 
 **AAAI 2026**✅
 - Patho-R1: A Multimodal Reinforcement Learning-Based Pathology Expert Reasoner [[paper](https://arxiv.org/abs/2505.11404)][[code](https://github.com/Wenchuan-Zhang/Patho-R1)]
