@@ -241,7 +241,7 @@ The following venues were included in the collection and screening scope. Some v
 
 **ICML 2026**✅
 - Thinking in Scales: Accelerating Gigapixel Pathology Image Analysis via Adaptive Continuous Reasoning [[paper](https://arxiv.org/abs/2605.19491)]
-- Cello: A Universal Cell-wise Feature Aggregation framework for Reliable Pathology Images Analysis [[paper](https://icml.cc/virtual/2026/poster/66532)]
+- Cello: A Universal Cell-wise Feature Aggregation framework for Reliable Pathology Images Analysis [[paper](https://openreview.net/pdf?id=2qc3SXdpns)]
 - Discontinuous Galerkin Neural Operator for Pathology Defocus Deblurring [[paper](https://arxiv.org/abs/2605.23282)]
 - DPsurv: Dual-Prototype Evidential Fusion for Uncertainty-Aware and Interpretable Whole-Slide Image Survival Prediction [[paper](https://arxiv.org/abs/2510.00053)]
 - Federated Distillation for Whole Slide Image via Gaussian-Mixture Feature Alignment and Curriculum Integration [[paper](https://arxiv.org/abs/2605.00578)]
