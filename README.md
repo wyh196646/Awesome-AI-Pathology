@@ -339,6 +339,8 @@ The following venues were included in the collection and screening scope. Some v
 
 **medRxiv**
 - DeepSpot-M [[paper](https://www.medrxiv.org/content/10.64898/2026.06.19.26356060v1)][[code](https://github.com/ratschlab/DeepSpotM)]
+**Bioinformatics**
+- AESTETIK [[paper](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag316/8692433)][[code](https://github.com/ratschlab/aestetik)]
 
 **bioRxiv**
 - H2O: A Foundation Model Bridging Histopathology to Spatial Multi-Omics Profiling [[paper](https://www.biorxiv.org/content/10.64898/2026.04.21.717342v1)]
