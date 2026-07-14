@@ -337,6 +337,9 @@ The following venues were included in the collection and screening scope. Some v
 - PBSBench [[paper](https://arxiv.org/abs/2604.17570)]
 - AtlasPatch [[paper](https://arxiv.org/abs/2602.03998)][[code](https://github.com/AtlasAnalyticsLab/AtlasPatch)]
 
+**medRxiv**
+- DeepSpot-M [[paper](https://www.medrxiv.org/content/10.64898/2026.06.19.26356060v1)][[code](https://github.com/ratschlab/DeepSpotM)]
+
 **bioRxiv**
 - H2O: A Foundation Model Bridging Histopathology to Spatial Multi-Omics Profiling [[paper](https://www.biorxiv.org/content/10.64898/2026.04.21.717342v1)]
 - InSTaPath: Integrating Spatial Transcriptomics and histoPathology Images via Multimodal Topic Learning [[paper](https://www.biorxiv.org/content/10.64898/2026.03.16.712067v1)]
