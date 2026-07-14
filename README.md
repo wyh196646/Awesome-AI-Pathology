@@ -501,6 +501,7 @@ The following venues were included in the collection and screening scope. Some v
 - PathFinder [[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Ghezloo_PathFinder_A_Multi-Modal_Multi-Agent_System_for_Medical_Diagnostic_Decision-Making_Applied_ICCV_2025_paper.html)]
 
 **NeurIPS 2025** ✅
+- DeepSpot2Cell [[paper](https://openreview.net/forum?id=ofCkwXQKaz)][[code](https://github.com/ratschlab/DeepSpot2Cell)]
 - Cancer Survival Analysis via Zero-shot Tumor Microenvironment Segmentation on Low-resolution Whole Slide Pathology Images [[paper](https://openreview.net/forum?id=BkSRQ1y37l)]
 - D-VST: Diffusion Transformer for Pathology-Correct Tone-Controllable Cross-Dye Virtual Staining of Whole Slide Images [[paper](https://openreview.net/forum?id=jl0O0MYLyh)]
 - From Pretraining to Pathology: How Noise Leads to Catastrophic Inheritance in Medical Models [[paper](https://openreview.net/forum?id=9c8J2C7ajq)]
