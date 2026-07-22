@@ -336,6 +336,7 @@ The following venues were included in the collection and screening scope. Some v
 - MLLM-HWSI [[paper](https://arxiv.org/abs/2603.23067)]
 - PBSBench [[paper](https://arxiv.org/abs/2604.17570)]
 - AtlasPatch [[paper](https://arxiv.org/abs/2602.03998)][[code](https://github.com/AtlasAnalyticsLab/AtlasPatch)]
+- From Correlation to Causation: Max-Pooling-Based Multi-Instance Learning Leads to More Robust Whole Slide Image Classification[[paper](https://arxiv.org/abs/2408.09449)]
 
 **bioRxiv**
 - H2O: A Foundation Model Bridging Histopathology to Spatial Multi-Omics Profiling [[paper](https://www.biorxiv.org/content/10.64898/2026.04.21.717342v1)]
