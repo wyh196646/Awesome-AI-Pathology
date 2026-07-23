@@ -338,6 +338,11 @@ The following venues were included in the collection and screening scope. Some v
 - AtlasPatch [[paper](https://arxiv.org/abs/2602.03998)][[code](https://github.com/AtlasAnalyticsLab/AtlasPatch)]
 - From Correlation to Causation: Max-Pooling-Based Multi-Instance Learning Leads to More Robust Whole Slide Image Classification[[paper](https://arxiv.org/abs/2408.09449)]
 
+**medRxiv**
+- DeepSpot-M [[paper](https://www.medrxiv.org/content/10.64898/2026.06.19.26356060v1)][[code](https://github.com/ratschlab/DeepSpotM)]
+**Bioinformatics**
+- AESTETIK [[paper](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag316/8692433)][[code](https://github.com/ratschlab/aestetik)]
+
 **bioRxiv**
 - H2O: A Foundation Model Bridging Histopathology to Spatial Multi-Omics Profiling [[paper](https://www.biorxiv.org/content/10.64898/2026.04.21.717342v1)]
 - InSTaPath: Integrating Spatial Transcriptomics and histoPathology Images via Multimodal Topic Learning [[paper](https://www.biorxiv.org/content/10.64898/2026.03.16.712067v1)]
@@ -499,6 +504,7 @@ The following venues were included in the collection and screening scope. Some v
 - PathFinder [[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Ghezloo_PathFinder_A_Multi-Modal_Multi-Agent_System_for_Medical_Diagnostic_Decision-Making_Applied_ICCV_2025_paper.html)]
 
 **NeurIPS 2025** ✅
+- DeepSpot2Cell [[paper](https://openreview.net/forum?id=ofCkwXQKaz)][[code](https://github.com/ratschlab/DeepSpot2Cell)]
 - Cancer Survival Analysis via Zero-shot Tumor Microenvironment Segmentation on Low-resolution Whole Slide Pathology Images [[paper](https://openreview.net/forum?id=BkSRQ1y37l)]
 - D-VST: Diffusion Transformer for Pathology-Correct Tone-Controllable Cross-Dye Virtual Staining of Whole Slide Images [[paper](https://openreview.net/forum?id=jl0O0MYLyh)]
 - From Pretraining to Pathology: How Noise Leads to Catastrophic Inheritance in Medical Models [[paper](https://openreview.net/forum?id=9c8J2C7ajq)]
