@@ -297,6 +297,11 @@ The following venues were included in the collection and screening scope. Some v
 - Learning Structure-Aware Foundational Representation of Rat Testicular Tubules Using Multiple Instance Learning [[paper](https://openreview.net/forum?id=kRoyRIgfsb)]
 
 **arXiv**
+- Conserved Immune Topology Improves Pathology Foundation Model Generalization for Cross-Cancer MSI-H Prediction [[paper](https://arxiv.org/abs/2609.05182)]
+- TAP-Path: Task-Adaptive Structural and Token Pruning for Efficient and Trustworthy Pathology Foundation Models [[paper](https://arxiv.org/abs/2609.04071)]
+- Computationally Efficient Pathology Segmentation using Knowledge Distillation from Foundation Models [[paper](https://arxiv.org/abs/2609.03947)]
+- Benchmarking Vision-Language Models for Automated Pathology Diagnosis and Report Generation [[paper](https://arxiv.org/abs/2609.00866)]
+- MUFASA: An Information Utility-Aware Preprocessing Framework for Reliable Model Reasoning in Computational Pathology [[paper](https://arxiv.org/abs/2609.00424)]
 - A Breast Vision Pathology Foundation Model for Real-world Clinical Utility [[paper](https://arxiv.org/abs/2605.08207)]
 - A Clinically Validated Foundation Model for Comprehensive Lung Pathology Interpretation [[paper](https://arxiv.org/abs/2605.25878)]
 - A Generative Foundation Model for Multimodal Histopathology [[paper](https://arxiv.org/abs/2604.03635)]
