@@ -297,6 +297,16 @@ The following venues were included in the collection and screening scope. Some v
 - Learning Structure-Aware Foundational Representation of Rat Testicular Tubules Using Multiple Instance Learning [[paper](https://openreview.net/forum?id=kRoyRIgfsb)]
 
 **arXiv**
+- CAR-MIL: Counterfactual Attention Regularization for Multiple Instance Learning [[paper](https://arxiv.org/abs/2609.08419)]
+- STP-BENCH: A Unified Systematic Benchmark for Virtual Spatial Transcriptomics from Histopathology Images [[paper](https://arxiv.org/abs/2609.05956)][[code](https://github.com/NEXGEM/STP-Bench)]
+- Sparse concept attribution for histomorphological hypothesis generation from whole-slide classifiers [[paper](https://arxiv.org/abs/2609.02985)]
+- Seeing Beyond the Lesion: Disease Recognition from Reactive CNS Tissue [[paper](https://arxiv.org/abs/2609.02390)]
+- Mesoscopic Light Localization and Inverse Participation Ratio Analysis of Tissue Structural Disorder for Optical Cancer Detection [[paper](https://arxiv.org/abs/2609.01960)]
+- FTU-Seek: Foundation Model-Guided Hard-Negative Learning for Sparse Functional Tissue Unit Segmentation [[paper](https://arxiv.org/abs/2609.00704)]
+- CRAD: Class-wise Reliability-Aware Distillation for Decentralized Heterogeneous Federated Learning [[paper](https://arxiv.org/abs/2609.00446)]
+- SlideMix: Enhancing Whole Slide Image Analysis via Multimodal Shuffling [[paper](https://arxiv.org/abs/2609.00396)]
+- SlideBank: A Persistent Hierarchical Evidence Bank for Consistent Whole-Slide Reasoning [[paper](https://arxiv.org/abs/2609.00342)]
+- Reliable Benchmarking of Artifact Detection in Computational Pathology: A Reproducibility and Uncertainty Analysis [[paper](https://arxiv.org/abs/2608.30835)]
 - Conserved Immune Topology Improves Pathology Foundation Model Generalization for Cross-Cancer MSI-H Prediction [[paper](https://arxiv.org/abs/2609.05182)]
 - TAP-Path: Task-Adaptive Structural and Token Pruning for Efficient and Trustworthy Pathology Foundation Models [[paper](https://arxiv.org/abs/2609.04071)]
 - Computationally Efficient Pathology Segmentation using Knowledge Distillation from Foundation Models [[paper](https://arxiv.org/abs/2609.03947)]
