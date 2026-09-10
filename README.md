@@ -297,6 +297,7 @@ The following venues were included in the collection and screening scope. Some v
 - Learning Structure-Aware Foundational Representation of Rat Testicular Tubules Using Multiple Instance Learning [[paper](https://openreview.net/forum?id=kRoyRIgfsb)]
 
 **arXiv**
+- CHIMERA Challenge Task 2 and 3: Response Subtypes Classification and Progression Survival Prediction in Bladder Cancer Patients using Multimodal Datasets [[paper](https://arxiv.org/abs/2609.09510)]
 - CAR-MIL: Counterfactual Attention Regularization for Multiple Instance Learning [[paper](https://arxiv.org/abs/2609.08419)]
 - STP-BENCH: A Unified Systematic Benchmark for Virtual Spatial Transcriptomics from Histopathology Images [[paper](https://arxiv.org/abs/2609.05956)][[code](https://github.com/NEXGEM/STP-Bench)]
 - Sparse concept attribution for histomorphological hypothesis generation from whole-slide classifiers [[paper](https://arxiv.org/abs/2609.02985)]
