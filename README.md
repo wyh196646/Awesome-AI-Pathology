@@ -306,6 +306,7 @@ The following venues were included in the collection and screening scope. Some v
 
 **arXiv**
 
+- BEACON: A Versatile Accelerator for Computational Pathology Applications [[paper](https://arxiv.org/abs/2609.11044)]
 - CHIMERA Challenge Task 2 and 3: Response Subtypes Classification and Progression Survival Prediction in Bladder Cancer Patients using Multimodal Datasets [[paper](https://arxiv.org/abs/2609.09510)]
 - CAR-MIL: Counterfactual Attention Regularization for Multiple Instance Learning [[paper](https://arxiv.org/abs/2609.08419)][[code](https://github.com/ImaneCR/CAR-MIL)]
 - STP-BENCH: A Unified Systematic Benchmark for Virtual Spatial Transcriptomics from Histopathology Images [[paper](https://arxiv.org/abs/2609.05956)][[code](https://github.com/NEXGEM/STP-Bench)]
