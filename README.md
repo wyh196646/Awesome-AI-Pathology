@@ -306,6 +306,7 @@ The following venues were included in the collection and screening scope. Some v
 
 **arXiv**
 
+- HemaHier: Chain-Conditioned Ordinal Hierarchies for Lineage-Aware Bone-Marrow Cytology [[paper](https://arxiv.org/abs/2609.12835)][[code](https://github.com/xmindflow/HemaHier)]
 - BEACON: A Versatile Accelerator for Computational Pathology Applications [[paper](https://arxiv.org/abs/2609.11044)]
 - CHIMERA Challenge Task 2 and 3: Response Subtypes Classification and Progression Survival Prediction in Bladder Cancer Patients using Multimodal Datasets [[paper](https://arxiv.org/abs/2609.09510)]
 - CAR-MIL: Counterfactual Attention Regularization for Multiple Instance Learning [[paper](https://arxiv.org/abs/2609.08419)][[code](https://github.com/ImaneCR/CAR-MIL)]
