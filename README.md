@@ -306,6 +306,9 @@ The following venues were included in the collection and screening scope. Some v
 
 **arXiv**
 
+- End-to-End Cell Detection via Instance-aware Graph Modeling [[paper](https://arxiv.org/abs/2609.15354)][[code](https://github.com/RuochenLiu23/IGM)]
+- Sharing standardized image-derived data in computational pathology using DICOM [[paper](https://arxiv.org/abs/2609.14530)]
+- Causal multi-modal AI for personalized chemosensitivity prediction [[paper](https://arxiv.org/abs/2609.13567)]
 - HemaHier: Chain-Conditioned Ordinal Hierarchies for Lineage-Aware Bone-Marrow Cytology [[paper](https://arxiv.org/abs/2609.12835)][[code](https://github.com/xmindflow/HemaHier)]
 - BEACON: A Versatile Accelerator for Computational Pathology Applications [[paper](https://arxiv.org/abs/2609.11044)]
 - CHIMERA Challenge Task 2 and 3: Response Subtypes Classification and Progression Survival Prediction in Bladder Cancer Patients using Multimodal Datasets [[paper](https://arxiv.org/abs/2609.09510)]
