@@ -10,7 +10,7 @@ Awesome AI Pathology papers, including top AI conferences and journals such as C
 
 ## Highlights
 
-- 📚 1,500+ curated papers in computational pathology
+- 📚 1,600+ curated papers in computational pathology
 - 🧠 Foundation models, WSI analysis, VLMs, agents, and spatial omics
 - 🏛️ Top conferences and journals: CVPR, ICCV, NeurIPS, ICML, ICLR, MICCAI, MIDL, Nature, Cell, Lancet, IEEE TMI, MedIA
 - 📊 Year-by-year and venue-by-venue paper tracking
@@ -75,6 +75,7 @@ The following venues were included in the collection and screening scope. Some v
 **Preprints / Technical Reports**
 - arXiv
 - bioRxiv
+- medRxiv
 - TechRxiv
 
 ## Table of Contents
@@ -92,6 +93,10 @@ The following venues were included in the collection and screening scope. Some v
 
 **Nature Medicine**
 
+- A clinically-oriented foundation model for intraoperative pathology [[paper](https://pubmed.ncbi.nlm.nih.gov/42742185/)]
+- Clinical usability of an explainable AI decision support tool and evaluation of multimodal models in NSCLC [[paper](https://pubmed.ncbi.nlm.nih.gov/42733093/)]
+- Histological aging signatures for monitoring tissue-specific aging and disease [[paper](https://pubmed.ncbi.nlm.nih.gov/42601488/)]
+- End-to-end multimodal pathology foundation model with clinical dialogue [[paper](https://pubmed.ncbi.nlm.nih.gov/42538427/)]
 - AI-enabled virtual spatial proteomics from histopathology for interpretable biomarker discovery in lung cancer [[paper](https://www.nature.com/articles/s41591-025-04060-4)]
 - An agentic framework for autonomous scientific discovery in cancer pathology [[paper](https://www.nature.com/articles/s41591-026-04357-y)]
 
@@ -117,6 +122,11 @@ The following venues were included in the collection and screening scope. Some v
 
 **Nature Biomedical Engineering**
 
+- nnMIL: A generalizable multiple instance learning framework for computational pathology [[paper](https://pubmed.ncbi.nlm.nih.gov/42642650/)]
+- HisToSpatialCNV: An interpretable deep learning method predicting spatial copy number variations from histopathology images [[paper](https://pubmed.ncbi.nlm.nih.gov/42637837/)]
+- Deep-learning triage of three-dimensional pathology datasets for comprehensive and efficient pathologist assessments [[paper](https://pubmed.ncbi.nlm.nih.gov/42587049/)]
+- Pathology-CoT: Learning visual chain-of-thought agents from expert whole-slide image diagnosis behaviour [[paper](https://pubmed.ncbi.nlm.nih.gov/42498734/)]
+- Implementing trust in non-small cell lung cancer diagnosis with a conformalized uncertainty-aware AI framework [[paper](https://pubmed.ncbi.nlm.nih.gov/42337062/)]
 - A multimodal vision–language model for generalizable annotation-free pathology localization [[paper](https://www.nature.com/articles/s41551-025-01574-7)]
 - Leveraging multi-modal foundation models for analysing spatial multi-omic and histopathology data [[paper](https://www.nature.com/articles/s41551-025-01602-6)]
 - A Generalizable Pathology Foundation Model Using a Unified Knowledge Distillation Pretraining Framework [[paper](https://www.nature.com/articles/s41551-025-01488-4)]
@@ -127,6 +137,16 @@ The following venues were included in the collection and screening scope. Some v
 
 **npj Digital Medicine**
 
+- Nationwide federated learning for histopathology: Secure deployment across Germany behind firewalls [[paper](https://pubmed.ncbi.nlm.nih.gov/42509385/)]
+- Interpretable multimodal deep learning for time-resolved survival prediction after hepatocellular carcinoma resection [[paper](https://pubmed.ncbi.nlm.nih.gov/42477420/)]
+- AI-driven tumor heterogeneity quantification and survival prediction in pancreatic ductal adenocarcinoma [[paper](https://pubmed.ncbi.nlm.nih.gov/42477155/)]
+- Deep learning-based CD8+ T cell model for predicting prognosis and targeted immunotherapy benefit in ccRCC [[paper](https://pubmed.ncbi.nlm.nih.gov/42443348/)]
+- Translation of frozen sections into FFPE images for skin cancer resection margins using generative AI [[paper](https://pubmed.ncbi.nlm.nih.gov/42373874/)]
+- Handling missing modalities in multimodal survival prediction for non-small cell lung cancer [[paper](https://pubmed.ncbi.nlm.nih.gov/42332139/)]
+- Treatment-aware deep learning enables counterfactual prediction of individual benefit from PARP inhibitors in ovarian cancer [[paper](https://pubmed.ncbi.nlm.nih.gov/42323410/)]
+- UNICORN: A deep learning model for integrating multi-stain data in histopathology [[paper](https://pubmed.ncbi.nlm.nih.gov/42315948/)]
+- Deep learning analysis of breast cancer histology predicts ATM pathogenic variant carrier status [[paper](https://pubmed.ncbi.nlm.nih.gov/42298170/)]
+- Flexible and scalable federated learning with deep feature prompts for digital pathology [[paper](https://pubmed.ncbi.nlm.nih.gov/42135461/)]
 - OncoPT: long-context transformer models for in hospital tumor phenotype extraction from pathology reports [[paper](https://www.nature.com/articles/s41746-026-02630-5)]
 - Structure-aware generalization for heterogeneous histopathology via prototype-based multiple instance learning [[paper](https://www.nature.com/articles/s41746-025-02289-4)]
 - Subspecialty-Specific Foundation Model for Intelligent Gastrointestinal Pathology [[paper](https://www.nature.com/articles/s41746-026-02684-5)]
@@ -139,6 +159,12 @@ The following venues were included in the collection and screening scope. Some v
 - Soft Multiclass Feature Augmented Deep Learning to Predict Tumor Origins Using Cytology or Histology Whole Slide Images [[paper](https://www.nature.com/articles/s41746-026-02604-7)]
 - Geometric multi-instance learning for weakly supervised gastric cancer segmentation [[paper](https://www.nature.com/articles/s41746-025-02287-6)]
 - A human-in-the-loop explanation framework for morphologically transparent AI predictions from whole-slide images [[paper](https://www.nature.com/articles/s41746-026-02741-z)]
+
+**The Lancet Digital Health**
+
+- Digital pathology, image analysis, and artificial intelligence in liver disease [[paper](https://pubmed.ncbi.nlm.nih.gov/42697794/)]
+- Molecular alterations prediction in gliomas via an interpretable deep learning model: A multicentre and retrospective study [[paper](https://pubmed.ncbi.nlm.nih.gov/42115062/)]
+- Artificial intelligence-based pathological model for pan-cancer lymph node metastasis detection: A multicentre diagnostic study with retrospective and prospective validation [[paper](https://pubmed.ncbi.nlm.nih.gov/41792018/)]
 
 **npj Precision Oncology**
 
@@ -248,7 +274,6 @@ The following venues were included in the collection and screening scope. Some v
 - PathChat-SegR1: Reasoning Segmentation in Pathology via SO-GRPO [[paper](https://openreview.net/forum?id=DQESI75YrD)]
 - HistoPrism: Unlocking Functional Pathway Analysis from Pan-Cancer Histology via Gene Expression Prediction [[paper](https://openreview.net/forum?id=6dTHxb9JuA)]
 - Disco: Densely-overlapping Cell Instance Segmentation via Adjacency-aware Collaborative Coloring [[paper](https://openreview.net/forum?id=1W7RRQl3lH)]
-- Diffusion Generative Modeling for Spatially Resolved Gene Expression Inference from Histology Images [[paper](https://proceedings.iclr.cc/paper_files/paper/2025/file/31cc93d156b4ab1514d71ca5147a6e67-Paper-Conference.pdf)]
 
 **ICML 2026**
 
@@ -305,6 +330,33 @@ The following venues were included in the collection and screening scope. Some v
 - Learning Structure-Aware Foundational Representation of Rat Testicular Tubules Using Multiple Instance Learning [[paper](https://openreview.net/forum?id=kRoyRIgfsb)]
 
 **arXiv**
+
+- Role-Guided MOE for Encoder-Level Pathology Representation Learning in WSI Classification [[paper](https://arxiv.org/abs/2609.34897)]
+- MoSPR: Histology-to-Gene Expression Prediction with Morpho-Spatial Macrostates and Low-Rank Molecular Programs [[paper](https://arxiv.org/abs/2609.34280)]
+- Modeling Whole-Slide Images as Dynamic Tumor Microenvironment Fields [[paper](https://arxiv.org/abs/2609.34451)]
+- From UNI2-h to ConvNeXt-T: Lightweight Nuclei Instance Segmentation via Knowledge Distillation [[paper](https://arxiv.org/abs/2609.35203)]
+- See, Measure, and Reason: Learning Visually Grounded Reasoning in Pathology [[paper](https://arxiv.org/abs/2609.34277)]
+- Preserving DEG Rankings for Gene Discovery in Histology-Based Spatial Gene Expression Prediction [[paper](https://arxiv.org/abs/2609.33928)]
+- Can Protein-Derived Knowledge Improve Pathology Foundation Models? [[paper](https://arxiv.org/abs/2609.33178)]
+- Multimodal LLMs Outperform Pathology Foundation Models in Cross-Domain Histological Similarity [[paper](https://arxiv.org/abs/2609.32876)]
+- Is H&E Image-to-Spatial Transcriptomics Simpler Than It Looks? [[paper](https://arxiv.org/abs/2609.32857)]
+- Contamination, Prior, or Evidence? Decomposing and Training Evidence Use in Whole-Slide Vision-Language Models [[paper](https://arxiv.org/abs/2609.32185)]
+- Refining Cytology Predictions with Conditional Random Fields [[paper](https://arxiv.org/abs/2609.31028)]
+- Predicting Mutational Signature Exposures from H&E Whole Slide Images: A Pan-Cancer Feasibility Study [[paper](https://arxiv.org/abs/2609.30985)]
+- FedHisto-PAST: Parameter-Efficient Stain-Aware Federated Learning for Cross-Site Lung Histopathology Classification [[paper](https://arxiv.org/abs/2609.31150)]
+- Exploiting Spatial Structure for Transductive Few-Shot Classification of Whole-Slide Images [[paper](https://arxiv.org/abs/2609.31040)]
+- CytoSPM: Open-Vocabulary Cytopathology Detection with Structured Prompt Bank [[paper](https://arxiv.org/abs/2609.31314)]
+- TAM-Chain: Multi-Scale Thyroid Cytology Classification via Absorbing Markov Chains and Shannon Entropy Uncertainty Quantification for False-Negative Suppression and Domain-Shift Adaptation [[paper](https://arxiv.org/abs/2609.28590)]
+- FFM-CP: Cross-Backbone Fusion of Vision-Language Foundation Models for Few-Shot Computational Pathology [[paper](https://arxiv.org/abs/2609.27710)]
+- Do Center Biases Propagate? Robustness of Pathology Foundation Models in Whole-Slide Image Classification [[paper](https://arxiv.org/abs/2609.28231)]
+- SpaFactor: Lightweight Spatial Context-Aware Gene Program Modeling for Histology-to-Transcriptomics Inference [[paper](https://arxiv.org/abs/2609.28563)]
+- Cross-Modal Contrastive Learning from Histopathology and CT for Automated Renal Cell Carcinoma Grading [[paper](https://arxiv.org/abs/2609.26920)]
+- SLICEChat: Progressive In-Encoder Token Pruning for Whole-Slide Pathology Language Models [[paper](https://arxiv.org/abs/2609.24894)]
+- Statistical Testing for Multiple Instance Learning via Selective Inference with Applications to Computational Pathology [[paper](https://arxiv.org/abs/2609.31712)]
+- WILSON - a pathology foundation model framework for patient-level analysis and diagnostic text generation [[paper](https://arxiv.org/abs/2609.25123)]
+- MIST: Multimodal Survival Prediction with Genomic-Guided Histology Attention [[paper](https://arxiv.org/abs/2609.21811)]
+- ERCPMP-Gx: Endoscopic Image and Video Dataset for Morphological, Histopathological, and Genomic Characterization of Colorectal Polyposis [[paper](https://arxiv.org/abs/2609.20815)]
+- Learning Where to Focus: Self-Supervised Multi-Scale ViTs for Histopathology [[paper](https://arxiv.org/abs/2609.18578)]
 
 - End-to-End Cell Detection via Instance-aware Graph Modeling [[paper](https://arxiv.org/abs/2609.15354)][[code](https://github.com/RuochenLiu23/IGM)]
 - Sharing standardized image-derived data in computational pathology using DICOM [[paper](https://arxiv.org/abs/2609.14530)]
@@ -660,9 +712,114 @@ The following venues were included in the collection and screening scope. Some v
 
 **bioRxiv**
 
+- Evaluating the Transferability of Pathology Foundation Models Across Cancer-related H&E Neurodegeneration-related Immunohistochemical Classification Tasks [[paper](https://doi.org/10.64898/2026.09.23.753850)]
+- OmiCoreTumorDetector: an open, molecularly validated model for mapping tumour regions in colorectal cancer H&E sections [[paper](https://doi.org/10.64898/2026.09.21.753083)]
+- Scalable Computational Phenomics of Nuclear Morphology [[paper](https://doi.org/10.64898/2026.09.17.752335)]
+- MINT infers the latent single-cell spatial transcriptome from paired histology [[paper](https://doi.org/10.64898/2026.09.16.751717)]
+- Improving Data Quality, Model Transparency and Performance in Lung Histopathology with Explainable AI [[paper](https://doi.org/10.64898/2026.09.14.751577)]
+- Independent benchmark of H&E-based gene expression prediction in skin [[paper](https://doi.org/10.64898/2026.09.07.749926)]
+- On doubting image quality assessment metrics for microscopy virtual staining [[paper](https://doi.org/10.64898/2026.08.31.748410)]
+- Morphologic intratumoral heterogeneity from routine whole-slide histopathology is prognostic for survival in primary central nervous system lymphoma: development in the LOC Network and international external validation [[paper](https://doi.org/10.64898/2026.08.31.748241)]
+- RECON infers regions of interest from H&E images and reconstructs whole-slide molecular profiles at single-cell resolution [[paper](https://doi.org/10.64898/2026.08.25.747122)]
+- Computational Pathology and Spatial Microdosimetry Guide Radiopharmaceutical Selection for TROP2-Targeted Alpha versus Beta Radionuclide Drug Conjugates (RDCs) [[paper](https://doi.org/10.64898/2026.08.19.745876)]
+- An open multimodal spatial resource integrating same-tissue transcriptomics, proteomics, and histology [[paper](https://doi.org/10.64898/2026.08.17.742355)]
+- An AI-assisted platform for quantitative histopathological analysis in interstitial lung disease [[paper](https://doi.org/10.64898/2026.08.16.745078)]
+- AnchorR: A QuPath and R interface for collaborative exploration of spatial transcriptomics and histology [[paper](https://doi.org/10.64898/2026.08.05.742985)]
+- Virtual spatial transcriptomics from histopathology enables prognostic and therapeutic response prediction in cancer [[paper](https://doi.org/10.64898/2026.08.04.742671)]
+- Explainable machine learning relates histological to genomic pathology [[paper](https://doi.org/10.64898/2026.08.03.742582)]
+- StainX: GPU-accelerated batch stain normalization for computational pathology at scale [[paper](https://doi.org/10.64898/2026.08.06.743198)]
+- Multi-Modal Foundation Model with Whole-Slide Attention Enables Transferrable Digital Pathology at Single-Cell Resolution [[paper](https://doi.org/10.64898/2026.07.31.741265)]
+- Deep Learning Based Cross-Modality Histological Brain Section Registration in Multiple Species Using Synthetic Images [[paper](https://doi.org/10.64898/2026.07.17.738987)]
+- Multicenter self-supervised computational pathology identifies prognostic histomorphological phenotypes in colorectal cancer [[paper](https://doi.org/10.64898/2026.07.15.738753)]
+- Multi-model Segmentation and Morphometric Quantification of Cerebral Amyloid Angiopathy in Alzheimer's Disease Whole Slide Histopathology Images [[paper](https://doi.org/10.64898/2026.07.16.739032)]
+- Prototype-based AI triage for 3D pathology [[paper](https://doi.org/10.64898/2026.07.09.737559)]
+- MCD Stitcher: An open-source tool for whole-slide stitching and conversion of Imaging Mass Cytometry data [[paper](https://doi.org/10.64898/2026.06.26.732348)]
+- Homologous recombination deficiency prediction from whole slide images using label refinement and foundation-model benchmarking in ovarian cancer [[paper](https://doi.org/10.64898/2026.06.25.734452)]
+- A Visually Interpretable Histopathology-Based Immune Model Predicts T-effector Biology and Response to Immune checkpoint inhibition in Clear Cell Renal Cell Carcinoma Clinical Trial and Contemporary Real-World Datasets [[paper](https://doi.org/10.64898/2026.06.21.733614)]
+- Vessel Spatial Analysis (VeSpA): a tool for whole slide image segmentation, morphometry, and QuPath extension [[paper](https://doi.org/10.64898/2026.06.15.732366)]
+- Morpho-FM: spatial molecular reconstruction from routine H&E histology using transcriptomic foundation-model priors [[paper](https://doi.org/10.64898/2026.06.15.732498)]
+- Dissecting and directing pathology foundation models [[paper](https://doi.org/10.64898/2026.06.12.731496)]
+- TopoMIL: Topology Improves Multiple Instance Learning in Diagnostic Microscopic Images [[paper](https://doi.org/10.64898/2026.06.10.731443)]
+- A multimodal foundation model linking histopathology and DNA methylation [[paper](https://doi.org/10.64898/2026.06.11.731518)]
+- Multivariate integration of histological images and gene expression data: a comparative review [[paper](https://doi.org/10.64898/2026.06.02.729734)]
+- HOPE: Interpretable Histology Analysis with Spatial Omics-Derived Signatures for Precision Oncology [[paper](https://doi.org/10.64898/2026.06.03.729847)]
+- Compositional and interpretable representation of histology using AI foundation models and sparse autoencoders [[paper](https://doi.org/10.64898/2026.06.03.725182)]
+- SciCore-Omics: a tri-modal foundation model unifying histology, spatial transcriptomics and language for spatial biology [[paper](https://doi.org/10.64898/2026.05.30.728937)]
+- Integrating Histology with Spatial Molecular Programs Using a Multimodal Foundation Model [[paper](https://doi.org/10.64898/2026.06.01.729028)]
+- Whole slide image analysis of the endometrial decidual reaction reveals multiscale perturbations associated with miscarriage [[paper](https://doi.org/10.64898/2026.05.22.727262)]
+- Histopathology-inferred spatial transcriptomics characterizes the tumor microenvironment in 1,500 head and neck tumors and predicts clinical outcomes [[paper](https://doi.org/10.64898/2026.05.16.725687)]
+- HESTIA: Scalable Multimodal Integration of Histology and High-Resolution Spatial Transcriptomics for Robust Spatial Domain Identification [[paper](https://doi.org/10.64898/2026.05.14.723098)]
+- A multi-omic, spatial, and whole-slide image dataset of lung neuroendocrine tumours from the lungNENomics cohort [[paper](https://doi.org/10.64898/2026.05.12.724489)]
+- Weak supervision of H&E slides reveals systems-level biology and functional states that govern therapeutic resistance [[paper](https://doi.org/10.64898/2026.05.05.723013)]
+- DIANNE: Segmentation-Free Localization of Histology Differential Attributes [[paper](https://doi.org/10.64898/2026.04.28.721103)]
+- DCAFA: Differential Community Abundance and Feature Analysis for Histological Images [[paper](https://doi.org/10.64898/2026.04.28.721329)]
+- Pan-cancer virtual spatial transcriptomics from routine histology with Phoenix [[paper](https://doi.org/10.64898/2026.04.25.720812)]
 - H2O: A Foundation Model Bridging Histopathology to Spatial Multi-Omics Profiling [[paper](https://www.biorxiv.org/content/10.64898/2026.04.21.717342v1)]
+- Multi-Stain Fusion of Histopathology Images Using Deep Learning for Pediatric Brain Tumor Classification [[paper](https://doi.org/10.64898/2026.04.10.717785)]
+- Adaptive Integration of Heterogeneous Foundation Models to Find Histologically Predictable Genes in Breast Cancer [[paper](https://doi.org/10.64898/2026.04.05.716435)]
+- CosMxScope: Scalable Reconstruction and Digital Pathology Integration of Imaging-Based Spatial Transcriptomics Data [[paper](https://doi.org/10.64898/2026.03.25.713520)]
+- GenBio-PathFM: A State-of-the-Art Foundation Model for Histopathology [[paper](https://doi.org/10.64898/2026.03.17.712534)]
+- Translating Histopathology Foundation Model Embeddings into Cellular and Molecular Features for Clinical Studies [[paper](https://doi.org/10.64898/2026.03.17.711896)]
+- Cross-Modal Training Using Xenium Spatial Transcriptomics Enables DINO-DETR Based Detection of Vascular Niches in H&E Whole-Slide Images [[paper](https://doi.org/10.64898/2026.03.17.712266)]
 - InSTaPath: Integrating Spatial Transcriptomics and histoPathology Images via Multimodal Topic Learning [[paper](https://www.biorxiv.org/content/10.64898/2026.03.16.712067v1)]
 - SpatialFusion: A lightweight multimodal foundation model for pathway-informed spatial niche mapping [[paper](https://www.biorxiv.org/content/10.64898/2026.03.16.712056v1)][[code](https://github.com/uhlerlab/spatialfusion)]
+- Direct pathway enrichment prediction from histopathological whole slide images and comparison with gene expression mediated models [[paper](https://doi.org/10.64898/2026.03.02.709137)]
+- A comprehensive benchmark of publicly available image foundation models for their usability to predict gene expression from whole slide images [[paper](https://doi.org/10.64898/2026.03.02.709012)]
+- Detecting Extrachromosomal DNA from Routine Histopathology [[paper](https://doi.org/10.64898/2026.02.27.708546)]
+- Transforming Histology into Virtual Multiplex Immunofluorescence to Decode Prognostic Spatial Immunity in Hepatocellular Carcinoma [[paper](https://doi.org/10.64898/2026.02.25.707931)]
+- Pixel2Gene enables histology-guided reconstruction and prediction of spatial gene expression [[paper](https://doi.org/10.64898/2026.02.21.707168)]
+- NaVis: a virtual microscopy framework for interactive, high-resolution navigation of spatial transcriptomics data [[paper](https://doi.org/10.64898/2026.02.18.706509)]
+- Performance of Naiive Spectral Geometric Models in Histopathology AI [[paper](https://doi.org/10.64898/2026.01.30.702908)]
+- Neural Networks as Entropic Systems: Applications in Digital Pathology [[paper](https://doi.org/10.64898/2026.01.30.702864)]
+- HistoSweep enables cellular-resolution tissue quality control for gigapixel images in digital pathology and spatial omics [[paper](https://doi.org/10.64898/2026.01.30.702675)]
+- Exploring Multi-Scale Local and Global Features in Whole Slide Images Using State Space Models [[paper](https://doi.org/10.64898/2026.01.26.701877)]
+- SparseAEH: Scalable autoregressive expression histology discovery in spatial transcriptomics via sparse Gaussian kernels [[paper](https://doi.org/10.64898/2026.01.22.701193)]
+- miniMTI: minimal multiplex tissue imaging enhances biomarker expression prediction from histology [[paper](https://doi.org/10.64898/2026.01.21.700911)]
+- Histology-Aware Graph for Modeling Intercellular Communication in Spatial Transcriptomics [[paper](https://doi.org/10.64898/2026.01.22.701166)]
+- HEDeST: An Integrative Approach to Enhance Spatial Transcriptomic Deconvolution with Histology [[paper](https://doi.org/10.64898/2026.01.06.697922)]
+
+**medRxiv**
+
+- Exponentially weighted ensemble deep learning for histologic growth pattern classification in lung adenocarcinoma [[paper](https://doi.org/10.64898/2026.09.24.26363902)]
+- Errors, Hallucinations, and Clinical Impact of General-Purpose Multimodal Large Language Models in Histopathology [[paper](https://doi.org/10.64898/2026.09.18.26363369)]
+- Continuous Diagnostic Indices from BanffNET Automated Lesion Scores for Kidney Transplant Pathology: Development and Evaluation of a Diagnostic Prediction Model [[paper](https://doi.org/10.64898/2026.09.11.26362821)]
+- CERVEX: A Foundation-Model Framework With Built-In Explainable AI for Automated Cervical Cytology Classification From Pap Smear Images [[paper](https://doi.org/10.64898/2026.09.03.26362210)]
+- BanffNET, a Deep Learning System for Comprehensive Histological Lesion Quantification in Kidney Transplant Biopsies [[paper](https://doi.org/10.64898/2026.08.28.26360029)]
+- Harnessing Pathology Foundation Models to Accelerate Lymphoma Diagnosis Through Automated Immunohistochemistry Triage [[paper](https://doi.org/10.64898/2026.08.11.26360085)]
+- Histological triage of early-stage mycosis fungoides using a weakly supervised deep learning-based model: a multicentre, external validation, and clinical utility study [[paper](https://doi.org/10.64898/2026.07.27.26359009)]
+- Cross-country generalizability of foundation models for cervical cancer screenings on H&E whole slide images [[paper](https://doi.org/10.64898/2026.07.22.26358575)]
+- PRECISE: Benchmarking digital pathology with expert-annotated contiguous IHC-H&E serial prostate sections [[paper](https://doi.org/10.64898/2026.07.21.26358559)]
+- Seeing Nothing, Saying Something: The Lack of Visual Grounding and Confabulation in Gemini Models for Histopathology [[paper](https://doi.org/10.64898/2026.07.04.26357257)]
+- An Automated, Pathologist-free Gleason Grade Stratifies Disease-free Interval Comparably to Expert Grading from a Single Out-of-distribution Slide [[paper](https://doi.org/10.64898/2026.06.22.26356247)]
+- Three multimodal large language models fail at clinically actionable breast pathology in three different directions [[paper](https://doi.org/10.64898/2026.06.18.26355928)]
+- DeepSpot-M: a multimodal foundation model for transcriptome-wide virtual spatial transcriptomics from histology [[paper](https://doi.org/10.64898/2026.06.19.26356060)]
+- A multicenter Swedish histopathology image dataset of pediatric central nervous system tumors [[paper](https://doi.org/10.64898/2026.06.15.26355523)]
+- Foundation model-based tool for automated ulcerative colitis histology scoring demonstrates non-inferiority to pathologists across multiple scoring indices [[paper](https://doi.org/10.64898/2026.06.09.26355212)]
+- Assessing Foundation Models for Computational Pathology in Endometrial Cancer [[paper](https://doi.org/10.64898/2026.05.22.26353897)]
+- Unsupervised Tissue Concepts for Explainable Sarcoma Subtype Prediction from H&E [[paper](https://doi.org/10.64898/2026.05.15.26353333)]
+- Development and validation of a digital pathology artificial intelligence (DPAI)-based biomarker predicting risk of Gleason grade group reclassification for patients who are candidates for active surveillance [[paper](https://doi.org/10.64898/2026.05.15.26353328)]
+- An Interactive Trustworthy AI Pathology Copilot to Improve Biomarker-Driven Prognostic Stratification and Therapeutic Response Prediction [[paper](https://doi.org/10.64898/2026.05.17.26352870)]
+- SIGNAL: A Scalable, Real-World Model for Rapid Intraoperative Molecular Classification of Gliomas Using Stimulated Raman Histology [[paper](https://doi.org/10.64898/2026.05.11.26350247)]
+- SPARC: A mechanism-aware spatial representation from routine histology predicts cancer survival and therapy response [[paper](https://doi.org/10.64898/2026.05.04.26352410)]
+- Predicting bladder cancer molecular subtypes linked to bacillus Calmette-Guerin response from histology images using deep learning [[paper](https://doi.org/10.64898/2026.05.05.26352375)]
+- Leveraging Open-Source Solutions to Build a Low-Cost Digital Pathology Pipeline for Translational Research [[paper](https://doi.org/10.64898/2026.04.25.26350240)]
+- Histology-Derived Signatures Predict Recurrence Risk and Chemotherapy Benefit in Randomized Trials of Early Breast Cancer [[paper](https://doi.org/10.64898/2026.04.23.26351499)]
+- Multi-task deep learning integrating pretreatment MRI and whole slide images predicts induction chemotherapy response and survival in locally advanced nasopharyngeal carcinoma [[paper](https://doi.org/10.64898/2026.04.07.26350350)]
+- Algorithm-Based Model for Gastrointestinal and Liver Histopathological Analysis Using VGG16 and Specialized Stains: Statistical Validation of Thresholds in AI-Driven Digital Pathology [[paper](https://doi.org/10.64898/2026.04.08.26350456)]
+- Quantitative assessment of collagen architecture from routine histopathological images shows concordance with Second Harmonic Generation microscopy [[paper](https://doi.org/10.64898/2026.03.31.26349841)]
+- Artificial Intelligence Devices for Image Analysis in Digital Pathology [[paper](https://doi.org/10.64898/2026.03.23.26349089)]
+- Gene to Morphology Alignment via Graph Constrained Latent Modeling for Molecular Subtype Prediction from Histopathology in Pancreatic Cancer [[paper](https://doi.org/10.64898/2026.03.05.26347711)]
+- Deep Learning-based Differentiation of Drug-induced Liver Injury and Autoimmune Hepatitis: A Pathological and Computational Approach [[paper](https://doi.org/10.64898/2026.03.05.26347708)]
+- CardioPulmoNet: Modeling Cardiopulmonary Dynamics for Histopathological Diagnosis [[paper](https://doi.org/10.64898/2026.02.19.26346620)]
+- Automated segmentation and quantification of histological liver features for MASH/MASLD scoring [[paper](https://doi.org/10.64898/2026.02.13.26346163)]
+- Deep Learning-Based Screening for POLE mutations on Histopathology Slides in Endometrial Cancer [[paper](https://doi.org/10.64898/2026.02.06.26345335)]
+- Vision Transformers Based AI Models For Predicting Colorectal Cancer from Digital Pathology WSI: Use Case Of MHIST dataset [[paper](https://doi.org/10.64898/2026.02.03.26345516)]
+- Integrating Quantitative Histology with Clinical Data Improves Prediction of Cervical Intraepithelial Neoplasia Regression [[paper](https://doi.org/10.64898/2026.01.21.26344510)]
+- AI-generated data contamination erodes pathological variability and diagnostic reliability [[paper](https://doi.org/10.64898/2026.01.19.26344383)]
+- TILseg: Automated Whole Slide-Level Spatial Scoring of Tumor-Infiltrating Lymphocytes Reveals Prognostic Patterns in Triple Negative Breast Cancer [[paper](https://doi.org/10.64898/2026.01.08.26343727)]
+- Search and Retrieval in Dermatology Atlases of Histopathology Images for Risk Stratification of Cutaneous Squamous Cell Carcinoma [[paper](https://doi.org/10.64898/2026.01.02.26343356)]
+- Cracks in the Foundation: How Data-Hungry and Sensitive to Domain Shift are Vision Foundation Models for Computational Pathology? [[paper](https://doi.org/10.64898/2026.01.06.25342815)]
+- Harness Behavioural Analysis for Unpacking the Bio-Interpretability of Pathology Foundation Models [[paper](https://doi.org/10.64898/2025.12.31.25343151)]
 
 **TechRxiv**
 
@@ -671,10 +828,6 @@ The following venues were included in the collection and screening scope. Some v
 **Biomedical Signal Processing and Control**
 
 - Federated deep multiple instance learning for histopathological whole-slide image classification [[paper](https://www.sciencedirect.com/science/article/abs/pii/S1746809425015708)]
-
-**Preprint**
-
-- GenBio-PathFM: A State-of-the-Art Foundation Model for Histopathology [[paper](https://doi.org/10.64898/2026.03.17.712534)]
 
 **Journal of Pathology Informatics**
 
@@ -719,6 +872,7 @@ The following venues were included in the collection and screening scope. Some v
 
 **Nature Biomedical Engineering**
 
+- A pathologist-AI collaboration framework for enhancing diagnostic accuracies and efficiencies [[paper](https://pubmed.ncbi.nlm.nih.gov/38898173/)]
 - A robust and scalable framework for hallucination detection in virtual tissue staining and digital pathology [[paper](https://www.nature.com/articles/s41551-025-01421-9)]
 - Generation of synthetic whole-slide image tiles of tumours from RNA-sequencing data via cascaded diffusion models [[paper](https://www.nature.com/articles/s41551-024-01193-8)]
 - Benchmarking foundation models as feature extractors for weakly supervised computational pathology [[paper](https://www.nature.com/articles/s41551-025-01516-3)]
@@ -745,6 +899,26 @@ The following venues were included in the collection and screening scope. Some v
 
 **npj Digital Medicine**
 
+- Interpretable multimodal deep learning improves postoperative risk stratification in intrahepatic cholangiocarcinoma in multicentre cohorts [[paper](https://pubmed.ncbi.nlm.nih.gov/41466129/)]
+- Prior knowledge-guided multimodal deep learning system for biomarker exploration and prognosis prediction of urothelial carcinoma [[paper](https://pubmed.ncbi.nlm.nih.gov/41454198/)]
+- Random features meet MIL: A deep GP approach to colorectal MSI prediction [[paper](https://pubmed.ncbi.nlm.nih.gov/41398439/)]
+- H&E-based MSI/MMR testing with AI in colorectal cancer: A multi-centred blinded evaluation [[paper](https://pubmed.ncbi.nlm.nih.gov/41398057/)]
+- Self-supervised stain normalization empowers privacy-preserving and model generalization in digital pathology [[paper](https://pubmed.ncbi.nlm.nih.gov/41360962/)]
+- Uncertainty-aware and causal test-time adaptive foundation model for robust colorectal cancer pathology diagnosis [[paper](https://pubmed.ncbi.nlm.nih.gov/41353286/)]
+- Deep multimodal fusion of patho-radiomic and clinical data for enhanced survival prediction for colorectal cancer patients [[paper](https://pubmed.ncbi.nlm.nih.gov/41350716/)]
+- Clinically informed intermediate reasoning enables generalizable prostate cancer prognostication through machine learning in limited settings [[paper](https://pubmed.ncbi.nlm.nih.gov/41339469/)]
+- A multimodal AI model for precision prognosis in clear cell renal cell carcinoma: A multicenter study [[paper](https://pubmed.ncbi.nlm.nih.gov/41249481/)]
+- STPath: A generative foundation model for integrating spatial transcriptomics and whole-slide images [[paper](https://pubmed.ncbi.nlm.nih.gov/41238784/)]
+- AI-driven prediction of progression to oral squamous cell carcinoma using a multiresolution pathology model [[paper](https://pubmed.ncbi.nlm.nih.gov/41233507/)]
+- HONeYBEE: Enabling scalable multimodal AI in oncology through foundation model-driven embeddings [[paper](https://pubmed.ncbi.nlm.nih.gov/41131352/)]
+- An end-to-end multifunctional AI platform for intraoperative diagnosis [[paper](https://pubmed.ncbi.nlm.nih.gov/40685437/)]
+- Systematic review and meta-analysis of deep learning for MSI-H in colorectal cancer whole slide images [[paper](https://pubmed.ncbi.nlm.nih.gov/40681867/)]
+- Automating liver biopsy segmentation with a robust, open-source tool for pathology research: The HOTSPoT model [[paper](https://pubmed.ncbi.nlm.nih.gov/40681745/)]
+- AI assistance enhances histopathologic distinction between sebaceous and squamous cell carcinoma of the eyelid [[paper](https://pubmed.ncbi.nlm.nih.gov/40615496/)]
+- Multimodal fusion model for prognostic prediction and radiotherapy response assessment in head and neck squamous cell carcinoma [[paper](https://pubmed.ncbi.nlm.nih.gov/40410262/)]
+- Deep Gaussian process with uncertainty estimation for microsatellite instability and immunotherapy response prediction from histology [[paper](https://pubmed.ncbi.nlm.nih.gov/40389599/)]
+- Predicting response to neoadjuvant chemotherapy in muscle-invasive bladder cancer via interpretable multimodal deep learning [[paper](https://pubmed.ncbi.nlm.nih.gov/40121304/)]
+- Self supervised artificial intelligence predicts poor outcome from primary cutaneous squamous cell carcinoma at diagnosis [[paper](https://pubmed.ncbi.nlm.nih.gov/39955424/)]
 - Large language models driven neural architecture search for universal and lightweight disease diagnosis on histopathology slide images [[paper](https://www.nature.com/articles/s41746-025-02042-x)]
 - PathOrchestra: a comprehensive foundation model for computational pathology with over 100 diverse clinical-grade tasks [[paper](https://www.nature.com/articles/s41746-025-02027-w)][[code](https://github.com/yanfang-research/PathOrchestra)]
 - Whole slide image based deep learning refines prognosis and therapeutic response evaluation in lung adenocarcinoma [[paper](https://www.nature.com/articles/s41746-025-01470-z)]
@@ -770,12 +944,17 @@ The following venues were included in the collection and screening scope. Some v
 
 **CVPR 2025**
 
-- BioX-CPath: Biologically-driven Explainable Diagnostics for Multistain IHC Computational Pathology [[paper](https://cvpr.thecvf.com/Conferences/2025/AcceptedPapers)][[code](https://github.com/BasitAlawode/MR-PLIP)][[code](https://github.com/AmayaGS/BioX-CPath)]
-- Fast and Accurate Gigapixel Pathological Image Classification with Hierarchical Distillation Multi-Instance Learning [[paper](https://arxiv.org/abs/2502.21130)]
-- MERGE: Multi-faceted Hierarchical Graph-based GNN for Gene Expression Prediction from Whole Slide Histopathology Images [[paper](https://arxiv.org/html/2412.02601v1)][[code](https://github.com/ags3927/MERGE)]
-- SlideChat: A Large Vision-Language Assistant for Whole-Slide Pathology Image Understanding [[paper](https://arxiv.org/abs/2410.11761)]
-- TopoCellGen: Generating Histopathology Cell Topology with a Diffusion Model [[paper](https://arxiv.org/abs/2412.06011)][[code](https://github.com/Melon-Xu/TopoCellGen)]
-- TICON: A Slide-Level Tile Contextualizer for Histopathology Representation Learning [[paper](https://openaccess.thecvf.com/content/CVPR2026F/papers/Belagali_TICON_A_Slide-Level_Tile_Contextualizer_for_Histopathology_Representation_Learning_CVPRF_2026_paper.pdf)]
+- BioX-CPath: Biologically-driven Explainable Diagnostics for Multistain IHC Computational Pathology [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Gallagher-Syed_BioX-CPath_Biologically-driven_Explainable_Diagnostics_for_Multistain_IHC_Computational_Pathology_CVPR_2025_paper.html)][[code](https://github.com/AmayaGS/BioX-CPath)]
+- Fast and Accurate Gigapixel Pathological Image Classification with Hierarchical Distillation Multi-Instance Learning [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Dong_Fast_and_Accurate_Gigapixel_Pathological_Image_Classification_with_Hierarchical_Distillation_CVPR_2025_paper.html)]
+- MERGE: Multi-faceted Hierarchical Graph-based GNN for Gene Expression Prediction from Whole Slide Histopathology Images [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Ganguly_MERGE_Multi-faceted_Hierarchical_Graph-based_GNN_for_Gene_Expression_Prediction_from_CVPR_2025_paper.html)][[code](https://github.com/ags3927/MERGE)]
+- SlideChat: A Large Vision-Language Assistant for Whole-Slide Pathology Image Understanding [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Chen_SlideChat_A_Large_Vision-Language_Assistant_for_Whole-Slide_Pathology_Image_Understanding_CVPR_2025_paper.html)]
+- TopoCellGen: Generating Histopathology Cell Topology with a Diffusion Model [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Xu_TopoCellGen_Generating_Histopathology_Cell_Topology_with_a_Diffusion_Model_CVPR_2025_paper.html)][[code](https://github.com/Melon-Xu/TopoCellGen)]
+- MExD: An Expert-Infused Diffusion Model for Whole-Slide Image Classification [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_MExD_An_Expert-Infused_Diffusion_Model_for_Whole-Slide_Image_Classification_CVPR_2025_paper.html)]
+- WISE: A Framework for Gigapixel Whole-Slide-Image Lossless Compression [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Mao_WISE_A_Framework_for_Gigapixel_Whole-Slide-Image_Lossless_Compression_CVPR_2025_paper.html)]
+- Robust Multimodal Survival Prediction with Conditional Latent Differentiation Variational AutoEncoder [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Zhou_Robust_Multimodal_Survival_Prediction_with_Conditional_Latent_Differentiation_Variational_AutoEncoder_CVPR_2025_paper.html)]
+- Multi-Resolution Pathology-Language Pre-training Model with Text-Guided Visual Representation [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Albastaki_Multi-Resolution_Pathology-Language_Pre-training_Model_with_Text-Guided_Visual_Representation_CVPR_2025_paper.html)]
+- Multi-modal Topology-embedded Graph Learning for Spatially Resolved Genes Prediction from Pathology Images with Prior Gene Similarity Information [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Shi_Multi-modal_Topology-embedded_Graph_Learning_for_Spatially_Resolved_Genes_Prediction_from_CVPR_2025_paper.html)]
+- ASIGN: An Anatomy-aware Spatial Imputation Graphic Network for 3D Spatial Transcriptomics [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Zhu_ASIGN_An_Anatomy-aware_Spatial_Imputation_Graphic_Network_for_3D_Spatial_CVPR_2025_paper.html)][[code](https://github.com/hrlblab/ASIGN)]
 - CPath-Omni: A Unified Multimodal Foundation Model for Patch and Whole Slide Image Analysis in Computational Pathology [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Sun_CPath-Omni_A_Unified_Multimodal_Foundation_Model_for_Patch_and_Whole_CVPR_2025_paper.html)]
 - HistoFS: Non-IID Histopathologic Whole Slide Image Classification via Federated Style Transfer with RoI-Preserving [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Raswa_HistoFS_Non-IID_Histopathologic_Whole_Slide_Image_Classification_via_Federated_Style_CVPR_2025_paper.html)]
 - Unsupervised Foundation Model-Agnostic Slide-Level Representation Learning [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Lenz_Unsupervised_Foundation_Model-Agnostic_Slide-Level_Representation_Learning_CVPR_2025_paper.html)][[code](https://github.com/KatherLab/COBRA)]
@@ -784,9 +963,10 @@ The following venues were included in the collection and screening scope. Some v
 - M3amba: Memory Mamba is All You Need for Whole Slide Image Classification [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Zheng_M3amba_Memory_Mamba_is_All_You_Need_for_Whole_Slide_CVPR_2025_paper.html)]
 - Advancing Multiple Instance Learning with Continual Learning for Whole Slide Imaging [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Li_Advancing_Multiple_Instance_Learning_with_Continual_Learning_for_Whole_Slide_CVPR_2025_paper.html)]
 - Learning Heterogeneous Tissues with Mixture of Experts for Gigapixel Whole Slide Images [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Wu_Learning_Heterogeneous_Tissues_with_Mixture_of_Experts_for_Gigapixel_Whole_CVPR_2025_paper.html)]
-- Distilled Prompt Learning for Incomplete Multimodal Survival Prediction [[paper](https://arxiv.org/abs/2503.01653)][[code](https://github.com/Innse/DisPro)]
+- Distilled Prompt Learning for Incomplete Multimodal Survival Prediction [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Xu_Distilled_Prompt_Learning_for_Incomplete_Multimodal_Survival_Prediction_CVPR_2025_paper.html)][[code](https://github.com/Innse/DisPro)]
 - ODA-GAN: Orthogonal Decoupling Alignment GAN Assisted by Weakly-supervised Learning for Virtual Immunohistochemistry Staining [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Wang_ODA-GAN_Orthogonal_Decoupling_Alignment_GAN_Assisted_by_Weakly-supervised_Learning_for_CVPR_2025_paper.html)][[code](https://github.com/ittong/ODA-GAN)]
 - ZoomLDM: Latent Diffusion Model for multi-scale image generation [[paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Yellapragada_ZoomLDM_Latent_Diffusion_Model_for_Multi-scale_Image_Generation_CVPR_2025_paper.pdf)][[code](https://github.com/cvlab-stonybrook/ZoomLDM)]
+- Prototype-Based Image Prompting for Weakly Supervised Histopathological Image Segmentation [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Tang_Prototype-Based_Image_Prompting_for_Weakly_Supervised_Histopathological_Image_Segmentation_CVPR_2025_paper.html)]
 
 **ICCV 2025**
 
@@ -801,7 +981,7 @@ The following venues were included in the collection and screening scope. Some v
 - PathFinder: A Multi-Modal Multi-Agent System for Medical Diagnostic Decision-Making Applied to Histopathology [[paper](https://arxiv.org/abs/2502.08916)]
 - PS3: A Multimodal Transformer Integrating Pathology Reports with Histology Images and Biological Pathways for Cancer Survival Prediction [[paper](https://iccv.thecvf.com/virtual/2025/poster/1823)][[code](https://github.com/manahilr/PS3)]
 - Unsupervised Histopathological Image Semantic Segmentation with Overlapping Patches Consistency Constraint [[paper](https://iccv.thecvf.com/virtual/2025/poster/1655)]
-- - Bridging Local Inductive Bias and Long-Range Dependencies with Pixel-Mamba for End-to-end Whole Slide Image Analysis [[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Qiu_Bridging_Local_Inductive_Bias_and_Long-Range_Dependencies_with_Pixel-Mamba_for_ICCV_2025_paper.html)]
+- Bridging Local Inductive Bias and Long-Range Dependencies with Pixel-Mamba for End-to-end Whole Slide Image Analysis [[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Qiu_Bridging_Local_Inductive_Bias_and_Long-Range_Dependencies_with_Pixel-Mamba_for_ICCV_2025_paper.html)]
 - Flow-MIL: Constructing Highly-expressive Latent Feature Space For Whole Slide Image Classification Using Normalizing Flow [[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Ma_Flow-MIL_Constructing_Highly-expressive_Latent_Feature_Space_For_Whole_Slide_Image_ICCV_2025_paper.html)]
 - WSI-LLaVA: A Multimodal Large Language Model for Whole Slide Image [[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Liang_WSI-LLaVA_A_Multimodal_Large_Language_Model_for_Whole_Slide_Image_ICCV_2025_paper.html)]
 
@@ -828,8 +1008,11 @@ The following venues were included in the collection and screening scope. Some v
 
 **ICLR 2025**
 
+- A Multiscale Frequency Domain Causal Framework for Enhanced Pathological Analysis [[paper](https://proceedings.iclr.cc/paper_files/paper/2025/hash/22a94399f08a058383e9ef7516ed103f-Abstract-Conference.html)]
+- Diffusion Generative Modeling for Spatially Resolved Gene Expression Inference from Histology Images [[paper](https://proceedings.iclr.cc/paper_files/paper/2025/hash/31cc93d156b4ab1514d71ca5147a6e67-Abstract-Conference.html)][[code](https://github.com/SichenZhu/Stem)]
 - Interpretable Vision-Language Survival Analysis with Ordinal Inductive Bias for Computational Pathology [[paper](https://openreview.net/forum?id=trj2Jq8riA)][[code](https://github.com/liupei101/VLSA)]
 - PathGen-1.6M: 1.6 Million Pathology Image-text Pairs Generation through Multi-agent Collaboration [[paper](https://openreview.net/forum?id=rFpZnn11gj)][[dataset](https://huggingface.co/datasets/jamessyx/PathGen)]
+- Boltzmann Semantic Score: A Semantic Metric for Evaluating Large Vision Models Using Large Language Models [[paper](https://proceedings.iclr.cc/paper_files/paper/2025/hash/fc07feae9af49dd3f1a1e049b77f4e17-Abstract-Conference.html)][[code](https://github.com/AIMLab-UBC/Boltzmann)]
 
 **MICCAI 2025**
 
@@ -943,7 +1126,6 @@ The following venues were included in the collection and screening scope. Some v
 - Weakly Supervised Segmentation and Classification of Alpha-Synuclein Aggregates in Brightfield Midbrain Images [[paper](https://arxiv.org/abs/2511.16268)]
 - SIGMMA: Hierarchical Graph-Based Multi-Scale Multi-modal Contrastive Alignment of Histopathology Image and Spatial Transcriptome [[paper](https://arxiv.org/abs/2511.15464)]
 - Deep Pathomic Learning Defines Prognostic Subtypes and Molecular Drivers in Colorectal Cancer [[paper](https://arxiv.org/abs/2511.15067)]
-- nnMIL: A generalizable multiple instance learning framework for computational pathology [[paper](https://arxiv.org/abs/2511.14907)]
 - Explaining Digital Pathology Models via Clustering Activations [[paper](https://arxiv.org/abs/2511.14558)]
 - Tissue Aware Nuclei Detection and Classification Model for Histopathology Images [[paper](https://arxiv.org/abs/2511.13615)]
 - Adaptive Multi-Scale Integration Unlocks Robust Cell Annotation in Histopathology Images [[paper](https://arxiv.org/abs/2511.13586)]
@@ -996,7 +1178,6 @@ The following venues were included in the collection and screening scope. Some v
 - A Hierarchical Geometry-guided Transformer for Histological Subtyping of Primary Liver Cancer [[paper](https://arxiv.org/abs/2510.05657)]
 - DeepAf: One-Shot Spatiospectral Auto-Focus Model for Digital Pathology [[paper](https://arxiv.org/abs/2510.05315)]
 - A Clinical-grade Universal Foundation Model for Intraoperative Pathology [[paper](https://arxiv.org/abs/2510.04861)]
-- Pathology-CoT: Learning Visual Chain-of-Thought Agent from Expert Whole Slide Image Diagnosis Behavior [[paper](https://arxiv.org/abs/2510.04587)]
 - GAS-MIL: Group-Aggregative Selection Multi-Instance Learning for Ensemble of Foundation Models in Digital Pathology Image Analysis [[paper](https://arxiv.org/abs/2510.03555)]
 - PEaRL: Pathway-Enhanced Representation Learning for Gene and Pathway Expression Prediction from Histology [[paper](https://arxiv.org/abs/2510.03455)]
 - Hierarchical Generalized Category Discovery for Brain Tumor Classification in Digital Pathology [[paper](https://arxiv.org/abs/2510.02760)]
@@ -1132,14 +1313,12 @@ The following venues were included in the collection and screening scope. Some v
 - CoC: Chain-of-Cancer based on Cross-Modal Autoregressive Traction for Survival Prediction [[paper](https://arxiv.org/abs/2506.15696)]
 - OpenPath: Open-Set Active Learning for Pathology Image Classification via Pre-trained Vision-Language Models [[paper](https://arxiv.org/abs/2506.15318)][[code](https://github.com/HiLab-git/OpenPath)]
 - One-Shot Neural Architecture Search with Network Similarity Directed Initialization for Pathological Image Classification [[paper](https://arxiv.org/abs/2506.14176)]
-- PRISM2: Unlocking Multi-Modal General Pathology AI with Clinical Dialogue [[paper](https://arxiv.org/abs/2506.13063)]
 - Evaluating Cell Type Inference in Vision Language Models Under Varying Visual Context [[paper](https://arxiv.org/abs/2506.12683)]
 - Uncertainty Awareness Enables Efficient Labeling for Cancer Subtyping in Digital Pathology [[paper](https://arxiv.org/abs/2506.11439)]
 - Semi-Automated Quality Assurance in Digital Pathology: Tile Classification Approach [[paper](https://arxiv.org/abs/2506.10916)]
 - The Iris File Extension [[paper](https://arxiv.org/abs/2506.10009)]
 - FMaMIL: Frequency-Driven Mamba Multi-Instance Learning for Weakly Supervised Lesion Segmentation in Medical Images [[paper](https://arxiv.org/abs/2506.07652)]
 - Cross-channel Perception Learning for H&E-to-IHC Virtual Staining [[paper](https://arxiv.org/abs/2506.07559)]
-- Scalable Generation of Spatial Transcriptomics from Histology Images via Whole-Slide Flow Matching [[paper](https://arxiv.org/abs/2506.05361)]
 - PixCell: A generative foundation model for digital histopathology images [[paper](https://arxiv.org/abs/2506.05127)]
 - A Foundation Model for Spatial Proteomics [[paper](https://arxiv.org/abs/2506.03373)]
 - Quantum Cognition Machine Learning for Forecasting Chromosomal Instability [[paper](https://arxiv.org/abs/2506.03199)]
@@ -1220,14 +1399,12 @@ The following venues were included in the collection and screening scope. Some v
 - MMLNB: Multi-Modal Learning for Neuroblastoma Subtyping Classification Assisted with Textual Description Generation [[paper](https://arxiv.org/abs/2503.12927)][[code](https://github.com/HovChen/MMLNB)]
 - Pathology Image Restoration via Mixture of Prompts [[paper](https://arxiv.org/abs/2503.12399)][[code](https://github.com/caijd2000/MoP)]
 - Cracking the PUMA Challenge in 24 Hours with CellViT++ and nnU-Net [[paper](https://arxiv.org/abs/2503.12269)][[code](https://github.com/TIO-IKIM/PUMA)]
-- Prototype-Based Image Prompting for Weakly Supervised Histopathological Image Segmentation [[paper](https://arxiv.org/abs/2503.12068)]
 - Enhanced Diagnostic Fidelity in Pathology Whole Slide Image Compression via Deep Learning [[paper](https://arxiv.org/abs/2503.11350)]
 - Cardiomyopathy Diagnosis Model from Endomyocardial Biopsy Specimens: Appropriate Feature Space and Class Boundary in Small Sample Size Data [[paper](https://arxiv.org/abs/2503.11331)]
 - Prototype-Guided Cross-Modal Knowledge Enhancement for Adaptive Survival Prediction [[paper](https://arxiv.org/abs/2503.10726)]
 - CountPath: Automating Fragment Counting in Digital Pathology [[paper](https://arxiv.org/abs/2503.10520)]
 - Extreme Learning Machines for Attention-based Multiple Instance Learning in Whole-Slide Image Classification [[paper](https://arxiv.org/abs/2503.10510)]
 - Patch-Wise Hypergraph Contrastive Learning with Dual Normal Distribution Weighting for Multi-Domain Stain Transfer [[paper](https://arxiv.org/abs/2503.09523)][[code](https://github.com/Whywwwzzzg/STNHCL)]
-- Robust Multimodal Survival Prediction with the Latent Differentiation Conditional Variational AutoEncoder [[paper](https://arxiv.org/abs/2503.09496)]
 - Multi-Modal Foundation Models for Computational Pathology: A Survey [[paper](https://arxiv.org/abs/2503.09091)]
 - MsaMIL-Net: An End-to-End Multi-Scale Aware Multiple Instance Learning Network for Efficient Whole Slide Image Classification [[paper](https://arxiv.org/abs/2503.08581)]
 - Prototype-Based Multiple Instance Learning for Gigapixel Whole Slide Image Classification [[paper](https://arxiv.org/abs/2503.08384)][[code](https://github.com/ss-sun/ProtoMIL)]
@@ -1276,7 +1453,6 @@ The following venues were included in the collection and screening scope. Some v
 - LadderMIL: Multiple Instance Learning with Coarse-to-Fine Self-Distillation [[paper](https://arxiv.org/abs/2502.02707)]
 - Segment Anything for Histopathology [[paper](https://arxiv.org/abs/2502.00408)][[code](https://github.com/computational-cell-analytics/patho-sam)]
 - The Role of Graph-based MIL and Interventional Training in the Generalization of WSI Classifiers [[paper](https://arxiv.org/abs/2501.19048)]
-- Context Matters: Query-aware Dynamic Long Sequence Modeling of Gigapixel Images [[paper](https://arxiv.org/abs/2501.18984)][[code](https://github.com/dddavid4real/Querent)]
 - Current Pathology Foundation Models are unrobust to Medical Center Differences [[paper](https://arxiv.org/abs/2501.18055)]
 - Aggregation Schemes for Single-Vector WSI Representation Learning in Digital Pathology [[paper](https://arxiv.org/abs/2501.17822)]
 - Dynamic Hypergraph Representation for Bone Metastasis Cancer Analysis [[paper](https://arxiv.org/abs/2501.16787)]
@@ -1285,7 +1461,6 @@ The following venues were included in the collection and screening scope. Some v
 - A Survey on Computational Pathology Foundation Models: Datasets, Adaptation Strategies, and Evaluation Tasks [[paper](https://arxiv.org/abs/2501.15724)]
 - Efficient Self-Supervised Grading of Prostate Cancer Pathology [[paper](https://arxiv.org/abs/2501.15520)]
 - HECLIP: Histology-Enhanced Contrastive Learning for Imputation of Transcriptomics Profiles [[paper](https://arxiv.org/abs/2501.14948)][[code](https://github.com/QSong-github/HECLIP)]
-- ECTIL: Label-efficient Computational Tumour Infiltrating Lymphocyte (TIL) assessment in breast cancer: Multicentre validation in 2,340 patients with breast cancer [[paper](https://arxiv.org/abs/2501.14379)]
 - Deep Learning Based Segmentation of Blood Vessels from H&E Stained Oesophageal Adenocarcinoma Whole-Slide Images [[paper](https://arxiv.org/abs/2501.12323)]
 - Transfer Learning Strategies for Pathological Foundation Models: A Systematic Evaluation in Brain Tumor Classification [[paper](https://arxiv.org/abs/2501.11014)]
 - FECT: Classification of Breast Cancer Pathological Images Based on Fusion Features [[paper](https://arxiv.org/abs/2501.10128)]
@@ -1315,6 +1490,9 @@ The following venues were included in the collection and screening scope. Some v
 **The Lancet Digital Health**
 
 - AI and Digital Tools in Cancer Pathology [[paper](https://www.thelancet.com/journals/landig/article/PIIS2589-7500%2825%2900115-3/fulltext)]
+- Label-efficient computational tumour infiltrating lymphocyte assessment in breast cancer (ECTIL): Multicentre validation in 2340 patients with breast cancer [[paper](https://pubmed.ncbi.nlm.nih.gov/41381302/)]
+- Assessing genotype-phenotype correlations in colorectal cancer with deep learning: A multicentre cohort study [[paper](https://pubmed.ncbi.nlm.nih.gov/40829965/)]
+- External validation of a digital pathology-based multimodal AI-derived prognostic model in patients with advanced prostate cancer starting long-term androgen deprivation therapy [[paper](https://pubmed.ncbi.nlm.nih.gov/40467357/)]
 
 **Journal of Medical Imaging**
 
@@ -1340,6 +1518,11 @@ The following venues were included in the collection and screening scope. Some v
 **ICML 2025**
 
 - Do Multiple Instance Learning Models Transfer? [[paper](https://openreview.net/forum?id=hfLqdquVt3)][[code](https://github.com/mahmoodlab/MIL-Lab)]
+- Context Matters: Query-aware Dynamic Long Sequence Modeling of Gigapixel Images [[paper](https://proceedings.mlr.press/v267/guo25j.html)][[code](https://github.com/dddavid4real/Querent)]
+- Scalable Generation of Spatial Transcriptomics from Histology Images via Whole-Slide Flow Matching [[paper](https://proceedings.mlr.press/v267/huang25t.html)]
+- L-Diffusion: Laplace Diffusion for Efficient Pathology Image Segmentation [[paper](https://proceedings.mlr.press/v267/li25ea.html)]
+- Distributed Parallel Gradient Stacking (DPGS): Solving Whole Slide Image Stacking Challenge in Multi-Instance Learning [[paper](https://proceedings.mlr.press/v267/wu25ae.html)]
+- The Four Color Theorem for Cell Instance Segmentation [[paper](https://proceedings.mlr.press/v267/zhang25do.html)][[code](https://github.com/zhangye-zoe/FCIS)]
 
 **Cell Reports Medicine**
 
@@ -1391,10 +1574,6 @@ The following venues were included in the collection and screening scope. Some v
 
 - Multimodal whole slide image processing pipeline for quantitative mapping of tissue architecture and tissue microenvironment [[paper](https://www.nature.com/articles/s44303-025-00088-w)]
 
-**MICCAI 2025 Workshops**
-
-- Linear Attention-based Multiple Instance Learning for Computational Pathology [[paper](https://openreview.net/pdf/000e6db9f10bc35d1055f60b10655aad7ad37b65.pdf)][[code](https://github.com/charlotterchtr/Lin-MIL)]
-
 **Optics & Laser Technology**
 
 - MaskGAN: a virtual photoacoustic histological staining method with interest region compensation based on deep learning [[paper](https://www.sciencedirect.com/science/article/abs/pii/S0030399225015567)]
@@ -1414,6 +1593,8 @@ The following venues were included in the collection and screening scope. Some v
 
 - A visual-language foundation model for computational pathology [[paper](https://www.nature.com/articles/s41591-024-02856-4)]
 - Towards a general-purpose foundation model for computational pathology [[paper](https://www.nature.com/articles/s41591-024-02857-3)]
+- Demographic bias in misdiagnosis by computational pathology models [[paper](https://pubmed.ncbi.nlm.nih.gov/38641744/)]
+- Generative models improve fairness of medical classifiers under distribution shifts [[paper](https://pubmed.ncbi.nlm.nih.gov/38600282/)]
 - A foundation model for clinical-grade computational pathology and rare cancers detection [[paper](https://www.nature.com/articles/s41591-024-03141-0)]
 - Prediction of tumor origin in cancers of unknown primary origin with cytology-based deep learning [[paper](https://www.nature.com/articles/s41591-024-02915-w)]
 - Prediction of recurrence risk in endometrial cancer with multimodal deep learning [[paper](https://www.nature.com/articles/s41591-024-02993-w)]
@@ -1430,16 +1611,25 @@ The following venues were included in the collection and screening scope. Some v
 
 **CVPR 2024**
 
+- Accurate Spatial Gene Expression Prediction by Integrating Multi-Resolution Features [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Chung_Accurate_Spatial_Gene_Expression_Prediction_by_Integrating_Multi-Resolution_Features_CVPR_2024_paper.html)]
 - CPLIP: Zero-Shot Learning for Histopathology with Comprehensive Vision-Language Alignment [[paper](https://ieeexplore.ieee.org/document/10655627/)][[website](https://cplip.github.io/)]
 - Dynamic Graph Representation with Knowledge-Aware Attention for Histopathology Whole Slide Image Analysis [[paper](https://ieeexplore.ieee.org/document/10658067/)][[code](https://github.com/WonderLandxD/WiKG)]
+- Dynamic Policy-Driven Adaptive Multi-Instance Learning for Whole Slide Image Classification [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Zheng_Dynamic_Policy-Driven_Adaptive_Multi-Instance_Learning_for_Whole_Slide_Image_Classification_CVPR_2024_paper.html)]
 - Quilt-LLaVA: Visual Instruction Tuning by Extracting Localized Narratives from Open-Source Histopathology Videos [[paper](https://ieeexplore.ieee.org/document/10656199/)][[code](https://github.com/aldraus/quilt-llava)]
 - Feature Re-Embedding: Towards Foundation Model-Level Performance in Computational Pathology [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Tang_Feature_Re-Embedding_Towards_Foundation_Model-Level_Performance_in_Computational_Pathology_CVPR_2024_paper.html)][[code](https://github.com/DearCaat/RRT-MIL)]
 - ViLa-MIL: Dual-scale Vision-Language Multiple Instance Learning for Whole Slide Image Classification [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Shi_ViLa-MIL_Dual-scale_Vision-Language_Multiple_Instance_Learning_for_Whole_Slide_Image_CVPR_2024_paper.html)][[code](https://github.com/Jiangbo-Shi/ViLa-MIL)]
 - SI-MIL: Taming Deep MIL for Self-Interpretability in Gigapixel Histopathology [[paper](https://doi.org/10.1109/cvpr52733.2024.01067)][[code](https://github.com/bmi-imaginelab/SI-MIL)]
 - Generalizable Whole Slide Image Classification with Fine-Grained Visual-Semantic Interaction [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Li_Generalizable_Whole_Slide_Image_Classification_with_Fine-Grained_Visual-Semantic_Interaction_CVPR_2024_paper.html)]
-- Morphological Prototyping for Unsupervised Slide Representation Learning in Computational Pathology [[paper](https://arxiv.org/abs/2405.11643)][[code](https://github.com/mahmoodlab/PANTHER)]
-- Transcriptomics-guided Slide Representation Learning in Computational Pathology [[paper](https://arxiv.org/abs/2405.11618)][[code](https://github.com/mahmoodlab/TANGLE)]
+- Morphological Prototyping for Unsupervised Slide Representation Learning in Computational Pathology [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Song_Morphological_Prototyping_for_Unsupervised_Slide_Representation_Learning_in_Computational_Pathology_CVPR_2024_paper.html)][[code](https://github.com/mahmoodlab/PANTHER)]
+- Transcriptomics-guided Slide Representation Learning in Computational Pathology [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Jaume_Transcriptomics-guided_Slide_Representation_Learning_in_Computational_Pathology_CVPR_2024_paper.html)][[code](https://github.com/mahmoodlab/TANGLE)]
 - Modeling Dense Multimodal Interactions Between Biological Pathways and Histology for Survival Prediction [[paper](https://doi.org/10.1109/cvpr52733.2024.01100)][[code](https://github.com/mahmoodlab/SurvPath)]
+- Virtual Immunohistochemistry Staining for Histological Images Assisted by Weakly-supervised Learning [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Li_Virtual_Immunohistochemistry_Staining_for_Histological_Images_Assisted_by_Weakly-supervised_Learning_CVPR_2024_paper.html)]
+- PrPSeg: Universal Proposition Learning for Panoramic Renal Pathology Segmentation [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Deng_PrPSeg_Universal_Proposition_Learning_for_Panoramic_Renal_Pathology_Segmentation_CVPR_2024_paper.html)]
+- Incremental Nuclei Segmentation from Histopathological Images via Future-class Awareness and Compatibility-inspired Distillation [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Wang_Incremental_Nuclei_Segmentation_from_Histopathological_Images_via_Future-class_Awareness_and_CVPR_2024_paper.html)]
+- Tumor Micro-environment Interactions Guided Graph Learning for Survival Analysis of Human Cancers from Whole-slide Pathological Images [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Shao_Tumor_Micro-environment_Interactions_Guided_Graph_Learning_for_Survival_Analysis_of_CVPR_2024_paper.html)]
+- Rotation-Agnostic Image Representation Learning for Digital Pathology [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Alfasly_Rotation-Agnostic_Image_Representation_Learning_for_Digital_Pathology_CVPR_2024_paper.html)]
+- XFibrosis: Explicit Vessel-Fiber Modeling for Fibrosis Staging from Liver Pathology Images [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Yin_XFibrosis_Explicit_Vessel-Fiber_Modeling_for_Fibrosis_Staging_from_Liver_Pathology_CVPR_2024_paper.html)]
+- Prompting Vision Foundation Models for Pathology Image Analysis [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Yin_Prompting_Vision_Foundation_Models_for_Pathology_Image_Analysis_CVPR_2024_paper.html)]
 
 **ECCV 2024**
 
@@ -1452,8 +1642,15 @@ The following venues were included in the collection and screening scope. Some v
 
 **NeurIPS 2024**
 
+- xMIL: Insightful Explanations for Multiple Instance Learning in Histopathology [[paper](https://proceedings.neurips.cc/paper_files/paper/2024/hash/0f9e0309d8a947ca44463a9b7e8b6a3f-Abstract-Conference.html)]
+- STimage-1K4M: A Histopathology Image-Gene Expression Dataset for Spatial Transcriptomics [[paper](https://proceedings.neurips.cc/paper_files/paper/2024/hash/3ef2b740cb22dcce67c20989cb3d3fce-Abstract-Datasets_and_Benchmarks_Track.html)]
+- Are Nuclear Masks All You Need for Improved Out-of-Domain Generalisation? A Closer Look at Cancer Classification in Histopathology [[paper](https://proceedings.neurips.cc/paper_files/paper/2024/hash/4cc4cc789849230a4f495a2060b45c87-Abstract-Conference.html)]
+- HEST-1k: A Dataset for Spatial Transcriptomics and Histology Image Analysis [[paper](https://proceedings.neurips.cc/paper_files/paper/2024/hash/60a899cc31f763be0bde781a75e04458-Abstract-Datasets_and_Benchmarks_Track.html)]
+- Leveraging Tumor Heterogeneity: Heterogeneous Graph Representation Learning for Cancer Survival Prediction in Whole Slide Images [[paper](https://proceedings.neurips.cc/paper_files/paper/2024/hash/760341adc5632de3f1cf2e8d22215a93-Abstract-Conference.html)]
+- Arctique: An Artificial Histopathological Dataset Unifying Realism and Controllability for Uncertainty Quantification [[paper](https://proceedings.neurips.cc/paper_files/paper/2024/hash/840ba425392fbfede5cf50c755c608c6-Abstract-Datasets_and_Benchmarks_Track.html)]
 - Free Lunch in Pathology Foundation Model: Task-specific Model Adaptation with Concept-Guided Feature Enhancement [[paper](https://openreview.net/forum?id=dwYekpbmYG)][[code](https://github.com/HKU-MedAI/CATE)]
 - Rethinking Transformer for Long Contextual Histopathology Whole Slide Image Analysis [[paper](https://arxiv.org/abs/2410.14195)][[code](https://github.com/invoker-LL/Long-MIL)]
+- FAST: A Dual-tier Few-Shot Learning Paradigm for Whole Slide Image Classification [[paper](https://proceedings.neurips.cc/paper_files/paper/2024/hash/bdcdf38389d7fcefc73c4c3720217155-Abstract-Conference.html)]
 
 **MICCAI 2024**
 
@@ -1481,7 +1678,6 @@ The following venues were included in the collection and screening scope. Some v
 
 **arXiv**
 
-- Implementing Trust in Non-Small Cell Lung Cancer Diagnosis with a Conformalized Uncertainty-Aware AI Framework in Whole-Slide Images [[paper](https://arxiv.org/abs/2501.00053)]
 - HisynSeg: Weakly-Supervised Histopathological Image Segmentation via Image-Mixing Synthesis and Consistency Regularization [[paper](https://arxiv.org/abs/2412.20924)][[code](https://github.com/Vison307/HisynSeg)]
 - Unlocking adaptive digital pathology through dynamic feature learning [[paper](https://arxiv.org/abs/2412.20430)]
 - From Pixels to Gigapixels: Bridging Local Inductive Bias and Long-Range Dependencies with Pixel-Mamba [[paper](https://arxiv.org/abs/2412.16711)]
@@ -1495,7 +1691,6 @@ The following venues were included in the collection and screening scope. Some v
 - Efficient and Comprehensive Feature Extraction in Large Vision-Language Model for Pathology Analysis [[paper](https://arxiv.org/abs/2412.09521)]
 - Improving text-conditioned latent diffusion for cancer pathology [[paper](https://arxiv.org/abs/2412.06487)]
 - Boundary-Guided Learning for Gene Expression Prediction in Spatial Transcriptomics [[paper](https://arxiv.org/abs/2412.04072)]
-- ASIGN: An Anatomy-aware Spatial Imputation Graphic Network for 3D Spatial Transcriptomics [[paper](https://arxiv.org/abs/2412.03026)][[code](https://github.com/hrlblab/ASIGN)]
 - Progressive Vision-Language Prompt for Multi-Organ Multi-Class Cell Semantic Segmentation with Single Branch [[paper](https://arxiv.org/abs/2412.02978)]
 - INSIGHT: Explainable Weakly-Supervised Medical Image Analysis [[paper](https://arxiv.org/abs/2412.02012)]
 - Volumetric Reconstruction of Prostatectomy Specimens from Histology [[paper](https://arxiv.org/abs/2412.01855)]
@@ -1645,7 +1840,6 @@ The following venues were included in the collection and screening scope. Some v
 - Generative Modelling of Structurally Constrained Graphs [[paper](https://arxiv.org/abs/2406.17341)]
 - Multimodal Cross-Task Interaction for Survival Analysis in Whole Slide Pathological Images [[paper](https://arxiv.org/abs/2406.17225)]
 - Spatially Structured Regression for Non-conformable Spaces: Integrating Pathology Imaging and Genomics Data in Cancer [[paper](https://arxiv.org/abs/2406.16721)]
-- HEST-1k: A Dataset for Spatial Transcriptomics and Histology Image Analysis [[paper](https://arxiv.org/abs/2406.16192)]
 - PathoWAve: A Deep Learning-based Weight Averaging Method for Improving Domain Generalization in Histopathology Images [[paper](https://arxiv.org/abs/2406.15685)][[code](https://github.com/ParastooSotoudeh/PathoWAve)]
 - AI-based Anomaly Detection for Clinical-Grade Histopathological Diagnostics [[paper](https://arxiv.org/abs/2406.14866)]
 - Mix-Domain Contrastive Learning for Unpaired H&E-to-IHC Stain Translation [[paper](https://arxiv.org/abs/2406.11799)]
@@ -1657,7 +1851,6 @@ The following venues were included in the collection and screening scope. Some v
 - Triage of 3D pathology data via 2.5D multiple-instance learning to guide pathologist assessments [[paper](https://arxiv.org/abs/2406.07061)]
 - Overcoming Limitations in Artificial Intelligence-based Prostate Cancer Detection through Better Datasets and a Bayesian Approach to Aggregate Panel Predictions [[paper](https://arxiv.org/abs/2406.06801)]
 - Genomics-guided Representation Learning for Pathologic Pan-cancer Tumor Microenvironment Subtype Prediction [[paper](https://arxiv.org/abs/2406.06517)][[code](https://github.com/Mengflz/PathoTME)]
-- STimage-1K4M: A histopathology image-gene expression dataset for spatial transcriptomics [[paper](https://arxiv.org/abs/2406.06393)]
 - Multi-Stain Multi-Level Convolutional Network for Multi-Tissue Breast Cancer Image Segmentation [[paper](https://arxiv.org/abs/2406.05828)]
 - Hibou: A Family of Foundational Vision Transformers for Pathology [[paper](https://arxiv.org/abs/2406.05074)]
 - Combining Graph Neural Network and Mamba to Capture Local and Global Tissue Spatial Relationships in Whole Slide Images [[paper](https://arxiv.org/abs/2406.04377)][[code](https://github.com/rina-ding/gat-mamba)]
@@ -1690,6 +1883,10 @@ The following venues were included in the collection and screening scope. Some v
 **npj Digital Medicine**
 
 - AI in Digital Pathology: Diagnostic Meta-analysis [[paper](https://www.nature.com/articles/s41746-024-01106-8)]
+- PatchSorter: A high throughput deep learning digital pathology tool for object labeling [[paper](https://pubmed.ncbi.nlm.nih.gov/38902336/)]
+- Deep learning to assess microsatellite instability directly from histopathological whole slide images in endometrial cancer [[paper](https://pubmed.ncbi.nlm.nih.gov/38811811/)]
+- Understanding the errors made by artificial intelligence algorithms in histopathology in terms of patient impact [[paper](https://pubmed.ncbi.nlm.nih.gov/38600151/)]
+- Histopathology images-based deep learning prediction of prognosis and therapeutic response in small cell lung cancer [[paper](https://pubmed.ncbi.nlm.nih.gov/38238410/)]
 - Deep learning to assess microsatellite instability directly from hematoxylin and eosin-stained colorectal histopathology slides [[paper](https://www.nature.com/articles/s41746-024-01131-7)]
 - Histopathology images-based deep learning prediction of prognosis and therapeutic response in lung adenocarcinoma [[paper](https://www.nature.com/articles/s41746-024-01003-0)]
 - Public evidence on AI products for digital pathology [[paper](https://www.nature.com/articles/s41746-024-01294-3)]
@@ -1699,10 +1896,14 @@ The following venues were included in the collection and screening scope. Some v
 **The Lancet Digital Health**
 
 - Pathology in the era of generative AI [[paper](https://doi.org/10.1016/S2589-7500(24)00157-2)]
+- A prognostic and predictive computational pathology immune signature for ductal carcinoma in situ: Retrospective results from a cohort within the UK/ANZ DCIS trial [[paper](https://pubmed.ncbi.nlm.nih.gov/38987116/)]
+- Deep learning models for thyroid nodules diagnosis of fine-needle aspiration biopsy: A retrospective, prospective, multicentre study in China [[paper](https://pubmed.ncbi.nlm.nih.gov/38849291/)]
+- Operational greenhouse-gas emissions of deep learning in digital pathology: A modelling study [[paper](https://pubmed.ncbi.nlm.nih.gov/37996339/)]
 
 **ICLR 2024**
 
 - CAMIL: Context-Aware Multiple Instance Learning for Cancer Detection and Subtyping in Whole Slide Images [[paper](https://openreview.net/forum?id=rzBskAEmoc)][[code](https://github.com/olgarithmics/ICLR_CAMIL)]
+- Prototypical Information Bottlenecking and Disentangling for Multimodal Cancer Survival Prediction [[paper](https://proceedings.iclr.cc/paper_files/paper/2024/hash/9ead108421b202494d01b5060d12aa34-Abstract-Conference.html)]
 
 **ACM MM 2024**
 
