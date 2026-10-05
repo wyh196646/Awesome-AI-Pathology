@@ -1,5 +1,9 @@
 # Literature search and update: 2023–2026
 
+**Historical audit:** the 2026-10-05 [expanded scope and maintenance policy](weekly-maintenance.md)
+supersedes the image-input restriction and related exclusions below. The counts
+in this document describe the earlier update; current totals are in the README.
+
 Search cutoff: **2026-10-04**. Baseline: `b27fc2b`. This is a bibliography
 coverage audit based on primary bibliographic records and available abstracts;
 it is not a full-text systematic review or a ranking of paper quality.
@@ -15,7 +19,7 @@ it is not a full-text systematic review or a ranking of paper quality.
 
 The update adds **2,594 publications**, promotes
 **127 preprints**, and corrects **29 existing records**.
-The collection now contains **4,515 publication entries**. Existing code, dataset and
+After this update, the collection contained **4,515 publication entries**. Existing code, dataset and
 website links are retained when an entry is promoted or corrected. Repeated venue
 headings within each year have been consolidated.
 
