@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "bootstrap_since": "2026-09-21",
+  "sources": {
+    "arxiv": {"last_successful_until": "2026-10-04"},
+    "biorxiv": {"last_successful_until": "2026-10-04"},
+    "medrxiv": {"last_successful_until": "2026-10-04"}
+  },
+  "last_audit": "docs/updates/2026-10-05.json"
+}

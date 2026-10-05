@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "updated": "2026-10-05",
+  "scope": "Computational pathology and adjacent computational tissue, spatial and single-cell omics. Histopathology images are not required for spatial/single-cell methods or cancer multimodal omics.",
+  "screening": {
+    "require_abstract_review": true,
+    "include": [
+      "Computational histology, cytology, tissue microscopy, slides, staining and pathology reports",
+      "Spatial transcriptomics/proteomics/multi-omics methods, resources, benchmarks and substantive tissue or disease applications",
+      "Single-cell multi-omics integration, annotation, representation learning, foundation models and cell-state or tissue mapping",
+      "Computational tissue microenvironment, spatial niches, cell-cell communication and ligand-receptor inference",
+      "Cancer multimodal omics, genomics-guided imaging, molecular prediction, missing-modality learning and survival analysis"
+    ],
+    "exclude": [
+      "Unrelated radiology-only methods with no tissue, molecular or cancer multi-omics contribution",
+      "General protein/drug/molecular sequence models without a tissue, spatial, single-cell or cancer-omics contribution",
+      "Wet-lab-only studies without a computational method/resource or substantive spatial/single-cell tissue analysis",
+      "Editorials, comments, retracted papers, unrelated meanings of pathology/spatial/cell and duplicate versions"
+    ]
+  },
+  "topic_groups": {
+    "histology_cytology": [
+      "histopatholog*", "histolog*", "histomorpholog*", "pathomic*", "digital pathology",
+      "computational pathology", "pathology image*", "pathology report*", "cytopatholog*",
+      "pathology slide*", "multi-slide", "multi slide", "FFPE", "fresh frozen",
+      "formalin-fixed", "paraffin-embedded", "histomorphometr*",
+      "cytolog*", "hematopatholog*", "whole-slide", "whole slide", "WSI", "gigapixel",
+      "tissue microarray", "hematoxylin", "haematoxylin", "H&E", "immunohistochem*",
+      "virtual stain*", "stain transfer", "stain normalization", "nuclei segmentation",
+      "nucleus detection", "mitosis", "mitotic", "gland segmentation", "Gleason",
+      "glomerul*", "blood smear", "bone marrow", "Pap smear", "tissue microscopy",
+      "multiplex immunofluorescence", "imaging mass cytometry", "CODEX imaging", "MIBI"
+    ],
+    "spatial_omics": [
+      "spatial transcriptom*", "spatial proteom*", "spatial multiomic*", "spatial multi-omic*",
+      "spatial omic*", "spatial genom*", "spatial metabolom*", "spatial epigenom*",
+      "spatial chromatin", "spatial gene expression", "spatially variable gene*",
+      "spatial domain*", "spatial deconvolution", "cell type deconvolution",
+      "spatial cell annotation", "spatial cell mapping", "spatial molecular profiling",
+      "in situ sequencing", "in-situ sequencing", "MERFISH", "seqFISH", "Slide-seq",
+      "Visium", "Xenium", "CosMx", "Stereo-seq", "STARmap", "GeoMx", "DBiT-seq",
+      "spatial perturbation", "spatial alignment", "multi-slice integration"
+    ],
+    "single_cell": [
+      "single-cell", "single cell", "scRNA-seq", "scRNAseq", "scATAC-seq", "scATAC",
+      "single-cell multiomic*", "single-cell multi-omic*", "single-cell foundation model*",
+      "single-cell representation", "single-cell annotation", "cell type annotation",
+      "cell atlas", "cell-state", "cell state", "cross-modal cell annotation",
+      "RNA ATAC", "CITE-seq", "multiome", "cell trajectory", "cell fate", "cell perturbation",
+      "cell profiling", "cell phenotyping", "CellProfiler", "cell painting", "morpholomic*"
+    ],
+    "tissue_microenvironment": [
+      "tumor microenvironment", "tumour microenvironment", "tissue microenvironment",
+      "spatial niche*", "cellular niche*", "tissue architecture", "tissue atlas",
+      "cell-cell communication", "cell cell communication", "cell-cell interaction",
+      "cellular interaction", "ligand-receptor", "ligand receptor", "tumor-stroma",
+      "immune landscape", "spatial heterogeneity", "spatial tissue", "spatially resolved"
+    ],
+    "cancer_multimodal_omics": [
+      "multiomic*", "multi-omic*", "multimodal omic*", "multi-modal omic*",
+      "integrative omic*", "pathogenomic*", "radiogenomic*", "image-omics",
+      "genomics-guided", "genomics guided", "molecularly informed", "gene expression prediction",
+      "histology-conditioned", "histology conditioned", "multimodal survival",
+      "multi-modal survival", "missing modality", "missing modalities", "cross-modal imputation",
+      "pan-cancer", "pancancer", "cancer molecular subtype", "molecular pathology"
+    ]
+  },
+  "method_terms": [
+    "deep learning", "machine learning", "artificial intelligence", "computational",
+    "statistical", "Bayesian", "neural network*", "foundation model*", "pretrain*",
+    "representation learning", "self-supervised", "contrastive", "multimodal",
+    "multi-modal", "vision-language", "language model*", "graph neural", "graph convolution*",
+    "graph attention", "multiple instance", "multiple-instance", "transformer",
+    "diffusion", "flow matching", "optimal transport", "clustering", "deconvolution",
+    "imputation", "integration", "annotation", "alignment", "mapping", "inference",
+    "prediction", "survival", "segmentation", "registration", "benchmark", "dataset",
+    "atlas", "database", "software", "algorithm", "generative", "retrieval", "causal"
+  ],
+  "cancer_terms": ["cancer", "tumor", "tumour", "carcinoma", "melanoma", "glioma", "lymphoma", "leukemia", "leukaemia", "neoplasm", "oncology"],
+  "biological_context_terms": ["tissue", "histolog*", "histopatholog*", "cytolog*", "pathomic*", "digital pathology", "computational pathology", "whole slide", "blood smear", "bone marrow", "biolog*", "transcriptom*", "genom*", "proteom*", "RNA", "ATAC", "gene expression", "cell type", "cell fate", "cell atlas", "cell state", "cell perturbation", "immune", "microenvironment", "cancer", "tumor", "tumour"],
+  "sources": ["arxiv", "biorxiv", "medrxiv"],
+  "minimum_new_publication_year": 2023,
+  "lookback_overlap_days": 14,
+  "arxiv_page_size": 200,
+  "arxiv_max_pages_per_group": 100
+}
