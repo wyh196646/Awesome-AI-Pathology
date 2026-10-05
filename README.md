@@ -110,7 +110,7 @@ Earlier years remain on this page.
 
 # 2026
 
-**1,440 publications** · [Browse the complete 2026 list](papers/2026.md)
+**1,441 publications** · [Browse the complete 2026 list](papers/2026.md)
 
 - [Nature](papers/2026.md#nature) (2)
 - [Nature Medicine](papers/2026.md#nature-medicine) (6)
@@ -184,7 +184,7 @@ Earlier years remain on this page.
 - [CVPR 2026](papers/2026.md#cvpr-2026) (38)
 - [ICLR 2026](papers/2026.md#iclr-2026) (11)
 - [ICML 2026](papers/2026.md#icml-2026) (16)
-- [MICCAI 2026](papers/2026.md#miccai-2026) (93)
+- [MICCAI 2026](papers/2026.md#miccai-2026) (94)
 - [AAAI 2026](papers/2026.md#aaai-2026) (22)
 - [The Web Conference 2026](papers/2026.md#the-web-conference-2026) (1)
 - [MIDL 2026](papers/2026.md#midl-2026) (23)
