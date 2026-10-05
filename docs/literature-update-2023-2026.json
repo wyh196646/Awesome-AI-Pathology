@@ -3,10 +3,10 @@
   "baseline_commit": "b27fc2b",
   "counts": {
     "baseline_entries": 1921,
-    "added_publications": 2593,
+    "added_publications": 2594,
     "promoted_preprints": 127,
     "metadata_corrections": 29,
-    "final_entries": 4514
+    "final_entries": 4515
   },
   "year_counts": {
     "2023": {
@@ -25,7 +25,7 @@
       "correct_metadata": 8
     },
     "2026": {
-      "add": 675,
+      "add": 676,
       "promote_preprint": 67,
       "correct_metadata": 7
     }
@@ -651,7 +651,74 @@
         "url": "https://api.crossref.org/journals/2374-3468/works"
       }
     ]
-  }
+  },
+  "follow_up_checks": [
+    {
+      "date": "2026-10-05",
+      "baseline_commit": "273c424",
+      "checks": [
+        {
+          "user_list_number": 1,
+          "label": "MINT",
+          "paper_url": "https://papers.miccai.org/miccai-2026/0658-Paper5167.html",
+          "status": "already_included"
+        },
+        {
+          "user_list_number": 2,
+          "label": "GeneRAG",
+          "paper_url": "https://papers.miccai.org/miccai-2026/0415-Paper2142.html",
+          "status": "already_included",
+          "code_url": "https://github.com/HyeongSubKim/GeneRAG",
+          "code_access_checked": "2026-10-05"
+        },
+        {
+          "user_list_number": 3,
+          "label": "BioFlow",
+          "paper_url": "https://papers.miccai.org/miccai-2026/0109-Paper1400.html",
+          "status": "already_included",
+          "code_url": "https://github.com/hrterry/BioFLow",
+          "code_access_checked": "2026-10-05"
+        },
+        {
+          "user_list_number": 4,
+          "label": "PIGP / Cancer-Type-Agnostic Pan-Cancer Gene Expression Prediction",
+          "paper_url": "https://papers.miccai.org/miccai-2026/0147-Paper4489.html",
+          "status": "added_in_follow_up",
+          "announced_code_url": "https://github.com/oceanflyfly/PIGP",
+          "public_code_access": "GitHub public repository API returned HTTP 404 on 2026-10-05"
+        },
+        {
+          "user_list_number": 5,
+          "label": "Counterfactual directional cell–cell interactions",
+          "paper_url": "https://papers.miccai.org/miccai-2026/0006-Paper6105.html",
+          "status": "already_included"
+        },
+        {
+          "user_list_number": 6,
+          "label": "Cycle-Verified / CADENCE",
+          "paper_url": "https://papers.miccai.org/miccai-2026/0237-Paper4247.html",
+          "status": "outside_current_scope",
+          "scope_reason": "scRNA-seq/scATAC-seq cell-type transfer annotation; no pathology-image input in the official abstract"
+        },
+        {
+          "user_list_number": 7,
+          "label": "HERO",
+          "paper_url": "https://papers.miccai.org/miccai-2026/0455-Paper4607.html",
+          "status": "already_included"
+        },
+        {
+          "user_list_number": 8,
+          "label": "GGFI-Net",
+          "paper_url": "https://papers.miccai.org/miccai-2026/0428-Paper5435.html",
+          "status": "outside_current_scope",
+          "scope_reason": "Genomics-to-radiomics/CT feature imputation; no histopathology-image input in the official abstract"
+        }
+      ],
+      "added_publications": 1,
+      "code_links_added": 2,
+      "note": "Targeted user-listed verification; the broad-search cutoff remains 2026-10-04."
+    }
+  ]
 ,
   "records": [
     {"title": "Accurate and Rapid Detection of Peritoneal Metastasis from Gastric Cancer by AI-Assisted Stimulated Raman Molecular Cytology", "year": 2023, "venue": "Advanced Science", "type": "journal", "doi": "10.1002/advs.202300961", "pmid": "37114845", "paper_url": "https://doi.org/10.1002/advs.202300961", "action": "add", "screening_id": "J0001", "sources": ["https://pubmed.ncbi.nlm.nih.gov/37114845/"], "authors": ["Xun Chen", "Zhouqiao Wu", "Yexuan He", "Zhe Hao", "Qi Wang", "Keji Zhou", "Wanhui Zhou", "Pu Wang", "Fei Shan", "Zhongwu Li", "Jiafu Ji", "Yubo Fan", "Ziyu Li", "Shuhua Yue"], "volume": "10", "issue": "21", "source_dates": {"issue": {"Year": "2023", "Month": "Jul"}, "online": {"Year": "2023", "Month": "04", "Day": "28"}}, "collection_path": "papers/2023.md"},
@@ -3402,6 +3469,7 @@
     {"title": "GeneCaDiff: Hierarchical Tissue Image Synthesis from Gene Expression via Multi-Stage Cascaded Diffusion Model", "year": 2026, "venue": "IJCAI 2026", "type": "conference", "doi": "10.24963/ijcai.2026/487", "pmid": null, "paper_url": "https://doi.org/10.24963/ijcai.2026/487", "action": "add", "screening_id": "A0107", "sources": ["https://www.ijcai.org/proceedings/2026/487", "https://www.ijcai.org/proceedings/2026/"], "collection_path": "papers/2026.md"},
     {"title": "GroupMIL: Semantic Group Based Multiple Instance Learning for Whole Slide Image Analysing", "year": 2026, "venue": "IJCAI 2026", "type": "conference", "doi": "10.24963/ijcai.2026/778", "pmid": null, "paper_url": "https://doi.org/10.24963/ijcai.2026/778", "action": "add", "screening_id": "A0109", "sources": ["https://www.ijcai.org/proceedings/2026/778", "https://www.ijcai.org/proceedings/2026/"], "collection_path": "papers/2026.md"},
     {"title": "Less Is More: Proportional Memory-Guided Differential-Attention MIL for Whole-Slide Image Classification", "year": 2026, "venue": "IJCAI 2026", "type": "conference", "doi": "10.24963/ijcai.2026/221", "pmid": null, "paper_url": "https://doi.org/10.24963/ijcai.2026/221", "action": "add", "screening_id": "A0113", "sources": ["https://www.ijcai.org/proceedings/2026/221", "https://www.ijcai.org/proceedings/2026/"], "collection_path": "papers/2026.md"},
-    {"title": "STAMP: Multi-Pattern Attention-Aware Multiple Instance Learning for STAS Diagnosis in Multi-Center Histopathology Images", "year": 2026, "venue": "IJCAI 2026", "type": "conference", "doi": "10.24963/ijcai.2026/822", "pmid": null, "paper_url": "https://doi.org/10.24963/ijcai.2026/822", "action": "promote_preprint", "screening_id": "A0120", "sources": ["https://www.ijcai.org/proceedings/2026/822", "https://www.ijcai.org/proceedings/2026/"], "previous_entry": {"title": "STAMP: Multi-pattern Attention-aware Multiple Instance Learning for STAS Diagnosis in Multi-center Histopathology Images", "year": 2025, "venue": "arXiv", "paper_url": "https://arxiv.org/abs/2508.10473"}, "collection_path": "papers/2026.md"}
+    {"title": "STAMP: Multi-Pattern Attention-Aware Multiple Instance Learning for STAS Diagnosis in Multi-Center Histopathology Images", "year": 2026, "venue": "IJCAI 2026", "type": "conference", "doi": "10.24963/ijcai.2026/822", "pmid": null, "paper_url": "https://doi.org/10.24963/ijcai.2026/822", "action": "promote_preprint", "screening_id": "A0120", "sources": ["https://www.ijcai.org/proceedings/2026/822", "https://www.ijcai.org/proceedings/2026/"], "previous_entry": {"title": "STAMP: Multi-pattern Attention-aware Multiple Instance Learning for STAS Diagnosis in Multi-center Histopathology Images", "year": 2025, "venue": "arXiv", "paper_url": "https://arxiv.org/abs/2508.10473"}, "collection_path": "papers/2026.md"},
+    {"title": "Cancer-Type-Agnostic Pan-Cancer Gene Expression Prediction from Histopathological Images", "year": 2026, "venue": "MICCAI 2026", "type": "conference", "doi": null, "pmid": null, "paper_url": "https://papers.miccai.org/miccai-2026/0147-Paper4489.html", "action": "add", "screening_id": "U20261005_4489", "sources": ["https://papers.miccai.org/miccai-2026/0147-Paper4489.html"], "authors": ["Yiyang Shen", "Bochong Li", "Huitao Wang", "Zhiyu Chen", "Zhe Li", "Xiu Li"], "volume": "LNCS 16895", "collection_path": "papers/2026.md", "verified_on": "2026-10-05", "announced_code_url": "https://github.com/oceanflyfly/PIGP", "code_access_status": "Not publicly accessible at verification (HTTP 404)"}
   ]
 }

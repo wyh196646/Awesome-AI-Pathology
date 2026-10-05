@@ -11,11 +11,11 @@ it is not a full-text systematic review or a ranking of paper quality.
 | 2023 | 645 | 1 | 4 |
 | 2024 | 583 | 10 | 10 |
 | 2025 | 690 | 49 | 8 |
-| 2026 | 675 | 67 | 7 |
+| 2026 | 676 | 67 | 7 |
 
-The update adds **2,593 publications**, promotes
+The update adds **2,594 publications**, promotes
 **127 preprints**, and corrects **29 existing records**.
-The collection now contains **4,514 publication entries**. Existing code, dataset and
+The collection now contains **4,515 publication entries**. Existing code, dataset and
 website links are retained when an entry is promoted or corrected. Repeated venue
 headings within each year have been consolidated.
 
@@ -159,14 +159,16 @@ to a new complete annual-directory screen. Existing entries are preserved.
 
 ## Validation
 
-- The collection contains 4,514 entries, matching the manifest and annual counts.
+- The collection contains 4,515 entries, matching the manifest and annual counts.
 - No duplicate DOI remains. The repeated PTCMIL title refers to its verified
   MICCAI 2025 and MedIA 2026 publications.
 - Unchanged original paper entries and auxiliary code, dataset and website links
   were checked for preservation.
 - Local navigation, annual venue headings and paper-link syntax were checked.
-- GitHub's Markdown renderer returned all 688 / 920 / 1,328 / 1,440 entries in the
-  2023 / 2024 / 2025 / 2026 files. The README and annual files are below 500 KiB.
+- At the 2026-10-04 update, GitHub's Markdown renderer returned all
+  688 / 920 / 1,328 / 1,440 entries in the 2023 / 2024 / 2025 / 2026 files.
+  The targeted 2026-10-05 addition increases the 2026 list to 1,441 entries.
+  The README and annual files are below 500 KiB.
 - Paper identities were verified against bibliographic records or official
   proceedings. This does not claim that every publisher URL is freely accessible.
 
@@ -249,7 +251,7 @@ to a new complete annual-directory screen. Existing entries are preserved.
 | Med | 1 | 0 | 0 | 0 |
 | Medical Image Analysis | 33 | 32 | 40 | 68 |
 | medRxiv | 1 | 0 | 1 | 39 |
-| MICCAI | 67 | 81 | 88 | 93 |
+| MICCAI | 67 | 81 | 88 | 94 |
 | MIDL | 16 | 15 | 13 | 23 |
 | ML4H | 0 | 3 | 3 | 0 |
 | MLMI 2024 | 0 | 1 | 0 | 0 |
@@ -289,3 +291,36 @@ to a new complete annual-directory screen. Existing entries are preserved.
 | Translational Oncology | 1 | 3 | 1 | 6 |
 | Virchows Archiv | 5 | 4 | 10 | 24 |
 | WACV | 6 | 5 | 8 | 12 |
+
+## MICCAI 2026 follow-up (2026-10-05)
+
+The eight papers supplied by the maintainer were checked against the actual annual
+list and the official MICCAI records. Five were already included. PIGP was missing
+and has now been added. GeneRAG and BioFlow now also have verified public code links.
+The update totals above include this one-paper addition.
+
+| Maintainer's number | Paper | Collection status |
+| --- | --- | --- |
+| 1 | [MINT](https://papers.miccai.org/miccai-2026/0658-Paper5167.html) | Already included |
+| 2 | [GeneRAG](https://papers.miccai.org/miccai-2026/0415-Paper2142.html) | Already included |
+| 3 | [BioFlow](https://papers.miccai.org/miccai-2026/0109-Paper1400.html) | Already included |
+| 4 | [PIGP / Cancer-Type-Agnostic Pan-Cancer Gene Expression Prediction](https://papers.miccai.org/miccai-2026/0147-Paper4489.html) | Previously missing; added on 2026-10-05 |
+| 5 | [Counterfactual directional cell–cell interactions](https://papers.miccai.org/miccai-2026/0006-Paper6105.html) | Already included |
+| 6 | [Cycle-Verified / CADENCE](https://papers.miccai.org/miccai-2026/0237-Paper4247.html) | Not included in the pathology-image topic list |
+| 7 | [HERO](https://papers.miccai.org/miccai-2026/0455-Paper4607.html) | Already included |
+| 8 | [GGFI-Net](https://papers.miccai.org/miccai-2026/0428-Paper5435.html) | Not included in the pathology-image topic list |
+
+PIGP has a histopathology modality tag but is not assigned to the official
+Computational / Integrative Pathology application category. The prior category-based
+selection with manually added papers therefore missed it; its official abstract
+confirms histology-image input, making it an in-scope addition.
+
+Cycle-Verified / CADENCE transfers cell-type annotations between scRNA-seq and
+scATAC-seq. GGFI-Net uses genomics and radiomics / CT embeddings for survival
+prediction. Their official abstracts do not describe pathology-image input. Their
+records are documented here for the maintainer's check, without adding them to the
+pathology-image paper list.
+
+The official PIGP page announces `https://github.com/oceanflyfly/PIGP`, but a public
+GitHub repository lookup returned HTTP 404 on 2026-10-05. The paper is included;
+a publicly accessible code link has not been confirmed.
