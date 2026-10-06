@@ -61,9 +61,22 @@ def existing_entries():
             title = line[2:].split("[[paper]", 1)[0].strip()
             match = re.search(r"\[\[paper\]\((.*?)\)\]", line)
             url = urllib.parse.unquote(match.group(1)) if match else ""
+            identity_urls = [urllib.parse.unquote(u) for u in re.findall(
+                r"\[\[(?:paper|preprint|arxiv|biorxiv|medrxiv)\]\((.*?)\)\]", line, re.I)]
             entries.append({"title": title, "key": normalized(title), "paper_url": url,
+                            "identity_urls": identity_urls,
                             "path": str(path.relative_to(ROOT)).replace("\\", "/"), "line": number})
     return entries
+
+
+def matching_existing(record, previous):
+    key = normalized(record["title"])
+    identifiers = [str(value).lower() for value in
+                   (record["id"], record.get("doi"), record.get("published_doi"))
+                   if value not in (None, "", "NA")]
+    return [entry for entry in previous if entry["key"] == key or
+            any(identifier in url.lower() for identifier in identifiers
+                for url in entry.get("identity_urls", [entry["paper_url"]]))]
 
 
 def request(url, cache, source):
@@ -226,10 +239,7 @@ def main():
                 if not eligible:
                     continue
                 record["matched_topics"], record["matched_methods"] = groups, methods
-                record["existing_matches"] = [e for e in previous if e["key"] == normalized(record["title"])
-                                              or record["id"] in e["paper_url"]
-                                              or (record.get("published_doi") not in (None, "", "NA")
-                                                  and record["published_doi"].lower() in e["paper_url"].lower())]
+                record["existing_matches"] = matching_existing(record, previous)
                 candidates.append(record)
                 count += 1
             source_status[source] = {"status": "complete", "since": since, "until": args.until,

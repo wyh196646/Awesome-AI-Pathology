@@ -13,6 +13,21 @@ spec.loader.exec_module(module)
 
 
 class PreprintSearchTests(unittest.TestCase):
+    def test_promoted_paper_with_changed_title_matches_retained_preprint_id(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / "papers").mkdir()
+            (root / "README.md").write_text("# Papers\n", encoding="utf-8")
+            (root / "papers/2026.md").write_text(
+                "## NeurIPS 2026\n\n"
+                "- PathNavigate: Whole-Slide VQA [[paper](https://neurips.cc/virtual/2026/poster/154224)]"
+                "[[preprint](https://arxiv.org/abs/2605.23559)]\n", encoding="utf-8")
+            with patch.object(module, "ROOT", root):
+                previous = module.existing_entries()
+        record = {"id": "2605.23559", "title": "PathNavigate: Whole-Slide Image VQA"}
+        self.assertNotEqual(previous[0]["key"], module.normalized(record["title"]))
+        self.assertEqual(len(module.matching_existing(record, previous)), 1)
+
     def test_histology_and_spatial_methods_do_not_need_pathology_in_title(self):
         config = json.loads((ROOT / "config/literature-keywords.json").read_text())
         for record in [
