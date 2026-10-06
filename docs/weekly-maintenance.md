@@ -88,6 +88,9 @@ this checkout available. See the [official scheduling documentation](https://lea
    in the requested window and is provisional. Keep new preprints explicitly
    under their server headings. Promote verified formal versions to their venue
    and publication year while preserving code/data/site links.
+   Retain the previous server URL as a `[[preprint](URL)]` badge on a promoted
+   entry. The collector compares these identity links as well as the main paper
+   link, so a conference title change does not turn a revision into a new paper.
 5. Edit `papers/YYYY.md` in the established one-paper-per-line format. Create a
    new annual file when needed. Run `python scripts/refresh_index.py`. Check
    unique identities, correct venue/year, preserved original entries/links and

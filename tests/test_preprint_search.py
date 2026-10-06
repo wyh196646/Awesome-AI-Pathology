@@ -13,6 +13,32 @@ spec.loader.exec_module(module)
 
 
 class PreprintSearchTests(unittest.TestCase):
+    def test_promoted_paper_with_changed_title_matches_retained_preprint_id(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / "papers").mkdir()
+            (root / "README.md").write_text("# Papers\n", encoding="utf-8")
+            (root / "papers/2026.md").write_text(
+                "## NeurIPS 2026\n\n"
+                "- PathNavigate: Whole-Slide VQA [[paper](https://neurips.cc/virtual/2026/poster/154224)]"
+                "[[preprint](https://arxiv.org/abs/2605.23559v1)]\n"
+                "- An unrelated WSI model [[paper](https://arxiv.org/abs/2605.23558)]\n", encoding="utf-8")
+            with patch.object(module, "ROOT", root):
+                previous = module.existing_entries()
+        record = {"id": "2605.23559v3", "title": "PathNavigate: Whole-Slide Image VQA"}
+        self.assertNotEqual(previous[0]["key"], module.normalized(record["title"]))
+        self.assertEqual(module.matching_existing(record, previous), [previous[0]])
+
+    def test_identity_prefix_does_not_match_an_unrelated_paper(self):
+        url = "https://www.biorxiv.org/content/10.1101/example2v3.full.pdf?download=1"
+        previous = [{"title": "Different paper", "key": module.normalized("Different paper"),
+                     "paper_url": url, "identity_urls": [url]}]
+        self.assertEqual(module.matching_existing({"id": "10.1101/example", "title": "New paper"}, previous), [])
+        self.assertEqual(module.matching_existing({"id": "10.1101/example2", "title": "Changed title"}, previous), previous)
+        previous[0]["paper_url"] = "https://arxiv.org/abs/1405.12345v2"
+        previous[0]["identity_urls"] = [previous[0]["paper_url"]]
+        self.assertEqual(module.matching_existing({"id": "1405.1234", "title": "New paper"}, previous), [])
+
     def test_histology_and_spatial_methods_do_not_need_pathology_in_title(self):
         config = json.loads((ROOT / "config/literature-keywords.json").read_text())
         for record in [

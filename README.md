@@ -15,13 +15,14 @@ See the [keyword set and weekly maintenance policy](docs/weekly-maintenance.md).
 
 ## Highlights
 
-- 📚 6,596 curated publication entries in computational pathology and tissue omics
+- 📚 6,612 curated publication entries in computational pathology and tissue omics
 - 🧠 Foundation models, WSI analysis, VLMs, agents, and spatial omics
 - 🏛️ Top conferences and journals: CVPR, ICCV, NeurIPS, ICML, ICLR, MICCAI, MIDL, Nature, Cell, Lancet, IEEE TMI, MedIA
 - 📊 Year-by-year and venue-by-venue paper tracking
 - 🔎 DOI links, official proceedings, and reproducible search records
 - 🤝 Open for community contributions
 
+NeurIPS 2026 update (2026-10-06): [28 requested works and source verification](docs/updates/2026-10-06-neurips-2026.md).
 Expanded-scope update (2026-10-05): [additions, yearly counts and weekly search audit](docs/updates/2026-10-05.md).
 Earlier update (2026-10-04): [historical search audit](docs/literature-search-2023-2026.md).
 
@@ -110,7 +111,7 @@ The following venues were included in the collection and screening scope. Some v
 - [Surveyed Venue List](#surveyed-venue-list)
 - [AI in Pathology](#papers)
 - [2026](papers/2026.md) · [2025](papers/2025.md) · [2024](papers/2024.md) · [2023](papers/2023.md)
-- [Latest search audit](docs/updates/2026-10-05.md)
+- [Latest search audit](docs/updates/2026-10-06-neurips-2026.md)
 - [Keyword set and weekly updates](docs/weekly-maintenance.md)
 
 # Papers
@@ -120,7 +121,7 @@ Earlier years remain on this page.
 
 # 2026
 
-**2,306 publications** · [Browse the complete 2026 list](papers/2026.md)
+**2,322 publications** · [Browse the complete 2026 list](papers/2026.md)
 
 - [Nature](papers/2026.md#nature) (3)
 - [Nature Medicine](papers/2026.md#nature-medicine) (6)
@@ -347,6 +348,8 @@ Earlier years remain on this page.
 - [CVPR 2026](papers/2026.md#cvpr-2026) (38)
 - [ICLR 2026](papers/2026.md#iclr-2026) (31)
 - [ICML 2026](papers/2026.md#icml-2026) (55)
+- [NeurIPS 2026](papers/2026.md#neurips-2026) (27)
+- [NeurIPS 2026 Workshops](papers/2026.md#neurips-2026-workshops) (1)
 - [MICCAI 2026](papers/2026.md#miccai-2026) (98)
 - [AAAI 2026](papers/2026.md#aaai-2026) (39)
 - [The Web Conference 2026](papers/2026.md#the-web-conference-2026) (1)
@@ -354,7 +357,7 @@ Earlier years remain on this page.
 - [ECCV 2026](papers/2026.md#eccv-2026) (20)
 - [IJCAI 2026](papers/2026.md#ijcai-2026) (7)
 - [WACV 2026](papers/2026.md#wacv-2026) (12)
-- [arXiv](papers/2026.md#arxiv) (386)
+- [arXiv](papers/2026.md#arxiv) (374)
 - [bioRxiv](papers/2026.md#biorxiv) (184)
 - [medRxiv](papers/2026.md#medrxiv) (52)
 - [TechRxiv](papers/2026.md#techrxiv) (1)

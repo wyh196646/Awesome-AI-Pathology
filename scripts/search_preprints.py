@@ -61,9 +61,52 @@ def existing_entries():
             title = line[2:].split("[[paper]", 1)[0].strip()
             match = re.search(r"\[\[paper\]\((.*?)\)\]", line)
             url = urllib.parse.unquote(match.group(1)) if match else ""
+            identity_urls = [urllib.parse.unquote(u) for u in re.findall(
+                r"\[\[(?:paper|preprint|arxiv|biorxiv|medrxiv)\]\((.*?)\)\]", line, re.I)]
             entries.append({"title": title, "key": normalized(title), "paper_url": url,
+                            "identity_urls": identity_urls,
                             "path": str(path.relative_to(ROOT)).replace("\\", "/"), "line": number})
     return entries
+
+
+@functools.lru_cache(maxsize=16384)
+def paper_identity(value):
+    value = urllib.parse.unquote(html.unescape(value)).strip().lower()
+    parsed = urllib.parse.urlparse(value)
+    if parsed.scheme in ("http", "https"):
+        host = parsed.hostname or ""
+        path = parsed.path.lstrip("/")
+        if host in ("arxiv.org", "www.arxiv.org", "export.arxiv.org"):
+            if not path.startswith(("abs/", "pdf/")):
+                return None
+            value = path.split("/", 1)[1].removesuffix(".pdf")
+        elif host in ("doi.org", "dx.doi.org", "www.doi.org"):
+            value = path
+        elif host in ("biorxiv.org", "www.biorxiv.org", "medrxiv.org", "www.medrxiv.org"):
+            if not path.startswith("content/"):
+                return None
+            value = path[len("content/"):]
+            value = re.sub(r"(?:\.full(?:\.pdf)?|\.abstract|/pdf)$", "", value)
+            value = re.sub(r"v\d+$", "", value)
+        else:
+            return None
+    value = re.sub(r"^(?:arxiv|doi):\s*", "", value)
+    if re.fullmatch(r"(?:\d{4}\.\d{4,5}|[a-z][a-z0-9.\-]*/\d{7})(?:v\d+)?", value):
+        return "arxiv", re.sub(r"v\d+$", "", value)
+    if re.fullmatch(r"10\.\d{4,9}/\S+", value):
+        return "doi", value
+    return None
+
+
+def matching_existing(record, previous):
+    key = normalized(record["title"])
+    identifiers = {paper_identity(str(value)) for value in
+                   (record["id"], record.get("doi"), record.get("published_doi"))
+                   if value not in (None, "", "NA")}
+    identifiers.discard(None)
+    return [entry for entry in previous if entry["key"] == key or
+            any(paper_identity(url) in identifiers
+                for url in entry.get("identity_urls", [entry["paper_url"]]))]
 
 
 def request(url, cache, source):
@@ -226,10 +269,7 @@ def main():
                 if not eligible:
                     continue
                 record["matched_topics"], record["matched_methods"] = groups, methods
-                record["existing_matches"] = [e for e in previous if e["key"] == normalized(record["title"])
-                                              or record["id"] in e["paper_url"]
-                                              or (record.get("published_doi") not in (None, "", "NA")
-                                                  and record["published_doi"].lower() in e["paper_url"].lower())]
+                record["existing_matches"] = matching_existing(record, previous)
                 candidates.append(record)
                 count += 1
             source_status[source] = {"status": "complete", "since": since, "until": args.until,
