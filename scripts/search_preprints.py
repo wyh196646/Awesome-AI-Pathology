@@ -69,13 +69,43 @@ def existing_entries():
     return entries
 
 
+@functools.lru_cache(maxsize=16384)
+def paper_identity(value):
+    value = urllib.parse.unquote(html.unescape(value)).strip().lower()
+    parsed = urllib.parse.urlparse(value)
+    if parsed.scheme in ("http", "https"):
+        host = parsed.hostname or ""
+        path = parsed.path.lstrip("/")
+        if host in ("arxiv.org", "www.arxiv.org", "export.arxiv.org"):
+            if not path.startswith(("abs/", "pdf/")):
+                return None
+            value = path.split("/", 1)[1].removesuffix(".pdf")
+        elif host in ("doi.org", "dx.doi.org", "www.doi.org"):
+            value = path
+        elif host in ("biorxiv.org", "www.biorxiv.org", "medrxiv.org", "www.medrxiv.org"):
+            if not path.startswith("content/"):
+                return None
+            value = path[len("content/"):]
+            value = re.sub(r"(?:\.full(?:\.pdf)?|\.abstract|/pdf)$", "", value)
+            value = re.sub(r"v\d+$", "", value)
+        else:
+            return None
+    value = re.sub(r"^(?:arxiv|doi):\s*", "", value)
+    if re.fullmatch(r"(?:\d{4}\.\d{4,5}|[a-z][a-z0-9.\-]*/\d{7})(?:v\d+)?", value):
+        return "arxiv", re.sub(r"v\d+$", "", value)
+    if re.fullmatch(r"10\.\d{4,9}/\S+", value):
+        return "doi", value
+    return None
+
+
 def matching_existing(record, previous):
     key = normalized(record["title"])
-    identifiers = [str(value).lower() for value in
+    identifiers = {paper_identity(str(value)) for value in
                    (record["id"], record.get("doi"), record.get("published_doi"))
-                   if value not in (None, "", "NA")]
+                   if value not in (None, "", "NA")}
+    identifiers.discard(None)
     return [entry for entry in previous if entry["key"] == key or
-            any(identifier in url.lower() for identifier in identifiers
+            any(paper_identity(url) in identifiers
                 for url in entry.get("identity_urls", [entry["paper_url"]]))]
 
 
