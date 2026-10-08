@@ -3,6 +3,9 @@
 **Historical audit:** the 2026-10-05 [expanded scope and maintenance policy](weekly-maintenance.md)
 supersedes the image-input restriction and related exclusions below. The counts
 in this document describe the earlier update; current totals are in the README.
+Journal additions have also been superseded by the
+[2026-10-08 CAS major-zone-1 policy](updates/2026-10-08-cas-zone1.md).
+Historical entries in this audit and its JSON are not the current bibliography.
 
 Search cutoff: **2026-10-04**. Baseline: `b27fc2b`. This is a bibliography
 coverage audit based on primary bibliographic records and available abstracts;

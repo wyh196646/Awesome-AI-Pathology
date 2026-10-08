@@ -1,6 +1,6 @@
 # Scope and weekly maintenance
 
-Scope updated: **2026-10-05**. This policy supersedes the image-input restriction
+Scope updated: **2026-10-08**. This policy supersedes the image-input restriction
 used in the [2023–2026 search audit](literature-search-2023-2026.md).
 The first expanded search is documented in the [2026-10-05 update](updates/2026-10-05.md).
 The collection covers computational pathology and adjacent computational tissue,
@@ -39,6 +39,32 @@ outside the biomedical tissue scope, although general methods can use them as
 additional benchmarks. New backfill entries start in 2023; revisions of older
 papers already in the collection can still be checked and updated.
 
+## Journal eligibility
+
+Every formal journal entry, including older years, must be **SCIE indexed** and
+**zone 1 in the major category of the CAS 2025 upgraded edition**. CAS stopped
+publishing editions from 2026, so 2025 is the latest available edition. The
+[2026-10-08 cleanup](updates/2026-10-08-cas-zone1.md) records the institutional
+sources, title matching and exclusions. JCR Q1, CAS minor-category zone 1,
+the Top label and the separate 2026 Xinrui table do not satisfy this rule.
+
+Use [config/journal-policy.json](../config/journal-policy.json) as the journal
+allowlist. A new journal requires verified title/ISSN, CAS major-zone-1 evidence
+and SCIE membership before adding it to that file or to the bibliography.
+Unranked, non-SCIE and unverifiable journals remain excluded. Conferences,
+workshops, unpublished preprints and existing technical reports retain their
+separate topical screening rules. Book-series chapters are not eligible as
+journal publications.
+
+Do not reintroduce an excluded formal journal paper under a preprint heading.
+The collector flags matching identities from
+[data/excluded-journal-identities.json](../data/excluded-journal-identities.json).
+Resolve these flags before inclusion, including revised titles and cross-postings.
+If a candidate has a formal journal version, check its journal eligibility even
+when its title or preprint ID is absent from that file. A verified subsequent
+conference publication can qualify independently under the conference policy.
+When such a version is added, retain its identity links and document the decision.
+
 ## Yearly conference and journal search
 
 Search each publication year separately, starting with 2023. Use primary
@@ -48,9 +74,8 @@ terms when their abstracts or experiments demonstrate a qualifying contribution.
 
 In addition to the venues in the README, search Nature Computational Science,
 Genome Biology, Genome Medicine, Nature Genetics, Nature Biotechnology, Nature
-Methods, Nature Communications, Bioinformatics, Briefings in Bioinformatics,
-Nucleic Acids Research, PLOS Computational Biology, Cell Systems, Patterns,
-Science Advances and computational tissue/cancer papers in other journals.
+Methods, Nature Communications, Cell Systems, Science Advances and other journals
+in the verified allowlist. Apply the journal eligibility rule before inclusion.
 Search ICLR, ICML, NeurIPS, CVPR, ICCV, ECCV, AAAI, IJCAI, MICCAI, MIDL and
 relevant ISMB proceedings without an image-input prerequisite.
 
@@ -86,18 +111,23 @@ this checkout available. See the [official scheduling documentation](https://lea
    For bioRxiv/medRxiv revisions, verify the first-posted date from the DOI's
    version history; the collector's `posted`/`year` is the version date returned
    in the requested window and is provisional. Keep new preprints explicitly
-   under their server headings. Promote verified formal versions to their venue
+   under their server headings. Exclude candidates with an ineligible formal
+   journal version and resolve every `journal_policy_exclusion` flag. Promote
+   verified formal versions only to an eligible journal or a verified conference
    and publication year while preserving code/data/site links.
    Retain the previous server URL as a `[[preprint](URL)]` badge on a promoted
    entry. The collector compares these identity links as well as the main paper
    link, so a conference title change does not turn a revision into a new paper.
 5. Edit `papers/YYYY.md` in the established one-paper-per-line format. Create a
-   new annual file when needed. Run `python scripts/refresh_index.py`. Check
-   unique identities, correct venue/year, preserved original entries/links and
+   new annual file when needed. Run `python scripts/journal_policy.py` and
+   `python scripts/refresh_index.py`; the latter validates journal eligibility
+   before changing the index. Check unique identities, correct venue/year,
+   preserved original entries/links and
    README counts/anchors. Do not claim exhaustive coverage from keyword matches.
    Keep each rendered file below 500 KiB. If an annual list outgrows that limit,
    split it into linked venue/topic lists and adapt both scripts to read/count
-   all companion lists before publishing the change.
+   all companion lists before publishing the change. Run
+   `python -m unittest discover -s tests` before publication.
 6. Save a dated audit in `docs/updates/`: intervals, source status, exact query
    links, retrieval/candidate counts, inclusion/exclusion decisions and verified
    additions/promotions/corrections. Do not commit large unfiltered API caches.

@@ -1,0 +1,1801 @@
+{
+  "schema_version": 1,
+  "updated": "2026-10-08",
+  "cas_edition": 2025,
+  "partition": "major",
+  "required_zone": 1,
+  "required_index": "SCIE",
+  "applies_to": "All publication years in README.md and papers/*.md",
+  "unverified_journal_action": "exclude_until_verified",
+  "sources": {
+    "cas_2025": {
+      "page": "https://huaxue.hebtu.edu.cn/a/2025/09/23/A5A5BBD96F6B4410B87B6D4C43BDFD63.html",
+      "download": "https://huaxue.hebtu.edu.cn/dynamic/download.jsp?id=9e222130fffe4b2889b220c168c727e6",
+      "sha256": "c3b8d16839317f0d46115216e70808d2ed5bd9b194377a76ffcfec55ca632238",
+      "sheet": "Sheet1",
+      "header": [
+        "刊名",
+        "分区",
+        "是否TOP期刊"
+      ],
+      "journal_rows": 21772,
+      "accessed": "2026-10-08"
+    },
+    "scie_2025_06": {
+      "page": "https://lib.fjut.edu.cn/qkpj/list.htm",
+      "download": "https://lib.fjut.edu.cn/_upload/article/files/6c/64/ee342d2542069930b4dc35c7827a/f1c936cc-eed9-4780-9eba-82cc30e69c53.xlsx",
+      "sha256": "754c0bb16027f931e5902bc565bdfface79ca8628a0d32f3f814d9c78981a20c",
+      "sheet": "Science Citation Index Expanded",
+      "accessed": "2026-10-08"
+    },
+    "wos_2026_index_check": {
+      "download": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf",
+      "sha256": "2a525e49239015e2b5b06ee66a435986cb6d4aaf4f6a9dc63cb387069c124bce",
+      "use": "Web of Science index membership only; JCR quartiles never determine CAS eligibility",
+      "accessed": "2026-10-08"
+    },
+    "latest_cas_edition": {
+      "page": "https://kyc.hezeu.edu.cn/info/1040/4015.htm",
+      "published": "2026-09-24",
+      "accessed": "2026-10-08",
+      "finding": "CAS stopped publishing annual editions from 2026; latest edition is 2025"
+    }
+  },
+  "conferences": [
+    "AAAI",
+    "ACM MM",
+    "CIKM",
+    "COMPAY",
+    "COMPLEX NETWORKS",
+    "CVPR",
+    "CVPRW",
+    "ECCV",
+    "ECCV Workshop",
+    "EMBC",
+    "EMNLP",
+    "ICCV",
+    "ICIP",
+    "ICLR",
+    "ICML",
+    "IJCAI",
+    "INTERSPEECH",
+    "ISBI",
+    "MICCAI",
+    "MIDL",
+    "ML4H",
+    "MLMI",
+    "NeurIPS",
+    "PSB",
+    "The Web Conference",
+    "WACV"
+  ],
+  "preprint_servers": [
+    "arXiv",
+    "bioRxiv",
+    "medRxiv",
+    "TechRxiv"
+  ],
+  "technical_reports": [
+    "Harvard Thesis"
+  ],
+  "journals": [
+    {
+      "title": "ACS Nano",
+      "aliases": [
+        "Acs Nano"
+      ],
+      "cas_major_zone": 1,
+      "issn": "1936-0851",
+      "eissn": "1936-086X",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 161,
+      "scie_source": "scie_2025_06",
+      "scie_row": 74,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "ACS Nano"
+    },
+    {
+      "title": "ACS Sensors",
+      "aliases": [
+        "Acs Sensors"
+      ],
+      "cas_major_zone": 1,
+      "issn": "2379-3694",
+      "eissn": "2379-3694",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 169,
+      "scie_source": "scie_2025_06",
+      "scie_row": 77,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "ACS Sensors"
+    },
+    {
+      "title": "ACTA NEUROPATHOLOGICA",
+      "aliases": [
+        "Acta Neuropathologica"
+      ],
+      "cas_major_zone": 1,
+      "issn": "0001-6322",
+      "eissn": "1432-0533",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 297,
+      "scie_source": "scie_2025_06",
+      "scie_row": 161,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "ACTA NEUROPATHOLOGICA"
+    },
+    {
+      "title": "Acta Neuropathologica Communications",
+      "aliases": [
+        "Acta Neuropathologica Communications"
+      ],
+      "cas_major_zone": 1,
+      "issn": "2051-5960",
+      "eissn": "2051-5960",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 296,
+      "scie_source": "scie_2025_06",
+      "scie_row": 162,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "Acta Neuropathologica Communications"
+    },
+    {
+      "title": "Advanced Science",
+      "aliases": [
+        "Advanced Science"
+      ],
+      "cas_major_zone": 1,
+      "issn": null,
+      "eissn": "2198-3844",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 483,
+      "scie_source": "scie_2025_06",
+      "scie_row": 254,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "Advanced Science"
+    },
+    {
+      "title": "AGEING RESEARCH REVIEWS",
+      "aliases": [
+        "Ageing Research Reviews"
+      ],
+      "cas_major_zone": 1,
+      "issn": "1568-1637",
+      "eissn": "1872-9649",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 698,
+      "scie_source": "scie_2025_06",
+      "scie_row": 342,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "AGEING RESEARCH REVIEWS"
+    },
+    {
+      "title": "AMERICAN JOURNAL OF HUMAN GENETICS",
+      "aliases": [
+        "American Journal Of Human Genetics"
+      ],
+      "cas_major_zone": 1,
+      "issn": "0002-9297",
+      "eissn": "1537-6605",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 980,
+      "scie_source": "scie_2025_06",
+      "scie_row": 464,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "AMERICAN JOURNAL OF HUMAN GENETICS"
+    },
+    {
+      "title": "ANALYTICAL CHEMISTRY",
+      "aliases": [
+        "Analytical Chemistry"
+      ],
+      "cas_major_zone": 1,
+      "issn": "0003-2700",
+      "eissn": "1520-6882",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 1156,
+      "scie_source": "scie_2025_06",
+      "scie_row": 553,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "ANALYTICAL CHEMISTRY"
+    },
+    {
+      "title": "Annual Review of Physiology",
+      "aliases": [
+        "Annual Review Of Physiology"
+      ],
+      "cas_major_zone": 1,
+      "issn": "0066-4278",
+      "eissn": "1545-1585",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 1434,
+      "scie_source": "scie_2025_06",
+      "scie_row": 735,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "Annual Review of Physiology"
+    },
+    {
+      "title": "Annual Review of Pathology-Mechanisms of Disease",
+      "aliases": [
+        "Annual Review of Pathology"
+      ],
+      "cas_major_zone": 1,
+      "issn": "1553-4006",
+      "eissn": "1553-4014",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 1431,
+      "scie_source": "scie_2025_06",
+      "scie_row": 732,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "Annual Review of Pathology-Mechanisms of Disease"
+    },
+    {
+      "title": "ARTIFICIAL INTELLIGENCE REVIEW",
+      "aliases": [
+        "Artificial Intelligence Review"
+      ],
+      "cas_major_zone": 1,
+      "issn": "0269-2821",
+      "eissn": "1573-7462",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 1952,
+      "scie_source": "scie_2025_06",
+      "scie_row": 964,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "ARTIFICIAL INTELLIGENCE REVIEW"
+    },
+    {
+      "title": "BMC Medicine",
+      "aliases": [
+        "BMC Medicine"
+      ],
+      "cas_major_zone": 1,
+      "issn": "1741-7015",
+      "eissn": "1741-7015",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 2787,
+      "scie_source": "scie_2025_06",
+      "scie_row": 1375,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "BMC Medicine"
+    },
+    {
+      "title": "Bioactive Materials",
+      "aliases": [
+        "Bioactive Materials"
+      ],
+      "cas_major_zone": 1,
+      "issn": null,
+      "eissn": "2452-199X",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 2504,
+      "scie_source": "scie_2025_06",
+      "scie_row": 1150,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "Bioactive Materials"
+    },
+    {
+      "title": "BIOSENSORS & BIOELECTRONICS",
+      "aliases": [
+        "Biosensors & Bioelectronics"
+      ],
+      "cas_major_zone": 1,
+      "issn": "0956-5663",
+      "eissn": "1873-4235",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 2694,
+      "scie_source": "scie_2025_06",
+      "scie_row": 1307,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "BIOSENSORS & BIOELECTRONICS"
+    },
+    {
+      "title": "BIOTECHNOLOGY ADVANCES",
+      "aliases": [
+        "Biotechnology Advances"
+      ],
+      "cas_major_zone": 1,
+      "issn": "0734-9750",
+      "eissn": "1873-1899",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 2708,
+      "scie_source": "scie_2025_06",
+      "scie_row": 1315,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "BIOTECHNOLOGY ADVANCES"
+    },
+    {
+      "title": "CANCER CELL",
+      "aliases": [
+        "Cancer Cell"
+      ],
+      "cas_major_zone": 1,
+      "issn": "1535-6108",
+      "eissn": "1878-3686",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 3378,
+      "scie_source": "scie_2025_06",
+      "scie_row": 1635,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "CANCER CELL"
+    },
+    {
+      "title": "Cancer Discovery",
+      "aliases": [
+        "Cancer Discovery"
+      ],
+      "cas_major_zone": 1,
+      "issn": "2159-8274",
+      "eissn": "2159-8290",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 3383,
+      "scie_source": "scie_2025_06",
+      "scie_row": 1641,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "Cancer Discovery"
+    },
+    {
+      "title": "Cancer Immunology Research",
+      "aliases": [
+        "Cancer Immunology Research"
+      ],
+      "cas_major_zone": 1,
+      "issn": "2326-6066",
+      "eissn": "2326-6074",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 3392,
+      "scie_source": "scie_2025_06",
+      "scie_row": 1649,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "Cancer Immunology Research"
+    },
+    {
+      "title": "CANCER LETTERS",
+      "aliases": [
+        "Cancer Letters"
+      ],
+      "cas_major_zone": 1,
+      "issn": "0304-3835",
+      "eissn": "1872-7980",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 3397,
+      "scie_source": "scie_2025_06",
+      "scie_row": 1652,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "CANCER LETTERS"
+    },
+    {
+      "title": "CANCER RESEARCH",
+      "aliases": [
+        "Cancer Research"
+      ],
+      "cas_major_zone": 1,
+      "issn": "0008-5472",
+      "eissn": "1538-7445",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 3408,
+      "scie_source": "scie_2025_06",
+      "scie_row": 1660,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "CANCER RESEARCH"
+    },
+    {
+      "title": "CELL",
+      "aliases": [
+        "Cell"
+      ],
+      "cas_major_zone": 1,
+      "issn": "0092-8674",
+      "eissn": "1097-4172",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 3586,
+      "scie_source": "scie_2025_06",
+      "scie_row": 1714,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "CELL"
+    },
+    {
+      "title": "Cell Discovery",
+      "aliases": [
+        "Cell Discovery"
+      ],
+      "cas_major_zone": 1,
+      "issn": null,
+      "eissn": "2056-5968",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 3567,
+      "scie_source": "scie_2025_06",
+      "scie_row": 1730,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "Cell Discovery"
+    },
+    {
+      "title": "CELL PROLIFERATION",
+      "aliases": [
+        "Cell Proliferation"
+      ],
+      "cas_major_zone": 1,
+      "issn": "0960-7722",
+      "eissn": "1365-2184",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 3573,
+      "scie_source": "scie_2025_06",
+      "scie_row": 1735,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "CELL PROLIFERATION"
+    },
+    {
+      "title": "Cell Reports",
+      "aliases": [
+        "Cell Reports"
+      ],
+      "cas_major_zone": 1,
+      "issn": "2211-1247",
+      "eissn": "2211-1247",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 3578,
+      "scie_source": "scie_2025_06",
+      "scie_row": 1736,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "Cell Reports"
+    },
+    {
+      "title": "Cell Reports Medicine",
+      "aliases": [
+        "Cell Reports Medicine"
+      ],
+      "cas_major_zone": 1,
+      "issn": "2666-3791",
+      "eissn": "2666-3791",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 3575,
+      "scie_source": "scie_2025_06",
+      "scie_row": 1737,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "Cell Reports Medicine"
+    },
+    {
+      "title": "CELL RESEARCH",
+      "aliases": [
+        "Cell Research"
+      ],
+      "cas_major_zone": 1,
+      "issn": "1001-0602",
+      "eissn": "1748-7838",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 3579,
+      "scie_source": "scie_2025_06",
+      "scie_row": 1739,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "CELL RESEARCH"
+    },
+    {
+      "title": "Cell Systems",
+      "aliases": [
+        "Cell Systems"
+      ],
+      "cas_major_zone": 1,
+      "issn": "2405-4712",
+      "eissn": "2405-4720",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 3584,
+      "scie_source": "scie_2025_06",
+      "scie_row": 1746,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "Cell Systems"
+    },
+    {
+      "title": "CIRCULATION RESEARCH",
+      "aliases": [
+        "Circulation Research"
+      ],
+      "cas_major_zone": 1,
+      "issn": "0009-7330",
+      "eissn": "1524-4571",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 3922,
+      "scie_source": "scie_2025_06",
+      "scie_row": 1916,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "CIRCULATION RESEARCH"
+    },
+    {
+      "title": "CLINICAL CANCER RESEARCH",
+      "aliases": [
+        "Clinical Cancer Research"
+      ],
+      "cas_major_zone": 1,
+      "issn": "1078-0432",
+      "eissn": "1557-3265",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 4039,
+      "scie_source": "scie_2025_06",
+      "scie_row": 1964,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "CLINICAL CANCER RESEARCH"
+    },
+    {
+      "title": "Communications Biology",
+      "aliases": [
+        "Communications Biology"
+      ],
+      "cas_major_zone": 1,
+      "issn": null,
+      "eissn": "2399-3642",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 4310,
+      "scie_source": "scie_2025_06",
+      "scie_row": 2104,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "Communications Biology"
+    },
+    {
+      "title": "Cyborg and Bionic Systems",
+      "aliases": [
+        "Cyborg And Bionic Systems (Washington, D.C.)"
+      ],
+      "cas_major_zone": 1,
+      "issn": null,
+      "eissn": "2692-7632",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 5146,
+      "scie_source": "scie_2025_06",
+      "scie_row": 2453,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "Cyborg and Bionic Systems"
+    },
+    {
+      "title": "DRUG RESISTANCE UPDATES",
+      "aliases": [
+        "Drug Resistance Updates : Reviews And Commentaries In Antimicrobial And Anticancer Chemotherapy"
+      ],
+      "cas_major_zone": 1,
+      "issn": "1368-7646",
+      "eissn": "1532-2084",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 5537,
+      "scie_source": "scie_2025_06",
+      "scie_row": 2628,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "DRUG RESISTANCE UPDATES"
+    },
+    {
+      "title": "ENVIRONMENTAL SCIENCE & TECHNOLOGY",
+      "aliases": [
+        "Environmental Science & Technology"
+      ],
+      "cas_major_zone": 1,
+      "issn": "0013-936X",
+      "eissn": "1520-5851",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 6247,
+      "scie_source": "scie_2025_06",
+      "scie_row": 2888,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "ENVIRONMENTAL SCIENCE & TECHNOLOGY"
+    },
+    {
+      "title": "EUROPEAN JOURNAL OF CANCER",
+      "aliases": [
+        "European Journal of Cancer"
+      ],
+      "cas_major_zone": 1,
+      "issn": "0959-8049",
+      "eissn": "1879-0852",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 6553,
+      "scie_source": "scie_2025_06",
+      "scie_row": 2981,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "EUROPEAN JOURNAL OF CANCER"
+    },
+    {
+      "title": "GENOME BIOLOGY",
+      "aliases": [
+        "Genome Biology"
+      ],
+      "cas_major_zone": 1,
+      "issn": "1474-760X",
+      "eissn": "1474-760X",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 7567,
+      "scie_source": "scie_2025_06",
+      "scie_row": 3492,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "GENOME BIOLOGY"
+    },
+    {
+      "title": "Genome Medicine",
+      "aliases": [
+        "Genome Medicine"
+      ],
+      "cas_major_zone": 1,
+      "issn": "1756-994X",
+      "eissn": "1756-994X",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 7568,
+      "scie_source": "scie_2025_06",
+      "scie_row": 3494,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "Genome Medicine"
+    },
+    {
+      "title": "GENOME RESEARCH",
+      "aliases": [
+        "Genome Research"
+      ],
+      "cas_major_zone": 1,
+      "issn": "1088-9051",
+      "eissn": "1549-5469",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 7569,
+      "scie_source": "scie_2025_06",
+      "scie_row": 3495,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "GENOME RESEARCH"
+    },
+    {
+      "title": "GUT",
+      "aliases": [
+        "Gut"
+      ],
+      "cas_major_zone": 1,
+      "issn": "0017-5749",
+      "eissn": "1468-3288",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 7920,
+      "scie_source": "scie_2025_06",
+      "scie_row": 3638,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "GUT"
+    },
+    {
+      "title": "HEPATOLOGY",
+      "aliases": [
+        "Hepatology (Baltimore, Md.)"
+      ],
+      "cas_major_zone": 1,
+      "issn": "0270-9139",
+      "eissn": "1527-3350",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 8095,
+      "scie_source": "scie_2025_06",
+      "scie_row": 3707,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "HEPATOLOGY"
+    },
+    {
+      "title": "IEEE TRANSACTIONS ON MEDICAL IMAGING",
+      "aliases": [
+        "IEEE Transactions on Medical Imaging"
+      ],
+      "cas_major_zone": 1,
+      "issn": "0278-0062",
+      "eissn": "1558-254X",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 8600,
+      "scie_source": "scie_2025_06",
+      "scie_row": 3960,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "IEEE TRANSACTIONS ON MEDICAL IMAGING"
+    },
+    {
+      "title": "IEEE Transactions on Neural Networks and Learning Systems",
+      "aliases": [
+        "IEEE Transactions on Neural Networks and Learning Systems"
+      ],
+      "cas_major_zone": 1,
+      "issn": "2162-237X",
+      "eissn": "2162-2388",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 8610,
+      "scie_source": "scie_2025_06",
+      "scie_row": 3969,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "IEEE Transactions on Neural Networks and Learning Systems"
+    },
+    {
+      "title": "IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE",
+      "aliases": [
+        "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+      ],
+      "cas_major_zone": 1,
+      "issn": "0162-8828",
+      "eissn": "1939-3539",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 8614,
+      "scie_source": "scie_2025_06",
+      "scie_row": 3973,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE"
+    },
+    {
+      "title": "IEEE TRANSACTIONS ON IMAGE PROCESSING",
+      "aliases": [
+        "Ieee Transactions On Image Processing : A Publication Of The Ieee Signal Processing Society"
+      ],
+      "cas_major_zone": 1,
+      "issn": "1057-7149",
+      "eissn": "1941-0042",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 8588,
+      "scie_source": "scie_2025_06",
+      "scie_row": 3948,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "IEEE TRANSACTIONS ON IMAGE PROCESSING"
+    },
+    {
+      "title": "iMeta",
+      "aliases": [
+        "Imeta"
+      ],
+      "cas_major_zone": 1,
+      "issn": "2770-5986",
+      "eissn": "2770-596X",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 8739,
+      "scie_source": "scie_2025_06",
+      "scie_row": 4041,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "iMeta"
+    },
+    {
+      "title": "International Journal of Oral Science",
+      "aliases": [
+        "International Journal Of Oral Science"
+      ],
+      "cas_major_zone": 1,
+      "issn": "1674-2818",
+      "eissn": "2049-3169",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 9889,
+      "scie_source": "scie_2025_06",
+      "scie_row": 4487,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "International Journal of Oral Science"
+    },
+    {
+      "title": "JAMA-JOURNAL OF THE AMERICAN MEDICAL ASSOCIATION",
+      "aliases": [
+        "JAMA"
+      ],
+      "cas_major_zone": 1,
+      "issn": "0098-7484",
+      "eissn": "1538-3598",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 10522,
+      "scie_source": "scie_2025_06",
+      "scie_row": 4710,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "JAMA-JOURNAL OF THE AMERICAN MEDICAL ASSOCIATION"
+    },
+    {
+      "title": "JAMA Dermatology",
+      "aliases": [
+        "JAMA Dermatology"
+      ],
+      "cas_major_zone": 1,
+      "issn": "2168-6068",
+      "eissn": "2168-6084",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 10511,
+      "scie_source": "scie_2025_06",
+      "scie_row": 4707,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "JAMA Dermatology"
+    },
+    {
+      "title": "JAMA Oncology",
+      "aliases": [
+        "JAMA Oncology"
+      ],
+      "cas_major_zone": 1,
+      "issn": "2374-2437",
+      "eissn": "2374-2445",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 10516,
+      "scie_source": "scie_2025_06",
+      "scie_row": 4713,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "JAMA Oncology"
+    },
+    {
+      "title": "JCI Insight",
+      "aliases": [
+        "JCI Insight"
+      ],
+      "cas_major_zone": 1,
+      "issn": null,
+      "eissn": "2379-3708",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 10565,
+      "scie_source": "scie_2025_06",
+      "scie_row": 4735,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "JCI Insight"
+    },
+    {
+      "title": "JHEP Reports",
+      "aliases": [
+        "Jhep Reports : Innovation In Hepatology"
+      ],
+      "cas_major_zone": 1,
+      "issn": null,
+      "eissn": "2589-5559",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 10589,
+      "scie_source": "scie_2025_06",
+      "scie_row": 4741,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "JHEP Reports"
+    },
+    {
+      "title": "Journal for ImmunoTherapy of Cancer",
+      "aliases": [
+        "Journal For Immunotherapy Of Cancer"
+      ],
+      "cas_major_zone": 1,
+      "issn": null,
+      "eissn": "2051-1426",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 10654,
+      "scie_source": "scie_2025_06",
+      "scie_row": 4768,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "Journal for ImmunoTherapy of Cancer"
+    },
+    {
+      "title": "Journal of Advanced Research",
+      "aliases": [
+        "Journal Of Advanced Research"
+      ],
+      "cas_major_zone": 1,
+      "issn": "2090-1232",
+      "eissn": "2090-1224",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 10738,
+      "scie_source": "scie_2025_06",
+      "scie_row": 4787,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "Journal of Advanced Research"
+    },
+    {
+      "title": "JOURNAL OF BIOMEDICAL SCIENCE",
+      "aliases": [
+        "Journal Of Biomedical Science"
+      ],
+      "cas_major_zone": 1,
+      "issn": "1021-7770",
+      "eissn": "1423-0127",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 11062,
+      "scie_source": "scie_2025_06",
+      "scie_row": 4938,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "JOURNAL OF BIOMEDICAL SCIENCE"
+    },
+    {
+      "title": "JOURNAL OF DENTAL RESEARCH",
+      "aliases": [
+        "Journal Of Dental Research"
+      ],
+      "cas_major_zone": 1,
+      "issn": "0022-0345",
+      "eissn": "1544-0591",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 11519,
+      "scie_source": "scie_2025_06",
+      "scie_row": 5152,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "JOURNAL OF DENTAL RESEARCH"
+    },
+    {
+      "title": "Journal of Genetics and Genomics",
+      "aliases": [
+        "Journal Of Genetics And Genomics = Yi Chuan Xue Bao"
+      ],
+      "cas_major_zone": 1,
+      "issn": "1673-8527",
+      "eissn": "1873-5533",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 11989,
+      "scie_source": "scie_2025_06",
+      "scie_row": 5354,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "Journal of Genetics and Genomics"
+    },
+    {
+      "title": "Journal of Hematology & Oncology",
+      "aliases": [
+        "Journal Of Hematology & Oncology"
+      ],
+      "cas_major_zone": 1,
+      "issn": null,
+      "eissn": "1756-8722",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 12099,
+      "scie_source": "scie_2025_06",
+      "scie_row": 5403,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "Journal of Hematology & Oncology"
+    },
+    {
+      "title": "Journal of Orthopaedic Translation",
+      "aliases": [
+        "Journal Of Orthopaedic Translation"
+      ],
+      "cas_major_zone": 1,
+      "issn": "2214-031X",
+      "eissn": "2214-031X",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 12970,
+      "scie_source": "scie_2025_06",
+      "scie_row": 5816,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "Journal of Orthopaedic Translation"
+    },
+    {
+      "title": "JOURNAL OF CELL BIOLOGY",
+      "aliases": [
+        "Journal of Cell Biology"
+      ],
+      "cas_major_zone": 1,
+      "issn": "0021-9525",
+      "eissn": "1540-8140",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 11154,
+      "scie_source": "scie_2025_06",
+      "scie_row": 4989,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "JOURNAL OF CELL BIOLOGY"
+    },
+    {
+      "title": "JOURNAL OF CLINICAL ONCOLOGY",
+      "aliases": [
+        "Journal of Clinical Oncology"
+      ],
+      "cas_major_zone": 1,
+      "issn": "0732-183X",
+      "eissn": "1527-7755",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 11271,
+      "scie_source": "scie_2025_06",
+      "scie_row": 5055,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "JOURNAL OF CLINICAL ONCOLOGY"
+    },
+    {
+      "title": "LEUKEMIA",
+      "aliases": [
+        "Leukemia"
+      ],
+      "cas_major_zone": 1,
+      "issn": "0887-6924",
+      "eissn": "1476-5551",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 14512,
+      "scie_source": "scie_2025_06",
+      "scie_row": 6475,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "LEUKEMIA"
+    },
+    {
+      "title": "Light-Science & Applications",
+      "aliases": [
+        "Light: Science & Applications"
+      ],
+      "cas_major_zone": 1,
+      "issn": "2095-5545",
+      "eissn": "2047-7538",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 14555,
+      "scie_source": "scie_2025_06",
+      "scie_row": 6491,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "Light-Science & Applications"
+    },
+    {
+      "title": "MEDICAL IMAGE ANALYSIS",
+      "aliases": [
+        "Medical Image Analysis"
+      ],
+      "cas_major_zone": 1,
+      "issn": "1361-8415",
+      "eissn": "1361-8423",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 15073,
+      "scie_source": "scie_2025_06",
+      "scie_row": 6736,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "MEDICAL IMAGE ANALYSIS"
+    },
+    {
+      "title": "MODERN PATHOLOGY",
+      "aliases": [
+        "Modern Pathology"
+      ],
+      "cas_major_zone": 1,
+      "issn": "0893-3952",
+      "eissn": "1530-0285",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 15437,
+      "scie_source": "scie_2025_06",
+      "scie_row": 6895,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "MODERN PATHOLOGY"
+    },
+    {
+      "title": "MOLECULAR PSYCHIATRY",
+      "aliases": [
+        "Molecular Psychiatry"
+      ],
+      "cas_major_zone": 1,
+      "issn": "1359-4184",
+      "eissn": "1476-5578",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 15516,
+      "scie_source": "scie_2025_06",
+      "scie_row": 6958,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "MOLECULAR PSYCHIATRY"
+    },
+    {
+      "title": "Molecular Systems Biology",
+      "aliases": [
+        "Molecular Systems Biology"
+      ],
+      "cas_major_zone": 1,
+      "issn": "1744-4292",
+      "eissn": "1744-4292",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 15520,
+      "scie_source": "scie_2025_06",
+      "scie_row": 6962,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "Molecular Systems Biology"
+    },
+    {
+      "title": "National Science Review",
+      "aliases": [
+        "National Science Review"
+      ],
+      "cas_major_zone": 1,
+      "issn": "2095-5138",
+      "eissn": "2053-714X",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 15733,
+      "scie_source": "scie_2025_06",
+      "scie_row": 7045,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "National Science Review"
+    },
+    {
+      "title": "NATURE",
+      "aliases": [
+        "Nature"
+      ],
+      "cas_major_zone": 1,
+      "issn": "0028-0836",
+      "eissn": "1476-4687",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 15822,
+      "scie_source": "scie_2025_06",
+      "scie_row": 7059,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "NATURE"
+    },
+    {
+      "title": "Nature Biomedical Engineering",
+      "aliases": [
+        "Nature Biomedical Engineering"
+      ],
+      "cas_major_zone": 1,
+      "issn": "2157-846X",
+      "eissn": "2157-846X",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 15764,
+      "scie_source": "scie_2025_06",
+      "scie_row": 7063,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "Nature Biomedical Engineering"
+    },
+    {
+      "title": "NATURE BIOTECHNOLOGY",
+      "aliases": [
+        "Nature Biotechnology"
+      ],
+      "cas_major_zone": 1,
+      "issn": "1087-0156",
+      "eissn": "1546-1696",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 15765,
+      "scie_source": "scie_2025_06",
+      "scie_row": 7064,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "NATURE BIOTECHNOLOGY"
+    },
+    {
+      "title": "Nature Cancer",
+      "aliases": [
+        "Nature Cancer"
+      ],
+      "cas_major_zone": 1,
+      "issn": null,
+      "eissn": "2662-1347",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 15766,
+      "scie_source": "scie_2025_06",
+      "scie_row": 7065,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "Nature Cancer"
+    },
+    {
+      "title": "NATURE CELL BIOLOGY",
+      "aliases": [
+        "Nature Cell Biology"
+      ],
+      "cas_major_zone": 1,
+      "issn": "1465-7392",
+      "eissn": "1476-4679",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 15769,
+      "scie_source": "scie_2025_06",
+      "scie_row": 7067,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "NATURE CELL BIOLOGY"
+    },
+    {
+      "title": "Nature Communications",
+      "aliases": [
+        "Nature Communications"
+      ],
+      "cas_major_zone": 1,
+      "issn": null,
+      "eissn": "2041-1723",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 15773,
+      "scie_source": "scie_2025_06",
+      "scie_row": 7071,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "Nature Communications"
+    },
+    {
+      "title": "Nature Computational Science",
+      "aliases": [
+        "Nature Computational Science"
+      ],
+      "cas_major_zone": 1,
+      "issn": null,
+      "eissn": "2662-8457",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 15774,
+      "scie_source": "scie_2025_06",
+      "scie_row": 7072,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "Nature Computational Science"
+    },
+    {
+      "title": "NATURE GENETICS",
+      "aliases": [
+        "Nature Genetics"
+      ],
+      "cas_major_zone": 1,
+      "issn": "1061-4036",
+      "eissn": "1546-1718",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 15781,
+      "scie_source": "scie_2025_06",
+      "scie_row": 7078,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "NATURE GENETICS"
+    },
+    {
+      "title": "Nature Machine Intelligence",
+      "aliases": [
+        "Nature Machine Intelligence"
+      ],
+      "cas_major_zone": 1,
+      "issn": null,
+      "eissn": "2522-5839",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 15785,
+      "scie_source": "scie_2025_06",
+      "scie_row": 7082,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "Nature Machine Intelligence"
+    },
+    {
+      "title": "NATURE MEDICINE",
+      "aliases": [
+        "Nature Medicine"
+      ],
+      "cas_major_zone": 1,
+      "issn": "1078-8956",
+      "eissn": "1546-170X",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 15787,
+      "scie_source": "scie_2025_06",
+      "scie_row": 7084,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "NATURE MEDICINE"
+    },
+    {
+      "title": "NATURE METHODS",
+      "aliases": [
+        "Nature Methods"
+      ],
+      "cas_major_zone": 1,
+      "issn": "1548-7091",
+      "eissn": "1548-7105",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 15789,
+      "scie_source": "scie_2025_06",
+      "scie_row": 7086,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "NATURE METHODS"
+    },
+    {
+      "title": "Nature Microbiology",
+      "aliases": [
+        "Nature Microbiology"
+      ],
+      "cas_major_zone": 1,
+      "issn": "2058-5276",
+      "eissn": "2058-5276",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 15790,
+      "scie_source": "scie_2025_06",
+      "scie_row": 7087,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "Nature Microbiology"
+    },
+    {
+      "title": "Nature Reviews Clinical Oncology",
+      "aliases": [
+        "Nature Reviews Clinical Oncology"
+      ],
+      "cas_major_zone": 1,
+      "issn": "1759-4774",
+      "eissn": "1759-4782",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 15800,
+      "scie_source": "scie_2025_06",
+      "scie_row": 7097,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "Nature Reviews Clinical Oncology"
+    },
+    {
+      "title": "Nature Reviews Nephrology",
+      "aliases": [
+        "Nature Reviews Nephrology",
+        "Nature Reviews. Nephrology"
+      ],
+      "cas_major_zone": 1,
+      "issn": "1759-5061",
+      "eissn": "1759-507X",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 15812,
+      "scie_source": "scie_2025_06",
+      "scie_row": 7109,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "Nature Reviews Nephrology"
+    },
+    {
+      "title": "NATURE REVIEWS GENETICS",
+      "aliases": [
+        "Nature Reviews. Genetics"
+      ],
+      "cas_major_zone": 1,
+      "issn": "1471-0056",
+      "eissn": "1471-0064",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 15806,
+      "scie_source": "scie_2025_06",
+      "scie_row": 7103,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "NATURE REVIEWS GENETICS"
+    },
+    {
+      "title": "NATURE REVIEWS MOLECULAR CELL BIOLOGY",
+      "aliases": [
+        "Nature Reviews. Molecular Cell Biology"
+      ],
+      "cas_major_zone": 1,
+      "issn": "1471-0072",
+      "eissn": "1471-0080",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 15811,
+      "scie_source": "scie_2025_06",
+      "scie_row": 7108,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "NATURE REVIEWS MOLECULAR CELL BIOLOGY"
+    },
+    {
+      "title": "NEURO-ONCOLOGY",
+      "aliases": [
+        "Neuro-Oncology"
+      ],
+      "cas_major_zone": 1,
+      "issn": "1522-8517",
+      "eissn": "1523-5866",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 15899,
+      "scie_source": "scie_2025_06",
+      "scie_row": 7197,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "NEURO-ONCOLOGY"
+    },
+    {
+      "title": "Neuron",
+      "aliases": [
+        "Neuron"
+      ],
+      "cas_major_zone": 1,
+      "issn": "0896-6273",
+      "eissn": "1097-4199",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 15952,
+      "scie_source": "scie_2025_06",
+      "scie_row": 7196,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "Neuron"
+    },
+    {
+      "title": "ONCOGENE",
+      "aliases": [
+        "Oncogene"
+      ],
+      "cas_major_zone": 1,
+      "issn": "0950-9232",
+      "eissn": "1476-5594",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 16386,
+      "scie_source": "scie_2025_06",
+      "scie_row": 7419,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "ONCOGENE"
+    },
+    {
+      "title": "PLOS BIOLOGY",
+      "aliases": [
+        "PLOS Biology"
+      ],
+      "cas_major_zone": 1,
+      "issn": "1544-9173",
+      "eissn": "1545-7885",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 17284,
+      "scie_source": "scie_2025_06",
+      "scie_row": 7893,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "PLOS BIOLOGY"
+    },
+    {
+      "title": "PATTERN RECOGNITION",
+      "aliases": [
+        "Pattern Recognition"
+      ],
+      "cas_major_zone": 1,
+      "issn": "0031-3203",
+      "eissn": "1873-5142",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 16796,
+      "scie_source": "scie_2025_06",
+      "scie_row": 7608,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "PATTERN RECOGNITION"
+    },
+    {
+      "title": "PROCEEDINGS OF THE NATIONAL ACADEMY OF SCIENCES OF THE UNITED STATES OF AMERICA",
+      "aliases": [
+        "Proceedings Of The National Academy Of Sciences Of The United States Of America"
+      ],
+      "cas_major_zone": 1,
+      "issn": "0027-8424",
+      "eissn": "1091-6490",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 17618,
+      "scie_source": "scie_2025_06",
+      "scie_row": 8026,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "PROCEEDINGS OF THE NATIONAL ACADEMY OF SCIENCES OF THE UNITED STATES OF AMERICA"
+    },
+    {
+      "title": "Protein & Cell",
+      "aliases": [
+        "Protein & Cell"
+      ],
+      "cas_major_zone": 1,
+      "issn": "1674-800X",
+      "eissn": "1674-8018",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 17725,
+      "scie_source": "scie_2025_06",
+      "scie_row": 8089,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "Protein & Cell"
+    },
+    {
+      "title": "Research",
+      "aliases": [
+        "Research"
+      ],
+      "cas_major_zone": 1,
+      "issn": "2096-5168",
+      "eissn": "2639-5274",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 18356,
+      "scie_source": "scie_2025_06",
+      "scie_row": 8273,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "Research"
+    },
+    {
+      "title": "Science Advances",
+      "aliases": [
+        "Science Advances"
+      ],
+      "cas_major_zone": 1,
+      "issn": "2375-2548",
+      "eissn": "2375-2548",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 19286,
+      "scie_source": "scie_2025_06",
+      "scie_row": 8505,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "Science Advances"
+    },
+    {
+      "title": "Science Bulletin",
+      "aliases": [
+        "Science Bulletin"
+      ],
+      "cas_major_zone": 1,
+      "issn": "2095-9273",
+      "eissn": "2095-9281",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 19301,
+      "scie_source": "scie_2025_06",
+      "scie_row": 8516,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "Science Bulletin"
+    },
+    {
+      "title": "Stem Cell Reports",
+      "aliases": [
+        "Stem Cell Reports"
+      ],
+      "cas_major_zone": 1,
+      "issn": "2213-6711",
+      "eissn": "2213-6711",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 20055,
+      "scie_source": "scie_2025_06",
+      "scie_row": 8792,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "Stem Cell Reports"
+    },
+    {
+      "title": "AMERICAN JOURNAL OF SURGICAL PATHOLOGY",
+      "aliases": [
+        "The American Journal of Surgical Pathology"
+      ],
+      "cas_major_zone": 1,
+      "issn": "0147-5185",
+      "eissn": "1532-0979",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 1044,
+      "scie_source": "scie_2025_06",
+      "scie_row": 510,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "AMERICAN JOURNAL OF SURGICAL PATHOLOGY"
+    },
+    {
+      "title": "BRITISH JOURNAL OF DERMATOLOGY",
+      "aliases": [
+        "The British Journal Of Dermatology"
+      ],
+      "cas_major_zone": 1,
+      "issn": "0007-0963",
+      "eissn": "1365-2133",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 3009,
+      "scie_source": "scie_2025_06",
+      "scie_row": 1497,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "BRITISH JOURNAL OF DERMATOLOGY"
+    },
+    {
+      "title": "Lancet Digital Health",
+      "aliases": [
+        "The Lancet Digital Health"
+      ],
+      "cas_major_zone": 1,
+      "issn": null,
+      "eissn": "2589-7500",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 14311,
+      "scie_source": "scie_2025_06",
+      "scie_row": 6418,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "Lancet Digital Health"
+    },
+    {
+      "title": "LANCET ONCOLOGY",
+      "aliases": [
+        "The Lancet Oncology"
+      ],
+      "cas_major_zone": 1,
+      "issn": "1470-2045",
+      "eissn": "1474-5488",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 14320,
+      "scie_source": "scie_2025_06",
+      "scie_row": 6427,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "LANCET ONCOLOGY"
+    },
+    {
+      "title": "Theranostics",
+      "aliases": [
+        "Theranostics"
+      ],
+      "cas_major_zone": 1,
+      "issn": "1838-7640",
+      "eissn": "1838-7640",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 20614,
+      "scie_source": "scie_2025_06",
+      "scie_row": 8983,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "Theranostics"
+    },
+    {
+      "title": "EBioMedicine",
+      "aliases": [
+        "eBioMedicine"
+      ],
+      "cas_major_zone": 1,
+      "issn": "2352-3964",
+      "eissn": "2352-3964",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 5652,
+      "scie_source": "scie_2025_06",
+      "scie_row": 2671,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "EBioMedicine"
+    },
+    {
+      "title": "npj Digital Medicine",
+      "aliases": [
+        "npj Digital Medicine"
+      ],
+      "cas_major_zone": 1,
+      "issn": "2398-6352",
+      "eissn": "2398-6352",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 16197,
+      "scie_source": "scie_2025_06",
+      "scie_row": 7306,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "npj Digital Medicine"
+    },
+    {
+      "title": "npj Precision Oncology",
+      "aliases": [
+        "npj Precision Oncology"
+      ],
+      "cas_major_zone": 1,
+      "issn": null,
+      "eissn": "2397-768X",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 16203,
+      "scie_source": "scie_2025_06",
+      "scie_row": 7313,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "npj Precision Oncology"
+    }
+  ]
+}
