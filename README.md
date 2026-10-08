@@ -6,7 +6,11 @@
 
 
 # Awesome-AI-Pathology
-Awesome AI Pathology papers, including top AI conferences and journals such as CVPR, ICCV, ECCV, NeurIPS, ICML, ICLR, ACM MM, MICCAI, MIDL, Nature, Nature Medicine, Nature Methods, Nature Biomedical Engineering, npj Digital Medicine, The Lancet Digital Health, Medical Image Analysis, and IEEE Transactions on Medical Imaging.
+Awesome AI Pathology papers, including top AI conferences and journals such as CVPR, ICCV,
+ECCV, NeurIPS, ICML, ICLR, ACM MM, MICCAI, MIDL, Nature, Nature Medicine, Nature Methods,
+Nature Biomedical Engineering, npj Digital Medicine, The Lancet Digital Health, Medical
+Image Analysis, IEEE Transactions on Medical Imaging, and IEEE Transactions on Pattern
+Analysis and Machine Intelligence (TPAMI).
 
 Scope includes computational tissue analysis, spatial transcriptomics/proteomics,
 single-cell methods, tissue microenvironments and cancer multimodal omics.
@@ -19,13 +23,14 @@ See the [journal cleanup and ranking sources](docs/updates/2026-10-08-cas-zone1.
 
 ## Highlights
 
-- 📚 3,607 curated publication entries in computational pathology and tissue omics
+- 📚 3,630 curated publication entries in computational pathology and tissue omics
 - 🧠 Foundation models, WSI analysis, VLMs, agents, and spatial omics
-- 🏛️ Top conferences and journals: CVPR, ICCV, NeurIPS, ICML, ICLR, MICCAI, MIDL, Nature, Cell, Lancet, IEEE TMI, MedIA
+- 🏛️ Top conferences and journals: CVPR, ICCV, NeurIPS, ICML, ICLR, MICCAI, MIDL, Nature, Cell, Lancet, IEEE TPAMI, IEEE TMI, MedIA
 - 📊 Year-by-year and venue-by-venue paper tracking
 - 🔎 DOI links, official proceedings, and reproducible search records
 - 🤝 Open for community contributions
 
+TPAMI update (2026-10-08): [verified additions and year corrections](docs/updates/2026-10-08-tpami.md).
 Journal cleanup (2026-10-08): [CAS zone-1 policy, removed counts and retained journals](docs/updates/2026-10-08-cas-zone1.md).
 NeurIPS 2026 update (2026-10-06): [28 requested works and source verification](docs/updates/2026-10-06-neurips-2026.md).
 Expanded-scope update (2026-10-05): [additions, yearly counts and weekly search audit](docs/updates/2026-10-05.md).
@@ -108,7 +113,7 @@ Earlier years remain on this page.
 
 # 2026
 
-**1,429 publications** · [Browse the complete 2026 list](papers/2026.md)
+**1,436 publications** · [Browse the complete 2026 list](papers/2026.md)
 
 - [Nature](papers/2026.md#nature) (3)
 - [Nature Medicine](papers/2026.md#nature-medicine) (6)
@@ -135,7 +140,7 @@ Earlier years remain on this page.
 - [Cell Reports Medicine](papers/2026.md#cell-reports-medicine) (3)
 - [Clinical Cancer Research](papers/2026.md#clinical-cancer-research) (8)
 - [Genome Biology](papers/2026.md#genome-biology) (21)
-- [IEEE Transactions on Pattern Analysis and Machine Intelligence](papers/2026.md#ieee-transactions-on-pattern-analysis-and-machine-intelligence) (3)
+- [IEEE Transactions on Pattern Analysis and Machine Intelligence](papers/2026.md#ieee-transactions-on-pattern-analysis-and-machine-intelligence) (10)
 - [JAMA Oncology](papers/2026.md#jama-oncology) (1)
 - [Leukemia](papers/2026.md#leukemia) (2)
 - [The Lancet Oncology](papers/2026.md#the-lancet-oncology) (3)
@@ -198,7 +203,7 @@ Earlier years remain on this page.
 
 # 2025
 
-**1,024 publications** · [Browse the complete 2025 list](papers/2025.md)
+**1,026 publications** · [Browse the complete 2025 list](papers/2025.md)
 
 - [Nature](papers/2025.md#nature) (5)
 - [Nature Medicine](papers/2025.md#nature-medicine) (2)
@@ -229,7 +234,7 @@ Earlier years remain on this page.
 - [Clinical Cancer Research](papers/2025.md#clinical-cancer-research) (3)
 - [Genome Biology](papers/2025.md#genome-biology) (24)
 - [IEEE Transactions on Neural Networks and Learning Systems](papers/2025.md#ieee-transactions-on-neural-networks-and-learning-systems) (3)
-- [IEEE Transactions on Pattern Analysis and Machine Intelligence](papers/2025.md#ieee-transactions-on-pattern-analysis-and-machine-intelligence) (1)
+- [IEEE Transactions on Pattern Analysis and Machine Intelligence](papers/2025.md#ieee-transactions-on-pattern-analysis-and-machine-intelligence) (3)
 - [JAMA Oncology](papers/2025.md#jama-oncology) (2)
 - [Leukemia](papers/2025.md#leukemia) (2)
 - [Science Advances](papers/2025.md#science-advances) (6)
@@ -288,7 +293,7 @@ Earlier years remain on this page.
 
 # 2024
 
-**665 publications** · [Browse the complete 2024 list](papers/2024.md)
+**669 publications** · [Browse the complete 2024 list](papers/2024.md)
 
 - [Nature](papers/2024.md#nature) (3)
 - [Nature Medicine](papers/2024.md#nature-medicine) (9)
@@ -318,6 +323,7 @@ Earlier years remain on this page.
 - [Cell Reports Medicine](papers/2024.md#cell-reports-medicine) (6)
 - [Clinical Cancer Research](papers/2024.md#clinical-cancer-research) (4)
 - [Genome Biology](papers/2024.md#genome-biology) (24)
+- [IEEE Transactions on Pattern Analysis and Machine Intelligence](papers/2024.md#ieee-transactions-on-pattern-analysis-and-machine-intelligence) (4)
 - [IEEE Transactions on Neural Networks and Learning Systems](papers/2024.md#ieee-transactions-on-neural-networks-and-learning-systems) (3)
 - [JAMA Dermatology](papers/2024.md#jama-dermatology) (1)
 - [Science Advances](papers/2024.md#science-advances) (3)
@@ -368,7 +374,7 @@ Earlier years remain on this page.
 
 # 2023
 
-**387 publications** · [Browse the complete 2023 list](papers/2023.md)
+**394 publications** · [Browse the complete 2023 list](papers/2023.md)
 
 - [Nature Medicine](papers/2023.md#nature-medicine) (3)
 - [Nature Cancer](papers/2023.md#nature-cancer) (1)
@@ -392,7 +398,7 @@ Earlier years remain on this page.
 - [Cancer Research](papers/2023.md#cancer-research) (3)
 - [Cell Reports Medicine](papers/2023.md#cell-reports-medicine) (8)
 - [Clinical Cancer Research](papers/2023.md#clinical-cancer-research) (2)
-- [IEEE Transactions on Pattern Analysis and Machine Intelligence](papers/2023.md#ieee-transactions-on-pattern-analysis-and-machine-intelligence) (1)
+- [IEEE Transactions on Pattern Analysis and Machine Intelligence](papers/2023.md#ieee-transactions-on-pattern-analysis-and-machine-intelligence) (8)
 - [JAMA Oncology](papers/2023.md#jama-oncology) (1)
 - [Leukemia](papers/2023.md#leukemia) (1)
 - [The Lancet Oncology](papers/2023.md#the-lancet-oncology) (1)
@@ -429,6 +435,10 @@ Earlier years remain on this page.
 ---
 
 # 2022
+
+**IEEE Transactions on Pattern Analysis and Machine Intelligence**
+
+- PolarMask++: Enhanced Polar Representation for Single-Shot Instance Segmentation and Beyond [[paper](https://doi.org/10.1109/tpami.2021.3080324)][[code](https://github.com/xieenze/PolarMask)] — *Cell/tissue image analysis*
 
 **arXiv**
 
@@ -519,6 +529,10 @@ Earlier years remain on this page.
 ---
 
 # 2021
+
+**IEEE Transactions on Pattern Analysis and Machine Intelligence**
+
+- Neural Image Compression for Gigapixel Histopathology Image Analysis [[paper](https://doi.org/10.1109/tpami.2019.2936841)]
 
 **Nature**
 
@@ -757,6 +771,14 @@ Earlier years remain on this page.
 **Nature Communications**
 
 - Predicting non-small cell lung cancer prognosis by fully automated microscopic pathology image features [[paper](https://www.nature.com/articles/ncomms12474)]
+
+---
+
+# 2013
+
+**IEEE Transactions on Pattern Analysis and Machine Intelligence**
+
+- Discrete Mereotopology for Spatial Reasoning in Automated Histological Image Analysis [[paper](https://doi.org/10.1109/tpami.2012.128)]
 
 ---
 
