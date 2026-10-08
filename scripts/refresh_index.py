@@ -2,6 +2,8 @@
 import re
 from pathlib import Path
 
+from journal_policy import validate_collection
+
 ROOT = Path(__file__).resolve().parents[1]
 
 
@@ -10,6 +12,8 @@ def slug(title):
 
 
 def main():
+    # Validate before changing any counts or links.
+    validate_collection(ROOT)
     annual = sorted((ROOT / "papers").glob("[0-9][0-9][0-9][0-9].md"), reverse=True)
     years = [int(p.stem) for p in annual]
     readme = ROOT / "README.md"

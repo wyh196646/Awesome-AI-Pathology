@@ -1,0 +1,28 @@
+name: Validate collection
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  journal-policy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.11'
+      - name: Validate journal eligibility
+        run: python scripts/journal_policy.py
+      - name: Test maintenance safeguards
+        run: python -m unittest discover -s tests
+      - name: Check generated counts and index
+        run: |
+          python scripts/refresh_index.py
+          git diff --exit-code -- README.md papers
