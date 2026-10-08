@@ -37,7 +37,20 @@ or a substantive cell/tissue analysis; routine bulk biomarker association alone
 does not qualify. Plant-only applications and unrelated microbial studies are
 outside the biomedical tissue scope, although general methods can use them as
 additional benchmarks. New backfill entries start in 2023; revisions of older
-papers already in the collection can still be checked and updated.
+papers already in the collection can still be checked and updated. The targeted
+[TPAMI backfill](updates/2026-10-08-tpami.md) additionally recovers three older
+relevant works; the recurring search still starts in 2023.
+
+## Targeted journal backfills
+
+For a requested journal, retrieve the complete yearly metadata and abstracts
+before filtering by the keyword families. Generic method titles may conceal
+histology, cell-image or single-cell/spatial-omics evaluations. Follow up
+ambiguous abstracts with the publisher paper or an author-hosted manuscript
+and check the actual datasets. Record unverified candidates separately.
+Use the assigned journal volume/issue year when available; otherwise record
+the verified Early Access year explicitly. A DOI year or PubMed indexing date
+is insufficient to determine the collection year.
 
 ## Journal eligibility
 

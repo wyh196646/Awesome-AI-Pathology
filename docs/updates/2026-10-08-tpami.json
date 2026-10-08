@@ -1,0 +1,2192 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-08",
+  "cutoff": "2026-10-08",
+  "baseline_commit": "a433207b5500f24547cb56f4a159cff1ffe38c7e",
+  "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "journal_eligibility": "Existing allowlist: SCIE and CAS 2025 upgraded major-category zone 1.",
+  "searches": [
+    {
+      "label": "2023",
+      "query": "\"IEEE Trans Pattern Anal Mach Intell\"[Journal] AND (\"2023/01/01\"[Date - Publication] : \"2023/12/31\"[Date - Publication])",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22IEEE+Trans+Pattern+Anal+Mach+Intell%22%5BJournal%5D+AND+%28%222023%2F01%2F01%22%5BDate+-+Publication%5D+%3A+%222023%2F12%2F31%22%5BDate+-+Publication%5D%29&retmode=json&retmax=9999&tool=AwesomeAIPathologyTPAMIAudit",
+      "count": 1075
+    },
+    {
+      "label": "2024",
+      "query": "\"IEEE Trans Pattern Anal Mach Intell\"[Journal] AND (\"2024/01/01\"[Date - Publication] : \"2024/12/31\"[Date - Publication])",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22IEEE+Trans+Pattern+Anal+Mach+Intell%22%5BJournal%5D+AND+%28%222024%2F01%2F01%22%5BDate+-+Publication%5D+%3A+%222024%2F12%2F31%22%5BDate+-+Publication%5D%29&retmode=json&retmax=9999&tool=AwesomeAIPathologyTPAMIAudit",
+      "count": 793
+    },
+    {
+      "label": "2025",
+      "query": "\"IEEE Trans Pattern Anal Mach Intell\"[Journal] AND (\"2025/01/01\"[Date - Publication] : \"2025/12/31\"[Date - Publication])",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22IEEE+Trans+Pattern+Anal+Mach+Intell%22%5BJournal%5D+AND+%28%222025%2F01%2F01%22%5BDate+-+Publication%5D+%3A+%222025%2F12%2F31%22%5BDate+-+Publication%5D%29&retmode=json&retmax=9999&tool=AwesomeAIPathologyTPAMIAudit",
+      "count": 767
+    },
+    {
+      "label": "2026",
+      "query": "\"IEEE Trans Pattern Anal Mach Intell\"[Journal] AND (\"2026/01/01\"[Date - Publication] : \"2026/10/08\"[Date - Publication])",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22IEEE+Trans+Pattern+Anal+Mach+Intell%22%5BJournal%5D+AND+%28%222026%2F01%2F01%22%5BDate+-+Publication%5D+%3A+%222026%2F10%2F08%22%5BDate+-+Publication%5D%29&retmode=json&retmax=9999&tool=AwesomeAIPathologyTPAMIAudit",
+      "count": 1007
+    },
+    {
+      "label": "earlier",
+      "query": "\"IEEE Trans Pattern Anal Mach Intell\"[Journal] AND (\"1900/01/01\"[Date - Publication] : \"2022/12/31\"[Date - Publication]) AND (histopatholog*[Title/Abstract] OR histolog*[Title/Abstract] OR pathology[Title/Abstract] OR \"whole slide\"[Title/Abstract] OR \"whole-slide\"[Title/Abstract] OR nuclei[Title/Abstract] OR microscopy[Title/Abstract] OR cytolog*[Title/Abstract] OR \"single cell\"[Title/Abstract] OR \"single-cell\"[Title/Abstract] OR transcriptom*[Title/Abstract] OR \"cell segmentation\"[Title/Abstract] OR \"cell tracking\"[Title/Abstract])",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22IEEE+Trans+Pattern+Anal+Mach+Intell%22%5BJournal%5D+AND+%28%221900%2F01%2F01%22%5BDate+-+Publication%5D+%3A+%222022%2F12%2F31%22%5BDate+-+Publication%5D%29+AND+%28histopatholog%2A%5BTitle%2FAbstract%5D+OR+histolog%2A%5BTitle%2FAbstract%5D+OR+pathology%5BTitle%2FAbstract%5D+OR+%22whole+slide%22%5BTitle%2FAbstract%5D+OR+%22whole-slide%22%5BTitle%2FAbstract%5D+OR+nuclei%5BTitle%2FAbstract%5D+OR+microscopy%5BTitle%2FAbstract%5D+OR+cytolog%2A%5BTitle%2FAbstract%5D+OR+%22single+cell%22%5BTitle%2FAbstract%5D+OR+%22single-cell%22%5BTitle%2FAbstract%5D+OR+transcriptom%2A%5BTitle%2FAbstract%5D+OR+%22cell+segmentation%22%5BTitle%2FAbstract%5D+OR+%22cell+tracking%22%5BTitle%2FAbstract%5D%29&retmode=json&retmax=9999&tool=AwesomeAIPathologyTPAMIAudit",
+      "count": 24
+    }
+  ],
+  "unique_pubmed_records": 3586,
+  "initial_candidate_records": 191,
+  "additional_candidate_records": 4,
+  "crossref_corpus_cache": {
+    "records": 4255,
+    "retrieval_cutoff": "2026-10-04",
+    "abstracts_available": false,
+    "note": "Used only as a discovery cross-check; new entries were checked individually."
+  },
+  "date_policy": "Prefer assigned issue year verified against PubMed/IEEE-deposited Crossref metadata. Preserve Early Access status when no issue is assigned. PubMed electronic dates are not necessarily first IEEE Early Access dates.",
+  "date_exceptions": [
+    {
+      "doi": "10.1109/tpami.2021.3080324",
+      "year": 2022,
+      "reason": "PubMed remains at 2021 Early Access; IEEE-deposited Crossref metadata assigns volume 44(9), September 2022, pages 5385–5400."
+    },
+    {
+      "doi": "10.1109/tpami.2022.3209652",
+      "year": 2023,
+      "reason": "Crossref still contains a 2022 Early Access record without volume; PubMed and DBLP identify volume 45(5), May 2023, pages 5800–5815."
+    },
+    {
+      "doi": "10.1109/tpami.2019.2936841",
+      "year": 2021,
+      "reason": "The 2019 DOI/online appearance precedes the assigned volume 43(2), February 2021."
+    },
+    {
+      "doi": "10.1109/tpami.2026.3733393",
+      "year": 2026,
+      "reason": "Verified PubMed Early Access on September 15, 2026; no assigned volume/issue."
+    }
+  ],
+  "deduplication": "DOI and normalized title comparison with all 3,607 baseline entries, supplemented by fuzzy title review. No existing preprint needed promotion. All baseline paper lines preserved.",
+  "counts": {
+    "added": 23,
+    "promoted": 0,
+    "tpami_before": 5,
+    "tpami_after": 28,
+    "added_by_year": {
+      "2013": 1,
+      "2021": 1,
+      "2022": 1,
+      "2023": 7,
+      "2024": 4,
+      "2025": 2,
+      "2026": 7
+    },
+    "tpami_after_by_year": {
+      "2013": 1,
+      "2021": 1,
+      "2022": 1,
+      "2023": 8,
+      "2024": 4,
+      "2025": 3,
+      "2026": 10
+    },
+    "collection_before": 3607,
+    "collection_after": 3630,
+    "collection_types_after": {
+      "journal": 1516,
+      "conference": 1021,
+      "preprint": 1092,
+      "technical_report": 1
+    }
+  },
+  "added": [
+    {
+      "source": "pubmed",
+      "pmid": "42055981",
+      "title": "Balanced Multi-View Clustering",
+      "journal": "IEEE transactions on pattern analysis and machine intelligence",
+      "journal_abbreviation": "IEEE Trans Pattern Anal Mach Intell",
+      "issn": "1939-3539",
+      "doi": "10.1109/tpami.2026.3688728",
+      "year": 2026,
+      "dates": {
+        "issue": {
+          "Year": "2026",
+          "Month": "Sep"
+        },
+        "history": [
+          {
+            "Year": "2026",
+            "Month": "4",
+            "Day": "30",
+            "Hour": "0",
+            "Minute": "31",
+            "status": "medline"
+          },
+          {
+            "Year": "2026",
+            "Month": "4",
+            "Day": "30",
+            "Hour": "0",
+            "Minute": "30",
+            "status": "pubmed"
+          },
+          {
+            "Year": "2026",
+            "Month": "4",
+            "Day": "29",
+            "Hour": "22",
+            "Minute": "13",
+            "status": "entrez"
+          }
+        ]
+      },
+      "volume": "48",
+      "issue": "9",
+      "authors": [
+        "Zhenglai Li",
+        "Jun Wang",
+        "Chang Tang",
+        "Xinzhong Zhu",
+        "Wei Zhang",
+        "Xinwang Liu"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42055981/",
+      "topic": "Spatial omics",
+      "relevance": "Balanced multi-view clustering is evaluated on two spatially resolved transcriptomics datasets.",
+      "crossref_url": "https://api.crossref.org/works/10.1109/tpami.2026.3688728",
+      "ieee_url": "https://ieeexplore.ieee.org/document/11500569/",
+      "pages": "11124-11138",
+      "crossref_issue_metadata": {
+        "volume": "48",
+        "issue": "9",
+        "page": "11124-11138",
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              9
+            ]
+          ]
+        },
+        "published-online": null
+      },
+      "code_url": null,
+      "early_access": false,
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/42055981/",
+        "https://api.crossref.org/works/10.1109/tpami.2026.3688728",
+        "https://ieeexplore.ieee.org/document/11500569/"
+      ],
+      "entry": "- Balanced Multi-View Clustering [[paper](https://doi.org/10.1109/tpami.2026.3688728)] — *Spatial omics*"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "42743026",
+      "title": "Domain Elastic Transform: Bayesian Function Registration for High-Dimensional Scientific Data",
+      "journal": "IEEE transactions on pattern analysis and machine intelligence",
+      "journal_abbreviation": "IEEE Trans Pattern Anal Mach Intell",
+      "issn": "1939-3539",
+      "doi": "10.1109/tpami.2026.3733393",
+      "year": 2026,
+      "dates": {
+        "issue": {
+          "Year": "2026",
+          "Month": "Sep",
+          "Day": "15"
+        },
+        "online": {
+          "Year": "2026",
+          "Month": "09",
+          "Day": "15"
+        },
+        "history": [
+          {
+            "Year": "2026",
+            "Month": "9",
+            "Day": "15",
+            "Hour": "18",
+            "Minute": "7",
+            "status": "pubmed"
+          },
+          {
+            "Year": "2026",
+            "Month": "9",
+            "Day": "15",
+            "Hour": "18",
+            "Minute": "7",
+            "status": "medline"
+          },
+          {
+            "Year": "2026",
+            "Month": "9",
+            "Day": "15",
+            "Hour": "12",
+            "Minute": "23",
+            "status": "entrez"
+          }
+        ]
+      },
+      "volume": "PP",
+      "issue": "",
+      "authors": [
+        "Osamu Hirose",
+        "Emanuele Rodola"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42743026/",
+      "topic": "Spatial omics",
+      "relevance": "Function registration uses MERFISH mouse-brain slices and Stereo-seq mouse-embryo atlases.",
+      "crossref_url": "https://api.crossref.org/works/10.1109/tpami.2026.3733393",
+      "ieee_url": "https://ieeexplore.ieee.org/document/11692358/",
+      "pages": null,
+      "crossref_issue_metadata": {
+        "volume": null,
+        "issue": null,
+        "page": "1-18",
+        "published-print": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "published-online": null
+      },
+      "code_url": "https://github.com/ohirose/bcpd",
+      "early_access": true,
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/42743026/",
+        "https://api.crossref.org/works/10.1109/tpami.2026.3733393",
+        "https://ieeexplore.ieee.org/document/11692358/",
+        "https://github.com/ohirose/bcpd"
+      ],
+      "entry": "- Domain Elastic Transform: Bayesian Function Registration for High-Dimensional Scientific Data [[paper](https://doi.org/10.1109/tpami.2026.3733393)][[code](https://github.com/ohirose/bcpd)] — *Spatial omics* (Early Access)"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "42275362",
+      "title": "iPathWS: An Integrated Scalable System for Explainable Pathology Diagnosis With Spectral Heterogeneity Engine Networks",
+      "journal": "IEEE transactions on pattern analysis and machine intelligence",
+      "journal_abbreviation": "IEEE Trans Pattern Anal Mach Intell",
+      "issn": "1939-3539",
+      "doi": "10.1109/tpami.2026.3702808",
+      "year": 2026,
+      "dates": {
+        "issue": {
+          "Year": "2026",
+          "Month": "Oct"
+        },
+        "history": [
+          {
+            "Year": "2026",
+            "Month": "9",
+            "Day": "11",
+            "Hour": "17",
+            "Minute": "36",
+            "status": "medline"
+          },
+          {
+            "Year": "2026",
+            "Month": "6",
+            "Day": "11",
+            "Hour": "18",
+            "Minute": "35",
+            "status": "pubmed"
+          },
+          {
+            "Year": "2026",
+            "Month": "6",
+            "Day": "11",
+            "Hour": "13",
+            "Minute": "33",
+            "status": "entrez"
+          }
+        ]
+      },
+      "volume": "48",
+      "issue": "10",
+      "authors": [
+        "Meiyan Liang",
+        "Xikai Wang",
+        "Bo Li",
+        "Yu Zhang",
+        "Yang Zhang",
+        "Xiaojun Jia",
+        "Lin Wang"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42275362/",
+      "topic": "Histology",
+      "relevance": "Integrated slide-scanner and explainable WSI diagnostic system, evaluated on three pathology datasets.",
+      "crossref_url": "https://api.crossref.org/works/10.1109/tpami.2026.3702808",
+      "ieee_url": "https://ieeexplore.ieee.org/document/11558514/",
+      "pages": "12995-13012",
+      "crossref_issue_metadata": {
+        "volume": "48",
+        "issue": "10",
+        "page": "12995-13012",
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              10
+            ]
+          ]
+        },
+        "published-online": null
+      },
+      "code_url": null,
+      "early_access": false,
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/42275362/",
+        "https://api.crossref.org/works/10.1109/tpami.2026.3702808",
+        "https://ieeexplore.ieee.org/document/11558514/"
+      ],
+      "entry": "- iPathWS: An Integrated Scalable System for Explainable Pathology Diagnosis With Spectral Heterogeneity Engine Networks [[paper](https://doi.org/10.1109/tpami.2026.3702808)]"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41961572",
+      "title": "Mechanisms Under Shifts: Interpretable Clustering With Self-Improving Heterogeneous Causal Graphs",
+      "journal": "IEEE transactions on pattern analysis and machine intelligence",
+      "journal_abbreviation": "IEEE Trans Pattern Anal Mach Intell",
+      "issn": "1939-3539",
+      "doi": "10.1109/tpami.2026.3683072",
+      "year": 2026,
+      "dates": {
+        "issue": {
+          "Year": "2026",
+          "Month": "Aug"
+        },
+        "history": [
+          {
+            "Year": "2026",
+            "Month": "4",
+            "Day": "10",
+            "Hour": "18",
+            "Minute": "33",
+            "status": "medline"
+          },
+          {
+            "Year": "2026",
+            "Month": "4",
+            "Day": "10",
+            "Hour": "18",
+            "Minute": "32",
+            "status": "pubmed"
+          },
+          {
+            "Year": "2026",
+            "Month": "4",
+            "Day": "10",
+            "Hour": "12",
+            "Minute": "23",
+            "status": "entrez"
+          }
+        ]
+      },
+      "volume": "48",
+      "issue": "8",
+      "authors": [
+        "Wenrui Li",
+        "Qinghao Zhang",
+        "Xiaowo Wang"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41961572/",
+      "topic": "Single-cell methods",
+      "relevance": "Heterogeneous causal clustering recovers mechanisms from real-world single-cell perturbation data.",
+      "crossref_url": "https://api.crossref.org/works/10.1109/tpami.2026.3683072",
+      "ieee_url": "https://ieeexplore.ieee.org/document/11479677/",
+      "pages": "10083-10096",
+      "crossref_issue_metadata": {
+        "volume": "48",
+        "issue": "8",
+        "page": "10083-10096",
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              8
+            ]
+          ]
+        },
+        "published-online": null
+      },
+      "code_url": null,
+      "early_access": false,
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/41961572/",
+        "https://api.crossref.org/works/10.1109/tpami.2026.3683072",
+        "https://ieeexplore.ieee.org/document/11479677/"
+      ],
+      "entry": "- Mechanisms Under Shifts: Interpretable Clustering With Self-Improving Heterogeneous Causal Graphs [[paper](https://doi.org/10.1109/tpami.2026.3683072)] — *Single-cell methods*"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41945837",
+      "title": "Separable Decomposition for Ragged Tensors",
+      "journal": "IEEE transactions on pattern analysis and machine intelligence",
+      "journal_abbreviation": "IEEE Trans Pattern Anal Mach Intell",
+      "issn": "1939-3539",
+      "doi": "10.1109/tpami.2026.3679727",
+      "year": 2026,
+      "dates": {
+        "issue": {
+          "Year": "2026",
+          "Month": "Aug"
+        },
+        "history": [
+          {
+            "Year": "2026",
+            "Month": "4",
+            "Day": "7",
+            "Hour": "18",
+            "Minute": "33",
+            "status": "medline"
+          },
+          {
+            "Year": "2026",
+            "Month": "4",
+            "Day": "7",
+            "Hour": "18",
+            "Minute": "32",
+            "status": "pubmed"
+          },
+          {
+            "Year": "2026",
+            "Month": "4",
+            "Day": "7",
+            "Hour": "15",
+            "Minute": "43",
+            "status": "entrez"
+          }
+        ]
+      },
+      "volume": "48",
+      "issue": "8",
+      "authors": [
+        "Yexun Hu",
+        "Tai-Xiang Jiang",
+        "Michael K Ng",
+        "Xi-Le Zhao"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41945837/",
+      "topic": "Spatial omics",
+      "relevance": "Ragged tensor decomposition is evaluated on spatial transcriptomics data.",
+      "crossref_url": "https://api.crossref.org/works/10.1109/tpami.2026.3679727",
+      "ieee_url": "https://ieeexplore.ieee.org/document/11475870/",
+      "pages": "9624-9641",
+      "crossref_issue_metadata": {
+        "volume": "48",
+        "issue": "8",
+        "page": "9624-9641",
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              8
+            ]
+          ]
+        },
+        "published-online": null
+      },
+      "code_url": null,
+      "early_access": false,
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/41945837/",
+        "https://api.crossref.org/works/10.1109/tpami.2026.3679727",
+        "https://ieeexplore.ieee.org/document/11475870/"
+      ],
+      "entry": "- Separable Decomposition for Ragged Tensors [[paper](https://doi.org/10.1109/tpami.2026.3679727)] — *Spatial omics*"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "42127049",
+      "title": "Synthetic Priors for Real-World Detection: A Label-Free Framework for Identifying Ultra-Rare Objects",
+      "journal": "IEEE transactions on pattern analysis and machine intelligence",
+      "journal_abbreviation": "IEEE Trans Pattern Anal Mach Intell",
+      "issn": "1939-3539",
+      "doi": "10.1109/tpami.2026.3693305",
+      "year": 2026,
+      "dates": {
+        "issue": {
+          "Year": "2026",
+          "Month": "Oct"
+        },
+        "history": [
+          {
+            "Year": "2026",
+            "Month": "9",
+            "Day": "24",
+            "Hour": "23",
+            "Minute": "52",
+            "status": "medline"
+          },
+          {
+            "Year": "2026",
+            "Month": "5",
+            "Day": "13",
+            "Hour": "18",
+            "Minute": "30",
+            "status": "pubmed"
+          },
+          {
+            "Year": "2026",
+            "Month": "5",
+            "Day": "13",
+            "Hour": "13",
+            "Minute": "34",
+            "status": "entrez"
+          }
+        ]
+      },
+      "volume": "48",
+      "issue": "10",
+      "authors": [
+        "Di Wang",
+        "Tongning Wu",
+        "Lei Yang",
+        "Xianjun Fan",
+        "Xin Ye",
+        "Renbing Huang",
+        "Xing Lu",
+        "Xu Xu",
+        "Congsheng Li"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42127049/",
+      "topic": "Cell/tissue image analysis",
+      "relevance": "The synthetic-prior detector is validated on circulating genetically abnormal cells in real patient samples.",
+      "crossref_url": "https://api.crossref.org/works/10.1109/tpami.2026.3693305",
+      "ieee_url": "https://ieeexplore.ieee.org/document/11519540/",
+      "pages": "12012-12023",
+      "crossref_issue_metadata": {
+        "volume": "48",
+        "issue": "10",
+        "page": "12012-12023",
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              10
+            ]
+          ]
+        },
+        "published-online": null
+      },
+      "code_url": null,
+      "early_access": false,
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/42127049/",
+        "https://api.crossref.org/works/10.1109/tpami.2026.3693305",
+        "https://ieeexplore.ieee.org/document/11519540/"
+      ],
+      "entry": "- Synthetic Priors for Real-World Detection: A Label-Free Framework for Identifying Ultra-Rare Objects [[paper](https://doi.org/10.1109/tpami.2026.3693305)] — *Cell/tissue image analysis*"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "40982520",
+      "title": "Zero-Shot Learning for Limited Photon Budget Denoising in Structured Illumination Microscopy",
+      "journal": "IEEE transactions on pattern analysis and machine intelligence",
+      "journal_abbreviation": "IEEE Trans Pattern Anal Mach Intell",
+      "issn": "1939-3539",
+      "doi": "10.1109/tpami.2025.3612886",
+      "year": 2026,
+      "dates": {
+        "issue": {
+          "Year": "2026",
+          "Month": "Feb"
+        },
+        "history": [
+          {
+            "Year": "2025",
+            "Month": "9",
+            "Day": "22",
+            "Hour": "18",
+            "Minute": "38",
+            "status": "medline"
+          },
+          {
+            "Year": "2025",
+            "Month": "9",
+            "Day": "22",
+            "Hour": "18",
+            "Minute": "37",
+            "status": "pubmed"
+          },
+          {
+            "Year": "2025",
+            "Month": "9",
+            "Day": "22",
+            "Hour": "13",
+            "Minute": "43",
+            "status": "entrez"
+          }
+        ]
+      },
+      "volume": "48",
+      "issue": "2",
+      "authors": [
+        "Hong Yang",
+        "Xianqiang Yang"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40982520/",
+      "topic": "Cell/tissue image analysis",
+      "relevance": "Low-photon structured illumination denoising targets live-cell microscopy and downstream segmentation.",
+      "crossref_url": "https://api.crossref.org/works/10.1109/tpami.2025.3612886",
+      "ieee_url": "https://ieeexplore.ieee.org/document/11175047/",
+      "pages": "1309-1320",
+      "crossref_issue_metadata": {
+        "volume": "48",
+        "issue": "2",
+        "page": "1309-1320",
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              2
+            ]
+          ]
+        },
+        "published-online": null
+      },
+      "code_url": null,
+      "early_access": false,
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/40982520/",
+        "https://api.crossref.org/works/10.1109/tpami.2025.3612886",
+        "https://ieeexplore.ieee.org/document/11175047/"
+      ],
+      "entry": "- Zero-Shot Learning for Limited Photon Budget Denoising in Structured Illumination Microscopy [[paper](https://doi.org/10.1109/tpami.2025.3612886)] — *Cell/tissue image analysis*"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "39316490",
+      "title": "High-Performance Real-World Optical Computing Trained by in Situ Gradient-Based Model-Free Optimization",
+      "journal": "IEEE transactions on pattern analysis and machine intelligence",
+      "journal_abbreviation": "IEEE Trans Pattern Anal Mach Intell",
+      "issn": "1939-3539",
+      "doi": "10.1109/tpami.2024.3466853",
+      "year": 2025,
+      "dates": {
+        "issue": {
+          "Year": "2025",
+          "Month": "Sep"
+        },
+        "history": [
+          {
+            "Year": "2024",
+            "Month": "9",
+            "Day": "24",
+            "Hour": "18",
+            "Minute": "52",
+            "status": "medline"
+          },
+          {
+            "Year": "2024",
+            "Month": "9",
+            "Day": "24",
+            "Hour": "18",
+            "Minute": "51",
+            "status": "pubmed"
+          },
+          {
+            "Year": "2024",
+            "Month": "9",
+            "Day": "24",
+            "Hour": "12",
+            "Minute": "23",
+            "status": "entrez"
+          }
+        ]
+      },
+      "volume": "47",
+      "issue": "9",
+      "authors": [
+        "Guangyuan Zhao",
+        "Xin Shu",
+        "Renjie Zhou"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39316490/",
+      "topic": "Cell/tissue image analysis",
+      "relevance": "Optical computing is demonstrated for image-free cell classification using marker-free phase maps.",
+      "crossref_url": "https://api.crossref.org/works/10.1109/tpami.2024.3466853",
+      "ieee_url": "https://ieeexplore.ieee.org/document/10691644/",
+      "pages": "7194-7205",
+      "crossref_issue_metadata": {
+        "volume": "47",
+        "issue": "9",
+        "page": "7194-7205",
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              9
+            ]
+          ]
+        },
+        "published-online": null
+      },
+      "code_url": null,
+      "early_access": false,
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/39316490/",
+        "https://api.crossref.org/works/10.1109/tpami.2024.3466853",
+        "https://ieeexplore.ieee.org/document/10691644/"
+      ],
+      "entry": "- High-Performance Real-World Optical Computing Trained by in Situ Gradient-Based Model-Free Optimization [[paper](https://doi.org/10.1109/tpami.2024.3466853)] — *Cell/tissue image analysis*"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "39302776",
+      "title": "RoBoSS: A Robust, Bounded, Sparse, and Smooth Loss Function for Supervised Learning",
+      "journal": "IEEE transactions on pattern analysis and machine intelligence",
+      "journal_abbreviation": "IEEE Trans Pattern Anal Mach Intell",
+      "issn": "1939-3539",
+      "doi": "10.1109/tpami.2024.3465535",
+      "year": 2025,
+      "dates": {
+        "issue": {
+          "Year": "2025",
+          "Month": "Jan"
+        },
+        "online": {
+          "Year": "2024",
+          "Month": "12",
+          "Day": "04"
+        },
+        "history": [
+          {
+            "Year": "2024",
+            "Month": "9",
+            "Day": "20",
+            "Hour": "19",
+            "Minute": "10",
+            "status": "medline"
+          },
+          {
+            "Year": "2024",
+            "Month": "9",
+            "Day": "20",
+            "Hour": "19",
+            "Minute": "9",
+            "status": "pubmed"
+          },
+          {
+            "Year": "2024",
+            "Month": "9",
+            "Day": "20",
+            "Hour": "12",
+            "Minute": "23",
+            "status": "entrez"
+          }
+        ]
+      },
+      "volume": "47",
+      "issue": "1",
+      "authors": [
+        "Mushir Akhtar",
+        "M Tanveer",
+        "Mohd Arshad"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39302776/",
+      "topic": "Histology",
+      "relevance": "The proposed supervised loss is evaluated on the BreaKHis breast histopathology dataset.",
+      "crossref_url": "https://api.crossref.org/works/10.1109/tpami.2024.3465535",
+      "ieee_url": "https://ieeexplore.ieee.org/document/10685140/",
+      "pages": "149-160",
+      "crossref_issue_metadata": {
+        "volume": "47",
+        "issue": "1",
+        "page": "149-160",
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              1
+            ]
+          ]
+        },
+        "published-online": null
+      },
+      "code_url": null,
+      "early_access": false,
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/39302776/",
+        "https://api.crossref.org/works/10.1109/tpami.2024.3465535",
+        "https://ieeexplore.ieee.org/document/10685140/"
+      ],
+      "entry": "- RoBoSS: A Robust, Bounded, Sparse, and Smooth Loss Function for Supervised Learning [[paper](https://doi.org/10.1109/tpami.2024.3465535)]"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "39046857",
+      "title": "A Bayesian Approach Toward Robust Multidimensional Ellipsoid-Specific Fitting",
+      "journal": "IEEE transactions on pattern analysis and machine intelligence",
+      "journal_abbreviation": "IEEE Trans Pattern Anal Mach Intell",
+      "issn": "1939-3539",
+      "doi": "10.1109/tpami.2024.3432913",
+      "year": 2024,
+      "dates": {
+        "issue": {
+          "Year": "2024",
+          "Month": "Dec"
+        },
+        "online": {
+          "Year": "2024",
+          "Month": "11",
+          "Day": "06"
+        },
+        "history": [
+          {
+            "Year": "2024",
+            "Month": "7",
+            "Day": "26",
+            "Hour": "12",
+            "Minute": "35",
+            "status": "medline"
+          },
+          {
+            "Year": "2024",
+            "Month": "7",
+            "Day": "26",
+            "Hour": "12",
+            "Minute": "34",
+            "status": "pubmed"
+          },
+          {
+            "Year": "2024",
+            "Month": "7",
+            "Day": "24",
+            "Hour": "12",
+            "Minute": "33",
+            "status": "entrez"
+          }
+        ]
+      },
+      "volume": "46",
+      "issue": "12",
+      "authors": [
+        "Mingyang Zhao",
+        "Xiaohong Jia",
+        "Lei Ma",
+        "Yuke Shi",
+        "Jingen Jiang",
+        "Qizhai Li",
+        "Dong-Ming Yan",
+        "Tiejun Huang"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39046857/",
+      "topic": "Cell/tissue image analysis",
+      "relevance": "Robust geometric fitting includes an explicit microscopy cell-counting application.",
+      "crossref_url": "https://api.crossref.org/works/10.1109/tpami.2024.3432913",
+      "ieee_url": "https://ieeexplore.ieee.org/document/10608422/",
+      "pages": "10106-10123",
+      "crossref_issue_metadata": {
+        "volume": "46",
+        "issue": "12",
+        "page": "10106-10123",
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              12
+            ]
+          ]
+        },
+        "published-online": null
+      },
+      "code_url": null,
+      "early_access": false,
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/39046857/",
+        "https://api.crossref.org/works/10.1109/tpami.2024.3432913",
+        "https://ieeexplore.ieee.org/document/10608422/"
+      ],
+      "entry": "- A Bayesian Approach Toward Robust Multidimensional Ellipsoid-Specific Fitting [[paper](https://doi.org/10.1109/tpami.2024.3432913)] — *Cell/tissue image analysis*"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "38833401",
+      "title": "DeepMulticut: Deep Learning of Multicut Problem for Neuron Segmentation From Electron Microscopy Volume",
+      "journal": "IEEE transactions on pattern analysis and machine intelligence",
+      "journal_abbreviation": "IEEE Trans Pattern Anal Mach Intell",
+      "issn": "1939-3539",
+      "doi": "10.1109/tpami.2024.3409634",
+      "year": 2024,
+      "dates": {
+        "issue": {
+          "Year": "2024",
+          "Month": "Dec"
+        },
+        "online": {
+          "Year": "2024",
+          "Month": "11",
+          "Day": "06"
+        },
+        "history": [
+          {
+            "Year": "2024",
+            "Month": "6",
+            "Day": "4",
+            "Hour": "18",
+            "Minute": "43",
+            "status": "medline"
+          },
+          {
+            "Year": "2024",
+            "Month": "6",
+            "Day": "4",
+            "Hour": "18",
+            "Minute": "42",
+            "status": "pubmed"
+          },
+          {
+            "Year": "2024",
+            "Month": "6",
+            "Day": "4",
+            "Hour": "12",
+            "Minute": "53",
+            "status": "entrez"
+          }
+        ]
+      },
+      "volume": "46",
+      "issue": "12",
+      "authors": [
+        "Zhenchen Li",
+        "Xu Yang",
+        "Jiazheng Liu",
+        "Bei Hong",
+        "Yanchao Zhang",
+        "Hao Zhai",
+        "Lijun Shen",
+        "Xi Chen",
+        "Zhiyong Liu",
+        "Hua Han"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38833401/",
+      "topic": "Cell/tissue image analysis",
+      "relevance": "Neuron segmentation in biological electron-microscopy volumes, rather than atomic/material microscopy.",
+      "crossref_url": "https://api.crossref.org/works/10.1109/tpami.2024.3409634",
+      "ieee_url": "https://ieeexplore.ieee.org/document/10547294/",
+      "pages": "8696-8714",
+      "crossref_issue_metadata": {
+        "volume": "46",
+        "issue": "12",
+        "page": "8696-8714",
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              12
+            ]
+          ]
+        },
+        "published-online": null
+      },
+      "code_url": null,
+      "early_access": false,
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/38833401/",
+        "https://api.crossref.org/works/10.1109/tpami.2024.3409634",
+        "https://ieeexplore.ieee.org/document/10547294/"
+      ],
+      "entry": "- DeepMulticut: Deep Learning of Multicut Problem for Neuron Segmentation From Electron Microscopy Volume [[paper](https://doi.org/10.1109/tpami.2024.3409634)] — *Cell/tissue image analysis*"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "38145535",
+      "title": "Realize Generative Yet Complete Latent Representation for Incomplete Multi-View Learning",
+      "journal": "IEEE transactions on pattern analysis and machine intelligence",
+      "journal_abbreviation": "IEEE Trans Pattern Anal Mach Intell",
+      "issn": "1939-3539",
+      "doi": "10.1109/tpami.2023.3346869",
+      "year": 2024,
+      "dates": {
+        "issue": {
+          "Year": "2024",
+          "Month": "May"
+        },
+        "online": {
+          "Year": "2024",
+          "Month": "04",
+          "Day": "03"
+        },
+        "history": [
+          {
+            "Year": "2023",
+            "Month": "12",
+            "Day": "25",
+            "Hour": "18",
+            "Minute": "43",
+            "status": "medline"
+          },
+          {
+            "Year": "2023",
+            "Month": "12",
+            "Day": "25",
+            "Hour": "18",
+            "Minute": "42",
+            "status": "pubmed"
+          },
+          {
+            "Year": "2023",
+            "Month": "12",
+            "Day": "25",
+            "Hour": "13",
+            "Minute": "14",
+            "status": "entrez"
+          }
+        ]
+      },
+      "volume": "46",
+      "issue": "5",
+      "authors": [
+        "Hongmin Cai",
+        "Weitian Huang",
+        "Sirui Yang",
+        "Siqi Ding",
+        "Yue Zhang",
+        "Bin Hu",
+        "Fa Zhang",
+        "Yiu-Ming Cheung"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38145535/",
+      "topic": "Single-cell methods",
+      "relevance": "CMVAE integrates incomplete RNA/ATAC single-cell multiome views; the publisher-version PDF's indexed experimental section describes PBMC and bone-marrow datasets.",
+      "crossref_url": "https://api.crossref.org/works/10.1109/tpami.2023.3346869",
+      "ieee_url": "https://ieeexplore.ieee.org/document/10373887/",
+      "pages": "3637-3652",
+      "crossref_issue_metadata": {
+        "volume": "46",
+        "issue": "5",
+        "page": "3637-3652",
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              5
+            ]
+          ]
+        },
+        "published-online": null
+      },
+      "code_url": null,
+      "early_access": false,
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/38145535/",
+        "https://api.crossref.org/works/10.1109/tpami.2023.3346869",
+        "https://ieeexplore.ieee.org/document/10373887/",
+        "https://www.comp.hkbu.edu.hk/~ymc/papers/journal/TPAMI3346869-publication-version.pdf"
+      ],
+      "entry": "- Realize Generative Yet Complete Latent Representation for Incomplete Multi-View Learning [[paper](https://doi.org/10.1109/tpami.2023.3346869)] — *Single-cell methods*"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "37815977",
+      "title": "Worst-Case Discriminative Feature Learning via Max-Min Ratio Analysis",
+      "journal": "IEEE transactions on pattern analysis and machine intelligence",
+      "journal_abbreviation": "IEEE Trans Pattern Anal Mach Intell",
+      "issn": "1939-3539",
+      "doi": "10.1109/tpami.2023.3323453",
+      "year": 2024,
+      "dates": {
+        "issue": {
+          "Year": "2024",
+          "Month": "Jan"
+        },
+        "online": {
+          "Year": "2023",
+          "Month": "12",
+          "Day": "05"
+        },
+        "history": [
+          {
+            "Year": "2023",
+            "Month": "10",
+            "Day": "10",
+            "Hour": "18",
+            "Minute": "43",
+            "status": "medline"
+          },
+          {
+            "Year": "2023",
+            "Month": "10",
+            "Day": "10",
+            "Hour": "18",
+            "Minute": "42",
+            "status": "pubmed"
+          },
+          {
+            "Year": "2023",
+            "Month": "10",
+            "Day": "10",
+            "Hour": "13",
+            "Minute": "25",
+            "status": "entrez"
+          }
+        ]
+      },
+      "volume": "46",
+      "issue": "1",
+      "authors": [
+        "Zheng Wang",
+        "Feiping Nie",
+        "Canyu Zhang",
+        "Rong Wang",
+        "Xuelong Li"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37815977/",
+      "topic": "Single-cell methods",
+      "relevance": "Discriminative feature learning is evaluated on real-world scRNA-seq datasets.",
+      "crossref_url": "https://api.crossref.org/works/10.1109/tpami.2023.3323453",
+      "ieee_url": "https://ieeexplore.ieee.org/document/10275043/",
+      "pages": "641-658",
+      "crossref_issue_metadata": {
+        "volume": "46",
+        "issue": "1",
+        "page": "641-658",
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              1
+            ]
+          ]
+        },
+        "published-online": null
+      },
+      "code_url": null,
+      "early_access": false,
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/37815977/",
+        "https://api.crossref.org/works/10.1109/tpami.2023.3323453",
+        "https://ieeexplore.ieee.org/document/10275043/"
+      ],
+      "entry": "- Worst-Case Discriminative Feature Learning via Max-Min Ratio Analysis [[paper](https://doi.org/10.1109/tpami.2023.3323453)] — *Single-cell methods*"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "37018678",
+      "title": "Adversarially-Regularized Mixed Effects Deep Learning (ARMED) Models Improve Interpretability, Performance, and Generalization on Clustered (non-iid) Data",
+      "journal": "IEEE transactions on pattern analysis and machine intelligence",
+      "journal_abbreviation": "IEEE Trans Pattern Anal Mach Intell",
+      "issn": "1939-3539",
+      "doi": "10.1109/tpami.2023.3234291",
+      "year": 2023,
+      "dates": {
+        "issue": {
+          "Year": "2023",
+          "Month": "Jul"
+        },
+        "online": {
+          "Year": "2023",
+          "Month": "06",
+          "Day": "06"
+        },
+        "history": [
+          {
+            "Year": "2023",
+            "Month": "4",
+            "Day": "6",
+            "Hour": "6",
+            "Minute": "1",
+            "status": "medline"
+          },
+          {
+            "Year": "2023",
+            "Month": "4",
+            "Day": "6",
+            "Hour": "6",
+            "Minute": "0",
+            "status": "pubmed"
+          },
+          {
+            "Year": "2023",
+            "Month": "4",
+            "Day": "5",
+            "Hour": "16",
+            "Minute": "13",
+            "status": "entrez"
+          },
+          {
+            "Year": "2023",
+            "Month": "11",
+            "Day": "14",
+            "status": "pmc-release"
+          }
+        ]
+      },
+      "volume": "45",
+      "issue": "7",
+      "authors": [
+        "Kevin P Nguyen",
+        "Alex H Treacher",
+        "Albert A Montillo"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37018678/",
+      "topic": "Cell/tissue image analysis",
+      "relevance": "Mixed-effects deep learning is evaluated on live-cell image analysis, including experimental clustering and confounding.",
+      "crossref_url": "https://api.crossref.org/works/10.1109/tpami.2023.3234291",
+      "ieee_url": "https://ieeexplore.ieee.org/document/10016237/",
+      "pages": "8081-8093",
+      "crossref_issue_metadata": {
+        "volume": "45",
+        "issue": "7",
+        "page": "8081-8093",
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              7,
+              1
+            ]
+          ]
+        },
+        "published-online": null
+      },
+      "code_url": null,
+      "early_access": false,
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/37018678/",
+        "https://api.crossref.org/works/10.1109/tpami.2023.3234291",
+        "https://ieeexplore.ieee.org/document/10016237/"
+      ],
+      "entry": "- Adversarially-Regularized Mixed Effects Deep Learning (ARMED) Models Improve Interpretability, Performance, and Generalization on Clustered (non-iid) Data [[paper](https://doi.org/10.1109/tpami.2023.3234291)] — *Cell/tissue image analysis*"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "37015376",
+      "title": "Continuous Conditional Generative Adversarial Networks: Novel Empirical Losses and Label Input Mechanisms",
+      "journal": "IEEE transactions on pattern analysis and machine intelligence",
+      "journal_abbreviation": "IEEE Trans Pattern Anal Mach Intell",
+      "issn": "1939-3539",
+      "doi": "10.1109/tpami.2022.3228915",
+      "year": 2023,
+      "dates": {
+        "issue": {
+          "Year": "2023",
+          "Month": "Jul"
+        },
+        "online": {
+          "Year": "2023",
+          "Month": "06",
+          "Day": "05"
+        },
+        "history": [
+          {
+            "Year": "2023",
+            "Month": "4",
+            "Day": "5",
+            "Hour": "6",
+            "Minute": "1",
+            "status": "medline"
+          },
+          {
+            "Year": "2023",
+            "Month": "4",
+            "Day": "5",
+            "Hour": "6",
+            "Minute": "0",
+            "status": "pubmed"
+          },
+          {
+            "Year": "2023",
+            "Month": "4",
+            "Day": "4",
+            "Hour": "20",
+            "Minute": "3",
+            "status": "entrez"
+          }
+        ]
+      },
+      "volume": "45",
+      "issue": "7",
+      "authors": [
+        "Xin Ding",
+        "Yongwei Wang",
+        "Zuheng Xu",
+        "William J Welch",
+        "Z Jane Wang"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37015376/",
+      "topic": "Cell/tissue image analysis",
+      "relevance": "Continuous conditional image generation includes the cell-image benchmark Cell-200, with cell count as a conditioning task.",
+      "crossref_url": "https://api.crossref.org/works/10.1109/tpami.2022.3228915",
+      "ieee_url": "https://ieeexplore.ieee.org/document/9983478/",
+      "pages": "8143-8158",
+      "crossref_issue_metadata": {
+        "volume": "45",
+        "issue": "7",
+        "page": "8143-8158",
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              7,
+              1
+            ]
+          ]
+        },
+        "published-online": null
+      },
+      "code_url": null,
+      "early_access": false,
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/37015376/",
+        "https://api.crossref.org/works/10.1109/tpami.2022.3228915",
+        "https://ieeexplore.ieee.org/document/9983478/"
+      ],
+      "entry": "- Continuous Conditional Generative Adversarial Networks: Novel Empirical Losses and Label Input Mechanisms [[paper](https://doi.org/10.1109/tpami.2022.3228915)] — *Cell/tissue image analysis*"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "36155478",
+      "title": "Generating Hypergraph-Based High-Order Representations of Whole-Slide Histopathological Images for Survival Prediction",
+      "journal": "IEEE transactions on pattern analysis and machine intelligence",
+      "journal_abbreviation": "IEEE Trans Pattern Anal Mach Intell",
+      "issn": "1939-3539",
+      "doi": "10.1109/tpami.2022.3209652",
+      "year": 2023,
+      "dates": {
+        "issue": {
+          "Year": "2023",
+          "Month": "May"
+        },
+        "online": {
+          "Year": "2023",
+          "Month": "04",
+          "Day": "03"
+        },
+        "history": [
+          {
+            "Year": "2023",
+            "Month": "4",
+            "Day": "11",
+            "Hour": "6",
+            "Minute": "41",
+            "status": "medline"
+          },
+          {
+            "Year": "2022",
+            "Month": "9",
+            "Day": "27",
+            "Hour": "6",
+            "Minute": "0",
+            "status": "pubmed"
+          },
+          {
+            "Year": "2022",
+            "Month": "9",
+            "Day": "26",
+            "Hour": "15",
+            "Minute": "40",
+            "status": "entrez"
+          }
+        ]
+      },
+      "volume": "45",
+      "issue": "5",
+      "authors": [
+        "Donglin Di",
+        "Changqing Zou",
+        "Yifan Feng",
+        "Haiyan Zhou",
+        "Rongrong Ji",
+        "Qionghai Dai",
+        "Yue Gao"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36155478/",
+      "topic": "Histology",
+      "relevance": "Hypergraph representations of whole-slide histopathological images for cancer survival prediction.",
+      "crossref_url": "https://api.crossref.org/works/10.1109/tpami.2022.3209652",
+      "ieee_url": "https://ieeexplore.ieee.org/document/9903546/",
+      "pages": "5800-5815",
+      "crossref_issue_metadata": {
+        "volume": null,
+        "issue": null,
+        "page": "1-16",
+        "published-print": {
+          "date-parts": [
+            [
+              2022
+            ]
+          ]
+        },
+        "published-online": null
+      },
+      "code_url": null,
+      "early_access": false,
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/36155478/",
+        "https://api.crossref.org/works/10.1109/tpami.2022.3209652",
+        "https://ieeexplore.ieee.org/document/9903546/",
+        "https://dblp.org/rec/journals/pami/DiZFZJDG23"
+      ],
+      "entry": "- Generating Hypergraph-Based High-Order Representations of Whole-Slide Histopathological Images for Survival Prediction [[paper](https://doi.org/10.1109/tpami.2022.3209652)]"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "35471875",
+      "title": "Optimal Transport for Unsupervised Denoising Learning",
+      "journal": "IEEE transactions on pattern analysis and machine intelligence",
+      "journal_abbreviation": "IEEE Trans Pattern Anal Mach Intell",
+      "issn": "1939-3539",
+      "doi": "10.1109/tpami.2022.3170155",
+      "year": 2023,
+      "dates": {
+        "issue": {
+          "Year": "2023",
+          "Month": "Feb"
+        },
+        "online": {
+          "Year": "2023",
+          "Month": "01",
+          "Day": "06"
+        },
+        "history": [
+          {
+            "Year": "2022",
+            "Month": "4",
+            "Day": "27",
+            "Hour": "6",
+            "Minute": "1",
+            "status": "medline"
+          },
+          {
+            "Year": "2022",
+            "Month": "4",
+            "Day": "27",
+            "Hour": "6",
+            "Minute": "0",
+            "status": "pubmed"
+          },
+          {
+            "Year": "2022",
+            "Month": "4",
+            "Day": "26",
+            "Hour": "17",
+            "Minute": "4",
+            "status": "entrez"
+          }
+        ]
+      },
+      "volume": "45",
+      "issue": "2",
+      "authors": [
+        "Wei Wang",
+        "Fei Wen",
+        "Zeyu Yan",
+        "Peilin Liu"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35471875/",
+      "topic": "Cell/tissue image analysis",
+      "relevance": "The authors' implementation explicitly evaluates denoising on the real fluorescence microscopy FMD dataset.",
+      "crossref_url": "https://api.crossref.org/works/10.1109/tpami.2022.3170155",
+      "ieee_url": "https://ieeexplore.ieee.org/document/9763342/",
+      "pages": "2104-2118",
+      "crossref_issue_metadata": {
+        "volume": "45",
+        "issue": "2",
+        "page": "2104-2118",
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              2,
+              1
+            ]
+          ]
+        },
+        "published-online": null
+      },
+      "code_url": "https://github.com/wangweiSJTU/OTUR",
+      "early_access": false,
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/35471875/",
+        "https://api.crossref.org/works/10.1109/tpami.2022.3170155",
+        "https://ieeexplore.ieee.org/document/9763342/",
+        "https://github.com/wangweiSJTU/OTUR"
+      ],
+      "entry": "- Optimal Transport for Unsupervised Denoising Learning [[paper](https://doi.org/10.1109/tpami.2022.3170155)][[code](https://github.com/wangweiSJTU/OTUR)] — *Cell/tissue image analysis*"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "36040935",
+      "title": "Reformulating Optical Flow to Solve Image-Based Inverse Problems and Quantify Uncertainty",
+      "journal": "IEEE transactions on pattern analysis and machine intelligence",
+      "journal_abbreviation": "IEEE Trans Pattern Anal Mach Intell",
+      "issn": "1939-3539",
+      "doi": "10.1109/tpami.2022.3202855",
+      "year": 2023,
+      "dates": {
+        "issue": {
+          "Year": "2023",
+          "Month": "May"
+        },
+        "online": {
+          "Year": "2023",
+          "Month": "04",
+          "Day": "03"
+        },
+        "history": [
+          {
+            "Year": "2022",
+            "Month": "8",
+            "Day": "31",
+            "Hour": "6",
+            "Minute": "1",
+            "status": "medline"
+          },
+          {
+            "Year": "2022",
+            "Month": "8",
+            "Day": "31",
+            "Hour": "6",
+            "Minute": "0",
+            "status": "pubmed"
+          },
+          {
+            "Year": "2022",
+            "Month": "8",
+            "Day": "30",
+            "Hour": "13",
+            "Minute": "43",
+            "status": "entrez"
+          }
+        ]
+      },
+      "volume": "45",
+      "issue": "5",
+      "authors": [
+        "Aleix Boquet-Pujadas",
+        "Jean-Christophe Olivo-Marin"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36040935/",
+      "topic": "Cell/tissue image analysis",
+      "relevance": "Bayesian image inversion is demonstrated in traction force microscopy for cell-mechanics measurements.",
+      "crossref_url": "https://api.crossref.org/works/10.1109/tpami.2022.3202855",
+      "ieee_url": "https://ieeexplore.ieee.org/document/9870569/",
+      "pages": "6125-6141",
+      "crossref_issue_metadata": {
+        "volume": "45",
+        "issue": "5",
+        "page": "6125-6141",
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              1
+            ]
+          ]
+        },
+        "published-online": null
+      },
+      "code_url": null,
+      "early_access": false,
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/36040935/",
+        "https://api.crossref.org/works/10.1109/tpami.2022.3202855",
+        "https://ieeexplore.ieee.org/document/9870569/"
+      ],
+      "entry": "- Reformulating Optical Flow to Solve Image-Based Inverse Problems and Quantify Uncertainty [[paper](https://doi.org/10.1109/tpami.2022.3202855)] — *Cell/tissue image analysis*"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "35737620",
+      "title": "Superadditivity and Convex Optimization for Globally Optimal Cell Segmentation Using Deformable Shape Models",
+      "journal": "IEEE transactions on pattern analysis and machine intelligence",
+      "journal_abbreviation": "IEEE Trans Pattern Anal Mach Intell",
+      "issn": "1939-3539",
+      "doi": "10.1109/tpami.2022.3185583",
+      "year": 2023,
+      "dates": {
+        "issue": {
+          "Year": "2023",
+          "Month": "Mar"
+        },
+        "online": {
+          "Year": "2023",
+          "Month": "02",
+          "Day": "03"
+        },
+        "history": [
+          {
+            "Year": "2022",
+            "Month": "6",
+            "Day": "24",
+            "Hour": "6",
+            "Minute": "1",
+            "status": "medline"
+          },
+          {
+            "Year": "2022",
+            "Month": "6",
+            "Day": "24",
+            "Hour": "6",
+            "Minute": "0",
+            "status": "pubmed"
+          },
+          {
+            "Year": "2022",
+            "Month": "6",
+            "Day": "23",
+            "Hour": "13",
+            "Minute": "23",
+            "status": "entrez"
+          }
+        ]
+      },
+      "volume": "45",
+      "issue": "3",
+      "authors": [
+        "Leonid Kostrykin",
+        "Karl Rohr"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35737620/",
+      "topic": "Cell/tissue image analysis",
+      "relevance": "Cell-nucleus segmentation and splitting of overlapping clusters, evaluated on fluorescence images of five cell types.",
+      "crossref_url": "https://api.crossref.org/works/10.1109/tpami.2022.3185583",
+      "ieee_url": "https://ieeexplore.ieee.org/document/9804854/",
+      "pages": "3831-3847",
+      "crossref_issue_metadata": {
+        "volume": "45",
+        "issue": "3",
+        "page": "3831-3847",
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              3,
+              1
+            ]
+          ]
+        },
+        "published-online": null
+      },
+      "code_url": null,
+      "early_access": false,
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/35737620/",
+        "https://api.crossref.org/works/10.1109/tpami.2022.3185583",
+        "https://ieeexplore.ieee.org/document/9804854/"
+      ],
+      "entry": "- Superadditivity and Convex Optimization for Globally Optimal Cell Segmentation Using Deformable Shape Models [[paper](https://doi.org/10.1109/tpami.2022.3185583)] — *Cell/tissue image analysis*"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "37018105",
+      "title": "The Cluster Structure Function",
+      "journal": "IEEE transactions on pattern analysis and machine intelligence",
+      "journal_abbreviation": "IEEE Trans Pattern Anal Mach Intell",
+      "issn": "1939-3539",
+      "doi": "10.1109/tpami.2023.3264690",
+      "year": 2023,
+      "dates": {
+        "issue": {
+          "Year": "2023",
+          "Month": "Sep"
+        },
+        "online": {
+          "Year": "2023",
+          "Month": "08",
+          "Day": "07"
+        },
+        "history": [
+          {
+            "Year": "2023",
+            "Month": "4",
+            "Day": "6",
+            "Hour": "6",
+            "Minute": "1",
+            "status": "medline"
+          },
+          {
+            "Year": "2023",
+            "Month": "4",
+            "Day": "6",
+            "Hour": "6",
+            "Minute": "0",
+            "status": "pubmed"
+          },
+          {
+            "Year": "2023",
+            "Month": "4",
+            "Day": "5",
+            "Hour": "12",
+            "Minute": "43",
+            "status": "entrez"
+          },
+          {
+            "Year": "2023",
+            "Month": "9",
+            "Day": "27",
+            "status": "pmc-release"
+          }
+        ]
+      },
+      "volume": "45",
+      "issue": "9",
+      "authors": [
+        "Andrew R Cohen",
+        "Paul M B Vitanyi"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37018105/",
+      "topic": "Cell/tissue image analysis",
+      "relevance": "The clustering framework is demonstrated on segmentation of real cells used in stem-cell research.",
+      "crossref_url": "https://api.crossref.org/works/10.1109/tpami.2023.3264690",
+      "ieee_url": "https://ieeexplore.ieee.org/document/10093042/",
+      "pages": "11309-11320",
+      "crossref_issue_metadata": {
+        "volume": "45",
+        "issue": "9",
+        "page": "11309-11320",
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              9,
+              1
+            ]
+          ]
+        },
+        "published-online": null
+      },
+      "code_url": null,
+      "early_access": false,
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/37018105/",
+        "https://api.crossref.org/works/10.1109/tpami.2023.3264690",
+        "https://ieeexplore.ieee.org/document/10093042/"
+      ],
+      "entry": "- The Cluster Structure Function [[paper](https://doi.org/10.1109/tpami.2023.3264690)] — *Cell/tissue image analysis*"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "33989151",
+      "title": "PolarMask++: Enhanced Polar Representation for Single-Shot Instance Segmentation and Beyond",
+      "journal": "IEEE transactions on pattern analysis and machine intelligence",
+      "journal_abbreviation": "IEEE Trans Pattern Anal Mach Intell",
+      "issn": "1939-3539",
+      "doi": "10.1109/tpami.2021.3080324",
+      "year": 2022,
+      "dates": {
+        "issue": {
+          "Year": "2021",
+          "Month": "May",
+          "Day": "14"
+        },
+        "online": {
+          "Year": "2021",
+          "Month": "05",
+          "Day": "14"
+        },
+        "history": [
+          {
+            "Year": "2021",
+            "Month": "5",
+            "Day": "15",
+            "Hour": "6",
+            "Minute": "0",
+            "status": "pubmed"
+          },
+          {
+            "Year": "2021",
+            "Month": "5",
+            "Day": "15",
+            "Hour": "6",
+            "Minute": "0",
+            "status": "medline"
+          },
+          {
+            "Year": "2021",
+            "Month": "5",
+            "Day": "14",
+            "Hour": "17",
+            "Minute": "16",
+            "status": "entrez"
+          }
+        ]
+      },
+      "volume": "44",
+      "issue": "9",
+      "authors": [
+        "Enze Xie",
+        "Wenhai Wang",
+        "Mingyu Ding",
+        "Ruimao Zhang",
+        "Ping Luo"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33989151/",
+      "topic": "Cell/tissue image analysis",
+      "relevance": "The expanded PolarMask++ journal method includes a cell-segmentation evaluation alongside general instance segmentation.",
+      "crossref_url": "https://api.crossref.org/works/10.1109/tpami.2021.3080324",
+      "ieee_url": "https://ieeexplore.ieee.org/document/9431650/",
+      "pages": "5385-5400",
+      "crossref_issue_metadata": {
+        "volume": "44",
+        "issue": "9",
+        "page": "5385-5400",
+        "published-print": {
+          "date-parts": [
+            [
+              2022,
+              9,
+              1
+            ]
+          ]
+        },
+        "published-online": null
+      },
+      "code_url": "https://github.com/xieenze/PolarMask",
+      "early_access": false,
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/33989151/",
+        "https://api.crossref.org/works/10.1109/tpami.2021.3080324",
+        "https://ieeexplore.ieee.org/document/9431650/",
+        "https://github.com/xieenze/PolarMask"
+      ],
+      "entry": "- PolarMask++: Enhanced Polar Representation for Single-Shot Instance Segmentation and Beyond [[paper](https://doi.org/10.1109/tpami.2021.3080324)][[code](https://github.com/xieenze/PolarMask)] — *Cell/tissue image analysis*"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "31442971",
+      "title": "Neural Image Compression for Gigapixel Histopathology Image Analysis",
+      "journal": "IEEE transactions on pattern analysis and machine intelligence",
+      "journal_abbreviation": "IEEE Trans Pattern Anal Mach Intell",
+      "issn": "1939-3539",
+      "doi": "10.1109/tpami.2019.2936841",
+      "year": 2021,
+      "dates": {
+        "issue": {
+          "Year": "2021",
+          "Month": "Feb"
+        },
+        "online": {
+          "Year": "2021",
+          "Month": "01",
+          "Day": "08"
+        },
+        "history": [
+          {
+            "Year": "2019",
+            "Month": "8",
+            "Day": "24",
+            "Hour": "6",
+            "Minute": "0",
+            "status": "pubmed"
+          },
+          {
+            "Year": "2021",
+            "Month": "12",
+            "Day": "15",
+            "Hour": "6",
+            "Minute": "0",
+            "status": "medline"
+          },
+          {
+            "Year": "2019",
+            "Month": "8",
+            "Day": "24",
+            "Hour": "6",
+            "Minute": "0",
+            "status": "entrez"
+          }
+        ]
+      },
+      "volume": "43",
+      "issue": "2",
+      "authors": [
+        "David Tellez",
+        "Geert Litjens",
+        "Jeroen van der Laak",
+        "Francesco Ciompi"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31442971/",
+      "topic": "Histology",
+      "relevance": "Gigapixel histopathology compression and weakly supervised image-level prediction on two public pathology datasets.",
+      "crossref_url": "https://api.crossref.org/works/10.1109/tpami.2019.2936841",
+      "ieee_url": "https://ieeexplore.ieee.org/document/8809829/",
+      "pages": "567-578",
+      "crossref_issue_metadata": {
+        "volume": "43",
+        "issue": "2",
+        "page": "567-578",
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              2,
+              1
+            ]
+          ]
+        },
+        "published-online": null
+      },
+      "code_url": null,
+      "early_access": false,
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/31442971/",
+        "https://api.crossref.org/works/10.1109/tpami.2019.2936841",
+        "https://ieeexplore.ieee.org/document/8809829/"
+      ],
+      "entry": "- Neural Image Compression for Gigapixel Histopathology Image Analysis [[paper](https://doi.org/10.1109/tpami.2019.2936841)]"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "22665719",
+      "title": "Discrete Mereotopology for Spatial Reasoning in Automated Histological Image Analysis",
+      "journal": "IEEE transactions on pattern analysis and machine intelligence",
+      "journal_abbreviation": "IEEE Trans Pattern Anal Mach Intell",
+      "issn": "1939-3539",
+      "doi": "10.1109/tpami.2012.128",
+      "year": 2013,
+      "dates": {
+        "issue": {
+          "Year": "2013",
+          "Month": "Mar"
+        },
+        "online": {
+          "Year": "2012",
+          "Month": "06",
+          "Day": "05"
+        },
+        "history": [
+          {
+            "Year": "2012",
+            "Month": "6",
+            "Day": "6",
+            "Hour": "6",
+            "Minute": "0",
+            "status": "entrez"
+          },
+          {
+            "Year": "2012",
+            "Month": "6",
+            "Day": "6",
+            "Hour": "6",
+            "Minute": "0",
+            "status": "pubmed"
+          },
+          {
+            "Year": "2016",
+            "Month": "5",
+            "Day": "18",
+            "Hour": "6",
+            "Minute": "0",
+            "status": "medline"
+          }
+        ]
+      },
+      "volume": "35",
+      "issue": "3",
+      "authors": [
+        "David A Randell",
+        "Gabriel Landini",
+        "Antony Galton"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22665719/",
+      "topic": "Histology",
+      "relevance": "Spatial reasoning demonstrated on histological sections, basal cell layers and blood-smear cell sorting.",
+      "crossref_url": "https://api.crossref.org/works/10.1109/tpami.2012.128",
+      "ieee_url": "https://ieeexplore.ieee.org/document/6212514/",
+      "pages": "568-581",
+      "crossref_issue_metadata": {
+        "volume": "35",
+        "issue": "3",
+        "page": "568-581",
+        "published-print": {
+          "date-parts": [
+            [
+              2013,
+              3
+            ]
+          ]
+        },
+        "published-online": null
+      },
+      "code_url": null,
+      "early_access": false,
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/22665719/",
+        "https://api.crossref.org/works/10.1109/tpami.2012.128",
+        "https://ieeexplore.ieee.org/document/6212514/"
+      ],
+      "entry": "- Discrete Mereotopology for Spatial Reasoning in Automated Histological Image Analysis [[paper](https://doi.org/10.1109/tpami.2012.128)]"
+    }
+  ],
+  "deferred": [
+    {
+      "title": "Mutual-Assistance Learning for Standalone Mono-Modality Survival Analysis of Human Cancers",
+      "doi": "10.1109/tpami.2022.3222732",
+      "pmid": "36383577",
+      "year": 2023,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36383577/",
+      "reason": "The abstract does not identify the relevant pathology/omics input or dataset; full-text context could not be confirmed during this audit."
+    },
+    {
+      "title": "Graph Quality Matters on Revealing the Semantics Behind the Data in Physical World",
+      "doi": "10.1109/tpami.2025.3630605",
+      "pmid": "41201943",
+      "year": 2026,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41201943/",
+      "reason": "The abstract does not identify the relevant pathology/omics input or dataset; full-text context could not be confirmed during this audit."
+    },
+    {
+      "title": "Human Collective Intelligence Inspired Multi-View Representation Learning - Enabling View Communication by Simulating Human Communication Mechanism",
+      "doi": "10.1109/tpami.2022.3218605",
+      "pmid": "36318561",
+      "year": 2023,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36318561/",
+      "reason": "The abstract describes medical/bioinformatics benchmarks without identifying a relevant tissue or single-cell/spatial dataset; requires full-text screening."
+    }
+  ],
+  "exclusion_examples": [
+    {
+      "title": "A Unified Visual Information Preservation Framework for Self-supervised Pre-Training in Medical Image Analysis",
+      "doi": "10.1109/tpami.2023.3234002",
+      "pmid": "37018263",
+      "year": 2023,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37018263/",
+      "reason": "The reported tasks use radiology images only."
+    },
+    {
+      "title": "Few-Shot Drug Synergy Prediction With a Prior-Guided Hypernetwork Architecture",
+      "doi": "10.1109/tpami.2023.3248041",
+      "pmid": "37027608",
+      "year": 2023,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37027608/",
+      "reason": "Drug-synergy prediction without a tissue/spatial/single-cell analysis."
+    },
+    {
+      "title": "Quadratic Matrix Factorization With Applications to Manifold Learning",
+      "doi": "10.1109/tpami.2024.3380568",
+      "pmid": "38517728",
+      "year": 2024,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38517728/",
+      "reason": "Molecular cryo-EM manifold learning, without demonstrated cell/tissue analysis."
+    },
+    {
+      "title": "PhenoBench: A Large Dataset and Benchmarks for Semantic Image Interpretation in the Agricultural Domain",
+      "doi": "10.1109/tpami.2024.3419548",
+      "pmid": "38923484",
+      "year": 2024,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38923484/",
+      "reason": "Agricultural plant phenotyping."
+    },
+    {
+      "title": "Neovascularization Segmentation via a Multilateral Interaction-Enhanced Graph Convolutional Network",
+      "doi": "10.1109/tpami.2025.3600335",
+      "pmid": "40828709",
+      "year": 2025,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40828709/",
+      "reason": "Retinal OCT angiography without a pathology-image or omics contribution."
+    },
+    {
+      "title": "Interpretable Semantic Medical Image Segmentation With Style and Confidence",
+      "doi": "10.1109/tpami.2026.3689564",
+      "pmid": "42102085",
+      "year": 2026,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42102085/",
+      "reason": "Knee and pelvis MR segmentation, outside the tissue/omics scope."
+    },
+    {
+      "title": "Spatial-Frequency Learning for Scanning Transmission Electron Microscopy Image Enhancement",
+      "doi": "10.1109/tpami.2026.3740932",
+      "pmid": "42837243",
+      "year": 2026,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42837243/",
+      "reason": "Atomic-scale material microscopy, rather than biological cells or tissue."
+    }
+  ],
+  "limitations": [
+    "Full-year PubMed metadata/abstract screening does not guarantee complete IEEE full-text coverage or immediate indexing of all Early Access papers.",
+    "Several public API/full-text requests intermittently failed; fresh Crossref metadata was obtained for all added DOIs after retries. IEEE-deposited issue metadata remained stale for HGSurvNet.",
+    "CMVAE relevance was checked using the author-hosted publisher-version PDF indexed experimental excerpt and PubMed abstract; downloading that PDF failed.",
+    "The pre-2023 search is targeted, not a claim of exhaustive historical cell/microscopy coverage."
+  ],
+  "validation": {
+    "tests_passed": 13,
+    "journal_allowlist_passed": true,
+    "refresh_index_passed": true,
+    "git_diff_check_passed": true,
+    "all_baseline_paper_lines_preserved": true,
+    "new_doi_identities_unique": true,
+    "annual_files_under_500_kib": true
+  }
+}
