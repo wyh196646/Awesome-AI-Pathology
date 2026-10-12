@@ -23,13 +23,14 @@ See the [journal cleanup and ranking sources](docs/updates/2026-10-08-cas-zone1.
 
 ## Highlights
 
-- 📚 3,630 curated publication entries in computational pathology and tissue omics
+- 📚 3,748 curated publication entries in computational pathology and tissue omics
 - 🧠 Foundation models, WSI analysis, VLMs, agents, and spatial omics
 - 🏛️ Top conferences and journals: CVPR, ICCV, NeurIPS, ICML, ICLR, MICCAI, MIDL, Nature, Cell, Lancet, IEEE TPAMI, IEEE TMI, MedIA
 - 📊 Year-by-year and venue-by-venue paper tracking
 - 🔎 DOI links, official proceedings, and reproducible search records
 - 🤝 Open for community contributions
 
+Weekly update (2026-10-12): [118 preprints, 3 revisions and source status](docs/updates/2026-10-12.md).
 TPAMI update (2026-10-08): [verified additions and year corrections](docs/updates/2026-10-08-tpami.md).
 Journal cleanup (2026-10-08): [CAS zone-1 policy, removed counts and retained journals](docs/updates/2026-10-08-cas-zone1.md).
 NeurIPS 2026 update (2026-10-06): [28 requested works and source verification](docs/updates/2026-10-06-neurips-2026.md).
@@ -113,7 +114,7 @@ Earlier years remain on this page.
 
 # 2026
 
-**1,436 publications** · [Browse the complete 2026 list](papers/2026.md)
+**1,548 publications** · [Browse the complete 2026 list](papers/2026.md)
 
 - [Nature](papers/2026.md#nature) (3)
 - [Nature Medicine](papers/2026.md#nature-medicine) (6)
@@ -195,15 +196,15 @@ Earlier years remain on this page.
 - [IJCAI 2026](papers/2026.md#ijcai-2026) (7)
 - [WACV 2026](papers/2026.md#wacv-2026) (12)
 - [arXiv](papers/2026.md#arxiv) (374)
-- [bioRxiv](papers/2026.md#biorxiv) (184)
-- [medRxiv](papers/2026.md#medrxiv) (52)
+- [bioRxiv](papers/2026.md#biorxiv) (280)
+- [medRxiv](papers/2026.md#medrxiv) (68)
 - [TechRxiv](papers/2026.md#techrxiv) (1)
 
 ---
 
 # 2025
 
-**1,026 publications** · [Browse the complete 2025 list](papers/2025.md)
+**1,031 publications** · [Browse the complete 2025 list](papers/2025.md)
 
 - [Nature](papers/2025.md#nature) (5)
 - [Nature Medicine](papers/2025.md#nature-medicine) (2)
@@ -283,8 +284,8 @@ Earlier years remain on this page.
 - [MIDL 2025](papers/2025.md#midl-2025) (13)
 - [ML4H 2025](papers/2025.md#ml4h-2025) (3)
 - [arXiv](papers/2025.md#arxiv) (316)
-- [bioRxiv](papers/2025.md#biorxiv) (8)
-- [medRxiv](papers/2025.md#medrxiv) (1)
+- [bioRxiv](papers/2025.md#biorxiv) (11)
+- [medRxiv](papers/2025.md#medrxiv) (3)
 - [CIKM 2025](papers/2025.md#cikm-2025) (1)
 - [COMPLEX NETWORKS 2025](papers/2025.md#complex-networks-2025) (1)
 - [ICIP 2025](papers/2025.md#icip-2025) (1)
@@ -293,7 +294,7 @@ Earlier years remain on this page.
 
 # 2024
 
-**669 publications** · [Browse the complete 2024 list](papers/2024.md)
+**670 publications** · [Browse the complete 2024 list](papers/2024.md)
 
 - [Nature](papers/2024.md#nature) (3)
 - [Nature Medicine](papers/2024.md#nature-medicine) (9)
@@ -332,7 +333,7 @@ Earlier years remain on this page.
 - [Acs Nano](papers/2024.md#acs-nano) (1)
 - [Acs Sensors](papers/2024.md#acs-sensors) (1)
 - [American Journal Of Human Genetics](papers/2024.md#american-journal-of-human-genetics) (1)
-- [bioRxiv](papers/2024.md#biorxiv) (3)
+- [bioRxiv](papers/2024.md#biorxiv) (4)
 - [Cell Research](papers/2024.md#cell-research) (1)
 - [Communications Biology](papers/2024.md#communications-biology) (10)
 - [Drug Resistance Updates : Reviews And Commentaries In Antimicrobial And Anticancer Chemotherapy](papers/2024.md#drug-resistance-updates--reviews-and-commentaries-in-antimicrobial-and-anticancer-chemotherapy) (1)
