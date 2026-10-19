@@ -23,12 +23,14 @@ See the [journal cleanup and ranking sources](docs/updates/2026-10-08-cas-zone1.
 
 ## Highlights
 
-- 📚 3,748 curated publication entries in computational pathology and tissue omics
+- 📚 3,927 curated publication entries in computational pathology and tissue omics
 - 🧠 Foundation models, WSI analysis, VLMs, agents, and spatial omics
 - 🏛️ Top conferences and journals: CVPR, ICCV, NeurIPS, ICML, ICLR, MICCAI, MIDL, Nature, Cell, Lancet, IEEE TPAMI, IEEE TMI, MedIA
 - 📊 Year-by-year and venue-by-venue paper tracking
 - 🔎 DOI links, official proceedings, and reproducible search records
 - 🤝 Open for community contributions
+
+Weekly update (2026-10-19): [179 additions, 9 publication migrations and complete source coverage](docs/updates/2026-10-19.md).
 
 Weekly update (2026-10-12): [118 preprints, 3 revisions and source status](docs/updates/2026-10-12.md).
 TPAMI update (2026-10-08): [verified additions and year corrections](docs/updates/2026-10-08-tpami.md).
@@ -114,7 +116,7 @@ Earlier years remain on this page.
 
 # 2026
 
-**1,548 publications** · [Browse the complete 2026 list](papers/2026.md)
+**1,718 publications** · [Browse the complete 2026 list](papers/2026.md)
 
 - [Nature](papers/2026.md#nature) (3)
 - [Nature Medicine](papers/2026.md#nature-medicine) (6)
@@ -129,7 +131,7 @@ Earlier years remain on this page.
 - [Cell](papers/2026.md#cell) (3)
 - [Light: Science & Applications](papers/2026.md#light-science--applications) (2)
 - [Advanced Science](papers/2026.md#advanced-science) (38)
-- [Medical Image Analysis](papers/2026.md#medical-image-analysis) (69)
+- [Medical Image Analysis](papers/2026.md#medical-image-analysis) (70)
 - [IEEE Transactions on Medical Imaging](papers/2026.md#ieee-transactions-on-medical-imaging) (38)
 - [Pattern Recognition](papers/2026.md#pattern-recognition) (15)
 - [eBioMedicine](papers/2026.md#ebiomedicine) (1)
@@ -141,7 +143,7 @@ Earlier years remain on this page.
 - [Cell Reports Medicine](papers/2026.md#cell-reports-medicine) (3)
 - [Clinical Cancer Research](papers/2026.md#clinical-cancer-research) (8)
 - [Genome Biology](papers/2026.md#genome-biology) (21)
-- [IEEE Transactions on Pattern Analysis and Machine Intelligence](papers/2026.md#ieee-transactions-on-pattern-analysis-and-machine-intelligence) (10)
+- [IEEE Transactions on Pattern Analysis and Machine Intelligence](papers/2026.md#ieee-transactions-on-pattern-analysis-and-machine-intelligence) (11)
 - [JAMA Oncology](papers/2026.md#jama-oncology) (1)
 - [Leukemia](papers/2026.md#leukemia) (2)
 - [The Lancet Oncology](papers/2026.md#the-lancet-oncology) (3)
@@ -186,25 +188,26 @@ Earlier years remain on this page.
 - [CVPR 2026](papers/2026.md#cvpr-2026) (38)
 - [ICLR 2026](papers/2026.md#iclr-2026) (31)
 - [ICML 2026](papers/2026.md#icml-2026) (55)
-- [NeurIPS 2026](papers/2026.md#neurips-2026) (27)
+- [NeurIPS 2026](papers/2026.md#neurips-2026) (37)
 - [NeurIPS 2026 Workshops](papers/2026.md#neurips-2026-workshops) (1)
 - [MICCAI 2026](papers/2026.md#miccai-2026) (98)
+- [MICCAI 2026 Workshops](papers/2026.md#miccai-2026-workshops) (1)
 - [AAAI 2026](papers/2026.md#aaai-2026) (39)
 - [The Web Conference 2026](papers/2026.md#the-web-conference-2026) (1)
 - [MIDL 2026](papers/2026.md#midl-2026) (23)
 - [ECCV 2026](papers/2026.md#eccv-2026) (20)
 - [IJCAI 2026](papers/2026.md#ijcai-2026) (7)
 - [WACV 2026](papers/2026.md#wacv-2026) (12)
-- [arXiv](papers/2026.md#arxiv) (374)
-- [bioRxiv](papers/2026.md#biorxiv) (280)
-- [medRxiv](papers/2026.md#medrxiv) (68)
+- [arXiv](papers/2026.md#arxiv) (412)
+- [bioRxiv](papers/2026.md#biorxiv) (382)
+- [medRxiv](papers/2026.md#medrxiv) (85)
 - [TechRxiv](papers/2026.md#techrxiv) (1)
 
 ---
 
 # 2025
 
-**1,031 publications** · [Browse the complete 2025 list](papers/2025.md)
+**1,039 publications** · [Browse the complete 2025 list](papers/2025.md)
 
 - [Nature](papers/2025.md#nature) (5)
 - [Nature Medicine](papers/2025.md#nature-medicine) (2)
@@ -283,8 +286,8 @@ Earlier years remain on this page.
 - [EMNLP 2025](papers/2025.md#emnlp-2025) (1)
 - [MIDL 2025](papers/2025.md#midl-2025) (13)
 - [ML4H 2025](papers/2025.md#ml4h-2025) (3)
-- [arXiv](papers/2025.md#arxiv) (316)
-- [bioRxiv](papers/2025.md#biorxiv) (11)
+- [arXiv](papers/2025.md#arxiv) (318)
+- [bioRxiv](papers/2025.md#biorxiv) (17)
 - [medRxiv](papers/2025.md#medrxiv) (3)
 - [CIKM 2025](papers/2025.md#cikm-2025) (1)
 - [COMPLEX NETWORKS 2025](papers/2025.md#complex-networks-2025) (1)
@@ -294,7 +297,7 @@ Earlier years remain on this page.
 
 # 2024
 
-**670 publications** · [Browse the complete 2024 list](papers/2024.md)
+**671 publications** · [Browse the complete 2024 list](papers/2024.md)
 
 - [Nature](papers/2024.md#nature) (3)
 - [Nature Medicine](papers/2024.md#nature-medicine) (9)
@@ -333,7 +336,7 @@ Earlier years remain on this page.
 - [Acs Nano](papers/2024.md#acs-nano) (1)
 - [Acs Sensors](papers/2024.md#acs-sensors) (1)
 - [American Journal Of Human Genetics](papers/2024.md#american-journal-of-human-genetics) (1)
-- [bioRxiv](papers/2024.md#biorxiv) (4)
+- [bioRxiv](papers/2024.md#biorxiv) (5)
 - [Cell Research](papers/2024.md#cell-research) (1)
 - [Communications Biology](papers/2024.md#communications-biology) (10)
 - [Drug Resistance Updates : Reviews And Commentaries In Antimicrobial And Anticancer Chemotherapy](papers/2024.md#drug-resistance-updates--reviews-and-commentaries-in-antimicrobial-and-anticancer-chemotherapy) (1)

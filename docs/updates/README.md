@@ -10,6 +10,7 @@ historical additions, paper metadata and counts are not the current bibliography
 or an inclusion allowlist. The October 4 and October 5 audits predate the journal
 filter; their removed entries remain recoverable in Git history.
 
+- [2026-10-19 weekly additions, publication migrations and complete retrieval](2026-10-19.md)
 - [2026-10-12 weekly preprints and retrieval status](2026-10-12.md)
 - [2026-10-08 TPAMI backfill](2026-10-08-tpami.md)
 - [2026-10-08 journal cleanup](2026-10-08-cas-zone1.md)

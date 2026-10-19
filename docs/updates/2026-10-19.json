@@ -1,0 +1,2564 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-19",
+  "baseline_commit": "26aefdb4c416e4d386ad46ade3b15b5f98f39591",
+  "cutoff_utc": "2026-10-18",
+  "generated_at": "2026-10-19T02:05:27.873408+00:00",
+  "keyword_config": "config/literature-keywords.json",
+  "keyword_sha256": "bf552f320cbad947a9d20bbcc2640f40e3afbb33389c750d817bd6a9b4985ed8",
+  "summary": {
+    "decisions": {
+      "exclude_scope": 272,
+      "duplicate": 262,
+      "exclude_journal_policy": 4,
+      "add_preprint": 175,
+      "migrate_publication": 9,
+      "add_formal": 4,
+      "update_existing": 12
+    },
+    "new_by_source": {
+      "arxiv": 53,
+      "biorxiv": 109,
+      "medrxiv": 17
+    },
+    "new_by_type": {
+      "preprint": 175,
+      "conference": 3,
+      "journal": 1
+    },
+    "new_by_year": {
+      "2025": 9,
+      "2026": 169,
+      "2024": 1
+    },
+    "title_corrections": 4,
+    "changed_existing": 21,
+    "total_before": 3748,
+    "total_after": 3927,
+    "changes": 200,
+    "new_papers": 179,
+    "new_preprints_by_server": {
+      "arxiv": 49,
+      "biorxiv": 109,
+      "medrxiv": 17
+    },
+    "publication_migrations": 9,
+    "existing_version_updates": 9,
+    "existing_metadata_enrichments": 3,
+    "current_abstract_reviews": 296,
+    "exact_unchanged_prior_reviews": 442
+  },
+  "source_status": {
+    "arxiv": {
+      "status": "complete",
+      "since": "2026-09-20",
+      "until": "2026-10-18",
+      "retrieved_unique": 1143,
+      "candidates": 179
+    },
+    "biorxiv": {
+      "status": "complete",
+      "since": "2026-09-27",
+      "until": "2026-10-18",
+      "retrieved_unique": 4869,
+      "candidates": 487
+    },
+    "medrxiv": {
+      "status": "complete",
+      "since": "2026-09-27",
+      "until": "2026-10-18",
+      "retrieved_unique": 1261,
+      "candidates": 72
+    }
+  },
+  "retrieval_totals": {
+    "unique_records": 7273,
+    "candidates": 738,
+    "arxiv_atom_pages": 8,
+    "arxiv_raw_rows": 1600,
+    "biorxiv_pages": 170,
+    "biorxiv_raw_rows": 5089,
+    "medrxiv_pages": 44,
+    "medrxiv_raw_rows": 1309,
+    "rxiv_prefetch_pages": 214,
+    "rxiv_prefetch_failed": 0
+  },
+  "retrievals": [
+    {
+      "source": "arxiv",
+      "group": "histology_cytology",
+      "url": "https://export.arxiv.org/api/query?search_query=%28ti%3Ahistopatholog%2A+OR+abs%3Ahistopatholog%2A+OR+ti%3Ahistolog%2A+OR+abs%3Ahistolog%2A+OR+ti%3Ahistomorpholog%2A+OR+abs%3Ahistomorpholog%2A+OR+ti%3Apathomic%2A+OR+abs%3Apathomic%2A+OR+ti%3A%22digital+pathology%22+OR+abs%3A%22digital+pathology%22+OR+ti%3A%22computational+pathology%22+OR+abs%3A%22computational+pathology%22+OR+ti%3A%22pathology+image%2A%22+OR+abs%3A%22pathology+image%2A%22+OR+ti%3A%22pathology+report%2A%22+OR+abs%3A%22pathology+report%2A%22+OR+ti%3Acytopatholog%2A+OR+abs%3Acytopatholog%2A+OR+ti%3A%22pathology+slide%2A%22+OR+abs%3A%22pathology+slide%2A%22+OR+ti%3Amulti-slide+OR+abs%3Amulti-slide+OR+ti%3A%22multi+slide%22+OR+abs%3A%22multi+slide%22+OR+ti%3AFFPE+OR+abs%3AFFPE+OR+ti%3A%22fresh+frozen%22+OR+abs%3A%22fresh+frozen%22+OR+ti%3Aformalin-fixed+OR+abs%3Aformalin-fixed+OR+ti%3Aparaffin-embedded+OR+abs%3Aparaffin-embedded+OR+ti%3Ahistomorphometr%2A+OR+abs%3Ahistomorphometr%2A+OR+ti%3Acytolog%2A+OR+abs%3Acytolog%2A+OR+ti%3Ahematopatholog%2A+OR+abs%3Ahematopatholog%2A+OR+ti%3Awhole-slide+OR+abs%3Awhole-slide+OR+ti%3A%22whole+slide%22+OR+abs%3A%22whole+slide%22+OR+ti%3AWSI+OR+abs%3AWSI+OR+ti%3Agigapixel+OR+abs%3Agigapixel+OR+ti%3A%22tissue+microarray%22+OR+abs%3A%22tissue+microarray%22+OR+ti%3Ahematoxylin+OR+abs%3Ahematoxylin+OR+ti%3Ahaematoxylin+OR+abs%3Ahaematoxylin+OR+ti%3AH%26E+OR+abs%3AH%26E+OR+ti%3Aimmunohistochem%2A+OR+abs%3Aimmunohistochem%2A+OR+ti%3A%22virtual+stain%2A%22+OR+abs%3A%22virtual+stain%2A%22+OR+ti%3A%22stain+transfer%22+OR+abs%3A%22stain+transfer%22+OR+ti%3A%22stain+normalization%22+OR+abs%3A%22stain+normalization%22+OR+ti%3A%22nuclei+segmentation%22+OR+abs%3A%22nuclei+segmentation%22+OR+ti%3A%22nucleus+detection%22+OR+abs%3A%22nucleus+detection%22+OR+ti%3Amitosis+OR+abs%3Amitosis+OR+ti%3Amitotic+OR+abs%3Amitotic+OR+ti%3A%22gland+segmentation%22+OR+abs%3A%22gland+segmentation%22+OR+ti%3AGleason+OR+abs%3AGleason+OR+ti%3Aglomerul%2A+OR+abs%3Aglomerul%2A+OR+ti%3A%22blood+smear%22+OR+abs%3A%22blood+smear%22+OR+ti%3A%22bone+marrow%22+OR+abs%3A%22bone+marrow%22+OR+ti%3A%22Pap+smear%22+OR+abs%3A%22Pap+smear%22+OR+ti%3A%22tissue+microscopy%22+OR+abs%3A%22tissue+microscopy%22+OR+ti%3A%22multiplex+immunofluorescence%22+OR+abs%3A%22multiplex+immunofluorescence%22+OR+ti%3A%22imaging+mass+cytometry%22+OR+abs%3A%22imaging+mass+cytometry%22+OR+ti%3A%22CODEX+imaging%22+OR+abs%3A%22CODEX+imaging%22+OR+ti%3AMIBI+OR+abs%3AMIBI%29&start=0&max_results=200&sortBy=lastUpdatedDate&sortOrder=descending",
+      "total": 17150,
+      "page": 0,
+      "retrieved": 200
+    },
+    {
+      "source": "arxiv",
+      "group": "histology_cytology",
+      "url": "https://export.arxiv.org/api/query?search_query=%28ti%3Ahistopatholog%2A+OR+abs%3Ahistopatholog%2A+OR+ti%3Ahistolog%2A+OR+abs%3Ahistolog%2A+OR+ti%3Ahistomorpholog%2A+OR+abs%3Ahistomorpholog%2A+OR+ti%3Apathomic%2A+OR+abs%3Apathomic%2A+OR+ti%3A%22digital+pathology%22+OR+abs%3A%22digital+pathology%22+OR+ti%3A%22computational+pathology%22+OR+abs%3A%22computational+pathology%22+OR+ti%3A%22pathology+image%2A%22+OR+abs%3A%22pathology+image%2A%22+OR+ti%3A%22pathology+report%2A%22+OR+abs%3A%22pathology+report%2A%22+OR+ti%3Acytopatholog%2A+OR+abs%3Acytopatholog%2A+OR+ti%3A%22pathology+slide%2A%22+OR+abs%3A%22pathology+slide%2A%22+OR+ti%3Amulti-slide+OR+abs%3Amulti-slide+OR+ti%3A%22multi+slide%22+OR+abs%3A%22multi+slide%22+OR+ti%3AFFPE+OR+abs%3AFFPE+OR+ti%3A%22fresh+frozen%22+OR+abs%3A%22fresh+frozen%22+OR+ti%3Aformalin-fixed+OR+abs%3Aformalin-fixed+OR+ti%3Aparaffin-embedded+OR+abs%3Aparaffin-embedded+OR+ti%3Ahistomorphometr%2A+OR+abs%3Ahistomorphometr%2A+OR+ti%3Acytolog%2A+OR+abs%3Acytolog%2A+OR+ti%3Ahematopatholog%2A+OR+abs%3Ahematopatholog%2A+OR+ti%3Awhole-slide+OR+abs%3Awhole-slide+OR+ti%3A%22whole+slide%22+OR+abs%3A%22whole+slide%22+OR+ti%3AWSI+OR+abs%3AWSI+OR+ti%3Agigapixel+OR+abs%3Agigapixel+OR+ti%3A%22tissue+microarray%22+OR+abs%3A%22tissue+microarray%22+OR+ti%3Ahematoxylin+OR+abs%3Ahematoxylin+OR+ti%3Ahaematoxylin+OR+abs%3Ahaematoxylin+OR+ti%3AH%26E+OR+abs%3AH%26E+OR+ti%3Aimmunohistochem%2A+OR+abs%3Aimmunohistochem%2A+OR+ti%3A%22virtual+stain%2A%22+OR+abs%3A%22virtual+stain%2A%22+OR+ti%3A%22stain+transfer%22+OR+abs%3A%22stain+transfer%22+OR+ti%3A%22stain+normalization%22+OR+abs%3A%22stain+normalization%22+OR+ti%3A%22nuclei+segmentation%22+OR+abs%3A%22nuclei+segmentation%22+OR+ti%3A%22nucleus+detection%22+OR+abs%3A%22nucleus+detection%22+OR+ti%3Amitosis+OR+abs%3Amitosis+OR+ti%3Amitotic+OR+abs%3Amitotic+OR+ti%3A%22gland+segmentation%22+OR+abs%3A%22gland+segmentation%22+OR+ti%3AGleason+OR+abs%3AGleason+OR+ti%3Aglomerul%2A+OR+abs%3Aglomerul%2A+OR+ti%3A%22blood+smear%22+OR+abs%3A%22blood+smear%22+OR+ti%3A%22bone+marrow%22+OR+abs%3A%22bone+marrow%22+OR+ti%3A%22Pap+smear%22+OR+abs%3A%22Pap+smear%22+OR+ti%3A%22tissue+microscopy%22+OR+abs%3A%22tissue+microscopy%22+OR+ti%3A%22multiplex+immunofluorescence%22+OR+abs%3A%22multiplex+immunofluorescence%22+OR+ti%3A%22imaging+mass+cytometry%22+OR+abs%3A%22imaging+mass+cytometry%22+OR+ti%3A%22CODEX+imaging%22+OR+abs%3A%22CODEX+imaging%22+OR+ti%3AMIBI+OR+abs%3AMIBI%29&start=200&max_results=200&sortBy=lastUpdatedDate&sortOrder=descending",
+      "total": 17150,
+      "page": 1,
+      "retrieved": 200
+    },
+    {
+      "source": "arxiv",
+      "group": "spatial_omics",
+      "url": "https://export.arxiv.org/api/query?search_query=%28ti%3A%22spatial+transcriptom%2A%22+OR+abs%3A%22spatial+transcriptom%2A%22+OR+ti%3A%22spatial+proteom%2A%22+OR+abs%3A%22spatial+proteom%2A%22+OR+ti%3A%22spatial+multiomic%2A%22+OR+abs%3A%22spatial+multiomic%2A%22+OR+ti%3A%22spatial+multi-omic%2A%22+OR+abs%3A%22spatial+multi-omic%2A%22+OR+ti%3A%22spatial+omic%2A%22+OR+abs%3A%22spatial+omic%2A%22+OR+ti%3A%22spatial+genom%2A%22+OR+abs%3A%22spatial+genom%2A%22+OR+ti%3A%22spatial+metabolom%2A%22+OR+abs%3A%22spatial+metabolom%2A%22+OR+ti%3A%22spatial+epigenom%2A%22+OR+abs%3A%22spatial+epigenom%2A%22+OR+ti%3A%22spatial+chromatin%22+OR+abs%3A%22spatial+chromatin%22+OR+ti%3A%22spatial+gene+expression%22+OR+abs%3A%22spatial+gene+expression%22+OR+ti%3A%22spatially+variable+gene%2A%22+OR+abs%3A%22spatially+variable+gene%2A%22+OR+ti%3A%22spatial+domain%2A%22+OR+abs%3A%22spatial+domain%2A%22+OR+ti%3A%22spatial+deconvolution%22+OR+abs%3A%22spatial+deconvolution%22+OR+ti%3A%22cell+type+deconvolution%22+OR+abs%3A%22cell+type+deconvolution%22+OR+ti%3A%22spatial+cell+annotation%22+OR+abs%3A%22spatial+cell+annotation%22+OR+ti%3A%22spatial+cell+mapping%22+OR+abs%3A%22spatial+cell+mapping%22+OR+ti%3A%22spatial+molecular+profiling%22+OR+abs%3A%22spatial+molecular+profiling%22+OR+ti%3A%22in+situ+sequencing%22+OR+abs%3A%22in+situ+sequencing%22+OR+ti%3A%22in-situ+sequencing%22+OR+abs%3A%22in-situ+sequencing%22+OR+ti%3AMERFISH+OR+abs%3AMERFISH+OR+ti%3AseqFISH+OR+abs%3AseqFISH+OR+ti%3ASlide-seq+OR+abs%3ASlide-seq+OR+ti%3AVisium+OR+abs%3AVisium+OR+ti%3AXenium+OR+abs%3AXenium+OR+ti%3ACosMx+OR+abs%3ACosMx+OR+ti%3AStereo-seq+OR+abs%3AStereo-seq+OR+ti%3ASTARmap+OR+abs%3ASTARmap+OR+ti%3AGeoMx+OR+abs%3AGeoMx+OR+ti%3ADBiT-seq+OR+abs%3ADBiT-seq+OR+ti%3A%22spatial+perturbation%22+OR+abs%3A%22spatial+perturbation%22+OR+ti%3A%22spatial+alignment%22+OR+abs%3A%22spatial+alignment%22+OR+ti%3A%22multi-slice+integration%22+OR+abs%3A%22multi-slice+integration%22%29&start=0&max_results=200&sortBy=lastUpdatedDate&sortOrder=descending",
+      "total": 3420,
+      "page": 0,
+      "retrieved": 200
+    },
+    {
+      "source": "arxiv",
+      "group": "single_cell",
+      "url": "https://export.arxiv.org/api/query?search_query=%28ti%3Asingle-cell+OR+abs%3Asingle-cell+OR+ti%3A%22single+cell%22+OR+abs%3A%22single+cell%22+OR+ti%3AscRNA-seq+OR+abs%3AscRNA-seq+OR+ti%3AscRNAseq+OR+abs%3AscRNAseq+OR+ti%3AscATAC-seq+OR+abs%3AscATAC-seq+OR+ti%3AscATAC+OR+abs%3AscATAC+OR+ti%3A%22single-cell+multiomic%2A%22+OR+abs%3A%22single-cell+multiomic%2A%22+OR+ti%3A%22single-cell+multi-omic%2A%22+OR+abs%3A%22single-cell+multi-omic%2A%22+OR+ti%3A%22single-cell+foundation+model%2A%22+OR+abs%3A%22single-cell+foundation+model%2A%22+OR+ti%3A%22single-cell+representation%22+OR+abs%3A%22single-cell+representation%22+OR+ti%3A%22single-cell+annotation%22+OR+abs%3A%22single-cell+annotation%22+OR+ti%3A%22cell+type+annotation%22+OR+abs%3A%22cell+type+annotation%22+OR+ti%3A%22cell+atlas%22+OR+abs%3A%22cell+atlas%22+OR+ti%3Acell-state+OR+abs%3Acell-state+OR+ti%3A%22cell+state%22+OR+abs%3A%22cell+state%22+OR+ti%3A%22cross-modal+cell+annotation%22+OR+abs%3A%22cross-modal+cell+annotation%22+OR+ti%3A%22RNA+ATAC%22+OR+abs%3A%22RNA+ATAC%22+OR+ti%3ACITE-seq+OR+abs%3ACITE-seq+OR+ti%3Amultiome+OR+abs%3Amultiome+OR+ti%3A%22cell+trajectory%22+OR+abs%3A%22cell+trajectory%22+OR+ti%3A%22cell+fate%22+OR+abs%3A%22cell+fate%22+OR+ti%3A%22cell+perturbation%22+OR+abs%3A%22cell+perturbation%22+OR+ti%3A%22cell+profiling%22+OR+abs%3A%22cell+profiling%22+OR+ti%3A%22cell+phenotyping%22+OR+abs%3A%22cell+phenotyping%22+OR+ti%3ACellProfiler+OR+abs%3ACellProfiler+OR+ti%3A%22cell+painting%22+OR+abs%3A%22cell+painting%22+OR+ti%3Amorpholomic%2A+OR+abs%3Amorpholomic%2A%29&start=0&max_results=200&sortBy=lastUpdatedDate&sortOrder=descending",
+      "total": 19288,
+      "page": 0,
+      "retrieved": 200
+    },
+    {
+      "source": "arxiv",
+      "group": "single_cell",
+      "url": "https://export.arxiv.org/api/query?search_query=%28ti%3Asingle-cell+OR+abs%3Asingle-cell+OR+ti%3A%22single+cell%22+OR+abs%3A%22single+cell%22+OR+ti%3AscRNA-seq+OR+abs%3AscRNA-seq+OR+ti%3AscRNAseq+OR+abs%3AscRNAseq+OR+ti%3AscATAC-seq+OR+abs%3AscATAC-seq+OR+ti%3AscATAC+OR+abs%3AscATAC+OR+ti%3A%22single-cell+multiomic%2A%22+OR+abs%3A%22single-cell+multiomic%2A%22+OR+ti%3A%22single-cell+multi-omic%2A%22+OR+abs%3A%22single-cell+multi-omic%2A%22+OR+ti%3A%22single-cell+foundation+model%2A%22+OR+abs%3A%22single-cell+foundation+model%2A%22+OR+ti%3A%22single-cell+representation%22+OR+abs%3A%22single-cell+representation%22+OR+ti%3A%22single-cell+annotation%22+OR+abs%3A%22single-cell+annotation%22+OR+ti%3A%22cell+type+annotation%22+OR+abs%3A%22cell+type+annotation%22+OR+ti%3A%22cell+atlas%22+OR+abs%3A%22cell+atlas%22+OR+ti%3Acell-state+OR+abs%3Acell-state+OR+ti%3A%22cell+state%22+OR+abs%3A%22cell+state%22+OR+ti%3A%22cross-modal+cell+annotation%22+OR+abs%3A%22cross-modal+cell+annotation%22+OR+ti%3A%22RNA+ATAC%22+OR+abs%3A%22RNA+ATAC%22+OR+ti%3ACITE-seq+OR+abs%3ACITE-seq+OR+ti%3Amultiome+OR+abs%3Amultiome+OR+ti%3A%22cell+trajectory%22+OR+abs%3A%22cell+trajectory%22+OR+ti%3A%22cell+fate%22+OR+abs%3A%22cell+fate%22+OR+ti%3A%22cell+perturbation%22+OR+abs%3A%22cell+perturbation%22+OR+ti%3A%22cell+profiling%22+OR+abs%3A%22cell+profiling%22+OR+ti%3A%22cell+phenotyping%22+OR+abs%3A%22cell+phenotyping%22+OR+ti%3ACellProfiler+OR+abs%3ACellProfiler+OR+ti%3A%22cell+painting%22+OR+abs%3A%22cell+painting%22+OR+ti%3Amorpholomic%2A+OR+abs%3Amorpholomic%2A%29&start=200&max_results=200&sortBy=lastUpdatedDate&sortOrder=descending",
+      "total": 19288,
+      "page": 1,
+      "retrieved": 200
+    },
+    {
+      "source": "arxiv",
+      "group": "single_cell",
+      "url": "https://export.arxiv.org/api/query?search_query=%28ti%3Asingle-cell+OR+abs%3Asingle-cell+OR+ti%3A%22single+cell%22+OR+abs%3A%22single+cell%22+OR+ti%3AscRNA-seq+OR+abs%3AscRNA-seq+OR+ti%3AscRNAseq+OR+abs%3AscRNAseq+OR+ti%3AscATAC-seq+OR+abs%3AscATAC-seq+OR+ti%3AscATAC+OR+abs%3AscATAC+OR+ti%3A%22single-cell+multiomic%2A%22+OR+abs%3A%22single-cell+multiomic%2A%22+OR+ti%3A%22single-cell+multi-omic%2A%22+OR+abs%3A%22single-cell+multi-omic%2A%22+OR+ti%3A%22single-cell+foundation+model%2A%22+OR+abs%3A%22single-cell+foundation+model%2A%22+OR+ti%3A%22single-cell+representation%22+OR+abs%3A%22single-cell+representation%22+OR+ti%3A%22single-cell+annotation%22+OR+abs%3A%22single-cell+annotation%22+OR+ti%3A%22cell+type+annotation%22+OR+abs%3A%22cell+type+annotation%22+OR+ti%3A%22cell+atlas%22+OR+abs%3A%22cell+atlas%22+OR+ti%3Acell-state+OR+abs%3Acell-state+OR+ti%3A%22cell+state%22+OR+abs%3A%22cell+state%22+OR+ti%3A%22cross-modal+cell+annotation%22+OR+abs%3A%22cross-modal+cell+annotation%22+OR+ti%3A%22RNA+ATAC%22+OR+abs%3A%22RNA+ATAC%22+OR+ti%3ACITE-seq+OR+abs%3ACITE-seq+OR+ti%3Amultiome+OR+abs%3Amultiome+OR+ti%3A%22cell+trajectory%22+OR+abs%3A%22cell+trajectory%22+OR+ti%3A%22cell+fate%22+OR+abs%3A%22cell+fate%22+OR+ti%3A%22cell+perturbation%22+OR+abs%3A%22cell+perturbation%22+OR+ti%3A%22cell+profiling%22+OR+abs%3A%22cell+profiling%22+OR+ti%3A%22cell+phenotyping%22+OR+abs%3A%22cell+phenotyping%22+OR+ti%3ACellProfiler+OR+abs%3ACellProfiler+OR+ti%3A%22cell+painting%22+OR+abs%3A%22cell+painting%22+OR+ti%3Amorpholomic%2A+OR+abs%3Amorpholomic%2A%29&start=400&max_results=200&sortBy=lastUpdatedDate&sortOrder=descending",
+      "total": 19288,
+      "page": 2,
+      "retrieved": 200
+    },
+    {
+      "source": "arxiv",
+      "group": "tissue_microenvironment",
+      "url": "https://export.arxiv.org/api/query?search_query=%28ti%3A%22tumor+microenvironment%22+OR+abs%3A%22tumor+microenvironment%22+OR+ti%3A%22tumour+microenvironment%22+OR+abs%3A%22tumour+microenvironment%22+OR+ti%3A%22tissue+microenvironment%22+OR+abs%3A%22tissue+microenvironment%22+OR+ti%3A%22spatial+niche%2A%22+OR+abs%3A%22spatial+niche%2A%22+OR+ti%3A%22cellular+niche%2A%22+OR+abs%3A%22cellular+niche%2A%22+OR+ti%3A%22tissue+architecture%22+OR+abs%3A%22tissue+architecture%22+OR+ti%3A%22tissue+atlas%22+OR+abs%3A%22tissue+atlas%22+OR+ti%3A%22cell-cell+communication%22+OR+abs%3A%22cell-cell+communication%22+OR+ti%3A%22cell+cell+communication%22+OR+abs%3A%22cell+cell+communication%22+OR+ti%3A%22cell-cell+interaction%22+OR+abs%3A%22cell-cell+interaction%22+OR+ti%3A%22cellular+interaction%22+OR+abs%3A%22cellular+interaction%22+OR+ti%3Aligand-receptor+OR+abs%3Aligand-receptor+OR+ti%3A%22ligand+receptor%22+OR+abs%3A%22ligand+receptor%22+OR+ti%3Atumor-stroma+OR+abs%3Atumor-stroma+OR+ti%3A%22immune+landscape%22+OR+abs%3A%22immune+landscape%22+OR+ti%3A%22spatial+heterogeneity%22+OR+abs%3A%22spatial+heterogeneity%22+OR+ti%3A%22spatial+tissue%22+OR+abs%3A%22spatial+tissue%22+OR+ti%3A%22spatially+resolved%22+OR+abs%3A%22spatially+resolved%22%29&start=0&max_results=200&sortBy=lastUpdatedDate&sortOrder=descending",
+      "total": 7947,
+      "page": 0,
+      "retrieved": 200
+    },
+    {
+      "source": "arxiv",
+      "group": "cancer_multimodal_omics",
+      "url": "https://export.arxiv.org/api/query?search_query=%28ti%3Amultiomic%2A+OR+abs%3Amultiomic%2A+OR+ti%3Amulti-omic%2A+OR+abs%3Amulti-omic%2A+OR+ti%3A%22multimodal+omic%2A%22+OR+abs%3A%22multimodal+omic%2A%22+OR+ti%3A%22multi-modal+omic%2A%22+OR+abs%3A%22multi-modal+omic%2A%22+OR+ti%3A%22integrative+omic%2A%22+OR+abs%3A%22integrative+omic%2A%22+OR+ti%3Apathogenomic%2A+OR+abs%3Apathogenomic%2A+OR+ti%3Aradiogenomic%2A+OR+abs%3Aradiogenomic%2A+OR+ti%3Aimage-omics+OR+abs%3Aimage-omics+OR+ti%3Agenomics-guided+OR+abs%3Agenomics-guided+OR+ti%3A%22genomics+guided%22+OR+abs%3A%22genomics+guided%22+OR+ti%3A%22molecularly+informed%22+OR+abs%3A%22molecularly+informed%22+OR+ti%3A%22gene+expression+prediction%22+OR+abs%3A%22gene+expression+prediction%22+OR+ti%3Ahistology-conditioned+OR+abs%3Ahistology-conditioned+OR+ti%3A%22histology+conditioned%22+OR+abs%3A%22histology+conditioned%22+OR+ti%3A%22multimodal+survival%22+OR+abs%3A%22multimodal+survival%22+OR+ti%3A%22multi-modal+survival%22+OR+abs%3A%22multi-modal+survival%22+OR+ti%3A%22missing+modality%22+OR+abs%3A%22missing+modality%22+OR+ti%3A%22missing+modalities%22+OR+abs%3A%22missing+modalities%22+OR+ti%3A%22cross-modal+imputation%22+OR+abs%3A%22cross-modal+imputation%22+OR+ti%3Apan-cancer+OR+abs%3Apan-cancer+OR+ti%3Apancancer+OR+abs%3Apancancer+OR+ti%3A%22cancer+molecular+subtype%22+OR+abs%3A%22cancer+molecular+subtype%22+OR+ti%3A%22molecular+pathology%22+OR+abs%3A%22molecular+pathology%22%29&start=0&max_results=200&sortBy=lastUpdatedDate&sortOrder=descending",
+      "total": 1367,
+      "page": 0,
+      "retrieved": 200
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/0/json",
+      "cursor": 0,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/30/json",
+      "cursor": 30,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/60/json",
+      "cursor": 60,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/90/json",
+      "cursor": 90,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/120/json",
+      "cursor": 120,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/150/json",
+      "cursor": 150,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/180/json",
+      "cursor": 180,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/210/json",
+      "cursor": 210,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/240/json",
+      "cursor": 240,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/270/json",
+      "cursor": 270,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/300/json",
+      "cursor": 300,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/330/json",
+      "cursor": 330,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/360/json",
+      "cursor": 360,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/390/json",
+      "cursor": 390,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/420/json",
+      "cursor": 420,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/450/json",
+      "cursor": 450,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/480/json",
+      "cursor": 480,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/510/json",
+      "cursor": 510,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/540/json",
+      "cursor": 540,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/570/json",
+      "cursor": 570,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/600/json",
+      "cursor": 600,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/630/json",
+      "cursor": 630,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/660/json",
+      "cursor": 660,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/690/json",
+      "cursor": 690,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/720/json",
+      "cursor": 720,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/750/json",
+      "cursor": 750,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/780/json",
+      "cursor": 780,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/810/json",
+      "cursor": 810,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/840/json",
+      "cursor": 840,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/870/json",
+      "cursor": 870,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/900/json",
+      "cursor": 900,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/930/json",
+      "cursor": 930,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/960/json",
+      "cursor": 960,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/990/json",
+      "cursor": 990,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/1020/json",
+      "cursor": 1020,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/1050/json",
+      "cursor": 1050,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/1080/json",
+      "cursor": 1080,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/1110/json",
+      "cursor": 1110,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/1140/json",
+      "cursor": 1140,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/1170/json",
+      "cursor": 1170,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/1200/json",
+      "cursor": 1200,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/1230/json",
+      "cursor": 1230,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/1260/json",
+      "cursor": 1260,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/1290/json",
+      "cursor": 1290,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/1320/json",
+      "cursor": 1320,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/1350/json",
+      "cursor": 1350,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/1380/json",
+      "cursor": 1380,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/1410/json",
+      "cursor": 1410,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/1440/json",
+      "cursor": 1440,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/1470/json",
+      "cursor": 1470,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/1500/json",
+      "cursor": 1500,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/1530/json",
+      "cursor": 1530,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/1560/json",
+      "cursor": 1560,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/1590/json",
+      "cursor": 1590,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/1620/json",
+      "cursor": 1620,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/1650/json",
+      "cursor": 1650,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/1680/json",
+      "cursor": 1680,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/1710/json",
+      "cursor": 1710,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/1740/json",
+      "cursor": 1740,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/1770/json",
+      "cursor": 1770,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/1800/json",
+      "cursor": 1800,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/1830/json",
+      "cursor": 1830,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/1860/json",
+      "cursor": 1860,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/1890/json",
+      "cursor": 1890,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/1920/json",
+      "cursor": 1920,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/1950/json",
+      "cursor": 1950,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/1980/json",
+      "cursor": 1980,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/2010/json",
+      "cursor": 2010,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/2040/json",
+      "cursor": 2040,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/2070/json",
+      "cursor": 2070,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/2100/json",
+      "cursor": 2100,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/2130/json",
+      "cursor": 2130,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/2160/json",
+      "cursor": 2160,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/2190/json",
+      "cursor": 2190,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/2220/json",
+      "cursor": 2220,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/2250/json",
+      "cursor": 2250,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/2280/json",
+      "cursor": 2280,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/2310/json",
+      "cursor": 2310,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/2340/json",
+      "cursor": 2340,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/2370/json",
+      "cursor": 2370,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/2400/json",
+      "cursor": 2400,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/2430/json",
+      "cursor": 2430,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/2460/json",
+      "cursor": 2460,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/2490/json",
+      "cursor": 2490,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/2520/json",
+      "cursor": 2520,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/2550/json",
+      "cursor": 2550,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/2580/json",
+      "cursor": 2580,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/2610/json",
+      "cursor": 2610,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/2640/json",
+      "cursor": 2640,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/2670/json",
+      "cursor": 2670,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/2700/json",
+      "cursor": 2700,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/2730/json",
+      "cursor": 2730,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/2760/json",
+      "cursor": 2760,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/2790/json",
+      "cursor": 2790,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/2820/json",
+      "cursor": 2820,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/2850/json",
+      "cursor": 2850,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/2880/json",
+      "cursor": 2880,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/2910/json",
+      "cursor": 2910,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/2940/json",
+      "cursor": 2940,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/2970/json",
+      "cursor": 2970,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/3000/json",
+      "cursor": 3000,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/3030/json",
+      "cursor": 3030,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/3060/json",
+      "cursor": 3060,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/3090/json",
+      "cursor": 3090,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/3120/json",
+      "cursor": 3120,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/3150/json",
+      "cursor": 3150,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/3180/json",
+      "cursor": 3180,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/3210/json",
+      "cursor": 3210,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/3240/json",
+      "cursor": 3240,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/3270/json",
+      "cursor": 3270,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/3300/json",
+      "cursor": 3300,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/3330/json",
+      "cursor": 3330,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/3360/json",
+      "cursor": 3360,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/3390/json",
+      "cursor": 3390,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/3420/json",
+      "cursor": 3420,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/3450/json",
+      "cursor": 3450,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/3480/json",
+      "cursor": 3480,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/3510/json",
+      "cursor": 3510,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/3540/json",
+      "cursor": 3540,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/3570/json",
+      "cursor": 3570,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/3600/json",
+      "cursor": 3600,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/3630/json",
+      "cursor": 3630,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/3660/json",
+      "cursor": 3660,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/3690/json",
+      "cursor": 3690,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/3720/json",
+      "cursor": 3720,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/3750/json",
+      "cursor": 3750,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/3780/json",
+      "cursor": 3780,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/3810/json",
+      "cursor": 3810,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/3840/json",
+      "cursor": 3840,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/3870/json",
+      "cursor": 3870,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/3900/json",
+      "cursor": 3900,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/3930/json",
+      "cursor": 3930,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/3960/json",
+      "cursor": 3960,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/3990/json",
+      "cursor": 3990,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/4020/json",
+      "cursor": 4020,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/4050/json",
+      "cursor": 4050,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/4080/json",
+      "cursor": 4080,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/4110/json",
+      "cursor": 4110,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/4140/json",
+      "cursor": 4140,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/4170/json",
+      "cursor": 4170,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/4200/json",
+      "cursor": 4200,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/4230/json",
+      "cursor": 4230,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/4260/json",
+      "cursor": 4260,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/4290/json",
+      "cursor": 4290,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/4320/json",
+      "cursor": 4320,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/4350/json",
+      "cursor": 4350,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/4380/json",
+      "cursor": 4380,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/4410/json",
+      "cursor": 4410,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/4440/json",
+      "cursor": 4440,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/4470/json",
+      "cursor": 4470,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/4500/json",
+      "cursor": 4500,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/4530/json",
+      "cursor": 4530,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/4560/json",
+      "cursor": 4560,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/4590/json",
+      "cursor": 4590,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/4620/json",
+      "cursor": 4620,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/4650/json",
+      "cursor": 4650,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/4680/json",
+      "cursor": 4680,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/4710/json",
+      "cursor": 4710,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/4740/json",
+      "cursor": 4740,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/4770/json",
+      "cursor": 4770,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/4800/json",
+      "cursor": 4800,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/4830/json",
+      "cursor": 4830,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/4860/json",
+      "cursor": 4860,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/4890/json",
+      "cursor": 4890,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/4920/json",
+      "cursor": 4920,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/4950/json",
+      "cursor": 4950,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/4980/json",
+      "cursor": 4980,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/5010/json",
+      "cursor": 5010,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/5040/json",
+      "cursor": 5040,
+      "total": 5089,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-09-27/2026-10-18/5070/json",
+      "cursor": 5070,
+      "total": 5089,
+      "retrieved": 19
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-09-27/2026-10-18/0/json",
+      "cursor": 0,
+      "total": 1309,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-09-27/2026-10-18/30/json",
+      "cursor": 30,
+      "total": 1309,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-09-27/2026-10-18/60/json",
+      "cursor": 60,
+      "total": 1309,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-09-27/2026-10-18/90/json",
+      "cursor": 90,
+      "total": 1309,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-09-27/2026-10-18/120/json",
+      "cursor": 120,
+      "total": 1309,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-09-27/2026-10-18/150/json",
+      "cursor": 150,
+      "total": 1309,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-09-27/2026-10-18/180/json",
+      "cursor": 180,
+      "total": 1309,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-09-27/2026-10-18/210/json",
+      "cursor": 210,
+      "total": 1309,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-09-27/2026-10-18/240/json",
+      "cursor": 240,
+      "total": 1309,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-09-27/2026-10-18/270/json",
+      "cursor": 270,
+      "total": 1309,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-09-27/2026-10-18/300/json",
+      "cursor": 300,
+      "total": 1309,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-09-27/2026-10-18/330/json",
+      "cursor": 330,
+      "total": 1309,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-09-27/2026-10-18/360/json",
+      "cursor": 360,
+      "total": 1309,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-09-27/2026-10-18/390/json",
+      "cursor": 390,
+      "total": 1309,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-09-27/2026-10-18/420/json",
+      "cursor": 420,
+      "total": 1309,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-09-27/2026-10-18/450/json",
+      "cursor": 450,
+      "total": 1309,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-09-27/2026-10-18/480/json",
+      "cursor": 480,
+      "total": 1309,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-09-27/2026-10-18/510/json",
+      "cursor": 510,
+      "total": 1309,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-09-27/2026-10-18/540/json",
+      "cursor": 540,
+      "total": 1309,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-09-27/2026-10-18/570/json",
+      "cursor": 570,
+      "total": 1309,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-09-27/2026-10-18/600/json",
+      "cursor": 600,
+      "total": 1309,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-09-27/2026-10-18/630/json",
+      "cursor": 630,
+      "total": 1309,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-09-27/2026-10-18/660/json",
+      "cursor": 660,
+      "total": 1309,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-09-27/2026-10-18/690/json",
+      "cursor": 690,
+      "total": 1309,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-09-27/2026-10-18/720/json",
+      "cursor": 720,
+      "total": 1309,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-09-27/2026-10-18/750/json",
+      "cursor": 750,
+      "total": 1309,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-09-27/2026-10-18/780/json",
+      "cursor": 780,
+      "total": 1309,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-09-27/2026-10-18/810/json",
+      "cursor": 810,
+      "total": 1309,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-09-27/2026-10-18/840/json",
+      "cursor": 840,
+      "total": 1309,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-09-27/2026-10-18/870/json",
+      "cursor": 870,
+      "total": 1309,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-09-27/2026-10-18/900/json",
+      "cursor": 900,
+      "total": 1309,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-09-27/2026-10-18/930/json",
+      "cursor": 930,
+      "total": 1309,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-09-27/2026-10-18/960/json",
+      "cursor": 960,
+      "total": 1309,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-09-27/2026-10-18/990/json",
+      "cursor": 990,
+      "total": 1309,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-09-27/2026-10-18/1020/json",
+      "cursor": 1020,
+      "total": 1309,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-09-27/2026-10-18/1050/json",
+      "cursor": 1050,
+      "total": 1309,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-09-27/2026-10-18/1080/json",
+      "cursor": 1080,
+      "total": 1309,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-09-27/2026-10-18/1110/json",
+      "cursor": 1110,
+      "total": 1309,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-09-27/2026-10-18/1140/json",
+      "cursor": 1140,
+      "total": 1309,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-09-27/2026-10-18/1170/json",
+      "cursor": 1170,
+      "total": 1309,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-09-27/2026-10-18/1200/json",
+      "cursor": 1200,
+      "total": 1309,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-09-27/2026-10-18/1230/json",
+      "cursor": 1230,
+      "total": 1309,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-09-27/2026-10-18/1260/json",
+      "cursor": 1260,
+      "total": 1309,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-09-27/2026-10-18/1290/json",
+      "cursor": 1290,
+      "total": 1309,
+      "retrieved": 19
+    }
+  ],
+  "decision_files": [
+    "2026-10-19-arxiv.json",
+    "2026-10-19-biorxiv.json",
+    "2026-10-19-medrxiv.json"
+  ],
+  "change_file": "2026-10-19-changes.json",
+  "verification_file": "2026-10-19-verification.json",
+  "conference_evidence": {
+    "2603.07233": {
+      "title": "Differentiable Retrieval-Augmented Generation for Predicting Cellular Responses to Gene Perturbation",
+      "venue": "NeurIPS 2026",
+      "year": 2026,
+      "url": "https://neurips.cc/virtual/2026/poster/152229",
+      "evidence_url": "https://neurips.cc/Downloads/2026",
+      "evidence": "Exact title and official Poster link in the NeurIPS 2026 Downloads program."
+    },
+    "2605.15766": {
+      "title": "BioXArena: Benchmarking LLM Agents on Multi-Modal Biomedical Machine Learning Tasks",
+      "venue": "NeurIPS 2026",
+      "year": 2026,
+      "url": "https://neurips.cc/virtual/2026/poster/138952",
+      "evidence_url": "https://neurips.cc/Downloads/2026",
+      "evidence": "Exact title and official Poster link in the NeurIPS 2026 Downloads program."
+    },
+    "2606.07036": {
+      "title": "STREAM: Stochastic Riemannian Flow Matching with Anisotropic Decoder for Digital Histopathology Image Generation",
+      "venue": "NeurIPS 2026",
+      "year": 2026,
+      "url": "https://neurips.cc/virtual/2026/poster/149538",
+      "evidence_url": "https://neurips.cc/Downloads/2026",
+      "evidence": "Exact title and official Poster link in the NeurIPS 2026 Downloads program."
+    },
+    "2610.00678": {
+      "title": "Nonparametric Distribution Matching for Self-Supervised Whole-Slide Image Condensation",
+      "venue": "NeurIPS 2026",
+      "year": 2026,
+      "url": "https://neurips.cc/virtual/2026/poster/153235",
+      "evidence_url": "https://neurips.cc/Downloads/2026",
+      "evidence": "Exact title and official Poster link in the NeurIPS 2026 Downloads program."
+    },
+    "2610.12574": {
+      "title": "Scaling Multi-Teacher Distillation for Digital Pathology",
+      "venue": "NeurIPS 2026",
+      "year": 2026,
+      "url": "https://neurips.cc/virtual/2026/poster/148948",
+      "evidence_url": "https://neurips.cc/Downloads/2026",
+      "evidence": "Exact title and official Poster link in the NeurIPS 2026 Downloads program."
+    },
+    "2610.14261": {
+      "title": "BigCell: Generating Gigapixel Whole-Slide Images",
+      "venue": "NeurIPS 2026",
+      "year": 2026,
+      "url": "https://neurips.cc/virtual/2026/poster/152972",
+      "evidence_url": "https://neurips.cc/Downloads/2026",
+      "evidence": "Exact title and official Poster link in the NeurIPS 2026 Downloads program."
+    },
+    "2610.17233": {
+      "title": "Beyond Sparse Captions: Aligning Slide-Level Text and Patch-Level Vision in Pathology",
+      "venue": "NeurIPS 2026",
+      "year": 2026,
+      "url": "https://neurips.cc/virtual/2026/poster/149751",
+      "evidence_url": "https://neurips.cc/Downloads/2026",
+      "evidence": "Exact title and official Poster link in the NeurIPS 2026 Downloads program."
+    },
+    "2610.05157": {
+      "title": "Cross-Modal Contrastive Learning for the Retrieval of Immunotherapy-Associated Molecular Signatures from Histopathology",
+      "venue": "MICCAI 2026 Workshops",
+      "year": 2026,
+      "url": "https://papers.miccai.org/miccai-2026-sat/CaPTion_020.html",
+      "evidence_url": "https://papers.miccai.org/miccai-2026-sat/CaPTion_020.html",
+      "evidence": "MICCAI Society camera-ready satellite proceedings; CaPTion; BibTeX year 2026, LNCS 17278."
+    },
+    "2605.07746": {
+      "title": "Flow Matching for Count Data",
+      "venue": "NeurIPS 2026",
+      "year": 2026,
+      "url": "https://neurips.cc/virtual/2026/poster/155470",
+      "evidence_url": "https://neurips.cc/Downloads/2026",
+      "evidence": "Exact title and official Poster link in the NeurIPS 2026 Downloads program."
+    },
+    "2607.04987": {
+      "title": "Data-Driven Soft Labeling Scales DNA Read Classification to Whole-Body Cell-Type Deconvolution",
+      "venue": "NeurIPS 2026",
+      "year": 2026,
+      "url": "https://neurips.cc/virtual/2026/poster/150257",
+      "evidence_url": "https://neurips.cc/Downloads/2026",
+      "evidence": "Exact title and official Poster link in the NeurIPS 2026 Downloads program."
+    },
+    "2609.25659": {
+      "title": "When Riemann flows with Wasserstein: Generative Modeling of Probability Distributions on Manifolds",
+      "venue": "NeurIPS 2026",
+      "year": 2026,
+      "url": "https://neurips.cc/virtual/2026/poster/152080",
+      "evidence_url": "https://neurips.cc/Downloads/2026",
+      "evidence": "Exact title and official Poster link in the NeurIPS 2026 Downloads program."
+    },
+    "2609.30682": {
+      "title": "Structure-Guided Masked Autoencoders for Ultra-High Resolution Scientific Image Understanding",
+      "venue": "NeurIPS 2026",
+      "year": 2026,
+      "url": "https://neurips.cc/virtual/2026/poster/150156",
+      "evidence_url": "https://neurips.cc/Downloads/2026",
+      "evidence": "Exact title and official Poster link in the NeurIPS 2026 Downloads program."
+    },
+    "2609.32876": {
+      "title": "Multimodal LLMs Outperform Pathology Foundation Models in Cross-Domain Histological Similarity",
+      "venue": "NeurIPS 2026",
+      "year": 2026,
+      "url": "https://neurips.cc/virtual/2026/poster/152201",
+      "evidence_url": "https://neurips.cc/Downloads/2026",
+      "evidence": "Exact title and official Poster link in the NeurIPS 2026 Downloads program."
+    },
+    "2609.33928": {
+      "title": "Preserving DEG Rankings for Gene Discovery in Histology-Based Spatial Gene Expression Prediction",
+      "venue": "NeurIPS 2026",
+      "year": 2026,
+      "url": "https://neurips.cc/virtual/2026/poster/151825",
+      "evidence_url": "https://neurips.cc/Downloads/2026",
+      "evidence": "Exact title and official Poster link in the NeurIPS 2026 Downloads program."
+    },
+    "2609.34451": {
+      "title": "Modeling Whole-Slide Images as Dynamic Tumor Microenvironment Fields",
+      "venue": "NeurIPS 2026",
+      "year": 2026,
+      "url": "https://neurips.cc/virtual/2026/poster/149764",
+      "evidence_url": "https://neurips.cc/Downloads/2026",
+      "evidence": "Exact title and official Poster link in the NeurIPS 2026 Downloads program."
+    },
+    "2609.36158": {
+      "title": "Voronoi-Markov chain and spatial entropy for point pattern analysis",
+      "venue": "NeurIPS 2026",
+      "year": 2026,
+      "url": "https://neurips.cc/virtual/2026/poster/150044",
+      "evidence_url": "https://neurips.cc/Downloads/2026",
+      "evidence": "Exact title and official Poster link in the NeurIPS 2026 Downloads program."
+    },
+    "2609.36406": {
+      "title": "From Retrieval to Reasoning: Agentic Mechanism Prediction from Cell Painting Profiles",
+      "venue": "NeurIPS 2026",
+      "year": 2026,
+      "url": "https://neurips.cc/virtual/2026/poster/155655",
+      "evidence_url": "https://neurips.cc/Downloads/2026",
+      "evidence": "Exact title and official Poster link in the NeurIPS 2026 Downloads program."
+    },
+    "2609.36429": {
+      "title": "Towards Scalable Context-Aware Single-Cell Spatial Transcriptomics Prediction from Histology Images",
+      "venue": "NeurIPS 2026",
+      "year": 2026,
+      "url": "https://neurips.cc/virtual/2026/poster/151537",
+      "evidence_url": "https://neurips.cc/Downloads/2026",
+      "evidence": "Exact title and official Poster link in the NeurIPS 2026 Downloads program."
+    },
+    "2609.38908": {
+      "title": "CellMSA: Context Modeling for Single-Cell Representation Learning",
+      "venue": "NeurIPS 2026",
+      "year": 2026,
+      "url": "https://neurips.cc/virtual/2026/poster/151414",
+      "evidence_url": "https://neurips.cc/Downloads/2026",
+      "evidence": "Exact title and official Poster link in the NeurIPS 2026 Downloads program."
+    }
+  },
+  "journal_policy_exclusions": [
+    {
+      "id": "2502.02707",
+      "title": "LadderMIL: Multiple Instance Learning with Coarse-to-Fine Self-Distillation",
+      "reason": "Known excluded formal JBHI publication (DOI 10.1109/JBHI.2026.3725951); cannot reintroduce its arXiv version.",
+      "formal_metadata": {
+        "DOI": "10.1109/jbhi.2026.3725951",
+        "type": "journal-article",
+        "title": [
+          "LadderMIL: Multiple-instance Learning with Coarse-to-Fine Self-Distillation"
+        ],
+        "container-title": [
+          "IEEE Journal of Biomedical and Health Informatics"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "relation": {},
+        "resource": {
+          "primary": {
+            "URL": "https://ieeexplore.ieee.org/document/11660346/"
+          }
+        }
+      },
+      "formal_candidates": []
+    },
+    {
+      "id": "2601.07871",
+      "title": "Imaging-anchored multiomics in cardiovascular disease: integrating cardiac imaging, bulk, single-cell, and spatial transcriptomics",
+      "reason": "Formal Briefings in Bioinformatics review, DOI 10.1093/bib/bbag365, matched the excluded-journal registry.",
+      "formal_metadata": {
+        "DOI": "10.1093/bib/bbag365",
+        "type": "journal-article",
+        "title": [
+          "Imaging-anchored multiomics in cardiovascular disease: integrating cardiac imaging, bulk, single-cell, and spatial transcriptomics"
+        ],
+        "container-title": [
+          "Briefings in Bioinformatics"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              7
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              29
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              3
+            ]
+          ]
+        },
+        "volume": "27",
+        "issue": "4",
+        "relation": {},
+        "resource": {
+          "primary": {
+            "URL": "https://academic.oup.com/bib/article/doi/10.1093/bib/bbag365/8747047"
+          }
+        }
+      },
+      "formal_candidates": []
+    },
+    {
+      "id": "2604.24201",
+      "title": "CMGL: Confidence-guided Multi-omics Graph Learning for Cancer Subtype Classification",
+      "reason": "Official OUP/PubMed record confirms Bioinformatics publication on 2026-10-12 (DOI 10.1093/bioinformatics/btag763); journal is outside verified CAS major-zone-1 allowlist. Do not add as arXiv.",
+      "formal_metadata": {},
+      "formal_candidates": [
+        {
+          "DOI": "10.1093/bioinformatics/btag763",
+          "type": "journal-article",
+          "title": [
+            "CMGL: Confidence-guided Multi-omics Graph Learning for Cancer Subtype Classification"
+          ],
+          "container-title": [
+            "Bioinformatics"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                12
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                12
+              ]
+            ]
+          },
+          "resource": {
+            "primary": {
+              "URL": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag763/8911834"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "2610.11086",
+      "title": "Contrast Enhancement or Noise Reduction? On Improving Cervical Cancer Classification",
+      "reason": "Publisher and Crossref confirm Scientific Journal of Informatics 13(3), 2026-08-07, DOI 10.15294/sji.v13i3.48099; journal is outside verified SCIE/CAS major-zone-1 allowlist.",
+      "formal_metadata": {
+        "DOI": "10.15294/sji.v13i3.48099",
+        "type": "journal-article",
+        "title": [
+          "Contrast Enhancement or Noise Reduction? On Improving Cervical Cancer Classification"
+        ],
+        "container-title": [
+          "Scientific Journal of Informatics"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              7
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              7
+            ]
+          ]
+        },
+        "volume": "13",
+        "issue": "3",
+        "relation": {},
+        "resource": {
+          "primary": {
+            "URL": "https://journal.unnes.ac.id/journals/sji/article/view/48099"
+          }
+        }
+      },
+      "formal_candidates": []
+    }
+  ],
+  "exclusion_registry_additions": {
+    "identifiers": [
+      "arxiv:2502.02707",
+      "arxiv:2601.07871",
+      "arxiv:2604.24201",
+      "arxiv:2610.11086",
+      "doi:10.1093/bioinformatics/btag763",
+      "doi:10.15294/sji.v13i3.48099"
+    ],
+    "title_sha256": [
+      "2ef812e9dbd51b102cf663355b0fe25b54f5995a44548a5c7fb625f86ccc1b80",
+      "9e5034341a6f076727a5df7a35bac07a51f23df336e30de7d746187ac8b55d60"
+    ]
+  },
+  "fuzzy_duplicate_review": [
+    {
+      "id": "2509.23097",
+      "title": "Streamline pathology foundation model by cross-magnification distillation",
+      "other": "Streamline pathology foundation model by cross-magnification distillation",
+      "path": "papers/2025.md",
+      "url": "https://arxiv.org/abs/2509.23097",
+      "similarity": 1.0,
+      "jaccard": 1.0,
+      "decision": "same_identity_update",
+      "reason": "Existing identity is updated or migrated once."
+    },
+    {
+      "id": "2510.07653",
+      "title": "Large-scale spatial variable gene atlas for spatial transcriptomics",
+      "other": "Evaluating spatially variable gene detection methods for spatial transcriptomics data",
+      "path": "papers/2024.md",
+      "url": "https://doi.org/10.1186/s13059-023-03145-y",
+      "similarity": 0.726,
+      "jaccard": 0.385,
+      "decision": "distinct_study",
+      "reason": "Near-title similarity only; distinct method or resource and distinct publication identity after abstract comparison."
+    },
+    {
+      "id": "2510.16587",
+      "title": "Multi-Marginal Schrödinger Bridge Matching",
+      "other": "Deep Momentum Multi-Marginal Schrödinger Bridge",
+      "path": "papers/2023.md",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/b2c39fe6ce838440faf03a0f780e7a63-Abstract-Conference.html",
+      "similarity": 0.75,
+      "jaccard": 0.625,
+      "decision": "distinct_study",
+      "reason": "Near-title similarity only; distinct method or resource and distinct publication identity after abstract comparison."
+    },
+    {
+      "id": "2605.07746",
+      "title": "Flow Matching for Count Data",
+      "other": "Flow Matching for Count Data",
+      "path": "papers/2026.md",
+      "url": "https://arxiv.org/abs/2605.07746",
+      "similarity": 1.0,
+      "jaccard": 1.0,
+      "decision": "same_identity_update",
+      "reason": "Existing identity is updated or migrated once."
+    },
+    {
+      "id": "2606.07036",
+      "title": "STREAM: Stochastic Riemannian Flow Matching with Anisotropic Decoder for Digital Histopathology Image Generation",
+      "other": "STREAM: Stochastic Riemannian Flow Matching with Anisotropic Decoder for Digital Histopathology Image Generation",
+      "path": "papers/2026.md",
+      "url": "https://neurips.cc/virtual/2026/poster/149538",
+      "similarity": 1.0,
+      "jaccard": 1.0,
+      "decision": "distinct_study",
+      "reason": "Near-title similarity only; distinct method or resource and distinct publication identity after abstract comparison."
+    },
+    {
+      "id": "2607.04987",
+      "title": "Data-Driven Soft Labeling Scales DNA Read Classification to Whole-Body Cell-Type Deconvolution",
+      "other": "Data-Driven Soft Labeling Scales DNA Read Classification to Whole-Body Cell-Type Deconvolution",
+      "path": "papers/2026.md",
+      "url": "https://arxiv.org/abs/2607.04987",
+      "similarity": 1.0,
+      "jaccard": 1.0,
+      "decision": "same_identity_update",
+      "reason": "Existing identity is updated or migrated once."
+    },
+    {
+      "id": "2609.25659",
+      "title": "When Riemann flows with Wasserstein: Generative Modeling of Probability Distributions on Manifolds",
+      "other": "When Riemann flows with Wasserstein: Generative Modeling of Probability Distributions on Manifolds",
+      "path": "papers/2026.md",
+      "url": "https://arxiv.org/abs/2609.25659",
+      "similarity": 1.0,
+      "jaccard": 1.0,
+      "decision": "same_identity_update",
+      "reason": "Existing identity is updated or migrated once."
+    },
+    {
+      "id": "2609.27710",
+      "title": "FFM-CP: Cross-Backbone Fusion of Vision-Language Foundation Models for Few-Shot Computational Pathology",
+      "other": "FFM-CP: Cross-Backbone Fusion of Vision-Language Foundation Models for Few-Shot Computational Pathology",
+      "path": "papers/2026.md",
+      "url": "https://arxiv.org/abs/2609.27710",
+      "similarity": 1.0,
+      "jaccard": 1.0,
+      "decision": "same_identity_update",
+      "reason": "Existing identity is updated or migrated once."
+    },
+    {
+      "id": "2609.30682",
+      "title": "Structure-Guided Masked Autoencoders for Ultra-High Resolution Scientific Image Understanding",
+      "other": "Structure-Guided Masked Autoencoders for Ultra-High Resolution Scientific Image Understanding",
+      "path": "papers/2026.md",
+      "url": "https://arxiv.org/abs/2609.30682",
+      "similarity": 1.0,
+      "jaccard": 1.0,
+      "decision": "same_identity_update",
+      "reason": "Existing identity is updated or migrated once."
+    },
+    {
+      "id": "2609.36158",
+      "title": "Voronoi-Markov chain and spatial entropy for point pattern analysis",
+      "other": "Voronoi-Markov chain and spatial entropy for point pattern analysis",
+      "path": "papers/2026.md",
+      "url": "https://arxiv.org/abs/2609.36158",
+      "similarity": 1.0,
+      "jaccard": 1.0,
+      "decision": "same_identity_update",
+      "reason": "Existing identity is updated or migrated once."
+    },
+    {
+      "id": "2609.36406",
+      "title": "From Retrieval to Reasoning: Agentic Mechanism Prediction from Cell Painting Profiles",
+      "other": "From Retrieval to Reasoning: Agentic Mechanism Prediction from Cell Painting Profiles",
+      "path": "papers/2026.md",
+      "url": "https://arxiv.org/abs/2609.36406",
+      "similarity": 1.0,
+      "jaccard": 1.0,
+      "decision": "same_identity_update",
+      "reason": "Existing identity is updated or migrated once."
+    },
+    {
+      "id": "2609.38908",
+      "title": "CellMSA: Context Modeling for Single-Cell Representation Learning",
+      "other": "CellMSA: Context Modeling for Single-Cell Representation Learning",
+      "path": "papers/2026.md",
+      "url": "https://arxiv.org/abs/2609.38908",
+      "similarity": 1.0,
+      "jaccard": 1.0,
+      "decision": "same_identity_update",
+      "reason": "Existing identity is updated or migrated once."
+    },
+    {
+      "id": "2610.00678",
+      "title": "Nonparametric Distribution Matching for Self-Supervised Whole-Slide Image Condensation",
+      "other": "Nonparametric Distribution Matching for Self-Supervised Whole-Slide Image Condensation",
+      "path": "papers/2026.md",
+      "url": "https://arxiv.org/abs/2610.00678",
+      "similarity": 1.0,
+      "jaccard": 1.0,
+      "decision": "same_identity_update",
+      "reason": "Existing identity is updated or migrated once."
+    },
+    {
+      "id": "2610.12574",
+      "title": "Scaling Multi-Teacher Distillation for Digital Pathology",
+      "other": "Scaling Multi-Teacher Distillation for Digital Pathology",
+      "path": "papers/2026.md",
+      "url": "https://neurips.cc/virtual/2026/poster/148948",
+      "similarity": 1.0,
+      "jaccard": 1.0,
+      "decision": "distinct_study",
+      "reason": "Near-title similarity only; distinct method or resource and distinct publication identity after abstract comparison."
+    },
+    {
+      "id": "2610.14261",
+      "title": "BigCell: Generating Gigapixel Whole-Slide Images",
+      "other": "BigCell: Generating Gigapixel Whole-Slide Images",
+      "path": "papers/2026.md",
+      "url": "https://neurips.cc/virtual/2026/poster/152972",
+      "similarity": 1.0,
+      "jaccard": 1.0,
+      "decision": "distinct_study",
+      "reason": "Near-title similarity only; distinct method or resource and distinct publication identity after abstract comparison."
+    },
+    {
+      "id": "2610.17233",
+      "title": "Beyond Sparse Captions: Aligning Slide-Level Text and Patch-Level Vision in Pathology",
+      "other": "Beyond Sparse Captions: Aligning Slide-Level Text and Patch-Level Vision in Pathology",
+      "path": "papers/2026.md",
+      "url": "https://neurips.cc/virtual/2026/poster/149751",
+      "similarity": 1.0,
+      "jaccard": 1.0,
+      "decision": "distinct_study",
+      "reason": "Near-title similarity only; distinct method or resource and distinct publication identity after abstract comparison."
+    },
+    {
+      "id": "2610.18769",
+      "title": "MIST: Multi-Scale Spatial Context for Gene Expression Prediction from Histology",
+      "other": "Benchmarking the translational potential of spatial gene expression prediction from histology",
+      "path": "papers/2025.md",
+      "url": "https://doi.org/10.1038/s41467-025-56618-y",
+      "similarity": 0.702,
+      "jaccard": 0.375,
+      "decision": "distinct_study",
+      "reason": "Near-title similarity only; distinct method or resource and distinct publication identity after abstract comparison."
+    },
+    {
+      "id": "2610.18769",
+      "title": "MIST: Multi-Scale Spatial Context for Gene Expression Prediction from Histology",
+      "other": "From Spots to Pixels: Dense Spatial Gene Expression Prediction from Histology Images",
+      "path": "papers/2026.md",
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_From_Spots_to_Pixels_Dense_Spatial_Gene_Expression_Prediction_from_CVPR_2026_paper.html",
+      "similarity": 0.714,
+      "jaccard": 0.375,
+      "decision": "distinct_study",
+      "reason": "Near-title similarity only; distinct method or resource and distinct publication identity after abstract comparison."
+    },
+    {
+      "id": "2610.18769",
+      "title": "MIST: Multi-Scale Spatial Context for Gene Expression Prediction from Histology",
+      "other": "MoLF: Mixture-of-Latent-Flow for Pan-Cancer Spatial Gene Expression Prediction from Histology",
+      "path": "papers/2026.md",
+      "url": "https://arxiv.org/abs/2602.02282",
+      "similarity": 0.721,
+      "jaccard": 0.389,
+      "decision": "distinct_study",
+      "reason": "Near-title similarity only; distinct method or resource and distinct publication identity after abstract comparison."
+    },
+    {
+      "id": "10.1101/2025.10.28.681564",
+      "title": "Benchmarking large-scale single-cell RNA-seq analysis",
+      "other": "Benchmarking LLM-based agents for single-cell omics analysis",
+      "path": "papers/2026.md",
+      "url": "https://doi.org/10.1186/s13059-026-03998-z",
+      "similarity": 0.735,
+      "jaccard": 0.308,
+      "decision": "distinct_study",
+      "reason": "Near-title similarity only; distinct method or resource and distinct publication identity after abstract comparison."
+    },
+    {
+      "id": "10.64898/2026.01.22.701166",
+      "title": "Histology-aware Inference of Cell-cell Communication in Spatial Transcriptomics",
+      "other": "Histology-Aware Graph for Modeling Intercellular Communication in Spatial Transcriptomics",
+      "path": "papers/2026.md",
+      "url": "https://doi.org/10.64898/2026.01.22.701166",
+      "similarity": 0.8,
+      "jaccard": 0.462,
+      "decision": "same_identity_update",
+      "reason": "Existing identity is updated or migrated once."
+    },
+    {
+      "id": "10.64898/2026.06.01.729028",
+      "title": "A multimodal foundation model to integrate histology with spatial molecular programs",
+      "other": "Integrating Histology with Spatial Molecular Programs Using a Multimodal Foundation Model",
+      "path": "papers/2026.md",
+      "url": "https://doi.org/10.64898/2026.06.01.729028",
+      "similarity": 0.588,
+      "jaccard": 0.692,
+      "decision": "same_identity_update",
+      "reason": "Existing identity is updated or migrated once."
+    },
+    {
+      "id": "10.64898/2026.08.10.743911",
+      "title": "Covariance Nonstationarity is Evident in Spatial Transcriptomics and Provides a New Categorization of Spatially Varying Genes",
+      "other": "Covariance Nonstationarity is Evident in Spatial Transcriptomics and Provides a New Categorization of Spatially Varying Genes",
+      "path": "papers/2026.md",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.10.743911v3",
+      "similarity": 1.0,
+      "jaccard": 1.0,
+      "decision": "same_identity_update",
+      "reason": "Existing identity is updated or migrated once."
+    },
+    {
+      "id": "10.64898/2026.09.20.751055",
+      "title": "A Trisomy 21 Model Atlas reveals conserved dosage effects and context-specific transcriptional responses across mouse and human models of Down syndrome",
+      "other": "A Trisomy 21 Model Atlas reveals conserved dosage effects and context-specific transcriptional responses across mouse and human models of Down syndrome",
+      "path": "papers/2026.md",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.20.751055v1",
+      "similarity": 1.0,
+      "jaccard": 1.0,
+      "decision": "same_identity_update",
+      "reason": "Existing identity is updated or migrated once."
+    },
+    {
+      "id": "10.64898/2026.10.03.755016",
+      "title": "Ethmoid bone marrow region modulates lymphoid activation and differentiation with distinct myeloid profile in neuroinflammation",
+      "other": "Ethmoid bone marrow region modulates lymphoid activation and differentiation with distinct myeloid profile in neuroinflammation",
+      "path": "papers/2026.md",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.03.755016v2",
+      "similarity": 1.0,
+      "jaccard": 1.0,
+      "decision": "same_identity_update",
+      "reason": "Existing identity is updated or migrated once."
+    },
+    {
+      "id": "10.64898/2026.10.06.757034",
+      "title": "Lack of adoption of computational gene-panel-selection tools in targeted spatial transcriptomics",
+      "other": "Gene panel selection for targeted spatial transcriptomics",
+      "path": "papers/2024.md",
+      "url": "https://doi.org/10.1186/s13059-024-03174-1",
+      "similarity": 0.726,
+      "jaccard": 0.462,
+      "decision": "distinct_study",
+      "reason": "Near-title similarity only; distinct method or resource and distinct publication identity after abstract comparison."
+    }
+  ],
+  "auxiliary_link_checks": [
+    {
+      "url": "https://github.com/difra100/PT-RAG_NIPS",
+      "status": 200,
+      "final_url": "https://github.com/difra100/PT-RAG_NIPS",
+      "ids": [
+        "2603.07233"
+      ]
+    },
+    {
+      "url": "https://chokevin8.github.io/STREAM-Patho/",
+      "status": 200,
+      "final_url": "https://chokevin8.github.io/STREAM-Patho/",
+      "ids": [
+        "2606.07036"
+      ]
+    },
+    {
+      "url": "https://github.com/jab57/RegNetAgents",
+      "status": 200,
+      "final_url": "https://github.com/jab57/RegNetAgents",
+      "ids": [
+        "2607.14097"
+      ]
+    },
+    {
+      "url": "https://github.com/nadeemlab/SMProfiler",
+      "status": 200,
+      "final_url": "https://github.com/nadeemlab/SMProfiler",
+      "ids": [
+        "2609.36158"
+      ]
+    },
+    {
+      "url": "https://github.com/PharMolix/CellMSA",
+      "status": 200,
+      "final_url": "https://github.com/PharMolix/CellMSA",
+      "ids": [
+        "2609.38908"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.5281/zenodo.23016733",
+      "status": 200,
+      "final_url": "https://zenodo.org/records/23016733",
+      "ids": [
+        "2609.40083"
+      ]
+    },
+    {
+      "url": "https://github.com/nmduonggg/NICER",
+      "status": 200,
+      "final_url": "https://github.com/nmduonggg/NICER",
+      "ids": [
+        "2610.00678"
+      ]
+    },
+    {
+      "url": "https://github.com/OncoAI-ULBHUB/GCcore",
+      "status": 200,
+      "final_url": "https://github.com/OncoAI-ULBHUB/GCcore",
+      "ids": [
+        "2610.05987"
+      ]
+    },
+    {
+      "url": "https://github.com/taozh2017/AM2ES",
+      "status": 200,
+      "final_url": "https://github.com/taozh2017/AM2ES",
+      "ids": [
+        "2610.07694"
+      ]
+    },
+    {
+      "url": "https://github.com/helomelo1/MKD-LMF",
+      "status": 200,
+      "final_url": "https://github.com/helomelo1/MKD-LMF",
+      "ids": [
+        "2610.07913"
+      ]
+    },
+    {
+      "url": "https://github.com/AtlasAnalyticsLab/MFE-MIL",
+      "status": 200,
+      "final_url": "https://github.com/AtlasAnalyticsLab/MFE-MIL",
+      "ids": [
+        "2610.10225"
+      ]
+    },
+    {
+      "url": "https://anonymous.4open.science/r/PathLang",
+      "status": 200,
+      "final_url": "https://anonymous.4open.science/r/PathLang",
+      "ids": [
+        "2610.11329"
+      ]
+    },
+    {
+      "url": "https://sofiene-boutaj.github.io/omni-projectpage/",
+      "status": 200,
+      "final_url": "https://sofiene-boutaj.github.io/omni-projectpage/",
+      "ids": [
+        "2610.12574"
+      ]
+    },
+    {
+      "url": "https://histodiffusion.github.io/docs/projects/bigcell/",
+      "status": 200,
+      "final_url": "https://histodiffusion.github.io/docs/projects/bigcell/",
+      "ids": [
+        "2610.14261"
+      ]
+    },
+    {
+      "url": "https://github.com/poseidonchan/CloneOT",
+      "status": 200,
+      "final_url": "https://github.com/poseidonchan/CloneOT",
+      "ids": [
+        "2610.16093"
+      ]
+    },
+    {
+      "url": "https://github.com/mahmoodlab/LIMIT",
+      "status": 200,
+      "final_url": "https://github.com/mahmoodlab/LIMIT",
+      "ids": [
+        "2610.17233"
+      ]
+    },
+    {
+      "url": "https://github.com/JSGe-AI/PlanPath_1",
+      "status": 200,
+      "final_url": "https://github.com/JSGe-AI/PlanPath_1",
+      "ids": [
+        "2610.18664"
+      ]
+    },
+    {
+      "url": "https://github.com/biplabpoudel25/GDBA_Net",
+      "status": 200,
+      "final_url": "https://github.com/biplabpoudel25/GDBA_Net",
+      "ids": [
+        "2610.20073"
+      ]
+    },
+    {
+      "url": "https://github.com/sifrimlab/CausalIG",
+      "status": 200,
+      "final_url": "https://github.com/sifrimlab/CausalIG",
+      "ids": [
+        "2610.22126"
+      ]
+    },
+    {
+      "url": "https://github.com/liuq-lab/scMTG",
+      "status": 200,
+      "final_url": "https://github.com/liuq-lab/scMTG",
+      "ids": [
+        "10.64898/2026.06.04.730241"
+      ]
+    },
+    {
+      "url": "https://github.com/bionetslab/netmap",
+      "status": 200,
+      "final_url": "https://github.com/bionetslab/netmap",
+      "ids": [
+        "10.64898/2026.10.04.756614"
+      ]
+    },
+    {
+      "url": "https://github.com/bionetslab/netmap-evaluation",
+      "status": 200,
+      "final_url": "https://github.com/bionetslab/netmap-evaluation",
+      "ids": [
+        "10.64898/2026.10.04.756614"
+      ]
+    },
+    {
+      "url": "https://github.com/Tanveer14/BinSelector",
+      "status": 200,
+      "final_url": "https://github.com/Tanveer14/BinSelector",
+      "ids": [
+        "10.64898/2026.10.05.756871"
+      ]
+    },
+    {
+      "url": "https://github.com/sagnikbhadury/spatialMIFtools",
+      "status": 200,
+      "final_url": "https://github.com/sagnikbhadury/spatialMIFtools",
+      "ids": [
+        "10.64898/2026.10.08.757632"
+      ]
+    },
+    {
+      "url": "http://modinfor.com/NeoOmni-Atlas/",
+      "status": 200,
+      "final_url": "http://modinfor.com/NeoOmni-Atlas/",
+      "ids": [
+        "10.64898/2026.10.09.757967"
+      ]
+    },
+    {
+      "url": "https://compo.inria.fr/pioneer-dashboard/",
+      "status": "unverified",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
+      "ids": [
+        "10.64898/2026.01.09.26343779"
+      ],
+      "followup": "Author-supplied canonical site; Python TLS verification failed and independent web opening timed out. TLS checks were not disabled."
+    }
+  ],
+  "validation": {
+    "status": "passed",
+    "collection_counts": {
+      "journal": 1518,
+      "conference": 1032,
+      "preprint": 1376,
+      "technical_report": 1
+    },
+    "year_counts": {
+      "2022": 33,
+      "2021": 31,
+      "2020": 16,
+      "2019": 14,
+      "2018": 5,
+      "2017": 2,
+      "2016": 1,
+      "2013": 1,
+      "2010": 1,
+      "2006": 1,
+      "2023": 394,
+      "2024": 671,
+      "2025": 1039,
+      "2026": 1718
+    },
+    "baseline_entries_preserved": 3748,
+    "unchanged_original_paper_lines": 3727,
+    "documented_existing_paper_changes": 21,
+    "new_papers": 179,
+    "new_or_changed_lines": 200,
+    "unique_normalized_titles": 3926,
+    "new_duplicate_normalized_titles": 0,
+    "preserved_baseline_title_collision_groups": 1,
+    "duplicate_identifiers": 0,
+    "selected_rxiv_dois_verified": 131,
+    "revised_rxiv_histories_verified": 27,
+    "source_candidates_reviewed": 738,
+    "all_source_intervals_complete": true,
+    "auxiliary_urls_http200": 25,
+    "auxiliary_url_access_limited": 1,
+    "checks": {
+      "journal_policy": "passed",
+      "refresh_index": "passed",
+      "unittest_discover": "13 passed",
+      "git_diff_check": "passed"
+    },
+    "largest_rendered_file_bytes": 508914
+  },
+  "publication": {
+    "method": "Branch PR; required checks and review; squash merge; fast-forward local main.",
+    "checkpoint_policy": "Prospective 2026-10-18 source checkpoints are published atomically with this reviewed update. Restore previous active-checkout checkpoints if publication fails."
+  },
+  "limits_and_followups": [
+    "All three source intervals completed; arXiv recovered the prior incomplete source. Atom groups stop only after their update-sorted page crosses the start date. Full-date rxiv pagination had stable advertised totals and no missing or duplicate DOI/version/date rows.",
+    "296 current new/changed or publication-status-triggered abstract reviews; 442 exact unchanged prior decisions reused only after title, abstract, version, DOI, formal link, journal reference and comment fingerprints matched. No new or changed abstract was accepted without current review.",
+    "Official source title and abstract review is not full-text peer review or a claim of exhaustive literature coverage. Keyword configuration is unchanged; spatial and single-cell methods need no pathology-image input.",
+    "131 selected rxiv DOIs and 27 revised DOI histories verified. Latest revision date is not used as first year. 140 current/first-title counterpart queries completed; two transient Crossref HTTP429 errors succeeded on retry.",
+    "GM-CSF DOI 10.64898/2026.02.03.703526 has eLife reviewed-preprint DOI 10.7554/eLife.110437, not a Version of Record; retain bioRxiv preprint with explicit reviewed-preprint link. Official: https://elifesciences.org/reviewed-preprints/110437",
+    "Axolotl DOI 10.1101/2025.03.30.645595 has preLights commentary DOI 10.1242/prelights.40933, not formal publication of the original study. Official: https://prelights.biologists.com/highlights/the-essential-role-of-connective-tissue-cells-during-axolotl-limb-regeneration/",
+    "Prior unresolved DAP12 DOI 10.64898/2026.10.07.757387 now resolves through Crossref as posted-content/preprint. Existing paper unchanged.",
+    "XMAG publisher states online 2026-10-10, In Press/Journal Pre-proof, while Crossref lists January2027 volume115. Use explicitly labeled 2026 online-first entry pending publisher issue reconciliation; no 2027 issue is asserted. https://www.sciencedirect.com/science/article/pii/S1361841526004214",
+    "AM2ES DOI and 2026 TPAMI metadata verified using Crossref and author institutional source. IEEE document page access limited; no specific acceptance/online day or volume/issue asserted. https://cs.seu.edu.cn/2024/0117/c48203a479213/page6.htm",
+    "Author-reported workshop/conference claims without independent official acceptance evidence remain arXiv: 2610.04475,2610.06443,2610.06991,2610.10225,2610.15669.",
+    "2610.14436 full text section4.1 explicitly uses TITAN whole-slide embeddings plus CT/PET; journal-template header is not publication evidence. https://arxiv.org/html/2610.14436v1",
+    "CRUX 2610.22419 explicitly describes extensions to its preliminary MICCAI2024 work. Retain as distinct expanded unpublished preprint, not as a new MIA article. Preliminary conference independently verified: https://papers.miccai.org/miccai-2024/468-Paper2173.html ; extension full text https://arxiv.org/html/2610.22419v1",
+    "25 author-provided auxiliary URLs returned HTTP200. PIONeeR dashboard TLS verification and independent web access were limited; retain valid author-provided canonical URL and record limitation. No TLS bypass.",
+    "No new journal is admitted to the verified whitelist. Four scope-relevant candidates blocked by formal ineligible/unverified journal publication; added identifier/title aliases prevent preprint re-entry.",
+    "Unfiltered API caches and full abstracts are not committed. Snapshot queries and 14-day overlap cannot exclude future indexing delays; next weekly interval starts 2026-10-04.",
+    "Baseline PTCMIL has matching normalized titles in MICCAI2025 and MIA2026 but distinct formal publication identities. Both baseline records remain; no new normalized-title collision introduced. This weekly check does not resolve every legacy conference/journal extension relationship."
+  ]
+}
