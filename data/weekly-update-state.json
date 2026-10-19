@@ -2,9 +2,31 @@
   "schema_version": 1,
   "bootstrap_since": "2026-09-21",
   "sources": {
-    "arxiv": {"last_successful_until": "2026-10-04"},
-    "biorxiv": {"last_successful_until": "2026-10-11"},
-    "medrxiv": {"last_successful_until": "2026-10-11"}
+    "arxiv": {
+      "last_successful_until": "2026-10-18"
+    },
+    "biorxiv": {
+      "last_successful_until": "2026-10-18"
+    },
+    "medrxiv": {
+      "last_successful_until": "2026-10-18"
+    }
   },
-  "last_audit": "docs/updates/2026-10-12.json"
+  "last_audit": "docs/updates/2026-10-19.json",
+  "pending_publication_checks": [
+    {
+      "arxiv_id": "2509.23097",
+      "doi": "10.1016/j.media.2026.104352",
+      "current_year": 2026,
+      "publisher_url": "https://www.sciencedirect.com/science/article/pii/S1361841526004214",
+      "reason": "Publisher online-first 2026-10-10 conflicts with Crossref provisional January2027 volume115. Recheck publisher assigned issue before changing collection year."
+    },
+    {
+      "arxiv_id": "2610.07694",
+      "doi": "10.1109/TPAMI.2026.3743436",
+      "current_year": 2026,
+      "publisher_url": "https://ieeexplore.ieee.org/document/11735099/",
+      "reason": "2026 TPAMI DOI verified; volume/issue pending. Recheck publisher assignment."
+    }
+  ]
 }
