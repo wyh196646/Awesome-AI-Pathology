@@ -3,30 +3,56 @@
   "bootstrap_since": "2026-09-21",
   "sources": {
     "arxiv": {
-      "last_successful_until": "2026-10-18"
+      "last_successful_until": "2026-10-25"
     },
     "biorxiv": {
-      "last_successful_until": "2026-10-18"
+      "last_successful_until": "2026-10-25"
     },
     "medrxiv": {
-      "last_successful_until": "2026-10-18"
+      "last_successful_until": "2026-10-25"
     }
   },
-  "last_audit": "docs/updates/2026-10-19.json",
+  "last_audit": "docs/updates/2026-10-26.json",
   "pending_publication_checks": [
     {
       "arxiv_id": "2509.23097",
       "doi": "10.1016/j.media.2026.104352",
       "current_year": 2026,
       "publisher_url": "https://www.sciencedirect.com/science/article/pii/S1361841526004214",
-      "reason": "Publisher online-first 2026-10-10 conflicts with Crossref provisional January2027 volume115. Recheck publisher assigned issue before changing collection year."
+      "reason": "Publisher online-first 2026-10-10 conflicts with Crossref provisional January2027 volume115. Recheck publisher assigned issue before changing collection year.",
+      "last_checked": "2026-10-26"
     },
     {
       "arxiv_id": "2610.07694",
       "doi": "10.1109/TPAMI.2026.3743436",
       "current_year": 2026,
       "publisher_url": "https://ieeexplore.ieee.org/document/11735099/",
-      "reason": "2026 TPAMI DOI verified; volume/issue pending. Recheck publisher assignment."
+      "reason": "2026 TPAMI DOI verified; volume/issue pending. Recheck publisher assignment.",
+      "last_checked": "2026-10-26"
+    }
+  ],
+  "pending_metadata_checks": [
+    {
+      "source": "biorxiv",
+      "id": "10.64898/2026.10.18.759931",
+      "title": "Decoding Cell-level Circadian Phase and Rhythm-state Remodeling in Single-cell Transcriptomes With scRhythmBayes",
+      "paper_url": "https://www.biorxiv.org/content/10.64898/2026.10.18.759931v1",
+      "first_posted_verified": "2026-10-22",
+      "verification_warnings": [
+        "Crossref publication check: HTTPError: HTTP Error 404: Not Found"
+      ],
+      "reason": "Official preprint source verified; Crossref DOI registration404; title counterpart query completed. Recheck registration and publication status."
+    },
+    {
+      "source": "biorxiv",
+      "id": "10.64898/2026.10.20.760589",
+      "title": "Denoising single-cell ATAC-seq data with Shannon entropy",
+      "paper_url": "https://www.biorxiv.org/content/10.64898/2026.10.20.760589v1",
+      "first_posted_verified": "2026-10-23",
+      "verification_warnings": [
+        "Crossref publication check: HTTPError: HTTP Error 404: Not Found"
+      ],
+      "reason": "Official preprint source verified; Crossref DOI registration404; title counterpart query completed. Recheck registration and publication status."
     }
   ]
 }
