@@ -1,0 +1,722 @@
+{
+  "schema_version": 1,
+  "audit": "2026-10-26.json",
+  "record_checks": [
+    {
+      "source": "arxiv",
+      "id": "2610.30944",
+      "version": 1,
+      "first_posted_verified": "2026-10-22",
+      "verification_sources": [
+        "https://export.arxiv.org/api/query?search_query=%28ti%3Ahistopatholog%2A+OR+abs%3Ahistopatholog%2A+OR+ti%3Ahistolog%2A+OR+abs%3Ahistolog%2A+OR+ti%3Ahistomorpholog%2A+OR+abs%3Ahistomorpholog%2A+OR+ti%3Apathomic%2A+OR+abs%3Apathomic%2A+OR+ti%3A%22digital+pathology%22+OR+abs%3A%22digital+pathology%22+OR+ti%3A%22computational+pathology%22+OR+abs%3A%22computational+pathology%22+OR+ti%3A%22pathology+image%2A%22+OR+abs%3A%22pathology+image%2A%22+OR+ti%3A%22pathology+report%2A%22+OR+abs%3A%22pathology+report%2A%22+OR+ti%3Acytopatholog%2A+OR+abs%3Acytopatholog%2A+OR+ti%3A%22pathology+slide%2A%22+OR+abs%3A%22pathology+slide%2A%22+OR+ti%3Amulti-slide+OR+abs%3Amulti-slide+OR+ti%3A%22multi+slide%22+OR+abs%3A%22multi+slide%22+OR+ti%3AFFPE+OR+abs%3AFFPE+OR+ti%3A%22fresh+frozen%22+OR+abs%3A%22fresh+frozen%22+OR+ti%3Aformalin-fixed+OR+abs%3Aformalin-fixed+OR+ti%3Aparaffin-embedded+OR+abs%3Aparaffin-embedded+OR+ti%3Ahistomorphometr%2A+OR+abs%3Ahistomorphometr%2A+OR+ti%3Acytolog%2A+OR+abs%3Acytolog%2A+OR+ti%3Ahematopatholog%2A+OR+abs%3Ahematopatholog%2A+OR+ti%3Awhole-slide+OR+abs%3Awhole-slide+OR+ti%3A%22whole+slide%22+OR+abs%3A%22whole+slide%22+OR+ti%3AWSI+OR+abs%3AWSI+OR+ti%3Agigapixel+OR+abs%3Agigapixel+OR+ti%3A%22tissue+microarray%22+OR+abs%3A%22tissue+microarray%22+OR+ti%3Ahematoxylin+OR+abs%3Ahematoxylin+OR+ti%3Ahaematoxylin+OR+abs%3Ahaematoxylin+OR+ti%3AH%26E+OR+abs%3AH%26E+OR+ti%3Aimmunohistochem%2A+OR+abs%3Aimmunohistochem%2A+OR+ti%3A%22virtual+stain%2A%22+OR+abs%3A%22virtual+stain%2A%22+OR+ti%3A%22stain+transfer%22+OR+abs%3A%22stain+transfer%22+OR+ti%3A%22stain+normalization%22+OR+abs%3A%22stain+normalization%22+OR+ti%3A%22nuclei+segmentation%22+OR+abs%3A%22nuclei+segmentation%22+OR+ti%3A%22nucleus+detection%22+OR+abs%3A%22nucleus+detection%22+OR+ti%3Amitosis+OR+abs%3Amitosis+OR+ti%3Amitotic+OR+abs%3Amitotic+OR+ti%3A%22gland+segmentation%22+OR+abs%3A%22gland+segmentation%22+OR+ti%3AGleason+OR+abs%3AGleason+OR+ti%3Aglomerul%2A+OR+abs%3Aglomerul%2A+OR+ti%3A%22blood+smear%22+OR+abs%3A%22blood+smear%22+OR+ti%3A%22bone+marrow%22+OR+abs%3A%22bone+marrow%22+OR+ti%3A%22Pap+smear%22+OR+abs%3A%22Pap+smear%22+OR+ti%3A%22tissue+microscopy%22+OR+abs%3A%22tissue+microscopy%22+OR+ti%3A%22multiplex+immunofluorescence%22+OR+abs%3A%22multiplex+immunofluorescence%22+OR+ti%3A%22imaging+mass+cytometry%22+OR+abs%3A%22imaging+mass+cytometry%22+OR+ti%3A%22CODEX+imaging%22+OR+abs%3A%22CODEX+imaging%22+OR+ti%3AMIBI+OR+abs%3AMIBI%29&start=0&max_results=200&sortBy=lastUpdatedDate&sortOrder=descending",
+        "https://api.crossref.org/works?query.title=Attention-guided+classification+and+tumor+localization+of+combined+hepatocellular-cholangiocarcinoma&rows=3"
+      ],
+      "verification_errors": [],
+      "formal_candidates": []
+    },
+    {
+      "source": "arxiv",
+      "id": "2610.30775",
+      "version": 1,
+      "first_posted_verified": "2026-10-22",
+      "verification_sources": [
+        "https://export.arxiv.org/api/query?search_query=%28ti%3A%22tumor+microenvironment%22+OR+abs%3A%22tumor+microenvironment%22+OR+ti%3A%22tumour+microenvironment%22+OR+abs%3A%22tumour+microenvironment%22+OR+ti%3A%22tissue+microenvironment%22+OR+abs%3A%22tissue+microenvironment%22+OR+ti%3A%22spatial+niche%2A%22+OR+abs%3A%22spatial+niche%2A%22+OR+ti%3A%22cellular+niche%2A%22+OR+abs%3A%22cellular+niche%2A%22+OR+ti%3A%22tissue+architecture%22+OR+abs%3A%22tissue+architecture%22+OR+ti%3A%22tissue+atlas%22+OR+abs%3A%22tissue+atlas%22+OR+ti%3A%22cell-cell+communication%22+OR+abs%3A%22cell-cell+communication%22+OR+ti%3A%22cell+cell+communication%22+OR+abs%3A%22cell+cell+communication%22+OR+ti%3A%22cell-cell+interaction%22+OR+abs%3A%22cell-cell+interaction%22+OR+ti%3A%22cellular+interaction%22+OR+abs%3A%22cellular+interaction%22+OR+ti%3Aligand-receptor+OR+abs%3Aligand-receptor+OR+ti%3A%22ligand+receptor%22+OR+abs%3A%22ligand+receptor%22+OR+ti%3Atumor-stroma+OR+abs%3Atumor-stroma+OR+ti%3A%22immune+landscape%22+OR+abs%3A%22immune+landscape%22+OR+ti%3A%22spatial+heterogeneity%22+OR+abs%3A%22spatial+heterogeneity%22+OR+ti%3A%22spatial+tissue%22+OR+abs%3A%22spatial+tissue%22+OR+ti%3A%22spatially+resolved%22+OR+abs%3A%22spatially+resolved%22%29&start=0&max_results=200&sortBy=lastUpdatedDate&sortOrder=descending",
+        "https://api.crossref.org/works?query.title=GWDM%3A+A+Guided+Wavelet+Diffusion+Model+for+Realistic+Histopathology+Image+Generation&rows=3"
+      ],
+      "verification_errors": [],
+      "formal_candidates": []
+    },
+    {
+      "source": "arxiv",
+      "id": "2610.30316",
+      "version": 1,
+      "first_posted_verified": "2026-10-21",
+      "verification_sources": [
+        "https://export.arxiv.org/api/query?search_query=%28ti%3Ahistopatholog%2A+OR+abs%3Ahistopatholog%2A+OR+ti%3Ahistolog%2A+OR+abs%3Ahistolog%2A+OR+ti%3Ahistomorpholog%2A+OR+abs%3Ahistomorpholog%2A+OR+ti%3Apathomic%2A+OR+abs%3Apathomic%2A+OR+ti%3A%22digital+pathology%22+OR+abs%3A%22digital+pathology%22+OR+ti%3A%22computational+pathology%22+OR+abs%3A%22computational+pathology%22+OR+ti%3A%22pathology+image%2A%22+OR+abs%3A%22pathology+image%2A%22+OR+ti%3A%22pathology+report%2A%22+OR+abs%3A%22pathology+report%2A%22+OR+ti%3Acytopatholog%2A+OR+abs%3Acytopatholog%2A+OR+ti%3A%22pathology+slide%2A%22+OR+abs%3A%22pathology+slide%2A%22+OR+ti%3Amulti-slide+OR+abs%3Amulti-slide+OR+ti%3A%22multi+slide%22+OR+abs%3A%22multi+slide%22+OR+ti%3AFFPE+OR+abs%3AFFPE+OR+ti%3A%22fresh+frozen%22+OR+abs%3A%22fresh+frozen%22+OR+ti%3Aformalin-fixed+OR+abs%3Aformalin-fixed+OR+ti%3Aparaffin-embedded+OR+abs%3Aparaffin-embedded+OR+ti%3Ahistomorphometr%2A+OR+abs%3Ahistomorphometr%2A+OR+ti%3Acytolog%2A+OR+abs%3Acytolog%2A+OR+ti%3Ahematopatholog%2A+OR+abs%3Ahematopatholog%2A+OR+ti%3Awhole-slide+OR+abs%3Awhole-slide+OR+ti%3A%22whole+slide%22+OR+abs%3A%22whole+slide%22+OR+ti%3AWSI+OR+abs%3AWSI+OR+ti%3Agigapixel+OR+abs%3Agigapixel+OR+ti%3A%22tissue+microarray%22+OR+abs%3A%22tissue+microarray%22+OR+ti%3Ahematoxylin+OR+abs%3Ahematoxylin+OR+ti%3Ahaematoxylin+OR+abs%3Ahaematoxylin+OR+ti%3AH%26E+OR+abs%3AH%26E+OR+ti%3Aimmunohistochem%2A+OR+abs%3Aimmunohistochem%2A+OR+ti%3A%22virtual+stain%2A%22+OR+abs%3A%22virtual+stain%2A%22+OR+ti%3A%22stain+transfer%22+OR+abs%3A%22stain+transfer%22+OR+ti%3A%22stain+normalization%22+OR+abs%3A%22stain+normalization%22+OR+ti%3A%22nuclei+segmentation%22+OR+abs%3A%22nuclei+segmentation%22+OR+ti%3A%22nucleus+detection%22+OR+abs%3A%22nucleus+detection%22+OR+ti%3Amitosis+OR+abs%3Amitosis+OR+ti%3Amitotic+OR+abs%3Amitotic+OR+ti%3A%22gland+segmentation%22+OR+abs%3A%22gland+segmentation%22+OR+ti%3AGleason+OR+abs%3AGleason+OR+ti%3Aglomerul%2A+OR+abs%3Aglomerul%2A+OR+ti%3A%22blood+smear%22+OR+abs%3A%22blood+smear%22+OR+ti%3A%22bone+marrow%22+OR+abs%3A%22bone+marrow%22+OR+ti%3A%22Pap+smear%22+OR+abs%3A%22Pap+smear%22+OR+ti%3A%22tissue+microscopy%22+OR+abs%3A%22tissue+microscopy%22+OR+ti%3A%22multiplex+immunofluorescence%22+OR+abs%3A%22multiplex+immunofluorescence%22+OR+ti%3A%22imaging+mass+cytometry%22+OR+abs%3A%22imaging+mass+cytometry%22+OR+ti%3A%22CODEX+imaging%22+OR+abs%3A%22CODEX+imaging%22+OR+ti%3AMIBI+OR+abs%3AMIBI%29&start=0&max_results=200&sortBy=lastUpdatedDate&sortOrder=descending",
+        "https://api.crossref.org/works?query.title=A+Contrastive+Learning+Framework+for+Label-Efficient+Gastric+Cancer+Detection+and+Intra-Tumour+Progression+Analysis&rows=3"
+      ],
+      "verification_errors": [],
+      "formal_candidates": []
+    },
+    {
+      "source": "arxiv",
+      "id": "2610.29746",
+      "version": 1,
+      "first_posted_verified": "2026-10-21",
+      "verification_sources": [
+        "https://export.arxiv.org/api/query?search_query=%28ti%3Ahistopatholog%2A+OR+abs%3Ahistopatholog%2A+OR+ti%3Ahistolog%2A+OR+abs%3Ahistolog%2A+OR+ti%3Ahistomorpholog%2A+OR+abs%3Ahistomorpholog%2A+OR+ti%3Apathomic%2A+OR+abs%3Apathomic%2A+OR+ti%3A%22digital+pathology%22+OR+abs%3A%22digital+pathology%22+OR+ti%3A%22computational+pathology%22+OR+abs%3A%22computational+pathology%22+OR+ti%3A%22pathology+image%2A%22+OR+abs%3A%22pathology+image%2A%22+OR+ti%3A%22pathology+report%2A%22+OR+abs%3A%22pathology+report%2A%22+OR+ti%3Acytopatholog%2A+OR+abs%3Acytopatholog%2A+OR+ti%3A%22pathology+slide%2A%22+OR+abs%3A%22pathology+slide%2A%22+OR+ti%3Amulti-slide+OR+abs%3Amulti-slide+OR+ti%3A%22multi+slide%22+OR+abs%3A%22multi+slide%22+OR+ti%3AFFPE+OR+abs%3AFFPE+OR+ti%3A%22fresh+frozen%22+OR+abs%3A%22fresh+frozen%22+OR+ti%3Aformalin-fixed+OR+abs%3Aformalin-fixed+OR+ti%3Aparaffin-embedded+OR+abs%3Aparaffin-embedded+OR+ti%3Ahistomorphometr%2A+OR+abs%3Ahistomorphometr%2A+OR+ti%3Acytolog%2A+OR+abs%3Acytolog%2A+OR+ti%3Ahematopatholog%2A+OR+abs%3Ahematopatholog%2A+OR+ti%3Awhole-slide+OR+abs%3Awhole-slide+OR+ti%3A%22whole+slide%22+OR+abs%3A%22whole+slide%22+OR+ti%3AWSI+OR+abs%3AWSI+OR+ti%3Agigapixel+OR+abs%3Agigapixel+OR+ti%3A%22tissue+microarray%22+OR+abs%3A%22tissue+microarray%22+OR+ti%3Ahematoxylin+OR+abs%3Ahematoxylin+OR+ti%3Ahaematoxylin+OR+abs%3Ahaematoxylin+OR+ti%3AH%26E+OR+abs%3AH%26E+OR+ti%3Aimmunohistochem%2A+OR+abs%3Aimmunohistochem%2A+OR+ti%3A%22virtual+stain%2A%22+OR+abs%3A%22virtual+stain%2A%22+OR+ti%3A%22stain+transfer%22+OR+abs%3A%22stain+transfer%22+OR+ti%3A%22stain+normalization%22+OR+abs%3A%22stain+normalization%22+OR+ti%3A%22nuclei+segmentation%22+OR+abs%3A%22nuclei+segmentation%22+OR+ti%3A%22nucleus+detection%22+OR+abs%3A%22nucleus+detection%22+OR+ti%3Amitosis+OR+abs%3Amitosis+OR+ti%3Amitotic+OR+abs%3Amitotic+OR+ti%3A%22gland+segmentation%22+OR+abs%3A%22gland+segmentation%22+OR+ti%3AGleason+OR+abs%3AGleason+OR+ti%3Aglomerul%2A+OR+abs%3Aglomerul%2A+OR+ti%3A%22blood+smear%22+OR+abs%3A%22blood+smear%22+OR+ti%3A%22bone+marrow%22+OR+abs%3A%22bone+marrow%22+OR+ti%3A%22Pap+smear%22+OR+abs%3A%22Pap+smear%22+OR+ti%3A%22tissue+microscopy%22+OR+abs%3A%22tissue+microscopy%22+OR+ti%3A%22multiplex+immunofluorescence%22+OR+abs%3A%22multiplex+immunofluorescence%22+OR+ti%3A%22imaging+mass+cytometry%22+OR+abs%3A%22imaging+mass+cytometry%22+OR+ti%3A%22CODEX+imaging%22+OR+abs%3A%22CODEX+imaging%22+OR+ti%3AMIBI+OR+abs%3AMIBI%29&start=0&max_results=200&sortBy=lastUpdatedDate&sortOrder=descending",
+        "https://api.crossref.org/works?query.title=LEAF-Mamba%3A+Feature+Adaptation+and+Fusion+for+Whole+Slide+Image+Analysis&rows=3"
+      ],
+      "verification_errors": [],
+      "formal_candidates": []
+    },
+    {
+      "source": "arxiv",
+      "id": "2610.29665",
+      "version": 1,
+      "first_posted_verified": "2026-10-21",
+      "verification_sources": [
+        "https://export.arxiv.org/api/query?search_query=%28ti%3Asingle-cell+OR+abs%3Asingle-cell+OR+ti%3A%22single+cell%22+OR+abs%3A%22single+cell%22+OR+ti%3AscRNA-seq+OR+abs%3AscRNA-seq+OR+ti%3AscRNAseq+OR+abs%3AscRNAseq+OR+ti%3AscATAC-seq+OR+abs%3AscATAC-seq+OR+ti%3AscATAC+OR+abs%3AscATAC+OR+ti%3A%22single-cell+multiomic%2A%22+OR+abs%3A%22single-cell+multiomic%2A%22+OR+ti%3A%22single-cell+multi-omic%2A%22+OR+abs%3A%22single-cell+multi-omic%2A%22+OR+ti%3A%22single-cell+foundation+model%2A%22+OR+abs%3A%22single-cell+foundation+model%2A%22+OR+ti%3A%22single-cell+representation%22+OR+abs%3A%22single-cell+representation%22+OR+ti%3A%22single-cell+annotation%22+OR+abs%3A%22single-cell+annotation%22+OR+ti%3A%22cell+type+annotation%22+OR+abs%3A%22cell+type+annotation%22+OR+ti%3A%22cell+atlas%22+OR+abs%3A%22cell+atlas%22+OR+ti%3Acell-state+OR+abs%3Acell-state+OR+ti%3A%22cell+state%22+OR+abs%3A%22cell+state%22+OR+ti%3A%22cross-modal+cell+annotation%22+OR+abs%3A%22cross-modal+cell+annotation%22+OR+ti%3A%22RNA+ATAC%22+OR+abs%3A%22RNA+ATAC%22+OR+ti%3ACITE-seq+OR+abs%3ACITE-seq+OR+ti%3Amultiome+OR+abs%3Amultiome+OR+ti%3A%22cell+trajectory%22+OR+abs%3A%22cell+trajectory%22+OR+ti%3A%22cell+fate%22+OR+abs%3A%22cell+fate%22+OR+ti%3A%22cell+perturbation%22+OR+abs%3A%22cell+perturbation%22+OR+ti%3A%22cell+profiling%22+OR+abs%3A%22cell+profiling%22+OR+ti%3A%22cell+phenotyping%22+OR+abs%3A%22cell+phenotyping%22+OR+ti%3ACellProfiler+OR+abs%3ACellProfiler+OR+ti%3A%22cell+painting%22+OR+abs%3A%22cell+painting%22+OR+ti%3Amorpholomic%2A+OR+abs%3Amorpholomic%2A%29&start=0&max_results=200&sortBy=lastUpdatedDate&sortOrder=descending",
+        "https://api.crossref.org/works?query.title=Learning+to+Reason+Like+a+Cytopathologist%3AClinically+Grounded+Multiscale+Evidential+Learning+for+Cervical+Cytology&rows=3"
+      ],
+      "verification_errors": [],
+      "formal_candidates": []
+    },
+    {
+      "source": "arxiv",
+      "id": "2610.29431",
+      "version": 1,
+      "first_posted_verified": "2026-10-21",
+      "verification_sources": [
+        "https://export.arxiv.org/api/query?search_query=%28ti%3Ahistopatholog%2A+OR+abs%3Ahistopatholog%2A+OR+ti%3Ahistolog%2A+OR+abs%3Ahistolog%2A+OR+ti%3Ahistomorpholog%2A+OR+abs%3Ahistomorpholog%2A+OR+ti%3Apathomic%2A+OR+abs%3Apathomic%2A+OR+ti%3A%22digital+pathology%22+OR+abs%3A%22digital+pathology%22+OR+ti%3A%22computational+pathology%22+OR+abs%3A%22computational+pathology%22+OR+ti%3A%22pathology+image%2A%22+OR+abs%3A%22pathology+image%2A%22+OR+ti%3A%22pathology+report%2A%22+OR+abs%3A%22pathology+report%2A%22+OR+ti%3Acytopatholog%2A+OR+abs%3Acytopatholog%2A+OR+ti%3A%22pathology+slide%2A%22+OR+abs%3A%22pathology+slide%2A%22+OR+ti%3Amulti-slide+OR+abs%3Amulti-slide+OR+ti%3A%22multi+slide%22+OR+abs%3A%22multi+slide%22+OR+ti%3AFFPE+OR+abs%3AFFPE+OR+ti%3A%22fresh+frozen%22+OR+abs%3A%22fresh+frozen%22+OR+ti%3Aformalin-fixed+OR+abs%3Aformalin-fixed+OR+ti%3Aparaffin-embedded+OR+abs%3Aparaffin-embedded+OR+ti%3Ahistomorphometr%2A+OR+abs%3Ahistomorphometr%2A+OR+ti%3Acytolog%2A+OR+abs%3Acytolog%2A+OR+ti%3Ahematopatholog%2A+OR+abs%3Ahematopatholog%2A+OR+ti%3Awhole-slide+OR+abs%3Awhole-slide+OR+ti%3A%22whole+slide%22+OR+abs%3A%22whole+slide%22+OR+ti%3AWSI+OR+abs%3AWSI+OR+ti%3Agigapixel+OR+abs%3Agigapixel+OR+ti%3A%22tissue+microarray%22+OR+abs%3A%22tissue+microarray%22+OR+ti%3Ahematoxylin+OR+abs%3Ahematoxylin+OR+ti%3Ahaematoxylin+OR+abs%3Ahaematoxylin+OR+ti%3AH%26E+OR+abs%3AH%26E+OR+ti%3Aimmunohistochem%2A+OR+abs%3Aimmunohistochem%2A+OR+ti%3A%22virtual+stain%2A%22+OR+abs%3A%22virtual+stain%2A%22+OR+ti%3A%22stain+transfer%22+OR+abs%3A%22stain+transfer%22+OR+ti%3A%22stain+normalization%22+OR+abs%3A%22stain+normalization%22+OR+ti%3A%22nuclei+segmentation%22+OR+abs%3A%22nuclei+segmentation%22+OR+ti%3A%22nucleus+detection%22+OR+abs%3A%22nucleus+detection%22+OR+ti%3Amitosis+OR+abs%3Amitosis+OR+ti%3Amitotic+OR+abs%3Amitotic+OR+ti%3A%22gland+segmentation%22+OR+abs%3A%22gland+segmentation%22+OR+ti%3AGleason+OR+abs%3AGleason+OR+ti%3Aglomerul%2A+OR+abs%3Aglomerul%2A+OR+ti%3A%22blood+smear%22+OR+abs%3A%22blood+smear%22+OR+ti%3A%22bone+marrow%22+OR+abs%3A%22bone+marrow%22+OR+ti%3A%22Pap+smear%22+OR+abs%3A%22Pap+smear%22+OR+ti%3A%22tissue+microscopy%22+OR+abs%3A%22tissue+microscopy%22+OR+ti%3A%22multiplex+immunofluorescence%22+OR+abs%3A%22multiplex+immunofluorescence%22+OR+ti%3A%22imaging+mass+cytometry%22+OR+abs%3A%22imaging+mass+cytometry%22+OR+ti%3A%22CODEX+imaging%22+OR+abs%3A%22CODEX+imaging%22+OR+ti%3AMIBI+OR+abs%3AMIBI%29&start=0&max_results=200&sortBy=lastUpdatedDate&sortOrder=descending",
+        "https://api.crossref.org/works?query.title=Look+Beyond+the+Question%3A+Preserve-Focus-Fuse+for+Whole-Slide+Image+Question+Answering&rows=3"
+      ],
+      "verification_errors": [],
+      "formal_candidates": []
+    },
+    {
+      "source": "arxiv",
+      "id": "2605.24771",
+      "version": 2,
+      "first_posted_verified": "2026-05-23",
+      "verification_sources": [
+        "https://export.arxiv.org/api/query?search_query=%28ti%3Ahistopatholog%2A+OR+abs%3Ahistopatholog%2A+OR+ti%3Ahistolog%2A+OR+abs%3Ahistolog%2A+OR+ti%3Ahistomorpholog%2A+OR+abs%3Ahistomorpholog%2A+OR+ti%3Apathomic%2A+OR+abs%3Apathomic%2A+OR+ti%3A%22digital+pathology%22+OR+abs%3A%22digital+pathology%22+OR+ti%3A%22computational+pathology%22+OR+abs%3A%22computational+pathology%22+OR+ti%3A%22pathology+image%2A%22+OR+abs%3A%22pathology+image%2A%22+OR+ti%3A%22pathology+report%2A%22+OR+abs%3A%22pathology+report%2A%22+OR+ti%3Acytopatholog%2A+OR+abs%3Acytopatholog%2A+OR+ti%3A%22pathology+slide%2A%22+OR+abs%3A%22pathology+slide%2A%22+OR+ti%3Amulti-slide+OR+abs%3Amulti-slide+OR+ti%3A%22multi+slide%22+OR+abs%3A%22multi+slide%22+OR+ti%3AFFPE+OR+abs%3AFFPE+OR+ti%3A%22fresh+frozen%22+OR+abs%3A%22fresh+frozen%22+OR+ti%3Aformalin-fixed+OR+abs%3Aformalin-fixed+OR+ti%3Aparaffin-embedded+OR+abs%3Aparaffin-embedded+OR+ti%3Ahistomorphometr%2A+OR+abs%3Ahistomorphometr%2A+OR+ti%3Acytolog%2A+OR+abs%3Acytolog%2A+OR+ti%3Ahematopatholog%2A+OR+abs%3Ahematopatholog%2A+OR+ti%3Awhole-slide+OR+abs%3Awhole-slide+OR+ti%3A%22whole+slide%22+OR+abs%3A%22whole+slide%22+OR+ti%3AWSI+OR+abs%3AWSI+OR+ti%3Agigapixel+OR+abs%3Agigapixel+OR+ti%3A%22tissue+microarray%22+OR+abs%3A%22tissue+microarray%22+OR+ti%3Ahematoxylin+OR+abs%3Ahematoxylin+OR+ti%3Ahaematoxylin+OR+abs%3Ahaematoxylin+OR+ti%3AH%26E+OR+abs%3AH%26E+OR+ti%3Aimmunohistochem%2A+OR+abs%3Aimmunohistochem%2A+OR+ti%3A%22virtual+stain%2A%22+OR+abs%3A%22virtual+stain%2A%22+OR+ti%3A%22stain+transfer%22+OR+abs%3A%22stain+transfer%22+OR+ti%3A%22stain+normalization%22+OR+abs%3A%22stain+normalization%22+OR+ti%3A%22nuclei+segmentation%22+OR+abs%3A%22nuclei+segmentation%22+OR+ti%3A%22nucleus+detection%22+OR+abs%3A%22nucleus+detection%22+OR+ti%3Amitosis+OR+abs%3Amitosis+OR+ti%3Amitotic+OR+abs%3Amitotic+OR+ti%3A%22gland+segmentation%22+OR+abs%3A%22gland+segmentation%22+OR+ti%3AGleason+OR+abs%3AGleason+OR+ti%3Aglomerul%2A+OR+abs%3Aglomerul%2A+OR+ti%3A%22blood+smear%22+OR+abs%3A%22blood+smear%22+OR+ti%3A%22bone+marrow%22+OR+abs%3A%22bone+marrow%22+OR+ti%3A%22Pap+smear%22+OR+abs%3A%22Pap+smear%22+OR+ti%3A%22tissue+microscopy%22+OR+abs%3A%22tissue+microscopy%22+OR+ti%3A%22multiplex+immunofluorescence%22+OR+abs%3A%22multiplex+immunofluorescence%22+OR+ti%3A%22imaging+mass+cytometry%22+OR+abs%3A%22imaging+mass+cytometry%22+OR+ti%3A%22CODEX+imaging%22+OR+abs%3A%22CODEX+imaging%22+OR+ti%3AMIBI+OR+abs%3AMIBI%29&start=0&max_results=200&sortBy=lastUpdatedDate&sortOrder=descending",
+        "https://api.crossref.org/works?query.title=From+Theory+to+Decision+Rule%3A+Calibrating+the+Noisy-Label+Crossover+for+Vision-Language+Model+Weak+Supervision+Across+Three+Medical-Imaging+Benchmarks&rows=3"
+      ],
+      "verification_errors": [],
+      "formal_candidates": []
+    },
+    {
+      "source": "arxiv",
+      "id": "2610.26357",
+      "version": 2,
+      "first_posted_verified": "2026-10-19",
+      "verification_sources": [
+        "https://export.arxiv.org/api/query?search_query=%28ti%3Amultiomic%2A+OR+abs%3Amultiomic%2A+OR+ti%3Amulti-omic%2A+OR+abs%3Amulti-omic%2A+OR+ti%3A%22multimodal+omic%2A%22+OR+abs%3A%22multimodal+omic%2A%22+OR+ti%3A%22multi-modal+omic%2A%22+OR+abs%3A%22multi-modal+omic%2A%22+OR+ti%3A%22integrative+omic%2A%22+OR+abs%3A%22integrative+omic%2A%22+OR+ti%3Apathogenomic%2A+OR+abs%3Apathogenomic%2A+OR+ti%3Aradiogenomic%2A+OR+abs%3Aradiogenomic%2A+OR+ti%3Aimage-omics+OR+abs%3Aimage-omics+OR+ti%3Agenomics-guided+OR+abs%3Agenomics-guided+OR+ti%3A%22genomics+guided%22+OR+abs%3A%22genomics+guided%22+OR+ti%3A%22molecularly+informed%22+OR+abs%3A%22molecularly+informed%22+OR+ti%3A%22gene+expression+prediction%22+OR+abs%3A%22gene+expression+prediction%22+OR+ti%3Ahistology-conditioned+OR+abs%3Ahistology-conditioned+OR+ti%3A%22histology+conditioned%22+OR+abs%3A%22histology+conditioned%22+OR+ti%3A%22multimodal+survival%22+OR+abs%3A%22multimodal+survival%22+OR+ti%3A%22multi-modal+survival%22+OR+abs%3A%22multi-modal+survival%22+OR+ti%3A%22missing+modality%22+OR+abs%3A%22missing+modality%22+OR+ti%3A%22missing+modalities%22+OR+abs%3A%22missing+modalities%22+OR+ti%3A%22cross-modal+imputation%22+OR+abs%3A%22cross-modal+imputation%22+OR+ti%3Apan-cancer+OR+abs%3Apan-cancer+OR+ti%3Apancancer+OR+abs%3Apancancer+OR+ti%3A%22cancer+molecular+subtype%22+OR+abs%3A%22cancer+molecular+subtype%22+OR+ti%3A%22molecular+pathology%22+OR+abs%3A%22molecular+pathology%22%29&start=0&max_results=200&sortBy=lastUpdatedDate&sortOrder=descending",
+        "https://api.crossref.org/works?query.title=HGASurv%3A+Hierarchical+Granularity-Aware+Multimodal+Integration+for+Survival+Prediction&rows=3"
+      ],
+      "verification_errors": [],
+      "formal_candidates": []
+    },
+    {
+      "source": "arxiv",
+      "id": "2610.28339",
+      "version": 1,
+      "first_posted_verified": "2026-10-20",
+      "verification_sources": [
+        "https://export.arxiv.org/api/query?search_query=%28ti%3Amultiomic%2A+OR+abs%3Amultiomic%2A+OR+ti%3Amulti-omic%2A+OR+abs%3Amulti-omic%2A+OR+ti%3A%22multimodal+omic%2A%22+OR+abs%3A%22multimodal+omic%2A%22+OR+ti%3A%22multi-modal+omic%2A%22+OR+abs%3A%22multi-modal+omic%2A%22+OR+ti%3A%22integrative+omic%2A%22+OR+abs%3A%22integrative+omic%2A%22+OR+ti%3Apathogenomic%2A+OR+abs%3Apathogenomic%2A+OR+ti%3Aradiogenomic%2A+OR+abs%3Aradiogenomic%2A+OR+ti%3Aimage-omics+OR+abs%3Aimage-omics+OR+ti%3Agenomics-guided+OR+abs%3Agenomics-guided+OR+ti%3A%22genomics+guided%22+OR+abs%3A%22genomics+guided%22+OR+ti%3A%22molecularly+informed%22+OR+abs%3A%22molecularly+informed%22+OR+ti%3A%22gene+expression+prediction%22+OR+abs%3A%22gene+expression+prediction%22+OR+ti%3Ahistology-conditioned+OR+abs%3Ahistology-conditioned+OR+ti%3A%22histology+conditioned%22+OR+abs%3A%22histology+conditioned%22+OR+ti%3A%22multimodal+survival%22+OR+abs%3A%22multimodal+survival%22+OR+ti%3A%22multi-modal+survival%22+OR+abs%3A%22multi-modal+survival%22+OR+ti%3A%22missing+modality%22+OR+abs%3A%22missing+modality%22+OR+ti%3A%22missing+modalities%22+OR+abs%3A%22missing+modalities%22+OR+ti%3A%22cross-modal+imputation%22+OR+abs%3A%22cross-modal+imputation%22+OR+ti%3Apan-cancer+OR+abs%3Apan-cancer+OR+ti%3Apancancer+OR+abs%3Apancancer+OR+ti%3A%22cancer+molecular+subtype%22+OR+abs%3A%22cancer+molecular+subtype%22+OR+ti%3A%22molecular+pathology%22+OR+abs%3A%22molecular+pathology%22%29&start=0&max_results=200&sortBy=lastUpdatedDate&sortOrder=descending",
+        "https://api.crossref.org/works?query.title=HistoLoop%3A+Iterative+Contextual+Inference+with+a+Looped+Transformer+for+Histology-Based+Spatial+Gene+Expression+Prediction&rows=3"
+      ],
+      "verification_errors": [],
+      "formal_candidates": []
+    },
+    {
+      "source": "arxiv",
+      "id": "2610.28266",
+      "version": 1,
+      "first_posted_verified": "2026-10-20",
+      "verification_sources": [
+        "https://export.arxiv.org/api/query?search_query=%28ti%3Amultiomic%2A+OR+abs%3Amultiomic%2A+OR+ti%3Amulti-omic%2A+OR+abs%3Amulti-omic%2A+OR+ti%3A%22multimodal+omic%2A%22+OR+abs%3A%22multimodal+omic%2A%22+OR+ti%3A%22multi-modal+omic%2A%22+OR+abs%3A%22multi-modal+omic%2A%22+OR+ti%3A%22integrative+omic%2A%22+OR+abs%3A%22integrative+omic%2A%22+OR+ti%3Apathogenomic%2A+OR+abs%3Apathogenomic%2A+OR+ti%3Aradiogenomic%2A+OR+abs%3Aradiogenomic%2A+OR+ti%3Aimage-omics+OR+abs%3Aimage-omics+OR+ti%3Agenomics-guided+OR+abs%3Agenomics-guided+OR+ti%3A%22genomics+guided%22+OR+abs%3A%22genomics+guided%22+OR+ti%3A%22molecularly+informed%22+OR+abs%3A%22molecularly+informed%22+OR+ti%3A%22gene+expression+prediction%22+OR+abs%3A%22gene+expression+prediction%22+OR+ti%3Ahistology-conditioned+OR+abs%3Ahistology-conditioned+OR+ti%3A%22histology+conditioned%22+OR+abs%3A%22histology+conditioned%22+OR+ti%3A%22multimodal+survival%22+OR+abs%3A%22multimodal+survival%22+OR+ti%3A%22multi-modal+survival%22+OR+abs%3A%22multi-modal+survival%22+OR+ti%3A%22missing+modality%22+OR+abs%3A%22missing+modality%22+OR+ti%3A%22missing+modalities%22+OR+abs%3A%22missing+modalities%22+OR+ti%3A%22cross-modal+imputation%22+OR+abs%3A%22cross-modal+imputation%22+OR+ti%3Apan-cancer+OR+abs%3Apan-cancer+OR+ti%3Apancancer+OR+abs%3Apancancer+OR+ti%3A%22cancer+molecular+subtype%22+OR+abs%3A%22cancer+molecular+subtype%22+OR+ti%3A%22molecular+pathology%22+OR+abs%3A%22molecular+pathology%22%29&start=0&max_results=200&sortBy=lastUpdatedDate&sortOrder=descending",
+        "https://api.crossref.org/works?query.title=VGL-stGen%3A+Learning+a+shared+multimodal+model+for+lung+histology+and+spatial+transcriptomics&rows=3"
+      ],
+      "verification_errors": [],
+      "formal_candidates": []
+    },
+    {
+      "source": "arxiv",
+      "id": "2610.28007",
+      "version": 1,
+      "first_posted_verified": "2026-10-20",
+      "verification_sources": [
+        "https://export.arxiv.org/api/query?search_query=%28ti%3Ahistopatholog%2A+OR+abs%3Ahistopatholog%2A+OR+ti%3Ahistolog%2A+OR+abs%3Ahistolog%2A+OR+ti%3Ahistomorpholog%2A+OR+abs%3Ahistomorpholog%2A+OR+ti%3Apathomic%2A+OR+abs%3Apathomic%2A+OR+ti%3A%22digital+pathology%22+OR+abs%3A%22digital+pathology%22+OR+ti%3A%22computational+pathology%22+OR+abs%3A%22computational+pathology%22+OR+ti%3A%22pathology+image%2A%22+OR+abs%3A%22pathology+image%2A%22+OR+ti%3A%22pathology+report%2A%22+OR+abs%3A%22pathology+report%2A%22+OR+ti%3Acytopatholog%2A+OR+abs%3Acytopatholog%2A+OR+ti%3A%22pathology+slide%2A%22+OR+abs%3A%22pathology+slide%2A%22+OR+ti%3Amulti-slide+OR+abs%3Amulti-slide+OR+ti%3A%22multi+slide%22+OR+abs%3A%22multi+slide%22+OR+ti%3AFFPE+OR+abs%3AFFPE+OR+ti%3A%22fresh+frozen%22+OR+abs%3A%22fresh+frozen%22+OR+ti%3Aformalin-fixed+OR+abs%3Aformalin-fixed+OR+ti%3Aparaffin-embedded+OR+abs%3Aparaffin-embedded+OR+ti%3Ahistomorphometr%2A+OR+abs%3Ahistomorphometr%2A+OR+ti%3Acytolog%2A+OR+abs%3Acytolog%2A+OR+ti%3Ahematopatholog%2A+OR+abs%3Ahematopatholog%2A+OR+ti%3Awhole-slide+OR+abs%3Awhole-slide+OR+ti%3A%22whole+slide%22+OR+abs%3A%22whole+slide%22+OR+ti%3AWSI+OR+abs%3AWSI+OR+ti%3Agigapixel+OR+abs%3Agigapixel+OR+ti%3A%22tissue+microarray%22+OR+abs%3A%22tissue+microarray%22+OR+ti%3Ahematoxylin+OR+abs%3Ahematoxylin+OR+ti%3Ahaematoxylin+OR+abs%3Ahaematoxylin+OR+ti%3AH%26E+OR+abs%3AH%26E+OR+ti%3Aimmunohistochem%2A+OR+abs%3Aimmunohistochem%2A+OR+ti%3A%22virtual+stain%2A%22+OR+abs%3A%22virtual+stain%2A%22+OR+ti%3A%22stain+transfer%22+OR+abs%3A%22stain+transfer%22+OR+ti%3A%22stain+normalization%22+OR+abs%3A%22stain+normalization%22+OR+ti%3A%22nuclei+segmentation%22+OR+abs%3A%22nuclei+segmentation%22+OR+ti%3A%22nucleus+detection%22+OR+abs%3A%22nucleus+detection%22+OR+ti%3Amitosis+OR+abs%3Amitosis+OR+ti%3Amitotic+OR+abs%3Amitotic+OR+ti%3A%22gland+segmentation%22+OR+abs%3A%22gland+segmentation%22+OR+ti%3AGleason+OR+abs%3AGleason+OR+ti%3Aglomerul%2A+OR+abs%3Aglomerul%2A+OR+ti%3A%22blood+smear%22+OR+abs%3A%22blood+smear%22+OR+ti%3A%22bone+marrow%22+OR+abs%3A%22bone+marrow%22+OR+ti%3A%22Pap+smear%22+OR+abs%3A%22Pap+smear%22+OR+ti%3A%22tissue+microscopy%22+OR+abs%3A%22tissue+microscopy%22+OR+ti%3A%22multiplex+immunofluorescence%22+OR+abs%3A%22multiplex+immunofluorescence%22+OR+ti%3A%22imaging+mass+cytometry%22+OR+abs%3A%22imaging+mass+cytometry%22+OR+ti%3A%22CODEX+imaging%22+OR+abs%3A%22CODEX+imaging%22+OR+ti%3AMIBI+OR+abs%3AMIBI%29&start=0&max_results=200&sortBy=lastUpdatedDate&sortOrder=descending",
+        "https://api.crossref.org/works?query.title=AdaptMIL%3A+Domain+Adaptation+for+Multiple+Instance+Learning+in+Digital+Pathology&rows=3"
+      ],
+      "verification_errors": [],
+      "formal_candidates": []
+    },
+    {
+      "source": "arxiv",
+      "id": "2610.26805",
+      "version": 1,
+      "first_posted_verified": "2026-10-19",
+      "verification_sources": [
+        "https://export.arxiv.org/api/query?search_query=%28ti%3Ahistopatholog%2A+OR+abs%3Ahistopatholog%2A+OR+ti%3Ahistolog%2A+OR+abs%3Ahistolog%2A+OR+ti%3Ahistomorpholog%2A+OR+abs%3Ahistomorpholog%2A+OR+ti%3Apathomic%2A+OR+abs%3Apathomic%2A+OR+ti%3A%22digital+pathology%22+OR+abs%3A%22digital+pathology%22+OR+ti%3A%22computational+pathology%22+OR+abs%3A%22computational+pathology%22+OR+ti%3A%22pathology+image%2A%22+OR+abs%3A%22pathology+image%2A%22+OR+ti%3A%22pathology+report%2A%22+OR+abs%3A%22pathology+report%2A%22+OR+ti%3Acytopatholog%2A+OR+abs%3Acytopatholog%2A+OR+ti%3A%22pathology+slide%2A%22+OR+abs%3A%22pathology+slide%2A%22+OR+ti%3Amulti-slide+OR+abs%3Amulti-slide+OR+ti%3A%22multi+slide%22+OR+abs%3A%22multi+slide%22+OR+ti%3AFFPE+OR+abs%3AFFPE+OR+ti%3A%22fresh+frozen%22+OR+abs%3A%22fresh+frozen%22+OR+ti%3Aformalin-fixed+OR+abs%3Aformalin-fixed+OR+ti%3Aparaffin-embedded+OR+abs%3Aparaffin-embedded+OR+ti%3Ahistomorphometr%2A+OR+abs%3Ahistomorphometr%2A+OR+ti%3Acytolog%2A+OR+abs%3Acytolog%2A+OR+ti%3Ahematopatholog%2A+OR+abs%3Ahematopatholog%2A+OR+ti%3Awhole-slide+OR+abs%3Awhole-slide+OR+ti%3A%22whole+slide%22+OR+abs%3A%22whole+slide%22+OR+ti%3AWSI+OR+abs%3AWSI+OR+ti%3Agigapixel+OR+abs%3Agigapixel+OR+ti%3A%22tissue+microarray%22+OR+abs%3A%22tissue+microarray%22+OR+ti%3Ahematoxylin+OR+abs%3Ahematoxylin+OR+ti%3Ahaematoxylin+OR+abs%3Ahaematoxylin+OR+ti%3AH%26E+OR+abs%3AH%26E+OR+ti%3Aimmunohistochem%2A+OR+abs%3Aimmunohistochem%2A+OR+ti%3A%22virtual+stain%2A%22+OR+abs%3A%22virtual+stain%2A%22+OR+ti%3A%22stain+transfer%22+OR+abs%3A%22stain+transfer%22+OR+ti%3A%22stain+normalization%22+OR+abs%3A%22stain+normalization%22+OR+ti%3A%22nuclei+segmentation%22+OR+abs%3A%22nuclei+segmentation%22+OR+ti%3A%22nucleus+detection%22+OR+abs%3A%22nucleus+detection%22+OR+ti%3Amitosis+OR+abs%3Amitosis+OR+ti%3Amitotic+OR+abs%3Amitotic+OR+ti%3A%22gland+segmentation%22+OR+abs%3A%22gland+segmentation%22+OR+ti%3AGleason+OR+abs%3AGleason+OR+ti%3Aglomerul%2A+OR+abs%3Aglomerul%2A+OR+ti%3A%22blood+smear%22+OR+abs%3A%22blood+smear%22+OR+ti%3A%22bone+marrow%22+OR+abs%3A%22bone+marrow%22+OR+ti%3A%22Pap+smear%22+OR+abs%3A%22Pap+smear%22+OR+ti%3A%22tissue+microscopy%22+OR+abs%3A%22tissue+microscopy%22+OR+ti%3A%22multiplex+immunofluorescence%22+OR+abs%3A%22multiplex+immunofluorescence%22+OR+ti%3A%22imaging+mass+cytometry%22+OR+abs%3A%22imaging+mass+cytometry%22+OR+ti%3A%22CODEX+imaging%22+OR+abs%3A%22CODEX+imaging%22+OR+ti%3AMIBI+OR+abs%3AMIBI%29&start=0&max_results=200&sortBy=lastUpdatedDate&sortOrder=descending",
+        "https://api.crossref.org/works?query.title=What+Language+Adds%2C+and+at+What+Cost%3A+Four+Controlled+Probes+of+Pathology+Vision-Language+Models&rows=3"
+      ],
+      "verification_errors": [],
+      "formal_candidates": []
+    },
+    {
+      "source": "arxiv",
+      "id": "2610.26586",
+      "version": 1,
+      "first_posted_verified": "2026-10-19",
+      "verification_sources": [
+        "https://export.arxiv.org/api/query?search_query=%28ti%3Ahistopatholog%2A+OR+abs%3Ahistopatholog%2A+OR+ti%3Ahistolog%2A+OR+abs%3Ahistolog%2A+OR+ti%3Ahistomorpholog%2A+OR+abs%3Ahistomorpholog%2A+OR+ti%3Apathomic%2A+OR+abs%3Apathomic%2A+OR+ti%3A%22digital+pathology%22+OR+abs%3A%22digital+pathology%22+OR+ti%3A%22computational+pathology%22+OR+abs%3A%22computational+pathology%22+OR+ti%3A%22pathology+image%2A%22+OR+abs%3A%22pathology+image%2A%22+OR+ti%3A%22pathology+report%2A%22+OR+abs%3A%22pathology+report%2A%22+OR+ti%3Acytopatholog%2A+OR+abs%3Acytopatholog%2A+OR+ti%3A%22pathology+slide%2A%22+OR+abs%3A%22pathology+slide%2A%22+OR+ti%3Amulti-slide+OR+abs%3Amulti-slide+OR+ti%3A%22multi+slide%22+OR+abs%3A%22multi+slide%22+OR+ti%3AFFPE+OR+abs%3AFFPE+OR+ti%3A%22fresh+frozen%22+OR+abs%3A%22fresh+frozen%22+OR+ti%3Aformalin-fixed+OR+abs%3Aformalin-fixed+OR+ti%3Aparaffin-embedded+OR+abs%3Aparaffin-embedded+OR+ti%3Ahistomorphometr%2A+OR+abs%3Ahistomorphometr%2A+OR+ti%3Acytolog%2A+OR+abs%3Acytolog%2A+OR+ti%3Ahematopatholog%2A+OR+abs%3Ahematopatholog%2A+OR+ti%3Awhole-slide+OR+abs%3Awhole-slide+OR+ti%3A%22whole+slide%22+OR+abs%3A%22whole+slide%22+OR+ti%3AWSI+OR+abs%3AWSI+OR+ti%3Agigapixel+OR+abs%3Agigapixel+OR+ti%3A%22tissue+microarray%22+OR+abs%3A%22tissue+microarray%22+OR+ti%3Ahematoxylin+OR+abs%3Ahematoxylin+OR+ti%3Ahaematoxylin+OR+abs%3Ahaematoxylin+OR+ti%3AH%26E+OR+abs%3AH%26E+OR+ti%3Aimmunohistochem%2A+OR+abs%3Aimmunohistochem%2A+OR+ti%3A%22virtual+stain%2A%22+OR+abs%3A%22virtual+stain%2A%22+OR+ti%3A%22stain+transfer%22+OR+abs%3A%22stain+transfer%22+OR+ti%3A%22stain+normalization%22+OR+abs%3A%22stain+normalization%22+OR+ti%3A%22nuclei+segmentation%22+OR+abs%3A%22nuclei+segmentation%22+OR+ti%3A%22nucleus+detection%22+OR+abs%3A%22nucleus+detection%22+OR+ti%3Amitosis+OR+abs%3Amitosis+OR+ti%3Amitotic+OR+abs%3Amitotic+OR+ti%3A%22gland+segmentation%22+OR+abs%3A%22gland+segmentation%22+OR+ti%3AGleason+OR+abs%3AGleason+OR+ti%3Aglomerul%2A+OR+abs%3Aglomerul%2A+OR+ti%3A%22blood+smear%22+OR+abs%3A%22blood+smear%22+OR+ti%3A%22bone+marrow%22+OR+abs%3A%22bone+marrow%22+OR+ti%3A%22Pap+smear%22+OR+abs%3A%22Pap+smear%22+OR+ti%3A%22tissue+microscopy%22+OR+abs%3A%22tissue+microscopy%22+OR+ti%3A%22multiplex+immunofluorescence%22+OR+abs%3A%22multiplex+immunofluorescence%22+OR+ti%3A%22imaging+mass+cytometry%22+OR+abs%3A%22imaging+mass+cytometry%22+OR+ti%3A%22CODEX+imaging%22+OR+abs%3A%22CODEX+imaging%22+OR+ti%3AMIBI+OR+abs%3AMIBI%29&start=0&max_results=200&sortBy=lastUpdatedDate&sortOrder=descending",
+        "https://api.crossref.org/works?query.title=Scaling+Vision+Foundation+Models+for+Toxicologic+Pathology&rows=3"
+      ],
+      "verification_errors": [],
+      "formal_candidates": []
+    },
+    {
+      "source": "arxiv",
+      "id": "2607.04747",
+      "version": 2,
+      "first_posted_verified": "2026-07-06",
+      "verification_sources": [
+        "https://export.arxiv.org/api/query?search_query=%28ti%3Ahistopatholog%2A+OR+abs%3Ahistopatholog%2A+OR+ti%3Ahistolog%2A+OR+abs%3Ahistolog%2A+OR+ti%3Ahistomorpholog%2A+OR+abs%3Ahistomorpholog%2A+OR+ti%3Apathomic%2A+OR+abs%3Apathomic%2A+OR+ti%3A%22digital+pathology%22+OR+abs%3A%22digital+pathology%22+OR+ti%3A%22computational+pathology%22+OR+abs%3A%22computational+pathology%22+OR+ti%3A%22pathology+image%2A%22+OR+abs%3A%22pathology+image%2A%22+OR+ti%3A%22pathology+report%2A%22+OR+abs%3A%22pathology+report%2A%22+OR+ti%3Acytopatholog%2A+OR+abs%3Acytopatholog%2A+OR+ti%3A%22pathology+slide%2A%22+OR+abs%3A%22pathology+slide%2A%22+OR+ti%3Amulti-slide+OR+abs%3Amulti-slide+OR+ti%3A%22multi+slide%22+OR+abs%3A%22multi+slide%22+OR+ti%3AFFPE+OR+abs%3AFFPE+OR+ti%3A%22fresh+frozen%22+OR+abs%3A%22fresh+frozen%22+OR+ti%3Aformalin-fixed+OR+abs%3Aformalin-fixed+OR+ti%3Aparaffin-embedded+OR+abs%3Aparaffin-embedded+OR+ti%3Ahistomorphometr%2A+OR+abs%3Ahistomorphometr%2A+OR+ti%3Acytolog%2A+OR+abs%3Acytolog%2A+OR+ti%3Ahematopatholog%2A+OR+abs%3Ahematopatholog%2A+OR+ti%3Awhole-slide+OR+abs%3Awhole-slide+OR+ti%3A%22whole+slide%22+OR+abs%3A%22whole+slide%22+OR+ti%3AWSI+OR+abs%3AWSI+OR+ti%3Agigapixel+OR+abs%3Agigapixel+OR+ti%3A%22tissue+microarray%22+OR+abs%3A%22tissue+microarray%22+OR+ti%3Ahematoxylin+OR+abs%3Ahematoxylin+OR+ti%3Ahaematoxylin+OR+abs%3Ahaematoxylin+OR+ti%3AH%26E+OR+abs%3AH%26E+OR+ti%3Aimmunohistochem%2A+OR+abs%3Aimmunohistochem%2A+OR+ti%3A%22virtual+stain%2A%22+OR+abs%3A%22virtual+stain%2A%22+OR+ti%3A%22stain+transfer%22+OR+abs%3A%22stain+transfer%22+OR+ti%3A%22stain+normalization%22+OR+abs%3A%22stain+normalization%22+OR+ti%3A%22nuclei+segmentation%22+OR+abs%3A%22nuclei+segmentation%22+OR+ti%3A%22nucleus+detection%22+OR+abs%3A%22nucleus+detection%22+OR+ti%3Amitosis+OR+abs%3Amitosis+OR+ti%3Amitotic+OR+abs%3Amitotic+OR+ti%3A%22gland+segmentation%22+OR+abs%3A%22gland+segmentation%22+OR+ti%3AGleason+OR+abs%3AGleason+OR+ti%3Aglomerul%2A+OR+abs%3Aglomerul%2A+OR+ti%3A%22blood+smear%22+OR+abs%3A%22blood+smear%22+OR+ti%3A%22bone+marrow%22+OR+abs%3A%22bone+marrow%22+OR+ti%3A%22Pap+smear%22+OR+abs%3A%22Pap+smear%22+OR+ti%3A%22tissue+microscopy%22+OR+abs%3A%22tissue+microscopy%22+OR+ti%3A%22multiplex+immunofluorescence%22+OR+abs%3A%22multiplex+immunofluorescence%22+OR+ti%3A%22imaging+mass+cytometry%22+OR+abs%3A%22imaging+mass+cytometry%22+OR+ti%3A%22CODEX+imaging%22+OR+abs%3A%22CODEX+imaging%22+OR+ti%3AMIBI+OR+abs%3AMIBI%29&start=0&max_results=200&sortBy=lastUpdatedDate&sortOrder=descending",
+        "https://api.crossref.org/works?query.title=MergeSurv%3A+Merging-Based+Continual+Learning+for+Survival+Analysis+on+Whole-Slide+Images&rows=3"
+      ],
+      "verification_errors": [],
+      "formal_candidates": []
+    },
+    {
+      "source": "arxiv",
+      "id": "2610.26217",
+      "version": 1,
+      "first_posted_verified": "2026-10-19",
+      "verification_sources": [
+        "https://export.arxiv.org/api/query?search_query=%28ti%3A%22spatial+transcriptom%2A%22+OR+abs%3A%22spatial+transcriptom%2A%22+OR+ti%3A%22spatial+proteom%2A%22+OR+abs%3A%22spatial+proteom%2A%22+OR+ti%3A%22spatial+multiomic%2A%22+OR+abs%3A%22spatial+multiomic%2A%22+OR+ti%3A%22spatial+multi-omic%2A%22+OR+abs%3A%22spatial+multi-omic%2A%22+OR+ti%3A%22spatial+omic%2A%22+OR+abs%3A%22spatial+omic%2A%22+OR+ti%3A%22spatial+genom%2A%22+OR+abs%3A%22spatial+genom%2A%22+OR+ti%3A%22spatial+metabolom%2A%22+OR+abs%3A%22spatial+metabolom%2A%22+OR+ti%3A%22spatial+epigenom%2A%22+OR+abs%3A%22spatial+epigenom%2A%22+OR+ti%3A%22spatial+chromatin%22+OR+abs%3A%22spatial+chromatin%22+OR+ti%3A%22spatial+gene+expression%22+OR+abs%3A%22spatial+gene+expression%22+OR+ti%3A%22spatially+variable+gene%2A%22+OR+abs%3A%22spatially+variable+gene%2A%22+OR+ti%3A%22spatial+domain%2A%22+OR+abs%3A%22spatial+domain%2A%22+OR+ti%3A%22spatial+deconvolution%22+OR+abs%3A%22spatial+deconvolution%22+OR+ti%3A%22cell+type+deconvolution%22+OR+abs%3A%22cell+type+deconvolution%22+OR+ti%3A%22spatial+cell+annotation%22+OR+abs%3A%22spatial+cell+annotation%22+OR+ti%3A%22spatial+cell+mapping%22+OR+abs%3A%22spatial+cell+mapping%22+OR+ti%3A%22spatial+molecular+profiling%22+OR+abs%3A%22spatial+molecular+profiling%22+OR+ti%3A%22in+situ+sequencing%22+OR+abs%3A%22in+situ+sequencing%22+OR+ti%3A%22in-situ+sequencing%22+OR+abs%3A%22in-situ+sequencing%22+OR+ti%3AMERFISH+OR+abs%3AMERFISH+OR+ti%3AseqFISH+OR+abs%3AseqFISH+OR+ti%3ASlide-seq+OR+abs%3ASlide-seq+OR+ti%3AVisium+OR+abs%3AVisium+OR+ti%3AXenium+OR+abs%3AXenium+OR+ti%3ACosMx+OR+abs%3ACosMx+OR+ti%3AStereo-seq+OR+abs%3AStereo-seq+OR+ti%3ASTARmap+OR+abs%3ASTARmap+OR+ti%3AGeoMx+OR+abs%3AGeoMx+OR+ti%3ADBiT-seq+OR+abs%3ADBiT-seq+OR+ti%3A%22spatial+perturbation%22+OR+abs%3A%22spatial+perturbation%22+OR+ti%3A%22spatial+alignment%22+OR+abs%3A%22spatial+alignment%22+OR+ti%3A%22multi-slice+integration%22+OR+abs%3A%22multi-slice+integration%22%29&start=0&max_results=200&sortBy=lastUpdatedDate&sortOrder=descending",
+        "https://api.crossref.org/works?query.title=SAR2Net%3A+Learning+Spatially+Anchored+Representations+for+Retrieval-Guided+Cross-Stain+Alignment&rows=3"
+      ],
+      "verification_errors": [],
+      "formal_candidates": []
+    },
+    {
+      "source": "arxiv",
+      "id": "2610.25904",
+      "version": 1,
+      "first_posted_verified": "2026-10-19",
+      "verification_sources": [
+        "https://export.arxiv.org/api/query?search_query=%28ti%3Ahistopatholog%2A+OR+abs%3Ahistopatholog%2A+OR+ti%3Ahistolog%2A+OR+abs%3Ahistolog%2A+OR+ti%3Ahistomorpholog%2A+OR+abs%3Ahistomorpholog%2A+OR+ti%3Apathomic%2A+OR+abs%3Apathomic%2A+OR+ti%3A%22digital+pathology%22+OR+abs%3A%22digital+pathology%22+OR+ti%3A%22computational+pathology%22+OR+abs%3A%22computational+pathology%22+OR+ti%3A%22pathology+image%2A%22+OR+abs%3A%22pathology+image%2A%22+OR+ti%3A%22pathology+report%2A%22+OR+abs%3A%22pathology+report%2A%22+OR+ti%3Acytopatholog%2A+OR+abs%3Acytopatholog%2A+OR+ti%3A%22pathology+slide%2A%22+OR+abs%3A%22pathology+slide%2A%22+OR+ti%3Amulti-slide+OR+abs%3Amulti-slide+OR+ti%3A%22multi+slide%22+OR+abs%3A%22multi+slide%22+OR+ti%3AFFPE+OR+abs%3AFFPE+OR+ti%3A%22fresh+frozen%22+OR+abs%3A%22fresh+frozen%22+OR+ti%3Aformalin-fixed+OR+abs%3Aformalin-fixed+OR+ti%3Aparaffin-embedded+OR+abs%3Aparaffin-embedded+OR+ti%3Ahistomorphometr%2A+OR+abs%3Ahistomorphometr%2A+OR+ti%3Acytolog%2A+OR+abs%3Acytolog%2A+OR+ti%3Ahematopatholog%2A+OR+abs%3Ahematopatholog%2A+OR+ti%3Awhole-slide+OR+abs%3Awhole-slide+OR+ti%3A%22whole+slide%22+OR+abs%3A%22whole+slide%22+OR+ti%3AWSI+OR+abs%3AWSI+OR+ti%3Agigapixel+OR+abs%3Agigapixel+OR+ti%3A%22tissue+microarray%22+OR+abs%3A%22tissue+microarray%22+OR+ti%3Ahematoxylin+OR+abs%3Ahematoxylin+OR+ti%3Ahaematoxylin+OR+abs%3Ahaematoxylin+OR+ti%3AH%26E+OR+abs%3AH%26E+OR+ti%3Aimmunohistochem%2A+OR+abs%3Aimmunohistochem%2A+OR+ti%3A%22virtual+stain%2A%22+OR+abs%3A%22virtual+stain%2A%22+OR+ti%3A%22stain+transfer%22+OR+abs%3A%22stain+transfer%22+OR+ti%3A%22stain+normalization%22+OR+abs%3A%22stain+normalization%22+OR+ti%3A%22nuclei+segmentation%22+OR+abs%3A%22nuclei+segmentation%22+OR+ti%3A%22nucleus+detection%22+OR+abs%3A%22nucleus+detection%22+OR+ti%3Amitosis+OR+abs%3Amitosis+OR+ti%3Amitotic+OR+abs%3Amitotic+OR+ti%3A%22gland+segmentation%22+OR+abs%3A%22gland+segmentation%22+OR+ti%3AGleason+OR+abs%3AGleason+OR+ti%3Aglomerul%2A+OR+abs%3Aglomerul%2A+OR+ti%3A%22blood+smear%22+OR+abs%3A%22blood+smear%22+OR+ti%3A%22bone+marrow%22+OR+abs%3A%22bone+marrow%22+OR+ti%3A%22Pap+smear%22+OR+abs%3A%22Pap+smear%22+OR+ti%3A%22tissue+microscopy%22+OR+abs%3A%22tissue+microscopy%22+OR+ti%3A%22multiplex+immunofluorescence%22+OR+abs%3A%22multiplex+immunofluorescence%22+OR+ti%3A%22imaging+mass+cytometry%22+OR+abs%3A%22imaging+mass+cytometry%22+OR+ti%3A%22CODEX+imaging%22+OR+abs%3A%22CODEX+imaging%22+OR+ti%3AMIBI+OR+abs%3AMIBI%29&start=0&max_results=200&sortBy=lastUpdatedDate&sortOrder=descending",
+        "https://api.crossref.org/works?query.title=Multi-scale+Fusion+of+Fast+Vision+Mamba+and+Foundation+Model+Features+for+Patch-Level+Gleason+Grading+in+Computational+Pathology&rows=3"
+      ],
+      "verification_errors": [],
+      "formal_candidates": []
+    },
+    {
+      "source": "arxiv",
+      "id": "2610.26988",
+      "version": 1,
+      "first_posted_verified": "2026-10-19",
+      "verification_sources": [
+        "https://export.arxiv.org/api/query?search_query=%28ti%3Amultiomic%2A+OR+abs%3Amultiomic%2A+OR+ti%3Amulti-omic%2A+OR+abs%3Amulti-omic%2A+OR+ti%3A%22multimodal+omic%2A%22+OR+abs%3A%22multimodal+omic%2A%22+OR+ti%3A%22multi-modal+omic%2A%22+OR+abs%3A%22multi-modal+omic%2A%22+OR+ti%3A%22integrative+omic%2A%22+OR+abs%3A%22integrative+omic%2A%22+OR+ti%3Apathogenomic%2A+OR+abs%3Apathogenomic%2A+OR+ti%3Aradiogenomic%2A+OR+abs%3Aradiogenomic%2A+OR+ti%3Aimage-omics+OR+abs%3Aimage-omics+OR+ti%3Agenomics-guided+OR+abs%3Agenomics-guided+OR+ti%3A%22genomics+guided%22+OR+abs%3A%22genomics+guided%22+OR+ti%3A%22molecularly+informed%22+OR+abs%3A%22molecularly+informed%22+OR+ti%3A%22gene+expression+prediction%22+OR+abs%3A%22gene+expression+prediction%22+OR+ti%3Ahistology-conditioned+OR+abs%3Ahistology-conditioned+OR+ti%3A%22histology+conditioned%22+OR+abs%3A%22histology+conditioned%22+OR+ti%3A%22multimodal+survival%22+OR+abs%3A%22multimodal+survival%22+OR+ti%3A%22multi-modal+survival%22+OR+abs%3A%22multi-modal+survival%22+OR+ti%3A%22missing+modality%22+OR+abs%3A%22missing+modality%22+OR+ti%3A%22missing+modalities%22+OR+abs%3A%22missing+modalities%22+OR+ti%3A%22cross-modal+imputation%22+OR+abs%3A%22cross-modal+imputation%22+OR+ti%3Apan-cancer+OR+abs%3Apan-cancer+OR+ti%3Apancancer+OR+abs%3Apancancer+OR+ti%3A%22cancer+molecular+subtype%22+OR+abs%3A%22cancer+molecular+subtype%22+OR+ti%3A%22molecular+pathology%22+OR+abs%3A%22molecular+pathology%22%29&start=0&max_results=200&sortBy=lastUpdatedDate&sortOrder=descending",
+        "https://api.crossref.org/works?query.title=REST%3A+Reliability-Guided+Spatial+Transcriptomics+Supervision+for+Gene+Expression+Prediction+from+Histopathological+HE-Stained+Images&rows=3"
+      ],
+      "verification_errors": [],
+      "formal_candidates": []
+    },
+    {
+      "source": "arxiv",
+      "id": "2610.25054",
+      "version": 1,
+      "first_posted_verified": "2026-10-18",
+      "verification_sources": [
+        "https://export.arxiv.org/api/query?search_query=%28ti%3Amultiomic%2A+OR+abs%3Amultiomic%2A+OR+ti%3Amulti-omic%2A+OR+abs%3Amulti-omic%2A+OR+ti%3A%22multimodal+omic%2A%22+OR+abs%3A%22multimodal+omic%2A%22+OR+ti%3A%22multi-modal+omic%2A%22+OR+abs%3A%22multi-modal+omic%2A%22+OR+ti%3A%22integrative+omic%2A%22+OR+abs%3A%22integrative+omic%2A%22+OR+ti%3Apathogenomic%2A+OR+abs%3Apathogenomic%2A+OR+ti%3Aradiogenomic%2A+OR+abs%3Aradiogenomic%2A+OR+ti%3Aimage-omics+OR+abs%3Aimage-omics+OR+ti%3Agenomics-guided+OR+abs%3Agenomics-guided+OR+ti%3A%22genomics+guided%22+OR+abs%3A%22genomics+guided%22+OR+ti%3A%22molecularly+informed%22+OR+abs%3A%22molecularly+informed%22+OR+ti%3A%22gene+expression+prediction%22+OR+abs%3A%22gene+expression+prediction%22+OR+ti%3Ahistology-conditioned+OR+abs%3Ahistology-conditioned+OR+ti%3A%22histology+conditioned%22+OR+abs%3A%22histology+conditioned%22+OR+ti%3A%22multimodal+survival%22+OR+abs%3A%22multimodal+survival%22+OR+ti%3A%22multi-modal+survival%22+OR+abs%3A%22multi-modal+survival%22+OR+ti%3A%22missing+modality%22+OR+abs%3A%22missing+modality%22+OR+ti%3A%22missing+modalities%22+OR+abs%3A%22missing+modalities%22+OR+ti%3A%22cross-modal+imputation%22+OR+abs%3A%22cross-modal+imputation%22+OR+ti%3Apan-cancer+OR+abs%3Apan-cancer+OR+ti%3Apancancer+OR+abs%3Apancancer+OR+ti%3A%22cancer+molecular+subtype%22+OR+abs%3A%22cancer+molecular+subtype%22+OR+ti%3A%22molecular+pathology%22+OR+abs%3A%22molecular+pathology%22%29&start=0&max_results=200&sortBy=lastUpdatedDate&sortOrder=descending",
+        "https://api.crossref.org/works?query.title=PRET+is+a+few-shot+system+for+pan-cancer+recognition+without+example+training&rows=3"
+      ],
+      "verification_errors": [],
+      "formal_candidates": [
+        {
+          "DOI": "10.1038/s43018-026-01141-2",
+          "title": [
+            "PRET is a few-shot system for pan-cancer recognition without example training"
+          ],
+          "type": "journal-article",
+          "container-title": [
+            "Nature Cancer"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                3
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                3
+              ]
+            ]
+          },
+          "volume": "7",
+          "issue": "4",
+          "resource": {
+            "primary": {
+              "URL": "https://www.nature.com/articles/s43018-026-01141-2"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "source": "arxiv",
+      "id": "2609.25123",
+      "version": 2,
+      "first_posted_verified": "2026-09-20",
+      "verification_sources": [
+        "https://export.arxiv.org/api/query?search_query=%28ti%3Ahistopatholog%2A+OR+abs%3Ahistopatholog%2A+OR+ti%3Ahistolog%2A+OR+abs%3Ahistolog%2A+OR+ti%3Ahistomorpholog%2A+OR+abs%3Ahistomorpholog%2A+OR+ti%3Apathomic%2A+OR+abs%3Apathomic%2A+OR+ti%3A%22digital+pathology%22+OR+abs%3A%22digital+pathology%22+OR+ti%3A%22computational+pathology%22+OR+abs%3A%22computational+pathology%22+OR+ti%3A%22pathology+image%2A%22+OR+abs%3A%22pathology+image%2A%22+OR+ti%3A%22pathology+report%2A%22+OR+abs%3A%22pathology+report%2A%22+OR+ti%3Acytopatholog%2A+OR+abs%3Acytopatholog%2A+OR+ti%3A%22pathology+slide%2A%22+OR+abs%3A%22pathology+slide%2A%22+OR+ti%3Amulti-slide+OR+abs%3Amulti-slide+OR+ti%3A%22multi+slide%22+OR+abs%3A%22multi+slide%22+OR+ti%3AFFPE+OR+abs%3AFFPE+OR+ti%3A%22fresh+frozen%22+OR+abs%3A%22fresh+frozen%22+OR+ti%3Aformalin-fixed+OR+abs%3Aformalin-fixed+OR+ti%3Aparaffin-embedded+OR+abs%3Aparaffin-embedded+OR+ti%3Ahistomorphometr%2A+OR+abs%3Ahistomorphometr%2A+OR+ti%3Acytolog%2A+OR+abs%3Acytolog%2A+OR+ti%3Ahematopatholog%2A+OR+abs%3Ahematopatholog%2A+OR+ti%3Awhole-slide+OR+abs%3Awhole-slide+OR+ti%3A%22whole+slide%22+OR+abs%3A%22whole+slide%22+OR+ti%3AWSI+OR+abs%3AWSI+OR+ti%3Agigapixel+OR+abs%3Agigapixel+OR+ti%3A%22tissue+microarray%22+OR+abs%3A%22tissue+microarray%22+OR+ti%3Ahematoxylin+OR+abs%3Ahematoxylin+OR+ti%3Ahaematoxylin+OR+abs%3Ahaematoxylin+OR+ti%3AH%26E+OR+abs%3AH%26E+OR+ti%3Aimmunohistochem%2A+OR+abs%3Aimmunohistochem%2A+OR+ti%3A%22virtual+stain%2A%22+OR+abs%3A%22virtual+stain%2A%22+OR+ti%3A%22stain+transfer%22+OR+abs%3A%22stain+transfer%22+OR+ti%3A%22stain+normalization%22+OR+abs%3A%22stain+normalization%22+OR+ti%3A%22nuclei+segmentation%22+OR+abs%3A%22nuclei+segmentation%22+OR+ti%3A%22nucleus+detection%22+OR+abs%3A%22nucleus+detection%22+OR+ti%3Amitosis+OR+abs%3Amitosis+OR+ti%3Amitotic+OR+abs%3Amitotic+OR+ti%3A%22gland+segmentation%22+OR+abs%3A%22gland+segmentation%22+OR+ti%3AGleason+OR+abs%3AGleason+OR+ti%3Aglomerul%2A+OR+abs%3Aglomerul%2A+OR+ti%3A%22blood+smear%22+OR+abs%3A%22blood+smear%22+OR+ti%3A%22bone+marrow%22+OR+abs%3A%22bone+marrow%22+OR+ti%3A%22Pap+smear%22+OR+abs%3A%22Pap+smear%22+OR+ti%3A%22tissue+microscopy%22+OR+abs%3A%22tissue+microscopy%22+OR+ti%3A%22multiplex+immunofluorescence%22+OR+abs%3A%22multiplex+immunofluorescence%22+OR+ti%3A%22imaging+mass+cytometry%22+OR+abs%3A%22imaging+mass+cytometry%22+OR+ti%3A%22CODEX+imaging%22+OR+abs%3A%22CODEX+imaging%22+OR+ti%3AMIBI+OR+abs%3AMIBI%29&start=0&max_results=200&sortBy=lastUpdatedDate&sortOrder=descending",
+        "https://api.crossref.org/works?query.title=WILSON+-+Multi-magnification+composites+as+a+foundation+for+patient-level+pathology+analysis+and+diagnostic+text+generation&rows=3"
+      ],
+      "verification_errors": [],
+      "formal_candidates": []
+    },
+    {
+      "source": "arxiv",
+      "id": "2610.24773",
+      "version": 1,
+      "first_posted_verified": "2026-10-17",
+      "verification_sources": [
+        "https://export.arxiv.org/api/query?search_query=%28ti%3Ahistopatholog%2A+OR+abs%3Ahistopatholog%2A+OR+ti%3Ahistolog%2A+OR+abs%3Ahistolog%2A+OR+ti%3Ahistomorpholog%2A+OR+abs%3Ahistomorpholog%2A+OR+ti%3Apathomic%2A+OR+abs%3Apathomic%2A+OR+ti%3A%22digital+pathology%22+OR+abs%3A%22digital+pathology%22+OR+ti%3A%22computational+pathology%22+OR+abs%3A%22computational+pathology%22+OR+ti%3A%22pathology+image%2A%22+OR+abs%3A%22pathology+image%2A%22+OR+ti%3A%22pathology+report%2A%22+OR+abs%3A%22pathology+report%2A%22+OR+ti%3Acytopatholog%2A+OR+abs%3Acytopatholog%2A+OR+ti%3A%22pathology+slide%2A%22+OR+abs%3A%22pathology+slide%2A%22+OR+ti%3Amulti-slide+OR+abs%3Amulti-slide+OR+ti%3A%22multi+slide%22+OR+abs%3A%22multi+slide%22+OR+ti%3AFFPE+OR+abs%3AFFPE+OR+ti%3A%22fresh+frozen%22+OR+abs%3A%22fresh+frozen%22+OR+ti%3Aformalin-fixed+OR+abs%3Aformalin-fixed+OR+ti%3Aparaffin-embedded+OR+abs%3Aparaffin-embedded+OR+ti%3Ahistomorphometr%2A+OR+abs%3Ahistomorphometr%2A+OR+ti%3Acytolog%2A+OR+abs%3Acytolog%2A+OR+ti%3Ahematopatholog%2A+OR+abs%3Ahematopatholog%2A+OR+ti%3Awhole-slide+OR+abs%3Awhole-slide+OR+ti%3A%22whole+slide%22+OR+abs%3A%22whole+slide%22+OR+ti%3AWSI+OR+abs%3AWSI+OR+ti%3Agigapixel+OR+abs%3Agigapixel+OR+ti%3A%22tissue+microarray%22+OR+abs%3A%22tissue+microarray%22+OR+ti%3Ahematoxylin+OR+abs%3Ahematoxylin+OR+ti%3Ahaematoxylin+OR+abs%3Ahaematoxylin+OR+ti%3AH%26E+OR+abs%3AH%26E+OR+ti%3Aimmunohistochem%2A+OR+abs%3Aimmunohistochem%2A+OR+ti%3A%22virtual+stain%2A%22+OR+abs%3A%22virtual+stain%2A%22+OR+ti%3A%22stain+transfer%22+OR+abs%3A%22stain+transfer%22+OR+ti%3A%22stain+normalization%22+OR+abs%3A%22stain+normalization%22+OR+ti%3A%22nuclei+segmentation%22+OR+abs%3A%22nuclei+segmentation%22+OR+ti%3A%22nucleus+detection%22+OR+abs%3A%22nucleus+detection%22+OR+ti%3Amitosis+OR+abs%3Amitosis+OR+ti%3Amitotic+OR+abs%3Amitotic+OR+ti%3A%22gland+segmentation%22+OR+abs%3A%22gland+segmentation%22+OR+ti%3AGleason+OR+abs%3AGleason+OR+ti%3Aglomerul%2A+OR+abs%3Aglomerul%2A+OR+ti%3A%22blood+smear%22+OR+abs%3A%22blood+smear%22+OR+ti%3A%22bone+marrow%22+OR+abs%3A%22bone+marrow%22+OR+ti%3A%22Pap+smear%22+OR+abs%3A%22Pap+smear%22+OR+ti%3A%22tissue+microscopy%22+OR+abs%3A%22tissue+microscopy%22+OR+ti%3A%22multiplex+immunofluorescence%22+OR+abs%3A%22multiplex+immunofluorescence%22+OR+ti%3A%22imaging+mass+cytometry%22+OR+abs%3A%22imaging+mass+cytometry%22+OR+ti%3A%22CODEX+imaging%22+OR+abs%3A%22CODEX+imaging%22+OR+ti%3AMIBI+OR+abs%3AMIBI%29&start=0&max_results=200&sortBy=lastUpdatedDate&sortOrder=descending",
+        "https://api.crossref.org/works?query.title=Evidence+Field%3A+Adaptive+Covering+Programs+for+Medical+Imaging&rows=3"
+      ],
+      "verification_errors": [],
+      "formal_candidates": []
+    },
+    {
+      "source": "arxiv",
+      "id": "2610.24728",
+      "version": 1,
+      "first_posted_verified": "2026-10-17",
+      "verification_sources": [
+        "https://export.arxiv.org/api/query?search_query=%28ti%3Ahistopatholog%2A+OR+abs%3Ahistopatholog%2A+OR+ti%3Ahistolog%2A+OR+abs%3Ahistolog%2A+OR+ti%3Ahistomorpholog%2A+OR+abs%3Ahistomorpholog%2A+OR+ti%3Apathomic%2A+OR+abs%3Apathomic%2A+OR+ti%3A%22digital+pathology%22+OR+abs%3A%22digital+pathology%22+OR+ti%3A%22computational+pathology%22+OR+abs%3A%22computational+pathology%22+OR+ti%3A%22pathology+image%2A%22+OR+abs%3A%22pathology+image%2A%22+OR+ti%3A%22pathology+report%2A%22+OR+abs%3A%22pathology+report%2A%22+OR+ti%3Acytopatholog%2A+OR+abs%3Acytopatholog%2A+OR+ti%3A%22pathology+slide%2A%22+OR+abs%3A%22pathology+slide%2A%22+OR+ti%3Amulti-slide+OR+abs%3Amulti-slide+OR+ti%3A%22multi+slide%22+OR+abs%3A%22multi+slide%22+OR+ti%3AFFPE+OR+abs%3AFFPE+OR+ti%3A%22fresh+frozen%22+OR+abs%3A%22fresh+frozen%22+OR+ti%3Aformalin-fixed+OR+abs%3Aformalin-fixed+OR+ti%3Aparaffin-embedded+OR+abs%3Aparaffin-embedded+OR+ti%3Ahistomorphometr%2A+OR+abs%3Ahistomorphometr%2A+OR+ti%3Acytolog%2A+OR+abs%3Acytolog%2A+OR+ti%3Ahematopatholog%2A+OR+abs%3Ahematopatholog%2A+OR+ti%3Awhole-slide+OR+abs%3Awhole-slide+OR+ti%3A%22whole+slide%22+OR+abs%3A%22whole+slide%22+OR+ti%3AWSI+OR+abs%3AWSI+OR+ti%3Agigapixel+OR+abs%3Agigapixel+OR+ti%3A%22tissue+microarray%22+OR+abs%3A%22tissue+microarray%22+OR+ti%3Ahematoxylin+OR+abs%3Ahematoxylin+OR+ti%3Ahaematoxylin+OR+abs%3Ahaematoxylin+OR+ti%3AH%26E+OR+abs%3AH%26E+OR+ti%3Aimmunohistochem%2A+OR+abs%3Aimmunohistochem%2A+OR+ti%3A%22virtual+stain%2A%22+OR+abs%3A%22virtual+stain%2A%22+OR+ti%3A%22stain+transfer%22+OR+abs%3A%22stain+transfer%22+OR+ti%3A%22stain+normalization%22+OR+abs%3A%22stain+normalization%22+OR+ti%3A%22nuclei+segmentation%22+OR+abs%3A%22nuclei+segmentation%22+OR+ti%3A%22nucleus+detection%22+OR+abs%3A%22nucleus+detection%22+OR+ti%3Amitosis+OR+abs%3Amitosis+OR+ti%3Amitotic+OR+abs%3Amitotic+OR+ti%3A%22gland+segmentation%22+OR+abs%3A%22gland+segmentation%22+OR+ti%3AGleason+OR+abs%3AGleason+OR+ti%3Aglomerul%2A+OR+abs%3Aglomerul%2A+OR+ti%3A%22blood+smear%22+OR+abs%3A%22blood+smear%22+OR+ti%3A%22bone+marrow%22+OR+abs%3A%22bone+marrow%22+OR+ti%3A%22Pap+smear%22+OR+abs%3A%22Pap+smear%22+OR+ti%3A%22tissue+microscopy%22+OR+abs%3A%22tissue+microscopy%22+OR+ti%3A%22multiplex+immunofluorescence%22+OR+abs%3A%22multiplex+immunofluorescence%22+OR+ti%3A%22imaging+mass+cytometry%22+OR+abs%3A%22imaging+mass+cytometry%22+OR+ti%3A%22CODEX+imaging%22+OR+abs%3A%22CODEX+imaging%22+OR+ti%3AMIBI+OR+abs%3AMIBI%29&start=0&max_results=200&sortBy=lastUpdatedDate&sortOrder=descending",
+        "https://api.crossref.org/works?query.title=Evidence-informed+dynamic+modelling+and+intervention+prioritisation+in+diabetic+bone+marrow&rows=3"
+      ],
+      "verification_errors": [],
+      "formal_candidates": []
+    },
+    {
+      "source": "arxiv",
+      "id": "2606.02877",
+      "version": 3,
+      "first_posted_verified": "2026-06-01",
+      "verification_sources": [
+        "https://export.arxiv.org/api/query?search_query=%28ti%3Ahistopatholog%2A+OR+abs%3Ahistopatholog%2A+OR+ti%3Ahistolog%2A+OR+abs%3Ahistolog%2A+OR+ti%3Ahistomorpholog%2A+OR+abs%3Ahistomorpholog%2A+OR+ti%3Apathomic%2A+OR+abs%3Apathomic%2A+OR+ti%3A%22digital+pathology%22+OR+abs%3A%22digital+pathology%22+OR+ti%3A%22computational+pathology%22+OR+abs%3A%22computational+pathology%22+OR+ti%3A%22pathology+image%2A%22+OR+abs%3A%22pathology+image%2A%22+OR+ti%3A%22pathology+report%2A%22+OR+abs%3A%22pathology+report%2A%22+OR+ti%3Acytopatholog%2A+OR+abs%3Acytopatholog%2A+OR+ti%3A%22pathology+slide%2A%22+OR+abs%3A%22pathology+slide%2A%22+OR+ti%3Amulti-slide+OR+abs%3Amulti-slide+OR+ti%3A%22multi+slide%22+OR+abs%3A%22multi+slide%22+OR+ti%3AFFPE+OR+abs%3AFFPE+OR+ti%3A%22fresh+frozen%22+OR+abs%3A%22fresh+frozen%22+OR+ti%3Aformalin-fixed+OR+abs%3Aformalin-fixed+OR+ti%3Aparaffin-embedded+OR+abs%3Aparaffin-embedded+OR+ti%3Ahistomorphometr%2A+OR+abs%3Ahistomorphometr%2A+OR+ti%3Acytolog%2A+OR+abs%3Acytolog%2A+OR+ti%3Ahematopatholog%2A+OR+abs%3Ahematopatholog%2A+OR+ti%3Awhole-slide+OR+abs%3Awhole-slide+OR+ti%3A%22whole+slide%22+OR+abs%3A%22whole+slide%22+OR+ti%3AWSI+OR+abs%3AWSI+OR+ti%3Agigapixel+OR+abs%3Agigapixel+OR+ti%3A%22tissue+microarray%22+OR+abs%3A%22tissue+microarray%22+OR+ti%3Ahematoxylin+OR+abs%3Ahematoxylin+OR+ti%3Ahaematoxylin+OR+abs%3Ahaematoxylin+OR+ti%3AH%26E+OR+abs%3AH%26E+OR+ti%3Aimmunohistochem%2A+OR+abs%3Aimmunohistochem%2A+OR+ti%3A%22virtual+stain%2A%22+OR+abs%3A%22virtual+stain%2A%22+OR+ti%3A%22stain+transfer%22+OR+abs%3A%22stain+transfer%22+OR+ti%3A%22stain+normalization%22+OR+abs%3A%22stain+normalization%22+OR+ti%3A%22nuclei+segmentation%22+OR+abs%3A%22nuclei+segmentation%22+OR+ti%3A%22nucleus+detection%22+OR+abs%3A%22nucleus+detection%22+OR+ti%3Amitosis+OR+abs%3Amitosis+OR+ti%3Amitotic+OR+abs%3Amitotic+OR+ti%3A%22gland+segmentation%22+OR+abs%3A%22gland+segmentation%22+OR+ti%3AGleason+OR+abs%3AGleason+OR+ti%3Aglomerul%2A+OR+abs%3Aglomerul%2A+OR+ti%3A%22blood+smear%22+OR+abs%3A%22blood+smear%22+OR+ti%3A%22bone+marrow%22+OR+abs%3A%22bone+marrow%22+OR+ti%3A%22Pap+smear%22+OR+abs%3A%22Pap+smear%22+OR+ti%3A%22tissue+microscopy%22+OR+abs%3A%22tissue+microscopy%22+OR+ti%3A%22multiplex+immunofluorescence%22+OR+abs%3A%22multiplex+immunofluorescence%22+OR+ti%3A%22imaging+mass+cytometry%22+OR+abs%3A%22imaging+mass+cytometry%22+OR+ti%3A%22CODEX+imaging%22+OR+abs%3A%22CODEX+imaging%22+OR+ti%3AMIBI+OR+abs%3AMIBI%29&start=0&max_results=200&sortBy=lastUpdatedDate&sortOrder=descending",
+        "https://api.crossref.org/works?query.title=Pathway-Structured+Privileged+Distillation+for+Deployable+Computational+Pathology&rows=3"
+      ],
+      "verification_errors": [],
+      "formal_candidates": []
+    },
+    {
+      "source": "arxiv",
+      "id": "2610.23475",
+      "version": 1,
+      "first_posted_verified": "2026-10-16",
+      "verification_sources": [
+        "https://export.arxiv.org/api/query?search_query=%28ti%3Ahistopatholog%2A+OR+abs%3Ahistopatholog%2A+OR+ti%3Ahistolog%2A+OR+abs%3Ahistolog%2A+OR+ti%3Ahistomorpholog%2A+OR+abs%3Ahistomorpholog%2A+OR+ti%3Apathomic%2A+OR+abs%3Apathomic%2A+OR+ti%3A%22digital+pathology%22+OR+abs%3A%22digital+pathology%22+OR+ti%3A%22computational+pathology%22+OR+abs%3A%22computational+pathology%22+OR+ti%3A%22pathology+image%2A%22+OR+abs%3A%22pathology+image%2A%22+OR+ti%3A%22pathology+report%2A%22+OR+abs%3A%22pathology+report%2A%22+OR+ti%3Acytopatholog%2A+OR+abs%3Acytopatholog%2A+OR+ti%3A%22pathology+slide%2A%22+OR+abs%3A%22pathology+slide%2A%22+OR+ti%3Amulti-slide+OR+abs%3Amulti-slide+OR+ti%3A%22multi+slide%22+OR+abs%3A%22multi+slide%22+OR+ti%3AFFPE+OR+abs%3AFFPE+OR+ti%3A%22fresh+frozen%22+OR+abs%3A%22fresh+frozen%22+OR+ti%3Aformalin-fixed+OR+abs%3Aformalin-fixed+OR+ti%3Aparaffin-embedded+OR+abs%3Aparaffin-embedded+OR+ti%3Ahistomorphometr%2A+OR+abs%3Ahistomorphometr%2A+OR+ti%3Acytolog%2A+OR+abs%3Acytolog%2A+OR+ti%3Ahematopatholog%2A+OR+abs%3Ahematopatholog%2A+OR+ti%3Awhole-slide+OR+abs%3Awhole-slide+OR+ti%3A%22whole+slide%22+OR+abs%3A%22whole+slide%22+OR+ti%3AWSI+OR+abs%3AWSI+OR+ti%3Agigapixel+OR+abs%3Agigapixel+OR+ti%3A%22tissue+microarray%22+OR+abs%3A%22tissue+microarray%22+OR+ti%3Ahematoxylin+OR+abs%3Ahematoxylin+OR+ti%3Ahaematoxylin+OR+abs%3Ahaematoxylin+OR+ti%3AH%26E+OR+abs%3AH%26E+OR+ti%3Aimmunohistochem%2A+OR+abs%3Aimmunohistochem%2A+OR+ti%3A%22virtual+stain%2A%22+OR+abs%3A%22virtual+stain%2A%22+OR+ti%3A%22stain+transfer%22+OR+abs%3A%22stain+transfer%22+OR+ti%3A%22stain+normalization%22+OR+abs%3A%22stain+normalization%22+OR+ti%3A%22nuclei+segmentation%22+OR+abs%3A%22nuclei+segmentation%22+OR+ti%3A%22nucleus+detection%22+OR+abs%3A%22nucleus+detection%22+OR+ti%3Amitosis+OR+abs%3Amitosis+OR+ti%3Amitotic+OR+abs%3Amitotic+OR+ti%3A%22gland+segmentation%22+OR+abs%3A%22gland+segmentation%22+OR+ti%3AGleason+OR+abs%3AGleason+OR+ti%3Aglomerul%2A+OR+abs%3Aglomerul%2A+OR+ti%3A%22blood+smear%22+OR+abs%3A%22blood+smear%22+OR+ti%3A%22bone+marrow%22+OR+abs%3A%22bone+marrow%22+OR+ti%3A%22Pap+smear%22+OR+abs%3A%22Pap+smear%22+OR+ti%3A%22tissue+microscopy%22+OR+abs%3A%22tissue+microscopy%22+OR+ti%3A%22multiplex+immunofluorescence%22+OR+abs%3A%22multiplex+immunofluorescence%22+OR+ti%3A%22imaging+mass+cytometry%22+OR+abs%3A%22imaging+mass+cytometry%22+OR+ti%3A%22CODEX+imaging%22+OR+abs%3A%22CODEX+imaging%22+OR+ti%3AMIBI+OR+abs%3AMIBI%29&start=0&max_results=200&sortBy=lastUpdatedDate&sortOrder=descending",
+        "https://api.crossref.org/works?query.title=TAN%3A+A+Size-+and+Form-Adaptive+Masked-Convolution+Encoder+for+Tissue+Graphs&rows=3"
+      ],
+      "verification_errors": [],
+      "formal_candidates": []
+    },
+    {
+      "source": "arxiv",
+      "id": "2610.24037",
+      "version": 1,
+      "first_posted_verified": "2026-10-16",
+      "verification_sources": [
+        "https://export.arxiv.org/api/query?search_query=%28ti%3Ahistopatholog%2A+OR+abs%3Ahistopatholog%2A+OR+ti%3Ahistolog%2A+OR+abs%3Ahistolog%2A+OR+ti%3Ahistomorpholog%2A+OR+abs%3Ahistomorpholog%2A+OR+ti%3Apathomic%2A+OR+abs%3Apathomic%2A+OR+ti%3A%22digital+pathology%22+OR+abs%3A%22digital+pathology%22+OR+ti%3A%22computational+pathology%22+OR+abs%3A%22computational+pathology%22+OR+ti%3A%22pathology+image%2A%22+OR+abs%3A%22pathology+image%2A%22+OR+ti%3A%22pathology+report%2A%22+OR+abs%3A%22pathology+report%2A%22+OR+ti%3Acytopatholog%2A+OR+abs%3Acytopatholog%2A+OR+ti%3A%22pathology+slide%2A%22+OR+abs%3A%22pathology+slide%2A%22+OR+ti%3Amulti-slide+OR+abs%3Amulti-slide+OR+ti%3A%22multi+slide%22+OR+abs%3A%22multi+slide%22+OR+ti%3AFFPE+OR+abs%3AFFPE+OR+ti%3A%22fresh+frozen%22+OR+abs%3A%22fresh+frozen%22+OR+ti%3Aformalin-fixed+OR+abs%3Aformalin-fixed+OR+ti%3Aparaffin-embedded+OR+abs%3Aparaffin-embedded+OR+ti%3Ahistomorphometr%2A+OR+abs%3Ahistomorphometr%2A+OR+ti%3Acytolog%2A+OR+abs%3Acytolog%2A+OR+ti%3Ahematopatholog%2A+OR+abs%3Ahematopatholog%2A+OR+ti%3Awhole-slide+OR+abs%3Awhole-slide+OR+ti%3A%22whole+slide%22+OR+abs%3A%22whole+slide%22+OR+ti%3AWSI+OR+abs%3AWSI+OR+ti%3Agigapixel+OR+abs%3Agigapixel+OR+ti%3A%22tissue+microarray%22+OR+abs%3A%22tissue+microarray%22+OR+ti%3Ahematoxylin+OR+abs%3Ahematoxylin+OR+ti%3Ahaematoxylin+OR+abs%3Ahaematoxylin+OR+ti%3AH%26E+OR+abs%3AH%26E+OR+ti%3Aimmunohistochem%2A+OR+abs%3Aimmunohistochem%2A+OR+ti%3A%22virtual+stain%2A%22+OR+abs%3A%22virtual+stain%2A%22+OR+ti%3A%22stain+transfer%22+OR+abs%3A%22stain+transfer%22+OR+ti%3A%22stain+normalization%22+OR+abs%3A%22stain+normalization%22+OR+ti%3A%22nuclei+segmentation%22+OR+abs%3A%22nuclei+segmentation%22+OR+ti%3A%22nucleus+detection%22+OR+abs%3A%22nucleus+detection%22+OR+ti%3Amitosis+OR+abs%3Amitosis+OR+ti%3Amitotic+OR+abs%3Amitotic+OR+ti%3A%22gland+segmentation%22+OR+abs%3A%22gland+segmentation%22+OR+ti%3AGleason+OR+abs%3AGleason+OR+ti%3Aglomerul%2A+OR+abs%3Aglomerul%2A+OR+ti%3A%22blood+smear%22+OR+abs%3A%22blood+smear%22+OR+ti%3A%22bone+marrow%22+OR+abs%3A%22bone+marrow%22+OR+ti%3A%22Pap+smear%22+OR+abs%3A%22Pap+smear%22+OR+ti%3A%22tissue+microscopy%22+OR+abs%3A%22tissue+microscopy%22+OR+ti%3A%22multiplex+immunofluorescence%22+OR+abs%3A%22multiplex+immunofluorescence%22+OR+ti%3A%22imaging+mass+cytometry%22+OR+abs%3A%22imaging+mass+cytometry%22+OR+ti%3A%22CODEX+imaging%22+OR+abs%3A%22CODEX+imaging%22+OR+ti%3AMIBI+OR+abs%3AMIBI%29&start=0&max_results=200&sortBy=lastUpdatedDate&sortOrder=descending",
+        "https://api.crossref.org/works?query.title=Benchmarking+and+Improvement+of+Artifact+Segmentation+Methods+in+H%26E-Stained+Whole+Slide+Imaging&rows=3"
+      ],
+      "verification_errors": [],
+      "formal_candidates": []
+    },
+    {
+      "source": "arxiv",
+      "id": "2610.24023",
+      "version": 1,
+      "first_posted_verified": "2026-10-16",
+      "verification_sources": [
+        "https://export.arxiv.org/api/query?search_query=%28ti%3Ahistopatholog%2A+OR+abs%3Ahistopatholog%2A+OR+ti%3Ahistolog%2A+OR+abs%3Ahistolog%2A+OR+ti%3Ahistomorpholog%2A+OR+abs%3Ahistomorpholog%2A+OR+ti%3Apathomic%2A+OR+abs%3Apathomic%2A+OR+ti%3A%22digital+pathology%22+OR+abs%3A%22digital+pathology%22+OR+ti%3A%22computational+pathology%22+OR+abs%3A%22computational+pathology%22+OR+ti%3A%22pathology+image%2A%22+OR+abs%3A%22pathology+image%2A%22+OR+ti%3A%22pathology+report%2A%22+OR+abs%3A%22pathology+report%2A%22+OR+ti%3Acytopatholog%2A+OR+abs%3Acytopatholog%2A+OR+ti%3A%22pathology+slide%2A%22+OR+abs%3A%22pathology+slide%2A%22+OR+ti%3Amulti-slide+OR+abs%3Amulti-slide+OR+ti%3A%22multi+slide%22+OR+abs%3A%22multi+slide%22+OR+ti%3AFFPE+OR+abs%3AFFPE+OR+ti%3A%22fresh+frozen%22+OR+abs%3A%22fresh+frozen%22+OR+ti%3Aformalin-fixed+OR+abs%3Aformalin-fixed+OR+ti%3Aparaffin-embedded+OR+abs%3Aparaffin-embedded+OR+ti%3Ahistomorphometr%2A+OR+abs%3Ahistomorphometr%2A+OR+ti%3Acytolog%2A+OR+abs%3Acytolog%2A+OR+ti%3Ahematopatholog%2A+OR+abs%3Ahematopatholog%2A+OR+ti%3Awhole-slide+OR+abs%3Awhole-slide+OR+ti%3A%22whole+slide%22+OR+abs%3A%22whole+slide%22+OR+ti%3AWSI+OR+abs%3AWSI+OR+ti%3Agigapixel+OR+abs%3Agigapixel+OR+ti%3A%22tissue+microarray%22+OR+abs%3A%22tissue+microarray%22+OR+ti%3Ahematoxylin+OR+abs%3Ahematoxylin+OR+ti%3Ahaematoxylin+OR+abs%3Ahaematoxylin+OR+ti%3AH%26E+OR+abs%3AH%26E+OR+ti%3Aimmunohistochem%2A+OR+abs%3Aimmunohistochem%2A+OR+ti%3A%22virtual+stain%2A%22+OR+abs%3A%22virtual+stain%2A%22+OR+ti%3A%22stain+transfer%22+OR+abs%3A%22stain+transfer%22+OR+ti%3A%22stain+normalization%22+OR+abs%3A%22stain+normalization%22+OR+ti%3A%22nuclei+segmentation%22+OR+abs%3A%22nuclei+segmentation%22+OR+ti%3A%22nucleus+detection%22+OR+abs%3A%22nucleus+detection%22+OR+ti%3Amitosis+OR+abs%3Amitosis+OR+ti%3Amitotic+OR+abs%3Amitotic+OR+ti%3A%22gland+segmentation%22+OR+abs%3A%22gland+segmentation%22+OR+ti%3AGleason+OR+abs%3AGleason+OR+ti%3Aglomerul%2A+OR+abs%3Aglomerul%2A+OR+ti%3A%22blood+smear%22+OR+abs%3A%22blood+smear%22+OR+ti%3A%22bone+marrow%22+OR+abs%3A%22bone+marrow%22+OR+ti%3A%22Pap+smear%22+OR+abs%3A%22Pap+smear%22+OR+ti%3A%22tissue+microscopy%22+OR+abs%3A%22tissue+microscopy%22+OR+ti%3A%22multiplex+immunofluorescence%22+OR+abs%3A%22multiplex+immunofluorescence%22+OR+ti%3A%22imaging+mass+cytometry%22+OR+abs%3A%22imaging+mass+cytometry%22+OR+ti%3A%22CODEX+imaging%22+OR+abs%3A%22CODEX+imaging%22+OR+ti%3AMIBI+OR+abs%3AMIBI%29&start=0&max_results=200&sortBy=lastUpdatedDate&sortOrder=descending",
+        "https://api.crossref.org/works?query.title=ProtoGTX%3A+Prototype-Aligned+Graph+Transformer+for+Explainable+Whole-Slide+Image+Analysis&rows=3"
+      ],
+      "verification_errors": [],
+      "formal_candidates": []
+    },
+    {
+      "source": "arxiv",
+      "id": "2610.24002",
+      "version": 1,
+      "first_posted_verified": "2026-10-15",
+      "verification_sources": [
+        "https://export.arxiv.org/api/query?search_query=%28ti%3Asingle-cell+OR+abs%3Asingle-cell+OR+ti%3A%22single+cell%22+OR+abs%3A%22single+cell%22+OR+ti%3AscRNA-seq+OR+abs%3AscRNA-seq+OR+ti%3AscRNAseq+OR+abs%3AscRNAseq+OR+ti%3AscATAC-seq+OR+abs%3AscATAC-seq+OR+ti%3AscATAC+OR+abs%3AscATAC+OR+ti%3A%22single-cell+multiomic%2A%22+OR+abs%3A%22single-cell+multiomic%2A%22+OR+ti%3A%22single-cell+multi-omic%2A%22+OR+abs%3A%22single-cell+multi-omic%2A%22+OR+ti%3A%22single-cell+foundation+model%2A%22+OR+abs%3A%22single-cell+foundation+model%2A%22+OR+ti%3A%22single-cell+representation%22+OR+abs%3A%22single-cell+representation%22+OR+ti%3A%22single-cell+annotation%22+OR+abs%3A%22single-cell+annotation%22+OR+ti%3A%22cell+type+annotation%22+OR+abs%3A%22cell+type+annotation%22+OR+ti%3A%22cell+atlas%22+OR+abs%3A%22cell+atlas%22+OR+ti%3Acell-state+OR+abs%3Acell-state+OR+ti%3A%22cell+state%22+OR+abs%3A%22cell+state%22+OR+ti%3A%22cross-modal+cell+annotation%22+OR+abs%3A%22cross-modal+cell+annotation%22+OR+ti%3A%22RNA+ATAC%22+OR+abs%3A%22RNA+ATAC%22+OR+ti%3ACITE-seq+OR+abs%3ACITE-seq+OR+ti%3Amultiome+OR+abs%3Amultiome+OR+ti%3A%22cell+trajectory%22+OR+abs%3A%22cell+trajectory%22+OR+ti%3A%22cell+fate%22+OR+abs%3A%22cell+fate%22+OR+ti%3A%22cell+perturbation%22+OR+abs%3A%22cell+perturbation%22+OR+ti%3A%22cell+profiling%22+OR+abs%3A%22cell+profiling%22+OR+ti%3A%22cell+phenotyping%22+OR+abs%3A%22cell+phenotyping%22+OR+ti%3ACellProfiler+OR+abs%3ACellProfiler+OR+ti%3A%22cell+painting%22+OR+abs%3A%22cell+painting%22+OR+ti%3Amorpholomic%2A+OR+abs%3Amorpholomic%2A%29&start=0&max_results=200&sortBy=lastUpdatedDate&sortOrder=descending",
+        "https://api.crossref.org/works?query.title=spora%3A+A+Unified+Multimodal+Dataset+and+Platform+for+Spatial+Proteomics&rows=3"
+      ],
+      "verification_errors": [],
+      "formal_candidates": []
+    },
+    {
+      "source": "arxiv",
+      "id": "2610.28579",
+      "version": 1,
+      "first_posted_verified": "2026-10-20",
+      "verification_sources": [
+        "https://export.arxiv.org/api/query?search_query=%28ti%3Asingle-cell+OR+abs%3Asingle-cell+OR+ti%3A%22single+cell%22+OR+abs%3A%22single+cell%22+OR+ti%3AscRNA-seq+OR+abs%3AscRNA-seq+OR+ti%3AscRNAseq+OR+abs%3AscRNAseq+OR+ti%3AscATAC-seq+OR+abs%3AscATAC-seq+OR+ti%3AscATAC+OR+abs%3AscATAC+OR+ti%3A%22single-cell+multiomic%2A%22+OR+abs%3A%22single-cell+multiomic%2A%22+OR+ti%3A%22single-cell+multi-omic%2A%22+OR+abs%3A%22single-cell+multi-omic%2A%22+OR+ti%3A%22single-cell+foundation+model%2A%22+OR+abs%3A%22single-cell+foundation+model%2A%22+OR+ti%3A%22single-cell+representation%22+OR+abs%3A%22single-cell+representation%22+OR+ti%3A%22single-cell+annotation%22+OR+abs%3A%22single-cell+annotation%22+OR+ti%3A%22cell+type+annotation%22+OR+abs%3A%22cell+type+annotation%22+OR+ti%3A%22cell+atlas%22+OR+abs%3A%22cell+atlas%22+OR+ti%3Acell-state+OR+abs%3Acell-state+OR+ti%3A%22cell+state%22+OR+abs%3A%22cell+state%22+OR+ti%3A%22cross-modal+cell+annotation%22+OR+abs%3A%22cross-modal+cell+annotation%22+OR+ti%3A%22RNA+ATAC%22+OR+abs%3A%22RNA+ATAC%22+OR+ti%3ACITE-seq+OR+abs%3ACITE-seq+OR+ti%3Amultiome+OR+abs%3Amultiome+OR+ti%3A%22cell+trajectory%22+OR+abs%3A%22cell+trajectory%22+OR+ti%3A%22cell+fate%22+OR+abs%3A%22cell+fate%22+OR+ti%3A%22cell+perturbation%22+OR+abs%3A%22cell+perturbation%22+OR+ti%3A%22cell+profiling%22+OR+abs%3A%22cell+profiling%22+OR+ti%3A%22cell+phenotyping%22+OR+abs%3A%22cell+phenotyping%22+OR+ti%3ACellProfiler+OR+abs%3ACellProfiler+OR+ti%3A%22cell+painting%22+OR+abs%3A%22cell+painting%22+OR+ti%3Amorpholomic%2A+OR+abs%3Amorpholomic%2A%29&start=0&max_results=200&sortBy=lastUpdatedDate&sortOrder=descending",
+        "https://api.crossref.org/works?query.title=Spatially+Informed+and+Direction+Sensitive+Representation+Learning+for+Spatial+Transcriptomics&rows=3"
+      ],
+      "verification_errors": [],
+      "formal_candidates": []
+    },
+    {
+      "source": "arxiv",
+      "id": "2607.04987",
+      "version": 5,
+      "first_posted_verified": "2026-07-06",
+      "verification_sources": [
+        "https://export.arxiv.org/api/query?search_query=%28ti%3A%22spatial+transcriptom%2A%22+OR+abs%3A%22spatial+transcriptom%2A%22+OR+ti%3A%22spatial+proteom%2A%22+OR+abs%3A%22spatial+proteom%2A%22+OR+ti%3A%22spatial+multiomic%2A%22+OR+abs%3A%22spatial+multiomic%2A%22+OR+ti%3A%22spatial+multi-omic%2A%22+OR+abs%3A%22spatial+multi-omic%2A%22+OR+ti%3A%22spatial+omic%2A%22+OR+abs%3A%22spatial+omic%2A%22+OR+ti%3A%22spatial+genom%2A%22+OR+abs%3A%22spatial+genom%2A%22+OR+ti%3A%22spatial+metabolom%2A%22+OR+abs%3A%22spatial+metabolom%2A%22+OR+ti%3A%22spatial+epigenom%2A%22+OR+abs%3A%22spatial+epigenom%2A%22+OR+ti%3A%22spatial+chromatin%22+OR+abs%3A%22spatial+chromatin%22+OR+ti%3A%22spatial+gene+expression%22+OR+abs%3A%22spatial+gene+expression%22+OR+ti%3A%22spatially+variable+gene%2A%22+OR+abs%3A%22spatially+variable+gene%2A%22+OR+ti%3A%22spatial+domain%2A%22+OR+abs%3A%22spatial+domain%2A%22+OR+ti%3A%22spatial+deconvolution%22+OR+abs%3A%22spatial+deconvolution%22+OR+ti%3A%22cell+type+deconvolution%22+OR+abs%3A%22cell+type+deconvolution%22+OR+ti%3A%22spatial+cell+annotation%22+OR+abs%3A%22spatial+cell+annotation%22+OR+ti%3A%22spatial+cell+mapping%22+OR+abs%3A%22spatial+cell+mapping%22+OR+ti%3A%22spatial+molecular+profiling%22+OR+abs%3A%22spatial+molecular+profiling%22+OR+ti%3A%22in+situ+sequencing%22+OR+abs%3A%22in+situ+sequencing%22+OR+ti%3A%22in-situ+sequencing%22+OR+abs%3A%22in-situ+sequencing%22+OR+ti%3AMERFISH+OR+abs%3AMERFISH+OR+ti%3AseqFISH+OR+abs%3AseqFISH+OR+ti%3ASlide-seq+OR+abs%3ASlide-seq+OR+ti%3AVisium+OR+abs%3AVisium+OR+ti%3AXenium+OR+abs%3AXenium+OR+ti%3ACosMx+OR+abs%3ACosMx+OR+ti%3AStereo-seq+OR+abs%3AStereo-seq+OR+ti%3ASTARmap+OR+abs%3ASTARmap+OR+ti%3AGeoMx+OR+abs%3AGeoMx+OR+ti%3ADBiT-seq+OR+abs%3ADBiT-seq+OR+ti%3A%22spatial+perturbation%22+OR+abs%3A%22spatial+perturbation%22+OR+ti%3A%22spatial+alignment%22+OR+abs%3A%22spatial+alignment%22+OR+ti%3A%22multi-slice+integration%22+OR+abs%3A%22multi-slice+integration%22%29&start=0&max_results=200&sortBy=lastUpdatedDate&sortOrder=descending",
+        "https://api.crossref.org/works?query.title=Data-Driven+Soft+Labeling+Scales+DNA+Read+Classification+to+Whole-Body+Cell-Type+Deconvolution&rows=3"
+      ],
+      "verification_errors": [],
+      "formal_candidates": []
+    },
+    {
+      "source": "arxiv",
+      "id": "2610.23590",
+      "version": 1,
+      "first_posted_verified": "2026-10-16",
+      "verification_sources": [
+        "https://export.arxiv.org/api/query?search_query=%28ti%3A%22spatial+transcriptom%2A%22+OR+abs%3A%22spatial+transcriptom%2A%22+OR+ti%3A%22spatial+proteom%2A%22+OR+abs%3A%22spatial+proteom%2A%22+OR+ti%3A%22spatial+multiomic%2A%22+OR+abs%3A%22spatial+multiomic%2A%22+OR+ti%3A%22spatial+multi-omic%2A%22+OR+abs%3A%22spatial+multi-omic%2A%22+OR+ti%3A%22spatial+omic%2A%22+OR+abs%3A%22spatial+omic%2A%22+OR+ti%3A%22spatial+genom%2A%22+OR+abs%3A%22spatial+genom%2A%22+OR+ti%3A%22spatial+metabolom%2A%22+OR+abs%3A%22spatial+metabolom%2A%22+OR+ti%3A%22spatial+epigenom%2A%22+OR+abs%3A%22spatial+epigenom%2A%22+OR+ti%3A%22spatial+chromatin%22+OR+abs%3A%22spatial+chromatin%22+OR+ti%3A%22spatial+gene+expression%22+OR+abs%3A%22spatial+gene+expression%22+OR+ti%3A%22spatially+variable+gene%2A%22+OR+abs%3A%22spatially+variable+gene%2A%22+OR+ti%3A%22spatial+domain%2A%22+OR+abs%3A%22spatial+domain%2A%22+OR+ti%3A%22spatial+deconvolution%22+OR+abs%3A%22spatial+deconvolution%22+OR+ti%3A%22cell+type+deconvolution%22+OR+abs%3A%22cell+type+deconvolution%22+OR+ti%3A%22spatial+cell+annotation%22+OR+abs%3A%22spatial+cell+annotation%22+OR+ti%3A%22spatial+cell+mapping%22+OR+abs%3A%22spatial+cell+mapping%22+OR+ti%3A%22spatial+molecular+profiling%22+OR+abs%3A%22spatial+molecular+profiling%22+OR+ti%3A%22in+situ+sequencing%22+OR+abs%3A%22in+situ+sequencing%22+OR+ti%3A%22in-situ+sequencing%22+OR+abs%3A%22in-situ+sequencing%22+OR+ti%3AMERFISH+OR+abs%3AMERFISH+OR+ti%3AseqFISH+OR+abs%3AseqFISH+OR+ti%3ASlide-seq+OR+abs%3ASlide-seq+OR+ti%3AVisium+OR+abs%3AVisium+OR+ti%3AXenium+OR+abs%3AXenium+OR+ti%3ACosMx+OR+abs%3ACosMx+OR+ti%3AStereo-seq+OR+abs%3AStereo-seq+OR+ti%3ASTARmap+OR+abs%3ASTARmap+OR+ti%3AGeoMx+OR+abs%3AGeoMx+OR+ti%3ADBiT-seq+OR+abs%3ADBiT-seq+OR+ti%3A%22spatial+perturbation%22+OR+abs%3A%22spatial+perturbation%22+OR+ti%3A%22spatial+alignment%22+OR+abs%3A%22spatial+alignment%22+OR+ti%3A%22multi-slice+integration%22+OR+abs%3A%22multi-slice+integration%22%29&start=0&max_results=200&sortBy=lastUpdatedDate&sortOrder=descending",
+        "https://api.crossref.org/works?query.title=Boundary+Detection+for+High-Dimensional+Point+Clouds&rows=3"
+      ],
+      "verification_errors": [],
+      "formal_candidates": []
+    },
+    {
+      "source": "arxiv",
+      "id": "2610.31454",
+      "version": 1,
+      "first_posted_verified": "2026-10-22",
+      "verification_sources": [
+        "https://export.arxiv.org/api/query?search_query=%28ti%3Asingle-cell+OR+abs%3Asingle-cell+OR+ti%3A%22single+cell%22+OR+abs%3A%22single+cell%22+OR+ti%3AscRNA-seq+OR+abs%3AscRNA-seq+OR+ti%3AscRNAseq+OR+abs%3AscRNAseq+OR+ti%3AscATAC-seq+OR+abs%3AscATAC-seq+OR+ti%3AscATAC+OR+abs%3AscATAC+OR+ti%3A%22single-cell+multiomic%2A%22+OR+abs%3A%22single-cell+multiomic%2A%22+OR+ti%3A%22single-cell+multi-omic%2A%22+OR+abs%3A%22single-cell+multi-omic%2A%22+OR+ti%3A%22single-cell+foundation+model%2A%22+OR+abs%3A%22single-cell+foundation+model%2A%22+OR+ti%3A%22single-cell+representation%22+OR+abs%3A%22single-cell+representation%22+OR+ti%3A%22single-cell+annotation%22+OR+abs%3A%22single-cell+annotation%22+OR+ti%3A%22cell+type+annotation%22+OR+abs%3A%22cell+type+annotation%22+OR+ti%3A%22cell+atlas%22+OR+abs%3A%22cell+atlas%22+OR+ti%3Acell-state+OR+abs%3Acell-state+OR+ti%3A%22cell+state%22+OR+abs%3A%22cell+state%22+OR+ti%3A%22cross-modal+cell+annotation%22+OR+abs%3A%22cross-modal+cell+annotation%22+OR+ti%3A%22RNA+ATAC%22+OR+abs%3A%22RNA+ATAC%22+OR+ti%3ACITE-seq+OR+abs%3ACITE-seq+OR+ti%3Amultiome+OR+abs%3Amultiome+OR+ti%3A%22cell+trajectory%22+OR+abs%3A%22cell+trajectory%22+OR+ti%3A%22cell+fate%22+OR+abs%3A%22cell+fate%22+OR+ti%3A%22cell+perturbation%22+OR+abs%3A%22cell+perturbation%22+OR+ti%3A%22cell+profiling%22+OR+abs%3A%22cell+profiling%22+OR+ti%3A%22cell+phenotyping%22+OR+abs%3A%22cell+phenotyping%22+OR+ti%3ACellProfiler+OR+abs%3ACellProfiler+OR+ti%3A%22cell+painting%22+OR+abs%3A%22cell+painting%22+OR+ti%3Amorpholomic%2A+OR+abs%3Amorpholomic%2A%29&start=0&max_results=200&sortBy=lastUpdatedDate&sortOrder=descending",
+        "https://api.crossref.org/works?query.title=Benchmarking+Recent+Single-Cell+Synthetic+Data+Generation+Methods+on+the+OneK1K+Dataset&rows=3"
+      ],
+      "verification_errors": [],
+      "formal_candidates": []
+    },
+    {
+      "source": "arxiv",
+      "id": "2608.15288",
+      "version": 2,
+      "first_posted_verified": "2026-08-15",
+      "verification_sources": [
+        "https://export.arxiv.org/api/query?search_query=%28ti%3Amultiomic%2A+OR+abs%3Amultiomic%2A+OR+ti%3Amulti-omic%2A+OR+abs%3Amulti-omic%2A+OR+ti%3A%22multimodal+omic%2A%22+OR+abs%3A%22multimodal+omic%2A%22+OR+ti%3A%22multi-modal+omic%2A%22+OR+abs%3A%22multi-modal+omic%2A%22+OR+ti%3A%22integrative+omic%2A%22+OR+abs%3A%22integrative+omic%2A%22+OR+ti%3Apathogenomic%2A+OR+abs%3Apathogenomic%2A+OR+ti%3Aradiogenomic%2A+OR+abs%3Aradiogenomic%2A+OR+ti%3Aimage-omics+OR+abs%3Aimage-omics+OR+ti%3Agenomics-guided+OR+abs%3Agenomics-guided+OR+ti%3A%22genomics+guided%22+OR+abs%3A%22genomics+guided%22+OR+ti%3A%22molecularly+informed%22+OR+abs%3A%22molecularly+informed%22+OR+ti%3A%22gene+expression+prediction%22+OR+abs%3A%22gene+expression+prediction%22+OR+ti%3Ahistology-conditioned+OR+abs%3Ahistology-conditioned+OR+ti%3A%22histology+conditioned%22+OR+abs%3A%22histology+conditioned%22+OR+ti%3A%22multimodal+survival%22+OR+abs%3A%22multimodal+survival%22+OR+ti%3A%22multi-modal+survival%22+OR+abs%3A%22multi-modal+survival%22+OR+ti%3A%22missing+modality%22+OR+abs%3A%22missing+modality%22+OR+ti%3A%22missing+modalities%22+OR+abs%3A%22missing+modalities%22+OR+ti%3A%22cross-modal+imputation%22+OR+abs%3A%22cross-modal+imputation%22+OR+ti%3Apan-cancer+OR+abs%3Apan-cancer+OR+ti%3Apancancer+OR+abs%3Apancancer+OR+ti%3A%22cancer+molecular+subtype%22+OR+abs%3A%22cancer+molecular+subtype%22+OR+ti%3A%22molecular+pathology%22+OR+abs%3A%22molecular+pathology%22%29&start=0&max_results=200&sortBy=lastUpdatedDate&sortOrder=descending",
+        "https://api.crossref.org/works?query.title=D2R2%3A+Discrete+Diffusion+with+Regulation+Reinforcement+for+Single-Cell+Perturbation+Prediction&rows=3"
+      ],
+      "verification_errors": [],
+      "formal_candidates": []
+    },
+    {
+      "source": "arxiv",
+      "id": "2610.29227",
+      "version": 1,
+      "first_posted_verified": "2026-10-21",
+      "verification_sources": [
+        "https://export.arxiv.org/api/query?search_query=%28ti%3Asingle-cell+OR+abs%3Asingle-cell+OR+ti%3A%22single+cell%22+OR+abs%3A%22single+cell%22+OR+ti%3AscRNA-seq+OR+abs%3AscRNA-seq+OR+ti%3AscRNAseq+OR+abs%3AscRNAseq+OR+ti%3AscATAC-seq+OR+abs%3AscATAC-seq+OR+ti%3AscATAC+OR+abs%3AscATAC+OR+ti%3A%22single-cell+multiomic%2A%22+OR+abs%3A%22single-cell+multiomic%2A%22+OR+ti%3A%22single-cell+multi-omic%2A%22+OR+abs%3A%22single-cell+multi-omic%2A%22+OR+ti%3A%22single-cell+foundation+model%2A%22+OR+abs%3A%22single-cell+foundation+model%2A%22+OR+ti%3A%22single-cell+representation%22+OR+abs%3A%22single-cell+representation%22+OR+ti%3A%22single-cell+annotation%22+OR+abs%3A%22single-cell+annotation%22+OR+ti%3A%22cell+type+annotation%22+OR+abs%3A%22cell+type+annotation%22+OR+ti%3A%22cell+atlas%22+OR+abs%3A%22cell+atlas%22+OR+ti%3Acell-state+OR+abs%3Acell-state+OR+ti%3A%22cell+state%22+OR+abs%3A%22cell+state%22+OR+ti%3A%22cross-modal+cell+annotation%22+OR+abs%3A%22cross-modal+cell+annotation%22+OR+ti%3A%22RNA+ATAC%22+OR+abs%3A%22RNA+ATAC%22+OR+ti%3ACITE-seq+OR+abs%3ACITE-seq+OR+ti%3Amultiome+OR+abs%3Amultiome+OR+ti%3A%22cell+trajectory%22+OR+abs%3A%22cell+trajectory%22+OR+ti%3A%22cell+fate%22+OR+abs%3A%22cell+fate%22+OR+ti%3A%22cell+perturbation%22+OR+abs%3A%22cell+perturbation%22+OR+ti%3A%22cell+profiling%22+OR+abs%3A%22cell+profiling%22+OR+ti%3A%22cell+phenotyping%22+OR+abs%3A%22cell+phenotyping%22+OR+ti%3ACellProfiler+OR+abs%3ACellProfiler+OR+ti%3A%22cell+painting%22+OR+abs%3A%22cell+painting%22+OR+ti%3Amorpholomic%2A+OR+abs%3Amorpholomic%2A%29&start=0&max_results=200&sortBy=lastUpdatedDate&sortOrder=descending",
+        "https://api.crossref.org/works?query.title=Schr%C3%B6dinger-Bass+Bridge+Barycenter+Models+for+Measure-Valued+Data&rows=3"
+      ],
+      "verification_errors": [],
+      "formal_candidates": []
+    },
+    {
+      "source": "arxiv",
+      "id": "2603.03188",
+      "version": 3,
+      "first_posted_verified": "2026-03-03",
+      "verification_sources": [
+        "https://export.arxiv.org/api/query?search_query=%28ti%3Asingle-cell+OR+abs%3Asingle-cell+OR+ti%3A%22single+cell%22+OR+abs%3A%22single+cell%22+OR+ti%3AscRNA-seq+OR+abs%3AscRNA-seq+OR+ti%3AscRNAseq+OR+abs%3AscRNAseq+OR+ti%3AscATAC-seq+OR+abs%3AscATAC-seq+OR+ti%3AscATAC+OR+abs%3AscATAC+OR+ti%3A%22single-cell+multiomic%2A%22+OR+abs%3A%22single-cell+multiomic%2A%22+OR+ti%3A%22single-cell+multi-omic%2A%22+OR+abs%3A%22single-cell+multi-omic%2A%22+OR+ti%3A%22single-cell+foundation+model%2A%22+OR+abs%3A%22single-cell+foundation+model%2A%22+OR+ti%3A%22single-cell+representation%22+OR+abs%3A%22single-cell+representation%22+OR+ti%3A%22single-cell+annotation%22+OR+abs%3A%22single-cell+annotation%22+OR+ti%3A%22cell+type+annotation%22+OR+abs%3A%22cell+type+annotation%22+OR+ti%3A%22cell+atlas%22+OR+abs%3A%22cell+atlas%22+OR+ti%3Acell-state+OR+abs%3Acell-state+OR+ti%3A%22cell+state%22+OR+abs%3A%22cell+state%22+OR+ti%3A%22cross-modal+cell+annotation%22+OR+abs%3A%22cross-modal+cell+annotation%22+OR+ti%3A%22RNA+ATAC%22+OR+abs%3A%22RNA+ATAC%22+OR+ti%3ACITE-seq+OR+abs%3ACITE-seq+OR+ti%3Amultiome+OR+abs%3Amultiome+OR+ti%3A%22cell+trajectory%22+OR+abs%3A%22cell+trajectory%22+OR+ti%3A%22cell+fate%22+OR+abs%3A%22cell+fate%22+OR+ti%3A%22cell+perturbation%22+OR+abs%3A%22cell+perturbation%22+OR+ti%3A%22cell+profiling%22+OR+abs%3A%22cell+profiling%22+OR+ti%3A%22cell+phenotyping%22+OR+abs%3A%22cell+phenotyping%22+OR+ti%3ACellProfiler+OR+abs%3ACellProfiler+OR+ti%3A%22cell+painting%22+OR+abs%3A%22cell+painting%22+OR+ti%3Amorpholomic%2A+OR+abs%3Amorpholomic%2A%29&start=0&max_results=200&sortBy=lastUpdatedDate&sortOrder=descending",
+        "https://api.crossref.org/works?query.title=Scalable+Posterior+Uncertainty+for+Flexible+Density-Based+Clustering&rows=3"
+      ],
+      "verification_errors": [],
+      "formal_candidates": []
+    },
+    {
+      "source": "arxiv",
+      "id": "2605.18587",
+      "version": 4,
+      "first_posted_verified": "2026-05-18",
+      "verification_sources": [
+        "https://export.arxiv.org/api/query?search_query=%28ti%3Asingle-cell+OR+abs%3Asingle-cell+OR+ti%3A%22single+cell%22+OR+abs%3A%22single+cell%22+OR+ti%3AscRNA-seq+OR+abs%3AscRNA-seq+OR+ti%3AscRNAseq+OR+abs%3AscRNAseq+OR+ti%3AscATAC-seq+OR+abs%3AscATAC-seq+OR+ti%3AscATAC+OR+abs%3AscATAC+OR+ti%3A%22single-cell+multiomic%2A%22+OR+abs%3A%22single-cell+multiomic%2A%22+OR+ti%3A%22single-cell+multi-omic%2A%22+OR+abs%3A%22single-cell+multi-omic%2A%22+OR+ti%3A%22single-cell+foundation+model%2A%22+OR+abs%3A%22single-cell+foundation+model%2A%22+OR+ti%3A%22single-cell+representation%22+OR+abs%3A%22single-cell+representation%22+OR+ti%3A%22single-cell+annotation%22+OR+abs%3A%22single-cell+annotation%22+OR+ti%3A%22cell+type+annotation%22+OR+abs%3A%22cell+type+annotation%22+OR+ti%3A%22cell+atlas%22+OR+abs%3A%22cell+atlas%22+OR+ti%3Acell-state+OR+abs%3Acell-state+OR+ti%3A%22cell+state%22+OR+abs%3A%22cell+state%22+OR+ti%3A%22cross-modal+cell+annotation%22+OR+abs%3A%22cross-modal+cell+annotation%22+OR+ti%3A%22RNA+ATAC%22+OR+abs%3A%22RNA+ATAC%22+OR+ti%3ACITE-seq+OR+abs%3ACITE-seq+OR+ti%3Amultiome+OR+abs%3Amultiome+OR+ti%3A%22cell+trajectory%22+OR+abs%3A%22cell+trajectory%22+OR+ti%3A%22cell+fate%22+OR+abs%3A%22cell+fate%22+OR+ti%3A%22cell+perturbation%22+OR+abs%3A%22cell+perturbation%22+OR+ti%3A%22cell+profiling%22+OR+abs%3A%22cell+profiling%22+OR+ti%3A%22cell+phenotyping%22+OR+abs%3A%22cell+phenotyping%22+OR+ti%3ACellProfiler+OR+abs%3ACellProfiler+OR+ti%3A%22cell+painting%22+OR+abs%3A%22cell+painting%22+OR+ti%3Amorpholomic%2A+OR+abs%3Amorpholomic%2A%29&start=0&max_results=200&sortBy=lastUpdatedDate&sortOrder=descending",
+        "https://api.crossref.org/works?query.title=PACE%3A+Geometry-Aware+Bridge+Transport+for+Single-Cell+Trajectory+Inference&rows=3"
+      ],
+      "verification_errors": [],
+      "formal_candidates": []
+    },
+    {
+      "source": "arxiv",
+      "id": "2610.27322",
+      "version": 1,
+      "first_posted_verified": "2026-10-19",
+      "verification_sources": [
+        "https://export.arxiv.org/api/query?search_query=%28ti%3Asingle-cell+OR+abs%3Asingle-cell+OR+ti%3A%22single+cell%22+OR+abs%3A%22single+cell%22+OR+ti%3AscRNA-seq+OR+abs%3AscRNA-seq+OR+ti%3AscRNAseq+OR+abs%3AscRNAseq+OR+ti%3AscATAC-seq+OR+abs%3AscATAC-seq+OR+ti%3AscATAC+OR+abs%3AscATAC+OR+ti%3A%22single-cell+multiomic%2A%22+OR+abs%3A%22single-cell+multiomic%2A%22+OR+ti%3A%22single-cell+multi-omic%2A%22+OR+abs%3A%22single-cell+multi-omic%2A%22+OR+ti%3A%22single-cell+foundation+model%2A%22+OR+abs%3A%22single-cell+foundation+model%2A%22+OR+ti%3A%22single-cell+representation%22+OR+abs%3A%22single-cell+representation%22+OR+ti%3A%22single-cell+annotation%22+OR+abs%3A%22single-cell+annotation%22+OR+ti%3A%22cell+type+annotation%22+OR+abs%3A%22cell+type+annotation%22+OR+ti%3A%22cell+atlas%22+OR+abs%3A%22cell+atlas%22+OR+ti%3Acell-state+OR+abs%3Acell-state+OR+ti%3A%22cell+state%22+OR+abs%3A%22cell+state%22+OR+ti%3A%22cross-modal+cell+annotation%22+OR+abs%3A%22cross-modal+cell+annotation%22+OR+ti%3A%22RNA+ATAC%22+OR+abs%3A%22RNA+ATAC%22+OR+ti%3ACITE-seq+OR+abs%3ACITE-seq+OR+ti%3Amultiome+OR+abs%3Amultiome+OR+ti%3A%22cell+trajectory%22+OR+abs%3A%22cell+trajectory%22+OR+ti%3A%22cell+fate%22+OR+abs%3A%22cell+fate%22+OR+ti%3A%22cell+perturbation%22+OR+abs%3A%22cell+perturbation%22+OR+ti%3A%22cell+profiling%22+OR+abs%3A%22cell+profiling%22+OR+ti%3A%22cell+phenotyping%22+OR+abs%3A%22cell+phenotyping%22+OR+ti%3ACellProfiler+OR+abs%3ACellProfiler+OR+ti%3A%22cell+painting%22+OR+abs%3A%22cell+painting%22+OR+ti%3Amorpholomic%2A+OR+abs%3Amorpholomic%2A%29&start=0&max_results=200&sortBy=lastUpdatedDate&sortOrder=descending",
+        "https://api.crossref.org/works?query.title=VampPrior+Unleashed&rows=3"
+      ],
+      "verification_errors": [],
+      "formal_candidates": []
+    },
+    {
+      "source": "arxiv",
+      "id": "2610.26361",
+      "version": 1,
+      "first_posted_verified": "2026-10-19",
+      "verification_sources": [
+        "https://export.arxiv.org/api/query?search_query=%28ti%3Asingle-cell+OR+abs%3Asingle-cell+OR+ti%3A%22single+cell%22+OR+abs%3A%22single+cell%22+OR+ti%3AscRNA-seq+OR+abs%3AscRNA-seq+OR+ti%3AscRNAseq+OR+abs%3AscRNAseq+OR+ti%3AscATAC-seq+OR+abs%3AscATAC-seq+OR+ti%3AscATAC+OR+abs%3AscATAC+OR+ti%3A%22single-cell+multiomic%2A%22+OR+abs%3A%22single-cell+multiomic%2A%22+OR+ti%3A%22single-cell+multi-omic%2A%22+OR+abs%3A%22single-cell+multi-omic%2A%22+OR+ti%3A%22single-cell+foundation+model%2A%22+OR+abs%3A%22single-cell+foundation+model%2A%22+OR+ti%3A%22single-cell+representation%22+OR+abs%3A%22single-cell+representation%22+OR+ti%3A%22single-cell+annotation%22+OR+abs%3A%22single-cell+annotation%22+OR+ti%3A%22cell+type+annotation%22+OR+abs%3A%22cell+type+annotation%22+OR+ti%3A%22cell+atlas%22+OR+abs%3A%22cell+atlas%22+OR+ti%3Acell-state+OR+abs%3Acell-state+OR+ti%3A%22cell+state%22+OR+abs%3A%22cell+state%22+OR+ti%3A%22cross-modal+cell+annotation%22+OR+abs%3A%22cross-modal+cell+annotation%22+OR+ti%3A%22RNA+ATAC%22+OR+abs%3A%22RNA+ATAC%22+OR+ti%3ACITE-seq+OR+abs%3ACITE-seq+OR+ti%3Amultiome+OR+abs%3Amultiome+OR+ti%3A%22cell+trajectory%22+OR+abs%3A%22cell+trajectory%22+OR+ti%3A%22cell+fate%22+OR+abs%3A%22cell+fate%22+OR+ti%3A%22cell+perturbation%22+OR+abs%3A%22cell+perturbation%22+OR+ti%3A%22cell+profiling%22+OR+abs%3A%22cell+profiling%22+OR+ti%3A%22cell+phenotyping%22+OR+abs%3A%22cell+phenotyping%22+OR+ti%3ACellProfiler+OR+abs%3ACellProfiler+OR+ti%3A%22cell+painting%22+OR+abs%3A%22cell+painting%22+OR+ti%3Amorpholomic%2A+OR+abs%3Amorpholomic%2A%29&start=0&max_results=200&sortBy=lastUpdatedDate&sortOrder=descending",
+        "https://api.crossref.org/works?query.title=Simulation-free+approximate+Bayesian+computation+for+stochastic+reaction+networks&rows=3"
+      ],
+      "verification_errors": [],
+      "formal_candidates": []
+    },
+    {
+      "source": "arxiv",
+      "id": "2503.17418",
+      "version": 2,
+      "first_posted_verified": "2025-03-21",
+      "verification_sources": [
+        "https://export.arxiv.org/api/query?search_query=%28ti%3Asingle-cell+OR+abs%3Asingle-cell+OR+ti%3A%22single+cell%22+OR+abs%3A%22single+cell%22+OR+ti%3AscRNA-seq+OR+abs%3AscRNA-seq+OR+ti%3AscRNAseq+OR+abs%3AscRNAseq+OR+ti%3AscATAC-seq+OR+abs%3AscATAC-seq+OR+ti%3AscATAC+OR+abs%3AscATAC+OR+ti%3A%22single-cell+multiomic%2A%22+OR+abs%3A%22single-cell+multiomic%2A%22+OR+ti%3A%22single-cell+multi-omic%2A%22+OR+abs%3A%22single-cell+multi-omic%2A%22+OR+ti%3A%22single-cell+foundation+model%2A%22+OR+abs%3A%22single-cell+foundation+model%2A%22+OR+ti%3A%22single-cell+representation%22+OR+abs%3A%22single-cell+representation%22+OR+ti%3A%22single-cell+annotation%22+OR+abs%3A%22single-cell+annotation%22+OR+ti%3A%22cell+type+annotation%22+OR+abs%3A%22cell+type+annotation%22+OR+ti%3A%22cell+atlas%22+OR+abs%3A%22cell+atlas%22+OR+ti%3Acell-state+OR+abs%3Acell-state+OR+ti%3A%22cell+state%22+OR+abs%3A%22cell+state%22+OR+ti%3A%22cross-modal+cell+annotation%22+OR+abs%3A%22cross-modal+cell+annotation%22+OR+ti%3A%22RNA+ATAC%22+OR+abs%3A%22RNA+ATAC%22+OR+ti%3ACITE-seq+OR+abs%3ACITE-seq+OR+ti%3Amultiome+OR+abs%3Amultiome+OR+ti%3A%22cell+trajectory%22+OR+abs%3A%22cell+trajectory%22+OR+ti%3A%22cell+fate%22+OR+abs%3A%22cell+fate%22+OR+ti%3A%22cell+perturbation%22+OR+abs%3A%22cell+perturbation%22+OR+ti%3A%22cell+profiling%22+OR+abs%3A%22cell+profiling%22+OR+ti%3A%22cell+phenotyping%22+OR+abs%3A%22cell+phenotyping%22+OR+ti%3ACellProfiler+OR+abs%3ACellProfiler+OR+ti%3A%22cell+painting%22+OR+abs%3A%22cell+painting%22+OR+ti%3Amorpholomic%2A+OR+abs%3Amorpholomic%2A%29&start=0&max_results=200&sortBy=lastUpdatedDate&sortOrder=descending",
+        "https://api.crossref.org/works/10.1016%2Fj.csbj.2025.09.040"
+      ],
+      "verification_errors": [],
+      "formal_metadata": {
+        "DOI": "10.1016/j.csbj.2025.09.040",
+        "title": [
+          "Application of single-cell deep learning in elucidating the mapping relationship between visceral and body surface inflammatory patterns"
+        ],
+        "type": "journal-article",
+        "container-title": [
+          "Computational and Structural Biotechnology Journal"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              1
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              3
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              1
+            ]
+          ]
+        },
+        "volume": "27",
+        "resource": {
+          "primary": {
+            "URL": "https://spj.science.org/doi/10.1016/j.csbj.2025.09.040"
+          }
+        },
+        "relation": {}
+      },
+      "crossref_record": {
+        "DOI": "10.1016/j.csbj.2025.09.040",
+        "title": [
+          "Application of single-cell deep learning in elucidating the mapping relationship between visceral and body surface inflammatory patterns"
+        ],
+        "type": "journal-article",
+        "container-title": [
+          "Computational and Structural Biotechnology Journal"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              1
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              3
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              1
+            ]
+          ]
+        },
+        "volume": "27",
+        "resource": {
+          "primary": {
+            "URL": "https://spj.science.org/doi/10.1016/j.csbj.2025.09.040"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "source": "arxiv",
+      "id": "2602.05451",
+      "version": 3,
+      "first_posted_verified": "2026-02-05",
+      "verification_sources": [
+        "https://export.arxiv.org/api/query?search_query=%28ti%3Asingle-cell+OR+abs%3Asingle-cell+OR+ti%3A%22single+cell%22+OR+abs%3A%22single+cell%22+OR+ti%3AscRNA-seq+OR+abs%3AscRNA-seq+OR+ti%3AscRNAseq+OR+abs%3AscRNAseq+OR+ti%3AscATAC-seq+OR+abs%3AscATAC-seq+OR+ti%3AscATAC+OR+abs%3AscATAC+OR+ti%3A%22single-cell+multiomic%2A%22+OR+abs%3A%22single-cell+multiomic%2A%22+OR+ti%3A%22single-cell+multi-omic%2A%22+OR+abs%3A%22single-cell+multi-omic%2A%22+OR+ti%3A%22single-cell+foundation+model%2A%22+OR+abs%3A%22single-cell+foundation+model%2A%22+OR+ti%3A%22single-cell+representation%22+OR+abs%3A%22single-cell+representation%22+OR+ti%3A%22single-cell+annotation%22+OR+abs%3A%22single-cell+annotation%22+OR+ti%3A%22cell+type+annotation%22+OR+abs%3A%22cell+type+annotation%22+OR+ti%3A%22cell+atlas%22+OR+abs%3A%22cell+atlas%22+OR+ti%3Acell-state+OR+abs%3Acell-state+OR+ti%3A%22cell+state%22+OR+abs%3A%22cell+state%22+OR+ti%3A%22cross-modal+cell+annotation%22+OR+abs%3A%22cross-modal+cell+annotation%22+OR+ti%3A%22RNA+ATAC%22+OR+abs%3A%22RNA+ATAC%22+OR+ti%3ACITE-seq+OR+abs%3ACITE-seq+OR+ti%3Amultiome+OR+abs%3Amultiome+OR+ti%3A%22cell+trajectory%22+OR+abs%3A%22cell+trajectory%22+OR+ti%3A%22cell+fate%22+OR+abs%3A%22cell+fate%22+OR+ti%3A%22cell+perturbation%22+OR+abs%3A%22cell+perturbation%22+OR+ti%3A%22cell+profiling%22+OR+abs%3A%22cell+profiling%22+OR+ti%3A%22cell+phenotyping%22+OR+abs%3A%22cell+phenotyping%22+OR+ti%3ACellProfiler+OR+abs%3ACellProfiler+OR+ti%3A%22cell+painting%22+OR+abs%3A%22cell+painting%22+OR+ti%3Amorpholomic%2A+OR+abs%3Amorpholomic%2A%29&start=0&max_results=200&sortBy=lastUpdatedDate&sortOrder=descending",
+        "https://api.crossref.org/works/10.1096%2Ffj.202600755RRR"
+      ],
+      "verification_errors": [],
+      "formal_metadata": {
+        "DOI": "10.1096/fj.202600755rrr",
+        "title": [
+          "<scp>CPTCs</scp>\n                    Drive Somatic‐Visceral Communication via the Wnt Axis in Somatic Mechanotherapy: A Single‐Cell Deep Learning Study"
+        ],
+        "type": "journal-article",
+        "container-title": [
+          "The FASEB Journal"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              8
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              8
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              15
+            ]
+          ]
+        },
+        "volume": "40",
+        "issue": "15",
+        "resource": {
+          "primary": {
+            "URL": "https://faseb.onlinelibrary.wiley.com/doi/10.1096/fj.202600755RRR"
+          }
+        },
+        "relation": {}
+      },
+      "crossref_record": {
+        "DOI": "10.1096/fj.202600755rrr",
+        "title": [
+          "<scp>CPTCs</scp>\n                    Drive Somatic‐Visceral Communication via the Wnt Axis in Somatic Mechanotherapy: A Single‐Cell Deep Learning Study"
+        ],
+        "type": "journal-article",
+        "container-title": [
+          "The FASEB Journal"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              8
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              8
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              15
+            ]
+          ]
+        },
+        "volume": "40",
+        "issue": "15",
+        "resource": {
+          "primary": {
+            "URL": "https://faseb.onlinelibrary.wiley.com/doi/10.1096/fj.202600755RRR"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "source": "arxiv",
+      "id": "2610.25021",
+      "version": 1,
+      "first_posted_verified": "2026-10-18",
+      "verification_sources": [
+        "https://export.arxiv.org/api/query?search_query=%28ti%3Asingle-cell+OR+abs%3Asingle-cell+OR+ti%3A%22single+cell%22+OR+abs%3A%22single+cell%22+OR+ti%3AscRNA-seq+OR+abs%3AscRNA-seq+OR+ti%3AscRNAseq+OR+abs%3AscRNAseq+OR+ti%3AscATAC-seq+OR+abs%3AscATAC-seq+OR+ti%3AscATAC+OR+abs%3AscATAC+OR+ti%3A%22single-cell+multiomic%2A%22+OR+abs%3A%22single-cell+multiomic%2A%22+OR+ti%3A%22single-cell+multi-omic%2A%22+OR+abs%3A%22single-cell+multi-omic%2A%22+OR+ti%3A%22single-cell+foundation+model%2A%22+OR+abs%3A%22single-cell+foundation+model%2A%22+OR+ti%3A%22single-cell+representation%22+OR+abs%3A%22single-cell+representation%22+OR+ti%3A%22single-cell+annotation%22+OR+abs%3A%22single-cell+annotation%22+OR+ti%3A%22cell+type+annotation%22+OR+abs%3A%22cell+type+annotation%22+OR+ti%3A%22cell+atlas%22+OR+abs%3A%22cell+atlas%22+OR+ti%3Acell-state+OR+abs%3Acell-state+OR+ti%3A%22cell+state%22+OR+abs%3A%22cell+state%22+OR+ti%3A%22cross-modal+cell+annotation%22+OR+abs%3A%22cross-modal+cell+annotation%22+OR+ti%3A%22RNA+ATAC%22+OR+abs%3A%22RNA+ATAC%22+OR+ti%3ACITE-seq+OR+abs%3ACITE-seq+OR+ti%3Amultiome+OR+abs%3Amultiome+OR+ti%3A%22cell+trajectory%22+OR+abs%3A%22cell+trajectory%22+OR+ti%3A%22cell+fate%22+OR+abs%3A%22cell+fate%22+OR+ti%3A%22cell+perturbation%22+OR+abs%3A%22cell+perturbation%22+OR+ti%3A%22cell+profiling%22+OR+abs%3A%22cell+profiling%22+OR+ti%3A%22cell+phenotyping%22+OR+abs%3A%22cell+phenotyping%22+OR+ti%3ACellProfiler+OR+abs%3ACellProfiler+OR+ti%3A%22cell+painting%22+OR+abs%3A%22cell+painting%22+OR+ti%3Amorpholomic%2A+OR+abs%3Amorpholomic%2A%29&start=0&max_results=200&sortBy=lastUpdatedDate&sortOrder=descending",
+        "https://api.crossref.org/works?query.title=Synergy-Aware+Residual+Flow+Matching+for+Single-Cell+Perturbation+Prediction&rows=3"
+      ],
+      "verification_errors": [],
+      "formal_candidates": []
+    },
+    {
+      "source": "arxiv",
+      "id": "2610.24130",
+      "version": 1,
+      "first_posted_verified": "2026-10-16",
+      "verification_sources": [
+        "https://export.arxiv.org/api/query?search_query=%28ti%3Asingle-cell+OR+abs%3Asingle-cell+OR+ti%3A%22single+cell%22+OR+abs%3A%22single+cell%22+OR+ti%3AscRNA-seq+OR+abs%3AscRNA-seq+OR+ti%3AscRNAseq+OR+abs%3AscRNAseq+OR+ti%3AscATAC-seq+OR+abs%3AscATAC-seq+OR+ti%3AscATAC+OR+abs%3AscATAC+OR+ti%3A%22single-cell+multiomic%2A%22+OR+abs%3A%22single-cell+multiomic%2A%22+OR+ti%3A%22single-cell+multi-omic%2A%22+OR+abs%3A%22single-cell+multi-omic%2A%22+OR+ti%3A%22single-cell+foundation+model%2A%22+OR+abs%3A%22single-cell+foundation+model%2A%22+OR+ti%3A%22single-cell+representation%22+OR+abs%3A%22single-cell+representation%22+OR+ti%3A%22single-cell+annotation%22+OR+abs%3A%22single-cell+annotation%22+OR+ti%3A%22cell+type+annotation%22+OR+abs%3A%22cell+type+annotation%22+OR+ti%3A%22cell+atlas%22+OR+abs%3A%22cell+atlas%22+OR+ti%3Acell-state+OR+abs%3Acell-state+OR+ti%3A%22cell+state%22+OR+abs%3A%22cell+state%22+OR+ti%3A%22cross-modal+cell+annotation%22+OR+abs%3A%22cross-modal+cell+annotation%22+OR+ti%3A%22RNA+ATAC%22+OR+abs%3A%22RNA+ATAC%22+OR+ti%3ACITE-seq+OR+abs%3ACITE-seq+OR+ti%3Amultiome+OR+abs%3Amultiome+OR+ti%3A%22cell+trajectory%22+OR+abs%3A%22cell+trajectory%22+OR+ti%3A%22cell+fate%22+OR+abs%3A%22cell+fate%22+OR+ti%3A%22cell+perturbation%22+OR+abs%3A%22cell+perturbation%22+OR+ti%3A%22cell+profiling%22+OR+abs%3A%22cell+profiling%22+OR+ti%3A%22cell+phenotyping%22+OR+abs%3A%22cell+phenotyping%22+OR+ti%3ACellProfiler+OR+abs%3ACellProfiler+OR+ti%3A%22cell+painting%22+OR+abs%3A%22cell+painting%22+OR+ti%3Amorpholomic%2A+OR+abs%3Amorpholomic%2A%29&start=0&max_results=200&sortBy=lastUpdatedDate&sortOrder=descending",
+        "https://api.crossref.org/works?query.title=Reducing+double-dipping+in+single-cell+topic+models+with+three-way+count+splitting&rows=3"
+      ],
+      "verification_errors": [],
+      "formal_candidates": []
+    },
+    {
+      "source": "arxiv",
+      "id": "2610.23938",
+      "version": 1,
+      "first_posted_verified": "2026-10-07",
+      "verification_sources": [
+        "https://export.arxiv.org/api/query?search_query=%28ti%3Asingle-cell+OR+abs%3Asingle-cell+OR+ti%3A%22single+cell%22+OR+abs%3A%22single+cell%22+OR+ti%3AscRNA-seq+OR+abs%3AscRNA-seq+OR+ti%3AscRNAseq+OR+abs%3AscRNAseq+OR+ti%3AscATAC-seq+OR+abs%3AscATAC-seq+OR+ti%3AscATAC+OR+abs%3AscATAC+OR+ti%3A%22single-cell+multiomic%2A%22+OR+abs%3A%22single-cell+multiomic%2A%22+OR+ti%3A%22single-cell+multi-omic%2A%22+OR+abs%3A%22single-cell+multi-omic%2A%22+OR+ti%3A%22single-cell+foundation+model%2A%22+OR+abs%3A%22single-cell+foundation+model%2A%22+OR+ti%3A%22single-cell+representation%22+OR+abs%3A%22single-cell+representation%22+OR+ti%3A%22single-cell+annotation%22+OR+abs%3A%22single-cell+annotation%22+OR+ti%3A%22cell+type+annotation%22+OR+abs%3A%22cell+type+annotation%22+OR+ti%3A%22cell+atlas%22+OR+abs%3A%22cell+atlas%22+OR+ti%3Acell-state+OR+abs%3Acell-state+OR+ti%3A%22cell+state%22+OR+abs%3A%22cell+state%22+OR+ti%3A%22cross-modal+cell+annotation%22+OR+abs%3A%22cross-modal+cell+annotation%22+OR+ti%3A%22RNA+ATAC%22+OR+abs%3A%22RNA+ATAC%22+OR+ti%3ACITE-seq+OR+abs%3ACITE-seq+OR+ti%3Amultiome+OR+abs%3Amultiome+OR+ti%3A%22cell+trajectory%22+OR+abs%3A%22cell+trajectory%22+OR+ti%3A%22cell+fate%22+OR+abs%3A%22cell+fate%22+OR+ti%3A%22cell+perturbation%22+OR+abs%3A%22cell+perturbation%22+OR+ti%3A%22cell+profiling%22+OR+abs%3A%22cell+profiling%22+OR+ti%3A%22cell+phenotyping%22+OR+abs%3A%22cell+phenotyping%22+OR+ti%3ACellProfiler+OR+abs%3ACellProfiler+OR+ti%3A%22cell+painting%22+OR+abs%3A%22cell+painting%22+OR+ti%3Amorpholomic%2A+OR+abs%3Amorpholomic%2A%29&start=200&max_results=200&sortBy=lastUpdatedDate&sortOrder=descending",
+        "https://api.crossref.org/works?query.title=Pack+and+Extract%3A+An+Effective+Graph-Based+Approach+for+Feature+Selection&rows=3"
+      ],
+      "verification_errors": [],
+      "formal_candidates": []
+    },
+    {
+      "source": "arxiv",
+      "id": "2610.23927",
+      "version": 1,
+      "first_posted_verified": "2026-10-06",
+      "verification_sources": [
+        "https://export.arxiv.org/api/query?search_query=%28ti%3Asingle-cell+OR+abs%3Asingle-cell+OR+ti%3A%22single+cell%22+OR+abs%3A%22single+cell%22+OR+ti%3AscRNA-seq+OR+abs%3AscRNA-seq+OR+ti%3AscRNAseq+OR+abs%3AscRNAseq+OR+ti%3AscATAC-seq+OR+abs%3AscATAC-seq+OR+ti%3AscATAC+OR+abs%3AscATAC+OR+ti%3A%22single-cell+multiomic%2A%22+OR+abs%3A%22single-cell+multiomic%2A%22+OR+ti%3A%22single-cell+multi-omic%2A%22+OR+abs%3A%22single-cell+multi-omic%2A%22+OR+ti%3A%22single-cell+foundation+model%2A%22+OR+abs%3A%22single-cell+foundation+model%2A%22+OR+ti%3A%22single-cell+representation%22+OR+abs%3A%22single-cell+representation%22+OR+ti%3A%22single-cell+annotation%22+OR+abs%3A%22single-cell+annotation%22+OR+ti%3A%22cell+type+annotation%22+OR+abs%3A%22cell+type+annotation%22+OR+ti%3A%22cell+atlas%22+OR+abs%3A%22cell+atlas%22+OR+ti%3Acell-state+OR+abs%3Acell-state+OR+ti%3A%22cell+state%22+OR+abs%3A%22cell+state%22+OR+ti%3A%22cross-modal+cell+annotation%22+OR+abs%3A%22cross-modal+cell+annotation%22+OR+ti%3A%22RNA+ATAC%22+OR+abs%3A%22RNA+ATAC%22+OR+ti%3ACITE-seq+OR+abs%3ACITE-seq+OR+ti%3Amultiome+OR+abs%3Amultiome+OR+ti%3A%22cell+trajectory%22+OR+abs%3A%22cell+trajectory%22+OR+ti%3A%22cell+fate%22+OR+abs%3A%22cell+fate%22+OR+ti%3A%22cell+perturbation%22+OR+abs%3A%22cell+perturbation%22+OR+ti%3A%22cell+profiling%22+OR+abs%3A%22cell+profiling%22+OR+ti%3A%22cell+phenotyping%22+OR+abs%3A%22cell+phenotyping%22+OR+ti%3ACellProfiler+OR+abs%3ACellProfiler+OR+ti%3A%22cell+painting%22+OR+abs%3A%22cell+painting%22+OR+ti%3Amorpholomic%2A+OR+abs%3Amorpholomic%2A%29&start=200&max_results=200&sortBy=lastUpdatedDate&sortOrder=descending",
+        "https://api.crossref.org/works?query.title=scCTM%3A+Continuous+Thought+Machine+Reconstruction+of+Glioma+Cell+Fate+Dynamics+Attractor+Landscapes+and+Algorithmic+Perturbation+Signatures&rows=3"
+      ],
+      "verification_errors": [],
+      "formal_candidates": []
+    }
+  ]
+}
