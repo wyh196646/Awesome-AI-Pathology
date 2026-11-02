@@ -3,16 +3,16 @@
   "bootstrap_since": "2026-09-21",
   "sources": {
     "arxiv": {
-      "last_successful_until": "2026-10-25"
+      "last_successful_until": "2026-11-01"
     },
     "biorxiv": {
-      "last_successful_until": "2026-10-25"
+      "last_successful_until": "2026-11-01"
     },
     "medrxiv": {
-      "last_successful_until": "2026-10-25"
+      "last_successful_until": "2026-11-01"
     }
   },
-  "last_audit": "docs/updates/2026-10-26.json",
+  "last_audit": "docs/updates/2026-11-02.json",
   "pending_publication_checks": [
     {
       "arxiv_id": "2509.23097",
@@ -20,7 +20,7 @@
       "current_year": 2026,
       "publisher_url": "https://www.sciencedirect.com/science/article/pii/S1361841526004214",
       "reason": "Publisher online-first 2026-10-10 conflicts with Crossref provisional January2027 volume115. Recheck publisher assigned issue before changing collection year.",
-      "last_checked": "2026-10-26"
+      "last_checked": "2026-11-02"
     },
     {
       "arxiv_id": "2610.07694",
@@ -28,31 +28,50 @@
       "current_year": 2026,
       "publisher_url": "https://ieeexplore.ieee.org/document/11735099/",
       "reason": "2026 TPAMI DOI verified; volume/issue pending. Recheck publisher assignment.",
-      "last_checked": "2026-10-26"
+      "last_checked": "2026-11-02"
     }
   ],
-  "pending_metadata_checks": [
+  "pending_metadata_checks": [],
+  "pending_acceptance_checks": [
     {
-      "source": "biorxiv",
-      "id": "10.64898/2026.10.18.759931",
-      "title": "Decoding Cell-level Circadian Phase and Rhythm-state Remodeling in Single-cell Transcriptomes With scRhythmBayes",
-      "paper_url": "https://www.biorxiv.org/content/10.64898/2026.10.18.759931v1",
-      "first_posted_verified": "2026-10-22",
-      "verification_warnings": [
-        "Crossref publication check: HTTPError: HTTP Error 404: Not Found"
-      ],
-      "reason": "Official preprint source verified; Crossref DOI registration404; title counterpart query completed. Recheck registration and publication status."
+      "source": "arxiv",
+      "id": "2502.10010",
+      "title": "Principal Decomposition with Nested Submanifolds",
+      "paper_url": "https://arxiv.org/abs/2502.10010",
+      "reason": "Author reports Biometrika acceptance, but no formal publisher/Crossref article found; keep arXiv, apply journal eligibility if formally published.",
+      "last_checked": "2026-11-02"
     },
     {
-      "source": "biorxiv",
-      "id": "10.64898/2026.10.20.760589",
-      "title": "Denoising single-cell ATAC-seq data with Shannon entropy",
-      "paper_url": "https://www.biorxiv.org/content/10.64898/2026.10.20.760589v1",
-      "first_posted_verified": "2026-10-23",
-      "verification_warnings": [
-        "Crossref publication check: HTTPError: HTTP Error 404: Not Found"
-      ],
-      "reason": "Official preprint source verified; Crossref DOI registration404; title counterpart query completed. Recheck registration and publication status."
+      "source": "arxiv",
+      "id": "2610.32493",
+      "title": "K-CLUE: A Segmentation-to-Clustering Framework for Ki67 Cell Typing",
+      "paper_url": "https://arxiv.org/abs/2610.32493",
+      "reason": "Author reports BD-MedVis workshop at BMVC2026; independent official workshop acceptance not yet located.",
+      "last_checked": "2026-11-02"
+    },
+    {
+      "source": "arxiv",
+      "id": "2610.33059",
+      "title": "MOSAIC: Towards a Universal Latent Space for Computational Pathology Foundation Models",
+      "paper_url": "https://arxiv.org/abs/2610.33059",
+      "reason": "Author reports WACV2027 acceptance; no independent official proceedings/program confirmation located.",
+      "last_checked": "2026-11-02"
+    },
+    {
+      "source": "arxiv",
+      "id": "2610.33691",
+      "title": "PathKGen: Pathology Knowledge Assisted MLLM for Explainable Histopathology",
+      "paper_url": "https://arxiv.org/abs/2610.33691",
+      "reason": "Author reports WACV2027 acceptance; no independent official proceedings/program confirmation located.",
+      "last_checked": "2026-11-02"
+    },
+    {
+      "source": "arxiv",
+      "id": "2610.35167",
+      "title": "Biology-Guided Context-Aware Residual Propagation for Spatial Gene Expression Prediction from Histology",
+      "paper_url": "https://arxiv.org/abs/2610.35167",
+      "reason": "Author reports WACV2027 acceptance; no independent official proceedings/program confirmation located.",
+      "last_checked": "2026-11-02"
     }
   ]
 }

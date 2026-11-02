@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-08",
+  "updated": "2026-11-02",
   "cas_edition": 2025,
   "partition": "major",
   "required_zone": 1,
@@ -67,7 +67,8 @@
     "NeurIPS",
     "PSB",
     "The Web Conference",
-    "WACV"
+    "WACV",
+    "BMVC"
   ],
   "preprint_servers": [
     "arXiv",
