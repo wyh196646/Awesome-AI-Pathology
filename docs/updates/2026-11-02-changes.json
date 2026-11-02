@@ -3418,7 +3418,8 @@
       "reason": "CellMethMarker curated cell/tissue methylation marker database supporting single-cell annotation and deconvolution.",
       "title_corrected": false,
       "action": "add_preprint",
-      "entry": "- CellMethMarker provides an integrated database of human cell- and tissue-type-specific DNA methylation markers [[paper](https://www.biorxiv.org/content/10.64898/2026.10.23.760902v1)] [[website](http://gu-zhanglab.hfcas.ac.cn/CellMethMarker)] — *Single-cell methods*"
+      "entry": "- CellMethMarker provides an integrated database of human cell- and tissue-type-specific DNA methylation markers [[paper](https://www.biorxiv.org/content/10.64898/2026.10.23.760902v1)] — *Single-cell methods*",
+      "auxiliary_link_decision": "Omit author HTTP-only website after TLS-verified HTTPS attempt failed; official bioRxiv paper retained."
     },
     {
       "source": "biorxiv",

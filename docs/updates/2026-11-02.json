@@ -2556,7 +2556,8 @@
     "XMAG still Crossref provisional2027Jan volume115 while indexed publisher record says online2026-10-10 InPress/JournalPre-proof; no fresh primary assigned issue confirmation. Retain explicit2026online-first annotation and pending check. AM2ES Crossref2026still lacks volume/issue; retain pending check.",
     "Author-provided18auxiliary URLs returnedHTTP200. Original code/data/website links are preserved for all retained baseline entries; documented withdrawal retains its full old line in audit/Git history.",
     "Fuzzy title review34pairs:20same-identity updates and14distinct studies. AutoMIL pipeline automation differs from existing MIL aggregators; ProtCell protein abundance differs from EpiAgent epigenomics and KRONOS spatial image patches (official arXiv2506.03373). No new exact title/DOI/arXiv duplicates; preserve one legacy PTCMIL conference/journal title pair.",
-    "All three journal-policy flags remain excluded; no new journal admitted, no formal-journal migration. After successful publication all source checkpoints become2026-11-01; restore state-before.json if publication fails and retain candidates. Next weekly lookback starts2026-10-18. Raw API responses/full abstracts are not committed."
+    "All three journal-policy flags remain excluded; no new journal admitted, no formal-journal migration. After successful publication all source checkpoints become2026-11-01; restore state-before.json if publication fails and retain candidates. Next weekly lookback starts2026-10-18. Raw API responses/full abstracts are not committed.",
+    "PR review flagged the CellMethMarker author HTTP website. An HTTPS request with normal certificate verification failed with SSL unexpected EOF; omit the supplemental website link, retaining the official bioRxiv paper and original source/check evidence. No TLS bypass."
   ],
   "validation": {
     "status": "passed",
@@ -2602,14 +2603,25 @@
       "refresh_index": "passed",
       "unittest_discover": "13 passed",
       "git_diff_check": "passed",
-      "local_markdown_links": "passed",
+      "local_markdown_links": "passed; link removal introduces no new target",
       "journal_whitelist_and_evidence_preservation": "passed",
-      "conference_config_change": "BMVC only"
+      "conference_config_change": "BMVC only",
+      "review_http_website": "removed after verified HTTPS failed"
     },
-    "largest_rendered_file_bytes": 432229
+    "largest_rendered_file_bytes": 432311
   },
   "publication": {
     "workflow": "Branch PR, checks/review, exact-head squash merge, fast-forward local main.",
     "checkpoint_policy": "Publish prospective checkpoints atomically with reviewed update; restore previous active checkpoint on publication failure."
+  },
+  "review_remediation": {
+    "pull_request": "https://github.com/wyh196646/Awesome-AI-Pathology/pull/15",
+    "finding": "Plaintext author website link for CellMethMarker",
+    "resolution": "Removed supplemental HTTP website link; retained official HTTPS bioRxiv paper.",
+    "https_verification": {
+      "url": "https://gu-zhanglab.hfcas.ac.cn/CellMethMarker",
+      "checked_at": "2026-11-02T01:43:06.808468+00:00",
+      "error": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+    }
   }
 }
