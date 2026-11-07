@@ -24,6 +24,20 @@ def entry(identifier="2301.00001", version=2):
 
 
 class ArxivHTMLTests(unittest.TestCase):
+    def test_explicit_official_zero_result_is_complete(self):
+        with tempfile.TemporaryDirectory() as directory:
+            destination = Path(directory) / "empty.json"
+            arguments = ["search_arxiv_html.py", "--since", "2023-01-01", "--until", "2023-12-31",
+                         "--cache-dir", directory, "--output", str(destination)]
+            with patch.object(module, "CACHE", Path(directory)), \
+                    patch.object(module, "fetch", return_value="Sorry, your query returned no results"), \
+                    patch.object(sys, "argv", arguments), contextlib.redirect_stdout(io.StringIO()):
+                result = module.main()
+            data = json.loads(destination.read_text(encoding="utf-8"))
+        self.assertEqual(result, 0)
+        self.assertEqual(data["source_status"]["arxiv"]["status"], "complete")
+        self.assertEqual(data["retrievals"][0]["total"], 0)
+
     def test_nested_search_highlights_do_not_truncate_abstract_or_invent_first_date(self):
         record = module.parse(entry(), "https://arxiv.org/search/")[0]
         self.assertEqual(record["abstract"], "Beginning tissue images and the complete ending.")

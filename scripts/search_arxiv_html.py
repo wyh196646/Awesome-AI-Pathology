@@ -176,6 +176,13 @@ def main():
             dom.feed(raw)
             visible = clean(dom.root)
             match = re.search('Showing\\s+[\\d,]+\\s*[–-]\\s*[\\d,]+\\s+of\\s+([\\d,]+)', visible)
+            if not match and 'Sorry, your query returned no results' in visible:
+                if page != 0 or parse(raw, url):
+                    raise ValueError('Unexpected no-results page during pagination')
+                logs.append({'source': 'arxiv', 'url': url, 'page': page, 'total': 0,
+                             'retrieved': 0, 'date_type': 'original_announcement'})
+                complete = True
+                break
             if not match:
                 raise ValueError('Missing advertised result count; do not interpret an unexpected page as zero results')
             total = int(match[1].replace(',', ''))
