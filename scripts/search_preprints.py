@@ -37,18 +37,27 @@ def term_pattern(term):
     return re.compile(r"\b" + r"\s+".join(re.escape(w).replace(r"\*", r"[a-z0-9]*") for w in words) + r"\b")
 
 
+@functools.lru_cache(maxsize=None)
+def term_selector(term):
+    prefix = searchable(term).split()[0].split("*", 1)[0]
+    return prefix, term_pattern(term)
+
+
+def term_matches(term, text):
+    prefix, pattern = term_selector(term)
+    return prefix in text and pattern.search(text)
+
+
 def topic_matches(record, config):
     text = searchable(record["title"] + " " + record.get("abstract", ""))
-    groups = {g: [t for t in terms if term_pattern(t).search(text)]
+    groups = {g: [t for t in terms if term_matches(t, text)]
               for g, terms in config["topic_groups"].items()}
-    methods = [t for t in config["method_terms"] if term_pattern(t).search(text)]
-    cancer = any(term_pattern(t).search(text) for t in config["cancer_terms"])
-    biological = any(term_pattern(t).search(text) for t in config["biological_context_terms"])
+    methods = [t for t in config["method_terms"] if term_matches(t, text)]
+    biological = any(term_matches(t, text) for t in config["biological_context_terms"])
     # These rules are candidate retrieval, not final inclusion decisions.
-    eligible = biological and bool(groups["histology_cytology"] or groups["spatial_omics"] or
-                    (groups["single_cell"] and methods) or
-                    (groups["tissue_microenvironment"] and methods) or
-                    (groups["cancer_multimodal_omics"] and methods and cancer))
+    # Method words prioritize review; their absence must not silently discard a
+    # relevant cell atlas, clinical workflow, or less conventionally titled method.
+    eligible = biological and any(groups.values())
     return eligible, {g: values for g, values in groups.items() if values}, methods
 
 
@@ -82,6 +91,13 @@ def paper_identity(value):
             value = path.split("/", 1)[1].removesuffix(".pdf")
         elif host in ("doi.org", "dx.doi.org", "www.doi.org"):
             value = path
+        elif host in ("nature.com", "www.nature.com") and path.startswith("articles/"):
+            suffix = path[len("articles/"):].removesuffix(".pdf")
+            if not re.fullmatch(r"s\d{5}-\d{3,4}-[a-z0-9-]+", suffix):
+                return None
+            value = "10.1038/" + suffix
+        elif host == "link.springer.com" and path.startswith(("article/10.", "chapter/10.")):
+            value = path.split("/", 1)[1]
         elif host in ("biorxiv.org", "www.biorxiv.org", "medrxiv.org", "www.medrxiv.org"):
             if not path.startswith("content/"):
                 return None
@@ -145,15 +161,23 @@ def request(url, cache, source):
             time.sleep(2 ** attempt * 2)
 
 
+def arxiv_queries(config):
+    batch_size = config.get("retrieval_policy", {}).get("arxiv_query_terms_per_batch", 12)
+    if not isinstance(batch_size, int) or batch_size < 1:
+        raise ValueError("arxiv_query_terms_per_batch must be a positive integer")
+    for group, terms in config["topic_groups"].items():
+        for batch, start in enumerate(range(0, len(terms), batch_size)):
+            clauses = []
+            for term in terms[start:start + batch_size]:
+                value = term if " " not in term else '"' + term + '"'
+                clauses.append(f"ti:{value} OR abs:{value}")
+            yield group, batch, "(" + " OR ".join(clauses) + ")"
+
+
 def arxiv_records(config, since, until, cache, log):
     records = {}
     page_size = config["arxiv_page_size"]
-    for group, terms in config["topic_groups"].items():
-        clauses = []
-        for term in terms:
-            value = term if " " not in term else '"' + term + '"'
-            clauses.append(f"ti:{value} OR abs:{value}")
-        query = "(" + " OR ".join(clauses) + ")"
+    for group, batch, query in arxiv_queries(config):
         complete = False
         for page in range(config["arxiv_max_pages_per_group"]):
             params = {"search_query": query, "start": page * page_size, "max_results": page_size,
@@ -167,7 +191,7 @@ def arxiv_records(config, since, until, cache, log):
             entries = feed.findall("a:entry", NS)
             if total > page * page_size and not entries:
                 raise ValueError("arXiv returned an empty page before the advertised total")
-            log.append({"source": "arxiv", "group": group, "url": url, "total": total,
+            log.append({"source": "arxiv", "group": group, "batch": batch, "url": url, "total": total,
                         "page": page, "retrieved": len(entries)})
             reached_since = False
             for node in entries:
@@ -193,20 +217,24 @@ def arxiv_records(config, since, until, cache, log):
                           "paper_url": "https://arxiv.org/abs/" + base_id, "doi": value("x:doi"),
                           "journal_ref": value("x:journal_ref"), "comment": value("x:comment"),
                           "categories": [n.get("term") for n in node.findall("a:category", NS)], "retrieval_url": url}
-                records[base_id] = record
+                old = records.get(base_id)
+                if old is None or (record["version"], updated) > (old["version"], old["updated"]):
+                    records[base_id] = record
             if reached_since or (page + 1) * page_size >= total:
                 complete = True
                 break
         if not complete:
-            raise RuntimeError(f"arXiv pagination cap reached for {group}; split query/window and rerun")
+            raise RuntimeError(f"arXiv pagination cap reached for {group} batch {batch}; split query/window and rerun")
     return list(records.values())
 
 
-def rxiv_records(source, since, until, cache, log):
+def rxiv_records(source, since, until, cache, log, category=None):
     records = {}
     cursor = 0
     while True:
         url = f"https://api.biorxiv.org/details/{source}/{since}/{until}/{cursor}/json"
+        if category:
+            url += "?" + urllib.parse.urlencode({"category": category})
         data = json.loads(request(url, cache, source))
         messages = data.get("messages") or []
         if not messages:
@@ -255,13 +283,15 @@ def main():
     parser.add_argument("--until", default=(dt.datetime.now(dt.timezone.utc).date() - dt.timedelta(days=1)).isoformat())
     parser.add_argument("--sources", nargs="+", choices=["arxiv", "biorxiv", "medrxiv"])
     parser.add_argument("--output", default=str(ROOT / ".cache" / "preprint-candidates.json"))
+    parser.add_argument("--cache-dir", help="Separate cache directory for an independent recall audit")
+    parser.add_argument("--category", help="Rxiv subject-category backfill; not an admission decision")
     args = parser.parse_args()
     config = json.loads((ROOT / "config/literature-keywords.json").read_text(encoding="utf-8"))
     state = json.loads((ROOT / "data/weekly-update-state.json").read_text(encoding="utf-8"))
     until_date = dt.date.fromisoformat(args.until)
     if until_date > dt.datetime.now(dt.timezone.utc).date():
         parser.error("--until cannot be in the future")
-    cache = ROOT / ".cache" / "preprint-api" / args.until
+    cache = Path(args.cache_dir) if args.cache_dir else ROOT / ".cache" / "preprint-api" / args.until
     cache.mkdir(parents=True, exist_ok=True)
     previous = existing_entries()
     exclusions = json.loads((ROOT / "data/excluded-journal-identities.json").read_text(encoding="utf-8"))
@@ -278,13 +308,20 @@ def main():
         print(f"Searching {source}: {since} to {args.until}", flush=True)
         try:
             records = (arxiv_records(config, since, args.until, cache, retrievals) if source == "arxiv"
-                       else rxiv_records(source, since, args.until, cache, retrievals))
+                       else rxiv_records(source, since, args.until, cache, retrievals, args.category))
             count = 0
             for record in records:
                 eligible, groups, methods = topic_matches(record, config)
+                category = record.get("category", "").lower()
+                category_fallback = category in config.get("retrieval_policy", {}).get(
+                    "subject_categories", {}).get(source, [])
+                category_requested = bool(args.category and source != "arxiv")
+                eligible = eligible or category_fallback or category_requested
                 if not eligible:
                     continue
                 record["matched_topics"], record["matched_methods"] = groups, methods
+                record["retrieval_basis"] = "keywords_and_category" if groups and category_fallback else (
+                    "subject_category" if category_fallback or category_requested else "keywords")
                 record["existing_matches"] = matching_existing(record, previous)
                 record["journal_policy_exclusion"] = journal_policy_exclusion(record, exclusions)
                 candidates.append(record)

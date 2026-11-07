@@ -13,6 +13,38 @@ spec.loader.exec_module(module)
 
 
 class PreprintSearchTests(unittest.TestCase):
+    def test_publisher_doi_identity_survives_preprint_title_changes(self):
+        for url, doi in [
+            ("https://www.nature.com/articles/s41591-024-02857-3.pdf?download=1",
+             "10.1038/s41591-024-02857-3"),
+            ("https://link.springer.com/article/10.1007/s10115-024-00123-4",
+             "10.1007/s10115-024-00123-4"),
+        ]:
+            self.assertEqual(module.paper_identity(url), ("doi", doi))
+            existing = [{"title": "Retitled formal article", "key": "retitledformalarticle",
+                         "paper_url": url, "identity_urls": [url]}]
+            record = {"title": "Original preprint title", "id": "2308.12345", "doi": doi}
+            self.assertEqual(module.matching_existing(record, existing), existing)
+        self.assertIsNone(module.paper_identity("https://www.nature.com/collections/example"))
+        self.assertIsNone(module.paper_identity("https://www.nature.com/articles/palcomms20155"))
+
+    def test_plain_pathology_workflow_reaches_search_and_screening(self):
+        config = json.loads((ROOT / "config/literature-keywords.json").read_text())
+        record = {
+            "title": "PathCowork: Learning from real-world pathology practice to build AI copilots",
+            "abstract": "Doctors' spoken examinations and gaze provide supervision for diagnostic agents.",
+        }
+        self.assertTrue(module.topic_matches(record, config)[0])
+        queries = list(module.arxiv_queries(config))
+        self.assertTrue(any("ti:pathology OR abs:pathology" in q for _, _, q in queries))
+        self.assertGreater(len(queries), len(config["topic_groups"]))
+        self.assertTrue(all(q.count("ti:") <= 12 for _, _, q in queries))
+
+    def test_cell_tissue_analysis_does_not_require_a_method_buzzword(self):
+        config = json.loads((ROOT / "config/literature-keywords.json").read_text())
+        record = {"title": "Single-nucleus states in the kidney", "abstract": "Renal populations differ."}
+        self.assertTrue(module.topic_matches(record, config)[0])
+
     def test_promoted_paper_with_changed_title_matches_retained_preprint_id(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
@@ -67,9 +99,12 @@ class PreprintSearchTests(unittest.TestCase):
         ]
         log = []
         with patch.object(module, "request", side_effect=[json.dumps(x).encode() for x in responses]) as mock:
-            result = module.rxiv_records("biorxiv", "2026-10-01", "2026-10-04", Path("unused"), log)
+            result = module.rxiv_records("biorxiv", "2026-10-01", "2026-10-04", Path("unused"), log,
+                                         category="pathology")
         self.assertEqual(mock.call_count, 2)
         self.assertIn("/2/json", mock.call_args.args[0])
+        self.assertTrue(all("?category=pathology" in call.args[0]
+                            for call in mock.call_args_list))
         self.assertEqual(len(result), 2)
         self.assertEqual(result[0]["version"], 2)
 

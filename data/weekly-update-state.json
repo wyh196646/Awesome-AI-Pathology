@@ -12,7 +12,7 @@
       "last_successful_until": "2026-11-01"
     }
   },
-  "last_audit": "docs/updates/2026-11-02.json",
+  "last_audit": "docs/updates/2026-11-07-recovery.json",
   "pending_publication_checks": [
     {
       "arxiv_id": "2509.23097",
@@ -31,7 +31,71 @@
       "last_checked": "2026-11-02"
     }
   ],
-  "pending_metadata_checks": [],
+  "pending_metadata_checks": [
+    {
+      "source": "arxiv",
+      "id": "2505.03204",
+      "title": "DCS-ST for Classification of Breast Cancer Histopathology Images with Limited Annotations",
+      "paper_url": "https://arxiv.org/abs/2505.03204v2",
+      "reason": "A close formal-title match has insufficient author agreement; resolve it before preprint admission."
+    },
+    {
+      "source": "arxiv",
+      "id": "2604.13939",
+      "title": "A Multi-Stage Optimization Pipeline for Bethesda Cell Detection in Pap Smear Cytology",
+      "paper_url": "https://arxiv.org/abs/2604.13939v1",
+      "reason": "A close formal-title match has insufficient author agreement; resolve it before preprint admission."
+    },
+    {
+      "source": "arxiv",
+      "id": "2304.04155",
+      "title": "Segment Anything Model (SAM) for Digital Pathology: Assess Zero-shot Segmentation on Whole Slide Imaging",
+      "paper_url": "https://arxiv.org/abs/2304.04155v1",
+      "reason": "Serial conference publication needs primary event attribution; do not assume journal or conference from Crossref type alone."
+    },
+    {
+      "source": "arxiv",
+      "id": "2306.08198",
+      "title": "Explainable and Position-Aware Learning in Digital Pathology",
+      "paper_url": "https://arxiv.org/abs/2306.08198v1",
+      "reason": "A close formal-title match has insufficient author agreement; resolve it before preprint admission."
+    },
+    {
+      "source": "arxiv",
+      "id": "2401.09791",
+      "title": "BreastRegNet: A Deep Learning Framework for Registration of Breast Faxitron and Histopathology Images",
+      "paper_url": "https://arxiv.org/abs/2401.09791v1",
+      "reason": "Possible retitled follow-up with overlapping authors requires direct full-text/model-lineage confirmation; do not assert an alias or add another preprint."
+    },
+    {
+      "source": "arxiv",
+      "id": "2405.17824",
+      "title": "mTREE: Multi-Level Text-Guided Representation End-to-End Learning for Whole Slide Image Analysis",
+      "paper_url": "https://arxiv.org/abs/2405.17824v1",
+      "reason": "Serial conference publication needs primary event attribution; do not assume journal or conference from Crossref type alone."
+    },
+    {
+      "source": "arxiv",
+      "id": "2406.02990",
+      "title": "Predicting Genetic Mutation from Whole Slide Images via Biomedical-Linguistic Knowledge Enhanced Multi-label Classification",
+      "paper_url": "https://arxiv.org/abs/2406.02990v1",
+      "reason": "Possible retitled follow-up with overlapping authors requires direct full-text/model-lineage confirmation; do not assert an alias or add another preprint."
+    },
+    {
+      "source": "biorxiv",
+      "id": "10.1101/2024.07.01.601469",
+      "title": "UNRAVELING THE LUNG VASCULAR REMODELING IN PULMONARY HYPERTENSION USING A QUANTITATIVE DIGITAL PATHOLOGY SOFTWARE",
+      "paper_url": "https://www.biorxiv.org/content/10.1101/2024.07.01.601469v1",
+      "reason": "Formal chapter/proceedings title requires independent conference attribution: D109. NOW WE GOT BAD BLOOD: RSF/PC JOINT SESSION ON PULMONARY VASCULAR DISEASE"
+    },
+    {
+      "source": "arxiv",
+      "id": "2602.06674",
+      "title": "CytoCrowd: A Multi-Annotator Benchmark Dataset for Cytology Image Analysis",
+      "paper_url": "https://arxiv.org/abs/2602.06674v2",
+      "reason": "HTTPError: HTTP Error 404: Not Found"
+    }
+  ],
   "pending_acceptance_checks": [
     {
       "source": "arxiv",
@@ -73,5 +137,18 @@
       "reason": "Author reports WACV2027 acceptance; no independent official proceedings/program confirmation located.",
       "last_checked": "2026-11-02"
     }
-  ]
+  ],
+  "pending_recall_review": {
+    "scope_revision": "2026-11-02",
+    "retrieval_cutoff_utc": "2026-11-01",
+    "pending_item_level_review": 1548,
+    "files": [
+      "docs/updates/2026-11-07-recovery-pending-01.json",
+      "docs/updates/2026-11-07-recovery-pending-02.json",
+      "docs/updates/2026-11-07-recovery-pending-03.json",
+      "docs/updates/2026-11-07-recovery-pending-04.json"
+    ],
+    "arxiv_revision_coverage": "pending_expanded_vocabulary_recovery",
+    "checkpoint_rule": "Recover pending records and complete the relevant source interval review before advancing that source checkpoint."
+  }
 }

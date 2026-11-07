@@ -1,0 +1,616 @@
+{
+  "schema_version": 1,
+  "audit": "2026-11-07-recovery.json",
+  "candidates": [
+    {
+      "source": "medrxiv",
+      "id": "10.1101/2025.04.23.25326290",
+      "version": 1,
+      "title": "AI portal tract detection and characterisation for a regional analysis of steatosis and inflammation in MASLD, MASH, and AIH",
+      "paper_url": "https://www.medrxiv.org/content/10.1101/2025.04.23.25326290v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2025-01-01/2025-12-31/0/json?category=pathology"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.1101/2025.05.03.25326857",
+      "version": 2,
+      "title": "ARID1A immunohistochemical expression is associated with metachronous colorectal polyp risk: Evidence from integrated genomic and transcriptomic analyses",
+      "paper_url": "https://www.medrxiv.org/content/10.1101/2025.05.03.25326857v2",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2026-01-01/2026-11-01/60/json?category=pathology"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.1101/2025.05.09.25327292",
+      "version": 1,
+      "title": "Automatic Quantification of Ki-67 Labeling Index in Pediatric Brain Tumors Using QuPath",
+      "paper_url": "https://www.medrxiv.org/content/10.1101/2025.05.09.25327292v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2025-01-01/2025-12-31/30/json?category=pathology"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.1101/2025.05.17.25327838",
+      "version": 1,
+      "title": "Chronic Low Back Pain in Young Adults: Pathophysiological Aspects of Neuroinflammation and Degeneration",
+      "paper_url": "https://www.medrxiv.org/content/10.1101/2025.05.17.25327838v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2025-01-01/2025-12-31/30/json?category=pathology"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.1101/2025.05.22.25328136",
+      "version": 1,
+      "title": "Evaluating the performance of LYDIA: an AI-powered decision support system in detection of metastatic tumors in lymph nodes",
+      "paper_url": "https://www.medrxiv.org/content/10.1101/2025.05.22.25328136v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2025-01-01/2025-12-31/30/json?category=pathology"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.1101/2025.06.07.25329195",
+      "version": 1,
+      "title": "Lymphovascular Invasion Detection in Breast Cancer Using Deep Learning",
+      "paper_url": "https://www.medrxiv.org/content/10.1101/2025.06.07.25329195v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2025-01-01/2025-12-31/30/json?category=pathology"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.1101/2025.06.12.25328580",
+      "version": 4,
+      "title": "Quantitative fibrosis features from digitized H&E-stained liver biopsies reveal granular insights into fibrosis and disease progression in metabolic dysfunction-associated steatohepatitis: a retrospective analysis of STELLAR-3 and STELLAR-4",
+      "paper_url": "https://www.medrxiv.org/content/10.1101/2025.06.12.25328580v4",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2026-01-01/2026-11-01/30/json?category=pathology"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.1101/2025.06.26.25330333",
+      "version": 1,
+      "title": "Model for Ki-67 Proliferation Index Predicton, Trained End-to-End on Routine Diagnostic Data",
+      "paper_url": "https://www.medrxiv.org/content/10.1101/2025.06.26.25330333v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2025-01-01/2025-12-31/30/json?category=pathology"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.1101/2025.07.13.25331466",
+      "version": 1,
+      "title": "Three-dimensional high-content imaging of unstained soft tissue with subcellular resolution using a laboratory-based multi-modal X-ray microscope",
+      "paper_url": "https://www.medrxiv.org/content/10.1101/2025.07.13.25331466v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2025-01-01/2025-12-31/30/json?category=pathology"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.1101/2025.08.06.25333181",
+      "version": 2,
+      "title": "An Explainable Cryobiopsy AI Model, CRAI, to Predict Progression in Interstitial Pneumonia",
+      "paper_url": "https://www.medrxiv.org/content/10.1101/2025.08.06.25333181v2",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2026-01-01/2026-11-01/30/json?category=pathology"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.1101/2025.08.26.25334451",
+      "version": 1,
+      "title": "A quantitative comparison between human experts and AI at estimating tumor-stroma ratio",
+      "paper_url": "https://www.medrxiv.org/content/10.1101/2025.08.26.25334451v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2025-01-01/2025-12-31/60/json?category=pathology"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.1101/2025.08.29.25334719",
+      "version": 1,
+      "title": "Decoding Fibrosis: Transcriptomic and Clinical Insights via AI-Derived Collagen Deposition Phenotypes in MASLD",
+      "paper_url": "https://www.medrxiv.org/content/10.1101/2025.08.29.25334719v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2025-01-01/2025-12-31/60/json?category=pathology"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.1101/2025.09.22.25336169",
+      "version": 1,
+      "title": "Retrospective Validation of an Artificial Intelligence System for Diagnostic Assessment of Prostate Biopsies on the ProMort Cohort: Study Protocol",
+      "paper_url": "https://www.medrxiv.org/content/10.1101/2025.09.22.25336169v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2025-01-01/2025-12-31/60/json?category=pathology"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.1101/2025.09.28.25336824",
+      "version": 1,
+      "title": "Revealing Shared Tumor Microenvironment Dynamics Related to Microsatellite Instability Across Different Cancers Using Cellular Social Network Analysis",
+      "paper_url": "https://www.medrxiv.org/content/10.1101/2025.09.28.25336824v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2025-01-01/2025-12-31/60/json?category=pathology"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.1101/2025.10.08.25336276",
+      "version": 1,
+      "title": "Clinical Relevance of Computationally Derived Attributes of Arteries and Arterioles in focal segmental glomerulosclerosis and minimal change disease",
+      "paper_url": "https://www.medrxiv.org/content/10.1101/2025.10.08.25336276v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2025-01-01/2025-12-31/60/json?category=pathology"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.1101/2025.11.02.25338835",
+      "version": 1,
+      "title": "Spatial Structure of Tumor and Immune Cells Shape Outcomes in ER-positive-HER2-negative and Triple-negative Breast Cancer",
+      "paper_url": "https://www.medrxiv.org/content/10.1101/2025.11.02.25338835v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2025-01-01/2025-12-31/60/json?category=pathology"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.1101/2025.11.11.25339911",
+      "version": 1,
+      "title": "Validation of virtual trichrome stains for kidney fibrosis evaluation using dual-mode emission and transmission microscopy",
+      "paper_url": "https://www.medrxiv.org/content/10.1101/2025.11.11.25339911v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2025-01-01/2025-12-31/90/json?category=pathology"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.1101/2025.11.11.25340018",
+      "version": 1,
+      "title": "Improving Frozen Kidney Biopsy Interpretation Using DUET-Generated Virtual PAS Stains",
+      "paper_url": "https://www.medrxiv.org/content/10.1101/2025.11.11.25340018v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2025-01-01/2025-12-31/90/json?category=pathology"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.1101/2025.11.12.25340091",
+      "version": 1,
+      "title": "Diagnostic Utility of TRPS1 Immunohistochemistry in Primary and Metastatic Breast Carcinoma with Special Emphasis on Spindle Cell Neoplasms of the Breast",
+      "paper_url": "https://www.medrxiv.org/content/10.1101/2025.11.12.25340091v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2025-01-01/2025-12-31/90/json?category=pathology"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.64898/2025.11.28.25341141",
+      "version": 1,
+      "title": "Intraoperative classification of glioblastoma through near real-time stimulated Raman scattering microscopy",
+      "paper_url": "https://www.medrxiv.org/content/10.64898/2025.11.28.25341141v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2025-01-01/2025-12-31/90/json?category=pathology"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.64898/2025.11.29.25341268",
+      "version": 1,
+      "title": "Pigmented Paraganglioid Carcinoid Tumors of the Lung: Spatial Transcriptomics Reveals Shared and Distinct Features with Typical Carcinoid Tumors and Extra-Adrenal Paragangliomas",
+      "paper_url": "https://www.medrxiv.org/content/10.64898/2025.11.29.25341268v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2025-01-01/2025-12-31/90/json?category=pathology"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.64898/2025.12.08.25341872",
+      "version": 1,
+      "title": "Sex-Specific Correlates of Schistosoma haematobium Infection in a Rural Zambian Setting: A pilot study Focusing on Immune and Hematological Factors",
+      "paper_url": "https://www.medrxiv.org/content/10.64898/2025.12.08.25341872v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2025-01-01/2025-12-31/90/json?category=pathology"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.64898/2025.12.11.25342109",
+      "version": 1,
+      "title": "Deceptive Bias Measurement in Deep Learning: Assessing Shortcut Reliance in TCGA Cancer Models",
+      "paper_url": "https://www.medrxiv.org/content/10.64898/2025.12.11.25342109v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2025-01-01/2025-12-31/90/json?category=pathology"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.64898/2025.12.20.25342730",
+      "version": 2,
+      "title": "Mechanosensitive TRPV4 immunohistochemistry improves deep learning-based classification of ductal carcinoma in situ beyond H&E morphology",
+      "paper_url": "https://www.medrxiv.org/content/10.64898/2025.12.20.25342730v2",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2026-01-01/2026-11-01/30/json?category=pathology"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.64898/2026.01.23.26344725",
+      "version": 1,
+      "title": "Predicting Protein Cascade Expression from H&E Images",
+      "paper_url": "https://www.medrxiv.org/content/10.64898/2026.01.23.26344725v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2026-01-01/2026-11-01/0/json?category=pathology"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.64898/2026.01.24.26344766",
+      "version": 1,
+      "title": "Evaluating Spiking and Non-Spiking Neural Networks for Colorectal Serrated Polyp Subtype Classification",
+      "paper_url": "https://www.medrxiv.org/content/10.64898/2026.01.24.26344766v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2026-01-01/2026-11-01/0/json?category=pathology"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.64898/2026.01.26.26344704",
+      "version": 1,
+      "title": "JADE: Jawbone Lesion Diagnosis and Decision Supporting System",
+      "paper_url": "https://www.medrxiv.org/content/10.64898/2026.01.26.26344704v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2026-01-01/2026-11-01/0/json?category=pathology"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.64898/2026.02.13.26346202",
+      "version": 1,
+      "title": "A DEFINITIVE TCRBETA1/ TCRBETA2 ANTIBODY PAIR FOR DETERMINING T-CELL MONOTYPIA AS A SURROGATE FOR CLONALITY IN LYMPHOMA DIAGNOSIS IN FORMALIN FIXED PARAFFIN EMBEDDED MATERIAL",
+      "paper_url": "https://www.medrxiv.org/content/10.64898/2026.02.13.26346202v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2026-01-01/2026-11-01/0/json?category=pathology"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.64898/2026.02.17.26346304",
+      "version": 1,
+      "title": "SydneyMTL: Interpretable Multi-Task Learning for Complete Sydney System Assessment in Gastric Biopsies",
+      "paper_url": "https://www.medrxiv.org/content/10.64898/2026.02.17.26346304v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2026-01-01/2026-11-01/0/json?category=pathology"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.64898/2026.02.23.26346491",
+      "version": 1,
+      "title": "Morphological set enrichment enables interpretable prognostication and molecular profiling of meningiomas",
+      "paper_url": "https://www.medrxiv.org/content/10.64898/2026.02.23.26346491v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2026-01-01/2026-11-01/0/json?category=pathology"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.64898/2026.02.23.26346945",
+      "version": 1,
+      "title": "Large-Language Models for data extraction from written kidney biopsy reports",
+      "paper_url": "https://www.medrxiv.org/content/10.64898/2026.02.23.26346945v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2026-01-01/2026-11-01/0/json?category=pathology"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.64898/2026.02.26.26345861",
+      "version": 1,
+      "title": "Robust Immunohistochemical Detection of α-Synuclein, Tau, and β-amyloid in Human Brain Tissue Archived for up to 78 Years",
+      "paper_url": "https://www.medrxiv.org/content/10.64898/2026.02.26.26345861v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2026-01-01/2026-11-01/0/json?category=pathology"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.64898/2026.02.28.26347346",
+      "version": 1,
+      "title": "Applying AI models to digital placental photographs to automate and improve morphology assessments",
+      "paper_url": "https://www.medrxiv.org/content/10.64898/2026.02.28.26347346v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2026-01-01/2026-11-01/0/json?category=pathology"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.64898/2026.03.12.26348249",
+      "version": 1,
+      "title": "The Spatial Immune Landscape of Mismatch Repair Deficient Endometrial Cancer: Implications for Clinical Outcomes",
+      "paper_url": "https://www.medrxiv.org/content/10.64898/2026.03.12.26348249v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2026-01-01/2026-11-01/0/json?category=pathology"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.64898/2026.05.23.26353951",
+      "version": 2,
+      "title": "Integrating dorsolateral prefrontal cortex multi-omics and GWAS summary data enhances gene-mapping of Parkinson's disease",
+      "paper_url": "https://www.medrxiv.org/content/10.64898/2026.05.23.26353951v2",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2026-09-21/2026-11-01/840/json"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.64898/2026.05.29.26354196",
+      "version": 1,
+      "title": "Understanding Human AI Discrepancy in Breast Cancer TIL Assessment: A Multi-Rater and Perceptual Bias Study",
+      "paper_url": "https://www.medrxiv.org/content/10.64898/2026.05.29.26354196v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2026-01-01/2026-11-01/30/json?category=pathology"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.64898/2026.06.02.26354731",
+      "version": 1,
+      "title": "Interpretable machine learning for coeliac disease diagnosis: quantitative morphometry of duodenal biopsies",
+      "paper_url": "https://www.medrxiv.org/content/10.64898/2026.06.02.26354731v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2026-01-01/2026-11-01/30/json?category=pathology"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.64898/2026.06.04.26354889",
+      "version": 1,
+      "title": "Closing the Paediatric Gap: Adult-Trained AI Generalises Robustly to Paediatric Coeliac Disease Diagnosis",
+      "paper_url": "https://www.medrxiv.org/content/10.64898/2026.06.04.26354889v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2026-01-01/2026-11-01/30/json?category=pathology"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.64898/2026.06.05.26354969",
+      "version": 1,
+      "title": "Immunohistochemical phenotype is associated with metastatic site in breast cancer: a retrospective pathomorphological study of women from the Lower Aral Sea region, Uzbekistan",
+      "paper_url": "https://www.medrxiv.org/content/10.64898/2026.06.05.26354969v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2026-01-01/2026-11-01/30/json?category=pathology"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.64898/2026.06.06.26355059",
+      "version": 1,
+      "title": "Title: Development of a Human Papillomavirus genotype-informed risk-stratification model to improve Cervical Cancer screening in resource-limited settings: a cross-sectional study",
+      "paper_url": "https://www.medrxiv.org/content/10.64898/2026.06.06.26355059v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2026-01-01/2026-11-01/30/json?category=pathology"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.64898/2026.06.11.26354826",
+      "version": 1,
+      "title": "Artificial intelligence-assisted ganglion cell detection in Hirschsprung's disease: A comparative evaluation of two deep learning approaches",
+      "paper_url": "https://www.medrxiv.org/content/10.64898/2026.06.11.26354826v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2026-01-01/2026-11-01/30/json?category=pathology"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.64898/2026.06.22.26356176",
+      "version": 2,
+      "title": "TSPO PET binding in vivo reflects increased phagocytic microglia at post mortem in people with frontotemporal dementia",
+      "paper_url": "https://www.medrxiv.org/content/10.64898/2026.06.22.26356176v2",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2026-01-01/2026-11-01/60/json?category=pathology"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.64898/2026.07.09.26357318",
+      "version": 2,
+      "title": "Drivers of Diagnostic Variation in a Digital Global Kidney Transplant Reader Study",
+      "paper_url": "https://www.medrxiv.org/content/10.64898/2026.07.09.26357318v2",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2026-01-01/2026-11-01/60/json?category=pathology"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.64898/2026.07.10.26357703",
+      "version": 2,
+      "title": "Real-World Outcomes of a Telephone-Based Virtual Cognitive Rehabilitation Therapy Program: A Retrospective Cohort Analysis",
+      "paper_url": "https://www.medrxiv.org/content/10.64898/2026.07.10.26357703v2",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2026-09-21/2026-11-01/720/json"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.64898/2026.07.28.26358969",
+      "version": 2,
+      "title": "Genomic atlas of cardiac and adiposity imaging phenotypes",
+      "paper_url": "https://www.medrxiv.org/content/10.64898/2026.07.28.26358969v2",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2026-09-21/2026-11-01/570/json"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.64898/2026.07.28.26359127",
+      "version": 1,
+      "title": "Cancer-Tissue Fraction as a Scanner-Robust Triage Signal for Automated Gleason Grading of Prostate Biopsies: External Validation Across a Middle Eastern Cohort",
+      "paper_url": "https://www.medrxiv.org/content/10.64898/2026.07.28.26359127v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2026-01-01/2026-11-01/60/json?category=pathology"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.64898/2026.08.28.26361092",
+      "version": 1,
+      "title": "Convergent Innate Immune and Metabolic Signatures in Parkinson's Disease and Viral Infection",
+      "paper_url": "https://www.medrxiv.org/content/10.64898/2026.08.28.26361092v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2026-01-01/2026-11-01/60/json?category=pathology"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.64898/2026.09.08.26362425",
+      "version": 1,
+      "title": "Validation of the Incremental Prognostic Value of Deceased Donation Pre-implantation Kidney Transplant Biopsies through Comprehensive Lesion Quantification with Deep Learning",
+      "paper_url": "https://www.medrxiv.org/content/10.64898/2026.09.08.26362425v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2026-01-01/2026-11-01/90/json?category=pathology"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.64898/2026.09.16.26362193",
+      "version": 1,
+      "title": "CORRELATION OF SERUM ZINC WITH GLEASON SCORE AS A MARKER FOR PROSTATE CANCER AGGRESSIVENESS IN JOS.",
+      "paper_url": "https://www.medrxiv.org/content/10.64898/2026.09.16.26362193v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2026-09-21/2026-11-01/90/json"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.64898/2026.09.16.26363254",
+      "version": 1,
+      "title": "Gene-Based Rare Variant Burden Analyses Across Biobanks Identify Novel High-Risk Genes for Thoracic Aortic Disease",
+      "paper_url": "https://www.medrxiv.org/content/10.64898/2026.09.16.26363254v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2026-09-21/2026-11-01/90/json"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.64898/2026.09.19.26363379",
+      "version": 1,
+      "title": "Echo intensity is not an accurate surrogate marker of intramuscular fat and fibrosis: A systematic review with meta-analyses",
+      "paper_url": "https://www.medrxiv.org/content/10.64898/2026.09.19.26363379v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2026-09-21/2026-11-01/270/json"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.64898/2026.09.21.26363544",
+      "version": 1,
+      "title": "Polygenic effects on cortical size and ADHD converge on a mid-gestational progenitor-to-neuron transition programme",
+      "paper_url": "https://www.medrxiv.org/content/10.64898/2026.09.21.26363544v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2026-09-21/2026-11-01/90/json"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.64898/2026.09.21.26363571",
+      "version": 1,
+      "title": "CREBRF rs373863828 minimally regulates gene expression in subcutaneous adipose tissue of Samoan adults",
+      "paper_url": "https://www.medrxiv.org/content/10.64898/2026.09.21.26363571v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2026-09-21/2026-11-01/120/json"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.64898/2026.09.23.26363671",
+      "version": 1,
+      "title": "A neurocognitive speech taxonomy for voice biomarkers of Alzheimer's disease",
+      "paper_url": "https://www.medrxiv.org/content/10.64898/2026.09.23.26363671v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2026-09-21/2026-11-01/330/json"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.64898/2026.09.23.26363800",
+      "version": 1,
+      "title": "Peripheral Immune Alterations and T Cell Clonal Dynamics Across the Parkinson's Disease Spectrum",
+      "paper_url": "https://www.medrxiv.org/content/10.64898/2026.09.23.26363800v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2026-09-21/2026-11-01/480/json"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.64898/2026.09.25.26364002",
+      "version": 1,
+      "title": "Diabetes related antibody signature highlights ZnT8 as a novel antigenic target in rheumatoid arthritis",
+      "paper_url": "https://www.medrxiv.org/content/10.64898/2026.09.25.26364002v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2026-09-21/2026-11-01/660/json"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.64898/2026.09.29.26364331",
+      "version": 1,
+      "title": "Longitudinal multi-omic profiling separates persistent from resolving sequelae of breast cancer treatment",
+      "paper_url": "https://www.medrxiv.org/content/10.64898/2026.09.29.26364331v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2026-09-21/2026-11-01/870/json"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.64898/2026.10.02.26363145",
+      "version": 1,
+      "title": "Non-invasive detection of mutagenic exposure to aristolochic acid using ultra-deep sequencing of blood and urine samples",
+      "paper_url": "https://www.medrxiv.org/content/10.64898/2026.10.02.26363145v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2026-09-21/2026-11-01/1080/json"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.64898/2026.10.02.26364595",
+      "version": 1,
+      "title": "Cell type specific enrichment of substance use and substance use disorder heritability",
+      "paper_url": "https://www.medrxiv.org/content/10.64898/2026.10.02.26364595v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2026-09-21/2026-11-01/840/json"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.64898/2026.10.06.26364312",
+      "version": 1,
+      "title": "Large language model consensus for reliable research cohort construction from radiology reports: a retrospective cohort study",
+      "paper_url": "https://www.medrxiv.org/content/10.64898/2026.10.06.26364312v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2026-09-21/2026-11-01/1110/json"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.64898/2026.10.23.26365904",
+      "version": 1,
+      "title": "Site-specific immune remodeling underlies resistance to dual immune checkpoint blockade in metastatic colorectal cancer",
+      "paper_url": "https://www.medrxiv.org/content/10.64898/2026.10.23.26365904v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2026-09-21/2026-11-01/2040/json"
+    }
+  ]
+}

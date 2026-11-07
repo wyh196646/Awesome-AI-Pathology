@@ -1,11 +1,13 @@
 # Scope and weekly maintenance
 
-Scope updated: **2026-10-08**. This policy supersedes the image-input restriction
+Scope and recall safeguards updated: **2026-11-02**. This policy supersedes the image-input restriction
 used in the [2023–2026 search audit](literature-search-2023-2026.md).
 The first expanded search is documented in the [2026-10-05 update](updates/2026-10-05.md).
 The collection covers computational pathology and adjacent computational tissue,
 spatial and single-cell omics. Spatial/single-cell methods do not need a
 histopathology image input to qualify.
+The [Chinese search-method explanation](search-method.md) describes source roles,
+keyword families, admission rules and coverage limits.
 
 ## Keyword set
 
@@ -15,9 +17,9 @@ alone miss methods evaluated on tissue or cell data.
 
 | Family | Representative keywords |
 | --- | --- |
-| Histology and cytology | histopathologic, histologic, pathomics, WSI, whole slide, H&E, virtual staining, nuclei, glands, mitoses, blood smear, bone marrow |
+| Histology and cytology | pathology, pathologist*, histopath*, histologic, cytology, pathomics, WSI, whole slide, H&E, virtual staining, nuclei, glands, mitoses, blood smear, bone marrow, slide navigation, gaze, diagnostic copilots, pathology agents |
 | Spatial omics | spatial transcriptomics/proteomics/multiomics, spatially variable genes, spatial domains, deconvolution, spatial chromatin, MERFISH, seqFISH, Visium, Xenium, CosMx, Stereo-seq |
-| Single-cell methods | scRNA-seq, scATAC-seq, multiome, cell type annotation, cell atlas, cross-modal annotation, representation learning, cell-state mapping, CellProfiler, Cell Painting, cell phenotyping |
+| Single-cell methods | scRNA-seq, snRNA-seq, scATAC-seq, snATAC-seq, single-nucleus, multiome, cell type annotation, cell atlas, cross-modal annotation, representation learning, cell-state mapping, CellProfiler, Cell Painting, cell phenotyping |
 | Tissue microenvironment | tumor/tumour microenvironment, spatial niches, tissue architecture, cell-cell communication, ligand-receptor, tumor-stroma |
 | Cancer multimodal omics | multiomics, radiogenomics, genomics-guided imaging, molecular prediction, cross-modal imputation, missing modality, survival, pan-cancer |
 
@@ -26,6 +28,11 @@ contrastive/self-supervised learning, diffusion, flows, optimal transport,
 Bayesian inference, clustering, integration, annotation, imputation, benchmarks,
 atlases and software. Platform acronyms, generic `cell`, `spatial`, `pathology`,
 `WSI` and `missing modality` are retrieval clues, not automatic inclusion rules.
+Method words rank candidates for review; their absence must never be a hard
+exclusion gate. Search disease, specimen, platform and benchmark aliases as well,
+including CAMELYON, PanNuke, MoNuSeg, CoNSeP, BRACS and NCT-CRC-HE. Bare pathology
+terms intentionally retrieve radiology and other false positives; resolve those
+from actual inputs and contributions rather than removing the broad search term.
 
 Include computational methods, resources, benchmarks, substantial spatial or
 single-cell tissue/disease analyses, and relevant reviews. Cancer multimodal
@@ -106,6 +113,9 @@ this checkout available. See the [official scheduling documentation](https://lea
 
 1. Fetch the latest repository state and inspect local changes. Preserve user
    edits. Use a separate checkout/branch if the active checkout is dirty.
+   Recover pending identity/publication checks and the persisted recall-review
+   queue before declaring historical backfill complete. A successful API run is
+   evidence of query execution, not evidence that all relevant papers were found.
 2. Run `python scripts/search_preprints.py --until YYYY-MM-DD`, with the previous
    UTC day as the end date. Python 3.10+ and the standard library suffice.
    The initial window begins 2026-09-21. Later runs begin 14 days before each
@@ -117,6 +127,24 @@ this checkout available. See the [official scheduling documentation](https://lea
    [bioRxiv/medRxiv date-interval API](https://api.biorxiv.org/), paginating every
    result in the requested interval. It records errors and exits with a nonzero
    status if any source failed. It never edits papers or advances checkpoints.
+   The arXiv queries are split into short batches. Audit the success and final
+   page of every batch; failure of one batch does not mean zero matching papers.
+   If the API is unavailable, use fresh official arXiv search pages and official
+   abstract/version pages as a separate, explicitly logged fallback. Record each
+   query, date filter, page, advertised total and its actual limitations. Search
+   engine snapshots alone do not prove a complete recent interval. In particular,
+   original-announcement searches do not recover all older revised papers.
+   The standard-library helper `scripts/search_arxiv_html.py --since YYYY-01-01
+   --until YYYY-12-31 --output .cache/arxiv-html-year.json` reproduces a supplementary
+   six-term, original-announcement search. Its `complete` flag describes only the
+   requested query pages. It preserves partial records on failure and requires
+   independent first-posted verification for revisions. Use `--terms` for explicit
+   additional queries; the helper's defaults are not the full configured keyword set.
+   Re-screen complete Rxiv interval responses with the expanded keywords. For
+   historical pathology backfill, run each year separately with
+   `--category pathology --sources biorxiv medrxiv --since YYYY-01-01 --until YYYY-12-31`
+   (use the actual cutoff in the current year) and an independent `--cache-dir`.
+   Subject classification supplements keywords and never grants admission by itself.
 4. Review each candidate's title and abstract. Verify ambiguous papers using
    their primary abstract/full text. Record exclusions and duplicates. Resolve
    DOI, arXiv ID, title variants, cross-postings and formal publication links.
@@ -144,6 +172,15 @@ this checkout available. See the [official scheduling documentation](https://lea
 6. Save a dated audit in `docs/updates/`: intervals, source status, exact query
    links, retrieval/candidate counts, inclusion/exclusion decisions and verified
    additions/promotions/corrections. Do not commit large unfiltered API caches.
+   Keep the README homepage as a collection introduction and navigation index.
+   Never insert weekly-update announcements, dated change summaries or chains of
+   historical update links there. Keep those records in `docs/updates/` and the
+   Chinese chat report. Preserve a generic maintenance-policy link if useful.
+   Distinguish automatic full-abstract triage, item-level abstract review,
+   publication verification and unresolved candidates in the audit. Never count
+   an unreviewed candidate as excluded, admitted or a completed source review.
+   Check the known sentinel arXiv:2610.39441 against both query construction and
+   candidate filtering; investigate any future user-reported omission similarly.
 7. Publish a focused commit and push to the owned GitHub repository. Follow the
    existing branch/PR review-and-merge workflow, attach any created PR to the
    chat and merge after applicable checks. Do not force-push user branches.
