@@ -1044,7 +1044,7 @@
       "source": "biorxiv",
       "id": "10.64898/2026.10.28.762601",
       "version": 1,
-      "title": "LabWeaver: reliable agentic data analysis grounded in laboratory knowled",
+      "title": "LabWeaver: reliable agentic data analysis grounded in laboratory knowledge",
       "paper_url": "https://www.biorxiv.org/content/10.64898/2026.10.28.762601v1",
       "updated": "2026-11-03",
       "action": "add_preprint",
@@ -1053,13 +1053,17 @@
       "queue_index": 65,
       "review_basis": "title_and_abstract_scope_passages",
       "reviewed_on": "2026-11-07",
+      "retrieved_title": "LabWeaver: reliable agentic data analysis grounded in laboratory knowled",
+      "metadata_correction": "Official PDF first page and JATS article-title restore the truncated API title.",
       "year": 2026,
       "first_posted_verified": "2026-11-03",
       "verification_sources": [
         "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/3870/json",
         "https://api.biorxiv.org/details/biorxiv/10.64898/2026.10.28.762601/na/json",
         "https://api.crossref.org/works/10.64898%2F2026.10.28.762601",
-        "https://api.crossref.org/works?query.title=LabWeaver%3A+reliable+agentic+data+analysis+grounded+in+laboratory+knowled&rows=3"
+        "https://api.crossref.org/works?query.title=LabWeaver%3A+reliable+agentic+data+analysis+grounded+in+laboratory+knowled&rows=3",
+        "https://www.biorxiv.org/content/early/2026/11/03/2026.10.28.762601.source.xml",
+        "https://www.biorxiv.org/content/10.64898/2026.10.28.762601v1.full.pdf"
       ],
       "verification_errors": []
     },
@@ -6551,19 +6555,20 @@
       "paper_url": "https://arxiv.org/abs/2610.35890v1",
       "updated": "2026-09-10",
       "action": "add_preprint",
-      "reason": "In scope; first-posted history verified; no qualifying formal counterpart found in DOI relations and title/author search.",
+      "reason": "Official v1 history and abstract metadata agree on year 2026, but September 10 conflicts with the October ID month. Retain verified year and omit the precise day pending source resolution.",
       "reviewed_version": 1,
       "queue_index": 326,
       "review_basis": "title_and_abstract_scope_passages",
       "reviewed_on": "2026-11-07",
       "year": 2026,
-      "first_posted_verified": "2026-09-10",
       "verification_sources": [
         "https://arxiv.org/search/advanced?advanced=&classification-include_cross_list=include&date-filter_by=date_range&date-from_date=2026-10-18&date-to_date=2026-11-06&date-date_type=announced_date_first&abstracts=show&size=200&order=-announced_date_first&start=0&terms-0-operator=AND&terms-0-term=pathology&terms-0-field=all&terms-1-operator=OR&terms-1-term=histopathology&terms-1-field=all&terms-2-operator=OR&terms-2-term=histology&terms-2-field=all&terms-3-operator=OR&terms-3-term=pathologist&terms-3-field=all&terms-4-operator=OR&terms-4-term=whole+slide&terms-4-field=all&terms-5-operator=OR&terms-5-term=cytology&terms-5-field=all&terms-6-operator=OR&terms-6-term=%22spatial+transcriptomics%22&terms-6-field=all&terms-7-operator=OR&terms-7-term=%22single+cell%22&terms-7-field=all&terms-8-operator=OR&terms-8-term=%22single-cell%22&terms-8-field=all&terms-9-operator=OR&terms-9-term=%22single+nucleus%22&terms-9-field=all&terms-10-operator=OR&terms-10-term=%22single-nucleus%22&terms-10-field=all&terms-11-operator=OR&terms-11-term=%22spatial+proteomics%22&terms-11-field=all&terms-12-operator=OR&terms-12-term=%22spatial+multiomics%22&terms-12-field=all&terms-13-operator=OR&terms-13-term=%22cell+painting%22&terms-13-field=all",
         "https://arxiv.org/abs/2610.35890",
         "https://api.crossref.org/works?query.title=scPyviewer%3A+a+Python-native+interactive+viewer+from+AnnData+single-cell+data&rows=3"
       ],
-      "verification_errors": []
+      "verification_errors": [],
+      "official_reported_first_posted": "2026-09-10",
+      "first_posted_status": "pending_source_identifier_month_conflict"
     },
     {
       "source": "arxiv",
@@ -6779,18 +6784,6 @@
       "action": "prior_same_version",
       "prior_action": "exclude_scope",
       "reason": "Ultrasound-only synthesis.",
-      "review_basis": "previous_audit_same_title_and_version"
-    },
-    {
-      "source": "arxiv",
-      "id": "2610.40722",
-      "version": 1,
-      "title": "LAPIS: Clinically Constrained Patient-Identity Residual Learning for Chest X-Ray Anonymization",
-      "paper_url": "https://arxiv.org/abs/2610.40722v1",
-      "updated": "2026-10-29",
-      "action": "prior_same_version",
-      "prior_action": "exclude_scope",
-      "reason": "Chest-radiograph anonymization only.",
       "review_basis": "previous_audit_same_title_and_version"
     }
   ]

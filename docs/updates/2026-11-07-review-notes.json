@@ -346,11 +346,13 @@
     "10.64898/2026.10.28.762601": {
       "action": "include",
       "reason": "Laboratory-context agentic analysis evaluated on cancer scRNA-seq.",
-      "title": "LabWeaver: reliable agentic data analysis grounded in laboratory knowled",
+      "title": "LabWeaver: reliable agentic data analysis grounded in laboratory knowledge",
       "reviewed_version": 1,
       "queue_index": 65,
       "review_basis": "title_and_abstract_scope_passages",
-      "reviewed_on": "2026-11-07"
+      "reviewed_on": "2026-11-07",
+      "retrieved_title": "LabWeaver: reliable agentic data analysis grounded in laboratory knowled",
+      "metadata_correction": "Official PDF first page and JATS article-title restore the truncated API title."
     },
     "10.64898/2026.10.28.762654": {
       "action": "include",

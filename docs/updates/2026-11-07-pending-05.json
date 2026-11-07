@@ -260,6 +260,15 @@
       "updated": "2026-11-01",
       "action": "pending_review",
       "reason": "Broad-scope candidate retained for item-level review."
+    },
+    {
+      "source": "arxiv",
+      "id": "2610.35890",
+      "version": 1,
+      "title": "scPyviewer: a Python-native interactive viewer from AnnData single-cell data",
+      "paper_url": "https://arxiv.org/abs/2610.35890v1",
+      "action": "pending_metadata_date",
+      "reason": "Official v1 history and abstract metadata agree on year 2026, but September 10 conflicts with the October ID month. Retain verified year and omit the precise day pending source resolution."
     }
   ]
 }

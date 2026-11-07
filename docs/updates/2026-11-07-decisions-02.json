@@ -3,6 +3,18 @@
   "decisions": [
     {
       "source": "arxiv",
+      "id": "2610.40722",
+      "version": 1,
+      "title": "LAPIS: Clinically Constrained Patient-Identity Residual Learning for Chest X-Ray Anonymization",
+      "paper_url": "https://arxiv.org/abs/2610.40722v1",
+      "updated": "2026-10-29",
+      "action": "prior_same_version",
+      "prior_action": "exclude_scope",
+      "reason": "Chest-radiograph anonymization only.",
+      "review_basis": "previous_audit_same_title_and_version"
+    },
+    {
+      "source": "arxiv",
       "id": "2610.40752",
       "version": 1,
       "title": "PathoJev: Efficient Pathology Decisions from Shared Visual Context",
