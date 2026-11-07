@@ -12,7 +12,7 @@
       "last_successful_until": "2026-11-01"
     }
   },
-  "last_audit": "docs/updates/2026-11-07-recovery.json",
+  "last_audit": "docs/updates/2026-11-07.json",
   "pending_publication_checks": [
     {
       "arxiv_id": "2509.23097",
@@ -94,6 +94,23 @@
       "title": "CytoCrowd: A Multi-Annotator Benchmark Dataset for Cytology Image Analysis",
       "paper_url": "https://arxiv.org/abs/2602.06674v2",
       "reason": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "source": "biorxiv",
+      "id": "10.64898/2026.11.02.763843",
+      "title": "Transcriptional contingency in the early hematopoiesis of inherited bone marrow failure syndromes",
+      "paper_url": "https://www.biorxiv.org/content/10.64898/2026.11.02.763843v1",
+      "reason": "Same-title author-overlapping publisher record may be a meeting abstract rather than a full journal counterpart. Publisher access returned 403; hold for full-version confirmation.",
+      "formal_doi": "10.1016/j.ejcped.2025.100339"
+    },
+    {
+      "source": "arxiv",
+      "id": "2610.35890",
+      "version": 1,
+      "title": "scPyviewer: a Python-native interactive viewer from AnnData single-cell data",
+      "paper_url": "https://arxiv.org/abs/2610.35890v1",
+      "action": "pending_metadata_date",
+      "reason": "Official v1 history and abstract metadata agree on year 2026, but September 10 conflicts with the October ID month. Retain verified year and omit the precise day pending source resolution."
     }
   ],
   "pending_acceptance_checks": [
@@ -140,15 +157,35 @@
   ],
   "pending_recall_review": {
     "scope_revision": "2026-11-02",
-    "retrieval_cutoff_utc": "2026-11-01",
-    "pending_item_level_review": 1548,
+    "retrieval_cutoff_utc": "2026-11-06",
+    "pending_item_level_review": 1709,
     "files": [
-      "docs/updates/2026-11-07-recovery-pending-01.json",
-      "docs/updates/2026-11-07-recovery-pending-02.json",
-      "docs/updates/2026-11-07-recovery-pending-03.json",
-      "docs/updates/2026-11-07-recovery-pending-04.json"
+      "docs/updates/2026-11-07-pending-01.json",
+      "docs/updates/2026-11-07-pending-02.json",
+      "docs/updates/2026-11-07-pending-03.json",
+      "docs/updates/2026-11-07-pending-04.json",
+      "docs/updates/2026-11-07-pending-05.json"
     ],
     "arxiv_revision_coverage": "pending_expanded_vocabulary_recovery",
-    "checkpoint_rule": "Recover pending records and complete the relevant source interval review before advancing that source checkpoint."
-  }
+    "checkpoint_rule": "Recover pending records and complete the relevant source interval review before advancing that source checkpoint.",
+    "latest_batch": "docs/updates/2026-11-07.json"
+  },
+  "pending_conference_checks": [
+    {
+      "source": "biorxiv",
+      "id": "10.64898/2026.10.30.763085",
+      "title": "CMVAE: Contrastive Supervision Improves Single-Omic Latent Manifold for Breast Cancer Survival Prognosis",
+      "paper_url": "https://www.biorxiv.org/content/10.64898/2026.10.30.763085v1",
+      "reason": "Author claims workshop acceptance; await independent official proceedings/program confirmation.",
+      "last_checked": "2026-11-07"
+    },
+    {
+      "source": "arxiv",
+      "id": "2610.22756",
+      "title": "Input- and Feature-Space Correction for Cross-Hospital IHC Grading",
+      "paper_url": "https://arxiv.org/abs/2610.22756v1",
+      "reason": "Author claims workshop acceptance; await independent official proceedings/program confirmation.",
+      "last_checked": "2026-11-07"
+    }
+  ]
 }

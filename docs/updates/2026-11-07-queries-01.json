@@ -1,0 +1,1516 @@
+{
+  "audit": "2026-11-07.json",
+  "retrievals": [
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/0/json",
+      "cursor": 0,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/30/json",
+      "cursor": 30,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/60/json",
+      "cursor": 60,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/90/json",
+      "cursor": 90,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/120/json",
+      "cursor": 120,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/150/json",
+      "cursor": 150,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/180/json",
+      "cursor": 180,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/210/json",
+      "cursor": 210,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/240/json",
+      "cursor": 240,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/270/json",
+      "cursor": 270,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/300/json",
+      "cursor": 300,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/330/json",
+      "cursor": 330,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/360/json",
+      "cursor": 360,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/390/json",
+      "cursor": 390,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/420/json",
+      "cursor": 420,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/450/json",
+      "cursor": 450,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/480/json",
+      "cursor": 480,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/510/json",
+      "cursor": 510,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/540/json",
+      "cursor": 540,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/570/json",
+      "cursor": 570,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/600/json",
+      "cursor": 600,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/630/json",
+      "cursor": 630,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/660/json",
+      "cursor": 660,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/690/json",
+      "cursor": 690,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/720/json",
+      "cursor": 720,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/750/json",
+      "cursor": 750,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/780/json",
+      "cursor": 780,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/810/json",
+      "cursor": 810,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/840/json",
+      "cursor": 840,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/870/json",
+      "cursor": 870,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/900/json",
+      "cursor": 900,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/930/json",
+      "cursor": 930,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/960/json",
+      "cursor": 960,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/990/json",
+      "cursor": 990,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/1020/json",
+      "cursor": 1020,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/1050/json",
+      "cursor": 1050,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/1080/json",
+      "cursor": 1080,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/1110/json",
+      "cursor": 1110,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/1140/json",
+      "cursor": 1140,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/1170/json",
+      "cursor": 1170,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/1200/json",
+      "cursor": 1200,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/1230/json",
+      "cursor": 1230,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/1260/json",
+      "cursor": 1260,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/1290/json",
+      "cursor": 1290,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/1320/json",
+      "cursor": 1320,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/1350/json",
+      "cursor": 1350,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/1380/json",
+      "cursor": 1380,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/1410/json",
+      "cursor": 1410,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/1440/json",
+      "cursor": 1440,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/1470/json",
+      "cursor": 1470,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/1500/json",
+      "cursor": 1500,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/1530/json",
+      "cursor": 1530,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/1560/json",
+      "cursor": 1560,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/1590/json",
+      "cursor": 1590,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/1620/json",
+      "cursor": 1620,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/1650/json",
+      "cursor": 1650,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/1680/json",
+      "cursor": 1680,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/1710/json",
+      "cursor": 1710,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/1740/json",
+      "cursor": 1740,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/1770/json",
+      "cursor": 1770,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/1800/json",
+      "cursor": 1800,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/1830/json",
+      "cursor": 1830,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/1860/json",
+      "cursor": 1860,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/1890/json",
+      "cursor": 1890,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/1920/json",
+      "cursor": 1920,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/1950/json",
+      "cursor": 1950,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/1980/json",
+      "cursor": 1980,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/2010/json",
+      "cursor": 2010,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/2040/json",
+      "cursor": 2040,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/2070/json",
+      "cursor": 2070,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/2100/json",
+      "cursor": 2100,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/2130/json",
+      "cursor": 2130,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/2160/json",
+      "cursor": 2160,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/2190/json",
+      "cursor": 2190,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/2220/json",
+      "cursor": 2220,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/2250/json",
+      "cursor": 2250,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/2280/json",
+      "cursor": 2280,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/2310/json",
+      "cursor": 2310,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/2340/json",
+      "cursor": 2340,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/2370/json",
+      "cursor": 2370,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/2400/json",
+      "cursor": 2400,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/2430/json",
+      "cursor": 2430,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/2460/json",
+      "cursor": 2460,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/2490/json",
+      "cursor": 2490,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/2520/json",
+      "cursor": 2520,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/2550/json",
+      "cursor": 2550,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/2580/json",
+      "cursor": 2580,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/2610/json",
+      "cursor": 2610,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/2640/json",
+      "cursor": 2640,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/2670/json",
+      "cursor": 2670,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/2700/json",
+      "cursor": 2700,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/2730/json",
+      "cursor": 2730,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/2760/json",
+      "cursor": 2760,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/2790/json",
+      "cursor": 2790,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/2820/json",
+      "cursor": 2820,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/2850/json",
+      "cursor": 2850,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/2880/json",
+      "cursor": 2880,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/2910/json",
+      "cursor": 2910,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/2940/json",
+      "cursor": 2940,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/2970/json",
+      "cursor": 2970,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/3000/json",
+      "cursor": 3000,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/3030/json",
+      "cursor": 3030,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/3060/json",
+      "cursor": 3060,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/3090/json",
+      "cursor": 3090,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/3120/json",
+      "cursor": 3120,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/3150/json",
+      "cursor": 3150,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/3180/json",
+      "cursor": 3180,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/3210/json",
+      "cursor": 3210,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/3240/json",
+      "cursor": 3240,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/3270/json",
+      "cursor": 3270,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/3300/json",
+      "cursor": 3300,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/3330/json",
+      "cursor": 3330,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/3360/json",
+      "cursor": 3360,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/3390/json",
+      "cursor": 3390,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/3420/json",
+      "cursor": 3420,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/3450/json",
+      "cursor": 3450,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/3480/json",
+      "cursor": 3480,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/3510/json",
+      "cursor": 3510,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/3540/json",
+      "cursor": 3540,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/3570/json",
+      "cursor": 3570,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/3600/json",
+      "cursor": 3600,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/3630/json",
+      "cursor": 3630,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/3660/json",
+      "cursor": 3660,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/3690/json",
+      "cursor": 3690,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/3720/json",
+      "cursor": 3720,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/3750/json",
+      "cursor": 3750,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/3780/json",
+      "cursor": 3780,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/3810/json",
+      "cursor": 3810,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/3840/json",
+      "cursor": 3840,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/3870/json",
+      "cursor": 3870,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/3900/json",
+      "cursor": 3900,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/3930/json",
+      "cursor": 3930,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/3960/json",
+      "cursor": 3960,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/3990/json",
+      "cursor": 3990,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/4020/json",
+      "cursor": 4020,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/4050/json",
+      "cursor": 4050,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/4080/json",
+      "cursor": 4080,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/4110/json",
+      "cursor": 4110,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/4140/json",
+      "cursor": 4140,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/4170/json",
+      "cursor": 4170,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/4200/json",
+      "cursor": 4200,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/4230/json",
+      "cursor": 4230,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/4260/json",
+      "cursor": 4260,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/4290/json",
+      "cursor": 4290,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/4320/json",
+      "cursor": 4320,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/4350/json",
+      "cursor": 4350,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/4380/json",
+      "cursor": 4380,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/4410/json",
+      "cursor": 4410,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/4440/json",
+      "cursor": 4440,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/4470/json",
+      "cursor": 4470,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/4500/json",
+      "cursor": 4500,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/4530/json",
+      "cursor": 4530,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/4560/json",
+      "cursor": 4560,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/4590/json",
+      "cursor": 4590,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/4620/json",
+      "cursor": 4620,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/4650/json",
+      "cursor": 4650,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/4680/json",
+      "cursor": 4680,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/4710/json",
+      "cursor": 4710,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/4740/json",
+      "cursor": 4740,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/4770/json",
+      "cursor": 4770,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/4800/json",
+      "cursor": 4800,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/4830/json",
+      "cursor": 4830,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/4860/json",
+      "cursor": 4860,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/4890/json",
+      "cursor": 4890,
+      "total": 4929,
+      "retrieved": 30
+    },
+    {
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-06/4920/json",
+      "cursor": 4920,
+      "total": 4929,
+      "retrieved": 9
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-06/0/json",
+      "cursor": 0,
+      "total": 1343,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-06/30/json",
+      "cursor": 30,
+      "total": 1343,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-06/60/json",
+      "cursor": 60,
+      "total": 1343,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-06/90/json",
+      "cursor": 90,
+      "total": 1343,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-06/120/json",
+      "cursor": 120,
+      "total": 1343,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-06/150/json",
+      "cursor": 150,
+      "total": 1343,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-06/180/json",
+      "cursor": 180,
+      "total": 1343,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-06/210/json",
+      "cursor": 210,
+      "total": 1343,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-06/240/json",
+      "cursor": 240,
+      "total": 1343,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-06/270/json",
+      "cursor": 270,
+      "total": 1343,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-06/300/json",
+      "cursor": 300,
+      "total": 1343,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-06/330/json",
+      "cursor": 330,
+      "total": 1343,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-06/360/json",
+      "cursor": 360,
+      "total": 1343,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-06/390/json",
+      "cursor": 390,
+      "total": 1343,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-06/420/json",
+      "cursor": 420,
+      "total": 1343,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-06/450/json",
+      "cursor": 450,
+      "total": 1343,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-06/480/json",
+      "cursor": 480,
+      "total": 1343,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-06/510/json",
+      "cursor": 510,
+      "total": 1343,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-06/540/json",
+      "cursor": 540,
+      "total": 1343,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-06/570/json",
+      "cursor": 570,
+      "total": 1343,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-06/600/json",
+      "cursor": 600,
+      "total": 1343,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-06/630/json",
+      "cursor": 630,
+      "total": 1343,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-06/660/json",
+      "cursor": 660,
+      "total": 1343,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-06/690/json",
+      "cursor": 690,
+      "total": 1343,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-06/720/json",
+      "cursor": 720,
+      "total": 1343,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-06/750/json",
+      "cursor": 750,
+      "total": 1343,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-06/780/json",
+      "cursor": 780,
+      "total": 1343,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-06/810/json",
+      "cursor": 810,
+      "total": 1343,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-06/840/json",
+      "cursor": 840,
+      "total": 1343,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-06/870/json",
+      "cursor": 870,
+      "total": 1343,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-06/900/json",
+      "cursor": 900,
+      "total": 1343,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-06/930/json",
+      "cursor": 930,
+      "total": 1343,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-06/960/json",
+      "cursor": 960,
+      "total": 1343,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-06/990/json",
+      "cursor": 990,
+      "total": 1343,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-06/1020/json",
+      "cursor": 1020,
+      "total": 1343,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-06/1050/json",
+      "cursor": 1050,
+      "total": 1343,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-06/1080/json",
+      "cursor": 1080,
+      "total": 1343,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-06/1110/json",
+      "cursor": 1110,
+      "total": 1343,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-06/1140/json",
+      "cursor": 1140,
+      "total": 1343,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-06/1170/json",
+      "cursor": 1170,
+      "total": 1343,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-06/1200/json",
+      "cursor": 1200,
+      "total": 1343,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-06/1230/json",
+      "cursor": 1230,
+      "total": 1343,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-06/1260/json",
+      "cursor": 1260,
+      "total": 1343,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-06/1290/json",
+      "cursor": 1290,
+      "total": 1343,
+      "retrieved": 30
+    },
+    {
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-06/1320/json",
+      "cursor": 1320,
+      "total": 1343,
+      "retrieved": 23
+    },
+    {
+      "source": "arxiv",
+      "group": "histology_cytology",
+      "batch": 0,
+      "url": "https://export.arxiv.org/api/query?search_query=%28ti%3Ahistopatholog%2A+OR+abs%3Ahistopatholog%2A+OR+ti%3Ahistolog%2A+OR+abs%3Ahistolog%2A+OR+ti%3Ahistomorpholog%2A+OR+abs%3Ahistomorpholog%2A+OR+ti%3Apathomic%2A+OR+abs%3Apathomic%2A+OR+ti%3A%22digital+pathology%22+OR+abs%3A%22digital+pathology%22+OR+ti%3A%22computational+pathology%22+OR+abs%3A%22computational+pathology%22+OR+ti%3A%22pathology+image%2A%22+OR+abs%3A%22pathology+image%2A%22+OR+ti%3A%22pathology+report%2A%22+OR+abs%3A%22pathology+report%2A%22+OR+ti%3Acytopatholog%2A+OR+abs%3Acytopatholog%2A+OR+ti%3A%22pathology+slide%2A%22+OR+abs%3A%22pathology+slide%2A%22+OR+ti%3Amulti-slide+OR+abs%3Amulti-slide+OR+ti%3A%22multi+slide%22+OR+abs%3A%22multi+slide%22%29&start=0&max_results=200&sortBy=lastUpdatedDate&sortOrder=descending",
+      "total": 4574,
+      "page": 0,
+      "retrieved": 200
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/search/advanced?advanced=&classification-include_cross_list=include&date-filter_by=date_range&date-from_date=2026-10-18&date-to_date=2026-11-06&date-date_type=announced_date_first&abstracts=show&size=200&order=-announced_date_first&start=0&terms-0-operator=AND&terms-0-term=pathology&terms-0-field=all&terms-1-operator=OR&terms-1-term=histopathology&terms-1-field=all&terms-2-operator=OR&terms-2-term=histology&terms-2-field=all&terms-3-operator=OR&terms-3-term=pathologist&terms-3-field=all&terms-4-operator=OR&terms-4-term=whole+slide&terms-4-field=all&terms-5-operator=OR&terms-5-term=cytology&terms-5-field=all&terms-6-operator=OR&terms-6-term=%22spatial+transcriptomics%22&terms-6-field=all&terms-7-operator=OR&terms-7-term=%22single+cell%22&terms-7-field=all&terms-8-operator=OR&terms-8-term=%22single-cell%22&terms-8-field=all&terms-9-operator=OR&terms-9-term=%22single+nucleus%22&terms-9-field=all&terms-10-operator=OR&terms-10-term=%22single-nucleus%22&terms-10-field=all&terms-11-operator=OR&terms-11-term=%22spatial+proteomics%22&terms-11-field=all&terms-12-operator=OR&terms-12-term=%22spatial+multiomics%22&terms-12-field=all&terms-13-operator=OR&terms-13-term=%22cell+painting%22&terms-13-field=all",
+      "page": 0,
+      "total": 272,
+      "retrieved": 200,
+      "date_type": "original_announcement"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/search/advanced?advanced=&classification-include_cross_list=include&date-filter_by=date_range&date-from_date=2026-10-18&date-to_date=2026-11-06&date-date_type=announced_date_first&abstracts=show&size=200&order=-announced_date_first&start=200&terms-0-operator=AND&terms-0-term=pathology&terms-0-field=all&terms-1-operator=OR&terms-1-term=histopathology&terms-1-field=all&terms-2-operator=OR&terms-2-term=histology&terms-2-field=all&terms-3-operator=OR&terms-3-term=pathologist&terms-3-field=all&terms-4-operator=OR&terms-4-term=whole+slide&terms-4-field=all&terms-5-operator=OR&terms-5-term=cytology&terms-5-field=all&terms-6-operator=OR&terms-6-term=%22spatial+transcriptomics%22&terms-6-field=all&terms-7-operator=OR&terms-7-term=%22single+cell%22&terms-7-field=all&terms-8-operator=OR&terms-8-term=%22single-cell%22&terms-8-field=all&terms-9-operator=OR&terms-9-term=%22single+nucleus%22&terms-9-field=all&terms-10-operator=OR&terms-10-term=%22single-nucleus%22&terms-10-field=all&terms-11-operator=OR&terms-11-term=%22spatial+proteomics%22&terms-11-field=all&terms-12-operator=OR&terms-12-term=%22spatial+multiomics%22&terms-12-field=all&terms-13-operator=OR&terms-13-term=%22cell+painting%22&terms-13-field=all",
+      "page": 1,
+      "total": 272,
+      "retrieved": 72,
+      "date_type": "original_announcement"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/search/advanced?advanced=&classification-include_cross_list=include&date-filter_by=date_range&date-from_date=2026-10-18&date-to_date=2026-11-06&date-date_type=announced_date_first&abstracts=show&size=200&order=-announced_date_first&start=0&terms-0-operator=AND&terms-0-term=%22virtual+staining%22&terms-0-field=all&terms-1-operator=OR&terms-1-term=%22H%26E%22&terms-1-field=all&terms-2-operator=OR&terms-2-term=hematoxylin&terms-2-field=all&terms-3-operator=OR&terms-3-term=haematoxylin&terms-3-field=all&terms-4-operator=OR&terms-4-term=%22nuclear+segmentation%22&terms-4-field=all&terms-5-operator=OR&terms-5-term=%22cell+segmentation%22&terms-5-field=all&terms-6-operator=OR&terms-6-term=CAMELYON&terms-6-field=all&terms-7-operator=OR&terms-7-term=PanNuke&terms-7-field=all&terms-8-operator=OR&terms-8-term=MoNuSeg&terms-8-field=all&terms-9-operator=OR&terms-9-term=CoNSeP&terms-9-field=all&terms-10-operator=OR&terms-10-term=BRACS&terms-10-field=all&terms-11-operator=OR&terms-11-term=Visium&terms-11-field=all&terms-12-operator=OR&terms-12-term=Xenium&terms-12-field=all&terms-13-operator=OR&terms-13-term=MERFISH&terms-13-field=all&terms-14-operator=OR&terms-14-term=%22ATAC-seq%22&terms-14-field=all&terms-15-operator=OR&terms-15-term=cytomorphology&terms-15-field=all&terms-16-operator=OR&terms-16-term=pathomics&terms-16-field=all",
+      "page": 0,
+      "total": 41,
+      "retrieved": 41,
+      "date_type": "original_announcement"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/search/advanced?advanced=&classification-include_cross_list=include&date-filter_by=date_range&date-from_date=2026-11-02&date-to_date=2026-11-06&date-date_type=announced_date_first&abstracts=show&size=200&order=-announced_date_first&start=0&terms-0-operator=AND&terms-0-term=pathology&terms-0-field=all&terms-1-operator=OR&terms-1-term=histopathology&terms-1-field=all&terms-2-operator=OR&terms-2-term=histology&terms-2-field=all&terms-3-operator=OR&terms-3-term=pathologist&terms-3-field=all&terms-4-operator=OR&terms-4-term=whole+slide&terms-4-field=all&terms-5-operator=OR&terms-5-term=cytology&terms-5-field=all",
+      "page": 0,
+      "total": 0,
+      "retrieved": 0,
+      "date_type": "original_announcement"
+    }
+  ]
+}
