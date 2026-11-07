@@ -1,0 +1,1364 @@
+{
+  "audit": "2026-11-07.json",
+  "review_notes": {
+    "10.1101/2022.03.31.486602": {
+      "action": "include",
+      "reason": "Cancer single-cell signature matching method. Verify first publication and formal counterpart.",
+      "title": "Drug combination prediction for cancer treatment using disease-specific drug response profiles and single-cell transcriptional signatures",
+      "reviewed_version": 5,
+      "queue_index": 0,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.1101/2023.03.23.534023": {
+      "action": "include",
+      "reason": "Reusable JUMP Cell Painting images and single-cell morphology resource.",
+      "title": "JUMP Cell Painting chemical dataset: Morphological map of 115,796 compounds in human cells",
+      "reviewed_version": 4,
+      "queue_index": 1,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.1101/2023.09.15.558023": {
+      "action": "exclude_scope",
+      "reason": "Cell-line establishment and preclinical validation without a substantive computational tissue or omics contribution.",
+      "title": "WCRC-25: A novel luminal Invasive Lobular Carcinoma cell line model",
+      "reviewed_version": 2,
+      "queue_index": 2,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.1101/2025.01.14.633026": {
+      "action": "exclude_scope",
+      "reason": "Bulk prognostic biomarker and drug-response validation without qualifying image, spatial or single-cell method.",
+      "title": "Prediction of Tubulin Inhibitor Sensitivity in Colon Cancer",
+      "reviewed_version": 2,
+      "queue_index": 3,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.1101/2025.05.28.656702": {
+      "action": "exclude_scope",
+      "reason": "Plant pathogen population genetics outside biomedical tissue scope.",
+      "title": "Genetic diversity and population structure of Phytophthora infestans in Guatemala and Honduras",
+      "reviewed_version": 9,
+      "queue_index": 4,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.1101/2025.07.15.662972": {
+      "action": "include",
+      "reason": "Spatial transcriptomic ordering of tumour microenvironment remodelling.",
+      "title": "Spatiotemporal dynamics of tumor microenvironment remodelling",
+      "reviewed_version": 2,
+      "queue_index": 5,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.1101/2025.09.19.677475": {
+      "action": "exclude_scope",
+      "reason": "Fungal sequence-to-expression model outside biomedical cell/tissue scope.",
+      "title": "Predicting dynamic expression patterns in budding yeast with a fungal DNA language model",
+      "reviewed_version": 2,
+      "queue_index": 6,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.1101/2025.09.26.677825": {
+      "action": "include",
+      "reason": "Single-cell endocrine lineage-state and gene regulatory analysis.",
+      "title": "NKX2.2 is required for timely NEUROG3 extinction and segregation of competing lineage programs in human pancreatic endocrine progenitors",
+      "reviewed_version": 2,
+      "queue_index": 7,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.1101/2025.10.02.680123": {
+      "action": "exclude_scope",
+      "reason": "Metabolic assays and mechanistic cell experiments without substantive computational imaging/omics analysis.",
+      "title": "Spiny mouse fibroblasts exhibit a baseline preference for glycolysis and are resilient to oxidative stress across lifespan",
+      "reviewed_version": 2,
+      "queue_index": 8,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.01.10.698734": {
+      "action": "include",
+      "reason": "Spatial single-cell spinal cord atlas and ligand-receptor analysis.",
+      "title": "Spatial transcriptomics reveals organizational properties of the mouse spinal cord and alterations in neuropathic pain",
+      "reviewed_version": 2,
+      "queue_index": 9,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.03.03.709343": {
+      "action": "exclude_scope",
+      "reason": "Fish vitamin-D gene curation and bulk RNA profiling outside the requested analysis scope.",
+      "title": "Genomic identification and multi-tissue transcriptomic profiling of vitamin D3-related genes in Atlantic salmon (Salmo salar)",
+      "reviewed_version": 2,
+      "queue_index": 10,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.03.20.713160": {
+      "action": "include",
+      "reason": "Population-scale single-nucleus brain resource with cell-type-specific molecular variation.",
+      "title": "Common variation of cell abundances and gene expression in the human striatum",
+      "reviewed_version": 2,
+      "queue_index": 11,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.04.07.717093": {
+      "action": "exclude_scope",
+      "reason": "Protein-ligand graph prediction and target-validation study with ancillary single-cell evidence.",
+      "title": "AI-Guided Structure-Aware Modeling and Thermal Proteomics Reveal Direct Demethylzeylasteral-ACLY Interaction",
+      "reviewed_version": 3,
+      "queue_index": 12,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.04.08.717260": {
+      "action": "exclude_scope",
+      "reason": "Engineered infection reporter and experimental assay rather than computational tissue/image/omics analysis.",
+      "title": "V-SWITCH: A single-vector OFF-to-ON fluorescent reporter of live RNA virus infections",
+      "reviewed_version": 2,
+      "queue_index": 13,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.04.12.718037": {
+      "action": "exclude_scope",
+      "reason": "Targeted mechanistic GI assays with ancillary public single-cell integration.",
+      "title": "Reduced enteric Bdnf expression and TrkB-dependent regulation of Vip in a Mecp2-null mouse model of Rett syndrome-associated gastrointestinal dysmotility",
+      "reviewed_version": 2,
+      "queue_index": 14,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.05.10.723372": {
+      "action": "exclude_scope",
+      "reason": "Bacterial quorum-sensing mechanism outside biomedical tissue analysis scope.",
+      "title": "PhoPQ is an upstream regulator of quorum sensing in small colony variant subpopulations of Pseudomonas aeruginosa",
+      "reviewed_version": 2,
+      "queue_index": 15,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.06.05.729979": {
+      "action": "exclude_scope",
+      "reason": "Clinical PET/resection histopathology association without computational pathology analysis.",
+      "title": "Pathology in resected areas of FDG PET hypometabolism in pediatric epilepsy patients with focal cortical dysplasia type II",
+      "reviewed_version": 2,
+      "queue_index": 16,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.07.05.736665": {
+      "action": "exclude_scope",
+      "reason": "Genetically delivered antibody-depletion therapy without qualifying computational analysis.",
+      "title": "AAV delivered lysosome-targeting chimeras mediate sustained antibody depletion in vivo",
+      "reviewed_version": 4,
+      "queue_index": 17,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.07.07.736532": {
+      "action": "include",
+      "reason": "SPARC constrained trajectory inference and paired cancer spatial/single-cell resource.",
+      "title": "SPARC Reveals Distinct Osteoclastogenesis-Associated Malignant States in Metastatic Osteosarcoma",
+      "reviewed_version": 2,
+      "queue_index": 18,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.07.12.738070": {
+      "action": "exclude_scope",
+      "reason": "Descriptive fish gonadal histology outside computational biomedical tissue scope.",
+      "title": "Gonadal histology and variation in gonadosomatic index in captive moonfish Mene maculata",
+      "reviewed_version": 2,
+      "queue_index": 19,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.08.04.742148": {
+      "action": "exclude_scope",
+      "reason": "Myopathy mouse model and therapy experiments without computational tissue analysis.",
+      "title": "Characterization of the frameshift c.515dupC knock-in mouse model of HSPB8-associated myopathy (MFM13) and evaluation of Trehalose as autophagy modulating therapy.",
+      "reviewed_version": 2,
+      "queue_index": 20,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.08.05.743065": {
+      "action": "exclude_scope",
+      "reason": "Targeted neuronal physiology and transgenic circuit characterization without spatial omics or computational image method.",
+      "title": "Multidimensional profiling of heterogeneous lateral habenula subpopulations reveals distinct responses during motivated behavior",
+      "reviewed_version": 2,
+      "queue_index": 21,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.08.06.743174": {
+      "action": "include",
+      "reason": "Cell-adaptive token allocation for scRNA foundation models.",
+      "title": "AdaGeneBudget: Cell-Adaptive Gene-Token Allocation for Efficient Single-Cell Foundation Models",
+      "reviewed_version": 2,
+      "queue_index": 22,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.09.11.750961": {
+      "action": "include",
+      "reason": "Quantitative intravital cell tracking and tissue-niche image analysis.",
+      "title": "Intravital microscopy and statistical image analysis of early engraftment of haematopoietic stem cells reveal dynamic and evolving cellular behaviours linked to progressive differentiation.",
+      "reviewed_version": 2,
+      "queue_index": 26,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.09.21.753234": {
+      "action": "include",
+      "reason": "Spatial and single-cell developmental proteomics measurement and analysis resource.",
+      "title": "Recording proteome dynamics in the late-stage embryo at hour-timescale, spatial, and single-cell resolution with MEMBRYO",
+      "reviewed_version": 3,
+      "queue_index": 27,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.10.01.756003": {
+      "action": "include",
+      "reason": "Quantitative whole-pancreas cellular composition and spatial image analysis.",
+      "title": "Islet size, cellular composition, and spatial location are interconnected in the human pancreas",
+      "reviewed_version": 2,
+      "queue_index": 30,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.10.07.757266": {
+      "action": "include",
+      "reason": "Label-free Raman tissue image feature for amyloid mapping against histological reference.",
+      "title": "Amide I kurtosis maps cardiac amyloid in human tissue by ultrabroadband multiplex coherent anti-Stokes Raman scattering (CARS) microscopy",
+      "reviewed_version": 2,
+      "queue_index": 32,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.10.08.757494": {
+      "action": "include",
+      "reason": "Joint single-cell methylome-transcriptome method and clone reconstruction.",
+      "title": "Scalable methylome-transcriptome profiling resolves clonal organization in human hematopoiesis",
+      "reviewed_version": 2,
+      "queue_index": 33,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.10.16.759698": {
+      "action": "include",
+      "reason": "VLM-guided single-cell ATAC gene-activity quantification.",
+      "title": "VIGAT: VLM-guided gene activity quantification from single-cell ATAC-seq",
+      "reviewed_version": 1,
+      "queue_index": 36,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.10.21.760457": {
+      "action": "include",
+      "reason": "Quantitative microscopy software adoption and reproducibility resource analysis.",
+      "title": "Mapping bioimage-analysis software adoption in microscopy",
+      "reviewed_version": 3,
+      "queue_index": 37,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.10.24.761590": {
+      "action": "include",
+      "reason": "Read-level single-cell RNA foundation model.",
+      "title": "scRM: A single-cell foundation model trained on scRNA-seq reads",
+      "reviewed_version": 2,
+      "queue_index": 39,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.10.27.762369": {
+      "action": "include",
+      "reason": "Spatial transcriptomics-to-protein prediction with robust contextual regression.",
+      "title": "TSNR: Protein-Specific Signals with Broad Molecular Context for Spatial Protein Prediction",
+      "reviewed_version": 1,
+      "queue_index": 49,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.10.28.762240": {
+      "action": "include",
+      "reason": "Joint in-situ transcript/protein/morphology single-cell stress-response resource.",
+      "title": "Multi-modal in situ profiling of human cells using the AVITI24 platform characterizes single-cell responses to acute stress",
+      "reviewed_version": 1,
+      "queue_index": 55,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.10.28.762297": {
+      "action": "include",
+      "reason": "Multimodal single-cell foundation model aligns RNA and ATAC.",
+      "title": "A single-cell multimodal foundation model enables cross modality analysis between transcriptome and chromatin",
+      "reviewed_version": 1,
+      "queue_index": 56,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.10.28.762359": {
+      "action": "include",
+      "reason": "Lineage-aware unbalanced optimal transport for cell-fate dynamics.",
+      "title": "LOTUS: lineage-aware optimal transport reconstructs continuous clonal fate dynamics",
+      "reviewed_version": 1,
+      "queue_index": 57,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.10.28.762506": {
+      "action": "include",
+      "reason": "Agentic transfer and validation of cancer single-cell findings.",
+      "title": "Agentic Discovery Transfer Enables Cross-Cancer Discovery at Scale",
+      "reviewed_version": 2,
+      "queue_index": 61,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.10.28.762545": {
+      "action": "include",
+      "reason": "Quantitative tissue imaging integrated with deep proteomics and metabolomics.",
+      "title": "Quantitative imaging of native tissue architecture combined with deep multi-omics reveals the spatial biology of kidney aging",
+      "reviewed_version": 1,
+      "queue_index": 63,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.10.28.762566": {
+      "action": "include",
+      "reason": "Reusable Bioconductor graph infrastructure for single-cell and omics data.",
+      "title": "GraphExperiment: infrastructure for high-dimensional quantitative data and associated networks in R/Bioconductor",
+      "reviewed_version": 1,
+      "queue_index": 64,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.10.28.762601": {
+      "action": "include",
+      "reason": "Laboratory-context agentic analysis evaluated on cancer scRNA-seq.",
+      "title": "LabWeaver: reliable agentic data analysis grounded in laboratory knowled",
+      "reviewed_version": 1,
+      "queue_index": 65,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.10.28.762654": {
+      "action": "include",
+      "reason": "Single-cell Hi-C subcompartment annotation method.",
+      "title": "scSTEC: Annotating Chromatin Subcompartments from Individual Single-Cell Hi-C Data via Direct Two-Dimensional Embedding and Chromosome-wise Consensus",
+      "reviewed_version": 1,
+      "queue_index": 66,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.10.29.762981": {
+      "action": "include",
+      "reason": "Subcellular transcript localization/co-occurrence in spatial omics.",
+      "title": "Quantifying subcellular organization from localization to co-occurrence with InSpace",
+      "reviewed_version": 1,
+      "queue_index": 85,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.10.30.761789": {
+      "action": "include",
+      "reason": "Interpretable hierarchical pan-cancer molecular subtype classification.",
+      "title": "Classifying tumors from broad category to hierarchical molecular subtype: an interpretable hierarchical framework for precision oncology",
+      "reviewed_version": 1,
+      "queue_index": 87,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.10.30.763085": {
+      "action": "include",
+      "reason": "Cancer molecular representation and survival learning. Workshop claim requires official confirmation.",
+      "title": "CMVAE: Contrastive Supervision Improves Single-Omic Latent Manifold for Breast Cancer Survival Prognosis",
+      "reviewed_version": 1,
+      "queue_index": 99,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.10.30.763100": {
+      "action": "include",
+      "reason": "Reproducible cohort-level spatial transcriptomics workflow.",
+      "title": "SpaceBlocks: an expert-supervised workflow for cohort-level spatial transcriptomics analysis",
+      "reviewed_version": 1,
+      "queue_index": 101,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.10.30.763157": {
+      "action": "include",
+      "reason": "Deep visual spatial proteomics of intracellular inclusions and matched hosts.",
+      "title": "Aggregate Deep Visual Proteomics reveals selective organization of α-synuclein inclusions",
+      "reviewed_version": 2,
+      "queue_index": 103,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.10.30.763189": {
+      "action": "include",
+      "reason": "Agentic computational benchmark includes single-cell RNA analyses and released trajectories.",
+      "title": "The Reasoning Paradox in Scientific Sandboxes: Why Extended Reasoning Fails in Autonomous Bioinformatics and How to Fix It.",
+      "reviewed_version": 1,
+      "queue_index": 104,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.10.30.763196": {
+      "action": "include",
+      "reason": "Deep-learning tissue segmentation and transcriptomic integration in pancreatic precancers.",
+      "title": "Quantitative Donor Histology and Transcriptomics Link Pancreatic Composition and Precancers Across the Adult Lifespan",
+      "reviewed_version": 1,
+      "queue_index": 105,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.10.30.763199": {
+      "action": "include",
+      "reason": "Provenance-aware cell phenotype knowledge network from human single-cell data.",
+      "title": "A trustworthy semantic knowledge network linking data-driven cell phenotypes to diseases and drugs",
+      "reviewed_version": 1,
+      "queue_index": 107,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.10.30.763241": {
+      "action": "include",
+      "reason": "Dynamic gene-embedding retrieval for mechanistic single-cell GRN inference.",
+      "title": "GSET: Gene Signals from Embedding Trajectories select compact contexts for mechanistic GRN inference",
+      "reviewed_version": 1,
+      "queue_index": 110,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.10.28.762703": {
+      "action": "include",
+      "reason": "Spatial deconvolution separates abundance and continuous cell state.",
+      "title": "ARCADE disentangles cell abundance from continuous transcriptional state in spatial transcriptomics",
+      "reviewed_version": 1,
+      "queue_index": 69,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.10.29.762637": {
+      "action": "include",
+      "reason": "Microscopy foundation-model embeddings for interpretable phenotyping.",
+      "title": "PhenoMe: An interactive AI framework for interpretable, microscopy-driven phenotyping",
+      "reviewed_version": 1,
+      "queue_index": 74,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.10.29.762851": {
+      "action": "include",
+      "reason": "Spatial expression relationships and boundary-aware tissue-region analysis.",
+      "title": "TileScope quantifies spatial gene expression relationships beyond colocalization",
+      "reviewed_version": 1,
+      "queue_index": 81,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.10.31.763029": {
+      "action": "include",
+      "reason": "High-throughput single-cell image analysis with nested variance and phenotype clustering.",
+      "title": "CardioShift: Resolving cell-to-cell functional heterogeneity in hiPSC-derived cardiomyocytes from high-throughput single-cell imaging",
+      "reviewed_version": 1,
+      "queue_index": 116,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.10.31.763119": {
+      "action": "include",
+      "reason": "Natural-language spatial omics querying and released text-to-SQL benchmark.",
+      "title": "SPaRTA: Spatial Reasoning in Text-to-SQL for Omics Analysis",
+      "reviewed_version": 1,
+      "queue_index": 117,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.10.31.763288": {
+      "action": "include",
+      "reason": "Reusable neuronal single-cell pathway interpretation tool.",
+      "title": "NEPTUNE: a neuronal cell death pathway prediction tool used to decipher neurodegeneration using single cell RNA-seq datasets",
+      "reviewed_version": 1,
+      "queue_index": 121,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.10.31.763339": {
+      "action": "include",
+      "reason": "Interactive single-cell/spatial senescence and cell-communication platform.",
+      "title": "SENgEAR: an interactive visualization platform for comparative analysis of senescence signatures and cellular communication",
+      "reviewed_version": 1,
+      "queue_index": 125,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.10.31.763357": {
+      "action": "exclude_scope",
+      "reason": "Bulk Hi-C/Micro-C feature retrieval without a single-cell or tissue spatial-omics evaluation.",
+      "title": "Reference-Guided De Novo Retrieval of 3D Chromatin Organizational Features with Representation Learning",
+      "reviewed_version": 1,
+      "queue_index": 127,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.10.31.763361": {
+      "action": "include",
+      "reason": "Sparse transcriptome reconstruction framework and baseline-aware benchmark.",
+      "title": "Top2All: Benchmarking sparse-to-transcriptome reconstruction from high-expression profiles across sex- and sex-steroid-defined conditions",
+      "reviewed_version": 2,
+      "queue_index": 129,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.10.31.763364": {
+      "action": "include",
+      "reason": "Deep-learning segmentation of stained atherosclerotic tissue sections.",
+      "title": "2D U-NET Deep Learning Architecture for Atherosclerotic Lesion Segmentation and Quantification",
+      "reviewed_version": 1,
+      "queue_index": 130,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.01.761587": {
+      "action": "include",
+      "reason": "Multimodal WSI/transcriptome breast biomarker prediction with cross-cohort evaluation.",
+      "title": "Development and cross-cohort evaluation of a multimodal deep-learning model for ER, PR and HER2 status classification in breast cancer",
+      "reviewed_version": 1,
+      "queue_index": 131,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.01.763387": {
+      "action": "include",
+      "reason": "Live cancer-cell imaging integrated with spatial interaction modeling.",
+      "title": "Decoding stress-induced adaptation of cancer cells in spatial confinement by integrating live-cell imaging and mathematical modeling",
+      "reviewed_version": 1,
+      "queue_index": 134,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.01.763453": {
+      "action": "include",
+      "reason": "Interpretable patient-level risk prediction from single-cell RNA.",
+      "title": "irAEGIS: Pathway-guided interpretable prediction of immune-related adverse events",
+      "reviewed_version": 1,
+      "queue_index": 135,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.01.763459": {
+      "action": "include",
+      "reason": "Scalable stochastic simulator for single-cell regulatory systems.",
+      "title": "Simulating the dynamics of gene regulatory systems at cellular scale",
+      "reviewed_version": 1,
+      "queue_index": 136,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.01.763494": {
+      "action": "include",
+      "reason": "Layer-specific transfer learning for multi-omics cancer survival.",
+      "title": "Layer-Specific Source-Anchored Transfer Learning for Multi-Omics Survival Prediction in Younger Breast Cancer Patients",
+      "reviewed_version": 1,
+      "queue_index": 142,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.01.763496": {
+      "action": "include",
+      "reason": "Cancer spatial transcriptomics simulation and CNA/clone method benchmark.",
+      "title": "OncoSpot enables benchmarking of cancer spatial transcriptomics methods across tumor evolutionary modes",
+      "reviewed_version": 1,
+      "queue_index": 143,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.02.760689": {
+      "action": "include",
+      "reason": "Breast-lesion morphology landscape from pathology foundation-model embeddings.",
+      "title": "Pathology foundation-model embeddings reveal a morphological landscape of breast lesions beyond diagnostic categories",
+      "reviewed_version": 1,
+      "queue_index": 145,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.02.762549": {
+      "action": "include",
+      "reason": "Perturbation inference from single-cell states across contexts.",
+      "title": "ExPert infers causal perturbations from cell states across biological and clinical contexts",
+      "reviewed_version": 1,
+      "queue_index": 146,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.02.763225": {
+      "action": "include",
+      "reason": "Spatial single-molecule short-RNA motif mapping method and tissue validation.",
+      "title": "Single-probe, high-yield spatial mapping of diverse short RNA motifs",
+      "reviewed_version": 1,
+      "queue_index": 148,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.02.763572": {
+      "action": "include",
+      "reason": "Biologically informed single-cell trajectory evaluation package.",
+      "title": "BioTrajX: evaluating biological plausibility in single-cell trajectory inference",
+      "reviewed_version": 1,
+      "queue_index": 153,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.02.763678": {
+      "action": "include",
+      "reason": "Flow-based single-cell perturbation prediction with adaptive spectral encoding.",
+      "title": "Spectral Adaptive Repositioning for Flow-Based Single-Cell Perturbation Modeling",
+      "reviewed_version": 1,
+      "queue_index": 159,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.02.763749": {
+      "action": "include",
+      "reason": "Perturb-seq regulatory-path inference using reference epigenomes.",
+      "title": "Resolving how genetic perturbations act through gene regulatory paths",
+      "reviewed_version": 1,
+      "queue_index": 161,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.02.763764": {
+      "action": "include",
+      "reason": "Multi-institutional histology/clinical multimodal survival modeling.",
+      "title": "Explainable Multimodal Prognostic Modeling Uncovers New Clinically Relevant Pathological Features in a Multi-Institutional Pancreatic Neuroendocrine Tumor Cohort",
+      "reviewed_version": 1,
+      "queue_index": 163,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.02.763811": {
+      "action": "include",
+      "reason": "Query-conditioned histology-to-spatial-proteomics virtual staining.",
+      "title": "Generalizable virtual staining from histopathology to spatial proteomics across biological scales",
+      "reviewed_version": 2,
+      "queue_index": 168,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.02.763853": {
+      "action": "include",
+      "reason": "Cancer survival strata and transport-based progression inference evaluated on WSI.",
+      "title": "Discovering Prognostic Risk Strata and Heterogeneous Progression Routes from Cross-Sectional Survival Data",
+      "reviewed_version": 1,
+      "queue_index": 171,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.03.762080": {
+      "action": "include",
+      "reason": "Perturb-seq regulatory programs integrated with disease genetics.",
+      "title": "Perturbation-induced gene programs map the hidden regulatory architecture of complex diseases",
+      "reviewed_version": 2,
+      "queue_index": 174,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.03.763484": {
+      "action": "include",
+      "reason": "Longitudinal live-cell RNA profiling technology and reusable analysis resource.",
+      "title": "Live Droplet Single-Cell RNA Sequencing",
+      "reviewed_version": 1,
+      "queue_index": 175,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.03.763852": {
+      "action": "include",
+      "reason": "Single-cell geometric analysis of malignant glioma drug-response states.",
+      "title": "Single-cell geometry of drug responses across malignant glioma states",
+      "reviewed_version": 1,
+      "queue_index": 180,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.03.763858": {
+      "action": "include",
+      "reason": "Human-AI analysis workspace demonstrated on single-nucleus data and sample-level replication.",
+      "title": "Rho: A Purpose-Driven Workspace for Human-AI Collaborative Analysis",
+      "reviewed_version": 1,
+      "queue_index": 181,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.03.763866": {
+      "action": "include",
+      "reason": "Cross-signal interactions in single-cell and spatial tissue omics.",
+      "title": "Uncovering cross-signal interactions in single-cell and spatial omics",
+      "reviewed_version": 1,
+      "queue_index": 182,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.03.763902": {
+      "action": "include",
+      "reason": "Latent cell-state model reconstructs single-cell temporal trajectories.",
+      "title": "Reconstruction of Cellular Trajectories with Biologically Interpretable States",
+      "reviewed_version": 1,
+      "queue_index": 185,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.03.763968": {
+      "action": "include",
+      "reason": "Single-cell foundation-model benchmark with matched simple baselines.",
+      "title": "Where single-cell foundation models help: a benchmark of annotation, perturbation and regulatory inference against simple baselines",
+      "reviewed_version": 1,
+      "queue_index": 192,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.03.763980": {
+      "action": "include",
+      "reason": "Graph-based causal representation of single-cell perturbations.",
+      "title": "RAPTORGraph: graph-based pathway modeling for causal discovery in single-cell perturbations",
+      "reviewed_version": 1,
+      "queue_index": 194,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.03.764034": {
+      "action": "include",
+      "reason": "Modular processing and per-cell QC for RNA and ATAC data.",
+      "title": "gcat, its_a_scam: modular tools for single cell data processing and per-cellquality control",
+      "reviewed_version": 1,
+      "queue_index": 202,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.03.764043": {
+      "action": "include",
+      "reason": "Generative integration of cell state and mitochondrial clonal genotype.",
+      "title": "CloneVI: A deep generative model for deciphering the relationships between cell state and mitochondrial genotype",
+      "reviewed_version": 1,
+      "queue_index": 205,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.03.764120": {
+      "action": "include",
+      "reason": "Reproducible multithreaded single-cell analysis toolkit.",
+      "title": "brisc: a multithreaded CPU toolkit for single-cell analysis",
+      "reviewed_version": 1,
+      "queue_index": 209,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.03.764126": {
+      "action": "include",
+      "reason": "Optimal-transport transcript reassignment and cell segmentation across spatial platforms.",
+      "title": "Unified cell segmentation for spatial transcriptomics via transcript reassignment",
+      "reviewed_version": 1,
+      "queue_index": 210,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.04.764088": {
+      "action": "include",
+      "reason": "Single-cell perturbation screen design and model evaluation benchmark.",
+      "title": "Plate design confounds donor variation and model evaluation in single-cell perturbation screens",
+      "reviewed_version": 1,
+      "queue_index": 217,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.04.764099": {
+      "action": "include",
+      "reason": "Population-scale single-cell differential composition benchmark.",
+      "title": "Benchmarking Statistical Methods for Differential Composition Analysis in Population-Scale Single-Cell Data",
+      "reviewed_version": 1,
+      "queue_index": 218,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.04.764154": {
+      "action": "include",
+      "reason": "Traceable glaucoma single-cell resource construction framework.",
+      "title": "TRACE: a framework for traceable biomedical resource construction demonstrated through single-cell glaucoma data",
+      "reviewed_version": 1,
+      "queue_index": 222,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.04.764164": {
+      "action": "include",
+      "reason": "Reusable multi-objective cancer pharmacogenomic domain adaptation.",
+      "title": "Multi-objective domain adaptation for pan-cancer transfer of pharmacogenomic drug response to patient tumours",
+      "reviewed_version": 1,
+      "queue_index": 223,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.04.764191": {
+      "action": "exclude_scope",
+      "reason": "CT-only lymph-node classification without tissue image or molecular input.",
+      "title": "Cross-cancer knowledge transfer for lymph node metastasis prediction: Applicability of an axillary lymph node-based deep learning model",
+      "reviewed_version": 1,
+      "queue_index": 226,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.04.764238": {
+      "action": "include",
+      "reason": "RNA-conditioned multiscale histology predicts spatial proteins.",
+      "title": "MorphoProt: RNA-Conditioned Integration of Multiscale Histology for Spatial Protein Inference",
+      "reviewed_version": 1,
+      "queue_index": 228,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.04.764252": {
+      "action": "include",
+      "reason": "Digital pathology and fractal analysis of wound matrix architecture.",
+      "title": "Quantitative Spatial Analysis of Matrix Remodelling in Wounds Using Digital Pathology and Fractal Analysis",
+      "reviewed_version": 1,
+      "queue_index": 230,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.04.764292": {
+      "action": "include",
+      "reason": "Sequentially disentangled single-cell perturbation response prediction.",
+      "title": "scDisentangle: sequential disentanglement for single-cell perturbation response prediction",
+      "reviewed_version": 1,
+      "queue_index": 233,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.04.764311": {
+      "action": "include",
+      "reason": "Optimal-transport and entropy tool for cell-specific responses.",
+      "title": "SPECHTacle: An Efficient Detection and Visualization of Cell Specific Regulation in Single Cell-Based Experiments Using a Novel Combinatorial Computational Tool",
+      "reviewed_version": 1,
+      "queue_index": 235,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.04.764394": {
+      "action": "include",
+      "reason": "Functional-data clustering of image-derived single-cell filopodia trajectories.",
+      "title": "Functional Data Clustering of Filopodia Dynamics",
+      "reviewed_version": 1,
+      "queue_index": 243,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.05.764505": {
+      "action": "include",
+      "reason": "Cell Painting and molecular multi-view transfer for cellular perturbation prediction.",
+      "title": "Predicting Transcriptional Responses to Unseen Compounds through Context Modeling and Multi-View Transfer",
+      "reviewed_version": 1,
+      "queue_index": 258,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.05.764509": {
+      "action": "include",
+      "reason": "Agentic cell typing and guided cell segmentation in spatial transcriptomics.",
+      "title": "Agentic AI enables cell segmentation-free cell-type inference and cell-type-guided cell segmentation in spatial transcriptomics",
+      "reviewed_version": 1,
+      "queue_index": 259,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.05.764594": {
+      "action": "include",
+      "reason": "Efficient probe-level multiplexed single-cell quantification.",
+      "title": "Rapid, accurate, and memory-frugal sub-gene-level quantification of probe-based, multiplexed single-cell data",
+      "reviewed_version": 1,
+      "queue_index": 264,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.05.764599": {
+      "action": "include",
+      "reason": "Interpretable contrastive single-cell state transition representation.",
+      "title": "scCont: Interpretable Contrastive Learning for Functional Characterization of Cellular State Transitions",
+      "reviewed_version": 1,
+      "queue_index": 265,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.04.764438": {
+      "action": "include",
+      "reason": "Continuous virtual tissue dynamics from spatial transcriptomics and cell interactions.",
+      "title": "Virtual dynamics of spatiotemporal single-cell interactions",
+      "reviewed_version": 1,
+      "queue_index": 248,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.04.764463": {
+      "action": "include",
+      "reason": "Spatial generative model separates transcript spillover from niche response.",
+      "title": "DisCell: Separating Spillover from Niche Response in Spatial Transcriptomics",
+      "reviewed_version": 1,
+      "queue_index": 251,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.05.764481": {
+      "action": "include",
+      "reason": "Causal regulatory network inference from single-cell perturbations.",
+      "title": "Inferring gene regulatory networks from single-cell perturbation data by optimizing causal reach of latent mediator dynamics",
+      "reviewed_version": 1,
+      "queue_index": 256,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.05.764606": {
+      "action": "exclude_scope",
+      "reason": "Single-molecule tracking phenotype method evaluated only in bacteria, outside biomedical tissue/cell-omics scope.",
+      "title": "Multimodal cellular context enables molecular phenotyping from single-molecule trajectories",
+      "reviewed_version": 1,
+      "queue_index": 266,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.05.764643": {
+      "action": "include",
+      "reason": "Single-cell dynamical operator estimation and identifiability benchmark.",
+      "title": "Label-free flow operators and stability operators from single-cell time courses: what local dynamical operators can and cannot identify",
+      "reviewed_version": 1,
+      "queue_index": 268,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.05.764656": {
+      "action": "include",
+      "reason": "Generative 3D tissue reconstruction from single-cell expression.",
+      "title": "Generative 3D Spatial Reconstruction of Cellular Organization from Single Cell Expression",
+      "reviewed_version": 1,
+      "queue_index": 270,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.05.764680": {
+      "action": "include",
+      "reason": "Temporal pathology-report transformer and cross-cancer evaluation.",
+      "title": "Hierarchical Temporal Transformer for Cancer Grade Prediction and Cross-Cancer Transfer Learning from Pathology Reports",
+      "reviewed_version": 1,
+      "queue_index": 276,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.05.764753": {
+      "action": "include",
+      "reason": "Simulator and benchmark for circadian single-cell/spatial transcriptomics.",
+      "title": "scCircaSim: A Circadian Simulator for Single-Cell and Spatial Transcriptomics",
+      "reviewed_version": 1,
+      "queue_index": 279,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.03.26367106": {
+      "action": "include",
+      "reason": "AI single-cell morphology and genomic characterization of malignant effusions.",
+      "title": "AI-powered single-cell imaging and morphology-guided label-free enrichment reveal tumor heterogeneity, genomic relatedness, and divergence in malignant effusions",
+      "reviewed_version": 1,
+      "queue_index": 299,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.05.26367347": {
+      "action": "include",
+      "reason": "PAS histology predicts spatial transcriptomic tissue-aging scores.",
+      "title": "A healthy donor kidney aging signature estimable from PAS histology and its association with progression of diabetic kidney disease",
+      "reviewed_version": 1,
+      "queue_index": 307,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "2610.13637": {
+      "action": "include",
+      "reason": "Knowledge-augmented weakly supervised microscopy and cytomorphology classification.",
+      "title": "Model-agnostic Knowledge Augmented Machine Learning for Weakly Annotated Bioimaging Data",
+      "reviewed_version": 1,
+      "queue_index": 315,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "2610.22756": {
+      "action": "include",
+      "reason": "Cross-hospital IHC grading with pathology foundation models. Verify workshop status independently.",
+      "title": "Input- and Feature-Space Correction for Cross-Hospital IHC Grading",
+      "reviewed_version": 1,
+      "queue_index": 318,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "2610.28853": {
+      "action": "include",
+      "reason": "Matched single-nucleus RNA-from-ATAC prediction benchmark.",
+      "title": "An autoencoder outperforms two transformers on prediction of gene expression from chromatin accessibility",
+      "reviewed_version": 1,
+      "queue_index": 320,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "2610.35890": {
+      "action": "include",
+      "reason": "Python-native interactive single-cell data viewer.",
+      "title": "scPyviewer: a Python-native interactive viewer from AnnData single-cell data",
+      "reviewed_version": 1,
+      "queue_index": 326,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.10.14.759129": {
+      "action": "include",
+      "reason": "Explainable topological analysis of single-cell multiomics.",
+      "title": "XplainTDA: Explaining the topological structure of single-cell multi-omics data through perturbation",
+      "reviewed_version": 1,
+      "queue_index": 346,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.10.15.758756": {
+      "action": "include",
+      "reason": "Scalable spatial mass-spectrometry imaging pipeline.",
+      "title": "CPMsi: a data-driven Computational Pipeline for fast, large-scale Mass Spectrometry Imaging analysis",
+      "reviewed_version": 1,
+      "queue_index": 348,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.10.22.760947": {
+      "action": "include",
+      "reason": "Single-cell microscopy morphology and senescence analysis pipeline.",
+      "title": "Quantifying punctate morphology in mesenchymal stem cells from single cell images provides a definitive quality assessment pipeline for direct correlation to osteogenic lineage differentiation",
+      "reviewed_version": 1,
+      "queue_index": 373,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.10.26.761917": {
+      "action": "include",
+      "reason": "Spatially resolved post-stroke single-cell tissue atlas.",
+      "title": "Spatially resolved single-cell atlas reveals cortical glial reactivity associated with regions of neuronal growth programs in both hemispheres after stroke",
+      "reviewed_version": 2,
+      "queue_index": 40,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.10.28.762471": {
+      "action": "include",
+      "reason": "Spatial transcriptomic microenvironment analysis in tuberculosis tissue.",
+      "title": "Spatial transcriptomics of pediatric tuberculosis lymph nodes reveals a conserved hypoxia_SPP1 niche",
+      "reviewed_version": 1,
+      "queue_index": 59,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.10.29.762618": {
+      "action": "include",
+      "reason": "Single-nucleus intestinal disease atlas and multicellular programs.",
+      "title": "Transmural Single-Nucleus Transcriptomics Nominates Candidate Disease Programs in Human Necrotizing Enterocolitis",
+      "reviewed_version": 1,
+      "queue_index": 73,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.10.29.762763": {
+      "action": "include",
+      "reason": "Regional single-cell/single-nucleus muscle differentiation and cell interaction analysis.",
+      "title": "Regionalisation of muscle nucleus heterogeneity in foetal skeletal muscle",
+      "reviewed_version": 2,
+      "queue_index": 77,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.10.30.762827": {
+      "action": "include",
+      "reason": "Single-cell cancer atlas integrated with spatial community organization.",
+      "title": "Age-based shifts in multicellular community organization and abundance in HPV-Negative Head and Neck Cancer",
+      "reviewed_version": 1,
+      "queue_index": 90,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.10.30.763209": {
+      "action": "include",
+      "reason": "3D human tissue microscopy, segmentation and histology-correlated atlas.",
+      "title": "Light-sheet fluorescence microscopy of optically cleared human head-and-neck organs: three-dimensional tissue assessment and histological correlation",
+      "reviewed_version": 1,
+      "queue_index": 109,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.01.763474": {
+      "action": "include",
+      "reason": "Single-cell comparative cellular analysis of human osteonecrotic tissue.",
+      "title": "Single-Cell RNA Sequencing Reveals Distinct Cellular and Molecular Features of Steroid-Induced Osteonecrosis of the Femoral Head Compared to Alcohol-Induced Osteonecrosis and Hip Osteoarthritis",
+      "reviewed_version": 1,
+      "queue_index": 141,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.02.763843": {
+      "action": "include",
+      "reason": "Integrated single-cell bone marrow failure atlas and cell-state comparison.",
+      "title": "Transcriptional contingency in the early hematopoiesis of inherited bone marrow failure syndromes",
+      "reviewed_version": 1,
+      "queue_index": 170,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.03.763791": {
+      "action": "include",
+      "reason": "Single-nucleus and spatial transcriptomic analysis of fibrotic histopathological subtypes.",
+      "title": "Comparative molecular analysis of histopathologic subtypes reveals shared epithelial remodeling yet distinct fibroblast programs in scleroderma lung disease",
+      "reviewed_version": 1,
+      "queue_index": 179,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.03.764023": {
+      "action": "include",
+      "reason": "Organ-scale cellular-resolution 3D tissue imaging atlas.",
+      "title": "Organ scale Three-dimensional atlas of developing pelvic innervation for the mouse lower urinary tract.",
+      "reviewed_version": 1,
+      "queue_index": 200,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.04.763740": {
+      "action": "include",
+      "reason": "CRISPR single-cell differentiation profiling and gene-program inference framework.",
+      "title": "Mapping the regulatory wiring of endothelial cell differentiation reveals a critical role for Hippo mechanosignaling",
+      "reviewed_version": 1,
+      "queue_index": 214,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.04.764326": {
+      "action": "include",
+      "reason": "Time-resolved single-nucleus RNA/ATAC and neural cell-interaction analysis.",
+      "title": "Single-cell multi-omics identify OTP and NOVA1 as regulators of leptin action in hypothalamic feeding circuits",
+      "reviewed_version": 1,
+      "queue_index": 237,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.04.764362": {
+      "action": "include",
+      "reason": "Cancer single-cell lineages and cell-cell communication across premalignant progression.",
+      "title": "Single-Cell Transcriptomics Reveals Tumorigenic Lineages and Interactions Persisting and Evolving From Premalignancy to Cancer in the Stomach",
+      "reviewed_version": 1,
+      "queue_index": 241,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.10.24.26366384": {
+      "action": "include",
+      "reason": "Large-scale sarcoma spatial neighborhoods and clinical heterogeneity analysis.",
+      "title": "Spatial neighborhood organization shapes clinical heterogeneity in Ewing sarcoma",
+      "reviewed_version": 2,
+      "queue_index": 285,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.03.26367234": {
+      "action": "include",
+      "reason": "Cell-type-specific single-cell eQTL and disease mechanism analysis.",
+      "title": "Single-Cell Transcriptome-Wide Mendelian Randomization and Colocalization Analysis Reveals Immune Cell-Specific Mechanisms in Alzheimer's Disease",
+      "reviewed_version": 1,
+      "queue_index": 303,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.10.30.762911": {
+      "action": "include",
+      "reason": "Integrated single-cell/single-nucleus comparison of renal organoid models.",
+      "title": "A comparative transcriptomic framework across kidney organoid, assembloid, and transplantation models",
+      "reviewed_version": 1,
+      "queue_index": 92,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "2610.09179": {
+      "action": "exclude_scope",
+      "reason": "Transformer depth pathology is a metaphor. No biomedical tissue/image/omics evaluation.",
+      "title": "LayerRoPE: Dynamic Depth-wise Magnitude & Angular Superposition",
+      "reviewed_version": 1,
+      "queue_index": 313,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "2610.11317": {
+      "action": "exclude_scope",
+      "reason": "MoE structural pathology is a metaphor. No qualifying biomedical evaluation.",
+      "title": "DivMoE: Fine-Grained MoE Upcycling via Cross-Domain Expert Composition",
+      "reviewed_version": 1,
+      "queue_index": 314,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "2610.22519": {
+      "action": "include",
+      "reason": "General dynamics inference includes single-cell RNA reconstruction.",
+      "title": "Learning smooth dynamics via Kinematic Interpolants",
+      "reviewed_version": 1,
+      "queue_index": 317,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "2610.32616": {
+      "action": "exclude_scope",
+      "reason": "Legacy preclinical chemistry report metadata extraction without tissue/omics analysis.",
+      "title": "From archive to resource: bringing legacy data back to life at scale with large language models",
+      "reviewed_version": 1,
+      "queue_index": 322,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "2610.33003": {
+      "action": "include",
+      "reason": "Agentic spatial transcriptomic analysis and target nomination in Alzheimer tissue.",
+      "title": "TargetAgent: Mathematical AI Co-Scientist for Drug Target Identification",
+      "reviewed_version": 1,
+      "queue_index": 324,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "2610.33420": {
+      "action": "exclude_scope",
+      "reason": "Reinforcement-learning interference pathology is unrelated to biomedical tissue analysis.",
+      "title": "An Empirical Study of Reinforcement Learning Scaling Laws",
+      "reviewed_version": 1,
+      "queue_index": 325,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.10.28.762220": {
+      "action": "exclude_scope",
+      "reason": "Bulk 3D chromosome architecture inference without single-cell/tissue spatial-omics analysis.",
+      "title": "A generative network model reveals hierarchical structural memory guiding post-mitotic 3D genome inheritance",
+      "reviewed_version": 1,
+      "queue_index": 54,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.02.763567": {
+      "action": "exclude_scope",
+      "reason": "Mechanical morphogenesis simulation without pathology image or molecular tissue analysis.",
+      "title": "Emergence and robustness of 3D complex tissue architectures from simple physical forces",
+      "reviewed_version": 1,
+      "queue_index": 152,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.04.764402": {
+      "action": "exclude_scope",
+      "reason": "Fly sensory patterning mechanics simulation without qualifying biomedical image/omics analysis.",
+      "title": "SOPSim: A cell vertex-based application for simulating sensory bristle patterning with dynamic filopodia",
+      "reviewed_version": 1,
+      "queue_index": 246,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.01.763461": {
+      "action": "include",
+      "reason": "Longitudinal tissue imaging links cell morphology, architecture and lineage fate.",
+      "title": "Tissue geometry patterns epidermal stem cell fate in murine interfollicular skin",
+      "reviewed_version": 1,
+      "queue_index": 137,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.01.763471": {
+      "action": "include",
+      "reason": "Multiscale spatial RNA/protein imaging platform including FFPE tissue mapping.",
+      "title": "A compact three-way junction oligonucleotide probe for widefield and super-resolution imaging of RNAs and proteins",
+      "reviewed_version": 1,
+      "queue_index": 140,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.02.762613": {
+      "action": "include",
+      "reason": "Single-cell transcriptional and methylation analysis resolves tissue NK-cell development.",
+      "title": "CD200R1 Marks a Branchpoint During Human Natural Killer Cell Development in Tonsils",
+      "reviewed_version": 1,
+      "queue_index": 147,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.03.763975": {
+      "action": "include",
+      "reason": "Single-cell comparison resolves sex-specific bone marrow populations.",
+      "title": "Sex-specific bone marrow populations regulate skeletal phenotype and identify CD74-marked osteoclast precursor subsets",
+      "reviewed_version": 1,
+      "queue_index": 193,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.03.764075": {
+      "action": "exclude_scope",
+      "reason": "Mechanistic fibroblast/T-cell perturbation study without substantive computational tissue/omics analysis.",
+      "title": "MHCII+ cancer-associated fibroblasts promote antitumor immunity in pancreatic cancer",
+      "reviewed_version": 1,
+      "queue_index": 208,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.04.764258": {
+      "action": "include",
+      "reason": "Single-cell and machine-learning analysis of viral states in cortical organoids.",
+      "title": "Cytomegalovirus Infection in Human Cortical Organoids Induces Unique Developmental and Viral Substates",
+      "reviewed_version": 1,
+      "queue_index": 231,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.04.764395": {
+      "action": "include",
+      "reason": "Visium HD spatial analysis of neuronal and adjacent tissue response.",
+      "title": "Acute nicotine exposure produces a spatially organized transcriptional response in mouse olfactory cortex",
+      "reviewed_version": 1,
+      "queue_index": 244,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "10.64898/2026.11.05.764714": {
+      "action": "include",
+      "reason": "Paired spatial transcriptomics identifies pre-fibrotic tissue niches.",
+      "title": "Homeostatic fibroblast niche collapse in clinically uninvolved skin marks a pre-fibrotic stage of systemic sclerosis",
+      "reviewed_version": 1,
+      "queue_index": 277,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    },
+    "2610.22921": {
+      "action": "include",
+      "reason": "Instance-aware token merging evaluated on PanNuke nuclei segmentation.",
+      "title": "MaskMerge: Structure-aware Token Merging for Efficient Instance Segmentation",
+      "reviewed_version": 1,
+      "queue_index": 379,
+      "review_basis": "title_and_abstract_scope_passages",
+      "reviewed_on": "2026-11-07"
+    }
+  }
+}
