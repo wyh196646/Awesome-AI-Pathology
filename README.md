@@ -19,29 +19,16 @@ See the [keyword set and weekly maintenance policy](docs/weekly-maintenance.md).
 
 Journal entries require **SCIE indexing and CAS 2025 upgraded major-category zone 1**,
 using the latest available CAS edition for every publication year.
-See the [journal cleanup and ranking sources](docs/updates/2026-10-08-cas-zone1.md).
+See the [verified journal policy](config/journal-policy.json).
 
 ## Highlights
 
-- 📚 4,267 curated publication entries in computational pathology and tissue omics
+- 📚 4,776 curated publication entries in computational pathology and tissue omics
 - 🧠 Foundation models, WSI analysis, VLMs, agents, and spatial omics
 - 🏛️ Top conferences and journals: CVPR, ICCV, NeurIPS, ICML, ICLR, MICCAI, MIDL, Nature, Cell, Lancet, IEEE TPAMI, IEEE TMI, MedIA
 - 📊 Year-by-year and venue-by-venue paper tracking
 - 🔎 DOI links, official proceedings, and reproducible search records
 - 🤝 Open for community contributions
-
-Weekly update (2026-11-02): [160 additions, 12 updates and 1 withdrawn-preprint removal](docs/updates/2026-11-02.md).
-
-Weekly update (2026-10-26): [182 additions, 14 updates and 1 journal-policy removal](docs/updates/2026-10-26.md).
-
-Weekly update (2026-10-19): [179 additions, 9 publication migrations and complete source coverage](docs/updates/2026-10-19.md).
-
-Weekly update (2026-10-12): [118 preprints, 3 revisions and source status](docs/updates/2026-10-12.md).
-TPAMI update (2026-10-08): [verified additions and year corrections](docs/updates/2026-10-08-tpami.md).
-Journal cleanup (2026-10-08): [CAS zone-1 policy, removed counts and retained journals](docs/updates/2026-10-08-cas-zone1.md).
-NeurIPS 2026 update (2026-10-06): [28 requested works and source verification](docs/updates/2026-10-06-neurips-2026.md).
-Expanded-scope update (2026-10-05): [additions, yearly counts and weekly search audit](docs/updates/2026-10-05.md).
-Earlier update (2026-10-04): [historical search audit](docs/literature-search-2023-2026.md).
 
 ## Surveyed Venue List
 Journal searches and additions follow the verified CAS zone-1 allowlist.
@@ -96,8 +83,7 @@ Conferences and preprint servers are screened for topical relevance.
 - Science Advances, Cell Systems and Cell Reports Medicine
 - Cancer Research, Clinical Cancer Research and Journal of Clinical Oncology
 
-These are representative venues. The [complete retained journal list](docs/updates/2026-10-08-cas-zone1.md#retained-journals)
-and [machine-readable allowlist](config/journal-policy.json) cover all 101 verified titles.
+These are representative venues. The [machine-readable allowlist](config/journal-policy.json) covers all 101 verified titles.
 
 **Preprints / Technical Reports**
 - arXiv
@@ -120,17 +106,17 @@ Earlier years remain on this page.
 
 # 2026
 
-**2,041 publications** · [Browse the complete 2026 list](papers/2026.md)
+**2,209 publications** · [Browse the complete 2026 list](papers/2026.md)
 
 - [Nature](papers/2026.md#nature) (3)
 - [Nature Medicine](papers/2026.md#nature-medicine) (6)
 - [Nature Cancer](papers/2026.md#nature-cancer) (7)
-- [Nature Methods](papers/2026.md#nature-methods) (15)
-- [Nature Communications](papers/2026.md#nature-communications) (40)
+- [Nature Methods](papers/2026.md#nature-methods) (17)
+- [Nature Communications](papers/2026.md#nature-communications) (42)
 - [Nature Biomedical Engineering](papers/2026.md#nature-biomedical-engineering) (13)
 - [npj Digital Medicine](papers/2026.md#npj-digital-medicine) (28)
 - [The Lancet Digital Health](papers/2026.md#the-lancet-digital-health) (4)
-- [npj Precision Oncology](papers/2026.md#npj-precision-oncology) (23)
+- [npj Precision Oncology](papers/2026.md#npj-precision-oncology) (24)
 - [Cancer Cell](papers/2026.md#cancer-cell) (4)
 - [Cell](papers/2026.md#cell) (3)
 - [Light: Science & Applications](papers/2026.md#light-science--applications) (2)
@@ -143,7 +129,7 @@ Earlier years remain on this page.
 - [Journal of Clinical Oncology](papers/2026.md#journal-of-clinical-oncology) (2)
 - [Modern Pathology](papers/2026.md#modern-pathology) (13)
 - [BMC Medicine](papers/2026.md#bmc-medicine) (1)
-- [Cancer Research](papers/2026.md#cancer-research) (10)
+- [Cancer Research](papers/2026.md#cancer-research) (11)
 - [Cell Reports Medicine](papers/2026.md#cell-reports-medicine) (3)
 - [Clinical Cancer Research](papers/2026.md#clinical-cancer-research) (8)
 - [Genome Biology](papers/2026.md#genome-biology) (21)
@@ -168,7 +154,7 @@ Earlier years remain on this page.
 - [Hepatology (Baltimore, Md.)](papers/2026.md#hepatology-baltimore-md) (1)
 - [Ieee Transactions On Image Processing : A Publication Of The Ieee Signal Processing Society](papers/2026.md#ieee-transactions-on-image-processing--a-publication-of-the-ieee-signal-processing-society) (1)
 - [Imeta](papers/2026.md#imeta) (1)
-- [JCI Insight](papers/2026.md#jci-insight) (2)
+- [JCI Insight](papers/2026.md#jci-insight) (3)
 - [Jhep Reports : Innovation In Hepatology](papers/2026.md#jhep-reports--innovation-in-hepatology) (1)
 - [Journal Of Advanced Research](papers/2026.md#journal-of-advanced-research) (2)
 - [Journal Of Biomedical Science](papers/2026.md#journal-of-biomedical-science) (1)
@@ -201,24 +187,31 @@ Earlier years remain on this page.
 - [MIDL 2026](papers/2026.md#midl-2026) (23)
 - [ECCV 2026](papers/2026.md#eccv-2026) (20)
 - [IJCAI 2026](papers/2026.md#ijcai-2026) (7)
-- [WACV 2026](papers/2026.md#wacv-2026) (12)
-- [arXiv](papers/2026.md#arxiv) (466)
-- [bioRxiv](papers/2026.md#biorxiv) (608)
-- [medRxiv](papers/2026.md#medrxiv) (122)
+- [WACV 2026](papers/2026.md#wacv-2026) (13)
+- [arXiv](papers/2026.md#arxiv) (555)
+- [bioRxiv](papers/2026.md#biorxiv) (650)
+- [medRxiv](papers/2026.md#medrxiv) (133)
 - [TechRxiv](papers/2026.md#techrxiv) (1)
 - [BMVC 2026](papers/2026.md#bmvc-2026) (1)
+- [ISBI 2026](papers/2026.md#isbi-2026) (11)
+- [CVPR Findings 2026](papers/2026.md#cvpr-findings-2026) (2)
+- [WACV 2026 Workshops](papers/2026.md#wacv-2026-workshops) (1)
+- [ICASSP 2026](papers/2026.md#icassp-2026) (1)
+- [CBMS 2026](papers/2026.md#cbms-2026) (1)
+- [ICETCI 2026](papers/2026.md#icetci-2026) (1)
+- [ICIP 2026](papers/2026.md#icip-2026) (1)
 
 ---
 
 # 2025
 
-**1,052 publications** · [Browse the complete 2025 list](papers/2025.md)
+**1,139 publications** · [Browse the complete 2025 list](papers/2025.md)
 
 - [Nature](papers/2025.md#nature) (5)
-- [Nature Medicine](papers/2025.md#nature-medicine) (2)
+- [Nature Medicine](papers/2025.md#nature-medicine) (3)
 - [Nature Cancer](papers/2025.md#nature-cancer) (2)
 - [Nature Methods](papers/2025.md#nature-methods) (13)
-- [Nature Communications](papers/2025.md#nature-communications) (55)
+- [Nature Communications](papers/2025.md#nature-communications) (56)
 - [Nature Biomedical Engineering](papers/2025.md#nature-biomedical-engineering) (5)
 - [npj Digital Medicine](papers/2025.md#npj-digital-medicine) (32)
 - [The Lancet Digital Health](papers/2025.md#the-lancet-digital-health) (5)
@@ -257,7 +250,7 @@ Earlier years remain on this page.
 - [Cell Discovery](papers/2025.md#cell-discovery) (1)
 - [Cell Proliferation](papers/2025.md#cell-proliferation) (1)
 - [Communications Biology](papers/2025.md#communications-biology) (12)
-- [Genome Medicine](papers/2025.md#genome-medicine) (4)
+- [Genome Medicine](papers/2025.md#genome-medicine) (5)
 - [Genome Research](papers/2025.md#genome-research) (7)
 - [Gut](papers/2025.md#gut) (1)
 - [Hepatology (Baltimore, Md.)](papers/2025.md#hepatology-baltimore-md) (1)
@@ -279,7 +272,7 @@ Earlier years remain on this page.
 - [Science Bulletin](papers/2025.md#science-bulletin) (1)
 - [Stem Cell Reports](papers/2025.md#stem-cell-reports) (1)
 - [CVPR 2025](papers/2025.md#cvpr-2025) (24)
-- [ICCV 2025](papers/2025.md#iccv-2025) (22)
+- [ICCV 2025](papers/2025.md#iccv-2025) (23)
 - [NeurIPS 2025](papers/2025.md#neurips-2025) (45)
 - [ICLR 2025](papers/2025.md#iclr-2025) (16)
 - [MICCAI 2025](papers/2025.md#miccai-2025) (91)
@@ -288,24 +281,32 @@ Earlier years remain on this page.
 - [ACM MM 2025](papers/2025.md#acm-mm-2025) (12)
 - [ICML 2025](papers/2025.md#icml-2025) (26)
 - [WACV 2025](papers/2025.md#wacv-2025) (8)
-- [EMNLP 2025](papers/2025.md#emnlp-2025) (1)
+- [EMNLP 2025](papers/2025.md#emnlp-2025) (2)
 - [MIDL 2025](papers/2025.md#midl-2025) (13)
 - [ML4H 2025](papers/2025.md#ml4h-2025) (3)
-- [arXiv](papers/2025.md#arxiv) (319)
-- [bioRxiv](papers/2025.md#biorxiv) (28)
-- [medRxiv](papers/2025.md#medrxiv) (4)
+- [arXiv](papers/2025.md#arxiv) (365)
+- [bioRxiv](papers/2025.md#biorxiv) (38)
+- [medRxiv](papers/2025.md#medrxiv) (15)
 - [CIKM 2025](papers/2025.md#cikm-2025) (1)
 - [COMPLEX NETWORKS 2025](papers/2025.md#complex-networks-2025) (1)
 - [ICIP 2025](papers/2025.md#icip-2025) (1)
+- [ISBI 2025](papers/2025.md#isbi-2025) (7)
+- [CVPR 2025 Workshops](papers/2025.md#cvpr-2025-workshops) (1)
+- [ICIP 2025 Workshops](papers/2025.md#icip-2025-workshops) (1)
+- [ICCV 2025 Workshops](papers/2025.md#iccv-2025-workshops) (1)
+- [CODS 2025](papers/2025.md#cods-2025) (1)
+- [EMBC 2025](papers/2025.md#embc-2025) (2)
+- [ICBCB 2025](papers/2025.md#icbcb-2025) (1)
+- [Cell Reports](papers/2025.md#cell-reports) (1)
 
 ---
 
 # 2024
 
-**674 publications** · [Browse the complete 2024 list](papers/2024.md)
+**806 publications** · [Browse the complete 2024 list](papers/2024.md)
 
 - [Nature](papers/2024.md#nature) (3)
-- [Nature Medicine](papers/2024.md#nature-medicine) (9)
+- [Nature Medicine](papers/2024.md#nature-medicine) (10)
 - [Nature Cancer](papers/2024.md#nature-cancer) (4)
 - [Nature Methods](papers/2024.md#nature-methods) (11)
 - [Nature Communications](papers/2024.md#nature-communications) (49)
@@ -337,11 +338,11 @@ Earlier years remain on this page.
 - [JAMA Dermatology](papers/2024.md#jama-dermatology) (1)
 - [Science Advances](papers/2024.md#science-advances) (3)
 - [The American Journal of Surgical Pathology](papers/2024.md#the-american-journal-of-surgical-pathology) (3)
-- [Theranostics](papers/2024.md#theranostics) (2)
+- [Theranostics](papers/2024.md#theranostics) (3)
 - [Acs Nano](papers/2024.md#acs-nano) (1)
 - [Acs Sensors](papers/2024.md#acs-sensors) (1)
 - [American Journal Of Human Genetics](papers/2024.md#american-journal-of-human-genetics) (1)
-- [bioRxiv](papers/2024.md#biorxiv) (8)
+- [bioRxiv](papers/2024.md#biorxiv) (14)
 - [Cell Research](papers/2024.md#cell-research) (1)
 - [Communications Biology](papers/2024.md#communications-biology) (10)
 - [Drug Resistance Updates : Reviews And Commentaries In Antimicrobial And Anticancer Chemotherapy](papers/2024.md#drug-resistance-updates--reviews-and-commentaries-in-antimicrobial-and-anticancer-chemotherapy) (1)
@@ -374,16 +375,29 @@ Earlier years remain on this page.
 - [INTERSPEECH 2024](papers/2024.md#interspeech-2024) (1)
 - [IJCAI 2024](papers/2024.md#ijcai-2024) (1)
 - [ML4H 2024](papers/2024.md#ml4h-2024) (3)
-- [arXiv](papers/2024.md#arxiv) (140)
+- [arXiv](papers/2024.md#arxiv) (218)
 - [CIKM 2024](papers/2024.md#cikm-2024) (1)
 - [EMBC 2024](papers/2024.md#embc-2024) (1)
 - [PSB 2024](papers/2024.md#psb-2024) (2)
+- [ICASSP 2024](papers/2024.md#icassp-2024) (2)
+- [SPIE Medical Imaging 2024](papers/2024.md#spie-medical-imaging-2024) (7)
+- [Optica Biophotonics 2024](papers/2024.md#optica-biophotonics-2024) (1)
+- [BIOSTEC 2024](papers/2024.md#biostec-2024) (2)
+- [ISBI 2024](papers/2024.md#isbi-2024) (16)
+- [CAI 2024](papers/2024.md#cai-2024) (1)
+- [BIBM 2024](papers/2024.md#bibm-2024) (3)
+- [ICMVA 2024](papers/2024.md#icmva-2024) (1)
+- [IRI 2024](papers/2024.md#iri-2024) (1)
+- [CVPR 2024 Workshops](papers/2024.md#cvpr-2024-workshops) (3)
+- [ICME 2024](papers/2024.md#icme-2024) (1)
+- [ICBME 2024](papers/2024.md#icbme-2024) (1)
+- [medRxiv](papers/2024.md#medrxiv) (7)
 
 ---
 
 # 2023
 
-**395 publications** · [Browse the complete 2023 list](papers/2023.md)
+**517 publications** · [Browse the complete 2023 list](papers/2023.md)
 
 - [Nature Medicine](papers/2023.md#nature-medicine) (3)
 - [Nature Cancer](papers/2023.md#nature-cancer) (1)
@@ -417,7 +431,7 @@ Earlier years remain on this page.
 - [Biosensors & Bioelectronics](papers/2023.md#biosensors--bioelectronics) (1)
 - [Cancer Immunology Research](papers/2023.md#cancer-immunology-research) (1)
 - [Cell Reports](papers/2023.md#cell-reports) (1)
-- [Communications Biology](papers/2023.md#communications-biology) (6)
+- [Communications Biology](papers/2023.md#communications-biology) (7)
 - [Genome Biology](papers/2023.md#genome-biology) (10)
 - [Genome Medicine](papers/2023.md#genome-medicine) (1)
 - [Genome Research](papers/2023.md#genome-research) (3)
@@ -437,10 +451,22 @@ Earlier years remain on this page.
 - [AAAI 2023](papers/2023.md#aaai-2023) (8)
 - [MIDL 2023](papers/2023.md#midl-2023) (16)
 - [WACV 2023](papers/2023.md#wacv-2023) (6)
-- [arXiv](papers/2023.md#arxiv) (1)
-- [medRxiv](papers/2023.md#medrxiv) (1)
+- [arXiv](papers/2023.md#arxiv) (81)
+- [medRxiv](papers/2023.md#medrxiv) (7)
 - [ICML 2023](papers/2023.md#icml-2023) (6)
-- [bioRxiv](papers/2023.md#biorxiv) (1)
+- [bioRxiv](papers/2023.md#biorxiv) (6)
+- [ISBI 2023](papers/2023.md#isbi-2023) (8)
+- [EUSIPCO 2023](papers/2023.md#eusipco-2023) (3)
+- [EMBC 2023](papers/2023.md#embc-2023) (6)
+- [CHI 2023](papers/2023.md#chi-2023) (1)
+- [SPIE Medical Imaging 2023](papers/2023.md#spie-medical-imaging-2023) (3)
+- [BIBE 2023](papers/2023.md#bibe-2023) (1)
+- [SPIN 2023](papers/2023.md#spin-2023) (1)
+- [CIBCB 2023](papers/2023.md#cibcb-2023) (1)
+- [ICASSP 2023 Workshops](papers/2023.md#icassp-2023-workshops) (1)
+- [ICCV 2023 Workshops](papers/2023.md#iccv-2023-workshops) (1)
+- [BIBM 2023](papers/2023.md#bibm-2023) (3)
+- [TrustCom 2023](papers/2023.md#trustcom-2023) (1)
 
 ---
 

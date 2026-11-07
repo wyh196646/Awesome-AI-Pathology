@@ -10,6 +10,7 @@ historical additions, paper metadata and counts are not the current bibliography
 or an inclusion allowlist. The October 4 and October 5 audits predate the journal
 filter; their removed entries remain recoverable in Git history.
 
+- [2026-11-07 recall recovery and homepage cleanup](2026-11-07-recovery.md)
 - [2026-11-02 weekly additions, revisions and withdrawal audit](2026-11-02.md)
 - [2026-10-26 weekly additions, revisions and publication-policy audit](2026-10-26.md)
 - [2026-10-19 weekly additions, publication migrations and complete retrieval](2026-10-19.md)

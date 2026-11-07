@@ -1,0 +1,1222 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-07",
+  "retrieved_on": "2026-11-02",
+  "baseline_commit": "b669c2322a6d48ee0e86c7e49dab1efa3eea3daf",
+  "cutoff_utc": "2026-11-01",
+  "keyword_config": "config/literature-keywords.json",
+  "keyword_sha256": "9526efb9e5fb5aa2d7b834cecd6f1683a8f8e64b28757c58b814161761fc5378",
+  "summary": {
+    "baseline_entries": 4267,
+    "new_entries": 512,
+    "new_by_year": {
+      "2026": 170,
+      "2025": 88,
+      "2024": 132,
+      "2023": 122
+    },
+    "new_by_type": {
+      "add_preprint": 394,
+      "add_formal": 118
+    },
+    "identity_link_updates": 19,
+    "journal_policy_removals": 3,
+    "publication_migrations": 0,
+    "final_entries": 4776,
+    "retrieved_unique_records": 20619,
+    "keyword_candidates": 7421,
+    "item_level_review_notes": 845,
+    "publication_version_checks": 665,
+    "pending_item_level_review": 1548,
+    "pending_publication_metadata": 9,
+    "decision_counts": {
+      "exclude_no_scope_evidence": 2261,
+      "duplicate_existing": 2211,
+      "pending_review": 1548,
+      "exclude_journal_policy": 119,
+      "add_preprint": 394,
+      "exclude_known_journal": 137,
+      "exclude_before_2023": 7,
+      "pending_prior_version": 1,
+      "duplicate_existing_formal": 20,
+      "add_formal": 118,
+      "exclude_scope": 561,
+      "pending_conference_identity": 3,
+      "exclude_formal_journal_policy": 30,
+      "pending_publication_identity": 5,
+      "duplicate_candidate": 1,
+      "exclude_withdrawn": 5,
+      "pending_identity": 1,
+      "pending_full_text": 1,
+      "pending_metadata": 1,
+      "remove_published_ineligible": 3
+    }
+  },
+  "source_status": {
+    "arxiv": {
+      "api": {
+        "status": "failed",
+        "since": "2026-09-21",
+        "until": "2026-11-01",
+        "error": "HTTPError: HTTP Error 429: Unknown Error"
+      },
+      "html_years": {
+        "2023": {
+          "arxiv": {
+            "status": "complete",
+            "year": 2023,
+            "retrieved_unique": 911,
+            "candidates": 596,
+            "errors": [],
+            "mode": "official_HTML_search",
+            "terms": [
+              "pathology",
+              "histopathology",
+              "histology",
+              "pathologist",
+              "whole slide",
+              "cytology"
+            ]
+          }
+        },
+        "2024": {
+          "arxiv": {
+            "status": "complete",
+            "year": 2024,
+            "retrieved_unique": 1126,
+            "candidates": 784,
+            "errors": [],
+            "mode": "official_HTML_search",
+            "terms": [
+              "pathology",
+              "histopathology",
+              "histology",
+              "pathologist",
+              "whole slide",
+              "cytology"
+            ]
+          }
+        },
+        "2025": {
+          "arxiv": {
+            "status": "complete",
+            "year": 2025,
+            "retrieved_unique": 1527,
+            "candidates": 1012,
+            "errors": [],
+            "mode": "official_HTML_search",
+            "terms": [
+              "pathology",
+              "histopathology",
+              "histology",
+              "pathologist",
+              "whole slide",
+              "cytology"
+            ]
+          }
+        },
+        "2026": {
+          "arxiv": {
+            "status": "complete",
+            "year": 2026,
+            "retrieved_unique": 1864,
+            "candidates": 1213,
+            "errors": [],
+            "mode": "official_HTML_search",
+            "terms": [
+              "pathology",
+              "histopathology",
+              "histology",
+              "pathologist",
+              "whole slide",
+              "cytology"
+            ]
+          }
+        }
+      },
+      "coverage": "Core historical original-announcement searches and explicit recent supplementary queries completed. Expanded-vocabulary coverage of all older revised papers remains incomplete because the Atom API returned HTTP429."
+    },
+    "biorxiv": {
+      "status": "complete",
+      "since": "2026-09-21",
+      "until": "2026-11-01",
+      "retrieved_unique": 9353,
+      "candidates": 1673
+    },
+    "medrxiv": {
+      "status": "complete",
+      "since": "2026-09-21",
+      "until": "2026-11-01",
+      "retrieved_unique": 2507,
+      "candidates": 245
+    }
+  },
+  "decision_files": [
+    "docs/updates/2026-11-07-recovery-decisions-01.json",
+    "docs/updates/2026-11-07-recovery-decisions-02.json",
+    "docs/updates/2026-11-07-recovery-decisions-03.json",
+    "docs/updates/2026-11-07-recovery-decisions-04.json",
+    "docs/updates/2026-11-07-recovery-decisions-05.json",
+    "docs/updates/2026-11-07-recovery-decisions-06.json",
+    "docs/updates/2026-11-07-recovery-decisions-07.json",
+    "docs/updates/2026-11-07-recovery-decisions-08.json",
+    "docs/updates/2026-11-07-recovery-decisions-09.json",
+    "docs/updates/2026-11-07-recovery-decisions-10.json",
+    "docs/updates/2026-11-07-recovery-decisions-11.json",
+    "docs/updates/2026-11-07-recovery-decisions-12.json"
+  ],
+  "pending_files": [
+    "docs/updates/2026-11-07-recovery-pending-01.json",
+    "docs/updates/2026-11-07-recovery-pending-02.json",
+    "docs/updates/2026-11-07-recovery-pending-03.json",
+    "docs/updates/2026-11-07-recovery-pending-04.json"
+  ],
+  "manual_notes_file": "docs/updates/2026-11-07-recovery-review-notes.json",
+  "retrieval_files": [
+    "docs/updates/2026-11-07-recovery-queries-01.json"
+  ],
+  "changes": [
+    {
+      "id": "2309.07778",
+      "kind": "identity_link_update",
+      "path": "papers/2024.md",
+      "title": "A foundation model for clinical-grade computational pathology and rare cancers detection",
+      "from": "- A foundation model for clinical-grade computational pathology and rare cancers detection [[paper](https://www.nature.com/articles/s41591-024-03141-0)]",
+      "to": "- A foundation model for clinical-grade computational pathology and rare cancers detection [[paper](https://www.nature.com/articles/s41591-024-03141-0)] [[preprint](https://arxiv.org/abs/2309.07778v6)]"
+    },
+    {
+      "id": "2506.13063",
+      "kind": "identity_link_update",
+      "path": "papers/2026.md",
+      "title": "End-to-end multimodal pathology foundation model with clinical dialogue",
+      "from": "- End-to-end multimodal pathology foundation model with clinical dialogue [[paper](https://pubmed.ncbi.nlm.nih.gov/42538427/)]",
+      "to": "- End-to-end multimodal pathology foundation model with clinical dialogue [[paper](https://pubmed.ncbi.nlm.nih.gov/42538427/)] [[preprint](https://arxiv.org/abs/2506.13063v2)]"
+    },
+    {
+      "id": "2301.09624",
+      "kind": "identity_link_update",
+      "path": "papers/2025.md",
+      "title": "HistoKernel: Whole slide image level Maximum Mean Discrepancy kernels for pan-cancer predictive modelling",
+      "from": "- HistoKernel: Whole slide image level Maximum Mean Discrepancy kernels for pan-cancer predictive modelling [[paper](https://doi.org/10.1016/j.media.2025.103491)][[code](https://github.com/pkeller00/HistoKernel)]",
+      "to": "- HistoKernel: Whole slide image level Maximum Mean Discrepancy kernels for pan-cancer predictive modelling [[paper](https://doi.org/10.1016/j.media.2025.103491)][[code](https://github.com/pkeller00/HistoKernel)] [[preprint](https://arxiv.org/abs/2301.09624v1)]"
+    },
+    {
+      "id": "2306.01859",
+      "kind": "identity_link_update",
+      "path": "papers/2023.md",
+      "title": "Spatially Resolved Gene Expression Prediction from Histology Images via Bi-modal Contrastive Learning",
+      "from": "- Spatially Resolved Gene Expression Prediction from Histology Images via Bi-modal Contrastive Learning [[paper](https://proceedings.neurips.cc/paper_files/paper/2023/hash/df656d6ed77b565e8dcdfbf568aead0a-Abstract-Conference.html)][[code](https://github.com/bowang-lab/BLEEP)]",
+      "to": "- Spatially Resolved Gene Expression Prediction from Histology Images via Bi-modal Contrastive Learning [[paper](https://proceedings.neurips.cc/paper_files/paper/2023/hash/df656d6ed77b565e8dcdfbf568aead0a-Abstract-Conference.html)][[code](https://github.com/bowang-lab/BLEEP)] [[preprint](https://arxiv.org/abs/2306.01859v2)]"
+    },
+    {
+      "id": "2308.15474",
+      "kind": "identity_link_update",
+      "path": "papers/2024.md",
+      "title": "Towards a general-purpose foundation model for computational pathology",
+      "from": "- Towards a general-purpose foundation model for computational pathology [[paper](https://www.nature.com/articles/s41591-024-02857-3)]",
+      "to": "- Towards a general-purpose foundation model for computational pathology [[paper](https://www.nature.com/articles/s41591-024-02857-3)] [[preprint](https://arxiv.org/abs/2308.15474v1)]"
+    },
+    {
+      "id": "2312.07814",
+      "kind": "identity_link_update",
+      "path": "papers/2024.md",
+      "title": "A multimodal generative AI copilot for human pathology",
+      "from": "- A multimodal generative AI copilot for human pathology [[paper](https://www.nature.com/articles/s41586-024-07618-3)]",
+      "to": "- A multimodal generative AI copilot for human pathology [[paper](https://www.nature.com/articles/s41586-024-07618-3)] [[preprint](https://arxiv.org/abs/2312.07814v1)]"
+    },
+    {
+      "id": "2402.16663",
+      "kind": "identity_link_update",
+      "path": "papers/2025.md",
+      "title": "UN-SAM: Domain-adaptive self-prompt segmentation for universal nuclei images",
+      "from": "- UN-SAM: Domain-adaptive self-prompt segmentation for universal nuclei images [[paper](https://doi.org/10.1016/j.media.2025.103607)]",
+      "to": "- UN-SAM: Domain-adaptive self-prompt segmentation for universal nuclei images [[paper](https://doi.org/10.1016/j.media.2025.103607)] [[preprint](https://arxiv.org/abs/2402.16663v1)]"
+    },
+    {
+      "id": "2404.00351",
+      "kind": "identity_link_update",
+      "path": "papers/2025.md",
+      "title": "AttriMIL: Revisiting attention-based multiple instance learning for whole-slide pathological image classification from a perspective of instance attributes",
+      "from": "- AttriMIL: Revisiting attention-based multiple instance learning for whole-slide pathological image classification from a perspective of instance attributes [[paper](https://linkinghub.elsevier.com/retrieve/pii/S1361841525001781)]",
+      "to": "- AttriMIL: Revisiting attention-based multiple instance learning for whole-slide pathological image classification from a perspective of instance attributes [[paper](https://linkinghub.elsevier.com/retrieve/pii/S1361841525001781)] [[preprint](https://arxiv.org/abs/2404.00351v1)]"
+    },
+    {
+      "id": "2412.10853",
+      "kind": "identity_link_update",
+      "path": "papers/2025.md",
+      "title": "Self-calibration Enhanced Whole Slide Pathology Image Analysis",
+      "from": "- Self-calibration Enhanced Whole Slide Pathology Image Analysis [[paper](https://www.ijcai.org/proceedings/2025/192)]",
+      "to": "- Self-calibration Enhanced Whole Slide Pathology Image Analysis [[paper](https://www.ijcai.org/proceedings/2025/192)] [[preprint](https://arxiv.org/abs/2412.10853v2)]"
+    },
+    {
+      "id": "10.1101/2024.04.25.24306364",
+      "kind": "identity_link_update",
+      "path": "papers/2025.md",
+      "title": "SMMILe enables accurate spatial quantification in digital pathology using multiple-instance learning",
+      "from": "- SMMILe enables accurate spatial quantification in digital pathology using multiple-instance learning [[paper](https://www.nature.com/articles/s43018-025-01060-8)]",
+      "to": "- SMMILe enables accurate spatial quantification in digital pathology using multiple-instance learning [[paper](https://www.nature.com/articles/s43018-025-01060-8)] [[preprint](https://www.medrxiv.org/content/10.1101/2024.04.25.24306364v1)]"
+    },
+    {
+      "id": "2302.00669",
+      "kind": "identity_link_update",
+      "path": "papers/2025.md",
+      "title": "Multimodal Explainable Artificial Intelligence for Prognostic Stratification of Patients With Glioblastoma",
+      "from": "- Multimodal Explainable Artificial Intelligence for Prognostic Stratification of Patients With Glioblastoma [[paper](https://doi.org/10.1016/j.modpat.2025.100797)]",
+      "to": "- Multimodal Explainable Artificial Intelligence for Prognostic Stratification of Patients With Glioblastoma [[paper](https://doi.org/10.1016/j.modpat.2025.100797)] [[preprint](https://arxiv.org/abs/2302.00669v2)]"
+    },
+    {
+      "id": "2312.12619",
+      "kind": "identity_link_update",
+      "path": "papers/2025.md",
+      "title": "Hierarchical Vision Transformers for prostate biopsy grading: Towards bridging the generalization gap",
+      "from": "- Hierarchical Vision Transformers for prostate biopsy grading: Towards bridging the generalization gap [[paper](https://doi.org/10.1016/j.media.2025.103663)]",
+      "to": "- Hierarchical Vision Transformers for prostate biopsy grading: Towards bridging the generalization gap [[paper](https://doi.org/10.1016/j.media.2025.103663)] [[preprint](https://arxiv.org/abs/2312.12619v1)]"
+    },
+    {
+      "id": "2307.14907",
+      "kind": "identity_link_update",
+      "path": "papers/2024.md",
+      "title": "Analysis of 3D pathology samples using weakly supervised AI",
+      "from": "- Analysis of 3D pathology samples using weakly supervised AI [[paper](https://doi.org/10.1016/j.cell.2024.03.035)]",
+      "to": "- Analysis of 3D pathology samples using weakly supervised AI [[paper](https://doi.org/10.1016/j.cell.2024.03.035)] [[preprint](https://arxiv.org/abs/2307.14907v1)]"
+    },
+    {
+      "id": "2503.16816",
+      "kind": "identity_link_update",
+      "path": "papers/2026.md",
+      "title": "PH2ST: Prompt-guided hypergraph learning for spatial transcriptomics prediction in whole slide images",
+      "from": "- PH2ST: Prompt-guided hypergraph learning for spatial transcriptomics prediction in whole slide images [[paper](https://doi.org/10.1016/j.media.2026.104008)]",
+      "to": "- PH2ST: Prompt-guided hypergraph learning for spatial transcriptomics prediction in whole slide images [[paper](https://doi.org/10.1016/j.media.2026.104008)] [[preprint](https://arxiv.org/abs/2503.16816v2)]"
+    },
+    {
+      "id": "10.1101/2023.03.29.534834",
+      "kind": "identity_link_update",
+      "path": "papers/2023.md",
+      "title": "A visual–language foundation model for pathology image analysis using medical Twitter",
+      "from": "- A visual–language foundation model for pathology image analysis using medical Twitter [[paper](https://www.nature.com/articles/s41591-023-02504-3)]",
+      "to": "- A visual–language foundation model for pathology image analysis using medical Twitter [[paper](https://www.nature.com/articles/s41591-023-02504-3)] [[preprint](https://www.biorxiv.org/content/10.1101/2023.03.29.534834v1)]"
+    },
+    {
+      "id": "10.1101/2023.04.14.536756",
+      "kind": "identity_link_update",
+      "path": "papers/2023.md",
+      "title": "Cross-linking breast tumor transcriptomic states and tissue histology",
+      "from": "- Cross-linking breast tumor transcriptomic states and tissue histology [[paper](https://doi.org/10.1016/j.xcrm.2023.101313)]",
+      "to": "- Cross-linking breast tumor transcriptomic states and tissue histology [[paper](https://doi.org/10.1016/j.xcrm.2023.101313)] [[preprint](https://www.biorxiv.org/content/10.1101/2023.04.14.536756v1)]"
+    },
+    {
+      "id": "10.1101/2024.08.16.608264",
+      "kind": "identity_link_update",
+      "path": "papers/2025.md",
+      "title": "Deep learning for predicting prognostic consensus molecular subtypes in cervical cancer from histology images",
+      "from": "- Deep learning for predicting prognostic consensus molecular subtypes in cervical cancer from histology images [[paper](https://doi.org/10.1038/s41698-024-00778-5)]",
+      "to": "- Deep learning for predicting prognostic consensus molecular subtypes in cervical cancer from histology images [[paper](https://doi.org/10.1038/s41698-024-00778-5)] [[preprint](https://www.biorxiv.org/content/10.1101/2024.08.16.608264v1)]"
+    },
+    {
+      "id": "10.1101/2025.05.08.25327250",
+      "kind": "identity_link_update",
+      "path": "papers/2026.md",
+      "title": "A benchmark study of vision and pathology foundation models for computational pathology",
+      "from": "- A benchmark study of vision and pathology foundation models for computational pathology [[paper](https://doi.org/10.1038/s41467-026-76004-6)]",
+      "to": "- A benchmark study of vision and pathology foundation models for computational pathology [[paper](https://doi.org/10.1038/s41467-026-76004-6)] [[preprint](https://www.medrxiv.org/content/10.1101/2025.05.08.25327250v1)]"
+    },
+    {
+      "id": "2309.00188",
+      "kind": "identity_link_update",
+      "path": "papers/2023.md",
+      "title": "DARC: Distribution-Aware Re-Coloring Model for Generalizable Nucleus Segmentation",
+      "from": "- DARC: Distribution-Aware Re-Coloring Model for Generalizable Nucleus Segmentation [[paper](https://doi.org/10.1007/978-3-031-43987-2_57)]",
+      "to": "- DARC: Distribution-Aware Re-Coloring Model for Generalizable Nucleus Segmentation [[paper](https://doi.org/10.1007/978-3-031-43987-2_57)] [[preprint](https://arxiv.org/abs/2309.00188v1)]"
+    },
+    {
+      "id": "10.64898/2026.03.31.715390",
+      "kind": "journal_policy_removal",
+      "path": "papers/2026.md",
+      "title": "CardamomOT: a mechanistic optimal transport-based framework for gene regulatory network inference, trajectory reconstruction and generative modeling",
+      "from": "- CardamomOT: a mechanistic optimal transport-based framework for gene regulatory network inference, trajectory reconstruction and generative modeling [[paper](https://www.biorxiv.org/content/10.64898/2026.03.31.715390v3)] — *Single-cell methods*",
+      "formal_doi": "10.1371/journal.pcbi.1014838",
+      "evidence": [
+        "https://api.biorxiv.org/details/biorxiv/2026-09-21/2026-11-01/1020/json",
+        "https://api.biorxiv.org/details/biorxiv/10.64898/2026.03.31.715390/na/json",
+        "https://api.crossref.org/works/10.1371%2Fjournal.pcbi.1014838"
+      ]
+    },
+    {
+      "id": "10.1101/2025.08.20.25334075",
+      "kind": "journal_policy_removal",
+      "path": "papers/2025.md",
+      "title": "Genetic and Cellular Architecture of Breast Cancer Risk Across Ancestries",
+      "from": "- Genetic and Cellular Architecture of Breast Cancer Risk Across Ancestries [[paper](https://www.medrxiv.org/content/10.1101/2025.08.20.25334075v5)] — *Single-cell methods*",
+      "formal_doi": "10.1093/jncics/pkag101",
+      "evidence": [
+        "https://api.biorxiv.org/details/medrxiv/2026-09-21/2026-11-01/210/json",
+        "https://api.biorxiv.org/details/medrxiv/10.1101/2025.08.20.25334075/na/json",
+        "https://api.crossref.org/works/10.1093%2Fjncics%2Fpkag101"
+      ]
+    },
+    {
+      "id": "10.64898/2026.07.21.26358559",
+      "kind": "journal_policy_removal",
+      "path": "papers/2026.md",
+      "title": "PRECISE: Benchmarking digital pathology with expert-annotated contiguous IHC-H&E serial prostate sections",
+      "from": "- PRECISE: Benchmarking digital pathology with expert-annotated contiguous IHC-H&E serial prostate sections [[paper](https://doi.org/10.64898/2026.07.21.26358559)]",
+      "formal_doi": "10.59275/j.melba.2026-g657",
+      "evidence": [
+        "https://api.biorxiv.org/details/medrxiv/2026-01-01/2026-11-01/60/json?category=pathology",
+        "https://api.biorxiv.org/details/medrxiv/10.64898/2026.07.21.26358559/na/json",
+        "https://api.crossref.org/works/10.59275%2Fj.melba.2026-g657"
+      ]
+    }
+  ],
+  "new_conference_prefixes": [
+    "ICASSP",
+    "CODS",
+    "CVPR Findings",
+    "CBMS",
+    "ICETCI",
+    "EUSIPCO",
+    "CHI",
+    "SPIE Medical Imaging",
+    "BIBE",
+    "SPIN",
+    "CIBCB",
+    "BIBM",
+    "Optica Biophotonics",
+    "BIOSTEC",
+    "TrustCom",
+    "CAI",
+    "ICME",
+    "ICMVA",
+    "IRI",
+    "ICBME",
+    "ICBCB"
+  ],
+  "conference_evidence": [
+    {
+      "id": "2402.10595",
+      "venue": "ICASSP 2024",
+      "doi": "10.1109/icassp48485.2024.10448245",
+      "publisher_container": "ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
+    },
+    {
+      "id": "2405.17446",
+      "venue": "ICCV 2025",
+      "doi": "10.1117/12.3077724",
+      "publisher_container": "Sixth International Conference on Computer Vision and Information Technology (CVIT 2025)"
+    },
+    {
+      "id": "2504.03146",
+      "venue": "ISBI 2025",
+      "doi": "10.1109/isbi60581.2025.10981207",
+      "publisher_container": "2025 IEEE 22nd International Symposium on Biomedical Imaging (ISBI)"
+    },
+    {
+      "id": "2504.13402",
+      "venue": "CVPR 2025 Workshops",
+      "doi": "10.1109/cvprw67362.2025.00461",
+      "publisher_container": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)"
+    },
+    {
+      "id": "2507.04681",
+      "venue": "ICIP 2025 Workshops",
+      "doi": "10.1109/icipw68931.2025.11385990",
+      "publisher_container": "2025 IEEE International Conference on Image Processing Workshops (ICIPW)"
+    },
+    {
+      "id": "2508.01490",
+      "venue": "ICCV 2025 Workshops",
+      "doi": "10.1109/iccvw69036.2025.00128",
+      "publisher_container": "2025 IEEE/CVF International Conference on Computer Vision Workshops (ICCVW)"
+    },
+    {
+      "id": "2509.16326",
+      "venue": "EMNLP 2025",
+      "doi": "10.18653/v1/2025.findings-emnlp.490",
+      "publisher_container": "Findings of the Association for Computational Linguistics: EMNLP 2025"
+    },
+    {
+      "id": "2510.14273",
+      "venue": "ISBI 2026",
+      "doi": "10.1109/isbi61048.2026.11515963",
+      "publisher_container": "2026 IEEE 23rd International Symposium on Biomedical Imaging (ISBI)"
+    },
+    {
+      "id": "2510.20754",
+      "venue": "ISBI 2026",
+      "doi": "10.1109/isbi61048.2026.11515440",
+      "publisher_container": "2026 IEEE 23rd International Symposium on Biomedical Imaging (ISBI)"
+    },
+    {
+      "id": "2510.24115",
+      "venue": "CODS 2025",
+      "doi": "10.1145/3799830.3799860",
+      "publisher_container": "Proceedings of the 13th ACM IKDD International Conference on Data Science"
+    },
+    {
+      "id": "2511.06433",
+      "venue": "WACV 2026",
+      "doi": "10.1109/wacv61042.2026.00593",
+      "publisher_container": "2026 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)"
+    },
+    {
+      "id": "2511.14639",
+      "venue": "ISBI 2026",
+      "doi": "10.1109/isbi61048.2026.11515859",
+      "publisher_container": "2026 IEEE 23rd International Symposium on Biomedical Imaging (ISBI)"
+    },
+    {
+      "id": "2511.18493",
+      "venue": "CVPR Findings 2026",
+      "doi": "10.1109/cvprf71909.2026.00704",
+      "publisher_container": "2026 IEEE/CVF Conference on Computer Vision and Pattern Recognition- FINDINGS Track (CVPRF)"
+    },
+    {
+      "id": "2512.05922",
+      "venue": "ISBI 2026",
+      "doi": "10.1109/isbi61048.2026.11515616",
+      "publisher_container": "2026 IEEE 23rd International Symposium on Biomedical Imaging (ISBI)"
+    },
+    {
+      "id": "2512.21331",
+      "venue": "CVPR Findings 2026",
+      "doi": "10.1109/cvprf71909.2026.00523",
+      "publisher_container": "2026 IEEE/CVF Conference on Computer Vision and Pattern Recognition- FINDINGS Track (CVPRF)"
+    },
+    {
+      "id": "2601.10073",
+      "venue": "WACV 2026 Workshops",
+      "doi": "10.1109/wacvw68408.2026.00009",
+      "publisher_container": "2026 IEEE/CVF Winter Conference on Applications of Computer Vision Workshops (WACVW)"
+    },
+    {
+      "id": "2601.11336",
+      "venue": "ISBI 2026",
+      "doi": "10.1109/isbi61048.2026.11515674",
+      "publisher_container": "2026 IEEE 23rd International Symposium on Biomedical Imaging (ISBI)"
+    },
+    {
+      "id": "2601.12082",
+      "venue": "ICASSP 2026",
+      "doi": "10.1109/icassp55912.2026.11460329",
+      "publisher_container": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
+    },
+    {
+      "id": "2601.15952",
+      "venue": "ISBI 2026",
+      "doi": "10.1109/isbi61048.2026.11515553",
+      "publisher_container": "2026 IEEE 23rd International Symposium on Biomedical Imaging (ISBI)"
+    },
+    {
+      "id": "2602.02918",
+      "venue": "ISBI 2026",
+      "doi": "10.1109/isbi61048.2026.11516046",
+      "publisher_container": "2026 IEEE 23rd International Symposium on Biomedical Imaging (ISBI)"
+    },
+    {
+      "id": "2603.09953",
+      "venue": "ISBI 2026",
+      "doi": "10.1109/isbi61048.2026.11515564",
+      "publisher_container": "2026 IEEE 23rd International Symposium on Biomedical Imaging (ISBI)"
+    },
+    {
+      "id": "2603.20326",
+      "venue": "ISBI 2026",
+      "doi": "10.1109/isbi61048.2026.11515728",
+      "publisher_container": "2026 IEEE 23rd International Symposium on Biomedical Imaging (ISBI)"
+    },
+    {
+      "id": "2604.02090",
+      "venue": "ISBI 2026",
+      "doi": "10.1109/isbi61048.2026.11515863",
+      "publisher_container": "2026 IEEE 23rd International Symposium on Biomedical Imaging (ISBI)"
+    },
+    {
+      "id": "2603.29968",
+      "venue": "CBMS 2026",
+      "doi": "10.1109/cbms69103.2026.00094",
+      "publisher_container": "2026 IEEE 39th International Symposium on Computer-Based Medical Systems (CBMS)"
+    },
+    {
+      "id": "2604.24793",
+      "venue": "ISBI 2026",
+      "doi": "10.1109/isbi61048.2026.11515679",
+      "publisher_container": "2026 IEEE 23rd International Symposium on Biomedical Imaging (ISBI)"
+    },
+    {
+      "id": "2606.07633",
+      "venue": "ICETCI 2026",
+      "doi": "10.1109/icetci71772.2026.11710727",
+      "publisher_container": "2026 International Conference on Emerging Techniques in Computational Intelligence (ICETCI)"
+    },
+    {
+      "id": "2301.10187",
+      "venue": "ISBI 2023",
+      "doi": "10.1109/isbi53787.2023.10230516",
+      "publisher_container": "2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI)"
+    },
+    {
+      "id": "2302.03014",
+      "venue": "EUSIPCO 2023",
+      "doi": "10.23919/eusipco58844.2023.10290087",
+      "publisher_container": "2023 31st European Signal Processing Conference (EUSIPCO)"
+    },
+    {
+      "id": "2302.06549",
+      "venue": "EMBC 2023",
+      "doi": "10.1109/embc40787.2023.10341042",
+      "publisher_container": "2023 45th Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC)"
+    },
+    {
+      "id": "2302.06513",
+      "venue": "EMBC 2023",
+      "doi": "10.1109/embc40787.2023.10340437",
+      "publisher_container": "2023 45th Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC)"
+    },
+    {
+      "id": "2302.09833",
+      "venue": "EMBC 2023",
+      "doi": "10.1109/embc40787.2023.10340659",
+      "publisher_container": "2023 45th Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC)"
+    },
+    {
+      "id": "2302.07309",
+      "venue": "CHI 2023",
+      "doi": "10.1145/3544548.3580694",
+      "publisher_container": "Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems"
+    },
+    {
+      "id": "2302.08867",
+      "venue": "SPIE Medical Imaging 2023",
+      "doi": "10.1117/12.2653869",
+      "publisher_container": "Medical Imaging 2023: Digital and Computational Pathology"
+    },
+    {
+      "id": "2303.01342",
+      "venue": "ISBI 2023",
+      "doi": "10.1109/isbi53787.2023.10230685",
+      "publisher_container": "2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI)"
+    },
+    {
+      "id": "2303.01377",
+      "venue": "ISBI 2023",
+      "doi": "10.1109/isbi53787.2023.10230740",
+      "publisher_container": "2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI)"
+    },
+    {
+      "id": "2303.05225",
+      "venue": "EUSIPCO 2023",
+      "doi": "10.23919/eusipco58844.2023.10290058",
+      "publisher_container": "2023 31st European Signal Processing Conference (EUSIPCO)"
+    },
+    {
+      "id": "2303.09930",
+      "venue": "BIBE 2023",
+      "doi": "10.1109/bibe60311.2023.00027",
+      "publisher_container": "2023 IEEE 23rd International Conference on Bioinformatics and Bioengineering (BIBE)"
+    },
+    {
+      "id": "2303.11837",
+      "venue": "EUSIPCO 2023",
+      "doi": "10.23919/eusipco58844.2023.10289741",
+      "publisher_container": "2023 31st European Signal Processing Conference (EUSIPCO)"
+    },
+    {
+      "id": "2303.13332",
+      "venue": "ISBI 2023",
+      "doi": "10.1109/isbi53787.2023.10230343",
+      "publisher_container": "2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI)"
+    },
+    {
+      "id": "2304.03537",
+      "venue": "ISBI 2023",
+      "doi": "10.1109/isbi53787.2023.10230546",
+      "publisher_container": "2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI)"
+    },
+    {
+      "id": "2304.05022",
+      "venue": "SPIN 2023",
+      "doi": "10.1109/spin57001.2023.10117110",
+      "publisher_container": "2023 10th International Conference on Signal Processing and Integrated Networks (SPIN)"
+    },
+    {
+      "id": "2304.07787",
+      "venue": "CIBCB 2023",
+      "doi": "10.1109/cibcb56990.2023.10264873",
+      "publisher_container": "2023 IEEE Conference on Computational Intelligence in Bioinformatics and Computational Biology (CIBCB)"
+    },
+    {
+      "id": "2304.12423",
+      "venue": "EMBC 2023",
+      "doi": "10.1109/embc40787.2023.10340335",
+      "publisher_container": "2023 45th Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC)"
+    },
+    {
+      "id": "2304.12424",
+      "venue": "EMBC 2023",
+      "doi": "10.1109/embc40787.2023.10340099",
+      "publisher_container": "2023 45th Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC)"
+    },
+    {
+      "id": "2304.13513",
+      "venue": "ISBI 2023",
+      "doi": "10.1109/isbi53787.2023.10230359",
+      "publisher_container": "2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI)"
+    },
+    {
+      "id": "2305.11968",
+      "venue": "SPIE Medical Imaging 2023",
+      "doi": "10.1117/12.2654542",
+      "publisher_container": "Medical Imaging 2023: Digital and Computational Pathology"
+    },
+    {
+      "id": "2305.07404",
+      "venue": "ICASSP 2023 Workshops",
+      "doi": "10.1109/icasspw59220.2023.10193162",
+      "publisher_container": "2023 IEEE International Conference on Acoustics, Speech, and Signal Processing Workshops (ICASSPW)"
+    },
+    {
+      "id": "2305.14566",
+      "venue": "SPIE Medical Imaging 2023",
+      "doi": "10.1117/12.2653651",
+      "publisher_container": "Medical Imaging 2023: Digital and Computational Pathology"
+    },
+    {
+      "id": "2307.05800",
+      "venue": "ISBI 2023",
+      "doi": "10.1109/isbi53787.2023.10230568",
+      "publisher_container": "2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI)"
+    },
+    {
+      "id": "2308.03936",
+      "venue": "ICCV 2023 Workshops",
+      "doi": "10.1109/iccvw60793.2023.00281",
+      "publisher_container": "2023 IEEE/CVF International Conference on Computer Vision Workshops (ICCVW)"
+    },
+    {
+      "id": "2308.05784",
+      "venue": "SPIE Medical Imaging 2024",
+      "doi": "10.1117/12.3006273",
+      "publisher_container": "Medical Imaging 2024: Digital and Computational Pathology"
+    },
+    {
+      "id": "2308.05782",
+      "venue": "SPIE Medical Imaging 2024",
+      "doi": "10.1117/12.3006262",
+      "publisher_container": "Medical Imaging 2024: Digital and Computational Pathology"
+    },
+    {
+      "id": "2308.06288",
+      "venue": "SPIE Medical Imaging 2024",
+      "doi": "10.1117/12.3006318",
+      "publisher_container": "Medical Imaging 2024: Digital and Computational Pathology"
+    },
+    {
+      "id": "2308.10449",
+      "venue": "BIBM 2023",
+      "doi": "10.1109/bibm58861.2023.10385357",
+      "publisher_container": "2023 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)"
+    },
+    {
+      "id": "2308.10446",
+      "venue": "BIBM 2023",
+      "doi": "10.1109/bibm58861.2023.10385465",
+      "publisher_container": "2023 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)"
+    },
+    {
+      "id": "2308.08974",
+      "venue": "SPIE Medical Imaging 2024",
+      "doi": "10.1117/12.3005995",
+      "publisher_container": "Medical Imaging 2024: Digital and Computational Pathology"
+    },
+    {
+      "id": "2309.02563",
+      "venue": "SPIE Medical Imaging 2024",
+      "doi": "10.1117/12.3006865",
+      "publisher_container": "Medical Imaging 2024: Digital and Computational Pathology"
+    },
+    {
+      "id": "2309.07113",
+      "venue": "Optica Biophotonics 2024",
+      "doi": "10.1364/microscopy.2024.mm3a.5",
+      "publisher_container": "Optica Biophotonics Congress: Biomedical Optics 2024 (Translational, Microscopy, OCT, OTS, BRAIN)"
+    },
+    {
+      "id": "2310.03346",
+      "venue": "BIOSTEC 2024",
+      "doi": "10.5220/0012380800003657",
+      "publisher_container": "Proceedings of the 17th International Joint Conference on Biomedical Engineering Systems and Technologies"
+    },
+    {
+      "id": "2310.07380",
+      "venue": "TrustCom 2023",
+      "doi": "10.1109/trustcom60117.2023.00334",
+      "publisher_container": "2023 IEEE 22nd International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)"
+    },
+    {
+      "id": "2310.07176",
+      "venue": "ISBI 2024",
+      "doi": "10.1109/isbi56570.2024.10635613",
+      "publisher_container": "2024 IEEE International Symposium on Biomedical Imaging (ISBI)"
+    },
+    {
+      "id": "2310.16161",
+      "venue": "CAI 2024",
+      "doi": "10.1109/cai59869.2024.00177",
+      "publisher_container": "2024 IEEE Conference on Artificial Intelligence (CAI)"
+    },
+    {
+      "id": "2311.11659",
+      "venue": "BIBM 2023",
+      "doi": "10.1109/bibm58861.2023.10385897",
+      "publisher_container": "2023 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)"
+    },
+    {
+      "id": "2311.12553",
+      "venue": "ISBI 2024",
+      "doi": "10.1109/isbi56570.2024.10635755",
+      "publisher_container": "2024 IEEE International Symposium on Biomedical Imaging (ISBI)"
+    },
+    {
+      "id": "2311.13956",
+      "venue": "ISBI 2024",
+      "doi": "10.1109/isbi56570.2024.10635499",
+      "publisher_container": "2024 IEEE International Symposium on Biomedical Imaging (ISBI)"
+    },
+    {
+      "id": "2311.15262",
+      "venue": "ISBI 2024",
+      "doi": "10.1109/isbi56570.2024.10635252",
+      "publisher_container": "2024 IEEE International Symposium on Biomedical Imaging (ISBI)"
+    },
+    {
+      "id": "2311.14639",
+      "venue": "ISBI 2024",
+      "doi": "10.1109/isbi56570.2024.10635287",
+      "publisher_container": "2024 IEEE International Symposium on Biomedical Imaging (ISBI)"
+    },
+    {
+      "id": "2312.01435",
+      "venue": "ISBI 2024",
+      "doi": "10.1109/isbi56570.2024.10635175",
+      "publisher_container": "2024 IEEE International Symposium on Biomedical Imaging (ISBI)"
+    },
+    {
+      "id": "2311.17740",
+      "venue": "ISBI 2024",
+      "doi": "10.1109/isbi56570.2024.10635817",
+      "publisher_container": "2024 IEEE International Symposium on Biomedical Imaging (ISBI)"
+    },
+    {
+      "id": "2312.12824",
+      "venue": "ICASSP 2024",
+      "doi": "10.1109/icassp48485.2024.10447912",
+      "publisher_container": "ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
+    },
+    {
+      "id": "2401.02565",
+      "venue": "ISBI 2024",
+      "doi": "10.1109/isbi56570.2024.10635610",
+      "publisher_container": "2024 IEEE International Symposium on Biomedical Imaging (ISBI)"
+    },
+    {
+      "id": "2401.05602",
+      "venue": "SPIE Medical Imaging 2024",
+      "doi": "10.1117/12.3006237",
+      "publisher_container": "Medical Imaging 2024: Digital and Computational Pathology"
+    },
+    {
+      "id": "2401.04720",
+      "venue": "ISBI 2024",
+      "doi": "10.1109/isbi56570.2024.10635695",
+      "publisher_container": "2024 IEEE International Symposium on Biomedical Imaging (ISBI)"
+    },
+    {
+      "id": "2401.13511",
+      "venue": "SPIE Medical Imaging 2024",
+      "doi": "10.1117/12.3004683",
+      "publisher_container": "Medical Imaging 2024: Digital and Computational Pathology"
+    },
+    {
+      "id": "2402.05373",
+      "venue": "ISBI 2024",
+      "doi": "10.1109/isbi56570.2024.10635269",
+      "publisher_container": "2024 IEEE International Symposium on Biomedical Imaging (ISBI)"
+    },
+    {
+      "id": "2402.13932",
+      "venue": "ISBI 2024",
+      "doi": "10.1109/isbi56570.2024.10635239",
+      "publisher_container": "2024 IEEE International Symposium on Biomedical Imaging (ISBI)"
+    },
+    {
+      "id": "2403.05160",
+      "venue": "BIBM 2024",
+      "doi": "10.1109/bibm62325.2024.10822552",
+      "publisher_container": "2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)"
+    },
+    {
+      "id": "2403.06349",
+      "venue": "ISBI 2023",
+      "doi": "10.1109/isbi53787.2023.10230698",
+      "publisher_container": "2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI)"
+    },
+    {
+      "id": "2403.15068",
+      "venue": "ISBI 2024",
+      "doi": "10.1109/isbi56570.2024.10635702",
+      "publisher_container": "2024 IEEE International Symposium on Biomedical Imaging (ISBI)"
+    },
+    {
+      "id": "2404.08279",
+      "venue": "ICMVA 2024",
+      "doi": "10.1145/3653946.3653968",
+      "publisher_container": "Proceedings of the 2024 7th International Conference on Machine Vision and Applications"
+    },
+    {
+      "id": "2404.08584",
+      "venue": "ISBI 2024",
+      "doi": "10.1109/isbi56570.2024.10635539",
+      "publisher_container": "2024 IEEE International Symposium on Biomedical Imaging (ISBI)"
+    },
+    {
+      "id": "2404.11052",
+      "venue": "IRI 2024",
+      "doi": "10.1109/iri62200.2024.00067",
+      "publisher_container": "2024 IEEE International Conference on Information Reuse and Integration for Data Science (IRI)"
+    },
+    {
+      "id": "2404.13222",
+      "venue": "CVPR 2024 Workshops",
+      "doi": "10.1109/cvprw63382.2024.00683",
+      "publisher_container": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)"
+    },
+    {
+      "id": "2404.19113",
+      "venue": "CVPR 2024 Workshops",
+      "doi": "10.1109/cvprw63382.2024.00008",
+      "publisher_container": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)"
+    },
+    {
+      "id": "2404.19334",
+      "venue": "ICME 2024",
+      "doi": "10.1109/icme57554.2024.10688366",
+      "publisher_container": "2024 IEEE International Conference on Multimedia and Expo (ICME)"
+    },
+    {
+      "id": "2405.13710",
+      "venue": "ISBI 2024",
+      "doi": "10.1109/isbi56570.2024.10635338",
+      "publisher_container": "2024 IEEE International Symposium on Biomedical Imaging (ISBI)"
+    },
+    {
+      "id": "2405.15127",
+      "venue": "ISBI 2024",
+      "doi": "10.1109/isbi56570.2024.10635841",
+      "publisher_container": "2024 IEEE International Symposium on Biomedical Imaging (ISBI)"
+    },
+    {
+      "id": "2406.01403",
+      "venue": "ISBI 2024",
+      "doi": "10.1109/isbi56570.2024.10635495",
+      "publisher_container": "2024 IEEE International Symposium on Biomedical Imaging (ISBI)"
+    },
+    {
+      "id": "2406.18054",
+      "venue": "BIBM 2024",
+      "doi": "10.1109/bibm62325.2024.10822745",
+      "publisher_container": "2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)"
+    },
+    {
+      "id": "2407.08625",
+      "venue": "CVPR 2024 Workshops",
+      "doi": "10.1109/cvprw63382.2024.00685",
+      "publisher_container": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)"
+    },
+    {
+      "id": "2408.13816",
+      "venue": "BIOSTEC 2024",
+      "doi": "10.5220/0012568000003657",
+      "publisher_container": "Proceedings of the 17th International Joint Conference on Biomedical Engineering Systems and Technologies"
+    },
+    {
+      "id": "2410.01072",
+      "venue": "ISBI 2025",
+      "doi": "10.1109/isbi60581.2025.10981306",
+      "publisher_container": "2025 IEEE 22nd International Symposium on Biomedical Imaging (ISBI)"
+    },
+    {
+      "id": "2410.19166",
+      "venue": "ICBME 2024",
+      "doi": "10.1109/icbme64381.2024.10895619",
+      "publisher_container": "2024 31st National and 9th International Iranian Conference on Biomedical Engineering (ICBME)"
+    },
+    {
+      "id": "2411.01034",
+      "venue": "ISBI 2025",
+      "doi": "10.1109/isbi60581.2025.10981064",
+      "publisher_container": "2025 IEEE 22nd International Symposium on Biomedical Imaging (ISBI)"
+    },
+    {
+      "id": "2411.02534",
+      "venue": "BIBM 2024",
+      "doi": "10.1109/bibm62325.2024.10822051",
+      "publisher_container": "2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)"
+    },
+    {
+      "id": "2411.04782",
+      "venue": "EMBC 2025",
+      "doi": "10.1109/embc58623.2025.11252784",
+      "publisher_container": "2025 47th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)"
+    },
+    {
+      "id": "2411.14975",
+      "venue": "ISBI 2025",
+      "doi": "10.1109/isbi60581.2025.10981249",
+      "publisher_container": "2025 IEEE 22nd International Symposium on Biomedical Imaging (ISBI)"
+    },
+    {
+      "id": "2411.15514",
+      "venue": "ISBI 2025",
+      "doi": "10.1109/isbi60581.2025.10980782",
+      "publisher_container": "2025 IEEE 22nd International Symposium on Biomedical Imaging (ISBI)"
+    },
+    {
+      "id": "2501.12085",
+      "venue": "ISBI 2025",
+      "doi": "10.1109/isbi60581.2025.10981271",
+      "publisher_container": "2025 IEEE 22nd International Symposium on Biomedical Imaging (ISBI)"
+    },
+    {
+      "id": "2502.02471",
+      "venue": "EMBC 2025",
+      "doi": "10.1109/embc58623.2025.11253185",
+      "publisher_container": "2025 47th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)"
+    },
+    {
+      "id": "2502.08754",
+      "venue": "ICIP 2026",
+      "doi": "10.1109/icip61757.2026.11630407",
+      "publisher_container": "2026 IEEE International Conference on Image Processing (ICIP)"
+    },
+    {
+      "id": "10.1101/2023.03.08.531734",
+      "venue": "EMBC 2023",
+      "doi": "10.1109/embc40787.2023.10340049",
+      "publisher_container": "2023 45th Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC)"
+    },
+    {
+      "id": "10.1101/2024.08.31.610626",
+      "venue": "ICBCB 2025",
+      "doi": "10.1109/icbcb64873.2025.11198091",
+      "publisher_container": "2025 13th International Conference on Bioinformatics and Computational Biology (ICBCB)"
+    },
+    {
+      "id": "10.1101/2024.11.23.624680",
+      "venue": "ISBI 2025",
+      "doi": "10.1109/isbi60581.2025.10980971",
+      "publisher_container": "2025 IEEE 22nd International Symposium on Biomedical Imaging (ISBI)"
+    }
+  ],
+  "checkpoint_change": "All source checkpoints remain 2026-11-01. Expanded-scope historical review and arXiv revision recovery are pending.",
+  "review_limits": "Item-level work includes titles and abstract scope passages, with targeted full-text checks. Automated triage is identified separately. This is not an exhaustive systematic review.",
+  "alias_review": [
+    {
+      "id": "2301.09624",
+      "proposed_doi": "10.1016/j.media.2025.103491",
+      "decision": "already_verified_alias",
+      "reason": "HistoKernel extended formal version of the same MMD WSI-kernel method; metadata/author check required."
+    },
+    {
+      "id": "2302.00669",
+      "proposed_doi": "10.1016/j.modpat.2025.100797",
+      "decision": "accept_formal_identity",
+      "reason": "Item-level comparison of authors, title meaning, abstract methods and distinctive model/cohort supports the formal version; canonical DOI rechecked."
+    },
+    {
+      "id": "2306.05029",
+      "proposed_doi": "10.1016/j.compbiomed.2024.108714",
+      "decision": "reject_automatic_alias",
+      "reason": "Distinct contribution or insufficient identity evidence despite overlapping authors."
+    },
+    {
+      "id": "2307.14907",
+      "proposed_doi": "10.1016/j.cell.2024.03.035",
+      "decision": "accept_formal_identity",
+      "reason": "Item-level comparison of authors, title meaning, abstract methods and distinctive model/cohort supports the formal version; canonical DOI rechecked."
+    },
+    {
+      "id": "2308.15474",
+      "proposed_doi": "10.1038/s41591-024-02857-3",
+      "decision": "already_verified_alias",
+      "reason": "UNI model, matching Richard J Chen et al. authors and training/evaluation description."
+    },
+    {
+      "id": "2310.07033",
+      "proposed_doi": "10.1038/s41467-025-58796-1",
+      "decision": "reject_automatic_alias",
+      "reason": "Distinct contribution or insufficient identity evidence despite overlapping authors."
+    },
+    {
+      "id": "2311.15847",
+      "proposed_doi": "10.1016/j.compbiomed.2025.110127",
+      "decision": "already_verified_alias",
+      "reason": "Matched author cohort and title/abstract lineage; abstract Jaccard 0.324; canonical metadata rechecked before insertion."
+    },
+    {
+      "id": "2312.07814",
+      "proposed_doi": "10.1038/s41586-024-07618-3",
+      "decision": "already_verified_alias",
+      "reason": "Publisher abstract presents PathChat as the multimodal pathology copilot; original preprint title and matching author lineage."
+    },
+    {
+      "id": "2312.12619",
+      "proposed_doi": "10.1016/j.media.2025.103663",
+      "decision": "accept_formal_identity",
+      "reason": "Item-level comparison of authors, title meaning, abstract methods and distinctive model/cohort supports the formal version; canonical DOI rechecked."
+    },
+    {
+      "id": "2401.09791",
+      "proposed_doi": "10.1016/j.media.2024.103356",
+      "decision": "reject_automatic_alias",
+      "reason": "Distinct contribution or insufficient identity evidence despite overlapping authors."
+    },
+    {
+      "id": "2402.16663",
+      "proposed_doi": "10.1016/j.media.2025.103607",
+      "decision": "already_verified_alias",
+      "reason": "Matched author cohort and title/abstract lineage; abstract Jaccard 0.942; canonical metadata rechecked before insertion."
+    },
+    {
+      "id": "2404.00351",
+      "proposed_doi": "10.1016/j.media.2025.103631",
+      "decision": "already_verified_alias",
+      "reason": "Matched author cohort and title/abstract lineage; abstract Jaccard 0.337; canonical metadata rechecked before insertion."
+    },
+    {
+      "id": "2404.01446",
+      "proposed_doi": "10.1016/j.jpi.2024.100403",
+      "decision": "already_verified_alias",
+      "reason": "Matched author cohort and title/abstract lineage; abstract Jaccard 0.689; canonical metadata rechecked before insertion."
+    },
+    {
+      "id": "2404.06080",
+      "proposed_doi": "10.3390/diagnostics16172790",
+      "decision": "already_verified_alias",
+      "reason": "Matched author cohort and title/abstract lineage; abstract Jaccard 0.254; canonical metadata rechecked before insertion."
+    },
+    {
+      "id": "2406.02990",
+      "proposed_doi": "10.1016/j.patcog.2026.113047",
+      "decision": "already_verified_alias",
+      "reason": "Matched author cohort and title/abstract lineage; abstract Jaccard 0.0; canonical metadata rechecked before insertion."
+    },
+    {
+      "id": "2410.03289",
+      "proposed_doi": "10.1016/j.jpi.2023.100306",
+      "decision": "reject_automatic_alias",
+      "reason": "Distinct contribution or insufficient identity evidence despite overlapping authors."
+    },
+    {
+      "id": "2503.16816",
+      "proposed_doi": "10.1016/j.media.2026.104008",
+      "decision": "already_verified_alias",
+      "reason": "Matched author cohort and title/abstract lineage; abstract Jaccard 1.0; canonical metadata rechecked before insertion."
+    },
+    {
+      "id": "2503.23021",
+      "proposed_doi": "10.1038/s41598-026-52148-9",
+      "decision": "already_verified_alias",
+      "reason": "Matched author cohort and title/abstract lineage; abstract Jaccard 0.82; canonical metadata rechecked before insertion."
+    },
+    {
+      "id": "2506.13063",
+      "proposed_doi": "10.1038/s41591-026-04521-4",
+      "decision": "already_verified_alias",
+      "reason": "Matched author cohort and title/abstract lineage; abstract Jaccard 0.531; canonical metadata rechecked before insertion."
+    },
+    {
+      "id": "2510.14800",
+      "proposed_doi": "10.3390/cancers18071150",
+      "decision": "already_verified_alias",
+      "reason": "Matched author cohort and title/abstract lineage; abstract Jaccard 0.764; canonical metadata rechecked before insertion."
+    },
+    {
+      "id": "10.1101/2023.03.29.534834",
+      "proposed_doi": "10.1038/s41591-023-02504-3",
+      "decision": "accept_formal_identity",
+      "reason": "Item-level comparison of authors, title meaning, abstract methods and distinctive model/cohort supports the formal version; canonical DOI rechecked."
+    },
+    {
+      "id": "10.1101/2023.04.14.536756",
+      "proposed_doi": "10.1016/j.xcrm.2023.101313",
+      "decision": "accept_formal_identity",
+      "reason": "Item-level comparison of authors, title meaning, abstract methods and distinctive model/cohort supports the formal version; canonical DOI rechecked."
+    },
+    {
+      "id": "10.1101/2023.06.14.544765",
+      "proposed_doi": "10.1038/s41467-025-64626-1",
+      "decision": "reject_automatic_alias",
+      "reason": "Distinct contribution or insufficient identity evidence despite overlapping authors."
+    },
+    {
+      "id": "10.1101/2023.07.27.550781",
+      "proposed_doi": "10.1038/s44303-023-00005-z",
+      "decision": "accept_formal_identity",
+      "reason": "Item-level comparison of authors, title meaning, abstract methods and distinctive model/cohort supports the formal version; canonical DOI rechecked."
+    },
+    {
+      "id": "10.1101/2024.08.16.608264",
+      "proposed_doi": "10.1038/s41698-024-00778-5",
+      "decision": "accept_formal_identity",
+      "reason": "Item-level comparison of authors, title meaning, abstract methods and distinctive model/cohort supports the formal version; canonical DOI rechecked."
+    },
+    {
+      "id": "10.1101/2023.04.20.23288534",
+      "proposed_doi": "10.1038/s41591-024-03172-7",
+      "decision": "accept_formal_identity",
+      "reason": "Item-level comparison of authors, title meaning, abstract methods and distinctive model/cohort supports the formal version; canonical DOI rechecked."
+    },
+    {
+      "id": "10.1101/2023.09.01.23294940",
+      "proposed_doi": "10.1038/s41591-024-03301-2",
+      "decision": "reject_automatic_alias",
+      "reason": "Distinct contribution or insufficient identity evidence despite overlapping authors."
+    },
+    {
+      "id": "10.1101/2023.12.11.23299520",
+      "proposed_doi": "10.1038/s41598-024-79570-1",
+      "decision": "accept_formal_identity",
+      "reason": "Item-level comparison of authors, title meaning, abstract methods and distinctive model/cohort supports the formal version; canonical DOI rechecked."
+    },
+    {
+      "id": "10.1101/2024.04.25.24306364",
+      "proposed_doi": "10.1038/s43018-025-01060-8",
+      "decision": "accept_formal_identity",
+      "reason": "Item-level comparison of authors, title meaning, abstract methods and distinctive model/cohort supports the formal version; canonical DOI rechecked."
+    },
+    {
+      "id": "10.1101/2024.05.29.24308109",
+      "proposed_doi": "10.1038/s41591-024-03301-2",
+      "decision": "accept_formal_identity",
+      "reason": "Item-level comparison of authors, title meaning, abstract methods and distinctive model/cohort supports the formal version; canonical DOI rechecked."
+    },
+    {
+      "id": "10.1101/2025.02.04.25321335",
+      "proposed_doi": "10.5858/arpa.2025-0262-oa",
+      "decision": "accept_formal_identity",
+      "reason": "Item-level comparison of authors, title meaning, abstract methods and distinctive model/cohort supports the formal version; canonical DOI rechecked."
+    },
+    {
+      "id": "10.1101/2025.05.08.25327250",
+      "proposed_doi": "10.1038/s41467-026-76004-6",
+      "decision": "accept_formal_identity",
+      "reason": "Item-level comparison of authors, title meaning, abstract methods and distinctive model/cohort supports the formal version; canonical DOI rechecked."
+    },
+    {
+      "id": "10.1101/2025.06.09.25328891",
+      "proposed_doi": "10.1038/s41598-025-19193-2",
+      "decision": "accept_formal_identity",
+      "reason": "Item-level comparison of authors, title meaning, abstract methods and distinctive model/cohort supports the formal version; canonical DOI rechecked."
+    }
+  ]
+}
