@@ -118,7 +118,7 @@
   "query_file": "docs/updates/2026-11-08-platforms-queries.json",
   "decision_file": "docs/updates/2026-11-08-platforms-decisions.json",
   "validation": {
-    "unit_tests": 27,
+    "unit_tests": 34,
     "journal_validation": "passed",
     "original_entries_preserved": 4892,
     "original_code_data_website_links_preserved": true,

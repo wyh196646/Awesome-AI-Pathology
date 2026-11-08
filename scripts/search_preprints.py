@@ -141,12 +141,18 @@ def paper_identity(value):
     return None
 
 
-def matching_existing(record, previous):
-    key = normalized(record["title"])
-    identifiers = {paper_identity(str(value)) for value in
-                   (record["id"], record.get("doi"), record.get("published_doi"))
+def record_identities(record):
+    values = [record["id"], record.get("doi"), record.get("published_doi"),
+              *record.get("linked_publication_dois", [])]
+    identifiers = {paper_identity(str(value)) for value in values
                    if value not in (None, "", "NA")}
     identifiers.discard(None)
+    return identifiers
+
+
+def matching_existing(record, previous):
+    key = normalized(record["title"])
+    identifiers = record_identities(record)
     return [entry for entry in previous if entry["key"] == key or
             any(paper_identity(url) in identifiers
                 for url in entry.get("identity_urls", [entry["paper_url"]]))]
@@ -166,10 +172,7 @@ def exclusion_identity_keys(identifiers):
 def journal_policy_exclusion(record, exclusions):
     """Flag known excluded formal publications for screening; do not delete candidates."""
     title_hash = hashlib.sha256(normalized(record["title"]).encode()).hexdigest()
-    identifiers = {paper_identity(str(value)) for value in
-                   (record["id"], record.get("doi"), record.get("published_doi"))
-                   if value not in (None, "", "NA")}
-    identifiers.discard(None)
+    identifiers = record_identities(record)
     if (title_hash in exclusions["title_sha256"] or
             any(f"{kind}:{value}" in exclusion_identity_keys(frozenset(exclusions["identifiers"]))
                 for kind, value in identifiers)):
@@ -177,13 +180,20 @@ def journal_policy_exclusion(record, exclusions):
     return None
 
 
-def request(url, cache, source, allow_html=False):
+def request(url, cache, source, allow_html=False, validator=None, refresh=False):
     destination = cache / (hashlib.sha256(url.encode()).hexdigest() + ".response")
-    if destination.exists():
+    if destination.exists() and not refresh:
         data = destination.read_bytes()
-        if not allow_html and data.lstrip().lower().startswith((b"<!doctype html", b"<html")):
-            raise ValueError("Cached API response is HTML rather than bibliographic metadata")
-        return data
+        try:
+            if not allow_html and data.lstrip().lower().startswith((b"<!doctype html", b"<html")):
+                raise ValueError("Cached API response is HTML rather than bibliographic metadata")
+            if validator:
+                validator(data)
+            return data
+        except (ValueError, TypeError):
+            if validator is None:
+                raise
+            destination.unlink()
     delay = 3.1 if source == "arxiv" else 0.4
     for attempt in range(4):
         time.sleep(max(0, delay - (time.monotonic() - LAST_REQUEST.get(source, 0))))
@@ -196,6 +206,8 @@ def request(url, cache, source, allow_html=False):
             # Refuse cached HTML error pages masquerading as successful metadata.
             if not allow_html and data.lstrip().lower().startswith((b"<!doctype html", b"<html")):
                 raise ValueError("API returned HTML rather than bibliographic metadata")
+            if validator:
+                validator(data)
             destination.write_bytes(data)
             return data
         except Exception:

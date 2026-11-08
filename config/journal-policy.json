@@ -101,7 +101,9 @@
     "Research Square",
     "SSRN",
     "SciELO Preprints",
-    "ScienceOpen Preprints"
+    "ScienceOpen Preprints",
+    "OSF Preprints",
+    "Zenodo"
   ],
   "technical_reports": [
     "Harvard Thesis"

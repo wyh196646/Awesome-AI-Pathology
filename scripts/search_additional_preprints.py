@@ -93,18 +93,30 @@ def queries(config, since, until, date_field):
 
 
 def parse_record(row, url):
-    doi = row.get("doi", "").lower()
+    doi = (row.get("doi") or "").lower()
     types = [value.lower() for value in row.get("pubTypeList", {}).get("pubType", [])]
     versions = row.get("versionList", {}).get("version", [])
     first = [version["firstPublishDate"] for version in versions
-             if version.get("versionNumber") == 1 and version.get("firstPublishDate")]
+             if str(version.get("versionNumber")) == "1" and version.get("firstPublishDate")]
+    links = (row.get("commentCorrectionList") or {}).get("commentCorrection", [])
+    formal_links = [link for link in links if sp.normalized(link.get("type", "")) in
+                    {"preprintof", "publishedas", "publishedversion", "publishedin"}]
+    formal_dois = set()
+    for link in formal_links:
+        values = [link.get("doi"), link.get("DOI"), link.get("url"), link.get("reference")]
+        if link.get("source", "").upper() == "DOI":
+            values.append(link.get("id"))
+        for value in values:
+            identity = sp.paper_identity(str(value or ""))
+            if identity and identity[0] == "doi":
+                formal_dois.add(identity[1])
     return {
         "source": "europepmc", "id": doi or row["source"] + ":" + row["id"],
         "doi": doi, "index_id": row["id"], "index_source": row["source"],
         "platform": platform_for(doi),
         "publisher": row.get("bookOrReportDetails", {}).get("publisher", ""),
         "title": html.unescape(row["title"]),
-        "abstract": " ".join(AbstractText(row.get("abstractText", "")).parts),
+        "abstract": " ".join(" ".join(AbstractText(row.get("abstractText") or "").parts).split()),
         "authors": row.get("authorString", ""),
         "author_details": row.get("authorList", {}).get("author", []),
         "version": int(row.get("versionNumber") or 1),
@@ -117,11 +129,39 @@ def parse_record(row, url):
         "index_url": f"https://europepmc.org/article/{row['source']}/{row['id']}",
         "retrieval_url": url,
         "linked_publication_records": row.get("commentCorrectionList", {}),
+        "linked_publication_dois": sorted(formal_dois),
+        "publication_identity_pending": bool(formal_links),
+        "linked_publication_urls": [("https://doi.org/" + link["id"] if link["source"].upper() == "DOI"
+                                     else f"https://europepmc.org/article/{link['source']}/{link['id']}")
+                                    for link in formal_links if link.get("source") and link.get("id")],
         "fulltext_urls": row.get("fullTextUrlList", {}).get("fullTextUrl", []),
     }
 
 
-def collect(config, since, until, date_field, cache, log, raw_records, max_pages=200):
+def validate_index_page(raw):
+    data = json.loads(raw)
+    if not isinstance(data, dict) or "hitCount" not in data or not isinstance(data.get("resultList"), dict):
+        raise ValueError("Europe PMC response lacks counts/results")
+    if int(data["hitCount"]) < 0 or not isinstance(data["resultList"].get("result", []), list):
+        raise ValueError("Europe PMC response has invalid counts/results")
+    return data
+
+
+def default_since(state, config, date_field):
+    source = state.get("additional_sources", {}).get("europepmc_preprints", {})
+    checkpoint = source.get("last_successful_until")
+    if date_field == "updated" and source.get("retrieval_status") in {"complete", "complete_for_recorded_yearly_index_queries"}:
+        # A saved discovery frontier bounds new requests while its review queue persists.
+        retained = source.get("pending_files") or source.get("last_candidate_file")
+        retrieved = source.get("last_retrieval_until")
+        if retained and retrieved:
+            checkpoint = max(checkpoint or retrieved, retrieved)
+    if checkpoint:
+        return (dt.date.fromisoformat(checkpoint) - dt.timedelta(days=config["lookback_overlap_days"])).isoformat()
+    return config.get("additional_preprint_discovery", {}).get("bootstrap_since", "2023-01-01")
+
+
+def collect(config, since, until, date_field, cache, log, raw_records, max_pages=200, refresh_cache=False):
     for group, batch, query in queries(config, since, until, date_field):
         cursor = "*"
         retrieved = 0
@@ -129,9 +169,8 @@ def collect(config, since, until, date_field, cache, log, raw_records, max_pages
             params = {"query": query, "format": "json", "resultType": "core", "pageSize": 1000,
                       "cursorMark": cursor}
             url = ENDPOINT + "?" + urllib.parse.urlencode(params)
-            data = json.loads(sp.request(url, cache, "europepmc"))
-            if "hitCount" not in data or "resultList" not in data:
-                raise ValueError("Europe PMC response lacks counts/results")
+            data = validate_index_page(sp.request(url, cache, "europepmc",
+                                                 validator=validate_index_page, refresh=refresh_cache))
             total = int(data["hitCount"])
             rows = data["resultList"].get("result", [])
             if not rows and retrieved < total:
@@ -155,24 +194,24 @@ def collect(config, since, until, date_field, cache, log, raw_records, max_pages
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--since", help="Defaults to the new source's checkpoint minus overlap, or 2023-01-01")
+    parser.add_argument("--since", help="Defaults to a retained discovery/review frontier minus overlap, or the historical bootstrap")
     parser.add_argument("--until", default=(dt.datetime.now(dt.timezone.utc).date() - dt.timedelta(days=1)).isoformat())
     parser.add_argument("--date-field", choices=["first", "updated"], default="updated")
     parser.add_argument("--cache-dir")
+    parser.add_argument("--refresh-cache", action="store_true", help="Refetch API pages even with an explicit existing cache directory")
     parser.add_argument("--output")
     parser.add_argument("--max-pages", type=int, default=200)
     parser.add_argument("--check-research-square", nargs="+", help="Check original article metadata for selected DOIs instead of running discovery")
     args = parser.parse_args()
     config = json.loads((ROOT / "config/literature-keywords.json").read_text(encoding="utf-8"))
     state = json.loads((ROOT / "data/weekly-update-state.json").read_text(encoding="utf-8"))
-    checkpoint = state.get("additional_sources", {}).get("europepmc_preprints", {}).get("last_successful_until")
-    default_since = (dt.date.fromisoformat(checkpoint) - dt.timedelta(days=config["lookback_overlap_days"])).isoformat() if checkpoint else "2023-01-01"
-    since = args.since or default_since
+    since = args.since or default_since(state, config, args.date_field)
     if dt.date.fromisoformat(since) > dt.date.fromisoformat(args.until) or args.max_pages < 1:
         parser.error("Invalid date range or page limit")
     if dt.date.fromisoformat(args.until) >= dt.datetime.now(dt.timezone.utc).date():
         parser.error("--until must be a completed UTC day")
-    cache = Path(args.cache_dir) if args.cache_dir else ROOT / ".cache/additional-preprints" / args.until
+    attempt_id = dt.datetime.now(dt.timezone.utc).strftime("%Y%m%dT%H%M%S%fZ")
+    cache = Path(args.cache_dir) if args.cache_dir else ROOT / ".cache/additional-preprints" / attempt_id
     cache.mkdir(parents=True, exist_ok=True)
     if args.check_research_square:
         results = []
@@ -181,7 +220,7 @@ def main():
                 results.append(research_square_details(doi, cache))
             except Exception as error:
                 results.append({"doi": doi, "status": "failed", "error": str(error)})
-        destination = Path(args.output) if args.output else ROOT / ".cache/additional-preprint-status.json"
+        destination = Path(args.output) if args.output else cache / ("status-" + attempt_id + ".json")
         destination.parent.mkdir(parents=True, exist_ok=True)
         destination.write_text(json.dumps({"status_checks": results}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         return int(any(row["status"] == "failed" for row in results))
@@ -189,7 +228,7 @@ def main():
     log = []
     errors = []
     try:
-        collect(config, since, args.until, args.date_field, cache, log, records, args.max_pages)
+        collect(config, since, args.until, args.date_field, cache, log, records, args.max_pages, args.refresh_cache)
     except Exception as error:
         errors.append(type(error).__name__ + ": " + str(error))
     previous = sp.existing_entries()
@@ -204,12 +243,17 @@ def main():
     exclusions = json.loads((ROOT / "data/excluded-journal-identities.json").read_text(encoding="utf-8"))
     candidates = []
     for raw in records.values():
-        record = parse_record(raw, raw.get("_retrieval_url", ENDPOINT))
-        eligible, topics, methods = sp.topic_matches(record, config)
+        try:
+            record = parse_record(raw, raw.get("_retrieval_url", ENDPOINT))
+            eligible, topics, methods = sp.topic_matches(record, config)
+        except Exception as error:
+            errors.append(f"Candidate {raw.get('source')}:{raw.get('id')}: {type(error).__name__}: {error}")
+            continue
         if not eligible:
             continue
         matches = by_title.get(sp.normalized(record["title"]), [])
-        matches = matches + by_identity.get(sp.paper_identity(record["doi"]), [])
+        for identity in sp.record_identities(record):
+            matches = matches + by_identity.get(identity, [])
         unique_matches = list({(entry["path"], entry["line"]): entry for entry in matches}.values())
         record.update(matched_topics=topics, matched_methods=methods,
                       existing_matches=sp.matching_existing(record, unique_matches),
@@ -222,10 +266,11 @@ def main():
                "records": list(records.values()), "candidates": candidates,
                "keyword_config": "config/literature-keywords.json",
                "keyword_sha256": hashlib.sha256((ROOT / "config/literature-keywords.json").read_bytes()).hexdigest()}
-    destination = Path(args.output) if args.output else ROOT / ".cache/additional-preprint-candidates.json"
+    destination = Path(args.output) if args.output else cache / f"candidates-{args.date_field}-{since}-{args.until}-{attempt_id}.json"
     destination.parent.mkdir(parents=True, exist_ok=True)
     destination.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(status, ensure_ascii=False), flush=True)
+    print("Saved candidate packet", destination, flush=True)
     return 1 if errors else 0
 
 

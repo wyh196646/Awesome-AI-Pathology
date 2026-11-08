@@ -55,8 +55,17 @@ Keep the arXiv, bioRxiv and medRxiv collectors and run
 Its historical bootstrap is 2023-01-01, independent of the original three-source
 rolling window. Search 2023, 2024, 2025 and 2026 separately with `--date-field first`.
 Weekly discovery uses `--date-field updated` through the previous complete UTC day.
-An independent successful checkpoint determines its 14-day overlap. Incomplete
-review or publication must leave that checkpoint unchanged.
+Keep the reviewed-success checkpoint independent from the discovery frontier.
+A complete retrieval with a durable candidate packet/pending queue can supply
+`last_retrieval_until` for the next updated-date search, with 14-day overlap.
+Incomplete review or publication leaves `last_successful_until` unchanged.
+Failed retrieval cannot advance the discovery frontier. Preserve all historical
+pending records when requesting a newer incremental interval.
+
+Default cache directories and candidate packets are unique to each attempt, so
+yearly searches and rescans retain separate outputs. An explicit `--cache-dir`
+reuses responses for recovery. Use `--refresh-cache` for a fresh rescan with that
+directory. Invalid index JSON/count/result payloads are discarded and refetched.
 
 Search official domains for Research Square, SSRN, Preprints.org, Authorea,
 TechRxiv, OSF and ScienceOpen in addition to the Europe PMC index. Use the
@@ -71,6 +80,10 @@ publication. Acceptance flags without a resolved formal identity stay pending.
 For every platform, reconcile Crossref, authors, title variants, original dates,
 withdrawal information and formal publications before merging identities or
 adding a new preprint. Apply the existing journal policy to formal counterparts.
+Resolve linked Europe PMC formal DOIs and PMID/source references. Linked DOI
+identities participate in exclusion checks and existing-entry matching. Index
+links can be inferred from title/first-author agreement and require primary
+identity confirmation before admission or automatic merging.
 Keep Fuji and SSRN BRIGHT as source-coverage sentinels and preserve all unresolved
 candidates. Dated maintenance announcements belong only in `docs/updates/`.
 
