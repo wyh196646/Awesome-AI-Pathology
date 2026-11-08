@@ -461,6 +461,19 @@
         "arxiv_id": "2610.39441",
         "title": "PathCowork: Learning from real-world pathology practice to build AI copilots",
         "published": "2026-10-29"
+      },
+      {
+        "doi": "10.21203/rs.3.rs-9949149/v1",
+        "platform": "Research Square",
+        "title": "Genome-scale molecular profiling from routine histopathology with a multimodal pathology foundation model",
+        "published": "2026-08-06"
+      },
+      {
+        "doi": "10.2139/ssrn.6506743",
+        "platform": "SSRN",
+        "title": "BRIGHT: A Collaborative Generalist-Specialist Foundation Model for Breast Pathology",
+        "published": "2026-04-07",
+        "existing_arxiv_id": "2603.03030"
       }
     ],
     "subject_categories": {
@@ -471,5 +484,114 @@
         "pathology"
       ]
     }
+  },
+  "additional_preprint_discovery": {
+    "script": "scripts/search_additional_preprints.py",
+    "provider": "Europe PMC",
+    "bootstrap_since": "2023-01-01",
+    "search_fields": [
+      "title",
+      "abstract"
+    ],
+    "date_fields": {
+      "historical": "FIRST_PDATE",
+      "weekly": "UPDATE_DATE"
+    },
+    "scope": "All indexed preprint platforms beyond the existing arXiv/bioRxiv/medRxiv collectors. Unknown platforms require primary-source classification before admission.",
+    "platforms": [
+      "Research Square",
+      "Preprints.org",
+      "SSRN",
+      "OSF Preprints",
+      "Authorea",
+      "TechRxiv",
+      "SciELO Preprints",
+      "Zenodo",
+      "ScienceOpen Preprints"
+    ],
+    "index_coverage_is_not_full_server_coverage": true,
+    "official_domain_search_required": true,
+    "official_domain_queries": [
+      {
+        "domain": "researchsquare.com",
+        "template": "site:researchsquare.com {keyword_family} {year}",
+        "years": [
+          2023,
+          2024,
+          2025,
+          2026
+        ]
+      },
+      {
+        "domain": "papers.ssrn.com",
+        "template": "site:papers.ssrn.com {keyword_family} {year}",
+        "years": [
+          2023,
+          2024,
+          2025,
+          2026
+        ]
+      },
+      {
+        "domain": "preprints.org",
+        "template": "site:preprints.org {keyword_family} {year}",
+        "years": [
+          2023,
+          2024,
+          2025,
+          2026
+        ]
+      },
+      {
+        "domain": "authorea.com",
+        "template": "site:authorea.com {keyword_family} {year}",
+        "years": [
+          2023,
+          2024,
+          2025,
+          2026
+        ]
+      },
+      {
+        "domain": "techrxiv.org",
+        "template": "site:techrxiv.org {keyword_family} {year}",
+        "years": [
+          2023,
+          2024,
+          2025,
+          2026
+        ]
+      },
+      {
+        "domain": "osf.io",
+        "template": "site:osf.io {keyword_family} {year}",
+        "years": [
+          2023,
+          2024,
+          2025,
+          2026
+        ]
+      },
+      {
+        "domain": "scienceopen.com",
+        "template": "site:scienceopen.com {keyword_family} {year}",
+        "years": [
+          2023,
+          2024,
+          2025,
+          2026
+        ]
+      },
+      {
+        "domain": "preprints.scielo.org",
+        "template": "site:preprints.scielo.org {keyword_family} {year}",
+        "years": [
+          2023,
+          2024,
+          2025,
+          2026
+        ]
+      }
+    ]
   }
 }

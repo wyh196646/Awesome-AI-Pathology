@@ -1,6 +1,6 @@
 # Scope and weekly maintenance
 
-Scope and recall safeguards updated: **2026-11-02**. This policy supersedes the image-input restriction
+Scope and recall safeguards updated **2026-11-08**. This policy supersedes the image-input restriction
 used in the [2023–2026 search audit](literature-search-2023-2026.md).
 The first expanded search is documented in the [2026-10-05 update](updates/2026-10-05.md).
 The collection covers computational pathology and adjacent computational tissue,
@@ -47,6 +47,45 @@ additional benchmarks. New backfill entries start in 2023; revisions of older
 papers already in the collection can still be checked and updated. The targeted
 [TPAMI backfill](updates/2026-10-08-tpami.md) additionally recovers three older
 relevant works; the recurring search still starts in 2023.
+
+## Additional preprint platforms
+
+Keep the arXiv, bioRxiv and medRxiv collectors and run
+`scripts/search_additional_preprints.py` for indexed preprints from other servers.
+Its historical bootstrap is 2023-01-01, independent of the original three-source
+rolling window. Search 2023, 2024, 2025 and 2026 separately with `--date-field first`.
+Weekly discovery uses `--date-field updated` through the previous complete UTC day.
+Keep the reviewed-success checkpoint independent from the discovery frontier.
+A complete retrieval with a durable candidate packet/pending queue can supply
+`last_retrieval_until` for the next updated-date search, with 14-day overlap.
+Incomplete review or publication leaves `last_successful_until` unchanged.
+Failed retrieval cannot advance the discovery frontier. Preserve all historical
+pending records when requesting a newer incremental interval.
+
+Default cache directories and candidate packets are unique to each attempt, so
+yearly searches and rescans retain separate outputs. An explicit `--cache-dir`
+reuses responses for recovery. Use `--refresh-cache` for a fresh rescan with that
+directory. Invalid index JSON/count/result payloads are discarded and refetched.
+
+Search official domains for Research Square, SSRN, Preprints.org, Authorea,
+TechRxiv, OSF and ScienceOpen in addition to the Europe PMC index. Use the
+configured keyword families and yearly searches. Record actual queries and
+unavailable sources. Europe PMC does not index every paper on these servers.
+PubMed and PMC provide further source/version leads. Retrieve original article
+pages before final admission and distinguish papers from datasets and projects.
+
+For Research Square, use `--check-research-square DOI...` to inspect original
+version dates and linked formal DOIs. A submission-journal field does not prove
+publication. Acceptance flags without a resolved formal identity stay pending.
+For every platform, reconcile Crossref, authors, title variants, original dates,
+withdrawal information and formal publications before merging identities or
+adding a new preprint. Apply the existing journal policy to formal counterparts.
+Resolve linked Europe PMC formal DOIs and PMID/source references. Linked DOI
+identities participate in exclusion checks and existing-entry matching. Index
+links can be inferred from title/first-author agreement and require primary
+identity confirmation before admission or automatic merging.
+Keep Fuji and SSRN BRIGHT as source-coverage sentinels and preserve all unresolved
+candidates. Dated maintenance announcements belong only in `docs/updates/`.
 
 ## Targeted journal backfills
 
