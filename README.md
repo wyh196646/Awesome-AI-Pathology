@@ -23,7 +23,7 @@ See the [verified journal policy](config/journal-policy.json).
 
 ## Highlights
 
-- 📚 4,892 curated publication entries in computational pathology and tissue omics
+- 📚 4,932 curated publication entries in computational pathology and tissue omics
 - 🧠 Foundation models, WSI analysis, VLMs, agents, and spatial omics
 - 🏛️ Top conferences and journals: CVPR, ICCV, NeurIPS, ICML, ICLR, MICCAI, MIDL, Nature, Cell, Lancet, IEEE TPAMI, IEEE TMI, MedIA
 - 📊 Year-by-year and venue-by-venue paper tracking
@@ -90,6 +90,12 @@ These are representative venues. The [machine-readable allowlist](config/journal
 - bioRxiv
 - medRxiv
 - TechRxiv
+- Research Square
+- SSRN
+- Preprints.org
+- Authorea
+- ScienceOpen Preprints
+- SciELO Preprints
 
 ## Table of Contents
 
@@ -106,7 +112,7 @@ Earlier years remain on this page.
 
 # 2026
 
-**2,322 publications** · [Browse the complete 2026 list](papers/2026.md)
+**2,351 publications** · [Browse the complete 2026 list](papers/2026.md)
 
 - [Nature](papers/2026.md#nature) (3)
 - [Nature Medicine](papers/2026.md#nature-medicine) (6)
@@ -200,12 +206,16 @@ Earlier years remain on this page.
 - [CBMS 2026](papers/2026.md#cbms-2026) (1)
 - [ICETCI 2026](papers/2026.md#icetci-2026) (1)
 - [ICIP 2026](papers/2026.md#icip-2026) (1)
+- [Research Square](papers/2026.md#research-square) (21)
+- [Preprints.org](papers/2026.md#preprintsorg) (4)
+- [ScienceOpen Preprints](papers/2026.md#scienceopen-preprints) (1)
+- [SSRN](papers/2026.md#ssrn) (3)
 
 ---
 
 # 2025
 
-**1,141 publications** · [Browse the complete 2025 list](papers/2025.md)
+**1,148 publications** · [Browse the complete 2025 list](papers/2025.md)
 
 - [Nature](papers/2025.md#nature) (5)
 - [Nature Medicine](papers/2025.md#nature-medicine) (3)
@@ -298,12 +308,15 @@ Earlier years remain on this page.
 - [EMBC 2025](papers/2025.md#embc-2025) (2)
 - [ICBCB 2025](papers/2025.md#icbcb-2025) (1)
 - [Cell Reports](papers/2025.md#cell-reports) (1)
+- [Research Square](papers/2025.md#research-square) (3)
+- [Authorea](papers/2025.md#authorea) (3)
+- [SciELO Preprints](papers/2025.md#scielo-preprints) (1)
 
 ---
 
 # 2024
 
-**806 publications** · [Browse the complete 2024 list](papers/2024.md)
+**808 publications** · [Browse the complete 2024 list](papers/2024.md)
 
 - [Nature](papers/2024.md#nature) (3)
 - [Nature Medicine](papers/2024.md#nature-medicine) (10)
@@ -392,12 +405,13 @@ Earlier years remain on this page.
 - [ICME 2024](papers/2024.md#icme-2024) (1)
 - [ICBME 2024](papers/2024.md#icbme-2024) (1)
 - [medRxiv](papers/2024.md#medrxiv) (7)
+- [Research Square](papers/2024.md#research-square) (2)
 
 ---
 
 # 2023
 
-**518 publications** · [Browse the complete 2023 list](papers/2023.md)
+**520 publications** · [Browse the complete 2023 list](papers/2023.md)
 
 - [Nature Medicine](papers/2023.md#nature-medicine) (3)
 - [Nature Cancer](papers/2023.md#nature-cancer) (1)
@@ -467,6 +481,7 @@ Earlier years remain on this page.
 - [ICCV 2023 Workshops](papers/2023.md#iccv-2023-workshops) (1)
 - [BIBM 2023](papers/2023.md#bibm-2023) (3)
 - [TrustCom 2023](papers/2023.md#trustcom-2023) (1)
+- [Research Square](papers/2023.md#research-square) (2)
 
 ---
 

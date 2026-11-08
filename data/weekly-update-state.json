@@ -12,7 +12,7 @@
       "last_successful_until": "2026-11-01"
     }
   },
-  "last_audit": "docs/updates/2026-11-07.json",
+  "last_audit": "docs/updates/2026-11-08-platforms.json",
   "pending_publication_checks": [
     {
       "arxiv_id": "2509.23097",
@@ -187,5 +187,25 @@
       "reason": "Author claims workshop acceptance; await independent official proceedings/program confirmation.",
       "last_checked": "2026-11-07"
     }
-  ]
+  ],
+  "additional_sources": {
+    "europepmc_preprints": {
+      "last_successful_until": null,
+      "bootstrap_since": "2023-01-01",
+      "last_retrieval_until": "2026-11-07",
+      "retrieval_status": "complete_for_recorded_yearly_index_queries",
+      "review_status": "partial",
+      "pending_index_candidates": 24878,
+      "pending_files": [
+        "docs/updates/2026-11-08-platforms-pending-01.json",
+        "docs/updates/2026-11-08-platforms-pending-02.json",
+        "docs/updates/2026-11-08-platforms-pending-03.json",
+        "docs/updates/2026-11-08-platforms-pending-04.json",
+        "docs/updates/2026-11-08-platforms-pending-05.json"
+      ],
+      "pending_external_records": "docs/updates/2026-11-08-platforms-decisions.json",
+      "official_domain_leads": "docs/updates/2026-11-08-platforms-queries.json",
+      "checkpoint_rule": "Finish source review and publish before advancing. Retrieve recent updates independently while preserving the historical queue."
+    }
+  }
 }

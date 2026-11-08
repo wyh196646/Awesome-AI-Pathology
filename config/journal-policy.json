@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-02",
+  "updated": "2026-11-08",
   "cas_edition": 2025,
   "partition": "major",
   "required_zone": 1,
@@ -95,7 +95,13 @@
     "arXiv",
     "bioRxiv",
     "medRxiv",
-    "TechRxiv"
+    "TechRxiv",
+    "Authorea",
+    "Preprints.org",
+    "Research Square",
+    "SSRN",
+    "SciELO Preprints",
+    "ScienceOpen Preprints"
   ],
   "technical_reports": [
     "Harvard Thesis"

@@ -98,6 +98,25 @@ def paper_identity(value):
             value = "10.1038/" + suffix
         elif host == "link.springer.com" and path.startswith(("article/10.", "chapter/10.")):
             value = path.split("/", 1)[1]
+        elif host in ("researchsquare.com", "www.researchsquare.com"):
+            match = re.fullmatch(r"article/rs-(\d+)(?:/v\d+)?", path.rstrip("/"))
+            if not match:
+                return None
+            value = "10.21203/rs.3.rs-" + match[1]
+        elif host in ("preprints.org", "www.preprints.org"):
+            match = re.fullmatch(r"manuscript/(\d{6}\.\d+)(?:/v\d+)?", path.rstrip("/"))
+            if not match:
+                return None
+            value = "10.20944/preprints" + match[1]
+        elif host in ("ssrn.com", "www.ssrn.com", "papers.ssrn.com"):
+            query = urllib.parse.parse_qs(parsed.query)
+            identifier = query.get("abstract_id", query.get("abstractid", [""]))[0]
+            short = re.fullmatch(r"abstract=(\d+)", path.rstrip("/"))
+            if short:
+                identifier = short[1]
+            if not re.fullmatch(r"\d+", identifier):
+                return None
+            value = "10.2139/ssrn." + identifier
         elif host in ("biorxiv.org", "www.biorxiv.org", "medrxiv.org", "www.medrxiv.org"):
             if not path.startswith("content/"):
                 return None
@@ -110,6 +129,14 @@ def paper_identity(value):
     if re.fullmatch(r"(?:\d{4}\.\d{4,5}|[a-z][a-z0-9.\-]*/\d{7})(?:v\d+)?", value):
         return "arxiv", re.sub(r"v\d+$", "", value)
     if re.fullmatch(r"10\.\d{4,9}/\S+", value):
+        if value.startswith("10.21203/rs."):
+            value = re.sub(r"/v\d+$", "", value)
+        if value.startswith("10.22541/au."):
+            value = re.sub(r"/v\d+$", "", value)
+        if value.startswith("10.20944/preprints"):
+            value = re.sub(r"\.v\d+$", "", value)
+        if value.startswith("10.14293/pr"):
+            value = re.sub(r"\.v\d+$", "", value)
         return "doi", value
     return None
 
@@ -125,6 +152,17 @@ def matching_existing(record, previous):
                 for url in entry.get("identity_urls", [entry["paper_url"]]))]
 
 
+@functools.lru_cache(maxsize=16)
+def exclusion_identity_keys(identifiers):
+    keys = set(identifiers)
+    for identifier in identifiers:
+        value = identifier.partition(":")[2]
+        identity = paper_identity(value)
+        if identity:
+            keys.add(":".join(identity))
+    return frozenset(keys)
+
+
 def journal_policy_exclusion(record, exclusions):
     """Flag known excluded formal publications for screening; do not delete candidates."""
     title_hash = hashlib.sha256(normalized(record["title"]).encode()).hexdigest()
@@ -133,25 +171,30 @@ def journal_policy_exclusion(record, exclusions):
                    if value not in (None, "", "NA")}
     identifiers.discard(None)
     if (title_hash in exclusions["title_sha256"] or
-            any(f"{kind}:{value}" in exclusions["identifiers"] for kind, value in identifiers)):
+            any(f"{kind}:{value}" in exclusion_identity_keys(frozenset(exclusions["identifiers"]))
+                for kind, value in identifiers)):
         return "Known formal journal publication removed by the CAS major-zone-1/SCIE policy"
     return None
 
 
-def request(url, cache, source):
+def request(url, cache, source, allow_html=False):
     destination = cache / (hashlib.sha256(url.encode()).hexdigest() + ".response")
     if destination.exists():
-        return destination.read_bytes()
+        data = destination.read_bytes()
+        if not allow_html and data.lstrip().lower().startswith((b"<!doctype html", b"<html")):
+            raise ValueError("Cached API response is HTML rather than bibliographic metadata")
+        return data
     delay = 3.1 if source == "arxiv" else 0.4
     for attempt in range(4):
         time.sleep(max(0, delay - (time.monotonic() - LAST_REQUEST.get(source, 0))))
         LAST_REQUEST[source] = time.monotonic()
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": "AwesomeAIPathology-LiteratureMaintenance/1.0"})
+            agent = "Mozilla/5.0" if allow_html else "AwesomeAIPathology-LiteratureMaintenance/1.0"
+            req = urllib.request.Request(url, headers={"User-Agent": agent})
             with urllib.request.urlopen(req, timeout=50) as response:
                 data = response.read()
             # Refuse cached HTML error pages masquerading as successful metadata.
-            if data.lstrip().lower().startswith((b"<!doctype html", b"<html")):
+            if not allow_html and data.lstrip().lower().startswith((b"<!doctype html", b"<html")):
                 raise ValueError("API returned HTML rather than bibliographic metadata")
             destination.write_bytes(data)
             return data

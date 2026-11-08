@@ -1,0 +1,2291 @@
+{
+  "audit": "2026-11-08-platforms.json",
+  "decisions": [
+    {
+      "id": "10.21203/rs.3.rs-9949149/v1",
+      "title": "Genome-scale molecular profiling from routine histopathology with a multimodal pathology foundation model",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Multimodal histopathology foundation model with RNA and mutational supervision.",
+      "action": "add_preprint",
+      "reason": "In-scope posted-content; first-version registration and formal title/author lookup checked.",
+      "year": 2026,
+      "first_posted_verified": "2026-08-06",
+      "final_title": "Genome-scale molecular profiling from routine histopathology with a multimodal pathology foundation model",
+      "final_url": "https://doi.org/10.21203/rs.3.rs-9949149/v1",
+      "final_venue": "Research Square",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1292909",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-9949149%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-9949149%2Fv1",
+        "https://www.researchsquare.com/article/rs-9949149/v1",
+        "https://api.crossref.org/works?query.title=Genome-scale+molecular+profiling+from+routine+histopathology+with+a+multimodal+pathology+foundation+model&rows=3"
+      ],
+      "verification_errors": [],
+      "primary_platform_metadata": {
+        "doi": "10.21203/rs.3.rs-9949149/v1",
+        "source_url": "https://www.researchsquare.com/article/rs-9949149/v1",
+        "title": "Genome-scale molecular profiling from routine histopathology with a multimodal pathology foundation model",
+        "first_posted": "2026-08-06",
+        "formal_doi": null,
+        "accepted_without_formal_link": false,
+        "status": "preprint_no_formal_link",
+        "submission_journal": "Nature Portfolio"
+      }
+    },
+    {
+      "id": "10.21203/rs.3.rs-10652791/v1",
+      "title": "Comparative Evaluation of Pathology Foundation Models and Transcriptomic Integration for Glioblastoma Survival Prediction",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Benchmark integrates WSI foundation models and transcriptomics for glioblastoma survival.",
+      "action": "add_preprint",
+      "reason": "In-scope posted-content; first-version registration and formal title/author lookup checked.",
+      "year": 2026,
+      "first_posted_verified": "2026-09-03",
+      "final_title": "Comparative Evaluation of Pathology Foundation Models and Transcriptomic Integration for Glioblastoma Survival Prediction",
+      "final_url": "https://doi.org/10.21203/rs.3.rs-10652791/v1",
+      "final_venue": "Research Square",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1311402",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-10652791%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-10652791%2Fv1",
+        "https://www.researchsquare.com/article/rs-10652791/v1",
+        "https://api.crossref.org/works?query.title=Comparative+Evaluation+of+Pathology+Foundation+Models+and+Transcriptomic+Integration+for+Glioblastoma+Survival+Prediction&rows=3"
+      ],
+      "verification_errors": [],
+      "primary_platform_metadata": {
+        "doi": "10.21203/rs.3.rs-10652791/v1",
+        "source_url": "https://www.researchsquare.com/article/rs-10652791/v1",
+        "title": "Comparative Evaluation of Pathology Foundation Models and Transcriptomic Integration for Glioblastoma Survival Prediction",
+        "first_posted": "2026-09-03",
+        "formal_doi": null,
+        "accepted_without_formal_link": false,
+        "status": "preprint_no_formal_link",
+        "submission_journal": "Research Square"
+      }
+    },
+    {
+      "id": "10.21203/rs.3.rs-5183775/v1",
+      "title": "A visual–omics foundation model to bridge histopathology image with transcriptomics",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "OmiCLIP image-transcriptome foundation model and Loki spatial analysis platform.",
+      "action": "duplicate_existing",
+      "reason": "Registered formal DOI, authors, eligible journal and year verified.",
+      "year": 2025,
+      "first_posted_verified": "2025-04-16",
+      "final_title": "A visual–omics foundation model to bridge histopathology with spatial transcriptomics",
+      "final_url": "https://doi.org/10.1038/s41592-025-02707-1",
+      "final_venue": "NATURE METHODS",
+      "formal_doi": "10.1038/s41592-025-02707-1",
+      "formal_journal": "Nature Methods",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1004955",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-5183775%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-5183775%2Fv1",
+        "https://www.researchsquare.com/article/rs-5183775/v1",
+        "https://api.crossref.org/works/10.1038%2Fs41592-025-02707-1",
+        "https://api.crossref.org/works?query.title=A+visual%E2%80%93omics+foundation+model+to+bridge+histopathology+image+with+transcriptomics&rows=3"
+      ],
+      "verification_errors": [],
+      "primary_platform_metadata": {
+        "doi": "10.21203/rs.3.rs-5183775/v1",
+        "source_url": "https://www.researchsquare.com/article/rs-5183775/v1",
+        "title": "A visual–omics foundation model to bridge histopathology image with transcriptomics",
+        "first_posted": "2025-04-16",
+        "formal_doi": "10.1038/s41592-025-02707-1",
+        "accepted_without_formal_link": false,
+        "status": "published_version_linked",
+        "submission_journal": "Nature Portfolio"
+      }
+    },
+    {
+      "id": "10.21203/rs.3.rs-6823810/v1",
+      "title": "Evaluating Vision and Pathology Foundation Models for Computational Pathology: A Comprehensive Benchmark Study",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Quantitative benchmark of vision/pathology foundation models across 41 tasks.",
+      "action": "duplicate_existing",
+      "reason": "Registered formal DOI, authors, eligible journal and year verified.",
+      "year": 2026,
+      "first_posted_verified": "2025-07-04",
+      "final_title": "A benchmark study of vision and pathology foundation models for computational pathology",
+      "final_url": "https://doi.org/10.1038/s41467-026-76004-6",
+      "final_venue": "Nature Communications",
+      "formal_doi": "10.1038/s41467-026-76004-6",
+      "formal_journal": "Nature Communications",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1046817",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-6823810%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-6823810%2Fv1",
+        "https://www.researchsquare.com/article/rs-6823810/v1",
+        "https://pubmed.ncbi.nlm.nih.gov/40630532/",
+        "https://www.nature.com/articles/s41467-026-76004-6",
+        "https://api.crossref.org/works/10.1038%2Fs41467-026-76004-6",
+        "https://api.crossref.org/works?query.title=Evaluating+Vision+and+Pathology+Foundation+Models+for+Computational+Pathology%3A+A+Comprehensive+Benchmark+Study&rows=3"
+      ],
+      "verification_errors": [],
+      "primary_platform_metadata": {
+        "doi": "10.21203/rs.3.rs-6823810/v1",
+        "source_url": "https://www.researchsquare.com/article/rs-6823810/v1",
+        "title": "Evaluating Vision and Pathology Foundation Models for Computational Pathology: A Comprehensive Benchmark Study",
+        "first_posted": "2025-07-04",
+        "formal_doi": null,
+        "accepted_without_formal_link": true,
+        "status": "publication_identity_pending",
+        "submission_journal": "Nature Portfolio"
+      }
+    },
+    {
+      "id": "10.21203/rs.3.rs-10474276/v1",
+      "title": "Do Pathology Foundation Models Learn Biology? Uncertainty-Based Evaluation on AML Cytomorphology",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Cell-level foundation-model uncertainty and biological structure in AML cytomorphology.",
+      "action": "add_preprint",
+      "reason": "In-scope posted-content; first-version registration and formal title/author lookup checked.",
+      "year": 2026,
+      "first_posted_verified": "2026-08-31",
+      "final_title": "Do Pathology Foundation Models Learn Biology? Uncertainty-Based Evaluation on AML Cytomorphology",
+      "final_url": "https://doi.org/10.21203/rs.3.rs-10474276/v1",
+      "final_venue": "Research Square",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1308446",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-10474276%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-10474276%2Fv1",
+        "https://www.researchsquare.com/article/rs-10474276/v1",
+        "https://api.crossref.org/works?query.title=Do+Pathology+Foundation+Models+Learn+Biology%3F+Uncertainty-Based+Evaluation+on+AML+Cytomorphology&rows=3"
+      ],
+      "verification_errors": [],
+      "primary_platform_metadata": {
+        "doi": "10.21203/rs.3.rs-10474276/v1",
+        "source_url": "https://www.researchsquare.com/article/rs-10474276/v1",
+        "title": "Do Pathology Foundation Models Learn Biology?\nUncertainty-Based Evaluation on AML Cytomorphology",
+        "first_posted": "2026-08-31",
+        "formal_doi": null,
+        "accepted_without_formal_link": false,
+        "status": "preprint_no_formal_link",
+        "submission_journal": "Research Square"
+      }
+    },
+    {
+      "id": "10.21203/rs.3.rs-11037299/v1",
+      "title": "PathVista Integrates Cellular Foundation Models with Multiscale Histopathology for Colorectal Cancer Prognosis and Molecular Stratification",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Cellular foundation models integrated with multiscale histology for cancer prognosis.",
+      "action": "add_preprint",
+      "reason": "In-scope posted-content; first-version registration and formal title/author lookup checked.",
+      "year": 2026,
+      "first_posted_verified": "2026-10-08",
+      "final_title": "PathVista Integrates Cellular Foundation Models with Multiscale Histopathology for Colorectal Cancer Prognosis and Molecular Stratification",
+      "final_url": "https://doi.org/10.21203/rs.3.rs-11037299/v1",
+      "final_venue": "Research Square",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1336769",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-11037299%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-11037299%2Fv1",
+        "https://www.researchsquare.com/article/rs-11037299/v1",
+        "https://api.crossref.org/works?query.title=PathVista+Integrates+Cellular+Foundation+Models+with+Multiscale+Histopathology+for+Colorectal+Cancer+Prognosis+and+Molecular+Stratification&rows=3"
+      ],
+      "verification_errors": [],
+      "primary_platform_metadata": {
+        "doi": "10.21203/rs.3.rs-11037299/v1",
+        "source_url": "https://www.researchsquare.com/article/rs-11037299/v1",
+        "title": "PathVista Integrates Cellular Foundation Models with Multiscale Histopathology for Colorectal Cancer Prognosis and Molecular Stratification",
+        "first_posted": "2026-10-08",
+        "formal_doi": null,
+        "accepted_without_formal_link": false,
+        "status": "preprint_no_formal_link",
+        "submission_journal": "npj Precision Oncology"
+      }
+    },
+    {
+      "id": "10.21203/rs.3.rs-6941589/v1",
+      "title": "spEMO: Leveraging Multi-Modal Foundation Models for Analyzing Spatial Multi-Omic and Histopathology Data",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Multimodal foundation-model integration for spatial omics and histopathology.",
+      "action": "duplicate_existing",
+      "reason": "Registered formal DOI, authors, eligible journal and year verified.",
+      "year": 2026,
+      "first_posted_verified": "2025-07-08",
+      "final_title": "Leveraging multi-modal foundation models for analysing spatial multi-omic and histopathology data",
+      "final_url": "https://doi.org/10.1038/s41551-025-01602-6",
+      "final_venue": "Nature Biomedical Engineering",
+      "formal_doi": "10.1038/s41551-025-01602-6",
+      "formal_journal": "Nature Biomedical Engineering",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1049438",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-6941589%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-6941589%2Fv1",
+        "https://www.researchsquare.com/article/rs-6941589/v1",
+        "https://api.crossref.org/works/10.1038%2Fs41551-025-01602-6",
+        "https://api.crossref.org/works?query.title=spEMO%3A+Leveraging+Multi-Modal+Foundation+Models+for+Analyzing+Spatial+Multi-Omic+and+Histopathology+Data&rows=3"
+      ],
+      "verification_errors": [],
+      "primary_platform_metadata": {
+        "doi": "10.21203/rs.3.rs-6941589/v1",
+        "source_url": "https://www.researchsquare.com/article/rs-6941589/v1",
+        "title": "spEMO: Leveraging Multi-Modal Foundation Models for Analyzing Spatial Multi-Omic and Histopathology Data",
+        "first_posted": "2025-07-08",
+        "formal_doi": "10.1038/s41551-025-01602-6",
+        "accepted_without_formal_link": false,
+        "status": "published_version_linked",
+        "submission_journal": "Nature Portfolio"
+      }
+    },
+    {
+      "id": "10.21203/rs.3.rs-7644824/v1",
+      "title": "Revealing Ethical Risks in Pathology Foundation Models: A Quantitative Perspective",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Empirical privacy, fairness and reliability evaluation of pathology foundation models.",
+      "action": "add_preprint",
+      "reason": "In-scope posted-content; first-version registration and formal title/author lookup checked.",
+      "year": 2025,
+      "first_posted_verified": "2025-09-24",
+      "final_title": "Revealing Ethical Risks in Pathology Foundation Models: A Quantitative Perspective",
+      "final_url": "https://doi.org/10.21203/rs.3.rs-7644824/v1",
+      "final_venue": "Research Square",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1090065",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-7644824%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-7644824%2Fv1",
+        "https://www.researchsquare.com/article/rs-7644824/v1",
+        "https://api.crossref.org/works?query.title=Revealing+Ethical+Risks+in+Pathology+Foundation+Models%3A+A+Quantitative+Perspective&rows=3"
+      ],
+      "verification_errors": [],
+      "primary_platform_metadata": {
+        "doi": "10.21203/rs.3.rs-7644824/v1",
+        "source_url": "https://www.researchsquare.com/article/rs-7644824/v1",
+        "title": "Revealing Ethical Risks in Pathology Foundation Models: A Quantitative Perspective",
+        "first_posted": "2025-09-24",
+        "formal_doi": null,
+        "accepted_without_formal_link": false,
+        "status": "preprint_no_formal_link",
+        "submission_journal": "Nature Portfolio"
+      }
+    },
+    {
+      "id": "10.21203/rs.3.rs-11002687/v1",
+      "title": "Single-Cell Multiplex Immune Biomarker Prediction from Histopathology Across Cancer Types and Clinical Endpoints",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Histology predicts cellular multiplex immune biomarker states and outcomes.",
+      "action": "add_preprint",
+      "reason": "In-scope posted-content; first-version registration and formal title/author lookup checked.",
+      "year": 2026,
+      "first_posted_verified": "2026-10-05",
+      "final_title": "Single-Cell Multiplex Immune Biomarker Prediction from Histopathology Across Cancer Types and Clinical Endpoints",
+      "final_url": "https://doi.org/10.21203/rs.3.rs-11002687/v1",
+      "final_venue": "Research Square",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1333999",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-11002687%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-11002687%2Fv1",
+        "https://www.researchsquare.com/article/rs-11002687/v1",
+        "https://api.crossref.org/works?query.title=Single-Cell+Multiplex+Immune+Biomarker+Prediction+from+Histopathology+Across+Cancer+Types+and+Clinical+Endpoints&rows=3"
+      ],
+      "verification_errors": [],
+      "primary_platform_metadata": {
+        "doi": "10.21203/rs.3.rs-11002687/v1",
+        "source_url": "https://www.researchsquare.com/article/rs-11002687/v1",
+        "title": "Single-Cell Multiplex Immune Biomarker Prediction from Histopathology Across Cancer Types and Clinical Endpoints",
+        "first_posted": "2026-10-05",
+        "formal_doi": null,
+        "accepted_without_formal_link": false,
+        "status": "preprint_no_formal_link",
+        "submission_journal": "Nature Portfolio"
+      }
+    },
+    {
+      "id": "10.21203/rs.3.rs-5674707/v1",
+      "title": "Unlocking single-cell level and whole-slide insights in spatial transcriptomics with PanoSpace",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Joint single-cell and whole-slide spatial transcriptomics inference.",
+      "action": "duplicate_existing",
+      "reason": "Registered formal DOI, authors, eligible journal and year verified.",
+      "year": 2026,
+      "first_posted_verified": "2024-12-20",
+      "final_title": "Unlocking single-cell level and continuous whole-slide insights in spatial transcriptomics with PanoSpace",
+      "final_url": "https://doi.org/10.1038/s43588-025-00938-y",
+      "final_venue": "Nature Computational Science",
+      "formal_doi": "10.1038/s43588-025-00938-y",
+      "formal_journal": "Nature Computational Science",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR957052",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-5674707%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-5674707%2Fv1",
+        "https://www.researchsquare.com/article/rs-5674707/v1",
+        "https://api.crossref.org/works?query.title=Unlocking+single-cell+level+and+whole-slide+insights+in+spatial+transcriptomics+with+PanoSpace&rows=3"
+      ],
+      "verification_errors": [],
+      "primary_platform_metadata": {
+        "doi": "10.21203/rs.3.rs-5674707/v1",
+        "source_url": "https://www.researchsquare.com/article/rs-5674707/v1",
+        "title": "Unlocking single-cell level and whole-slide insights in spatial transcriptomics with PanoSpace",
+        "first_posted": "2024-12-20",
+        "formal_doi": null,
+        "accepted_without_formal_link": false,
+        "status": "preprint_no_formal_link",
+        "submission_journal": "Research Square"
+      }
+    },
+    {
+      "id": "10.20944/preprints202607.0831.v1",
+      "title": "A Deep Learning-Based Tool for Segmentation and Quantification of i-IFTA, Focal Infiltrates, and Tubular Dilation in Haematoxylin-Eosin Stained Renal Whole-Slide Images",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Quantitative WSI tissue-lesion segmentation tool for renal injury.",
+      "action": "exclude_journal_policy",
+      "reason": "Verified formal journal counterpart is outside the SCIE/CAS2025 major-zone1 allowlist.",
+      "year": 2026,
+      "first_posted_verified": "2026-07-13",
+      "final_title": "A Deep Learning-Based Tool for Segmentation and Quantification of i-IFTA, Focal Infiltrates, and Tubular Dilation in Haematoxylin–Eosin-Stained Renal Whole-Slide Images",
+      "final_url": "https://doi.org/10.3390/biomedinformatics6050084",
+      "formal_doi": "10.3390/biomedinformatics6050084",
+      "formal_journal": "BioMedInformatics",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1282451",
+        "https://api.crossref.org/works/10.20944%2Fpreprints202607.0831.v1",
+        "https://api.crossref.org/works/10.20944%2Fpreprints202607.0831.v1",
+        "https://api.crossref.org/works/10.3390%2Fbiomedinformatics6050084",
+        "https://api.crossref.org/works?query.title=A+Deep+Learning-Based+Tool+for+Segmentation+and+Quantification+of+i-IFTA%2C+Focal+Infiltrates%2C+and+Tubular+Dilation+in+Haematoxylin-Eosin+Stained+Renal+Whole-Slide+Images&rows=3"
+      ],
+      "verification_errors": []
+    },
+    {
+      "id": "10.21203/rs.3.rs-4918308/v1",
+      "title": "Hypergraph-based Multi-instance Contrastive Reinforcement Learning for Annotation-free Pan-cancer Survival Prediction on Whole Slide Histology Images",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Hypergraph contrastive reinforcement learning for pan-cancer WSI survival.",
+      "action": "add_preprint",
+      "reason": "In-scope posted-content; first-version registration and formal title/author lookup checked.",
+      "year": 2024,
+      "first_posted_verified": "2024-10-17",
+      "final_title": "Hypergraph-based Multi-instance Contrastive Reinforcement Learning for Annotation-free Pan-cancer Survival Prediction on Whole Slide Histology Images",
+      "final_url": "https://doi.org/10.21203/rs.3.rs-4918308/v1",
+      "final_venue": "Research Square",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR927037",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-4918308%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-4918308%2Fv1",
+        "https://www.researchsquare.com/article/rs-4918308/v1",
+        "https://api.crossref.org/works?query.title=Hypergraph-based+Multi-instance+Contrastive+Reinforcement+Learning+for+Annotation-free+Pan-cancer+Survival+Prediction+on+Whole+Slide+Histology+Images&rows=3"
+      ],
+      "verification_errors": [],
+      "primary_platform_metadata": {
+        "doi": "10.21203/rs.3.rs-4918308/v1",
+        "source_url": "https://www.researchsquare.com/article/rs-4918308/v1",
+        "title": "Hypergraph-based Multi-instance Contrastive Reinforcement Learning for Annotation-free Pan-cancer Survival Prediction on Whole Slide Histology Images",
+        "first_posted": "2024-10-17",
+        "formal_doi": null,
+        "accepted_without_formal_link": false,
+        "status": "preprint_no_formal_link",
+        "submission_journal": "Research Square"
+      }
+    },
+    {
+      "id": "10.20944/preprints202410.0386.v1",
+      "title": "Automated Cervical Cancer Screening Using Single-Cell Segmentation and Deep Learning: Enhanced Performance with Liquid-Based Cytology",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Deep-learning single-cell segmentation and classification in liquid-based cervical cytology.",
+      "action": "exclude_journal_policy",
+      "reason": "Verified formal journal counterpart is outside the SCIE/CAS2025 major-zone1 allowlist.",
+      "year": 2024,
+      "first_posted_verified": "2024-10-07",
+      "final_title": "Automated Cervical Cancer Screening Using Single-Cell Segmentation and Deep Learning: Enhanced Performance with Liquid-Based Cytology",
+      "final_url": "https://doi.org/10.3390/computation12120232",
+      "formal_doi": "10.3390/computation12120232",
+      "formal_journal": "Computation",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR921919",
+        "https://api.crossref.org/works/10.20944%2Fpreprints202410.0386.v1",
+        "https://api.crossref.org/works/10.20944%2Fpreprints202410.0386.v1",
+        "https://api.crossref.org/works/10.3390%2Fcomputation12120232",
+        "https://api.crossref.org/works?query.title=Automated+Cervical+Cancer+Screening+Using+Single-Cell+Segmentation+and+Deep+Learning%3A+Enhanced+Performance+with+Liquid-Based+Cytology&rows=3"
+      ],
+      "verification_errors": []
+    },
+    {
+      "id": "10.21203/rs.3.rs-6522741/v1",
+      "title": "Integrating transcriptomics, single-cell omics, and deep learning-based histopathological features to identify OLFML3 as in bladder cancer",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Image-derived prediction of molecular expression integrated with cancer transcriptomics.",
+      "action": "exclude_journal_policy",
+      "reason": "Verified formal journal counterpart is outside the SCIE/CAS2025 major-zone1 allowlist.",
+      "year": 2025,
+      "first_posted_verified": "2025-07-02",
+      "final_title": "Integrating transcriptomics, single-cell omics, and deep learning-based histopathological features to identify OLFML3 in bladder cancer",
+      "final_url": "https://doi.org/10.21037/tau-2025-365",
+      "formal_doi": "10.21037/tau-2025-365",
+      "formal_journal": "Translational Andrology and Urology",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1045114",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-6522741%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-6522741%2Fv1",
+        "https://www.researchsquare.com/article/rs-6522741/v1",
+        "https://api.crossref.org/works?query.title=Integrating+transcriptomics%2C+single-cell+omics%2C+and+deep+learning-based+histopathological+features+to+identify+OLFML3+as+in+bladder+cancer&rows=3"
+      ],
+      "verification_errors": [],
+      "primary_platform_metadata": {
+        "doi": "10.21203/rs.3.rs-6522741/v1",
+        "source_url": "https://www.researchsquare.com/article/rs-6522741/v1",
+        "title": "Integrating transcriptomics, single-cell omics, and deep learning-based histopathological features to identify OLFML3 as in bladder cancer",
+        "first_posted": "2025-07-02",
+        "formal_doi": null,
+        "accepted_without_formal_link": false,
+        "status": "preprint_no_formal_link",
+        "submission_journal": "Research Square"
+      }
+    },
+    {
+      "id": "10.21203/rs.3.rs-9428731/v1",
+      "title": "Deep Learning Pathomics Integrated with Single-Cell Transcriptomics Reveals MGAT4A-Mediated \"Lock-and-Load\" Dysfunction of CD8+ Tissue-Resident Memory T Cells in Endometrial Cancer",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "WSI pathomics and single-cell microenvironment analysis in endometrial cancer.",
+      "action": "exclude_journal_policy",
+      "reason": "Verified formal journal counterpart is outside the SCIE/CAS2025 major-zone1 allowlist.",
+      "year": 2026,
+      "first_posted_verified": "2026-05-28",
+      "final_title": "Deep learning pathomics integrated with single-cell transcriptomics identifies MGAT4A-associated “lock-and-load” dysfunction signatures of CD8+ tissue-resident memory T cells in endometrial cancer",
+      "final_url": "https://doi.org/10.1007/s13402-026-01281-8",
+      "formal_doi": "10.1007/s13402-026-01281-8",
+      "formal_journal": "Cellular Oncology",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1240974",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-9428731%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-9428731%2Fv1",
+        "https://www.researchsquare.com/article/rs-9428731/v1",
+        "https://api.crossref.org/works/10.1007%2Fs13402-026-01281-8",
+        "https://api.crossref.org/works?query.title=Deep+Learning+Pathomics+Integrated+with+Single-Cell+Transcriptomics+Reveals+MGAT4A-Mediated+%22Lock-and-Load%22+Dysfunction+of+CD8%2B+Tissue-Resident+Memory+T+Cells+in+Endometrial+Cancer&rows=3"
+      ],
+      "verification_errors": [],
+      "primary_platform_metadata": {
+        "doi": "10.21203/rs.3.rs-9428731/v1",
+        "source_url": "https://www.researchsquare.com/article/rs-9428731/v1",
+        "title": "Deep Learning Pathomics Integrated with Single-Cell Transcriptomics Reveals MGAT4A-Mediated \"Lock-and-Load\" Dysfunction of CD8+ Tissue-Resident Memory T Cells in Endometrial Cancer",
+        "first_posted": "2026-05-28",
+        "formal_doi": "10.1007/s13402-026-01281-8",
+        "accepted_without_formal_link": false,
+        "status": "published_version_linked",
+        "submission_journal": "Cellular Oncology"
+      }
+    },
+    {
+      "id": "10.21203/rs.3.rs-2987263/v1",
+      "title": "Spatial proteomics reveals human microglial states shaped by anatomy and neuropathology",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Multiplexed spatial proteomic analysis of human microglial states and niches.",
+      "action": "exclude_journal_policy",
+      "reason": "Verified formal journal counterpart is outside the SCIE/CAS2025 major-zone1 allowlist.",
+      "year": 2023,
+      "first_posted_verified": "2023-06-02",
+      "final_title": "Spatial proteomics of Alzheimer’s disease-specific human microglial states",
+      "final_url": "https://doi.org/10.1038/s41590-025-02203-w",
+      "formal_doi": "10.1038/s41590-025-02203-w",
+      "formal_journal": "Nature Immunology",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR669832",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-2987263%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-2987263%2Fv1",
+        "https://www.researchsquare.com/article/rs-2987263/v1",
+        "https://api.crossref.org/works/10.1038%2Fs41590-025-02203-w",
+        "https://api.crossref.org/works?query.title=Spatial+proteomics+reveals+human+microglial+states+shaped+by+anatomy+and+neuropathology&rows=3"
+      ],
+      "verification_errors": [],
+      "primary_platform_metadata": {
+        "doi": "10.21203/rs.3.rs-2987263/v1",
+        "source_url": "https://www.researchsquare.com/article/rs-2987263/v1",
+        "title": "Spatial proteomics reveals human microglial states shaped by anatomy and neuropathology",
+        "first_posted": "2023-06-02",
+        "formal_doi": "10.1038/s41590-025-02203-w",
+        "accepted_without_formal_link": false,
+        "status": "published_version_linked",
+        "submission_journal": "Nature Portfolio"
+      }
+    },
+    {
+      "id": "10.21203/rs.3.rs-6692980/v1",
+      "title": "A deep learning model for the prediction of pathogenic POLE mutations and microsatellite instability in colorectal cancer from digital pathology images",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Weakly supervised WSI prediction of POLE mutations and microsatellite instability.",
+      "action": "pending_identity",
+      "reason": "Possible retitled formal counterpart requires primary-source reconciliation.",
+      "year": 2025,
+      "first_posted_verified": "2025-07-31",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1058540",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-6692980%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-6692980%2Fv1",
+        "https://www.researchsquare.com/article/rs-6692980/v1",
+        "https://api.crossref.org/works?query.title=A+deep+learning+model+for+the+prediction+of+pathogenic+POLE+mutations+and+microsatellite+instability+in+colorectal+cancer+from+digital+pathology+images&rows=3"
+      ],
+      "verification_errors": [],
+      "primary_platform_metadata": {
+        "doi": "10.21203/rs.3.rs-6692980/v1",
+        "source_url": "https://www.researchsquare.com/article/rs-6692980/v1",
+        "title": "A deep learning model for the prediction of pathogenic POLE mutations and microsatellite instability in colorectal cancer from digital pathology images",
+        "first_posted": "2025-07-31",
+        "formal_doi": null,
+        "accepted_without_formal_link": false,
+        "status": "preprint_no_formal_link",
+        "submission_journal": "Research Square"
+      },
+      "uncertain_matches": [
+        {
+          "DOI": "10.1200/jco.2023.41.16_suppl.3543",
+          "title": [
+            "A deep learning model for the prediction of microsatellite instability and pathogenic POLE mutations in colorectal cancer using histopathologic images."
+          ],
+          "container-title": [
+            "Journal of Clinical Oncology"
+          ],
+          "type": "journal-article"
+        }
+      ]
+    },
+    {
+      "id": "10.21203/rs.3.rs-7672152/v1",
+      "title": "A novel Vmamba-based deep learning model for accurate nuclei and cytoplasm segmentation in cervical cytology images",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Cervical cytology nucleus/cytoplasm segmentation using Vmamba.",
+      "action": "exclude_journal_policy",
+      "reason": "Verified formal journal counterpart is outside the SCIE/CAS2025 major-zone1 allowlist.",
+      "year": 2025,
+      "first_posted_verified": "2025-10-09",
+      "final_title": "A Novel VMamba-Based Deep Learning Model for Accurate Nuclei and Cytoplasm Segmentation in Cervical Cytology Images",
+      "final_url": "https://doi.org/10.3390/info17100951",
+      "formal_doi": "10.3390/info17100951",
+      "formal_journal": "Information",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1099273",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-7672152%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-7672152%2Fv1",
+        "https://www.researchsquare.com/article/rs-7672152/v1",
+        "https://api.crossref.org/works?query.title=A+novel+Vmamba-based+deep+learning+model+for+accurate+nuclei+and+cytoplasm+segmentation+in+cervical+cytology+images&rows=3"
+      ],
+      "verification_errors": [],
+      "primary_platform_metadata": {
+        "doi": "10.21203/rs.3.rs-7672152/v1",
+        "source_url": "https://www.researchsquare.com/article/rs-7672152/v1",
+        "title": "A novel Vmamba-based deep learning model for accurate  \nnuclei and cytoplasm segmentation in cervical cytology images",
+        "first_posted": "2025-10-09",
+        "formal_doi": null,
+        "accepted_without_formal_link": false,
+        "status": "preprint_no_formal_link",
+        "submission_journal": "Research Square"
+      }
+    },
+    {
+      "id": "10.21203/rs.3.rs-7819870/v1",
+      "title": "DeepPMD: A Comprehensive Deep Learning Framework for Primary-Metastatic Classification and Origin Prediction in Lung Adenocarcinoma – Multi-Center Whole Slide Image Validation",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Multicentre WSI model for primary/metastatic tumour origin classification.",
+      "action": "add_preprint",
+      "reason": "In-scope posted-content; first-version registration and formal title/author lookup checked.",
+      "year": 2025,
+      "first_posted_verified": "2025-11-04",
+      "final_title": "DeepPMD: A Comprehensive Deep Learning Framework for Primary-Metastatic Classification and Origin Prediction in Lung Adenocarcinoma – Multi-Center Whole Slide Image Validation",
+      "final_url": "https://doi.org/10.21203/rs.3.rs-7819870/v1",
+      "final_venue": "Research Square",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1113700",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-7819870%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-7819870%2Fv1",
+        "https://www.researchsquare.com/article/rs-7819870/v1",
+        "https://api.crossref.org/works?query.title=DeepPMD%3A+A+Comprehensive+Deep+Learning+Framework+for+Primary-Metastatic+Classification+and+Origin+Prediction+in+Lung+Adenocarcinoma+%E2%80%93+Multi-Center+Whole+Slide+Image+Validation&rows=3"
+      ],
+      "verification_errors": [],
+      "primary_platform_metadata": {
+        "doi": "10.21203/rs.3.rs-7819870/v1",
+        "source_url": "https://www.researchsquare.com/article/rs-7819870/v1",
+        "title": "DeepPMD: A Comprehensive Deep Learning Framework for Primary-Metastatic Classification and Origin Prediction in Lung Adenocarcinoma – Multi-Center Whole Slide Image Validation",
+        "first_posted": "2025-11-04",
+        "formal_doi": null,
+        "accepted_without_formal_link": false,
+        "status": "preprint_no_formal_link",
+        "submission_journal": "Nature Portfolio"
+      }
+    },
+    {
+      "id": "10.21203/rs.3.rs-8808357/v1",
+      "title": "A Multiple Instance Learning framework with Instance Identification and Supervised Contrastive Learning for WSI Classification",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "MIL instance identification and contrastive WSI classification framework.",
+      "action": "exclude_journal_policy",
+      "reason": "Verified formal journal counterpart is outside the SCIE/CAS2025 major-zone1 allowlist.",
+      "year": 2026,
+      "first_posted_verified": "2026-04-01",
+      "final_title": "A multiple instance learning framework with instance identification and supervised contrastive learning for WSI classification",
+      "final_url": "https://doi.org/10.1007/s00530-026-02515-3",
+      "formal_doi": "10.1007/s00530-026-02515-3",
+      "formal_journal": "Multimedia Systems",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1172635",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-8808357%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-8808357%2Fv1",
+        "https://www.researchsquare.com/article/rs-8808357/v1",
+        "https://api.crossref.org/works/10.1007%2Fs00530-026-02515-3",
+        "https://api.crossref.org/works?query.title=A+Multiple+Instance+Learning+framework+with+Instance+Identification+and+Supervised+Contrastive+Learning+for+WSI+Classification&rows=3"
+      ],
+      "verification_errors": [],
+      "primary_platform_metadata": {
+        "doi": "10.21203/rs.3.rs-8808357/v1",
+        "source_url": "https://www.researchsquare.com/article/rs-8808357/v1",
+        "title": "A Multiple Instance Learning framework with Instance Identification and Supervised Contrastive Learning for WSI Classification",
+        "first_posted": "2026-04-01",
+        "formal_doi": "10.1007/s00530-026-02515-3",
+        "accepted_without_formal_link": false,
+        "status": "published_version_linked",
+        "submission_journal": "Multimedia Systems"
+      }
+    },
+    {
+      "id": "10.20944/preprints202608.0966.v1",
+      "title": "Topology-Aware Multi-Scale Deep Learning Framework for Automated Lung Histopathological Image Classification",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Multiscale topology-aware classification of lung histopathology images.",
+      "action": "add_preprint",
+      "reason": "In-scope posted-content; first-version registration and formal title/author lookup checked.",
+      "year": 2026,
+      "first_posted_verified": "2026-08-14",
+      "final_title": "Topology-Aware Multi-Scale Deep Learning Framework for Automated Lung Histopathological Image Classification",
+      "final_url": "https://doi.org/10.20944/preprints202608.0966.v1",
+      "final_venue": "Preprints.org",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1299376",
+        "https://api.crossref.org/works/10.20944%2Fpreprints202608.0966.v1",
+        "https://api.crossref.org/works/10.20944%2Fpreprints202608.0966.v1",
+        "https://api.crossref.org/works?query.title=Topology-Aware+Multi-Scale+Deep+Learning+Framework+for+Automated+Lung+Histopathological+Image+Classification&rows=3"
+      ],
+      "verification_errors": []
+    },
+    {
+      "id": "10.20944/preprints202611.0067.v1",
+      "title": "Deep Looking in Digital Pathology: An Explainable Federated Learning Framework for Lung Cancer Classification",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Federated histopathology classification with explainable reporting workflow.",
+      "action": "add_preprint",
+      "reason": "In-scope posted-content; first-version registration and formal title/author lookup checked.",
+      "year": 2026,
+      "first_posted_verified": "2026-11-02",
+      "final_title": "Deep Looking in Digital Pathology: An Explainable Federated Learning Framework for Lung Cancer Classification",
+      "final_url": "https://doi.org/10.20944/preprints202611.0067.v1",
+      "final_venue": "Preprints.org",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1355016",
+        "https://api.crossref.org/works/10.20944%2Fpreprints202611.0067.v1",
+        "https://api.crossref.org/works/10.20944%2Fpreprints202611.0067.v1",
+        "https://api.crossref.org/works?query.title=Deep+Looking+in+Digital+Pathology%3A+An+Explainable+Federated+Learning+Framework+for+Lung+Cancer+Classification&rows=3"
+      ],
+      "verification_errors": []
+    },
+    {
+      "id": "10.21203/rs.3.rs-10292081/v1",
+      "title": "DeepSeek for Pathology Report Understanding: A Benchmark Study of Cancer Type Extraction, AJCC Staging, and Prognosis Prediction",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Pathology-report information extraction, staging and prognosis benchmark.",
+      "action": "add_preprint",
+      "reason": "In-scope posted-content; first-version registration and formal title/author lookup checked.",
+      "year": 2026,
+      "first_posted_verified": "2026-07-17",
+      "final_title": "DeepSeek for Pathology Report Understanding: A Benchmark Study of Cancer Type Extraction, AJCC Staging, and Prognosis Prediction",
+      "final_url": "https://doi.org/10.21203/rs.3.rs-10292081/v1",
+      "final_venue": "Research Square",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1280713",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-10292081%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-10292081%2Fv1",
+        "https://www.researchsquare.com/article/rs-10292081/v1",
+        "https://api.crossref.org/works?query.title=DeepSeek+for+Pathology+Report+Understanding%3A+A+Benchmark+Study+of+Cancer+Type+Extraction%2C+AJCC+Staging%2C+and+Prognosis+Prediction&rows=3"
+      ],
+      "verification_errors": [],
+      "primary_platform_metadata": {
+        "doi": "10.21203/rs.3.rs-10292081/v1",
+        "source_url": "https://www.researchsquare.com/article/rs-10292081/v1",
+        "title": "DeepSeek for Pathology Report Understanding: A Benchmark Study of Cancer Type Extraction, AJCC Staging, and Prognosis Prediction",
+        "first_posted": "2026-07-17",
+        "formal_doi": null,
+        "accepted_without_formal_link": false,
+        "status": "preprint_no_formal_link",
+        "submission_journal": "Research Square"
+      }
+    },
+    {
+      "id": "10.21203/rs.3.rs-10368856/v1",
+      "title": "A Novel AJAD-BoostNet Framework for Histopathological Lung and Cervical Cancer Classification Using Deep Feature Learning, K-Means Clustering, and XGBoost",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Hybrid feature representation and classification of histopathology images.",
+      "action": "add_preprint",
+      "reason": "In-scope posted-content; first-version registration and formal title/author lookup checked.",
+      "year": 2026,
+      "first_posted_verified": "2026-07-16",
+      "final_title": "A Novel AJAD-BoostNet Framework for Histopathological Lung and Cervical Cancer Classification Using Deep Feature Learning, K-Means Clustering, and XGBoost",
+      "final_url": "https://doi.org/10.21203/rs.3.rs-10368856/v1",
+      "final_venue": "Research Square",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1279996",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-10368856%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-10368856%2Fv1",
+        "https://www.researchsquare.com/article/rs-10368856/v1",
+        "https://api.crossref.org/works?query.title=A+Novel+AJAD-BoostNet+Framework+for+Histopathological+Lung+and+Cervical+Cancer+Classification+Using+Deep+Feature+Learning%2C+K-Means+Clustering%2C+and+XGBoost&rows=3"
+      ],
+      "verification_errors": [],
+      "primary_platform_metadata": {
+        "doi": "10.21203/rs.3.rs-10368856/v1",
+        "source_url": "https://www.researchsquare.com/article/rs-10368856/v1",
+        "title": "A Novel AJAD-BoostNet Framework for Histopathological Lung and Cervical Cancer Classification Using Deep Feature Learning, K-Means Clustering, and XGBoost",
+        "first_posted": "2026-07-16",
+        "formal_doi": null,
+        "accepted_without_formal_link": false,
+        "status": "preprint_no_formal_link",
+        "submission_journal": "Research Square"
+      }
+    },
+    {
+      "id": "10.21203/rs.3.rs-10462598/v1",
+      "title": "An Adaptive Multi-Scale Multi-Expert Hybrid Deep Learning Framework for Explainable Breast Cancer Histopathological Image Classification",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Explainable multiscale breast histopathology representation and classification.",
+      "action": "pending_identity",
+      "reason": "Close formal-title match has insufficient author agreement.",
+      "year": 2026,
+      "first_posted_verified": "2026-09-01",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1309797",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-10462598%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-10462598%2Fv1",
+        "https://www.researchsquare.com/article/rs-10462598/v1",
+        "https://api.crossref.org/works?query.title=An+Adaptive+Multi-Scale+Multi-Expert+Hybrid+Deep+Learning+Framework+for+Explainable+Breast+Cancer+Histopathological+Image+Classification&rows=3"
+      ],
+      "verification_errors": [],
+      "primary_platform_metadata": {
+        "doi": "10.21203/rs.3.rs-10462598/v1",
+        "source_url": "https://www.researchsquare.com/article/rs-10462598/v1",
+        "title": "An Adaptive Multi-Scale Multi-Expert Hybrid Deep Learning Framework for Explainable Breast Cancer Histopathological Image Classification",
+        "first_posted": "2026-09-01",
+        "formal_doi": null,
+        "accepted_without_formal_link": false,
+        "status": "preprint_no_formal_link",
+        "submission_journal": "Research Square"
+      },
+      "uncertain_matches": [
+        {
+          "DOI": "10.53365/nrfhh.1123",
+          "title": [
+            "An Adaptive Multi-Scale Multi-Expert Hybrid Deep Learning Framework for Explainable Breast Cancer Histopathological Image Classification"
+          ],
+          "container-title": [
+            "Natural Resources for Human Health"
+          ],
+          "type": "journal-article"
+        }
+      ]
+    },
+    {
+      "id": "10.21203/rs.3.rs-10548998/v1",
+      "title": "Deep Learning-Based Segmentation of Oral Squamous Cell Carcinoma on Routine H&E Histopathology Images: A Single-Center Retrospective Study",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Pixel-wise H&E oral carcinoma segmentation with case-level evaluation.",
+      "action": "add_preprint",
+      "reason": "In-scope posted-content; first-version registration and formal title/author lookup checked.",
+      "year": 2026,
+      "first_posted_verified": "2026-08-06",
+      "final_title": "Deep Learning-Based Segmentation of Oral Squamous Cell Carcinoma on Routine H&E Histopathology Images: A Single-Center Retrospective Study",
+      "final_url": "https://doi.org/10.21203/rs.3.rs-10548998/v1",
+      "final_venue": "Research Square",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1292602",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-10548998%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-10548998%2Fv1",
+        "https://www.researchsquare.com/article/rs-10548998/v1",
+        "https://api.crossref.org/works?query.title=Deep+Learning-Based+Segmentation+of+Oral+Squamous+Cell+Carcinoma+on+Routine+H%26E+Histopathology+Images%3A+A+Single-Center+Retrospective+Study&rows=3"
+      ],
+      "verification_errors": [],
+      "primary_platform_metadata": {
+        "doi": "10.21203/rs.3.rs-10548998/v1",
+        "source_url": "https://www.researchsquare.com/article/rs-10548998/v1",
+        "title": "Deep Learning-Based Segmentation of Oral Squamous Cell Carcinoma on Routine H&E Histopathology Images: A Single-Center Retrospective Study",
+        "first_posted": "2026-08-06",
+        "formal_doi": null,
+        "accepted_without_formal_link": false,
+        "status": "preprint_no_formal_link",
+        "submission_journal": "Research Square"
+      }
+    },
+    {
+      "id": "10.21203/rs.3.rs-10693444/v1",
+      "title": "An Interpretable Multimodal Survival Prediction Framework Integrating Transcriptomic, Clinical, and Histopathological Features for Prognostic Stratification in Ovarian Cancer",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Survival framework uses transcriptomic, clinical and image-derived histopathological features.",
+      "action": "add_preprint",
+      "reason": "In-scope posted-content; first-version registration and formal title/author lookup checked.",
+      "year": 2026,
+      "first_posted_verified": "2026-09-11",
+      "final_title": "An Interpretable Multimodal Survival Prediction Framework Integrating Transcriptomic, Clinical, and Histopathological Features for Prognostic Stratification in Ovarian Cancer",
+      "final_url": "https://doi.org/10.21203/rs.3.rs-10693444/v1",
+      "final_venue": "Research Square",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1317444",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-10693444%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-10693444%2Fv1",
+        "https://www.researchsquare.com/article/rs-10693444/v1",
+        "https://api.crossref.org/works?query.title=An+Interpretable+Multimodal+Survival+Prediction+Framework+Integrating+Transcriptomic%2C+Clinical%2C+and+Histopathological+Features+for+Prognostic+Stratification+in+Ovarian+Cancer&rows=3"
+      ],
+      "verification_errors": [],
+      "primary_platform_metadata": {
+        "doi": "10.21203/rs.3.rs-10693444/v1",
+        "source_url": "https://www.researchsquare.com/article/rs-10693444/v1",
+        "title": "An Interpretable Multimodal Survival Prediction Framework Integrating Transcriptomic, Clinical, and Histopathological Features for Prognostic Stratification in Ovarian Cancer",
+        "first_posted": "2026-09-11",
+        "formal_doi": null,
+        "accepted_without_formal_link": false,
+        "status": "preprint_no_formal_link",
+        "submission_journal": "Research Square"
+      }
+    },
+    {
+      "id": "10.21203/rs.3.rs-10703943/v1",
+      "title": "An Attention-Guided Transfer Learning Framework for Automated Basal Cell Carcinoma Diagnosis from Histopathological Images",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Attention-guided transfer learning for skin histopathology diagnosis.",
+      "action": "add_preprint",
+      "reason": "In-scope posted-content; first-version registration and formal title/author lookup checked.",
+      "year": 2026,
+      "first_posted_verified": "2026-09-04",
+      "final_title": "An Attention-Guided Transfer Learning Framework for Automated Basal Cell Carcinoma Diagnosis from Histopathological Images",
+      "final_url": "https://doi.org/10.21203/rs.3.rs-10703943/v1",
+      "final_venue": "Research Square",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1312223",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-10703943%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-10703943%2Fv1",
+        "https://www.researchsquare.com/article/rs-10703943/v1",
+        "https://api.crossref.org/works?query.title=An+Attention-Guided+Transfer+Learning+Framework+for+Automated+Basal+Cell+Carcinoma+Diagnosis+from+Histopathological+Images&rows=3"
+      ],
+      "verification_errors": [],
+      "primary_platform_metadata": {
+        "doi": "10.21203/rs.3.rs-10703943/v1",
+        "source_url": "https://www.researchsquare.com/article/rs-10703943/v1",
+        "title": "An Attention-Guided Transfer Learning Framework for Automated Basal Cell Carcinoma Diagnosis from Histopathological Images",
+        "first_posted": "2026-09-04",
+        "formal_doi": null,
+        "accepted_without_formal_link": false,
+        "status": "preprint_no_formal_link",
+        "submission_journal": "Diagnostic Pathology"
+      }
+    },
+    {
+      "id": "10.21203/rs.3.rs-3019283/v1",
+      "title": "a pathomic model to predict ifn-γ expression and patients’ survival in breast cancer: a machine learning-based study",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Pathomics predicts IFN-gamma expression and breast cancer survival.",
+      "action": "add_preprint",
+      "reason": "In-scope posted-content; first-version registration and formal title/author lookup checked.",
+      "year": 2023,
+      "first_posted_verified": "2023-07-21",
+      "final_title": "a pathomic model to predict ifn-γ expression and patients’ survival in breast cancer: a machine learning-based study",
+      "final_url": "https://doi.org/10.21203/rs.3.rs-3019283/v1",
+      "final_venue": "Research Square",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR695460",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-3019283%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-3019283%2Fv1",
+        "https://www.researchsquare.com/article/rs-3019283/v1",
+        "https://api.crossref.org/works?query.title=a+pathomic+model+to+predict+ifn-%CE%B3+expression+and+patients%E2%80%99+survival+in+breast+cancer%3A+a%C2%A0machine+learning-based+study&rows=3"
+      ],
+      "verification_errors": [],
+      "primary_platform_metadata": {
+        "doi": "10.21203/rs.3.rs-3019283/v1",
+        "source_url": "https://www.researchsquare.com/article/rs-3019283/v1",
+        "title": "a pathomic model to predict ifn-γ expression and patients’ survival in breast cancer: a machine learning-based study",
+        "first_posted": "2023-07-21",
+        "formal_doi": null,
+        "accepted_without_formal_link": false,
+        "status": "preprint_no_formal_link",
+        "submission_journal": "Research Square"
+      }
+    },
+    {
+      "id": "10.21203/rs.3.rs-3158169/v1",
+      "title": "Annotation-efficient deep learning for breast cancer whole-slide image classification using Tumor Infiltrating Lymphocytes and slide-level labels",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Annotation-efficient TIL-associated WSI segmentation and classification.",
+      "action": "exclude_journal_policy",
+      "reason": "Verified formal journal counterpart is outside the SCIE/CAS2025 major-zone1 allowlist.",
+      "year": 2023,
+      "first_posted_verified": "2023-12-05",
+      "final_title": "Annotation-efficient deep learning for breast cancer whole-slide image classification using tumour infiltrating lymphocytes and slide-level labels",
+      "final_url": "https://doi.org/10.1038/s44172-024-00246-9",
+      "formal_doi": "10.1038/s44172-024-00246-9",
+      "formal_journal": "Communications Engineering",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR769194",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-3158169%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-3158169%2Fv1",
+        "https://www.researchsquare.com/article/rs-3158169/v1",
+        "https://api.crossref.org/works?query.title=Annotation-efficient+deep+learning+for+breast+cancer+whole-slide+image+classification+using+Tumor+Infiltrating+Lymphocytes+and+slide-level+labels&rows=3"
+      ],
+      "verification_errors": [],
+      "primary_platform_metadata": {
+        "doi": "10.21203/rs.3.rs-3158169/v1",
+        "source_url": "https://www.researchsquare.com/article/rs-3158169/v1",
+        "title": "Annotation-efficient deep learning for breast cancer whole-slide image classification using Tumor Infiltrating Lymphocytes and slide-level labels",
+        "first_posted": "2023-12-05",
+        "formal_doi": null,
+        "accepted_without_formal_link": true,
+        "status": "publication_identity_pending",
+        "submission_journal": "Nature Portfolio"
+      }
+    },
+    {
+      "id": "10.21203/rs.3.rs-3274237/v1",
+      "title": "Machine learning-based pathomics model to predict the infiltration of regulatory T cells and prognosis in isocitrate dehydrogenase-wild- type glioblastoma",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "H&E pathomics estimates regulatory T-cell infiltration and glioblastoma prognosis.",
+      "action": "pending_identity",
+      "reason": "Possible retitled formal counterpart requires primary-source reconciliation.",
+      "year": 2023,
+      "first_posted_verified": "2023-08-24",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR709638",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-3274237%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-3274237%2Fv1",
+        "https://www.researchsquare.com/article/rs-3274237/v1",
+        "https://api.crossref.org/works?query.title=Machine+learning-based+pathomics+model+to+predict+the+infiltration+of+regulatory+T+cells+and+prognosis+in+isocitrate+dehydrogenase-wild-+type+glioblastoma&rows=3"
+      ],
+      "verification_errors": [],
+      "primary_platform_metadata": {
+        "doi": "10.21203/rs.3.rs-3274237/v1",
+        "source_url": "https://www.researchsquare.com/article/rs-3274237/v1",
+        "title": "Machine learning-based pathomics model to predict the infiltration of regulatory T cells and prognosis in isocitrate dehydrogenase-wild- type glioblastoma",
+        "first_posted": "2023-08-24",
+        "formal_doi": null,
+        "accepted_without_formal_link": false,
+        "status": "preprint_no_formal_link",
+        "submission_journal": "Research Square"
+      },
+      "uncertain_matches": [
+        {
+          "DOI": "10.3389/fimmu.2026.1817892",
+          "title": [
+            "AI-based pathomics model predicts regulatory T cell infiltration and radiotherapy response in IDH-wild-type glioblastoma"
+          ],
+          "container-title": [
+            "Frontiers in Immunology"
+          ],
+          "type": "journal-article"
+        }
+      ]
+    },
+    {
+      "id": "10.21203/rs.3.rs-3299902/v1",
+      "title": "Diagnosis subtype of endometrial carcinoma using a deep learning model based on histopathological images",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Multicohort deep-learning subtype classification from endometrial histology.",
+      "action": "add_preprint",
+      "reason": "In-scope posted-content; first-version registration and formal title/author lookup checked.",
+      "year": 2023,
+      "first_posted_verified": "2023-09-14",
+      "final_title": "Diagnosis subtype of endometrial carcinoma using a deep learning model based on histopathological images",
+      "final_url": "https://doi.org/10.21203/rs.3.rs-3299902/v1",
+      "final_venue": "Research Square",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR724243",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-3299902%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-3299902%2Fv1",
+        "https://www.researchsquare.com/article/rs-3299902/v1",
+        "https://api.crossref.org/works?query.title=Diagnosis+subtype+of+endometrial+carcinoma+using+a+deep+learning+model+based+on+histopathological+images&rows=3"
+      ],
+      "verification_errors": [],
+      "primary_platform_metadata": {
+        "doi": "10.21203/rs.3.rs-3299902/v1",
+        "source_url": "https://www.researchsquare.com/article/rs-3299902/v1",
+        "title": "Diagnosis subtype of endometrial carcinoma using a deep learning model based on histopathological images",
+        "first_posted": "2023-09-14",
+        "formal_doi": null,
+        "accepted_without_formal_link": false,
+        "status": "preprint_no_formal_link",
+        "submission_journal": "Research Square"
+      }
+    },
+    {
+      "id": "10.21203/rs.3.rs-3874988/v1",
+      "title": "A Pathology-Interpretable Deep Learning Model for Predicting Microsatellite Instability State in Colorectal Cancer: Validation across Diverse Platforms and Asian Cohorts",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Interpretable histology model predicts colorectal MSI across cohorts.",
+      "action": "add_preprint",
+      "reason": "In-scope posted-content; first-version registration and formal title/author lookup checked.",
+      "year": 2024,
+      "first_posted_verified": "2024-02-01",
+      "final_title": "A Pathology-Interpretable Deep Learning Model for Predicting Microsatellite Instability State in Colorectal Cancer: Validation across Diverse Platforms and Asian Cohorts",
+      "final_url": "https://doi.org/10.21203/rs.3.rs-3874988/v1",
+      "final_venue": "Research Square",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR799665",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-3874988%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-3874988%2Fv1",
+        "https://www.researchsquare.com/article/rs-3874988/v1",
+        "https://api.crossref.org/works?query.title=A+Pathology-Interpretable+Deep+Learning+Model+for+Predicting+Microsatellite+Instability+State+in+Colorectal+Cancer%3A+Validation+across+Diverse+Platforms+and+Asian+Cohorts&rows=3"
+      ],
+      "verification_errors": [],
+      "primary_platform_metadata": {
+        "doi": "10.21203/rs.3.rs-3874988/v1",
+        "source_url": "https://www.researchsquare.com/article/rs-3874988/v1",
+        "title": "A Pathology-Interpretable Deep Learning Model for Predicting Microsatellite Instability State in Colorectal Cancer: Validation across Diverse Platforms and Asian Cohorts",
+        "first_posted": "2024-02-01",
+        "formal_doi": null,
+        "accepted_without_formal_link": false,
+        "status": "preprint_no_formal_link",
+        "submission_journal": "Research Square"
+      }
+    },
+    {
+      "id": "10.21203/rs.3.rs-3887214/v1",
+      "title": "Prediction of PD-L1 tumor positive score in lung squamous cell carcinoma with H&E staining whole slide images and deep learning",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "IHC marker segmentation and quantitative prediction from H&E WSI.",
+      "action": "exclude_journal_policy",
+      "reason": "Verified formal journal counterpart is outside the SCIE/CAS2025 major-zone1 allowlist.",
+      "year": 2024,
+      "first_posted_verified": "2024-01-24",
+      "final_title": "Prediction of PD-L1 tumor positive score in lung squamous cell carcinoma with H&E staining images and deep learning",
+      "final_url": "https://doi.org/10.3389/frai.2024.1452563",
+      "formal_doi": "10.3389/frai.2024.1452563",
+      "formal_journal": "Frontiers in Artificial Intelligence",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR792412",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-3887214%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-3887214%2Fv1",
+        "https://www.researchsquare.com/article/rs-3887214/v1",
+        "https://api.crossref.org/works?query.title=Prediction+of+PD-L1+tumor+positive+score+in+lung+squamous+cell+carcinoma+with+H%26E+staining+whole+slide+images+and+deep+learning&rows=3"
+      ],
+      "verification_errors": [],
+      "primary_platform_metadata": {
+        "doi": "10.21203/rs.3.rs-3887214/v1",
+        "source_url": "https://www.researchsquare.com/article/rs-3887214/v1",
+        "title": "Prediction of PD-L1 tumor positive score in lung squamous cell carcinoma with H&E staining whole slide images and deep learning",
+        "first_posted": "2024-01-24",
+        "formal_doi": null,
+        "accepted_without_formal_link": false,
+        "status": "preprint_no_formal_link",
+        "submission_journal": "Research Square"
+      }
+    },
+    {
+      "id": "10.21203/rs.3.rs-4180916/v1",
+      "title": "Prediction of PD-L1 tumor positive score in lung squamous cell carcinoma with H&E staining whole slide images and deep learning",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Same-title H&E PD-L1 study; check authors and registration history against the other DOI before counting.",
+      "action": "exclude_journal_policy",
+      "reason": "Verified formal journal counterpart is outside the SCIE/CAS2025 major-zone1 allowlist.",
+      "year": 2024,
+      "first_posted_verified": "2024-04-02",
+      "final_title": "Prediction of PD-L1 tumor positive score in lung squamous cell carcinoma with H&E staining images and deep learning",
+      "final_url": "https://doi.org/10.3389/frai.2024.1452563",
+      "formal_doi": "10.3389/frai.2024.1452563",
+      "formal_journal": "Frontiers in Artificial Intelligence",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR859430",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-4180916%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-4180916%2Fv1",
+        "https://www.researchsquare.com/article/rs-4180916/v1",
+        "https://api.crossref.org/works?query.title=Prediction+of+PD-L1+tumor+positive+score+in+lung+squamous+cell+carcinoma+with+H%26E+staining+whole+slide+images+and+deep+learning&rows=3"
+      ],
+      "verification_errors": [],
+      "primary_platform_metadata": {
+        "doi": "10.21203/rs.3.rs-4180916/v1",
+        "source_url": "https://www.researchsquare.com/article/rs-4180916/v1",
+        "title": "Prediction of PD-L1 tumor positive score in lung squamous cell carcinoma with H&E staining whole slide images and deep learning",
+        "first_posted": "2024-04-02",
+        "formal_doi": null,
+        "accepted_without_formal_link": false,
+        "status": "preprint_no_formal_link",
+        "submission_journal": "Research Square"
+      }
+    },
+    {
+      "id": "10.21203/rs.3.rs-6037441/v1",
+      "title": "Computed Tomography–Pathology Deep Learning Model for the Precise Prediction of Recurrence in Pathological Stage IA Lung Adenocarcinoma",
+      "review_basis": "title_and_abstract",
+      "scope_decision": "exclude_scope",
+      "scope_reason": "CT imaging with a clinical histological grade; no tissue-image or molecular-omics analysis.",
+      "action": "exclude_scope",
+      "reason": "CT imaging with a clinical histological grade; no tissue-image or molecular-omics analysis."
+    },
+    {
+      "id": "10.21203/rs.3.rs-5832726/v1",
+      "title": "Assessment of Medical Foundation Models for Survival Prediction with Whole Slide Images",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Pathology foundation-model benchmark for survival on limited-size WSI datasets.",
+      "action": "add_preprint",
+      "reason": "In-scope posted-content; first-version registration and formal title/author lookup checked.",
+      "year": 2025,
+      "first_posted_verified": "2025-01-16",
+      "final_title": "Assessment of Medical Foundation Models for Survival Prediction with Whole Slide Images",
+      "final_url": "https://doi.org/10.21203/rs.3.rs-5832726/v1",
+      "final_venue": "Research Square",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR967605",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-5832726%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-5832726%2Fv1",
+        "https://www.researchsquare.com/article/rs-5832726/v1",
+        "https://api.crossref.org/works?query.title=Assessment+of+Medical+Foundation+Models+for+Survival+Prediction+with+Whole+Slide+Images&rows=3"
+      ],
+      "verification_errors": [],
+      "primary_platform_metadata": {
+        "doi": "10.21203/rs.3.rs-5832726/v1",
+        "source_url": "https://www.researchsquare.com/article/rs-5832726/v1",
+        "title": "Assessment of Medical Foundation Models for Survival Prediction with Whole Slide Images",
+        "first_posted": "2025-01-16",
+        "formal_doi": null,
+        "accepted_without_formal_link": false,
+        "status": "preprint_no_formal_link",
+        "submission_journal": "Research Square"
+      }
+    },
+    {
+      "id": "10.21203/rs.3.rs-6695941/v1",
+      "title": "A Multi-Task Learning Model for Evaluating Non-Tumor Gastric Diseases Indicators in Whole Slide Images",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Multi-task WSI grading of inflammatory and non-neoplastic gastric disease.",
+      "action": "exclude_journal_policy",
+      "reason": "Verified formal journal counterpart is outside the SCIE/CAS2025 major-zone1 allowlist.",
+      "year": 2025,
+      "first_posted_verified": "2025-06-03",
+      "final_title": "A multi-task learning model for evaluating non-tumor gastric diseases indicators in whole slide images",
+      "final_url": "https://doi.org/10.1038/s41598-025-19195-0",
+      "formal_doi": "10.1038/s41598-025-19195-0",
+      "formal_journal": "Scientific Reports",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1030521",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-6695941%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-6695941%2Fv1",
+        "https://www.researchsquare.com/article/rs-6695941/v1",
+        "https://api.crossref.org/works/10.1038%2Fs41598-025-19195-0",
+        "https://api.crossref.org/works?query.title=A+Multi-Task+Learning+Model+for+Evaluating+Non-Tumor+Gastric+Diseases+Indicators+in+Whole+Slide+Images&rows=3"
+      ],
+      "verification_errors": [],
+      "primary_platform_metadata": {
+        "doi": "10.21203/rs.3.rs-6695941/v1",
+        "source_url": "https://www.researchsquare.com/article/rs-6695941/v1",
+        "title": "A Multi-Task Learning Model for Evaluating Non-Tumor Gastric Diseases Indicators in Whole Slide Images",
+        "first_posted": "2025-06-03",
+        "formal_doi": "10.1038/s41598-025-19195-0",
+        "accepted_without_formal_link": false,
+        "status": "published_version_linked",
+        "submission_journal": "Scientific Reports"
+      }
+    },
+    {
+      "id": "10.21203/rs.3.rs-8371327/v1",
+      "title": "A Multiple Instance Learning Framework for Estradiol Level Classification in TCT Whole Slide Images",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Cervical cytology WSI-based MIL estimates hormone status.",
+      "action": "exclude_journal_policy",
+      "reason": "Verified formal journal counterpart is outside the SCIE/CAS2025 major-zone1 allowlist.",
+      "year": 2026,
+      "first_posted_verified": "2026-01-19",
+      "final_title": "A multiple instance learning framework for estradiol level classification in TCT whole slide images",
+      "final_url": "https://doi.org/10.1186/s12905-026-04422-1",
+      "formal_doi": "10.1186/s12905-026-04422-1",
+      "formal_journal": "BMC Women's Health",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1144678",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-8371327%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-8371327%2Fv1",
+        "https://www.researchsquare.com/article/rs-8371327/v1",
+        "https://api.crossref.org/works/10.1186%2Fs12905-026-04422-1",
+        "https://api.crossref.org/works?query.title=A+Multiple+Instance+Learning+Framework+for+Estradiol+Level+Classification+in+TCT+Whole+Slide+Images&rows=3"
+      ],
+      "verification_errors": [],
+      "primary_platform_metadata": {
+        "doi": "10.21203/rs.3.rs-8371327/v1",
+        "source_url": "https://www.researchsquare.com/article/rs-8371327/v1",
+        "title": "A Multiple Instance Learning Framework for Estradiol Level Classification in TCT Whole Slide Images",
+        "first_posted": "2026-01-19",
+        "formal_doi": "10.1186/s12905-026-04422-1",
+        "accepted_without_formal_link": false,
+        "status": "published_version_linked",
+        "submission_journal": "BMC Women's Health"
+      }
+    },
+    {
+      "id": "10.21203/rs.3.rs-8542624/v1",
+      "title": "Foundation Model-Architected Sparse Dictionaries for Fully Quantitative Interpretability in Whole Slide Image Decoding",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Sparse dictionary interpretation of pathology foundation-model WSI representations.",
+      "action": "add_preprint",
+      "reason": "In-scope posted-content; first-version registration and formal title/author lookup checked.",
+      "year": 2026,
+      "first_posted_verified": "2026-02-11",
+      "final_title": "Foundation Model-Architected Sparse Dictionaries for Fully Quantitative Interpretability in Whole Slide Image Decoding",
+      "final_url": "https://doi.org/10.21203/rs.3.rs-8542624/v1",
+      "final_venue": "Research Square",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1153799",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-8542624%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-8542624%2Fv1",
+        "https://www.researchsquare.com/article/rs-8542624/v1",
+        "https://api.crossref.org/works?query.title=Foundation+Model-Architected+Sparse+Dictionaries+for+Fully+Quantitative+Interpretability+in+Whole+Slide+Image+Decoding&rows=3"
+      ],
+      "verification_errors": [],
+      "primary_platform_metadata": {
+        "doi": "10.21203/rs.3.rs-8542624/v1",
+        "source_url": "https://www.researchsquare.com/article/rs-8542624/v1",
+        "title": "Foundation Model-Architected Sparse Dictionaries for Fully Quantitative Interpretability in Whole Slide Image Decoding",
+        "first_posted": "2026-02-11",
+        "formal_doi": null,
+        "accepted_without_formal_link": false,
+        "status": "preprint_no_formal_link",
+        "submission_journal": "Research Square"
+      }
+    },
+    {
+      "id": "10.21203/rs.3.rs-8629620/v1",
+      "title": "CervixFM: A General Foundation Model for Cervical Cytology Image Analysis",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "General-purpose cervical cytology foundation model and multicentre evaluations.",
+      "action": "add_preprint",
+      "reason": "In-scope posted-content; first-version registration and formal title/author lookup checked.",
+      "year": 2026,
+      "first_posted_verified": "2026-02-11",
+      "final_title": "CervixFM: A General Foundation Model for Cervical Cytology Image Analysis",
+      "final_url": "https://doi.org/10.21203/rs.3.rs-8629620/v1",
+      "final_venue": "Research Square",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1154003",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-8629620%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-8629620%2Fv1",
+        "https://www.researchsquare.com/article/rs-8629620/v1",
+        "https://api.crossref.org/works?query.title=CervixFM%3A+A+General+Foundation+Model+for+Cervical+Cytology+Image+Analysis&rows=3"
+      ],
+      "verification_errors": [],
+      "primary_platform_metadata": {
+        "doi": "10.21203/rs.3.rs-8629620/v1",
+        "source_url": "https://www.researchsquare.com/article/rs-8629620/v1",
+        "title": "CervixFM: A General Foundation Model for Cervical Cytology Image Analysis",
+        "first_posted": "2026-02-11",
+        "formal_doi": null,
+        "accepted_without_formal_link": false,
+        "status": "preprint_no_formal_link",
+        "submission_journal": "Nature Portfolio"
+      }
+    },
+    {
+      "id": "10.21203/rs.3.rs-9530397/v1",
+      "title": "MGMIL: A Multi-Dimensional Sub-Bag Joint Guidance Framework for Multiple Instance Learning in Histopathology Whole Slide Images",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Sub-bag joint-guidance multiple-instance learning for WSI classification.",
+      "action": "add_preprint",
+      "reason": "In-scope posted-content; first-version registration and formal title/author lookup checked.",
+      "year": 2026,
+      "first_posted_verified": "2026-05-29",
+      "final_title": "MGMIL: A Multi-Dimensional Sub-Bag Joint Guidance Framework for Multiple Instance Learning in Histopathology Whole Slide Images",
+      "final_url": "https://doi.org/10.21203/rs.3.rs-9530397/v1",
+      "final_venue": "Research Square",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1241795",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-9530397%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-9530397%2Fv1",
+        "https://www.researchsquare.com/article/rs-9530397/v1",
+        "https://api.crossref.org/works?query.title=MGMIL%3A+A+Multi-Dimensional+Sub-Bag+Joint+Guidance+Framework+for+Multiple+Instance+Learning+in+Histopathology+Whole+Slide+Images&rows=3"
+      ],
+      "verification_errors": [],
+      "primary_platform_metadata": {
+        "doi": "10.21203/rs.3.rs-9530397/v1",
+        "source_url": "https://www.researchsquare.com/article/rs-9530397/v1",
+        "title": "MGMIL: A Multi-Dimensional Sub-Bag Joint Guidance Framework for Multiple Instance Learning in Histopathology Whole Slide Images",
+        "first_posted": "2026-05-29",
+        "formal_doi": null,
+        "accepted_without_formal_link": false,
+        "status": "preprint_no_formal_link",
+        "submission_journal": "BMC Medical Imaging"
+      }
+    },
+    {
+      "id": "10.20944/preprints202506.1556.v1",
+      "title": "AI-Enabled Prediction of Homologous Recombination Deficiency from Histopathology Images",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "H&E-based prediction of homologous recombination deficiency.",
+      "action": "pending_identity",
+      "reason": "Possible retitled formal counterpart requires primary-source reconciliation.",
+      "year": 2025,
+      "first_posted_verified": "2025-06-19",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1038503",
+        "https://api.crossref.org/works/10.20944%2Fpreprints202506.1556.v1",
+        "https://api.crossref.org/works/10.20944%2Fpreprints202506.1556.v1",
+        "https://api.crossref.org/works?query.title=AI-Enabled+Prediction+of+Homologous+Recombination+Deficiency+from+Histopathology+Images&rows=3"
+      ],
+      "verification_errors": [],
+      "uncertain_matches": [
+        {
+          "DOI": "10.1200/jco.2022.40.16_suppl.3019",
+          "title": [
+            "AI-enabled identification prediction of homologous recombination deficiency (HRD) from histopathology images."
+          ],
+          "container-title": [
+            "Journal of Clinical Oncology"
+          ],
+          "type": "journal-article"
+        }
+      ]
+    },
+    {
+      "id": "10.20944/preprints202512.0100.v1",
+      "title": "SG-MuRCL: Smoothed Graph-Enhanced Multi-Instance Contrastive Learning for Robust Whole Slide Image Classification",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Negative-result study of graph, contrastive and reinforcement-learning WSI aggregation.",
+      "action": "exclude_journal_policy",
+      "reason": "Verified formal journal counterpart is outside the SCIE/CAS2025 major-zone1 allowlist.",
+      "year": 2025,
+      "first_posted_verified": "2025-12-02",
+      "final_title": "SG-MuRCL: Smoothed Graph-Enhanced Multi-Instance Contrastive Learning for Robust Whole-Slide Image Classification",
+      "final_url": "https://doi.org/10.3390/info17010037",
+      "formal_doi": "10.3390/info17010037",
+      "formal_journal": "Information",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1129838",
+        "https://api.crossref.org/works/10.20944%2Fpreprints202512.0100.v1",
+        "https://api.crossref.org/works/10.20944%2Fpreprints202512.0100.v1",
+        "https://api.crossref.org/works?query.title=SG-MuRCL%3A+Smoothed+Graph-Enhanced+Multi-Instance+Contrastive+Learning+for+Robust+Whole+Slide+Image+Classification&rows=3"
+      ],
+      "verification_errors": []
+    },
+    {
+      "id": "10.20944/preprints202606.1122.v1",
+      "title": "DisagreePathVLM: A Disagreement-Aware Histopathology Classification and Vision-Language Reasoning Framework for Transparent Pathology Assessment",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Disagreement-aware histology classification and vision-language interpretation.",
+      "action": "add_preprint",
+      "reason": "In-scope posted-content; first-version registration and formal title/author lookup checked.",
+      "year": 2026,
+      "first_posted_verified": "2026-06-15",
+      "final_title": "DisagreePathVLM: A Disagreement-Aware Histopathology Classification and Vision-Language Reasoning Framework for Transparent Pathology Assessment",
+      "final_url": "https://doi.org/10.20944/preprints202606.1122.v1",
+      "final_venue": "Preprints.org",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1254476",
+        "https://api.crossref.org/works/10.20944%2Fpreprints202606.1122.v1",
+        "https://api.crossref.org/works/10.20944%2Fpreprints202606.1122.v1",
+        "https://api.crossref.org/works?query.title=DisagreePathVLM%3A+A+Disagreement-Aware+Histopathology+Classification+and+Vision-Language+Reasoning+Framework+for+Transparent+Pathology+Assessment&rows=3"
+      ],
+      "verification_errors": []
+    },
+    {
+      "id": "10.20944/preprints202607.0701.v2",
+      "title": "A!Path: An Integrated AI-Enabled Digital Pathology Ecosystem for Quality-Controlled Annotation, Flexible Deployment, and Server-Side Encryption",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Integrated WSI quality control, annotation, AI deployment and data-protection software.",
+      "action": "add_preprint",
+      "reason": "In-scope posted-content; first-version registration and formal title/author lookup checked.",
+      "year": 2026,
+      "first_posted_verified": "2026-07-09",
+      "final_title": "A!Path: An Integrated AI-Enabled Digital Pathology Ecosystem for Quality-Controlled Annotation, Flexible Deployment, and Server-Side Encryption",
+      "final_url": "https://doi.org/10.20944/preprints202607.0701.v2",
+      "final_venue": "Preprints.org",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1291355",
+        "https://api.crossref.org/works/10.20944%2Fpreprints202607.0701.v2",
+        "https://api.crossref.org/works/10.20944%2Fpreprints202607.0701.v1",
+        "https://api.crossref.org/works/10.20944%2Fpreprints202607.0701.v1",
+        "https://api.crossref.org/works?query.title=A%21Path%3A+An+Integrated+AI-Enabled+Digital+Pathology+Ecosystem+for+Quality-Controlled+Annotation%2C+Flexible+Deployment%2C+and+Server-Side+Encryption&rows=3"
+      ],
+      "verification_errors": []
+    },
+    {
+      "id": "10.20944/preprints202607.1227.v1",
+      "title": "Improving Cross-Organ Generalization in Histopathology Segmentation via Evidence-Guided Vision-Language Query Decoding",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Evidence-guided vision-language histology segmentation and cross-organ generalization.",
+      "action": "exclude_journal_policy",
+      "reason": "Verified formal journal counterpart is outside the SCIE/CAS2025 major-zone1 allowlist.",
+      "year": 2026,
+      "first_posted_verified": "2026-07-16",
+      "final_title": "Improving Cross-Organ Generalization in Histopathology Segmentation via Evidence-Guided Vision–Language Query Decoding",
+      "final_url": "https://doi.org/10.3390/electronics15163691",
+      "formal_doi": "10.3390/electronics15163691",
+      "formal_journal": "Electronics",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1282055",
+        "https://api.crossref.org/works/10.20944%2Fpreprints202607.1227.v1",
+        "https://api.crossref.org/works/10.20944%2Fpreprints202607.1227.v1",
+        "https://api.crossref.org/works/10.3390%2Felectronics15163691",
+        "https://api.crossref.org/works?query.title=Improving+Cross-Organ+Generalization+in+Histopathology+Segmentation+via+Evidence-Guided+Vision-Language+Query+Decoding&rows=3"
+      ],
+      "verification_errors": []
+    },
+    {
+      "id": "10.21203/rs.3.rs-10407073/v1",
+      "title": "GraphTransformer-CoGNN: A two-stage dynamic graph learning framework for label-scarce cell-type annotation in spatial transcriptomics",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Label-scarce graph-based annotation in spatial transcriptomics.",
+      "action": "add_preprint",
+      "reason": "In-scope posted-content; first-version registration and formal title/author lookup checked.",
+      "year": 2026,
+      "first_posted_verified": "2026-08-12",
+      "final_title": "GraphTransformer-CoGNN: A two-stage dynamic graph learning framework for label-scarce cell-type annotation in spatial transcriptomics",
+      "final_url": "https://doi.org/10.21203/rs.3.rs-10407073/v1",
+      "final_venue": "Research Square",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1297190",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-10407073%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-10407073%2Fv1",
+        "https://www.researchsquare.com/article/rs-10407073/v1",
+        "https://api.crossref.org/works?query.title=GraphTransformer-CoGNN%3A+A+two-stage+dynamic+graph+learning+framework+for+label-scarce+cell-type+annotation+in+spatial+transcriptomics&rows=3"
+      ],
+      "verification_errors": [],
+      "primary_platform_metadata": {
+        "doi": "10.21203/rs.3.rs-10407073/v1",
+        "source_url": "https://www.researchsquare.com/article/rs-10407073/v1",
+        "title": "GraphTransformer-CoGNN: A two-stage dynamic graph learning framework for label-scarce cell-type annotation in spatial transcriptomics",
+        "first_posted": "2026-08-12",
+        "formal_doi": null,
+        "accepted_without_formal_link": false,
+        "status": "preprint_no_formal_link",
+        "submission_journal": "Research Square"
+      }
+    },
+    {
+      "id": "10.14293/pr2199.003456.v1",
+      "title": "Cross-Tissue Generalization of Rare Cell-Type Representations in Single-Cell Foundation Models: A Benchmark Using Public Reference Atlases",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Rare-cell cross-tissue transfer benchmark for single-cell foundation models; verify original platform.",
+      "action": "add_preprint",
+      "reason": "In-scope posted-content; first-version registration and formal title/author lookup checked.",
+      "year": 2026,
+      "first_posted_verified": "2026-04-25",
+      "final_title": "Cross-Tissue Generalization of Rare Cell-Type Representations in Single-Cell Foundation Models: A Benchmark Using Public Reference Atlases",
+      "final_url": "https://doi.org/10.14293/pr2199.003456.v1",
+      "final_venue": "ScienceOpen Preprints",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1183288",
+        "https://api.crossref.org/works/10.14293%2Fpr2199.003456.v1",
+        "https://api.crossref.org/works/10.14293%2Fpr2199.003456.v1",
+        "https://api.crossref.org/works?query.title=Cross-Tissue+Generalization+of+Rare+Cell-Type+Representations+in+Single-Cell+Foundation+Models%3A+A+Benchmark+Using+Public+Reference+Atlases&rows=3"
+      ],
+      "verification_errors": []
+    },
+    {
+      "id": "10.21203/rs.3.rs-10410549/v1",
+      "title": "MicroSC: A Tiny, Performant Single-Cell Foundation Model",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Distilled compact single-cell foundation model for scalable deployment.",
+      "action": "add_preprint",
+      "reason": "In-scope posted-content; first-version registration and formal title/author lookup checked.",
+      "year": 2026,
+      "first_posted_verified": "2026-07-21",
+      "final_title": "MicroSC: A Tiny, Performant Single-Cell Foundation Model",
+      "final_url": "https://doi.org/10.21203/rs.3.rs-10410549/v1",
+      "final_venue": "Research Square",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1282768",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-10410549%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-10410549%2Fv1",
+        "https://www.researchsquare.com/article/rs-10410549/v1",
+        "https://api.crossref.org/works?query.title=MicroSC%3A+A+Tiny%2C+Performant+Single-Cell+Foundation+Model&rows=3"
+      ],
+      "verification_errors": [],
+      "primary_platform_metadata": {
+        "doi": "10.21203/rs.3.rs-10410549/v1",
+        "source_url": "https://www.researchsquare.com/article/rs-10410549/v1",
+        "title": "MicroSC: A Tiny, Performant Single-Cell Foundation Model",
+        "first_posted": "2026-07-21",
+        "formal_doi": null,
+        "accepted_without_formal_link": false,
+        "status": "preprint_no_formal_link",
+        "submission_journal": "Research Square"
+      }
+    },
+    {
+      "id": "10.21203/rs.3.rs-11012643/v1",
+      "title": "spaGFM is a scalable graph foundation model for spatial transcriptomics analyses",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Spatial graph foundation model learns cellular neighbourhoods across tissues.",
+      "action": "add_preprint",
+      "reason": "In-scope posted-content; first-version registration and formal title/author lookup checked.",
+      "year": 2026,
+      "first_posted_verified": "2026-09-18",
+      "final_title": "spaGFM is a scalable graph foundation model for spatial transcriptomics analyses",
+      "final_url": "https://doi.org/10.21203/rs.3.rs-11012643/v1",
+      "final_venue": "Research Square",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1322216",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-11012643%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-11012643%2Fv1",
+        "https://www.researchsquare.com/article/rs-11012643/v1",
+        "https://api.crossref.org/works?query.title=spaGFM+is+a+scalable+graph+foundation+model+for+spatial+transcriptomics+analyses&rows=3"
+      ],
+      "verification_errors": [],
+      "primary_platform_metadata": {
+        "doi": "10.21203/rs.3.rs-11012643/v1",
+        "source_url": "https://www.researchsquare.com/article/rs-11012643/v1",
+        "title": "spaGFM is a scalable graph foundation model for spatial transcriptomics analyses",
+        "first_posted": "2026-09-18",
+        "formal_doi": null,
+        "accepted_without_formal_link": false,
+        "status": "preprint_no_formal_link",
+        "submission_journal": "Nature Portfolio"
+      }
+    },
+    {
+      "id": "10.21203/rs.3.rs-4410408/v1",
+      "title": "scCobra: Contrastive cell embedding learning with domain-adaptation for single-cell data integration and harmonization",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Contrastive and domain-adaptive single-cell integration method.",
+      "action": "duplicate_existing",
+      "reason": "Registered formal DOI, authors, eligible journal and year verified.",
+      "year": 2025,
+      "first_posted_verified": "2024-08-22",
+      "final_title": "scCobra allows contrastive cell embedding learning with domain adaptation for single cell data integration and harmonization",
+      "final_url": "https://doi.org/10.1038/s42003-025-07692-x",
+      "final_venue": "Communications Biology",
+      "formal_doi": "10.1038/s42003-025-07692-x",
+      "formal_journal": "Communications Biology",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR899312",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-4410408%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-4410408%2Fv1",
+        "https://www.researchsquare.com/article/rs-4410408/v1",
+        "https://api.crossref.org/works/10.1038%2Fs42003-025-07692-x",
+        "https://api.crossref.org/works?query.title=scCobra%3A+Contrastive+cell+embedding+learning+with+domain-adaptation+for+single-cell+data+integration+and+harmonization&rows=3"
+      ],
+      "verification_errors": [],
+      "primary_platform_metadata": {
+        "doi": "10.21203/rs.3.rs-4410408/v1",
+        "source_url": "https://www.researchsquare.com/article/rs-4410408/v1",
+        "title": "scCobra: Contrastive cell embedding learning with domain-adaptation for single-cell data integration and harmonization",
+        "first_posted": "2024-08-22",
+        "formal_doi": "10.1038/s42003-025-07692-x",
+        "accepted_without_formal_link": false,
+        "status": "published_version_linked",
+        "submission_journal": "Nature Portfolio"
+      }
+    },
+    {
+      "id": "10.21203/rs.3.rs-8310482/v1",
+      "title": "Accurate, scalable, and unified single-cell atlas integration with scBIOT",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Optimal-transport and transformer single-cell atlas integration.",
+      "action": "add_preprint",
+      "reason": "In-scope posted-content; first-version registration and formal title/author lookup checked.",
+      "year": 2026,
+      "first_posted_verified": "2026-01-19",
+      "final_title": "Accurate, scalable, and unified single-cell atlas integration with scBIOT",
+      "final_url": "https://doi.org/10.21203/rs.3.rs-8310482/v1",
+      "final_venue": "Research Square",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1144672",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-8310482%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-8310482%2Fv1",
+        "https://www.researchsquare.com/article/rs-8310482/v1",
+        "https://api.crossref.org/works?query.title=Accurate%2C+scalable%2C+and+unified+single-cell+atlas+integration+with+scBIOT&rows=3"
+      ],
+      "verification_errors": [],
+      "primary_platform_metadata": {
+        "doi": "10.21203/rs.3.rs-8310482/v1",
+        "source_url": "https://www.researchsquare.com/article/rs-8310482/v1",
+        "title": "Accurate, scalable, and unified single-cell atlas integration with scBIOT",
+        "first_posted": "2026-01-19",
+        "formal_doi": null,
+        "accepted_without_formal_link": false,
+        "status": "preprint_no_formal_link",
+        "submission_journal": "Research Square"
+      }
+    },
+    {
+      "id": "10.21203/rs.3.rs-9082476/v1",
+      "title": "Systematic evaluation of single-cell foundation model interpretability reveals attention captures co-expression rather than unique regulatory signal",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Perturbation-grounded audit of single-cell foundation-model interpretability.",
+      "action": "exclude_journal_policy",
+      "reason": "Verified formal journal counterpart is outside the SCIE/CAS2025 major-zone1 allowlist.",
+      "year": 2026,
+      "first_posted_verified": "2026-03-26",
+      "final_title": "Systematic evaluation of single-cell foundation model interpretability: attention-derived edge scores add no incremental value over gene-level features for perturbation-target prediction",
+      "final_url": "https://doi.org/10.1186/s12864-026-12965-8",
+      "formal_doi": "10.1186/s12864-026-12965-8",
+      "formal_journal": "BMC Genomics",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1170854",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-9082476%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-9082476%2Fv1",
+        "https://www.researchsquare.com/article/rs-9082476/v1",
+        "https://api.crossref.org/works/10.1186%2Fs12864-026-12965-8",
+        "https://api.crossref.org/works?query.title=Systematic+evaluation+of+single-cell+foundation+model+interpretability+reveals+attention+captures+co-expression+rather+than+unique+regulatory+signal&rows=3"
+      ],
+      "verification_errors": [],
+      "primary_platform_metadata": {
+        "doi": "10.21203/rs.3.rs-9082476/v1",
+        "source_url": "https://www.researchsquare.com/article/rs-9082476/v1",
+        "title": "Systematic evaluation of single-cell foundation model interpretability reveals attention captures co-expression rather than unique regulatory signal",
+        "first_posted": "2026-03-26",
+        "formal_doi": "10.1186/s12864-026-12965-8",
+        "accepted_without_formal_link": false,
+        "status": "published_version_linked",
+        "submission_journal": "BMC Genomics"
+      }
+    },
+    {
+      "id": "10.21203/rs.3.rs-9082479/v1",
+      "title": "Sparse autoencoders reveal organized biological knowledge but minimal regulatory logic in single-cell foundation models: a comparative atlas of Geneformer and scGPT",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Sparse-autoencoder feature atlases and causal regulatory evaluation in single-cell models.",
+      "action": "add_preprint",
+      "reason": "In-scope posted-content; first-version registration and formal title/author lookup checked.",
+      "year": 2026,
+      "first_posted_verified": "2026-03-25",
+      "final_title": "Sparse autoencoders reveal organized biological knowledge but minimal regulatory logic in single-cell foundation models: a comparative atlas of Geneformer and scGPT",
+      "final_url": "https://doi.org/10.21203/rs.3.rs-9082479/v1",
+      "final_venue": "Research Square",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1169938",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-9082479%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-9082479%2Fv1",
+        "https://www.researchsquare.com/article/rs-9082479/v1",
+        "https://api.crossref.org/works?query.title=Sparse+autoencoders+reveal+organized+biological+knowledge+but+minimal+regulatory+logic+in+single-cell+foundation+models%3A+a+comparative+atlas+of+Geneformer+and+scGPT&rows=3"
+      ],
+      "verification_errors": [],
+      "primary_platform_metadata": {
+        "doi": "10.21203/rs.3.rs-9082479/v1",
+        "source_url": "https://www.researchsquare.com/article/rs-9082479/v1",
+        "title": "Sparse autoencoders reveal organized biological knowledge but minimal regulatory logic in single-cell foundation models: a comparative atlas of Geneformer and scGPT",
+        "first_posted": "2026-03-25",
+        "formal_doi": null,
+        "accepted_without_formal_link": false,
+        "status": "preprint_no_formal_link",
+        "submission_journal": "Research Square"
+      }
+    },
+    {
+      "id": "10.21203/rs.3.rs-9943013/v1",
+      "title": "SpatialMamba: a graph-based model for spatial transcriptomics with feature- and degree-informed spot prioritization for spatial domain annotation",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Multi-view graph/Mamba spatial domain annotation method.",
+      "action": "add_preprint",
+      "reason": "In-scope posted-content; first-version registration and formal title/author lookup checked.",
+      "year": 2026,
+      "first_posted_verified": "2026-06-12",
+      "final_title": "SpatialMamba: a graph-based model for spatial transcriptomics with feature- and degree-informed spot prioritization for spatial domain annotation",
+      "final_url": "https://doi.org/10.21203/rs.3.rs-9943013/v1",
+      "final_venue": "Research Square",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1251015",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-9943013%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-9943013%2Fv1",
+        "https://www.researchsquare.com/article/rs-9943013/v1",
+        "https://api.crossref.org/works?query.title=SpatialMamba%3A+a+graph-based+model+for+spatial+transcriptomics+with+feature-+and+degree-informed+spot+prioritization+for+spatial+domain+annotation&rows=3"
+      ],
+      "verification_errors": [],
+      "primary_platform_metadata": {
+        "doi": "10.21203/rs.3.rs-9943013/v1",
+        "source_url": "https://www.researchsquare.com/article/rs-9943013/v1",
+        "title": "SpatialMamba: a graph-based model for spatial transcriptomics with feature- and degree-informed spot prioritization for spatial domain annotation",
+        "first_posted": "2026-06-12",
+        "formal_doi": null,
+        "accepted_without_formal_link": false,
+        "status": "preprint_no_formal_link",
+        "submission_journal": "Research Square"
+      }
+    },
+    {
+      "id": "10.21203/rs.3.rs-10600213/v1",
+      "title": "Spatial GNN Analyzer: An AI-Powered Graph Neural Network Framework for Spatial Transcriptomics Domain Analysis and Visualization",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Graph-based spatial domain analysis and interactive tissue visualization framework.",
+      "action": "add_preprint",
+      "reason": "In-scope posted-content; first-version registration and formal title/author lookup checked.",
+      "year": 2026,
+      "first_posted_verified": "2026-08-06",
+      "final_title": "Spatial GNN Analyzer: An AI-Powered Graph Neural Network Framework for Spatial Transcriptomics Domain Analysis and Visualization",
+      "final_url": "https://doi.org/10.21203/rs.3.rs-10600213/v1",
+      "final_venue": "Research Square",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1292853",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-10600213%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-10600213%2Fv1",
+        "https://www.researchsquare.com/article/rs-10600213/v1",
+        "https://api.crossref.org/works?query.title=Spatial+GNN+Analyzer%3A+An+AI-Powered+Graph+Neural+Network+Framework+for+Spatial+Transcriptomics+Domain+Analysis+and+Visualization&rows=3"
+      ],
+      "verification_errors": [],
+      "primary_platform_metadata": {
+        "doi": "10.21203/rs.3.rs-10600213/v1",
+        "source_url": "https://www.researchsquare.com/article/rs-10600213/v1",
+        "title": "Spatial GNN Analyzer: An AI-Powered Graph Neural Network Framework for Spatial Transcriptomics Domain Analysis and Visualization",
+        "first_posted": "2026-08-06",
+        "formal_doi": null,
+        "accepted_without_formal_link": false,
+        "status": "preprint_no_formal_link",
+        "submission_journal": "Research Square"
+      }
+    },
+    {
+      "id": "10.21203/rs.3.rs-10731867/v1",
+      "title": "Benchmarking cell type annotation in spatial transcriptomics: resolving cellular hierarchies, biological fidelity, and dynamic cell states",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Cross-platform spatial cell-type annotation benchmark and cellular hierarchy analysis.",
+      "action": "add_preprint",
+      "reason": "In-scope posted-content; first-version registration and formal title/author lookup checked.",
+      "year": 2026,
+      "first_posted_verified": "2026-08-28",
+      "final_title": "Benchmarking cell type annotation in spatial transcriptomics: resolving cellular hierarchies, biological fidelity, and dynamic cell states",
+      "final_url": "https://doi.org/10.21203/rs.3.rs-10731867/v1",
+      "final_venue": "Research Square",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1307536",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-10731867%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-10731867%2Fv1",
+        "https://www.researchsquare.com/article/rs-10731867/v1",
+        "https://api.crossref.org/works?query.title=Benchmarking+cell+type+annotation+in+spatial+transcriptomics%3A+resolving+cellular+hierarchies%2C+biological+fidelity%2C+and+dynamic+cell+states&rows=3"
+      ],
+      "verification_errors": [],
+      "primary_platform_metadata": {
+        "doi": "10.21203/rs.3.rs-10731867/v1",
+        "source_url": "https://www.researchsquare.com/article/rs-10731867/v1",
+        "title": "Benchmarking cell type annotation in spatial transcriptomics: resolving cellular hierarchies, biological fidelity, and dynamic cell states",
+        "first_posted": "2026-08-28",
+        "formal_doi": null,
+        "accepted_without_formal_link": false,
+        "status": "preprint_no_formal_link",
+        "submission_journal": "Nature Portfolio"
+      }
+    },
+    {
+      "id": "10.21203/rs.3.rs-2411530/v1",
+      "title": "SPACEL: characterizing spatial transcriptome architectures by deep-learning",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Integrated spatial deconvolution, domain analysis and 3D tissue architecture reconstruction.",
+      "action": "duplicate_existing",
+      "reason": "Registered formal DOI, authors, eligible journal and year verified.",
+      "year": 2023,
+      "first_posted_verified": "2023-01-05",
+      "final_title": "SPACEL: deep learning-based characterization of spatial transcriptome architectures",
+      "final_url": "https://doi.org/10.1038/s41467-023-43220-3",
+      "final_venue": "Nature Communications",
+      "formal_doi": "10.1038/s41467-023-43220-3",
+      "formal_journal": "Nature Communications",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR592509",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-2411530%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-2411530%2Fv1",
+        "https://www.researchsquare.com/article/rs-2411530/v1",
+        "https://www.nature.com/articles/s41467-023-43220-3",
+        "https://api.crossref.org/works/10.1038%2Fs41467-023-43220-3",
+        "https://api.crossref.org/works?query.title=SPACEL%3A+characterizing+spatial+transcriptome+architectures+by+deep-learning&rows=3"
+      ],
+      "verification_errors": [],
+      "primary_platform_metadata": {
+        "doi": "10.21203/rs.3.rs-2411530/v1",
+        "source_url": "https://www.researchsquare.com/article/rs-2411530/v1",
+        "title": "SPACEL: characterizing spatial transcriptome architectures by deep-learning",
+        "first_posted": "2023-01-05",
+        "formal_doi": null,
+        "accepted_without_formal_link": true,
+        "status": "publication_identity_pending",
+        "submission_journal": "Nature Portfolio"
+      }
+    },
+    {
+      "id": "10.2139/ssrn.6506743",
+      "title": "BRIGHT: A Collaborative Generalist-Specialist Foundation Model for Breast Pathology",
+      "review_basis": "official_title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Pathology foundation-model benchmark, WSI molecular inference or computational histology contribution assessed from the official abstract. Check formal/cross-platform identity.",
+      "action": "duplicate_existing",
+      "reason": "Exact title and primary-source author agreement confirm the cross-platform version.",
+      "year": 2026,
+      "first_posted_verified": "2026-04-07",
+      "final_title": "BRIGHT: A Collaborative Generalist-Specialist Foundation Model for Breast Pathology",
+      "final_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6506743",
+      "final_venue": "SSRN",
+      "verification_sources": [
+        "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6506743",
+        "https://api.crossref.org/works/10.2139%2Fssrn.6506743",
+        "https://api.crossref.org/works/10.2139%2Fssrn.6506743",
+        "https://api.crossref.org/works?query.title=BRIGHT%3A+A+Collaborative+Generalist-Specialist+Foundation+Model+for+Breast+Pathology&rows=3",
+        "https://arxiv.org/abs/2603.03030"
+      ],
+      "verification_errors": []
+    },
+    {
+      "id": "10.2139/ssrn.6751891",
+      "title": "Validation of Whole-Slide Foundation Models for Image Retrieval in TCGA Data",
+      "review_basis": "official_title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Pathology foundation-model benchmark, WSI molecular inference or computational histology contribution assessed from the official abstract. Check formal/cross-platform identity.",
+      "action": "pending_identity",
+      "reason": "Possible retitled formal counterpart requires primary-source reconciliation.",
+      "year": 2026,
+      "first_posted_verified": "2026-05-13",
+      "verification_sources": [
+        "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6751891",
+        "https://api.crossref.org/works/10.2139%2Fssrn.6751891",
+        "https://api.crossref.org/works/10.2139%2Fssrn.6751891",
+        "https://api.crossref.org/works?query.title=Validation+of+Whole-Slide+Foundation+Models+for+Image+Retrieval+in+TCGA+Data&rows=3"
+      ],
+      "verification_errors": [],
+      "uncertain_matches": [
+        {
+          "DOI": "10.1038/s41746-026-03122-2",
+          "title": [
+            "Multi-institutional pan-cancer validation of pathology foundation models for whole-slide image retrieval using TCGA"
+          ],
+          "container-title": [
+            "npj Digital Medicine"
+          ],
+          "type": "journal-article"
+        },
+        {
+          "DOI": "10.1038/s41598-025-88545-9",
+          "title": [
+            "Validation of histopathology foundation models through whole slide image retrieval"
+          ],
+          "container-title": [
+            "Scientific Reports"
+          ],
+          "type": "journal-article"
+        }
+      ]
+    },
+    {
+      "id": "10.2139/ssrn.7383688",
+      "title": "The Butterfly Effect in Pathology: Exploring Adversarial Attack in Pathology Foundation Models",
+      "review_basis": "official_title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Pathology foundation-model benchmark, WSI molecular inference or computational histology contribution assessed from the official abstract. Check formal/cross-platform identity.",
+      "action": "pending_identity",
+      "reason": "Possible retitled/extended version of arXiv:2505.24141. Author overlap and related methods require primary manuscript lineage verification before another entry.",
+      "year": 2026,
+      "first_posted_verified": "2026-09-02",
+      "final_title": "The Butterfly Effect in Pathology: Exploring Adversarial Attack in Pathology Foundation Models",
+      "final_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7383688",
+      "final_venue": "SSRN",
+      "verification_sources": [
+        "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7383688",
+        "https://api.crossref.org/works/10.2139%2Fssrn.7383688",
+        "https://api.crossref.org/works/10.2139%2Fssrn.7383688",
+        "https://api.crossref.org/works?query.title=The+Butterfly+Effect+in+Pathology%3A+Exploring+Adversarial+Attack+in+Pathology+Foundation+Models&rows=3"
+      ],
+      "verification_errors": [],
+      "related_arxiv": "2505.24141"
+    },
+    {
+      "id": "10.2139/ssrn.6751864",
+      "title": "Suppressing Stain-Associated Sparse Features in Pathology Foundation Model Embeddings for Robust Colorectal MSI Prediction",
+      "review_basis": "official_title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Pathology foundation-model benchmark, WSI molecular inference or computational histology contribution assessed from the official abstract. Check formal/cross-platform identity.",
+      "action": "pending_identity",
+      "reason": "Possible retitled formal counterpart requires primary-source reconciliation.",
+      "year": 2026,
+      "first_posted_verified": "2026-05-13",
+      "verification_sources": [
+        "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6751864",
+        "https://api.crossref.org/works/10.2139%2Fssrn.6751864",
+        "https://api.crossref.org/works/10.2139%2Fssrn.6751864",
+        "https://api.crossref.org/works?query.title=Suppressing+Stain-Associated+Sparse+Features+in+Pathology+Foundation+Model+Embeddings+for+Robust+Colorectal+MSI+Prediction&rows=3"
+      ],
+      "verification_errors": [],
+      "uncertain_matches": [
+        {
+          "DOI": "10.1109/icbcb69424.2026.11621859",
+          "title": [
+            "SubsampledMPP: Efficient Distributional Pooling of Pathology Foundation Model Embeddings for Multi-Endpoint Lung Cancer Prediction"
+          ],
+          "container-title": [
+            "2026 14th International Conference on Bioinformatics and Computational Biology (ICBCB)"
+          ],
+          "type": "proceedings-article"
+        }
+      ]
+    },
+    {
+      "id": "10.2139/ssrn.7305398",
+      "title": "Histological Resolution Governs Molecular Visibility in Computational Pathology",
+      "review_basis": "official_title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Pathology foundation-model benchmark, WSI molecular inference or computational histology contribution assessed from the official abstract. Check formal/cross-platform identity.",
+      "action": "add_preprint",
+      "reason": "In-scope posted-content; first-version registration and formal title/author lookup checked.",
+      "year": 2026,
+      "first_posted_verified": "2026-08-25",
+      "final_title": "Histological Resolution Governs Molecular Visibility in Computational Pathology",
+      "final_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7305398",
+      "final_venue": "SSRN",
+      "verification_sources": [
+        "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7305398",
+        "https://api.crossref.org/works/10.2139%2Fssrn.7305398",
+        "https://api.crossref.org/works/10.2139%2Fssrn.7305398",
+        "https://api.crossref.org/works?query.title=Histological+Resolution+Governs+Molecular+Visibility+in+Computational+Pathology&rows=3"
+      ],
+      "verification_errors": []
+    },
+    {
+      "id": "10.2139/ssrn.5940884",
+      "title": "How Good is my Histopathology Vision-Language Foundation Model? A Holistic Benchmark",
+      "review_basis": "official_title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Pathology foundation-model benchmark, WSI molecular inference or computational histology contribution assessed from the official abstract. Check formal/cross-platform identity.",
+      "action": "duplicate_existing",
+      "reason": "Exact title and primary-source author agreement confirm the cross-platform version.",
+      "year": 2026,
+      "first_posted_verified": "2026-01-15",
+      "final_title": "How Good is my Histopathology Vision-Language Foundation Model? A Holistic Benchmark",
+      "final_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5940884",
+      "final_venue": "SSRN",
+      "verification_sources": [
+        "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5940884",
+        "https://api.crossref.org/works/10.2139%2Fssrn.5940884",
+        "https://api.crossref.org/works/10.2139%2Fssrn.5940884",
+        "https://api.crossref.org/works?query.title=How+Good+is+my+Histopathology+Vision-Language+Foundation+Model%3F+A+Holistic+Benchmark&rows=3",
+        "https://arxiv.org/abs/2503.12990"
+      ],
+      "verification_errors": []
+    },
+    {
+      "id": "10.2139/ssrn.7305519",
+      "title": "Not All Benchmarks Are Equal: Saturation-Aware Evaluation of Pathology Foundation Models",
+      "review_basis": "official_title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Pathology foundation-model benchmark, WSI molecular inference or computational histology contribution assessed from the official abstract. Check formal/cross-platform identity.",
+      "action": "add_preprint",
+      "reason": "In-scope posted-content; first-version registration and formal title/author lookup checked.",
+      "year": 2026,
+      "first_posted_verified": "2026-08-25",
+      "final_title": "Not All Benchmarks Are Equal: Saturation-Aware Evaluation of Pathology Foundation Models",
+      "final_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7305519",
+      "final_venue": "SSRN",
+      "verification_sources": [
+        "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7305519",
+        "https://api.crossref.org/works/10.2139%2Fssrn.7305519",
+        "https://api.crossref.org/works/10.2139%2Fssrn.7305519",
+        "https://api.crossref.org/works?query.title=Not+All+Benchmarks+Are+Equal%3A+Saturation-Aware+Evaluation+of+Pathology+Foundation+Models&rows=3"
+      ],
+      "verification_errors": []
+    },
+    {
+      "id": "10.2139/ssrn.7206349",
+      "title": "Reagent-Free Multiple Histological Staining via Generative AI for Rapid Pathology Diagnosis",
+      "review_basis": "official_title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Pathology foundation-model benchmark, WSI molecular inference or computational histology contribution assessed from the official abstract. Check formal/cross-platform identity.",
+      "action": "exclude_journal_policy",
+      "reason": "Verified formal journal counterpart is outside the SCIE/CAS2025 major-zone1 allowlist.",
+      "year": 2026,
+      "first_posted_verified": "2026-08-05",
+      "final_title": "Reagent-free multiple histological staining via generative AI for rapid pathology diagnosis",
+      "final_url": "https://doi.org/10.1016/j.humpath.2026.106269",
+      "formal_doi": "10.1016/j.humpath.2026.106269",
+      "formal_journal": "Human Pathology",
+      "verification_sources": [
+        "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7206349",
+        "https://api.crossref.org/works/10.2139%2Fssrn.7206349",
+        "https://api.crossref.org/works/10.2139%2Fssrn.7206349",
+        "https://api.crossref.org/works?query.title=Reagent-Free+Multiple+Histological+Staining+via+Generative+AI+for+Rapid+Pathology+Diagnosis&rows=3"
+      ],
+      "verification_errors": []
+    },
+    {
+      "id": "10.2139/ssrn.7306983",
+      "title": "PIRPath: A region-guided weakly supervised pathomics framework for neoadjuvant immunotherapy response prediction across multiple cancer types",
+      "review_basis": "official_title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Pathology foundation-model benchmark, WSI molecular inference or computational histology contribution assessed from the official abstract. Check formal/cross-platform identity.",
+      "action": "pending_identity",
+      "reason": "Possible retitled formal counterpart requires primary-source reconciliation.",
+      "year": 2026,
+      "first_posted_verified": "2026-08-26",
+      "verification_sources": [
+        "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7306983",
+        "https://api.crossref.org/works/10.2139%2Fssrn.7306983",
+        "https://api.crossref.org/works/10.2139%2Fssrn.7306983",
+        "https://api.crossref.org/works?query.title=PIRPath%3A+A+region-guided+weakly+supervised+pathomics+framework+for+neoadjuvant+immunotherapy+response+prediction+across+multiple+cancer+types&rows=3"
+      ],
+      "verification_errors": [],
+      "uncertain_matches": [
+        {
+          "DOI": "10.1186/s12935-025-04063-8",
+          "title": [
+            "AI-based neoadjuvant immunotherapy response prediction across pan-cancer: a comprehensive review"
+          ],
+          "container-title": [
+            "Cancer Cell International"
+          ],
+          "type": "journal-article"
+        }
+      ]
+    },
+    {
+      "id": "10.2139/ssrn.7224105",
+      "title": "Virtual Multiplex Immunofluorescence From Routine Histology Does Not Recover Immune-Marker Biology Outside Its Training Distribution: An Independent External Validation of the GigaTIME Foundation Model Across Four Cohorts",
+      "review_basis": "official_title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Pathology foundation-model benchmark, WSI molecular inference or computational histology contribution assessed from the official abstract. Check formal/cross-platform identity.",
+      "action": "add_preprint",
+      "reason": "In-scope posted-content; first-version registration and formal title/author lookup checked.",
+      "year": 2026,
+      "first_posted_verified": "2026-08-04",
+      "final_title": "Virtual Multiplex Immunofluorescence From Routine Histology Does Not Recover Immune-Marker Biology Outside Its Training Distribution: An Independent External Validation of the GigaTIME Foundation Model Across Four Cohorts",
+      "final_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7224105",
+      "final_venue": "SSRN",
+      "verification_sources": [
+        "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7224105",
+        "https://api.crossref.org/works/10.2139%2Fssrn.7224105",
+        "https://api.crossref.org/works/10.2139%2Fssrn.7224105",
+        "https://api.crossref.org/works?query.title=Virtual+Multiplex+Immunofluorescence+From+Routine+Histology+Does+Not+Recover+Immune-Marker+Biology+Outside+Its+Training+Distribution%3A+An+Independent+External+Validation+of+the+GigaTIME+Foundation+Model+Across+Four+Cohorts&rows=3"
+      ],
+      "verification_errors": []
+    },
+    {
+      "id": "10.2139/ssrn.5390698",
+      "title": "Synthetic Histopathology with Controllable Class Distribution: A Dual-Gan Framework for Melanoma Segmentation",
+      "review_basis": "title_only_pending_abstract",
+      "scope_decision": "pending_abstract",
+      "scope_reason": "Official-domain discovery found a plausible title; registered abstract is missing and direct access returned 403. Retain for abstract/full-paper review.",
+      "action": "pending_abstract",
+      "reason": "Official-domain discovery found a plausible title; registered abstract is missing and direct access returned 403. Retain for abstract/full-paper review."
+    },
+    {
+      "id": "10.2139/ssrn.5162909",
+      "title": "Hope: Histopathological Image Organization and Processing Environment",
+      "review_basis": "title_only_pending_abstract",
+      "scope_decision": "pending_abstract",
+      "scope_reason": "Official-domain discovery found a plausible title; registered abstract is missing and direct access returned 403. Retain for abstract/full-paper review.",
+      "action": "pending_abstract",
+      "reason": "Official-domain discovery found a plausible title; registered abstract is missing and direct access returned 403. Retain for abstract/full-paper review."
+    },
+    {
+      "id": "10.2139/ssrn.5178720",
+      "title": "A Deep Learning Framework for Histopathological Analysis of Pixel-Level Extracellular Matrix Variation in Standard H&amp;E-Stained Images",
+      "review_basis": "title_only_pending_abstract",
+      "scope_decision": "pending_abstract",
+      "scope_reason": "Official-domain discovery found a plausible title; registered abstract is missing and direct access returned 403. Retain for abstract/full-paper review.",
+      "action": "pending_abstract",
+      "reason": "Official-domain discovery found a plausible title; registered abstract is missing and direct access returned 403. Retain for abstract/full-paper review."
+    },
+    {
+      "id": "10.2139/ssrn.4604776",
+      "title": "Deep Learning Histology for Prediction of Lymph Node Metastases and Tumor Regression after Neoadjuvant FLOT Therapy of Esophageal Adenocarcinoma",
+      "review_basis": "title_only_pending_abstract",
+      "scope_decision": "pending_abstract",
+      "scope_reason": "Official-domain discovery found a plausible title; registered abstract is missing and direct access returned 403. Retain for abstract/full-paper review.",
+      "action": "pending_abstract",
+      "reason": "Official-domain discovery found a plausible title; registered abstract is missing and direct access returned 403. Retain for abstract/full-paper review."
+    },
+    {
+      "id": "10.2139/ssrn.4487130",
+      "title": "Digital Pathology for Reporting Histopathology Samples, Including Cancer Screening Samples – Definitive Evidence from a Multi-Site Study",
+      "review_basis": "title_only_pending_abstract",
+      "scope_decision": "pending_abstract",
+      "scope_reason": "Official-domain discovery found a plausible title; registered abstract is missing and direct access returned 403. Retain for abstract/full-paper review.",
+      "action": "pending_abstract",
+      "reason": "Official-domain discovery found a plausible title; registered abstract is missing and direct access returned 403. Retain for abstract/full-paper review."
+    },
+    {
+      "id": "10.2139/ssrn.4713363",
+      "title": "Deep Learning Analysis of Histopathological Images Predicts Immunotherapy Prognosis and Reveals Tumor Microenvironment Features in Non-Small Cell Lung Cancer",
+      "review_basis": "title_only_pending_abstract",
+      "scope_decision": "pending_abstract",
+      "scope_reason": "Official-domain discovery found a plausible title; registered abstract is missing and direct access returned 403. Retain for abstract/full-paper review.",
+      "action": "pending_abstract",
+      "reason": "Official-domain discovery found a plausible title; registered abstract is missing and direct access returned 403. Retain for abstract/full-paper review."
+    },
+    {
+      "id": "10.2139/ssrn.5593005",
+      "title": "Differential diagnosis of acid-fast mycobacteria utilizing an artificial intelligence-based multi-module approach in histopathological analysis",
+      "review_basis": "title_only_pending_abstract",
+      "scope_decision": "pending_abstract",
+      "scope_reason": "Official-domain discovery found a plausible title; registered abstract is missing and direct access returned 403. Retain for abstract/full-paper review.",
+      "action": "pending_abstract",
+      "reason": "Official-domain discovery found a plausible title; registered abstract is missing and direct access returned 403. Retain for abstract/full-paper review."
+    },
+    {
+      "id": "10.22541/au.174781114.48367566/v1",
+      "title": "Deep Learning--Assisted Vaginal Cytology for Estrus Classification in Dogs and Cats",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Deep-learning analysis of veterinary vaginal cytology images.",
+      "action": "add_preprint",
+      "reason": "In-scope posted-content; first-version registration and formal title/author lookup checked.",
+      "year": 2025,
+      "first_posted_verified": "2025-05-21",
+      "final_title": "Deep Learning--Assisted Vaginal Cytology for Estrus Classification in Dogs and Cats",
+      "final_url": "https://doi.org/10.22541/au.174781114.48367566/v1",
+      "final_venue": "Authorea",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1201260",
+        "https://api.crossref.org/works/10.22541%2Fau.174781114.48367566%2Fv1",
+        "https://api.crossref.org/works/10.22541%2Fau.174781114.48367566%2Fv1",
+        "https://api.crossref.org/works?query.title=Deep+Learning--Assisted+Vaginal+Cytology+for+Estrus+Classification+in+Dogs+and+Cats&rows=3"
+      ],
+      "verification_errors": []
+    },
+    {
+      "id": "10.22541/au.174838310.00866184/v1",
+      "title": "Deep Learning Models for Medical Diagnostics: Comparative Analysis of CNN, Transformer, and Hybrid Architectures in Radiology and Histopathology",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Comparative review of deep-learning architectures including histopathology applications.",
+      "action": "add_preprint",
+      "reason": "In-scope posted-content; first-version registration and formal title/author lookup checked.",
+      "year": 2025,
+      "first_posted_verified": "2025-05-27",
+      "final_title": "Deep Learning Models for Medical Diagnostics: Comparative Analysis of CNN, Transformer, and Hybrid Architectures in Radiology and Histopathology",
+      "final_url": "https://doi.org/10.22541/au.174838310.00866184/v1",
+      "final_venue": "Authorea",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1202692",
+        "https://api.crossref.org/works/10.22541%2Fau.174838310.00866184%2Fv1",
+        "https://api.crossref.org/works/10.22541%2Fau.174838310.00866184%2Fv1",
+        "https://api.crossref.org/works?query.title=Deep+Learning+Models+for+Medical+Diagnostics%3A+Comparative+Analysis+of+CNN%2C+Transformer%2C+and+Hybrid+Architectures+in+Radiology+and+Histopathology&rows=3"
+      ],
+      "verification_errors": []
+    },
+    {
+      "id": "10.22541/au.176357586.62687374/v1",
+      "title": "Histopathology Image Analysis Tool: An Automated Platform for Quantitative H&E and Biomarker Assessment",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Quantitative H&E and IHC tissue-image analysis software platform.",
+      "action": "add_preprint",
+      "reason": "In-scope posted-content; first-version registration and formal title/author lookup checked.",
+      "year": 2025,
+      "first_posted_verified": "2025-11-19",
+      "final_title": "Histopathology Image Analysis Tool: An Automated Platform for Quantitative H&E and Biomarker Assessment",
+      "final_url": "https://doi.org/10.22541/au.176357586.62687374/v1",
+      "final_venue": "Authorea",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1204151",
+        "https://api.crossref.org/works/10.22541%2Fau.176357586.62687374%2Fv1",
+        "https://api.crossref.org/works/10.22541%2Fau.176357586.62687374%2Fv1",
+        "https://api.crossref.org/works?query.title=Histopathology+Image+Analysis+Tool%3A+An+Automated+Platform+for+Quantitative+H%26E+and+Biomarker+Assessment&rows=3"
+      ],
+      "verification_errors": []
+    },
+    {
+      "id": "10.22541/au.177437371.19151555/v1",
+      "title": "Improved Post-Processing Framework for Whole Slide Imaging and 3D Reconstruction  ",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "WSI illumination correction and registration for 3D histological reconstruction.",
+      "action": "exclude_journal_policy",
+      "reason": "Verified formal journal counterpart is outside the SCIE/CAS2025 major-zone1 allowlist.",
+      "year": 2026,
+      "first_posted_verified": "2026-03-24",
+      "final_title": "Improved Post‐Processing Framework for Whole Slide Imaging and 3D Reconstruction",
+      "final_url": "https://doi.org/10.1002/jemt.70164",
+      "formal_doi": "10.1002/jemt.70164",
+      "formal_journal": "Microscopy Research and Technique",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1204979",
+        "https://api.crossref.org/works/10.22541%2Fau.177437371.19151555%2Fv1",
+        "https://api.crossref.org/works/10.22541%2Fau.177437371.19151555%2Fv1",
+        "https://api.crossref.org/works?query.title=Improved+Post-Processing+Framework+for+Whole+Slide+Imaging+and+3D+Reconstruction%C2%A0%C2%A0&rows=3"
+      ],
+      "verification_errors": []
+    },
+    {
+      "id": "10.1590/scielopreprints.13888",
+      "title": "Artificial Intelligence in Cytological Diagnosis: A Narrative Review of Current Applications, Challenges, and Future Perspectives",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Review of computational and AI-assisted cytological diagnosis.",
+      "action": "add_preprint",
+      "reason": "In-scope posted-content; first-version registration and formal title/author lookup checked.",
+      "year": 2025,
+      "first_posted_verified": "2025-11-10",
+      "final_title": "Artificial Intelligence in Cytological Diagnosis: A Narrative Review of Current Applications, Challenges, and Future Perspectives",
+      "final_url": "https://doi.org/10.1590/scielopreprints.13888",
+      "final_venue": "SciELO Preprints",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1116977",
+        "https://api.crossref.org/works/10.1590%2Fscielopreprints.13888",
+        "https://api.crossref.org/works/10.1590%2Fscielopreprints.13888",
+        "https://api.crossref.org/works?query.title=Artificial+Intelligence+in+Cytological+Diagnosis%3A+A+Narrative+Review+of+Current+Applications%2C+Challenges%2C+and+Future+Perspectives&rows=3"
+      ],
+      "verification_errors": []
+    },
+    {
+      "id": "10.22541/au.173311396.64769747/v1",
+      "title": "Enhanced Segment Anything Model for accurate white blood cell segmentation",
+      "review_basis": "title_and_abstract_scope_passages",
+      "scope_decision": "include",
+      "scope_reason": "Cross-domain white blood cell segmentation using an enhanced SAM pipeline.",
+      "action": "exclude_journal_policy",
+      "reason": "Verified formal journal counterpart is outside the SCIE/CAS2025 major-zone1 allowlist.",
+      "year": 2024,
+      "first_posted_verified": "2024-12-02",
+      "final_title": "Enhanced Segment Anything Model for Accurate White Blood Cell Segmentation",
+      "final_url": "https://doi.org/10.1049/ell2.70185",
+      "formal_doi": "10.1049/ell2.70185",
+      "formal_journal": "Electronics Letters",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1193490",
+        "https://api.crossref.org/works/10.22541%2Fau.173311396.64769747%2Fv1",
+        "https://api.crossref.org/works/10.22541%2Fau.173311396.64769747%2Fv1",
+        "https://api.crossref.org/works/10.1049%2Fell2.70185",
+        "https://api.crossref.org/works?query.title=Enhanced+Segment+Anything+Model+for+accurate+white+blood+cell+segmentation&rows=3"
+      ],
+      "verification_errors": []
+    }
+  ],
+  "additional_primary_decisions": [
+    {
+      "url": "https://osf.io/b2k4z",
+      "action": "exclude_nonpaper_asset",
+      "reason": "Histopathology dataset/project lead, not a verified manuscript."
+    }
+  ]
+}

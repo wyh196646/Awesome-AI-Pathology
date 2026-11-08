@@ -1,0 +1,128 @@
+{
+  "date": "2026-11-08",
+  "cutoff_utc": "2026-11-07",
+  "baseline_commit": "892753ed2c7785dc416a5290732f34e9e3a585f9",
+  "request": "Recover Fuji and expand discovery beyond the three original preprint collectors.",
+  "root_cause": "Fuji matches the unchanged 258-topic-term vocabulary. Research Square was outside the original fixed source set and its August first posting preceded the original September rolling window.",
+  "yearly_source_status": {
+    "2023": {
+      "status": "complete",
+      "since": "2023-01-01",
+      "until": "2023-12-31",
+      "date_field": "first",
+      "retrieved_unique": 8587,
+      "candidates": 6536,
+      "errors": [],
+      "coverage": "Indexed preprints matching the recorded title/abstract queries. Index coverage and original server coverage are distinct."
+    },
+    "2024": {
+      "status": "complete",
+      "since": "2024-01-01",
+      "until": "2024-12-31",
+      "date_field": "first",
+      "retrieved_unique": 8299,
+      "candidates": 6225,
+      "errors": [],
+      "coverage": "Indexed preprints matching the recorded title/abstract queries. Index coverage and original server coverage are distinct."
+    },
+    "2025": {
+      "status": "complete",
+      "since": "2025-01-01",
+      "until": "2025-12-31",
+      "date_field": "first",
+      "retrieved_unique": 7384,
+      "candidates": 5670,
+      "errors": [],
+      "coverage": "Indexed preprints matching the recorded title/abstract queries. Index coverage and original server coverage are distinct."
+    },
+    "2026": {
+      "status": "complete",
+      "since": "2026-01-01",
+      "until": "2026-11-07",
+      "date_field": "first",
+      "retrieved_unique": 9102,
+      "candidates": 6639,
+      "errors": [],
+      "coverage": "Indexed preprints matching the recorded title/abstract queries. Index coverage and original server coverage are distinct."
+    }
+  },
+  "retrieved_index_records_unique": 33372,
+  "keyword_candidates_canonical_versions": 24939,
+  "candidate_platforms": {
+    "Preprints.org": 4092,
+    "Research Square": 18653,
+    "Authorea": 1306,
+    "unclassified": 588,
+    "OSF Preprints": 214,
+    "SSRN": 28,
+    "SciELO Preprints": 16,
+    "ScienceOpen Preprints": 42
+  },
+  "scope_notes": 82,
+  "scope_review_basis": "Title and available abstract/scope passages, followed by original-page and registration/status checks for proposed admissions. No blanket full-text-reading claim.",
+  "metadata_reviews": 74,
+  "review_actions": {
+    "add_preprint": 40,
+    "duplicate_existing": 8,
+    "exclude_journal_policy": 18,
+    "pending_identity": 8,
+    "exclude_scope": 1,
+    "pending_abstract": 7
+  },
+  "additions": 40,
+  "identity_updates": 8,
+  "formal_migrations": 0,
+  "removals": 0,
+  "total_publication_entries": 4932,
+  "additions_by_year": {
+    "2026": 29,
+    "2025": 7,
+    "2024": 2,
+    "2023": 2
+  },
+  "additions_by_platform": {
+    "Research Square": 28,
+    "Preprints.org": 4,
+    "ScienceOpen Preprints": 1,
+    "Authorea": 3,
+    "SciELO Preprints": 1,
+    "SSRN": 3
+  },
+  "pending_index_candidates": 24878,
+  "pending_files": [
+    "docs/updates/2026-11-08-platforms-pending-01.json",
+    "docs/updates/2026-11-08-platforms-pending-02.json",
+    "docs/updates/2026-11-08-platforms-pending-03.json",
+    "docs/updates/2026-11-08-platforms-pending-04.json",
+    "docs/updates/2026-11-08-platforms-pending-05.json"
+  ],
+  "external_ssrn_discovery_records": 17,
+  "unreviewed_official_domain_leads": "Preserved as lead URLs in the query audit. They have not all passed abstract/version/venue review.",
+  "original_three_sources_this_run": "Not rerun in this targeted platform expansion. Their previous checkpoints and separate backlog remain unchanged.",
+  "source_failures_and_recovery": [
+    "All four yearly Europe PMC searches completed with full advertised pagination. Index coverage is not original-server coverage.",
+    "Direct SSRN HTML requests returned HTTP 403 for all 17 selected IDs. Official-domain search snapshots and Crossref registration supplied reviewed metadata. Seven records still lack reviewed abstracts and remain pending.",
+    "Transient Research Square SSL EOF failures were retried serially and recovered. Fuji original metadata was fetched successfully.",
+    "Original server and DOI registration were checked for first-version dates. Formal title lookup is a recall aid and can miss retitled publications, so unresolved counterparts remain pending."
+  ],
+  "journal_rule": "Unchanged 101-journal verified SCIE/CAS2025 major-zone1 allowlist. Formal papers outside it remain excluded until eligibility evidence is verified. Preprint cross-posting cannot bypass this gate.",
+  "checkpoint_advanced": false,
+  "checkpoint_reason": "This is a published reviewed subset of the historical expansion. Item-level and identity review remain incomplete.",
+  "keywords": {
+    "topic_terms": 258,
+    "topic_terms_changed": false,
+    "config": "config/literature-keywords.json"
+  },
+  "raw_cache_local": "C:\\Users\\Microgle\\Documents\\Codex\\2026-10-03\\https-github-com-wyh196646-awesome-ai\\work\\literature_update\\platform-expansion-2026-11-08",
+  "raw_abstracts_committed": false,
+  "query_file": "docs/updates/2026-11-08-platforms-queries.json",
+  "decision_file": "docs/updates/2026-11-08-platforms-decisions.json",
+  "validation": {
+    "unit_tests": 27,
+    "journal_validation": "passed",
+    "original_entries_preserved": 4892,
+    "original_code_data_website_links_preserved": true,
+    "homepage_dated_announcements": false
+  },
+  "publication": "Branch PR with checks/review, then merge and main synchronization. The PR/merge links provide the final delivery evidence."
+}
