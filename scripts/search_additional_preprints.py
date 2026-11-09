@@ -12,6 +12,7 @@ import json
 import re
 import sys
 import urllib.parse
+import uuid
 from html.parser import HTMLParser
 from pathlib import Path
 
@@ -211,7 +212,7 @@ def main():
         parser.error("Invalid date range or page limit")
     if dt.date.fromisoformat(args.until) >= dt.datetime.now(dt.timezone.utc).date():
         parser.error("--until must be a completed UTC day")
-    attempt_id = dt.datetime.now(dt.timezone.utc).strftime("%Y%m%dT%H%M%S%fZ")
+    attempt_id = dt.datetime.now(dt.timezone.utc).strftime("%Y%m%dT%H%M%S%fZ") + "-" + uuid.uuid4().hex
     cache = Path(args.cache_dir) if args.cache_dir else ROOT / ".cache/additional-preprints" / attempt_id
     cache.mkdir(parents=True, exist_ok=True)
     if args.check_research_square:

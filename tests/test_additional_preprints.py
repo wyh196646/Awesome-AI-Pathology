@@ -87,8 +87,11 @@ class AdditionalPreprintTests(unittest.TestCase):
             (root / "config/literature-keywords.json").write_text(json.dumps({"lookback_overlap_days": 14}))
             (root / "data/weekly-update-state.json").write_text("{}")
             (root / "data/excluded-journal-identities.json").write_text("{}")
+            fixed_time = module.dt.datetime(2026, 11, 9, tzinfo=module.dt.timezone.utc)
             with patch.object(module, "ROOT", root), patch.object(module, "collect"), \
+                    patch.object(module.dt, "datetime", wraps=module.dt.datetime) as clock, \
                     patch.object(sp, "existing_entries", return_value=[]), contextlib.redirect_stdout(io.StringIO()):
+                clock.now.return_value = fixed_time
                 for year in [2023, 2024, 2023]:
                     with patch.object(sys, "argv", ["search", "--since", f"{year}-01-01", "--until", f"{year}-12-31"]):
                         self.assertEqual(module.main(), 0)
