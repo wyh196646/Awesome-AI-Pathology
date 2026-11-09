@@ -164,6 +164,13 @@
     },
     {
       "source": "biorxiv",
+      "id": "10.1101/2025.07.03.662899",
+      "title": "Cortex-Wide, Cellular-Resolution Volumetric Imaging with a Modular Two-Photon Imaging Platform",
+      "reason": "Primary contribution is a specialized two-photon cortical functional-imaging platform. The abstract mentions supporting motion correction, segmentation and spike inference, while general computational pathology/omics or reusable cell-image-analysis applicability requires further primary evidence.",
+      "last_checked": "2026-11-09"
+    },
+    {
+      "source": "biorxiv",
       "id": "10.1101/2025.06.05.658079",
       "title": "Comprehensive molecular impact mapping of common and rare variants at GWAS loci",
       "reason": "Sequence-to-function variant model with single-nucleus ATAC validation. Further review required to establish a substantive single-cell method/resource contribution within the collection scope.",
@@ -289,7 +296,7 @@
     "arxiv_revision_coverage": "pending_expanded_vocabulary_recovery",
     "checkpoint_rule": "Recover pending records and complete the relevant source interval review before advancing that source checkpoint.",
     "latest_batch": "docs/updates/2026-11-09.json",
-    "pending_total": 1627
+    "pending_total": 1628
   },
   "pending_conference_checks": [
     {

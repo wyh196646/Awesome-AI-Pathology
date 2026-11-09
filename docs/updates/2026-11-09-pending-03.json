@@ -2598,6 +2598,16 @@
     },
     {
       "source": "biorxiv",
+      "id": "10.1101/2025.07.03.662899",
+      "version": 4,
+      "title": "Cortex-Wide, Cellular-Resolution Volumetric Imaging with a Modular Two-Photon Imaging Platform",
+      "paper_url": "https://www.biorxiv.org/content/10.1101/2025.07.03.662899v4",
+      "updated": "2026-10-24",
+      "action": "pending_scope",
+      "reason": "Primary contribution is a specialized two-photon cortical functional-imaging platform. The abstract mentions supporting motion correction, segmentation and spike inference, while general computational pathology/omics or reusable cell-image-analysis applicability requires further primary evidence."
+    },
+    {
+      "source": "biorxiv",
       "id": "10.1101/2025.07.14.664831",
       "version": 1,
       "title": "Identification of biomarkers for ulcerative morphology in carotid atherosclerosis plaques through single-cell RNA sequencing data",
@@ -4002,16 +4012,6 @@
       "version": 1,
       "title": "Neutrophils-Nitroblue Tetrazolium staining: A potential novel marker of women infertilely?",
       "paper_url": "https://www.biorxiv.org/content/10.64898/2026.08.02.742324v1",
-      "action": "pending_review",
-      "reason": "Unresolved broad-scope candidate retained for item-level review.",
-      "retrieval_url": "https://api.biorxiv.org/details/biorxiv/2026-01-01/2026-11-01/270/json?category=pathology"
-    },
-    {
-      "source": "biorxiv",
-      "id": "10.64898/2026.08.05.742729",
-      "version": 1,
-      "title": "Desmin p.R406W mutation is associated with arrhythmias through structural and electrophysiological remodeling",
-      "paper_url": "https://www.biorxiv.org/content/10.64898/2026.08.05.742729v1",
       "action": "pending_review",
       "reason": "Unresolved broad-scope candidate retained for item-level review.",
       "retrieval_url": "https://api.biorxiv.org/details/biorxiv/2026-01-01/2026-11-01/270/json?category=pathology"

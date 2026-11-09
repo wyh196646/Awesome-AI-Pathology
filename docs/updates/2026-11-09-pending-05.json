@@ -3,6 +3,16 @@
   "candidates": [
     {
       "source": "medrxiv",
+      "id": "10.64898/2026.05.29.26354196",
+      "version": 1,
+      "title": "Understanding Human AI Discrepancy in Breast Cancer TIL Assessment: A Multi-Rater and Perceptual Bias Study",
+      "paper_url": "https://www.medrxiv.org/content/10.64898/2026.05.29.26354196v1",
+      "action": "pending_review",
+      "reason": "Unresolved broad-scope candidate retained for item-level review.",
+      "retrieval_url": "https://api.biorxiv.org/details/medrxiv/2026-01-01/2026-11-01/30/json?category=pathology"
+    },
+    {
+      "source": "medrxiv",
       "id": "10.64898/2026.06.02.26354731",
       "version": 1,
       "title": "Interpretable machine learning for coeliac disease diagnosis: quantitative morphometry of duodenal biopsies",

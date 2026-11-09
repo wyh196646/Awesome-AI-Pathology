@@ -23,7 +23,7 @@ See the [verified journal policy](config/journal-policy.json).
 
 ## Highlights
 
-- 📚 5,016 curated publication entries in computational pathology and tissue omics
+- 📚 5,015 curated publication entries in computational pathology and tissue omics
 - 🧠 Foundation models, WSI analysis, VLMs, agents, and spatial omics
 - 🏛️ Top conferences and journals: CVPR, ICCV, NeurIPS, ICML, ICLR, MICCAI, MIDL, Nature, Cell, Lancet, IEEE TPAMI, IEEE TMI, MedIA
 - 📊 Year-by-year and venue-by-venue paper tracking
@@ -217,7 +217,7 @@ Earlier years remain on this page.
 
 # 2025
 
-**1,150 publications** · [Browse the complete 2025 list](papers/2025.md)
+**1,149 publications** · [Browse the complete 2025 list](papers/2025.md)
 
 - [Nature](papers/2025.md#nature) (5)
 - [Nature Medicine](papers/2025.md#nature-medicine) (3)
@@ -297,7 +297,7 @@ Earlier years remain on this page.
 - [MIDL 2025](papers/2025.md#midl-2025) (13)
 - [ML4H 2025](papers/2025.md#ml4h-2025) (3)
 - [arXiv](papers/2025.md#arxiv) (365)
-- [bioRxiv](papers/2025.md#biorxiv) (41)
+- [bioRxiv](papers/2025.md#biorxiv) (40)
 - [medRxiv](papers/2025.md#medrxiv) (15)
 - [CIKM 2025](papers/2025.md#cikm-2025) (1)
 - [COMPLEX NETWORKS 2025](papers/2025.md#complex-networks-2025) (1)

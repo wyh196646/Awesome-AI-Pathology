@@ -62,30 +62,30 @@
   "withdrawal_status_reviews": 6,
   "publication_identity_reviews": 102,
   "review_actions": {
-    "add_preprint": 83,
+    "add_preprint": 82,
     "add_formal": 1,
     "exclude_journal_policy": 9,
     "pending_identity": 5,
-    "pending_scope": 13,
+    "pending_scope": 14,
     "exclude_scope": 50,
     "exclude_withdrawn": 6,
     "duplicate_existing": 4
   },
-  "additions": 84,
+  "additions": 83,
   "revisions": 4,
   "formal_migrations": 0,
   "removals": 0,
-  "total_entries": 5016,
+  "total_entries": 5015,
   "by_year": {
     "2026": 82,
-    "2025": 2
+    "2025": 1
   },
   "by_venue": {
     "Preprints.org": 4,
     "Gastroenterology": 1,
     "Research Square": 14,
     "ScienceOpen Preprints": 1,
-    "bioRxiv": 54,
+    "bioRxiv": 53,
     "arXiv": 2,
     "medRxiv": 8
   },
@@ -93,7 +93,7 @@
   "verified_journals": 102,
   "checkpoint_advanced": false,
   "checkpoint_reason": "arXiv updated-date API failed. Historical/source item review and publication identities remain pending.",
-  "original_source_pending": 1627,
+  "original_source_pending": 1628,
   "additional_index_pending": 24927,
   "pending_files": [
     "docs/updates/2026-11-09-pending-01.json",
@@ -166,6 +166,11 @@
     "newly_eligible": 0,
     "corrected_new_title": "SPACE-Tag Enables High-Throughput Spatial Chromatin Profiling With CUT&Tag",
     "regression_test": "test_text_ending_with_ampersand_word_is_retained"
+  },
+  "pr_scope_review": {
+    "id": "10.1101/2025.07.03.662899",
+    "action": "pending_scope",
+    "reason": "Specialized two-photon cortical imaging platform held after review. Further evidence of general pathology/omics or reusable cell-image-analysis applicability is required."
   },
   "availability_notes": [
     "Cell IO author-provided website returned HTTP403. The URL is retained as an author resource with access availability unverified."
