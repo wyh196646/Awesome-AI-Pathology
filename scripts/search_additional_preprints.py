@@ -39,6 +39,7 @@ class AbstractText(HTMLParser):
         super().__init__()
         self.parts = []
         self.feed(value)
+        self.close()
 
     def handle_data(self, value):
         self.parts.append(value)

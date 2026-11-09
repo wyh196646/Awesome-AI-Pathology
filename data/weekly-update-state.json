@@ -12,7 +12,7 @@
       "last_successful_until": "2026-11-01"
     }
   },
-  "last_audit": "docs/updates/2026-11-08-platforms.json",
+  "last_audit": "docs/updates/2026-11-09.json",
   "pending_publication_checks": [
     {
       "arxiv_id": "2509.23097",
@@ -100,8 +100,9 @@
       "id": "10.64898/2026.11.02.763843",
       "title": "Transcriptional contingency in the early hematopoiesis of inherited bone marrow failure syndromes",
       "paper_url": "https://www.biorxiv.org/content/10.64898/2026.11.02.763843v1",
-      "reason": "Same-title author-overlapping publisher record may be a meeting abstract rather than a full journal counterpart. Publisher access returned 403; hold for full-version confirmation.",
-      "formal_doi": "10.1016/j.ejcped.2025.100339"
+      "reason": "Earlier same-title/author item is an EWOG-MDS/SAA 2025 meeting abstract in EJC Paediatric Oncology. Full preprint versus abstract-only publication identity requires original full-manuscript confirmation. Official PDF and bioRxiv full-text access failed in this run.",
+      "formal_doi": "10.1016/j.ejcped.2025.100339",
+      "last_checked": "2026-11-09"
     },
     {
       "source": "arxiv",
@@ -111,6 +112,132 @@
       "paper_url": "https://arxiv.org/abs/2610.35890v1",
       "action": "pending_metadata_date",
       "reason": "Official v1 history and abstract metadata agree on year 2026, but September 10 conflicts with the October ID month. Retain verified year and omit the precise day pending source resolution."
+    },
+    {
+      "source": "europepmc",
+      "id": "10.21203/rs.3.rs-5985837/v1",
+      "title": "Closing the Automation Gap: Robust AI for Dual-Stain Cervical Cancer Screening Triage",
+      "reason": "Possible retitled formal counterpart requires primary-source reconciliation.",
+      "last_checked": "2026-11-09"
+    },
+    {
+      "source": "europepmc",
+      "id": "10.21203/rs.3.rs-9575788/v1",
+      "title": "Visual embedding retrieval mitigates the perception–cognition gap of vision-language models in aquatic pathology",
+      "reason": "Fish-disease retrieval benchmark. Verify whether inputs are tissue/cell microscopy or unrelated whole-fish photographs before admission.",
+      "last_checked": "2026-11-09"
+    },
+    {
+      "source": "europepmc",
+      "id": "10.21203/rs.3.rs-11313159/v1",
+      "title": "SCMG: A Multi-Omics and Stage-Resolved Single-Cell Framework for Cancer Driver Gene Prioritization",
+      "reason": "Possible retitled formal counterpart requires primary-source reconciliation.",
+      "last_checked": "2026-11-09"
+    },
+    {
+      "source": "europepmc",
+      "id": "10.21203/rs.3.rs-6314842/v1",
+      "title": "A Spatial Multi-Omic Framework Identifies Gliomas Permissive to TIL Expansion",
+      "reason": "Possible retitled formal counterpart requires primary-source reconciliation.",
+      "last_checked": "2026-11-09"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.64898/2026.11.02.26367124",
+      "title": "Unravelling the mechanisms of clozapine-induced neutropenia in treatment-resistant schizophrenia using cellular genomics",
+      "reason": "Formal counterpart requires author/venue/issue confirmation.",
+      "last_checked": "2026-11-09"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.64898/2026.11.02.26367052",
+      "title": "Analytical Validation and Clinical Implementation of MedGenome HRD Assay: A Large Comparative Study Against Commercial HRD Assays in Ovarian Cancer",
+      "reason": "Review full computational contribution of the in-house HRD assay before admission.  abstract describes clinical assay validation and concordance.",
+      "last_checked": "2026-11-09"
+    },
+    {
+      "source": "medrxiv",
+      "id": "10.64898/2026.11.03.26367177",
+      "title": "The Clinical and Cellular Landscape of DKK1 in Osteosarcoma",
+      "reason": "Review breadth of single-cell/tissue computational contribution.  abstract uses cellular localization of one prognostic biomarker.",
+      "last_checked": "2026-11-09"
+    },
+    {
+      "source": "biorxiv",
+      "id": "10.1101/2025.07.03.662899",
+      "title": "Cortex-Wide, Cellular-Resolution Volumetric Imaging with a Modular Two-Photon Imaging Platform",
+      "reason": "Primary contribution is a specialized two-photon cortical functional-imaging platform. The abstract mentions supporting motion correction, segmentation and spike inference, while general computational pathology/omics or reusable cell-image-analysis applicability requires further primary evidence.",
+      "last_checked": "2026-11-09"
+    },
+    {
+      "source": "biorxiv",
+      "id": "10.1101/2025.06.05.658079",
+      "title": "Comprehensive molecular impact mapping of common and rare variants at GWAS loci",
+      "reason": "Sequence-to-function variant model with single-nucleus ATAC validation. Further review required to establish a substantive single-cell method/resource contribution within the collection scope.",
+      "last_checked": "2026-11-09"
+    },
+    {
+      "source": "biorxiv",
+      "id": "10.64898/2026.10.21.760645",
+      "title": "Single-nucleus transcriptomics and phosphoproteomics identify misregulated sperm components in mice carrying a selfish supergene",
+      "reason": "Single-nucleus spermatogenesis analysis mainly addresses transmission distortion/evolution. Biomedical tissue-scope relevance requires further review.",
+      "last_checked": "2026-11-09"
+    },
+    {
+      "source": "biorxiv",
+      "id": "10.64898/2026.10.18.760012",
+      "title": "Comparative single-cell transcriptomics links gene expression divergence to Drosophila genital morphogenesis",
+      "reason": "Comparative insect developmental single-cell atlas mainly addresses morphological evolution. General method versus biomedical tissue relevance requires review.",
+      "last_checked": "2026-11-09"
+    },
+    {
+      "source": "biorxiv",
+      "id": "10.64898/2026.10.27.760146",
+      "title": "Recurrent mitotic error and purifying selection shape chromosomal mosaicism across human tissues",
+      "reason": "Human multi-tissue bulk-WGS mosaicism resource. Further review needed to establish contribution within image/spatial/single-cell or cancer multimodal scope.",
+      "last_checked": "2026-11-09"
+    },
+    {
+      "source": "biorxiv",
+      "id": "10.64898/2026.10.27.761882",
+      "title": "Tumour architecture inverts ARNT-dependent growth regulation and reveals CPE-mediated spheroid expansion in luminal breast cancer",
+      "reason": "Architecture-dependent functional genetics with single-cell validation. Further review required to distinguish substantive single-cell analysis from ancillary validation.",
+      "last_checked": "2026-11-09"
+    },
+    {
+      "source": "biorxiv",
+      "id": "10.64898/2026.10.31.762810",
+      "title": "A conserved pituitary response to tissue loss controls regeneration across vertebrates",
+      "reason": "Regeneration biology supported by single-cell tissue signaling. Extent of the reusable/substantial single-cell contribution requires review.",
+      "last_checked": "2026-11-09"
+    },
+    {
+      "source": "biorxiv",
+      "id": "10.64898/2026.11.04.763940",
+      "title": "Platelet-endothelial crosstalk drives distinct endothelial dysfunction in bicuspid aortic valve disease",
+      "reason": "Bulk endothelial multiomics with inferred cell signaling. Further review needed to establish scope beyond routine mechanistic cell-culture analysis.",
+      "last_checked": "2026-11-09"
+    },
+    {
+      "source": "biorxiv",
+      "id": "10.64898/2026.11.04.764222",
+      "title": "Failed allogeneic corneal lenticules show fibrosis and identity loss without dominant T cell rejection",
+      "reason": "Explant bulk expression and single-cell-reference-calibrated identity scores. Reusable computational contribution and direct single-cell analysis require review.",
+      "last_checked": "2026-11-09"
+    },
+    {
+      "source": "biorxiv",
+      "id": "10.64898/2026.11.04.764396",
+      "title": "Sex-specific gene and isoform expression characterizes hippocampal aging in rhesus macaques",
+      "reason": "Bulk short/long-read aging analysis with public single-nucleus network comparison. Extent of the single-cell resource/method contribution requires review.",
+      "last_checked": "2026-11-09"
+    },
+    {
+      "source": "biorxiv",
+      "id": "10.64898/2026.10.14.758964",
+      "title": "Advancing CD38 from a marker of disease activity to an active regulator of interferon responses in juvenile dermatomyositis",
+      "reason": "In-silico perturbation and drug nomination in disease immune cells. Cell-resolution inputs and computational contribution require primary full-paper review.",
+      "last_checked": "2026-11-09"
     }
   ],
   "pending_acceptance_checks": [
@@ -157,18 +284,19 @@
   ],
   "pending_recall_review": {
     "scope_revision": "2026-11-02",
-    "retrieval_cutoff_utc": "2026-11-06",
-    "pending_item_level_review": 1709,
+    "retrieval_cutoff_utc": "2026-11-08",
+    "pending_item_level_review": 1600,
     "files": [
-      "docs/updates/2026-11-07-pending-01.json",
-      "docs/updates/2026-11-07-pending-02.json",
-      "docs/updates/2026-11-07-pending-03.json",
-      "docs/updates/2026-11-07-pending-04.json",
-      "docs/updates/2026-11-07-pending-05.json"
+      "docs/updates/2026-11-09-pending-01.json",
+      "docs/updates/2026-11-09-pending-02.json",
+      "docs/updates/2026-11-09-pending-03.json",
+      "docs/updates/2026-11-09-pending-04.json",
+      "docs/updates/2026-11-09-pending-05.json"
     ],
     "arxiv_revision_coverage": "pending_expanded_vocabulary_recovery",
     "checkpoint_rule": "Recover pending records and complete the relevant source interval review before advancing that source checkpoint.",
-    "latest_batch": "docs/updates/2026-11-07.json"
+    "latest_batch": "docs/updates/2026-11-09.json",
+    "pending_total": 1628
   },
   "pending_conference_checks": [
     {
@@ -192,20 +320,22 @@
     "europepmc_preprints": {
       "last_successful_until": null,
       "bootstrap_since": "2023-01-01",
-      "last_retrieval_until": "2026-11-07",
-      "retrieval_status": "complete_for_recorded_yearly_index_queries",
+      "last_retrieval_until": "2026-11-08",
+      "retrieval_status": "complete",
       "review_status": "partial",
-      "pending_index_candidates": 24878,
+      "pending_index_candidates": 24927,
       "pending_files": [
         "docs/updates/2026-11-08-platforms-pending-01.json",
         "docs/updates/2026-11-08-platforms-pending-02.json",
         "docs/updates/2026-11-08-platforms-pending-03.json",
         "docs/updates/2026-11-08-platforms-pending-04.json",
-        "docs/updates/2026-11-08-platforms-pending-05.json"
+        "docs/updates/2026-11-08-platforms-pending-05.json",
+        "docs/updates/2026-11-09-additional-pending.json"
       ],
-      "pending_external_records": "docs/updates/2026-11-08-platforms-decisions.json",
-      "official_domain_leads": "docs/updates/2026-11-08-platforms-queries.json",
-      "checkpoint_rule": "Finish source review and publish before advancing. Retrieve recent updates independently while preserving the historical queue."
+      "pending_external_records": "docs/updates/2026-11-09-decisions.json",
+      "official_domain_leads": "docs/updates/2026-11-09-queries.json",
+      "checkpoint_rule": "Finish source review and publish before advancing. Retrieve recent updates independently while preserving the historical queue.",
+      "resolved_index_overlay": "docs/updates/2026-11-09-additional-pending.json"
     }
   }
 }

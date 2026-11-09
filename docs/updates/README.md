@@ -10,6 +10,7 @@ historical additions, paper metadata and counts are not the current bibliography
 or an inclusion allowlist. The October 4 and October 5 audits predate the journal
 filter; their removed entries remain recoverable in Git history.
 
+- [2026-11-09 每周维护](2026-11-09.md) — 83 篇新增、4 个修订与来源状态。
 - [2026-11-08 扩展预印本平台与 Fuji 补录](2026-11-08-platforms.md) — 40 篇新增、8 个身份链接与待审范围。
 - [2026-11-07 近期补充](2026-11-07.md) — 116 篇新增、7 篇修订与合并待审队列。
 - [2026-11-07 recall recovery and homepage cleanup](2026-11-07-recovery.md)

@@ -15,6 +15,14 @@ import journal_policy as jp
 
 
 class AdditionalPreprintTests(unittest.TestCase):
+    def test_text_ending_with_ampersand_word_is_retained(self):
+        title = "SPACE-Tag Enables High-Throughput Spatial Chromatin Profiling With CUT&Tag"
+        self.assertEqual("".join(module.AbstractText(title).parts), title)
+        row = {"id": "PPR1", "source": "PPR", "title": title,
+               "abstractText": "<p>Spatial chromatin profiling</p> with CUT&Tag"}
+        record = module.parse_record(row, "https://example.org/query")
+        self.assertEqual(record["abstract"], "Spatial chromatin profiling with CUT&Tag")
+
     def test_null_abstract_keeps_the_candidate(self):
         row = {"id": "PPR1", "source": "PPR", "title": "Histopathology benchmark",
                "abstractText": None, "doi": None}

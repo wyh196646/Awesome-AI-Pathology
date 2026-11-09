@@ -1,0 +1,200 @@
+{
+  "date": "2026-11-09",
+  "cutoff_utc": "2026-11-08",
+  "baseline_commit": "fcc79cbcc32d6c4aeddcbed0e1cbdb730ddaa41d",
+  "source_status": {
+    "biorxiv": {
+      "status": "complete",
+      "since": "2026-10-18",
+      "until": "2026-11-08",
+      "retrieved_unique": 4772,
+      "candidates": 873
+    },
+    "medrxiv": {
+      "status": "complete",
+      "since": "2026-10-18",
+      "until": "2026-11-08",
+      "retrieved_unique": 1305,
+      "candidates": 135
+    },
+    "arxiv": {
+      "status": "failed",
+      "since": "2026-10-18",
+      "until": "2026-11-08",
+      "error": "HTTPError: HTTP Error 429: Unknown Error"
+    },
+    "arxiv_html": {
+      "status": "complete",
+      "mode": "official_HTML_original_announcement_supplement",
+      "since": "2026-10-18",
+      "until": "2026-11-08",
+      "terms": [
+        "pathology",
+        "histopathology",
+        "histology",
+        "pathologist",
+        "whole slide",
+        "cytology",
+        "spatial transcriptomics",
+        "single cell",
+        "cell image",
+        "tissue image"
+      ],
+      "field": "all",
+      "retrieved_unique": 567,
+      "candidates": 190,
+      "errors": [],
+      "limitation": "Completeness refers only to these query pages; older revised papers require a separate updated-date search."
+    },
+    "europepmc_preprints": {
+      "status": "complete",
+      "since": "2026-10-24",
+      "until": "2026-11-08",
+      "date_field": "updated",
+      "retrieved_unique": 1038,
+      "candidates": 773,
+      "errors": [],
+      "coverage": "Indexed preprints matching the recorded title/abstract queries. Index coverage and original server coverage are distinct."
+    }
+  },
+  "item_review_notes": 171,
+  "scope_reviews": 165,
+  "withdrawal_status_reviews": 6,
+  "publication_identity_reviews": 102,
+  "review_actions": {
+    "add_preprint": 82,
+    "add_formal": 1,
+    "exclude_journal_policy": 9,
+    "pending_identity": 5,
+    "pending_scope": 14,
+    "exclude_scope": 50,
+    "exclude_withdrawn": 6,
+    "duplicate_existing": 4
+  },
+  "additions": 83,
+  "revisions": 4,
+  "formal_migrations": 0,
+  "removals": 0,
+  "total_entries": 5015,
+  "by_year": {
+    "2026": 82,
+    "2025": 1
+  },
+  "by_venue": {
+    "Preprints.org": 4,
+    "Gastroenterology": 1,
+    "Research Square": 14,
+    "ScienceOpen Preprints": 1,
+    "bioRxiv": 53,
+    "arXiv": 2,
+    "medRxiv": 8
+  },
+  "new_journal": "Gastroenterology",
+  "verified_journals": 102,
+  "checkpoint_advanced": false,
+  "checkpoint_reason": "arXiv updated-date API failed. Historical/source item review and publication identities remain pending.",
+  "original_source_pending": 1628,
+  "additional_index_pending": 24927,
+  "pending_files": [
+    "docs/updates/2026-11-09-pending-01.json",
+    "docs/updates/2026-11-09-pending-02.json",
+    "docs/updates/2026-11-09-pending-03.json",
+    "docs/updates/2026-11-09-pending-04.json",
+    "docs/updates/2026-11-09-pending-05.json"
+  ],
+  "additional_delta": "docs/updates/2026-11-09-additional-pending.json",
+  "version_alias": "spAlignDE bioRxiv v1 is 2026-09-12, preceding Research Square v1 2026-11-02. Same six-author team and matching method. Retain both IDs in one entry.",
+  "withdrawal_checks": [
+    {
+      "id": "10.64898/2026.08.11.744155",
+      "source": "biorxiv",
+      "version": 2,
+      "title": "WITHDRAWN: Evaluating phage-antibiotic synergy in differentiated primary airway epithelial cultures against Pseudomonas aeruginosa",
+      "date": "2026-11-04",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.11.744155v2",
+      "existing_matches": 0
+    },
+    {
+      "id": "10.64898/2025.12.11.693708",
+      "source": "biorxiv",
+      "version": 2,
+      "title": "WITHDRAWN: PD-L2 Regulates Natural Antibody and IL-10 Secretion by B-1 cells",
+      "date": "2026-10-29",
+      "url": "https://www.biorxiv.org/content/10.64898/2025.12.11.693708v2",
+      "existing_matches": 0
+    },
+    {
+      "id": "10.1101/2025.11.06.687046",
+      "source": "biorxiv",
+      "version": 2,
+      "title": "WITHDRAWN: Omnidirectional 3D Printing of Anisotropic Nanofibrous Peptide Hydrogels",
+      "date": "2026-10-27",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.11.06.687046v2",
+      "existing_matches": 0
+    },
+    {
+      "id": "10.64898/2026.08.07.26359966",
+      "source": "medrxiv",
+      "version": 2,
+      "title": "WITHDRAWN: Relevance Based Prediction: A Transparent, Non-Artificial Intelligence, Mathematical Solution to Personalized Opioid Treatment",
+      "date": "2026-10-20",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.08.07.26359966v2",
+      "existing_matches": 0
+    },
+    {
+      "id": "10.64898/2026.04.26.720864",
+      "source": "biorxiv",
+      "version": 2,
+      "title": "WITHDRAWN: Post-GWAS functional annotation of the RPTOR locus identifies rs12950541 as a candidate regulatory variant for type 2 diabetes and metabolic traits",
+      "date": "2026-10-28",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.26.720864v2",
+      "existing_matches": 0
+    },
+    {
+      "id": "10.64898/2026.05.27.26354295",
+      "source": "medrxiv",
+      "version": 3,
+      "title": "WITHDRAWN: Connecting Baseline Immune Exhaustion in Hot Tumors to Oral Cancer Recurrence and Nodal Metastasis",
+      "date": "2026-11-02",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.05.27.26354295v3",
+      "existing_matches": 0
+    }
+  ],
+  "parser_recovery": {
+    "current_index_records_reparsed": 1038,
+    "changed_abstracts": [],
+    "newly_eligible": 0,
+    "corrected_new_title": "SPACE-Tag Enables High-Throughput Spatial Chromatin Profiling With CUT&Tag",
+    "regression_test": "test_text_ending_with_ampersand_word_is_retained"
+  },
+  "pr_scope_review": {
+    "id": "10.1101/2025.07.03.662899",
+    "action": "pending_scope",
+    "reason": "Specialized two-photon cortical imaging platform held after review. Further evidence of general pathology/omics or reusable cell-image-analysis applicability is required."
+  },
+  "availability_notes": [
+    "Cell IO author-provided website returned HTTP403. The URL is retained as an author resource with access availability unverified."
+  ],
+  "retrieval_recovery": {
+    "biorxiv_medrxiv": "Slow sequential retrieval was recovered with bounded parallel prefetch. Initial 30-second timeouts/503 responses were retried with a 90-second timeout. All 213 pages validated cursor, fixed total, page length and date range, then search_preprints.py completed both sources from this cache.",
+    "version_rows": {
+      "biorxiv": 5003,
+      "medrxiv": 1376
+    },
+    "pages": {
+      "biorxiv": 167,
+      "medrxiv": 46
+    },
+    "unresolved_page_errors": []
+  },
+  "review_basis": "Title/full available abstract for item-level scope notes, official version/registration/publisher metadata for admissions. Raw API abstracts remain local.",
+  "validation": {
+    "unit_tests": 35,
+    "original_entries_preserved": 4932,
+    "new_duplicate_title_keys": [],
+    "homepage_dated_announcements": false
+  },
+  "local_evidence": "C:\\Users\\Microgle\\Documents\\Codex\\2026-10-03\\https-github-com-wyh196646-awesome-ai\\work\\literature_update\\weekly-2026-11-09",
+  "decision_file": "docs/updates/2026-11-09-decisions.json",
+  "query_file": "docs/updates/2026-11-09-queries.json"
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-08",
+  "updated": "2026-11-09",
   "cas_edition": 2025,
   "partition": "major",
   "required_zone": 1,
@@ -686,6 +686,24 @@
       "scie_row": 2981,
       "current_index_source": "wos_2026_index_check",
       "current_index_title": "EUROPEAN JOURNAL OF CANCER"
+    },
+    {
+      "title": "Gastroenterology",
+      "aliases": [
+        "GASTROENTEROLOGY"
+      ],
+      "cas_major_zone": 1,
+      "issn": "0016-5085",
+      "eissn": "1528-0012",
+      "wos_index": "SCIE",
+      "cas_source": "cas_2025",
+      "cas_sheet": "Sheet1",
+      "cas_row": 7495,
+      "scie_source": "scie_2025_06",
+      "scie_row": 3448,
+      "current_index_source": "wos_2026_index_check",
+      "current_index_title": "Gastroenterology",
+      "current_index_page": 3
     },
     {
       "title": "GENOME BIOLOGY",
