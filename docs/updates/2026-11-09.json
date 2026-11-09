@@ -167,6 +167,12 @@
     "corrected_new_title": "SPACE-Tag Enables High-Throughput Spatial Chromatin Profiling With CUT&Tag",
     "regression_test": "test_text_ending_with_ampersand_word_is_retained"
   },
+  "output_isolation_fix": {
+    "observed": "A post-merge Windows repeat test exposed equal datetime values in consecutive collector calls.",
+    "change": "Append a UUID4 suffix to attempt identifiers used for default cache directories and generated packet/status filenames.",
+    "regression": "Freeze the clock in the existing interval/rescan test. Reproduced failure before the fix, passed 25 consecutive runs after it. Full suite remains 35 tests.",
+    "literature_counts_changed": false
+  },
   "pr_scope_review": {
     "id": "10.1101/2025.07.03.662899",
     "action": "pending_scope",
