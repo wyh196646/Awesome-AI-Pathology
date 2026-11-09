@@ -1,0 +1,77 @@
+{
+  "journal": "Gastroenterology",
+  "issn": "0016-5085",
+  "eissn": "1528-0012",
+  "verified_on": "2026-11-09",
+  "proof": {
+    "cas_2025": {
+      "filename": "cas2025-hebtu.xls",
+      "sha256": "c3b8d16839317f0d46115216e70808d2ed5bd9b194377a76ffcfec55ca632238",
+      "row": 7495,
+      "values": [
+        "Gastroenterology",
+        1.0,
+        "是"
+      ]
+    },
+    "scie_2025_06": {
+      "filename": "scie2025-fjut.xlsx",
+      "sha256": "754c0bb16027f931e5902bc565bdfface79ca8628a0d32f3f814d9c78981a20c",
+      "row": 3448,
+      "values": [
+        "GASTROENTEROLOGY",
+        "0016-5085",
+        "1528-0012",
+        "W B SAUNDERS CO-ELSEVIER INC",
+        "1600 JOHN F KENNEDY BOULEVARD, STE 1800, PHILADELPHIA, USA, PA, 19103-2899",
+        "English",
+        "Gastroenterology & Hepatology"
+      ]
+    },
+    "wos_2026_index_check": {
+      "filename": "jcr2026-niic.pdf",
+      "sha256": "2a525e49239015e2b5b06ee66a435986cb6d4aaf4f6a9dc63cb387069c124bce",
+      "page": 3,
+      "title": "Gastroenterology",
+      "eissn": "1528-0012",
+      "index": "SCIE",
+      "use": "Index membership only. CAS ranking comes from the independent 2025 table."
+    }
+  },
+  "sources": {
+    "cas_2025": {
+      "page": "https://huaxue.hebtu.edu.cn/a/2025/09/23/A5A5BBD96F6B4410B87B6D4C43BDFD63.html",
+      "download": "https://huaxue.hebtu.edu.cn/dynamic/download.jsp?id=9e222130fffe4b2889b220c168c727e6",
+      "sha256": "c3b8d16839317f0d46115216e70808d2ed5bd9b194377a76ffcfec55ca632238",
+      "sheet": "Sheet1",
+      "header": [
+        "刊名",
+        "分区",
+        "是否TOP期刊"
+      ],
+      "journal_rows": 21772,
+      "accessed": "2026-10-08"
+    },
+    "scie_2025_06": {
+      "page": "https://lib.fjut.edu.cn/qkpj/list.htm",
+      "download": "https://lib.fjut.edu.cn/_upload/article/files/6c/64/ee342d2542069930b4dc35c7827a/f1c936cc-eed9-4780-9eba-82cc30e69c53.xlsx",
+      "sha256": "754c0bb16027f931e5902bc565bdfface79ca8628a0d32f3f814d9c78981a20c",
+      "sheet": "Science Citation Index Expanded",
+      "accessed": "2026-10-08"
+    },
+    "wos_2026_index_check": {
+      "download": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf",
+      "sha256": "2a525e49239015e2b5b06ee66a435986cb6d4aaf4f6a9dc63cb387069c124bce",
+      "use": "Web of Science index membership only; JCR quartiles never determine CAS eligibility",
+      "accessed": "2026-10-08"
+    },
+    "latest_cas_edition": {
+      "page": "https://kyc.hezeu.edu.cn/info/1040/4015.htm",
+      "published": "2026-09-24",
+      "accessed": "2026-10-08",
+      "finding": "CAS stopped publishing annual editions from 2026; latest edition is 2025"
+    }
+  },
+  "rule": "CAS2025 major-category zone1 and SCIE. The 2026 PDF is used only for the SCIE index column.",
+  "cache_provenance": "Reused official institutional files with SHA256 matching the existing policy source records. The new journal rows and PDF page were inspected in this run."
+}
