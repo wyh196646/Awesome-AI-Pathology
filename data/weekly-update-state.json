@@ -12,7 +12,7 @@
       "last_successful_until": "2026-11-01"
     }
   },
-  "last_audit": "docs/updates/2026-11-09.json",
+  "last_audit": "docs/updates/2026-11-16.json",
   "pending_publication_checks": [
     {
       "arxiv_id": "2509.23097",
@@ -124,8 +124,8 @@
       "source": "europepmc",
       "id": "10.21203/rs.3.rs-9575788/v1",
       "title": "Visual embedding retrieval mitigates the perception–cognition gap of vision-language models in aquatic pathology",
-      "reason": "Fish-disease retrieval benchmark. Verify whether inputs are tissue/cell microscopy or unrelated whole-fish photographs before admission.",
-      "last_checked": "2026-11-09"
+      "reason": "Fish disease-image benchmark. Primary image modality still requires confirmation to distinguish tissue/cell microscopy from gross animal photographs.",
+      "last_checked": "2026-11-16"
     },
     {
       "source": "europepmc",
@@ -238,6 +238,55 @@
       "title": "Advancing CD38 from a marker of disease activity to an active regulator of interferon responses in juvenile dermatomyositis",
       "reason": "In-silico perturbation and drug nomination in disease immune cells. Cell-resolution inputs and computational contribution require primary full-paper review.",
       "last_checked": "2026-11-09"
+    },
+    {
+      "id": "10.21203/rs.3.rs-11493293/v1",
+      "source": "europepmc",
+      "title": "A reproducible computational pipeline integrating network toxicology, nested machine learning, single-cell transcriptomics and molecular docking nominates cytoskeletal and BMP genes (ACTA2, BMP4, FLNA, FLNB) as bisphenol A–responsive markers of meningioma tissue",
+      "reason": "Pipeline combines bulk target nomination with single-marker cell localization and docking. Reusable method/resource and substantive single-cell contribution require further full-method review.",
+      "last_checked": "2026-11-16"
+    },
+    {
+      "id": "10.21203/rs.3.rs-11460878/v1",
+      "source": "europepmc",
+      "title": "Matched cerebrospinal fluid and bone marrow single cell transcriptomics highlights the CXCR4-CXCL12 axis in ALL CNS disease",
+      "reason": "Possible retitled formal counterpart requires primary-source reconciliation.",
+      "last_checked": "2026-11-16"
+    },
+    {
+      "id": "10.21203/rs.3.rs-11529336/v1",
+      "source": "europepmc",
+      "title": "Multi-omics DNA and Protein Characterization in CAR T Cell Therapy",
+      "reason": "Possible retitled formal counterpart requires primary-source reconciliation.",
+      "last_checked": "2026-11-16"
+    },
+    {
+      "id": "10.21203/rs.3.rs-11275186/v1",
+      "source": "europepmc",
+      "title": "A physics-guided graph neural framework for real-time reconstruction of mechanical microenvironments in engineered cartilage scaffolds",
+      "reason": "Scaffold finite-element surrogate model reconstructs mechanical fields. Direct tissue/cell analysis applicability beyond engineered-material simulation requires confirmation.",
+      "last_checked": "2026-11-16"
+    },
+    {
+      "id": "10.20944/preprints202611.0229.v1",
+      "source": "europepmc",
+      "title": "Development of a Modular Computational Virtual-Cell Framework Integrating Drug–Target Interactions, Intracellular Signaling, Energy Metabolism, and Vesicular Trafficking",
+      "reason": "Early modular toy virtual-cell software. Scope and biological/single-cell data applicability require primary implementation review.",
+      "last_checked": "2026-11-16"
+    },
+    {
+      "id": "10.2139/ssrn.5336840",
+      "source": "external_preprint",
+      "title": "Spatial Transcriptomic Reconstruction of Human SCN Reveals Rewiring of Neuropeptide Signaling Network",
+      "reason": "Original server flags acceptance but a formal DOI/venue/year remains unresolved.",
+      "last_checked": "2026-11-16"
+    },
+    {
+      "id": "10.64898/2026.11.06.764908",
+      "source": "biorxiv",
+      "title": "Dynamic regulation of single-cell contractile heterogeneity in the human trabecular meshwork",
+      "reason": "Contractility wet-lab assay; abstract does not establish computational image-analysis or molecular single-cell method contribution. Hold for full-text scope review.",
+      "last_checked": "2026-11-16"
     }
   ],
   "pending_acceptance_checks": [
@@ -284,19 +333,19 @@
   ],
   "pending_recall_review": {
     "scope_revision": "2026-11-02",
-    "retrieval_cutoff_utc": "2026-11-08",
-    "pending_item_level_review": 1600,
+    "retrieval_cutoff_utc": "2026-11-15",
+    "pending_item_level_review": 1803,
     "files": [
-      "docs/updates/2026-11-09-pending-01.json",
-      "docs/updates/2026-11-09-pending-02.json",
-      "docs/updates/2026-11-09-pending-03.json",
-      "docs/updates/2026-11-09-pending-04.json",
-      "docs/updates/2026-11-09-pending-05.json"
+      "docs/updates/2026-11-16-pending-01.json",
+      "docs/updates/2026-11-16-pending-02.json",
+      "docs/updates/2026-11-16-pending-03.json",
+      "docs/updates/2026-11-16-pending-04.json",
+      "docs/updates/2026-11-16-pending-05.json"
     ],
     "arxiv_revision_coverage": "pending_expanded_vocabulary_recovery",
     "checkpoint_rule": "Recover pending records and complete the relevant source interval review before advancing that source checkpoint.",
-    "latest_batch": "docs/updates/2026-11-09.json",
-    "pending_total": 1628
+    "latest_batch": "docs/updates/2026-11-16.json",
+    "pending_total": 1817
   },
   "pending_conference_checks": [
     {
@@ -320,22 +369,24 @@
     "europepmc_preprints": {
       "last_successful_until": null,
       "bootstrap_since": "2023-01-01",
-      "last_retrieval_until": "2026-11-08",
+      "last_retrieval_until": "2026-11-15",
       "retrieval_status": "complete",
       "review_status": "partial",
-      "pending_index_candidates": 24927,
+      "pending_index_candidates": 25289,
       "pending_files": [
-        "docs/updates/2026-11-08-platforms-pending-01.json",
-        "docs/updates/2026-11-08-platforms-pending-02.json",
-        "docs/updates/2026-11-08-platforms-pending-03.json",
-        "docs/updates/2026-11-08-platforms-pending-04.json",
-        "docs/updates/2026-11-08-platforms-pending-05.json",
-        "docs/updates/2026-11-09-additional-pending.json"
+        "docs/updates/2026-11-16-additional-queue-01.json",
+        "docs/updates/2026-11-16-additional-queue-02.json",
+        "docs/updates/2026-11-16-additional-queue-03.json",
+        "docs/updates/2026-11-16-additional-queue-04.json",
+        "docs/updates/2026-11-16-additional-queue-05.json",
+        "docs/updates/2026-11-16-additional-queue-06.json"
       ],
-      "pending_external_records": "docs/updates/2026-11-09-decisions.json",
-      "official_domain_leads": "docs/updates/2026-11-09-queries.json",
+      "pending_external_records": "docs/updates/2026-11-16-external-pending.json",
+      "official_domain_leads": "docs/updates/2026-11-16-queries.json",
       "checkpoint_rule": "Finish source review and publish before advancing. Retrieve recent updates independently while preserving the historical queue.",
-      "resolved_index_overlay": "docs/updates/2026-11-09-additional-pending.json"
+      "pending_manifest_format": "consolidated_snapshot",
+      "pending_snapshot_date": "2026-11-16",
+      "latest_delta": "docs/updates/2026-11-16-additional-pending.json"
     }
   }
 }

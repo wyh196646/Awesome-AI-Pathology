@@ -1,0 +1,182 @@
+{
+  "verified_on": "2026-11-16",
+  "proof": {
+    "Briefings in Bioinformatics": {
+      "cas": {
+        "row": 2984,
+        "cells": [
+          "BRIEFINGS IN BIOINFORMATICS",
+          2.0,
+          "否"
+        ]
+      },
+      "scie": {
+        "row": 1488,
+        "cells": [
+          "BRIEFINGS IN BIOINFORMATICS",
+          "1467-5463",
+          "1477-4054",
+          "OXFORD UNIV PRESS",
+          "GREAT CLARENDON ST, OXFORD, ENGLAND, OX2 6DP",
+          "English",
+          "Biochemical Research Methods | Mathematical & Computational Biology"
+        ]
+      }
+    },
+    "Nucleic Acids Research": {
+      "cas": {
+        "row": 16236,
+        "cells": [
+          "NUCLEIC ACIDS RESEARCH",
+          2.0,
+          "是"
+        ]
+      },
+      "scie": {
+        "row": 7338,
+        "cells": [
+          "NUCLEIC ACIDS RESEARCH",
+          "0305-1048",
+          "1362-4962",
+          "OXFORD UNIV PRESS",
+          "GREAT CLARENDON ST, OXFORD, ENGLAND, OX2 6DP",
+          "English",
+          "Biochemistry & Molecular Biology"
+        ]
+      }
+    },
+    "PLoS Computational Biology": {
+      "cas": {
+        "row": 17285,
+        "cells": [
+          "PLoS Computational Biology",
+          2.0,
+          "否"
+        ]
+      },
+      "scie": {
+        "row": 7894,
+        "cells": [
+          "PLOS COMPUTATIONAL BIOLOGY",
+          "1553-734X",
+          "1553-7358",
+          "PUBLIC LIBRARY SCIENCE",
+          "1160 BATTERY STREET, STE 100, SAN FRANCISCO, USA, CA, 94111",
+          "English",
+          "Biochemical Research Methods | Mathematical & Computational Biology"
+        ]
+      }
+    },
+    "Cell Reports Methods": {
+      "cas": {
+        "row": 3576,
+        "cells": [
+          "Cell Reports Methods",
+          3.0,
+          "否"
+        ]
+      }
+    },
+    "Journal of Biophotonics": {
+      "cas": {
+        "row": 11069,
+        "cells": [
+          "Journal of Biophotonics",
+          3.0,
+          "否"
+        ]
+      },
+      "scie": {
+        "row": 4944,
+        "cells": [
+          "JOURNAL OF BIOPHOTONICS",
+          "1864-063X",
+          "1864-0648",
+          "WILEY-V C H VERLAG GMBH",
+          "POSTFACH 101161, WEINHEIM, GERMANY, 69451",
+          "English",
+          "Biochemical Research Methods | Biophysics | Optics"
+        ]
+      }
+    },
+    "IEEE Transactions on Medical Imaging": {
+      "cas": {
+        "row": 8600,
+        "cells": [
+          "IEEE TRANSACTIONS ON MEDICAL IMAGING",
+          1.0,
+          "是"
+        ]
+      },
+      "scie": {
+        "row": 3960,
+        "cells": [
+          "IEEE TRANSACTIONS ON MEDICAL IMAGING",
+          "0278-0062",
+          "1558-254X",
+          "IEEE",
+          "445 HOES LANE, PISCATAWAY, USA, NJ, 08855-4141",
+          "English",
+          "Computer Science, Interdisciplinary Applications | Engineering, Biomedical | Engineering, Electrical & Electronic | Imaging Science & Photographic Technology | Radiology, Nuclear Medicine & Medical Imaging"
+        ]
+      }
+    },
+    "Science Advances": {
+      "cas": {
+        "row": 19286,
+        "cells": [
+          "Science Advances",
+          1.0,
+          "是"
+        ]
+      },
+      "scie": {
+        "row": 8505,
+        "cells": [
+          "SCIENCE ADVANCES",
+          "2375-2548",
+          "2375-2548",
+          "AMER ASSOC ADVANCEMENT SCIENCE",
+          "1200 NEW YORK AVE, NW, WASHINGTON, USA, DC, 20005",
+          "English",
+          "Multidisciplinary Sciences"
+        ]
+      }
+    }
+  },
+  "sources": {
+    "cas_2025": {
+      "page": "https://huaxue.hebtu.edu.cn/a/2025/09/23/A5A5BBD96F6B4410B87B6D4C43BDFD63.html",
+      "download": "https://huaxue.hebtu.edu.cn/dynamic/download.jsp?id=9e222130fffe4b2889b220c168c727e6",
+      "sha256": "c3b8d16839317f0d46115216e70808d2ed5bd9b194377a76ffcfec55ca632238",
+      "sheet": "Sheet1",
+      "header": [
+        "刊名",
+        "分区",
+        "是否TOP期刊"
+      ],
+      "journal_rows": 21772,
+      "accessed": "2026-10-08"
+    },
+    "scie_2025_06": {
+      "page": "https://lib.fjut.edu.cn/qkpj/list.htm",
+      "download": "https://lib.fjut.edu.cn/_upload/article/files/6c/64/ee342d2542069930b4dc35c7827a/f1c936cc-eed9-4780-9eba-82cc30e69c53.xlsx",
+      "sha256": "754c0bb16027f931e5902bc565bdfface79ca8628a0d32f3f814d9c78981a20c",
+      "sheet": "Science Citation Index Expanded",
+      "accessed": "2026-10-08"
+    },
+    "wos_2026_index_check": {
+      "download": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf",
+      "sha256": "2a525e49239015e2b5b06ee66a435986cb6d4aaf4f6a9dc63cb387069c124bce",
+      "use": "Web of Science index membership only; JCR quartiles never determine CAS eligibility",
+      "accessed": "2026-10-08"
+    },
+    "latest_cas_edition": {
+      "page": "https://kyc.hezeu.edu.cn/info/1040/4015.htm",
+      "published": "2026-09-24",
+      "accessed": "2026-10-08",
+      "finding": "CAS stopped publishing annual editions from 2026; latest edition is 2025"
+    }
+  },
+  "cache_provenance": "Institutional cached files with SHA256 equal to the previously verified source records. Rows inspected in this run."
+}

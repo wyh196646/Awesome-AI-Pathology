@@ -1,0 +1,302 @@
+{
+  "date": "2026-11-16",
+  "cutoff_utc": "2026-11-15",
+  "baseline_commit": "9addf5a28b657d8467d51d2aa29178d438677a8d",
+  "source_status": {
+    "arxiv-direct": {
+      "arxiv_direct": {
+        "status": "partial_id_supplement",
+        "requested_ids": [
+          "2611.02681",
+          "2606.09675",
+          "2606.14251",
+          "2506.14449",
+          "2511.21519",
+          "2509.09153"
+        ],
+        "retrieved": 6,
+        "errors": []
+      }
+    },
+    "arxiv-html": {
+      "arxiv": {
+        "status": "complete",
+        "mode": "official_HTML_original_announcement_supplement",
+        "since": "2026-10-18",
+        "until": "2026-11-15",
+        "terms": [
+          "pathology",
+          "histopathology",
+          "histology",
+          "pathologist",
+          "whole slide",
+          "cytology",
+          "spatial transcriptomics",
+          "single cell",
+          "cell image",
+          "tissue image",
+          "spatial proteomics",
+          "spatial multiomics"
+        ],
+        "field": "all",
+        "retrieved_unique": 568,
+        "candidates": 190,
+        "errors": [],
+        "limitation": "Completeness refers only to these query pages; older revised papers require a separate updated-date search."
+      }
+    },
+    "arxiv-retry": {
+      "arxiv": {
+        "status": "failed",
+        "since": "2026-10-18",
+        "until": "2026-11-15",
+        "error": "HTTPError: HTTP Error 429: Too Many Requests"
+      }
+    },
+    "arxiv-short-0": {
+      "arxiv": {
+        "status": "complete",
+        "mode": "official_HTML_original_announcement_supplement",
+        "since": "2026-10-18",
+        "until": "2026-11-15",
+        "terms": [
+          "pathology"
+        ],
+        "field": "all",
+        "retrieved_unique": 150,
+        "candidates": 97,
+        "errors": [],
+        "limitation": "Completeness refers only to these query pages; older revised papers require a separate updated-date search."
+      }
+    },
+    "arxiv-short-1": {
+      "arxiv": {
+        "status": "complete",
+        "mode": "official_HTML_original_announcement_supplement",
+        "since": "2026-10-18",
+        "until": "2026-11-15",
+        "terms": [
+          "histology"
+        ],
+        "field": "all",
+        "retrieved_unique": 17,
+        "candidates": 17,
+        "errors": [],
+        "limitation": "Completeness refers only to these query pages; older revised papers require a separate updated-date search."
+      }
+    },
+    "arxiv-short-2": {
+      "arxiv": {
+        "status": "complete",
+        "mode": "official_HTML_original_announcement_supplement",
+        "since": "2026-10-18",
+        "until": "2026-11-15",
+        "terms": [
+          "single-cell"
+        ],
+        "field": "all",
+        "retrieved_unique": 254,
+        "candidates": 56,
+        "errors": [],
+        "limitation": "Completeness refers only to these query pages; older revised papers require a separate updated-date search."
+      }
+    },
+    "arxiv-short-3": {
+      "arxiv": {
+        "status": "complete",
+        "mode": "official_HTML_original_announcement_supplement",
+        "since": "2026-10-18",
+        "until": "2026-11-15",
+        "terms": [
+          "spatial proteomics"
+        ],
+        "field": "all",
+        "retrieved_unique": 1,
+        "candidates": 1,
+        "errors": [],
+        "limitation": "Completeness refers only to these query pages; older revised papers require a separate updated-date search."
+      }
+    },
+    "arxiv-short-4": {
+      "arxiv": {
+        "status": "complete",
+        "mode": "official_HTML_original_announcement_supplement",
+        "since": "2026-10-18",
+        "until": "2026-11-15",
+        "terms": [
+          "cell segmentation"
+        ],
+        "field": "all",
+        "retrieved_unique": 20,
+        "candidates": 4,
+        "errors": [],
+        "limitation": "Completeness refers only to these query pages; older revised papers require a separate updated-date search."
+      }
+    },
+    "arxiv-spatial": {
+      "arxiv": {
+        "status": "complete",
+        "mode": "official_HTML_original_announcement_supplement",
+        "since": "2026-10-18",
+        "until": "2026-11-15",
+        "terms": [
+          "spatial transcriptomics"
+        ],
+        "field": "all",
+        "retrieved_unique": 16,
+        "candidates": 16,
+        "errors": [],
+        "limitation": "Completeness refers only to these query pages; older revised papers require a separate updated-date search."
+      }
+    },
+    "arxiv-week": {
+      "arxiv": {
+        "status": "complete",
+        "mode": "official_HTML_original_announcement_supplement",
+        "since": "2026-11-09",
+        "until": "2026-11-15",
+        "terms": [
+          "pathology",
+          "histopathology",
+          "histology",
+          "pathologist",
+          "whole slide",
+          "cytology",
+          "spatial transcriptomics",
+          "single cell",
+          "cell image",
+          "tissue image",
+          "spatial proteomics",
+          "spatial multiomics"
+        ],
+        "field": "all",
+        "retrieved_unique": 0,
+        "candidates": 0,
+        "errors": [],
+        "limitation": "Completeness refers only to these query pages; older revised papers require a separate updated-date search."
+      }
+    },
+    "arxiv": {
+      "arxiv": {
+        "status": "failed",
+        "since": "2026-10-18",
+        "until": "2026-11-15",
+        "error": "HTTPError: HTTP Error 429: Unknown Error"
+      }
+    },
+    "rxiv-final": {
+      "biorxiv": {
+        "status": "complete",
+        "since": "2026-10-18",
+        "until": "2026-11-15",
+        "retrieved_unique": 6145,
+        "candidates": 1093
+      },
+      "medrxiv": {
+        "status": "complete",
+        "since": "2026-10-18",
+        "until": "2026-11-15",
+        "retrieved_unique": 1653,
+        "candidates": 159
+      }
+    },
+    "additional": {
+      "europepmc_preprints": {
+        "status": "complete",
+        "since": "2026-10-25",
+        "until": "2026-11-15",
+        "date_field": "updated",
+        "retrieved_unique": 1904,
+        "candidates": 1375,
+        "errors": [],
+        "coverage": "Indexed preprints matching the recorded title/abstract queries. Index coverage and original server coverage are distinct."
+      }
+    }
+  },
+  "item_review_notes": 175,
+  "scope_reviews": 162,
+  "withdrawal_status_reviews": 10,
+  "publication_identity_reviews": 141,
+  "review_actions": {
+    "add_preprint": 107,
+    "exclude_scope": 19,
+    "pending_scope": 5,
+    "pending_identity": 3,
+    "add_formal": 2,
+    "exclude_journal_policy": 10,
+    "duplicate_existing": 19,
+    "exclude_withdrawn": 10
+  },
+  "additions": 109,
+  "formal_additions": 2,
+  "revisions": 18,
+  "identity_links": 1,
+  "formal_migrations": 0,
+  "removals": 0,
+  "total_entries": 5124,
+  "by_year": {
+    "2026": 101,
+    "2025": 7,
+    "2024": 1
+  },
+  "by_venue": {
+    "Preprints.org": 9,
+    "Research Square": 41,
+    "Authorea": 1,
+    "Science Advances": 1,
+    "SSRN": 3,
+    "bioRxiv": 49,
+    "IEEE Transactions on Medical Imaging": 1,
+    "arXiv": 2,
+    "medRxiv": 2
+  },
+  "verified_journals": 102,
+  "success_checkpoint_advanced": false,
+  "checkpoint_reason": "Updated-date arXiv API failed. Current/historical item review and publication identities remain unresolved. No failed or partially reviewed source is marked successful.",
+  "retrieval_cursor_advanced": {
+    "europepmc_preprints": "2026-11-15"
+  },
+  "original_source_pending": 1817,
+  "additional_index_pending": 25289,
+  "additional_pending_overlay_correction": {
+    "old_resolved_ids_honored": 29,
+    "explanation": "Subtract cumulative resolved_from_baseline overlays before unioning new pending IDs; previous resolutions must not reappear as unresolved."
+  },
+  "pending_files": [
+    "docs/updates/2026-11-16-pending-01.json",
+    "docs/updates/2026-11-16-pending-02.json",
+    "docs/updates/2026-11-16-pending-03.json",
+    "docs/updates/2026-11-16-pending-04.json",
+    "docs/updates/2026-11-16-pending-05.json"
+  ],
+  "additional_delta": "docs/updates/2026-11-16-additional-pending.json",
+  "version_alias": "MERFISH+ bioRxiv v1 first2025-11-04 precedes SSRN first2025-12-11. One bioRxiv entry retains both identities.",
+  "screening_correction": "Single-cell cross-donor classification evaluation was incorrectly excluded by a prior automated scope decision. Current full-abstract review supersedes that decision. It meets the existing single-cell-method scope.",
+  "retrieval_recovery": {
+    "version_rows": {
+      "biorxiv": 6499,
+      "medrxiv": 1754
+    },
+    "pages": {
+      "biorxiv": 217,
+      "medrxiv": 59
+    },
+    "unresolved_page_errors": [],
+    "procedure": "Bounded concurrent prefetch with global request spacing, cursor/total/page-length/date checks, then required search_preprints.py run against current-attempt validated responses."
+  },
+  "pathology_category_supplement": {
+    "official_category_records": 53,
+    "missed_by_expanded_keyword_filter": 0,
+    "basis": "Official category fields from complete interval corpus, not keyword-generated labels."
+  },
+  "review_boundary": "Full available abstracts for recorded scope reviews. Original history/registration/formal identities for admissions. Unreviewed candidates stay pending. No exhaustive or full-text review claim.",
+  "validation": {
+    "unit_tests": 35,
+    "original_entries_preserved": 5015,
+    "homepage_dated_announcements": false,
+    "new_duplicate_title_keys": []
+  },
+  "local_evidence": "C:\\Users\\Microgle\\Documents\\Codex\\2026-10-03\\https-github-com-wyh196646-awesome-ai\\work\\literature_update\\weekly-2026-11-16",
+  "decision_file": "docs/updates/2026-11-16-decisions.json",
+  "query_file": "docs/updates/2026-11-16-queries.json"
+}
