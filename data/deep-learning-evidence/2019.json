@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "policy": "config/literature-keywords.json",
+  "entries": [
+    {
+      "title": "Digital pathology and artificial intelligence",
+      "title_sha256": "679dc87814634bd6720e66c282f896cd96802f1b4b95ed05aa8de82f7013176b",
+      "paper_urls": [
+        "https://doi.org/10.1016/s1470-2045(19)30154-8"
+      ],
+      "relation": "research",
+      "method_terms": [],
+      "scope_rationale": "Item-level scientific classification of the published task, model family and available method/resource description identifies a deep-learning model, deep-feature pipeline or direct supporting dataset/benchmark/review. Literal keyword absence did not determine admission.",
+      "evidence_basis": "item_level_context_review",
+      "source_url": "https://europepmc.org/article/MED/31044723"
+    },
+    {
+      "title": "AI in Digital Pathology for Precision Oncology",
+      "title_sha256": "dd2cf662bb30d659e2552dc22a114c67591a4f90b77e048d33088eb882abd0a2",
+      "paper_urls": [
+        "https://www.nature.com/articles/s41571-019-0252-y"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "deep neural"
+      ],
+      "scope_rationale": "Abstract describes a neural/deep-learning component in the research workflow.",
+      "evidence_basis": "abstract_method_component",
+      "source_url": "https://europepmc.org/article/MED/31399699"
+    },
+    {
+      "title": "BACH: Grand challenge on breast cancer histology images",
+      "title_sha256": "ac219566d98147f635f8e6c38d49421d30b9c2819c0747fc15b214415e089184",
+      "paper_urls": [
+        "https://doi.org/10.1016/j.media.2019.05.010"
+      ],
+      "relation": "supporting_resource",
+      "method_terms": [
+        "Convolutional"
+      ],
+      "scope_rationale": "Abstract explicitly connects the dataset, benchmark or review to deep-learning methods.",
+      "evidence_basis": "abstract_supporting_role",
+      "source_url": "https://europepmc.org/article/MED/31226662"
+    },
+    {
+      "title": "HoVer-Net: Simultaneous segmentation and classification of nuclei in multi-tissue histology images",
+      "title_sha256": "67d70f4052432affdce71a2c1c10399e70787a5c137577cf54ff5677001fb645",
+      "paper_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S1361841519301045"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "HoVer-Net"
+      ],
+      "scope_rationale": "Title explicitly identifies a deep-learning method or a study directly about such methods.",
+      "evidence_basis": "explicit_method_in_title_and_metadata",
+      "source_url": "https://europepmc.org/article/MED/31561183"
+    },
+    {
+      "title": "Clinical-grade computational pathology using weakly supervised deep learning on whole slide images",
+      "title_sha256": "730197eb685b15c531e7418546c4f968b03ef2cfc7a13cda1cdd6365a9ff99d1",
+      "paper_urls": [
+        "https://www.nature.com/articles/s41591-019-0508-1"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "deep learning"
+      ],
+      "scope_rationale": "Title explicitly identifies a deep-learning method or a study directly about such methods.",
+      "evidence_basis": "explicit_method_in_title_and_metadata",
+      "source_url": "https://europepmc.org/article/MED/31308507"
+    },
+    {
+      "title": "Deep learning can predict microsatellite instability directly from histology in gastrointestinal cancer",
+      "title_sha256": "424838745a1763609d6a65bdc92fb380e90c917b0e2c4024a701194392684af3",
+      "paper_urls": [
+        "https://www.nature.com/articles/s41591-019-0462-y"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "Deep learning"
+      ],
+      "scope_rationale": "Title explicitly identifies a deep-learning method or a study directly about such methods.",
+      "evidence_basis": "explicit_method_in_title_and_metadata",
+      "source_url": "https://europepmc.org/article/MED/31160815"
+    },
+    {
+      "title": "Deep learning-based classification of mesothelioma improves prediction of patient outcome",
+      "title_sha256": "9775f1a1ab793ebcc774b937682d76b9cc0c0491ad12ce53e890ef234f051073",
+      "paper_urls": [
+        "https://www.nature.com/articles/s41591-019-0583-3"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "Deep learning"
+      ],
+      "scope_rationale": "Title explicitly identifies a deep-learning method or a study directly about such methods.",
+      "evidence_basis": "explicit_method_in_title_and_metadata",
+      "source_url": "https://europepmc.org/article/MED/31591589"
+    },
+    {
+      "title": "Near real-time intraoperative brain tumor diagnosis using stimulated Raman histology and deep neural networks",
+      "title_sha256": "643912b304a4c842573ef68bfd4a69ff0d5ebf90e1b33eb7dec0a9de51014440",
+      "paper_urls": [
+        "https://www.nature.com/articles/s41591-019-0715-9"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "deep neural"
+      ],
+      "scope_rationale": "Title explicitly identifies a deep-learning method or a study directly about such methods.",
+      "evidence_basis": "explicit_method_in_title_and_metadata",
+      "source_url": "https://europepmc.org/article/MED/31907460"
+    },
+    {
+      "title": "CAMEL: A Weakly Supervised Learning Framework for Histopathology Image Segmentation",
+      "title_sha256": "4c9bd63adb7d464e2d34e9a0889d14237cb41d075f1addf09a081bd0c48086ca",
+      "paper_urls": [
+        "https://doi.org/10.1109/iccv.2019.01078"
+      ],
+      "relation": "research",
+      "method_terms": [],
+      "scope_rationale": "Item-level scientific classification of the published task, model family and available method/resource description identifies a deep-learning model, deep-feature pipeline or direct supporting dataset/benchmark/review. Literal keyword absence did not determine admission.",
+      "evidence_basis": "item_level_context_review",
+      "source_url": "https://doi.org/10.1109/iccv.2019.01078"
+    },
+    {
+      "title": "StainGAN: Stain Style Transfer for Digital Histological Images",
+      "title_sha256": "9fb3ccb67537faf10d5a838b34692b2e3e0ec44ce8fb0cc2cd37e81260b9a0f8",
+      "paper_urls": [
+        "https://doi.org/10.1109/ISBI.2019.8759152"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "StainGAN"
+      ],
+      "scope_rationale": "Title explicitly identifies a deep-learning method or a study directly about such methods.",
+      "evidence_basis": "explicit_method_in_title_and_metadata",
+      "source_url": "https://doi.org/10.1109/ISBI.2019.8759152"
+    },
+    {
+      "title": "GAN-based Virtual Re-Staining: A Promising Solution for Whole Slide Image Analysis",
+      "title_sha256": "fb01861f14d0ff3ced3a40bfa56f5100eac882fa2a4eb87eb48b1c845ba5db0b",
+      "paper_urls": [
+        "https://arxiv.org/abs/1901.04059"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "GAN"
+      ],
+      "scope_rationale": "Title explicitly identifies a deep-learning method or a study directly about such methods.",
+      "evidence_basis": "explicit_method_in_title_and_metadata",
+      "source_url": "https://arxiv.org/abs/1901.04059"
+    },
+    {
+      "title": "Pathologist-level interpretable whole-slide cancer diagnosis with deep learning",
+      "title_sha256": "eae7ec2c5b6915dccd88af54be38fca6836aa515a7117ef3b2662c154c052b13",
+      "paper_urls": [
+        "https://www.nature.com/articles/s42256-019-0052-1"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "deep learning"
+      ],
+      "scope_rationale": "Title explicitly identifies a deep-learning method or a study directly about such methods.",
+      "evidence_basis": "explicit_method_in_title_and_metadata",
+      "source_url": "https://www.nature.com/articles/s42256-019-0052-1"
+    },
+    {
+      "title": "Similar image search for histopathology: SMILY",
+      "title_sha256": "4c04a3eee078490162656a3c88cebc231d6cef1f9137a248c01d97474825c2a6",
+      "paper_urls": [
+        "https://www.nature.com/articles/s41746-019-0131-z"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "deep-learning"
+      ],
+      "scope_rationale": "Abstract describes a neural/deep-learning component in the research workflow.",
+      "evidence_basis": "abstract_method_component",
+      "source_url": "https://europepmc.org/article/MED/31304402"
+    }
+  ]
+}

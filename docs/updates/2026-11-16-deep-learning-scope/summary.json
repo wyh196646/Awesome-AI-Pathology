@@ -1,0 +1,83 @@
+{
+  "baseline_commit": "948501805087994a545402f94847e8ce34ed6604",
+  "baseline_entries": 5124,
+  "decisions": {
+    "keep": 4043,
+    "exclude_non_DL": 1053,
+    "held_method_unverified": 28
+  },
+  "by_year": {
+    "2026": {
+      "keep": 1726,
+      "exclude_non_DL": 790,
+      "held_method_unverified": 18
+    },
+    "2025": {
+      "keep": 1027,
+      "exclude_non_DL": 126,
+      "held_method_unverified": 3
+    },
+    "2024": {
+      "keep": 731,
+      "exclude_non_DL": 76,
+      "held_method_unverified": 2
+    },
+    "2023": {
+      "keep": 462,
+      "exclude_non_DL": 53,
+      "held_method_unverified": 5
+    },
+    "2022": {
+      "keep": 33
+    },
+    "2021": {
+      "keep": 31
+    },
+    "2020": {
+      "keep": 14,
+      "exclude_non_DL": 2
+    },
+    "2019": {
+      "keep": 13,
+      "exclude_non_DL": 1
+    },
+    "2018": {
+      "exclude_non_DL": 1,
+      "keep": 4
+    },
+    "2017": {
+      "keep": 2
+    },
+    "2016": {
+      "exclude_non_DL": 1
+    },
+    "2013": {
+      "exclude_non_DL": 1
+    },
+    "2010": {
+      "exclude_non_DL": 1
+    },
+    "2006": {
+      "exclude_non_DL": 1
+    }
+  },
+  "review_bases": {
+    "abstract_method_component": 1062,
+    "abstract_supporting_role": 84,
+    "explicit_method_in_title_and_metadata": 1417,
+    "item_level_context_review": 1796,
+    "primary_method_section": 151,
+    "abstract_method_family": 47,
+    "abstract_research_objective": 225,
+    "method_evidence_incomplete": 13,
+    "primary_full_text_context_review": 8,
+    "context_review_incomplete": 15,
+    "abstract_objective_and_method_screen": 306
+  },
+  "abstracts_available": 5072,
+  "retained_evidence_records": 4042,
+  "archived_original_entries": 1081,
+  "archived_links": 1137,
+  "checkpoint_changes": false,
+  "limitations": "Whole-collection metadata/method screening with targeted contextual/full-text checks. This was not an independent full-text reading of every paper. Unresolved method cases are archived pending, and access failures are not evidence of a non-neural method."
+}

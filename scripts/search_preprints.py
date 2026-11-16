@@ -169,14 +169,26 @@ def exclusion_identity_keys(identifiers):
     return frozenset(keys)
 
 
-def journal_policy_exclusion(record, exclusions):
-    """Flag known excluded formal publications for screening; do not delete candidates."""
+def matches_exclusion_identities(record, exclusions):
+    """Match a reviewed identity while retaining every retrieval candidate."""
     title_hash = hashlib.sha256(normalized(record["title"]).encode()).hexdigest()
     identifiers = record_identities(record)
-    if (title_hash in exclusions["title_sha256"] or
+    return (title_hash in exclusions["title_sha256"] or
             any(f"{kind}:{value}" in exclusion_identity_keys(frozenset(exclusions["identifiers"]))
-                for kind, value in identifiers)):
+                for kind, value in identifiers))
+
+
+def journal_policy_exclusion(record, exclusions):
+    """Flag known excluded formal publications for screening; do not delete candidates."""
+    if matches_exclusion_identities(record, exclusions):
         return "Known formal journal publication removed by the CAS major-zone-1/SCIE policy"
+    return None
+
+
+def method_scope_exclusion(record, exclusions):
+    """Route a prior scope removal/pending item back to its recorded method review."""
+    if matches_exclusion_identities(record, exclusions):
+        return "Prior deep-learning-scope removal or pending review; consult the scope archive and verify substantive neural-model evidence before admission"
     return None
 
 
@@ -352,6 +364,7 @@ def main():
     exclusions = json.loads((ROOT / "data/excluded-journal-identities.json").read_text(encoding="utf-8"))
     exclusions = {"title_sha256": set(exclusions["title_sha256"]),
                   "identifiers": set(exclusions["identifiers"])}
+    method_exclusions = json.loads((ROOT / "data/excluded-method-identities.json").read_text(encoding="utf-8"))
     candidates, retrievals, source_status = [], [], {}
     for source in args.sources or config["sources"]:
         checkpoint = state["sources"][source]["last_successful_until"]
@@ -379,6 +392,7 @@ def main():
                     "subject_category" if category_fallback or category_requested else "keywords")
                 record["existing_matches"] = matching_existing(record, previous)
                 record["journal_policy_exclusion"] = journal_policy_exclusion(record, exclusions)
+                record["method_scope_exclusion"] = method_scope_exclusion(record, method_exclusions)
                 candidates.append(record)
                 count += 1
             source_status[source] = {"status": "complete", "since": since, "until": args.until,

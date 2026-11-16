@@ -1,0 +1,439 @@
+{
+  "schema_version": 1,
+  "policy": "config/literature-keywords.json",
+  "entries": [
+    {
+      "title": "Neural Image Compression for Gigapixel Histopathology Image Analysis",
+      "title_sha256": "2d1a8fbbf5d6b4ab84d18411b45e7b145bd584b0cb9394f9fc9a166fc050e14c",
+      "paper_urls": [
+        "https://doi.org/10.1109/tpami.2019.2936841"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "Neural Image Compression"
+      ],
+      "scope_rationale": "Title explicitly identifies a deep-learning method or a study directly about such methods.",
+      "evidence_basis": "explicit_method_in_title_and_metadata",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/31442971/"
+    },
+    {
+      "title": "AI-based pathology predicts origins for cancers of unknown primary",
+      "title_sha256": "92439b44f3872d0b79f216942ce9f6297137582109429283d9bb3b524cca66f8",
+      "paper_urls": [
+        "https://www.nature.com/articles/s41586-021-03512-4"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "Deep Learning",
+        "deep-learning"
+      ],
+      "scope_rationale": "Abstract describes a neural/deep-learning component in the research workflow.",
+      "evidence_basis": "abstract_method_component",
+      "source_url": "https://europepmc.org/article/MED/33953404"
+    },
+    {
+      "title": "Diagnose Like A Pathologist: Weakly-Supervised Pathologist-Tree Network for Slide-Level Immunohistochemical Scoring",
+      "title_sha256": "4c7a3402504983b50fbed2173be4beeab1450c1dcde5eff35568dc5ca4627b70",
+      "paper_urls": [
+        "https://ojs.aaai.org/index.php/AAAI/article/view/16076"
+      ],
+      "relation": "research",
+      "method_terms": [],
+      "scope_rationale": "Item-level scientific classification of the published task, model family and available method/resource description identifies a deep-learning model, deep-feature pipeline or direct supporting dataset/benchmark/review. Literal keyword absence did not determine admission.",
+      "evidence_basis": "item_level_context_review",
+      "source_url": "https://ojs.aaai.org/index.php/AAAI/article/view/16076"
+    },
+    {
+      "title": "MoNuSAC2020: A Multi-Organ Nuclei Segmentation and Classification Challenge",
+      "title_sha256": "0e105a81bf7d9d3570240b4fdb4c7cb80b29491254721dc1d8545ba1f533a733",
+      "paper_urls": [
+        "https://doi.org/10.1109/tmi.2021.3085712"
+      ],
+      "relation": "supporting_resource",
+      "method_terms": [],
+      "scope_rationale": "Item-level scientific classification of the published task, model family and available method/resource description identifies a deep-learning model, deep-feature pipeline or direct supporting dataset/benchmark/review. Literal keyword absence did not determine admission.",
+      "evidence_basis": "item_level_context_review",
+      "source_url": "https://europepmc.org/article/MED/34086562"
+    },
+    {
+      "title": "Unpaired Stain Transfer Using Pathology-Consistent Constrained Generative Adversarial Networks",
+      "title_sha256": "42ffe2de91bfc072d9411d29a72fa398208f11dfb629e8c1e89ffe13c35db30e",
+      "paper_urls": [
+        "https://doi.org/10.1109/TMI.2021.3069874"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "Generative Adversarial Networks"
+      ],
+      "scope_rationale": "Title explicitly identifies a deep-learning method or a study directly about such methods.",
+      "evidence_basis": "explicit_method_in_title_and_metadata",
+      "source_url": "https://europepmc.org/article/MED/33784619"
+    },
+    {
+      "title": "Multimodal Co-Attention Transformer for Survival Prediction in Gigapixel Whole Slide Images",
+      "title_sha256": "1a3ebb3017783f7120616c2d3108dcabe1c5726c2c717b1531c4e4c95cc8bb24",
+      "paper_urls": [
+        "https://openaccess.thecvf.com/content/ICCV2021/html/Chen_Multimodal_Co-Attention_Transformer_for_Survival_Prediction_in_Gigapixel_Whole_Slide_ICCV_2021_paper.html"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "Co-Attention",
+        "Transformer"
+      ],
+      "scope_rationale": "Title explicitly identifies a deep-learning method or a study directly about such methods.",
+      "evidence_basis": "explicit_method_in_title_and_metadata",
+      "source_url": "https://openaccess.thecvf.com/content/ICCV2021/html/Chen_Multimodal_Co-Attention_Transformer_for_Survival_Prediction_in_Gigapixel_Whole_Slide_ICCV_2021_paper.html"
+    },
+    {
+      "title": "PAIP 2019: Liver cancer segmentation challenge",
+      "title_sha256": "74d5fb5e126986599e90c56c5aff70693781d3e73f52ec505759c3fd58c34a04",
+      "paper_urls": [
+        "https://doi.org/10.1016/j.media.2020.101854"
+      ],
+      "relation": "supporting_resource",
+      "method_terms": [],
+      "scope_rationale": "Item-level scientific classification of the published task, model family and available method/resource description identifies a deep-learning model, deep-feature pipeline or direct supporting dataset/benchmark/review. Literal keyword absence did not determine admission.",
+      "evidence_basis": "item_level_context_review",
+      "source_url": "https://europepmc.org/article/MED/33091742"
+    },
+    {
+      "title": "Residual cyclegan for robust domain transformation of histopathological tissue slides",
+      "title_sha256": "b412cd8f6181e93f6a1706eff5a6cc05b4aef58c2e9a4a2fcc84baf82f0f545f",
+      "paper_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/33647784/"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "cyclegan"
+      ],
+      "scope_rationale": "Title explicitly identifies a deep-learning method or a study directly about such methods.",
+      "evidence_basis": "explicit_method_in_title_and_metadata",
+      "source_url": "https://europepmc.org/article/MED/33647784"
+    },
+    {
+      "title": "Cellpose: a generalist algorithm for cellular segmentation",
+      "title_sha256": "e04f2eaaaca92de3d13eaf2fb26c50ad58f30359fa476ad41b78856b5d6c003a",
+      "paper_urls": [
+        "https://www.nature.com/articles/s41592-020-01018-x"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "Cellpose"
+      ],
+      "scope_rationale": "Title explicitly identifies a deep-learning method or a study directly about such methods.",
+      "evidence_basis": "explicit_method_in_title_and_metadata",
+      "source_url": "https://europepmc.org/article/MED/33318659"
+    },
+    {
+      "title": "SpaGCN: Integrating gene expression, spatial location and histology to identify spatial domains and spatially variable genes by graph convolutional network",
+      "title_sha256": "e04645c8f61e91e50e8107e55687fd1164ca7178d7b235a3ba8a1a7cf584247f",
+      "paper_urls": [
+        "https://www.nature.com/articles/s41592-021-01255-8"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "convolutional"
+      ],
+      "scope_rationale": "Title explicitly identifies a deep-learning method or a study directly about such methods.",
+      "evidence_basis": "explicit_method_in_title_and_metadata",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41293536/"
+    },
+    {
+      "title": "Data-efficient and weakly supervised computational pathology on whole-slide images",
+      "title_sha256": "975c1ae3820ca8dc3ebd38356d9c9a4870ab206db43a54aa303d8492d721dc9f",
+      "paper_urls": [
+        "https://www.nature.com/articles/s41551-020-00682-w"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "CLAM",
+        "Deep-learning",
+        "deep-learning"
+      ],
+      "scope_rationale": "Abstract describes a neural/deep-learning component in the research workflow.",
+      "evidence_basis": "abstract_method_component",
+      "source_url": "https://europepmc.org/article/MED/33649564"
+    },
+    {
+      "title": "Dual-stream Multiple Instance Learning Network for Whole Slide Image Classification with Self-supervised Contrastive Learning",
+      "title_sha256": "211e1c979a1d42cc918d65bfb699038fe5a12797cd0385abd8edd416f4cd3b9a",
+      "paper_urls": [
+        "https://arxiv.org/abs/2011.08939"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "Contrastive Learning"
+      ],
+      "scope_rationale": "Title explicitly identifies a deep-learning method or a study directly about such methods.",
+      "evidence_basis": "explicit_method_in_title_and_metadata",
+      "source_url": "https://arxiv.org/abs/2011.08939"
+    },
+    {
+      "title": "Whole Slide Images are 2D Point Clouds: Context-Aware Survival Prediction using Patch-based Graph Convolutional Networks",
+      "title_sha256": "39d1c855fcd4cd2cadae12840ee752346c85347d4f18369bccdb132606796af2",
+      "paper_urls": [
+        "https://arxiv.org/abs/2107.13048"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "Convolutional"
+      ],
+      "scope_rationale": "Title explicitly identifies a deep-learning method or a study directly about such methods.",
+      "evidence_basis": "explicit_method_in_title_and_metadata",
+      "source_url": "https://arxiv.org/abs/2107.13048"
+    },
+    {
+      "title": "DT-MIL: Deformable Transformer for Multi-instance Learning on Histopathological Image",
+      "title_sha256": "91e067605107cd44070e731d8c97cb5fab6c08365c065b81d3b76e0bf9b7275e",
+      "paper_urls": [
+        "https://miccai2021.org/openaccess/paperlinks/2021/09/01/160-Paper0828.html"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "Transformer"
+      ],
+      "scope_rationale": "Title explicitly identifies a deep-learning method or a study directly about such methods.",
+      "evidence_basis": "explicit_method_in_title_and_metadata",
+      "source_url": "https://miccai2021.org/openaccess/paperlinks/2021/09/01/160-Paper0828.html"
+    },
+    {
+      "title": "Structure-Preserving Multi-Domain Stain Color Augmentation using Style-Transfer with Disentangled Representations",
+      "title_sha256": "3e364abb73724b62cf30bb6504d1a0a8d8645c102850386028ac5b4914fb3a76",
+      "paper_urls": [
+        "https://arxiv.org/abs/2107.12357"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "GAN",
+        "deep learning",
+        "generative adversarial network",
+        "neural networks"
+      ],
+      "scope_rationale": "Abstract describes a neural/deep-learning component in the research workflow.",
+      "evidence_basis": "abstract_method_component",
+      "source_url": "https://arxiv.org/abs/2107.12357"
+    },
+    {
+      "title": "SparseConvMIL: Sparse Convolutional Context-Aware Multiple Instance Learning for Whole Slide Image Classification",
+      "title_sha256": "87d2527da6e27950ad12f2f9a31b5d523104f5c675b85aa4286f1bcc0027b0fe",
+      "paper_urls": [
+        "https://proceedings.mlr.press/v156/lerousseau21a.html"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "Convolutional"
+      ],
+      "scope_rationale": "Title explicitly identifies a deep-learning method or a study directly about such methods.",
+      "evidence_basis": "explicit_method_in_title_and_metadata",
+      "source_url": "https://proceedings.mlr.press/v156/lerousseau21a.html"
+    },
+    {
+      "title": "TransMIL: Transformer based Correlated Multiple Instance Learning for Whole Slide Image Classification",
+      "title_sha256": "59a5cee1dcbbae1f39518a6f627fc090d827e7ad1b167b2f41e8d32affbbb4ec",
+      "paper_urls": [
+        "https://proceedings.neurips.cc/paper/2021/hash/10c272d06794d3e5785d5e7c5356e9ff-Abstract.html"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "Transformer"
+      ],
+      "scope_rationale": "Title explicitly identifies a deep-learning method or a study directly about such methods.",
+      "evidence_basis": "explicit_method_in_title_and_metadata",
+      "source_url": "https://proceedings.neurips.cc/paper/2021/hash/10c272d06794d3e5785d5e7c5356e9ff-Abstract.html"
+    },
+    {
+      "title": "Hybrid AI-assistive diagnostic model permits rapid TBS classification of cervical liquid-based thin-layer cell smears",
+      "title_sha256": "c66f0768acb2349d39e22c9c89b97f762c00d1f8963e02967d17a73a7e83e48b",
+      "paper_urls": [
+        "https://www.nature.com/articles/s41467-021-23913-3"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "U-net",
+        "YOLOv3"
+      ],
+      "scope_rationale": "Abstract describes a neural/deep-learning component in the research workflow.",
+      "evidence_basis": "abstract_method_component",
+      "source_url": "https://europepmc.org/article/MED/34112790"
+    },
+    {
+      "title": "Robust whole slide image analysis for cervical cancer screening using deep learning",
+      "title_sha256": "df5ad09ea6b02d48c1d1af5d33c677a88ee1176d79ec6dfe96af3cce0da46b84",
+      "paper_urls": [
+        "https://www.nature.com/articles/s41467-021-25296-x"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "deep learning"
+      ],
+      "scope_rationale": "Title explicitly identifies a deep-learning method or a study directly about such methods.",
+      "evidence_basis": "explicit_method_in_title_and_metadata",
+      "source_url": "https://europepmc.org/article/MED/34561435"
+    },
+    {
+      "title": "An annotation-free whole-slide training approach to pathological classification of lung cancer types using deep learning",
+      "title_sha256": "f785ad53acf5cb9f34cb6fe505e860310e11078d13687749948eea3a6579258c",
+      "paper_urls": [
+        "https://www.nature.com/articles/s41467-021-21467-y"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "deep learning"
+      ],
+      "scope_rationale": "Title explicitly identifies a deep-learning method or a study directly about such methods.",
+      "evidence_basis": "explicit_method_in_title_and_metadata",
+      "source_url": "https://europepmc.org/article/MED/33608558"
+    },
+    {
+      "title": "The impact of site-specific digital histology signatures on deep learning model accuracy and bias",
+      "title_sha256": "23481570a97dab67862ee661cf5c52d74f4c48b073b07f4bc70a7ce89af4d437",
+      "paper_urls": [
+        "https://www.nature.com/articles/s41467-021-24698-1"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "deep learning"
+      ],
+      "scope_rationale": "Title explicitly identifies a deep-learning method or a study directly about such methods.",
+      "evidence_basis": "explicit_method_in_title_and_metadata",
+      "source_url": "https://europepmc.org/article/MED/34285218"
+    },
+    {
+      "title": "Super-resolved spatial transcriptomics by deep data fusion",
+      "title_sha256": "52dcd757debcf3509e9b8cf2b67b5d677bfcf386245b0243fa57f692a68e502a",
+      "paper_urls": [
+        "https://doi.org/10.1038/s41587-021-01075-3"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "deep data fusion"
+      ],
+      "scope_rationale": "Title explicitly identifies a deep-learning method or a study directly about such methods.",
+      "evidence_basis": "explicit_method_in_title_and_metadata",
+      "source_url": "https://europepmc.org/article/MED/34845373"
+    },
+    {
+      "title": "PanNuke Dataset Extension, Insights and Baselines",
+      "title_sha256": "e17a61749005c88672dce21839e61a209d22b516502726c306c728d33ba34af7",
+      "paper_urls": [
+        "https://arxiv.org/abs/2003.10778"
+      ],
+      "relation": "supporting_resource",
+      "method_terms": [
+        "deep learning"
+      ],
+      "scope_rationale": "Abstract explicitly connects the dataset, benchmark or review to deep-learning methods.",
+      "evidence_basis": "abstract_supporting_role",
+      "source_url": "https://arxiv.org/abs/2003.10778"
+    },
+    {
+      "title": "Leveraging information in spatial transcriptomics to predict super-resolution gene expression from histology images in tumors",
+      "title_sha256": "7217101415dfd096d061c8ad80e6217dac8f674365fd390a1442297a53ba5057",
+      "paper_urls": [
+        "https://www.biorxiv.org/content/10.1101/2021.11.28.470212"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "Transformer",
+        "deep learning"
+      ],
+      "scope_rationale": "Abstract describes a neural/deep-learning component in the research workflow.",
+      "evidence_basis": "abstract_method_component",
+      "source_url": "https://europepmc.org/article/PPR/PPR425593"
+    },
+    {
+      "title": "PointNu-Net: Keypoint-assisted Convolutional Neural Network for Simultaneous Multi-tissue Histology Nuclei Segmentation and Classification",
+      "title_sha256": "6b9478a0c8a627dfd21644817df3301533c97a31cbc6d63e7aa24ffad48d1ae6",
+      "paper_urls": [
+        "https://arxiv.org/abs/2111.01557"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "Convolutional Neural Network"
+      ],
+      "scope_rationale": "Title explicitly identifies a deep-learning method or a study directly about such methods.",
+      "evidence_basis": "explicit_method_in_title_and_metadata",
+      "source_url": "https://arxiv.org/abs/2111.01557"
+    },
+    {
+      "title": "Artificial intelligence assistance significantly improves Gleason grading of prostate biopsies by pathologists",
+      "title_sha256": "2b5994733fcd7bad3e320e85367de2944d18c5ec24072111ecb40b4042de3362",
+      "paper_urls": [
+        "https://www.nature.com/articles/s41379-020-0640-y"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "deep learning"
+      ],
+      "scope_rationale": "Reviewed primary abstract or method evidence identifies a substantive neural/deep-learning model, clinical evaluation or directly supporting benchmark/review.",
+      "evidence_basis": "item_level_context_review",
+      "source_url": "https://europepmc.org/article/MED/32759979"
+    },
+    {
+      "title": "Genetic mutation and biological pathway prediction based on whole slide images in breast carcinoma using deep learning",
+      "title_sha256": "106a5f8bfb8e518caaf02d2d7a329c26ef21432eeb56bb6b2030a7414cd5f0aa",
+      "paper_urls": [
+        "https://www.nature.com/articles/s41698-021-00225-9"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "deep learning"
+      ],
+      "scope_rationale": "Title explicitly identifies a deep-learning method or a study directly about such methods.",
+      "evidence_basis": "explicit_method_in_title_and_metadata",
+      "source_url": "https://europepmc.org/article/MED/34556802"
+    },
+    {
+      "title": "Interpretable survival prediction for colorectal cancer using deep learning",
+      "title_sha256": "a72a66121635798a161269c947f7e07f1c4b059a2bc56817eaaef5591df171cb",
+      "paper_urls": [
+        "https://www.nature.com/articles/s41746-021-00427-2"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "deep learning"
+      ],
+      "scope_rationale": "Title explicitly identifies a deep-learning method or a study directly about such methods.",
+      "evidence_basis": "explicit_method_in_title_and_metadata",
+      "source_url": "https://europepmc.org/article/MED/33875798"
+    },
+    {
+      "title": "Efficient cellular annotation of histopathology slides with crowdsourcing and deep learning",
+      "title_sha256": "670d379a3a1b9897f2f0f5aaba5e9c67ec5762ae85071a7a0c130339d83d414b",
+      "paper_urls": [
+        "https://www.nature.com/articles/s41746-021-00534-0"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "deep learning"
+      ],
+      "scope_rationale": "Title explicitly identifies a deep-learning method or a study directly about such methods.",
+      "evidence_basis": "explicit_method_in_title_and_metadata",
+      "source_url": "https://www.nature.com/articles/s41746-021-00534-0"
+    },
+    {
+      "title": "Lizard: A Large-Scale Dataset for Colonic Nuclear Instance Segmentation and Classification",
+      "title_sha256": "56d21a7b6b713b577a2e1e40ccd145b83d0094827d8e3f1db0f66bf85b369692",
+      "paper_urls": [
+        "https://doi.org/10.1109/iccvw54120.2021.00082"
+      ],
+      "relation": "supporting_resource",
+      "method_terms": [],
+      "scope_rationale": "Lizard provides labeled histology nuclear instances and directly supports neural instance-segmentation/classification benchmarks.",
+      "evidence_basis": "item_level_context_review",
+      "source_url": "https://doi.org/10.1109/iccvw54120.2021.00082"
+    },
+    {
+      "title": "UniToPatho, A Labeled Histopathological Dataset for Colorectal Polyps Classification and Adenoma Dysplasia Grading",
+      "title_sha256": "ea6ae9e0b91fef780c39c6f95e16ae298d4bc7e99e29436acb6b510a21995ae8",
+      "paper_urls": [
+        "https://doi.org/10.1109/ICIP42928.2021.9506198"
+      ],
+      "relation": "supporting_resource",
+      "method_terms": [],
+      "scope_rationale": "Item-level scientific classification of the published task, model family and available method/resource description identifies a deep-learning model, deep-feature pipeline or direct supporting dataset/benchmark/review. Literal keyword absence did not determine admission.",
+      "evidence_basis": "item_level_context_review",
+      "source_url": "https://doi.org/10.1109/ICIP42928.2021.9506198"
+    }
+  ]
+}

@@ -12,9 +12,10 @@ Nature Biomedical Engineering, npj Digital Medicine, The Lancet Digital Health, 
 Image Analysis, IEEE Transactions on Medical Imaging, and IEEE Transactions on Pattern
 Analysis and Machine Intelligence (TPAMI).
 
-Scope includes computational tissue analysis, spatial transcriptomics/proteomics,
-single-cell methods, tissue microenvironments and cancer multimodal omics.
-Spatial and single-cell methods do not require histopathology-image input.
+Scope focuses on deep-learning research in computational pathology, tissue/cell imaging,
+spatial transcriptomics/proteomics, single-cell methods and cancer multimodal omics.
+Datasets, benchmarks and reviews qualify through direct support for deep-learning research.
+Spatial and single-cell methods can qualify without histopathology-image input.
 See the [keyword set and weekly maintenance policy](docs/weekly-maintenance.md).
 
 Journal entries require **SCIE indexing and CAS 2025 upgraded major-category zone 1**,
@@ -23,7 +24,7 @@ See the [verified journal policy](config/journal-policy.json).
 
 ## Highlights
 
-- 📚 5,124 curated publication entries in computational pathology and tissue omics
+- 📚 4,043 curated publication entries in computational pathology and tissue omics
 - 🧠 Foundation models, WSI analysis, VLMs, agents, and spatial omics
 - 🏛️ Top conferences and journals: CVPR, ICCV, NeurIPS, ICML, ICLR, MICCAI, MIDL, Nature, Cell, Lancet, IEEE TPAMI, IEEE TMI, MedIA
 - 📊 Year-by-year and venue-by-venue paper tracking
@@ -103,8 +104,7 @@ These are representative venues. The [machine-readable allowlist](config/journal
 - [Surveyed Venue List](#surveyed-venue-list)
 - [AI in Pathology](#papers)
 - [2026](papers/2026.md) · [2025](papers/2025.md) · [2024](papers/2024.md) · [2023](papers/2023.md)
-- [Latest cleanup audit](docs/updates/2026-10-08-cas-zone1.md)
-- [Keyword set and weekly updates](docs/weekly-maintenance.md)
+- [Scope and keyword policy](docs/weekly-maintenance.md)
 
 # Papers
 
@@ -113,91 +113,77 @@ Earlier years remain on this page.
 
 # 2026
 
-**2,534 publications** · [Browse the complete 2026 list](papers/2026.md)
+**1,726 publications** · [Browse the complete 2026 list](papers/2026.md)
 
 - [Nature](papers/2026.md#nature) (3)
 - [Nature Medicine](papers/2026.md#nature-medicine) (6)
-- [Nature Cancer](papers/2026.md#nature-cancer) (7)
-- [Nature Methods](papers/2026.md#nature-methods) (17)
-- [Nature Communications](papers/2026.md#nature-communications) (42)
+- [Nature Cancer](papers/2026.md#nature-cancer) (5)
+- [Nature Methods](papers/2026.md#nature-methods) (14)
+- [Nature Communications](papers/2026.md#nature-communications) (33)
 - [Nature Biomedical Engineering](papers/2026.md#nature-biomedical-engineering) (13)
-- [npj Digital Medicine](papers/2026.md#npj-digital-medicine) (28)
+- [npj Digital Medicine](papers/2026.md#npj-digital-medicine) (27)
 - [The Lancet Digital Health](papers/2026.md#the-lancet-digital-health) (4)
 - [npj Precision Oncology](papers/2026.md#npj-precision-oncology) (24)
 - [Cancer Cell](papers/2026.md#cancer-cell) (4)
 - [Cell](papers/2026.md#cell) (3)
 - [Light: Science & Applications](papers/2026.md#light-science--applications) (2)
-- [Advanced Science](papers/2026.md#advanced-science) (38)
+- [Advanced Science](papers/2026.md#advanced-science) (30)
 - [Medical Image Analysis](papers/2026.md#medical-image-analysis) (70)
-- [IEEE Transactions on Medical Imaging](papers/2026.md#ieee-transactions-on-medical-imaging) (39)
-- [Pattern Recognition](papers/2026.md#pattern-recognition) (15)
+- [IEEE Transactions on Medical Imaging](papers/2026.md#ieee-transactions-on-medical-imaging) (38)
+- [Pattern Recognition](papers/2026.md#pattern-recognition) (13)
 - [eBioMedicine](papers/2026.md#ebiomedicine) (1)
 - [Nature Computational Science](papers/2026.md#nature-computational-science) (11)
 - [Journal of Clinical Oncology](papers/2026.md#journal-of-clinical-oncology) (2)
-- [Modern Pathology](papers/2026.md#modern-pathology) (13)
+- [Modern Pathology](papers/2026.md#modern-pathology) (11)
 - [BMC Medicine](papers/2026.md#bmc-medicine) (1)
-- [Cancer Research](papers/2026.md#cancer-research) (11)
-- [Cell Reports Medicine](papers/2026.md#cell-reports-medicine) (3)
-- [Clinical Cancer Research](papers/2026.md#clinical-cancer-research) (8)
-- [Genome Biology](papers/2026.md#genome-biology) (21)
-- [IEEE Transactions on Pattern Analysis and Machine Intelligence](papers/2026.md#ieee-transactions-on-pattern-analysis-and-machine-intelligence) (11)
+- [Cancer Research](papers/2026.md#cancer-research) (9)
+- [Cell Reports Medicine](papers/2026.md#cell-reports-medicine) (2)
+- [Clinical Cancer Research](papers/2026.md#clinical-cancer-research) (6)
+- [Genome Biology](papers/2026.md#genome-biology) (18)
+- [IEEE Transactions on Pattern Analysis and Machine Intelligence](papers/2026.md#ieee-transactions-on-pattern-analysis-and-machine-intelligence) (8)
 - [JAMA Oncology](papers/2026.md#jama-oncology) (1)
 - [Leukemia](papers/2026.md#leukemia) (2)
 - [The Lancet Oncology](papers/2026.md#the-lancet-oncology) (3)
-- [Theranostics](papers/2026.md#theranostics) (4)
-- [Ageing Research Reviews](papers/2026.md#ageing-research-reviews) (1)
-- [Analytical Chemistry](papers/2026.md#analytical-chemistry) (6)
-- [Biotechnology Advances](papers/2026.md#biotechnology-advances) (2)
-- [Cancer Discovery](papers/2026.md#cancer-discovery) (2)
-- [Cancer Letters](papers/2026.md#cancer-letters) (1)
-- [Cell Systems](papers/2026.md#cell-systems) (6)
-- [Circulation Research](papers/2026.md#circulation-research) (2)
-- [Communications Biology](papers/2026.md#communications-biology) (7)
+- [Theranostics](papers/2026.md#theranostics) (3)
+- [Analytical Chemistry](papers/2026.md#analytical-chemistry) (5)
+- [Biotechnology Advances](papers/2026.md#biotechnology-advances) (1)
+- [Cell Systems](papers/2026.md#cell-systems) (3)
+- [Communications Biology](papers/2026.md#communications-biology) (6)
 - [Cyborg And Bionic Systems (Washington, D.C.)](papers/2026.md#cyborg-and-bionic-systems-washington-dc) (1)
-- [Environmental Science & Technology](papers/2026.md#environmental-science--technology) (1)
-- [Genome Medicine](papers/2026.md#genome-medicine) (5)
-- [Genome Research](papers/2026.md#genome-research) (7)
-- [Gut](papers/2026.md#gut) (1)
+- [Genome Medicine](papers/2026.md#genome-medicine) (4)
+- [Genome Research](papers/2026.md#genome-research) (5)
 - [Hepatology (Baltimore, Md.)](papers/2026.md#hepatology-baltimore-md) (1)
 - [Ieee Transactions On Image Processing : A Publication Of The Ieee Signal Processing Society](papers/2026.md#ieee-transactions-on-image-processing--a-publication-of-the-ieee-signal-processing-society) (1)
 - [Imeta](papers/2026.md#imeta) (1)
-- [JCI Insight](papers/2026.md#jci-insight) (3)
+- [JCI Insight](papers/2026.md#jci-insight) (1)
 - [Jhep Reports : Innovation In Hepatology](papers/2026.md#jhep-reports--innovation-in-hepatology) (1)
-- [Journal Of Advanced Research](papers/2026.md#journal-of-advanced-research) (2)
+- [Journal Of Advanced Research](papers/2026.md#journal-of-advanced-research) (1)
 - [Journal Of Biomedical Science](papers/2026.md#journal-of-biomedical-science) (1)
-- [Journal Of Orthopaedic Translation](papers/2026.md#journal-of-orthopaedic-translation) (1)
-- [Molecular Psychiatry](papers/2026.md#molecular-psychiatry) (1)
-- [Molecular Systems Biology](papers/2026.md#molecular-systems-biology) (1)
 - [National Science Review](papers/2026.md#national-science-review) (1)
-- [Nature Biotechnology](papers/2026.md#nature-biotechnology) (1)
 - [Nature Cell Biology](papers/2026.md#nature-cell-biology) (2)
 - [Nature Genetics](papers/2026.md#nature-genetics) (3)
 - [Nature Machine Intelligence](papers/2026.md#nature-machine-intelligence) (1)
-- [Nature Microbiology](papers/2026.md#nature-microbiology) (1)
-- [Nature Reviews. Nephrology](papers/2026.md#nature-reviews-nephrology) (2)
-- [Neuron](papers/2026.md#neuron) (1)
 - [PLOS Biology](papers/2026.md#plos-biology) (1)
 - [Proceedings Of The National Academy Of Sciences Of The United States Of America](papers/2026.md#proceedings-of-the-national-academy-of-sciences-of-the-united-states-of-america) (2)
 - [Research](papers/2026.md#research) (1)
-- [Science Advances](papers/2026.md#science-advances) (2)
+- [Science Advances](papers/2026.md#science-advances) (1)
 - [Science Bulletin](papers/2026.md#science-bulletin) (2)
-- [The British Journal Of Dermatology](papers/2026.md#the-british-journal-of-dermatology) (1)
 - [CVPR 2026](papers/2026.md#cvpr-2026) (38)
-- [ICLR 2026](papers/2026.md#iclr-2026) (31)
-- [ICML 2026](papers/2026.md#icml-2026) (55)
-- [NeurIPS 2026](papers/2026.md#neurips-2026) (41)
+- [ICLR 2026](papers/2026.md#iclr-2026) (30)
+- [ICML 2026](papers/2026.md#icml-2026) (48)
+- [NeurIPS 2026](papers/2026.md#neurips-2026) (39)
 - [NeurIPS 2026 Workshops](papers/2026.md#neurips-2026-workshops) (1)
 - [MICCAI 2026](papers/2026.md#miccai-2026) (98)
 - [MICCAI 2026 Workshops](papers/2026.md#miccai-2026-workshops) (2)
-- [AAAI 2026](papers/2026.md#aaai-2026) (39)
+- [AAAI 2026](papers/2026.md#aaai-2026) (38)
 - [The Web Conference 2026](papers/2026.md#the-web-conference-2026) (1)
 - [MIDL 2026](papers/2026.md#midl-2026) (23)
 - [ECCV 2026](papers/2026.md#eccv-2026) (20)
 - [IJCAI 2026](papers/2026.md#ijcai-2026) (7)
 - [WACV 2026](papers/2026.md#wacv-2026) (13)
-- [arXiv](papers/2026.md#arxiv) (566)
-- [bioRxiv](papers/2026.md#biorxiv) (851)
-- [medRxiv](papers/2026.md#medrxiv) (146)
+- [arXiv](papers/2026.md#arxiv) (535)
+- [bioRxiv](papers/2026.md#biorxiv) (261)
+- [medRxiv](papers/2026.md#medrxiv) (78)
 - [TechRxiv](papers/2026.md#techrxiv) (1)
 - [BMVC 2026](papers/2026.md#bmvc-2026) (1)
 - [ISBI 2026](papers/2026.md#isbi-2026) (11)
@@ -207,30 +193,29 @@ Earlier years remain on this page.
 - [CBMS 2026](papers/2026.md#cbms-2026) (1)
 - [ICETCI 2026](papers/2026.md#icetci-2026) (1)
 - [ICIP 2026](papers/2026.md#icip-2026) (1)
-- [Research Square](papers/2026.md#research-square) (72)
-- [Preprints.org](papers/2026.md#preprintsorg) (17)
+- [Research Square](papers/2026.md#research-square) (43)
+- [Preprints.org](papers/2026.md#preprintsorg) (10)
 - [ScienceOpen Preprints](papers/2026.md#scienceopen-preprints) (2)
-- [SSRN](papers/2026.md#ssrn) (6)
+- [SSRN](papers/2026.md#ssrn) (5)
 - [Gastroenterology](papers/2026.md#gastroenterology) (1)
-- [Authorea](papers/2026.md#authorea) (1)
 
 ---
 
 # 2025
 
-**1,156 publications** · [Browse the complete 2025 list](papers/2025.md)
+**1,027 publications** · [Browse the complete 2025 list](papers/2025.md)
 
-- [Nature](papers/2025.md#nature) (5)
+- [Nature](papers/2025.md#nature) (4)
 - [Nature Medicine](papers/2025.md#nature-medicine) (3)
 - [Nature Cancer](papers/2025.md#nature-cancer) (2)
-- [Nature Methods](papers/2025.md#nature-methods) (13)
-- [Nature Communications](papers/2025.md#nature-communications) (56)
+- [Nature Methods](papers/2025.md#nature-methods) (12)
+- [Nature Communications](papers/2025.md#nature-communications) (45)
 - [Nature Biomedical Engineering](papers/2025.md#nature-biomedical-engineering) (5)
-- [npj Digital Medicine](papers/2025.md#npj-digital-medicine) (32)
+- [npj Digital Medicine](papers/2025.md#npj-digital-medicine) (31)
 - [The Lancet Digital Health](papers/2025.md#the-lancet-digital-health) (5)
-- [npj Precision Oncology](papers/2025.md#npj-precision-oncology) (32)
-- [Advanced Science](papers/2025.md#advanced-science) (21)
-- [Medical Image Analysis](papers/2025.md#medical-image-analysis) (41)
+- [npj Precision Oncology](papers/2025.md#npj-precision-oncology) (29)
+- [Advanced Science](papers/2025.md#advanced-science) (16)
+- [Medical Image Analysis](papers/2025.md#medical-image-analysis) (40)
 - [IEEE Transactions on Medical Imaging](papers/2025.md#ieee-transactions-on-medical-imaging) (36)
 - [Pattern Recognition](papers/2025.md#pattern-recognition) (4)
 - [eBioMedicine](papers/2025.md#ebiomedicine) (4)
@@ -240,66 +225,56 @@ Earlier years remain on this page.
 - [European Journal of Cancer](papers/2025.md#european-journal-of-cancer) (1)
 - [Nature Machine Intelligence](papers/2025.md#nature-machine-intelligence) (2)
 - [Journal of Clinical Oncology](papers/2025.md#journal-of-clinical-oncology) (2)
-- [Cell Systems](papers/2025.md#cell-systems) (4)
-- [Modern Pathology](papers/2025.md#modern-pathology) (29)
+- [Cell Systems](papers/2025.md#cell-systems) (3)
+- [Modern Pathology](papers/2025.md#modern-pathology) (27)
 - [Acta Neuropathologica Communications](papers/2025.md#acta-neuropathologica-communications) (1)
 - [BMC Medicine](papers/2025.md#bmc-medicine) (1)
-- [Cancer Research](papers/2025.md#cancer-research) (6)
+- [Cancer Research](papers/2025.md#cancer-research) (3)
 - [Cell Reports Medicine](papers/2025.md#cell-reports-medicine) (1)
 - [Clinical Cancer Research](papers/2025.md#clinical-cancer-research) (3)
-- [Genome Biology](papers/2025.md#genome-biology) (24)
+- [Genome Biology](papers/2025.md#genome-biology) (17)
 - [IEEE Transactions on Neural Networks and Learning Systems](papers/2025.md#ieee-transactions-on-neural-networks-and-learning-systems) (3)
-- [IEEE Transactions on Pattern Analysis and Machine Intelligence](papers/2025.md#ieee-transactions-on-pattern-analysis-and-machine-intelligence) (3)
+- [IEEE Transactions on Pattern Analysis and Machine Intelligence](papers/2025.md#ieee-transactions-on-pattern-analysis-and-machine-intelligence) (2)
 - [JAMA Oncology](papers/2025.md#jama-oncology) (2)
-- [Leukemia](papers/2025.md#leukemia) (2)
-- [Science Advances](papers/2025.md#science-advances) (7)
+- [Leukemia](papers/2025.md#leukemia) (1)
+- [Science Advances](papers/2025.md#science-advances) (4)
 - [The Lancet Oncology](papers/2025.md#the-lancet-oncology) (1)
 - [Analytical Chemistry](papers/2025.md#analytical-chemistry) (3)
 - [Annual Review of Pathology](papers/2025.md#annual-review-of-pathology) (1)
-- [Annual Review Of Physiology](papers/2025.md#annual-review-of-physiology) (1)
-- [Bioactive Materials](papers/2025.md#bioactive-materials) (1)
 - [Biosensors & Bioelectronics](papers/2025.md#biosensors--bioelectronics) (1)
 - [Cell](papers/2025.md#cell) (1)
 - [Cell Discovery](papers/2025.md#cell-discovery) (1)
-- [Cell Proliferation](papers/2025.md#cell-proliferation) (1)
-- [Communications Biology](papers/2025.md#communications-biology) (12)
-- [Genome Medicine](papers/2025.md#genome-medicine) (5)
-- [Genome Research](papers/2025.md#genome-research) (7)
-- [Gut](papers/2025.md#gut) (1)
+- [Communications Biology](papers/2025.md#communications-biology) (6)
+- [Genome Medicine](papers/2025.md#genome-medicine) (3)
+- [Genome Research](papers/2025.md#genome-research) (4)
 - [Hepatology (Baltimore, Md.)](papers/2025.md#hepatology-baltimore-md) (1)
 - [Imeta](papers/2025.md#imeta) (1)
 - [International Journal Of Oral Science](papers/2025.md#international-journal-of-oral-science) (1)
-- [Journal For Immunotherapy Of Cancer](papers/2025.md#journal-for-immunotherapy-of-cancer) (1)
 - [Journal Of Genetics And Genomics = Yi Chuan Xue Bao](papers/2025.md#journal-of-genetics-and-genomics--yi-chuan-xue-bao) (1)
-- [Molecular Psychiatry](papers/2025.md#molecular-psychiatry) (1)
 - [National Science Review](papers/2025.md#national-science-review) (3)
 - [Nature Biotechnology](papers/2025.md#nature-biotechnology) (1)
 - [Nature Cell Biology](papers/2025.md#nature-cell-biology) (1)
 - [Nature Genetics](papers/2025.md#nature-genetics) (2)
 - [Nature Reviews. Genetics](papers/2025.md#nature-reviews-genetics) (1)
 - [Nature Reviews. Molecular Cell Biology](papers/2025.md#nature-reviews-molecular-cell-biology) (1)
-- [Neuro-Oncology](papers/2025.md#neuro-oncology) (1)
 - [PLOS Biology](papers/2025.md#plos-biology) (1)
-- [Proceedings Of The National Academy Of Sciences Of The United States Of America](papers/2025.md#proceedings-of-the-national-academy-of-sciences-of-the-united-states-of-america) (1)
 - [Protein & Cell](papers/2025.md#protein--cell) (1)
-- [Science Bulletin](papers/2025.md#science-bulletin) (1)
-- [Stem Cell Reports](papers/2025.md#stem-cell-reports) (1)
-- [CVPR 2025](papers/2025.md#cvpr-2025) (24)
+- [CVPR 2025](papers/2025.md#cvpr-2025) (23)
 - [ICCV 2025](papers/2025.md#iccv-2025) (23)
-- [NeurIPS 2025](papers/2025.md#neurips-2025) (45)
-- [ICLR 2025](papers/2025.md#iclr-2025) (16)
-- [MICCAI 2025](papers/2025.md#miccai-2025) (91)
+- [NeurIPS 2025](papers/2025.md#neurips-2025) (44)
+- [ICLR 2025](papers/2025.md#iclr-2025) (11)
+- [MICCAI 2025](papers/2025.md#miccai-2025) (90)
 - [AAAI 2025](papers/2025.md#aaai-2025) (19)
 - [IJCAI 2025](papers/2025.md#ijcai-2025) (10)
-- [ACM MM 2025](papers/2025.md#acm-mm-2025) (12)
-- [ICML 2025](papers/2025.md#icml-2025) (26)
+- [ACM MM 2025](papers/2025.md#acm-mm-2025) (11)
+- [ICML 2025](papers/2025.md#icml-2025) (25)
 - [WACV 2025](papers/2025.md#wacv-2025) (8)
 - [EMNLP 2025](papers/2025.md#emnlp-2025) (2)
 - [MIDL 2025](papers/2025.md#midl-2025) (13)
 - [ML4H 2025](papers/2025.md#ml4h-2025) (3)
-- [arXiv](papers/2025.md#arxiv) (365)
-- [bioRxiv](papers/2025.md#biorxiv) (44)
-- [medRxiv](papers/2025.md#medrxiv) (15)
+- [arXiv](papers/2025.md#arxiv) (344)
+- [bioRxiv](papers/2025.md#biorxiv) (14)
+- [medRxiv](papers/2025.md#medrxiv) (12)
 - [CIKM 2025](papers/2025.md#cikm-2025) (1)
 - [COMPLEX NETWORKS 2025](papers/2025.md#complex-networks-2025) (1)
 - [ICIP 2025](papers/2025.md#icip-2025) (1)
@@ -310,88 +285,76 @@ Earlier years remain on this page.
 - [CODS 2025](papers/2025.md#cods-2025) (1)
 - [EMBC 2025](papers/2025.md#embc-2025) (2)
 - [ICBCB 2025](papers/2025.md#icbcb-2025) (1)
-- [Cell Reports](papers/2025.md#cell-reports) (1)
-- [Research Square](papers/2025.md#research-square) (6)
-- [Authorea](papers/2025.md#authorea) (3)
+- [Research Square](papers/2025.md#research-square) (5)
+- [Authorea](papers/2025.md#authorea) (2)
 - [SciELO Preprints](papers/2025.md#scielo-preprints) (1)
 
 ---
 
 # 2024
 
-**809 publications** · [Browse the complete 2024 list](papers/2024.md)
+**731 publications** · [Browse the complete 2024 list](papers/2024.md)
 
 - [Nature](papers/2024.md#nature) (3)
 - [Nature Medicine](papers/2024.md#nature-medicine) (10)
 - [Nature Cancer](papers/2024.md#nature-cancer) (4)
-- [Nature Methods](papers/2024.md#nature-methods) (11)
-- [Nature Communications](papers/2024.md#nature-communications) (49)
-- [Nature Biomedical Engineering](papers/2024.md#nature-biomedical-engineering) (1)
+- [Nature Methods](papers/2024.md#nature-methods) (8)
+- [Nature Communications](papers/2024.md#nature-communications) (42)
 - [npj Digital Medicine](papers/2024.md#npj-digital-medicine) (10)
 - [The Lancet Digital Health](papers/2024.md#the-lancet-digital-health) (5)
-- [npj Precision Oncology](papers/2024.md#npj-precision-oncology) (22)
-- [Cell](papers/2024.md#cell) (2)
+- [npj Precision Oncology](papers/2024.md#npj-precision-oncology) (21)
+- [Cell](papers/2024.md#cell) (1)
 - [Light: Science & Applications](papers/2024.md#light-science--applications) (2)
-- [Advanced Science](papers/2024.md#advanced-science) (6)
-- [Medical Image Analysis](papers/2024.md#medical-image-analysis) (32)
-- [IEEE Transactions on Medical Imaging](papers/2024.md#ieee-transactions-on-medical-imaging) (24)
+- [Advanced Science](papers/2024.md#advanced-science) (5)
+- [Medical Image Analysis](papers/2024.md#medical-image-analysis) (31)
+- [IEEE Transactions on Medical Imaging](papers/2024.md#ieee-transactions-on-medical-imaging) (23)
 - [Pattern Recognition](papers/2024.md#pattern-recognition) (5)
-- [eBioMedicine](papers/2024.md#ebiomedicine) (4)
+- [eBioMedicine](papers/2024.md#ebiomedicine) (3)
 - [Nature Machine Intelligence](papers/2024.md#nature-machine-intelligence) (1)
 - [Annual Review of Pathology](papers/2024.md#annual-review-of-pathology) (1)
 - [Journal of Clinical Oncology](papers/2024.md#journal-of-clinical-oncology) (1)
 - [Cell Systems](papers/2024.md#cell-systems) (4)
-- [Modern Pathology](papers/2024.md#modern-pathology) (26)
+- [Modern Pathology](papers/2024.md#modern-pathology) (24)
 - [Acta Neuropathologica](papers/2024.md#acta-neuropathologica) (1)
 - [Acta Neuropathologica Communications](papers/2024.md#acta-neuropathologica-communications) (2)
 - [BMC Medicine](papers/2024.md#bmc-medicine) (1)
-- [Cancer Research](papers/2024.md#cancer-research) (9)
+- [Cancer Research](papers/2024.md#cancer-research) (5)
 - [Cell Reports Medicine](papers/2024.md#cell-reports-medicine) (6)
-- [Clinical Cancer Research](papers/2024.md#clinical-cancer-research) (4)
-- [Genome Biology](papers/2024.md#genome-biology) (24)
-- [IEEE Transactions on Pattern Analysis and Machine Intelligence](papers/2024.md#ieee-transactions-on-pattern-analysis-and-machine-intelligence) (4)
+- [Clinical Cancer Research](papers/2024.md#clinical-cancer-research) (3)
+- [Genome Biology](papers/2024.md#genome-biology) (11)
+- [IEEE Transactions on Pattern Analysis and Machine Intelligence](papers/2024.md#ieee-transactions-on-pattern-analysis-and-machine-intelligence) (2)
 - [IEEE Transactions on Neural Networks and Learning Systems](papers/2024.md#ieee-transactions-on-neural-networks-and-learning-systems) (3)
 - [JAMA Dermatology](papers/2024.md#jama-dermatology) (1)
 - [Science Advances](papers/2024.md#science-advances) (3)
 - [The American Journal of Surgical Pathology](papers/2024.md#the-american-journal-of-surgical-pathology) (3)
-- [Theranostics](papers/2024.md#theranostics) (3)
 - [Acs Nano](papers/2024.md#acs-nano) (1)
 - [Acs Sensors](papers/2024.md#acs-sensors) (1)
-- [American Journal Of Human Genetics](papers/2024.md#american-journal-of-human-genetics) (1)
-- [bioRxiv](papers/2024.md#biorxiv) (14)
+- [bioRxiv](papers/2024.md#biorxiv) (6)
 - [Cell Research](papers/2024.md#cell-research) (1)
-- [Communications Biology](papers/2024.md#communications-biology) (10)
+- [Communications Biology](papers/2024.md#communications-biology) (9)
 - [Drug Resistance Updates : Reviews And Commentaries In Antimicrobial And Anticancer Chemotherapy](papers/2024.md#drug-resistance-updates--reviews-and-commentaries-in-antimicrobial-and-anticancer-chemotherapy) (1)
 - [Genome Medicine](papers/2024.md#genome-medicine) (1)
-- [Genome Research](papers/2024.md#genome-research) (3)
-- [Journal Of Dental Research](papers/2024.md#journal-of-dental-research) (1)
-- [Journal Of Genetics And Genomics = Yi Chuan Xue Bao](papers/2024.md#journal-of-genetics-and-genomics--yi-chuan-xue-bao) (1)
-- [Journal Of Hematology & Oncology](papers/2024.md#journal-of-hematology--oncology) (1)
-- [Molecular Systems Biology](papers/2024.md#molecular-systems-biology) (2)
-- [Nature Biotechnology](papers/2024.md#nature-biotechnology) (2)
+- [Genome Research](papers/2024.md#genome-research) (2)
 - [Nature Cell Biology](papers/2024.md#nature-cell-biology) (1)
 - [Nature Computational Science](papers/2024.md#nature-computational-science) (2)
 - [Nature Genetics](papers/2024.md#nature-genetics) (1)
-- [Nature Reviews. Genetics](papers/2024.md#nature-reviews-genetics) (1)
-- [Oncogene](papers/2024.md#oncogene) (1)
 - [Proceedings Of The National Academy Of Sciences Of The United States Of America](papers/2024.md#proceedings-of-the-national-academy-of-sciences-of-the-united-states-of-america) (1)
-- [Protein & Cell](papers/2024.md#protein--cell) (1)
 - [Research](papers/2024.md#research) (2)
 - [CVPR 2024](papers/2024.md#cvpr-2024) (21)
 - [ECCV 2024](papers/2024.md#eccv-2024) (17)
-- [NeurIPS 2024](papers/2024.md#neurips-2024) (28)
+- [NeurIPS 2024](papers/2024.md#neurips-2024) (22)
 - [MICCAI 2024](papers/2024.md#miccai-2024) (81)
 - [MIDL 2024](papers/2024.md#midl-2024) (15)
-- [AAAI 2024](papers/2024.md#aaai-2024) (12)
+- [AAAI 2024](papers/2024.md#aaai-2024) (11)
 - [WACV 2024](papers/2024.md#wacv-2024) (5)
-- [ICLR 2024](papers/2024.md#iclr-2024) (7)
+- [ICLR 2024](papers/2024.md#iclr-2024) (6)
 - [ACM MM 2024](papers/2024.md#acm-mm-2024) (2)
 - [ICML 2024](papers/2024.md#icml-2024) (7)
 - [MLMI 2024](papers/2024.md#mlmi-2024) (1)
 - [INTERSPEECH 2024](papers/2024.md#interspeech-2024) (1)
 - [IJCAI 2024](papers/2024.md#ijcai-2024) (1)
 - [ML4H 2024](papers/2024.md#ml4h-2024) (3)
-- [arXiv](papers/2024.md#arxiv) (218)
+- [arXiv](papers/2024.md#arxiv) (212)
 - [CIKM 2024](papers/2024.md#cikm-2024) (1)
 - [EMBC 2024](papers/2024.md#embc-2024) (1)
 - [PSB 2024](papers/2024.md#psb-2024) (2)
@@ -399,7 +362,7 @@ Earlier years remain on this page.
 - [SPIE Medical Imaging 2024](papers/2024.md#spie-medical-imaging-2024) (7)
 - [Optica Biophotonics 2024](papers/2024.md#optica-biophotonics-2024) (1)
 - [BIOSTEC 2024](papers/2024.md#biostec-2024) (2)
-- [ISBI 2024](papers/2024.md#isbi-2024) (16)
+- [ISBI 2024](papers/2024.md#isbi-2024) (15)
 - [CAI 2024](papers/2024.md#cai-2024) (1)
 - [BIBM 2024](papers/2024.md#bibm-2024) (3)
 - [ICMVA 2024](papers/2024.md#icmva-2024) (1)
@@ -414,64 +377,57 @@ Earlier years remain on this page.
 
 # 2023
 
-**520 publications** · [Browse the complete 2023 list](papers/2023.md)
+**462 publications** · [Browse the complete 2023 list](papers/2023.md)
 
-- [Nature Medicine](papers/2023.md#nature-medicine) (3)
-- [Nature Cancer](papers/2023.md#nature-cancer) (1)
-- [Nature Methods](papers/2023.md#nature-methods) (6)
-- [Nature Communications](papers/2023.md#nature-communications) (40)
+- [Nature Medicine](papers/2023.md#nature-medicine) (2)
+- [Nature Methods](papers/2023.md#nature-methods) (3)
+- [Nature Communications](papers/2023.md#nature-communications) (30)
 - [Nature Biomedical Engineering](papers/2023.md#nature-biomedical-engineering) (1)
 - [npj Digital Medicine](papers/2023.md#npj-digital-medicine) (1)
 - [The Lancet Digital Health](papers/2023.md#the-lancet-digital-health) (4)
 - [npj Precision Oncology](papers/2023.md#npj-precision-oncology) (12)
 - [Cancer Cell](papers/2023.md#cancer-cell) (1)
 - [Light: Science & Applications](papers/2023.md#light-science--applications) (1)
-- [Advanced Science](papers/2023.md#advanced-science) (3)
+- [Advanced Science](papers/2023.md#advanced-science) (2)
 - [Medical Image Analysis](papers/2023.md#medical-image-analysis) (33)
 - [IEEE Transactions on Medical Imaging](papers/2023.md#ieee-transactions-on-medical-imaging) (29)
 - [Pattern Recognition](papers/2023.md#pattern-recognition) (1)
-- [eBioMedicine](papers/2023.md#ebiomedicine) (7)
-- [Cell Systems](papers/2023.md#cell-systems) (4)
-- [Modern Pathology](papers/2023.md#modern-pathology) (34)
+- [eBioMedicine](papers/2023.md#ebiomedicine) (6)
+- [Cell Systems](papers/2023.md#cell-systems) (1)
+- [Modern Pathology](papers/2023.md#modern-pathology) (28)
 - [Acta Neuropathologica](papers/2023.md#acta-neuropathologica) (1)
-- [Acta Neuropathologica Communications](papers/2023.md#acta-neuropathologica-communications) (2)
-- [Cancer Research](papers/2023.md#cancer-research) (3)
+- [Acta Neuropathologica Communications](papers/2023.md#acta-neuropathologica-communications) (1)
+- [Cancer Research](papers/2023.md#cancer-research) (2)
 - [Cell Reports Medicine](papers/2023.md#cell-reports-medicine) (8)
 - [Clinical Cancer Research](papers/2023.md#clinical-cancer-research) (2)
-- [IEEE Transactions on Pattern Analysis and Machine Intelligence](papers/2023.md#ieee-transactions-on-pattern-analysis-and-machine-intelligence) (8)
+- [IEEE Transactions on Pattern Analysis and Machine Intelligence](papers/2023.md#ieee-transactions-on-pattern-analysis-and-machine-intelligence) (5)
 - [JAMA Oncology](papers/2023.md#jama-oncology) (1)
 - [Leukemia](papers/2023.md#leukemia) (1)
 - [The Lancet Oncology](papers/2023.md#the-lancet-oncology) (1)
 - [Theranostics](papers/2023.md#theranostics) (1)
 - [Acs Nano](papers/2023.md#acs-nano) (1)
-- [Analytical Chemistry](papers/2023.md#analytical-chemistry) (2)
-- [Biosensors & Bioelectronics](papers/2023.md#biosensors--bioelectronics) (1)
-- [Cancer Immunology Research](papers/2023.md#cancer-immunology-research) (1)
-- [Cell Reports](papers/2023.md#cell-reports) (1)
-- [Communications Biology](papers/2023.md#communications-biology) (7)
-- [Genome Biology](papers/2023.md#genome-biology) (10)
-- [Genome Medicine](papers/2023.md#genome-medicine) (1)
-- [Genome Research](papers/2023.md#genome-research) (3)
+- [Communications Biology](papers/2023.md#communications-biology) (6)
+- [Genome Biology](papers/2023.md#genome-biology) (6)
+- [Genome Research](papers/2023.md#genome-research) (1)
 - [Journal Of Genetics And Genomics = Yi Chuan Xue Bao](papers/2023.md#journal-of-genetics-and-genomics--yi-chuan-xue-bao) (1)
 - [Nature](papers/2023.md#nature) (1)
-- [Nature Biotechnology](papers/2023.md#nature-biotechnology) (1)
 - [Nature Cell Biology](papers/2023.md#nature-cell-biology) (1)
 - [Nature Computational Science](papers/2023.md#nature-computational-science) (1)
 - [Research](papers/2023.md#research) (2)
-- [Science Advances](papers/2023.md#science-advances) (2)
-- [NeurIPS 2023](papers/2023.md#neurips-2023) (15)
+- [Science Advances](papers/2023.md#science-advances) (1)
+- [NeurIPS 2023](papers/2023.md#neurips-2023) (13)
 - [IJCAI 2023](papers/2023.md#ijcai-2023) (1)
 - [CVPR 2023](papers/2023.md#cvpr-2023) (14)
 - [ICCV 2023](papers/2023.md#iccv-2023) (10)
-- [ICLR 2023](papers/2023.md#iclr-2023) (5)
-- [MICCAI 2023](papers/2023.md#miccai-2023) (67)
-- [AAAI 2023](papers/2023.md#aaai-2023) (8)
+- [ICLR 2023](papers/2023.md#iclr-2023) (4)
+- [MICCAI 2023](papers/2023.md#miccai-2023) (66)
+- [AAAI 2023](papers/2023.md#aaai-2023) (7)
 - [MIDL 2023](papers/2023.md#midl-2023) (16)
 - [WACV 2023](papers/2023.md#wacv-2023) (6)
 - [arXiv](papers/2023.md#arxiv) (81)
-- [medRxiv](papers/2023.md#medrxiv) (7)
-- [ICML 2023](papers/2023.md#icml-2023) (6)
-- [bioRxiv](papers/2023.md#biorxiv) (7)
+- [medRxiv](papers/2023.md#medrxiv) (6)
+- [ICML 2023](papers/2023.md#icml-2023) (3)
+- [bioRxiv](papers/2023.md#biorxiv) (5)
 - [ISBI 2023](papers/2023.md#isbi-2023) (8)
 - [EUSIPCO 2023](papers/2023.md#eusipco-2023) (3)
 - [EMBC 2023](papers/2023.md#embc-2023) (6)
@@ -484,7 +440,7 @@ Earlier years remain on this page.
 - [ICCV 2023 Workshops](papers/2023.md#iccv-2023-workshops) (1)
 - [BIBM 2023](papers/2023.md#bibm-2023) (3)
 - [TrustCom 2023](papers/2023.md#trustcom-2023) (1)
-- [Research Square](papers/2023.md#research-square) (2)
+- [Research Square](papers/2023.md#research-square) (1)
 
 ---
 
@@ -695,10 +651,6 @@ Earlier years remain on this page.
 
 - Digital pathology and computational image analysis in nephropathology [[paper](https://www.nature.com/articles/s41581-020-0321-6)]
 
-**medRxiv**
-
-- Nascent prostate cancer heterogeneity drives evolution and resistance to intense hormonal therapy [[paper](https://www.medrxiv.org/content/10.1101/2020.09.29.20199711v1)]
-
 **Medical Image Analysis**
 
 - Whole slide images based cancer survival prediction using attention guided deep multiple instance learning networks [[paper](https://doi.org/10.1016/j.media.2020.101789)][[code](https://github.com/uta-smile/DeepAttnMISL)]
@@ -706,7 +658,6 @@ Earlier years remain on this page.
 **Nature Communications**
 
 - A deep learning model to predict RNA-Seq expression of tumours from whole slide images [[paper](https://www.nature.com/articles/s41467-020-17678-4)][[code](https://github.com/owkin/HE2RNA_code)]
-- Computational analysis of pathological images enables a better diagnosis of TFE3 Xp11.2 translocation renal cell carcinoma [[paper](https://www.nature.com/articles/s41467-020-15671-5)]
 
 **Nature Biomedical Engineering**
 
@@ -771,7 +722,6 @@ Earlier years remain on this page.
 
 **arXiv**
 
-- Accurate and Robust Alignment of Variable-stained Histologic Images Using a General-purpose Greedy Diffeomorphic Registration Tool [[paper](https://arxiv.org/abs/1904.11929)][[code](https://github.com/CBICA/HistoReg)]
 - GAN-based Virtual Re-Staining: A Promising Solution for Whole Slide Image Analysis [[paper](https://arxiv.org/abs/1901.04059)][[code](https://github.com/Zhaoyang-XU/Virtual-Staining)]
 
 **Nature Machine Intelligence**
@@ -785,10 +735,6 @@ Earlier years remain on this page.
 ---
 
 # 2018
-
-**JAMA Dermatology**
-
-- Accuracy of Digital Pathologic Analysis vs Traditional Microscopy in the Interpretation of Melanocytic Lesions [[paper](http://archderm.jamanetwork.com/article.aspx?doi=10.1001/jamadermatol.2018.2388)]
 
 **Cell Reports**
 
@@ -817,37 +763,5 @@ Earlier years remain on this page.
 **JAMA**
 
 - Diagnostic Assessment of Deep Learning Algorithms for Detection of Lymph Node Metastases in Women With Breast Cancer [[paper](https://doi.org/10.1001/jama.2017.14585)]
-
----
-
-# 2016
-
-**Nature Communications**
-
-- Predicting non-small cell lung cancer prognosis by fully automated microscopic pathology image features [[paper](https://www.nature.com/articles/ncomms12474)]
-
----
-
-# 2013
-
-**IEEE Transactions on Pattern Analysis and Machine Intelligence**
-
-- Discrete Mereotopology for Spatial Reasoning in Automated Histological Image Analysis [[paper](https://doi.org/10.1109/tpami.2012.128)]
-
----
-
-# 2010
-
-**Journal of Cell Biology**
-
-- Metadata matters: access to image data in the real world [[paper](https://doi.org/10.1083/jcb.201004104)][[website](https://www.openmicroscopy.org/bio-formats/)]
-
----
-
-# 2006
-
-**Genome Biology**
-
-- CellProfiler: image analysis software for identifying and quantifying cell phenotypes [[paper](https://pubmed.ncbi.nlm.nih.gov/17076895/)][[code](https://github.com/CellProfiler/CellProfiler)]
 
 ---

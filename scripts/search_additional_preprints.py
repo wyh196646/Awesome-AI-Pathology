@@ -243,6 +243,7 @@ def main():
             if identity:
                 by_identity.setdefault(identity, []).append(entry)
     exclusions = json.loads((ROOT / "data/excluded-journal-identities.json").read_text(encoding="utf-8"))
+    method_exclusions = json.loads((ROOT / "data/excluded-method-identities.json").read_text(encoding="utf-8"))
     candidates = []
     for raw in records.values():
         try:
@@ -259,7 +260,8 @@ def main():
         unique_matches = list({(entry["path"], entry["line"]): entry for entry in matches}.values())
         record.update(matched_topics=topics, matched_methods=methods,
                       existing_matches=sp.matching_existing(record, unique_matches),
-                      journal_policy_exclusion=sp.journal_policy_exclusion(record, exclusions))
+                      journal_policy_exclusion=sp.journal_policy_exclusion(record, exclusions),
+                      method_scope_exclusion=sp.method_scope_exclusion(record, method_exclusions))
         candidates.append(record)
     status = {"status": "failed" if errors else "complete", "since": since, "until": args.until,
               "date_field": args.date_field, "retrieved_unique": len(records), "candidates": len(candidates),

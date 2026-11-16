@@ -10,6 +10,7 @@ historical additions, paper metadata and counts are not the current bibliography
 or an inclusion allowlist. The October 4 and October 5 audits predate the journal
 filter; their removed entries remain recoverable in Git history.
 
+- [2026-11-16 全库深度学习范围审计](2026-11-16-deep-learning-scope.md) — 4,043 条保留、1,053 条移出、28 条待核实与可恢复档案。
 - [2026-11-16 每周维护](2026-11-16.md) — 109 篇新增、18 个修订、1 个身份链接与检索边界。
 - [2026-11-09 每周维护](2026-11-09.md) — 83 篇新增、4 个修订与来源状态。
 - [2026-11-08 扩展预印本平台与 Fuji 补录](2026-11-08-platforms.md) — 40 篇新增、8 个身份链接与待审范围。

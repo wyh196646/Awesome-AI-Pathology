@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "policy": "config/literature-keywords.json",
+  "entries": [
+    {
+      "title": "Spatial Organization and Molecular Correlation of Tumor-Infiltrating Lymphocytes Using Deep Learning on Pathology Images",
+      "title_sha256": "66da8a3aa9ea1bf57427cf3f9d3a336f6b6e1b5c8d6b5d086f3b984750113592",
+      "paper_urls": [
+        "https://doi.org/10.1016/j.celrep.2018.03.086"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "Deep Learning"
+      ],
+      "scope_rationale": "Title explicitly identifies a deep-learning method or a study directly about such methods.",
+      "evidence_basis": "explicit_method_in_title_and_metadata",
+      "source_url": "https://europepmc.org/article/MED/29617659"
+    },
+    {
+      "title": "Attention-based Deep Multiple Instance Learning",
+      "title_sha256": "68c947f1ab7e8a2bdec06580e61c8607b8f362a91e6b6e7bdfe9b6d04a56e06b",
+      "paper_urls": [
+        "https://arxiv.org/abs/1802.04712"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "Deep Multiple Instance"
+      ],
+      "scope_rationale": "Title explicitly identifies a deep-learning method or a study directly about such methods.",
+      "evidence_basis": "explicit_method_in_title_and_metadata",
+      "source_url": "https://arxiv.org/abs/1802.04712"
+    },
+    {
+      "title": "SIPaKMeD: A New Dataset for Feature and Image Based Classification of Normal and Pathological Cervical Cells in Pap Smear Images",
+      "title_sha256": "b18d58c1166dc454160fbc0b124c4f2292b9f6cd586a726c48824b81340d2697",
+      "paper_urls": [
+        "https://www.cse.uoi.gr/~cnikou/Publications/C072 - Plissiti - icip 2018 - Athens.pdf"
+      ],
+      "relation": "supporting_resource",
+      "method_terms": [],
+      "scope_rationale": "Item-level scientific classification of the published task, model family and available method/resource description identifies a deep-learning model, deep-feature pipeline or direct supporting dataset/benchmark/review. Literal keyword absence did not determine admission.",
+      "evidence_basis": "item_level_context_review",
+      "source_url": "https://www.cse.uoi.gr/~cnikou/Publications/C072 - Plissiti - icip 2018 - Athens.pdf"
+    },
+    {
+      "title": "Classification and mutation prediction from non–small cell lung cancer histopathology images using deep learning",
+      "title_sha256": "691fe0382d0e56c9b99f9c92ce6914bc6397bd6059a02704193a66c9a0393207",
+      "paper_urls": [
+        "https://www.nature.com/articles/s41591-018-0177-5"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "deep learning"
+      ],
+      "scope_rationale": "Title explicitly identifies a deep-learning method or a study directly about such methods.",
+      "evidence_basis": "explicit_method_in_title_and_metadata",
+      "source_url": "https://europepmc.org/article/MED/30224757"
+    }
+  ]
+}

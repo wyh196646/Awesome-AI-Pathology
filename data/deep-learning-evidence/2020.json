@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "policy": "config/literature-keywords.json",
+  "entries": [
+    {
+      "title": "PathSRGAN: Multi-Supervised Super-Resolution for Cytopathological Images Using Generative Adversarial Network",
+      "title_sha256": "a6a0b547dca22d1e8357883fc0ae62746ad57bd5c1e8b6e15c3e8b2f034b1978",
+      "paper_urls": [
+        "https://ieeexplore.ieee.org/document/9036984/"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "Generative Adversarial Network"
+      ],
+      "scope_rationale": "Title explicitly identifies a deep-learning method or a study directly about such methods.",
+      "evidence_basis": "explicit_method_in_title_and_metadata",
+      "source_url": "https://europepmc.org/article/MED/32175859"
+    },
+    {
+      "title": "A Multi-Organ Nucleus Segmentation Challenge",
+      "title_sha256": "8b0330f7aa021251be0036002034a0ea020d86ef7961bef6e06fa68badc98878",
+      "paper_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10439521/"
+      ],
+      "relation": "supporting_resource",
+      "method_terms": [
+        "ResNet",
+        "U-Net",
+        "VGG",
+        "convolutional"
+      ],
+      "scope_rationale": "Abstract explicitly connects the dataset, benchmark or review to deep-learning methods.",
+      "evidence_basis": "abstract_supporting_role",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10439521/"
+    },
+    {
+      "title": "ANHIR: Automatic Non-rigid Histological Image Registration Challenge",
+      "title_sha256": "5978d75b816f91d2b11316684f4725e7213a6924f57f4a801c604e4bb9069fe0",
+      "paper_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7584382/"
+      ],
+      "relation": "supporting_resource",
+      "method_terms": [],
+      "scope_rationale": "ANHIR is an established histological registration benchmark directly used in deep-learning registration research.",
+      "evidence_basis": "item_level_context_review",
+      "source_url": "https://europepmc.org/article/MED/32275587"
+    },
+    {
+      "title": "Digital pathology and computational image analysis in nephropathology",
+      "title_sha256": "ac3ed7f664dcfdf7b47992728281b5095af400bf78e0bf11f66d9bbd08026efc",
+      "paper_urls": [
+        "https://www.nature.com/articles/s41581-020-0321-6"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "artificial neural networks",
+        "convolutional",
+        "recurrent neural networks"
+      ],
+      "scope_rationale": "Reviewed primary abstract or method evidence identifies a substantive neural/deep-learning model, clinical evaluation or directly supporting benchmark/review.",
+      "evidence_basis": "item_level_context_review",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7447970/fullTextXML"
+    },
+    {
+      "title": "Whole slide images based cancer survival prediction using attention guided deep multiple instance learning networks",
+      "title_sha256": "fcb7b85f25eca713937cb8f55482c40ccceaff52ccb8e6764765bcf403ec0800",
+      "paper_urls": [
+        "https://doi.org/10.1016/j.media.2020.101789"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "deep multiple instance"
+      ],
+      "scope_rationale": "Title explicitly identifies a deep-learning method or a study directly about such methods.",
+      "evidence_basis": "explicit_method_in_title_and_metadata",
+      "source_url": "https://europepmc.org/article/MED/32739769"
+    },
+    {
+      "title": "A deep learning model to predict RNA-Seq expression of tumours from whole slide images",
+      "title_sha256": "cd50ef07e7ddb1444fdc1aca03b881ff6fc180bfd744d86ef119cebbde855346",
+      "paper_urls": [
+        "https://www.nature.com/articles/s41467-020-17678-4"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "deep learning"
+      ],
+      "scope_rationale": "Title explicitly identifies a deep-learning method or a study directly about such methods.",
+      "evidence_basis": "explicit_method_in_title_and_metadata",
+      "source_url": "https://europepmc.org/article/MED/32747659"
+    },
+    {
+      "title": "Integrating spatial gene expression and breast tumour morphology via deep learning",
+      "title_sha256": "ddd73a869a0f008a9c65c4caf5ca72fd1530a7eede141882efdfd5ccbe7603e7",
+      "paper_urls": [
+        "https://www.nature.com/articles/s41551-020-0578-x"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "deep learning"
+      ],
+      "scope_rationale": "Title explicitly identifies a deep-learning method or a study directly about such methods.",
+      "evidence_basis": "explicit_method_in_title_and_metadata",
+      "source_url": "https://europepmc.org/article/MED/32572199"
+    },
+    {
+      "title": "PathVQA: 30000+ Questions for Medical Visual Question Answering",
+      "title_sha256": "7e33944cf01f7a183603515e1cce48da6d86187929e54bc8778a49cf3edbb5f8",
+      "paper_urls": [
+        "https://arxiv.org/abs/2003.10286"
+      ],
+      "relation": "research",
+      "method_terms": [],
+      "scope_rationale": "PathVQA provides pathology visual-question-answering data and neural multimodal baselines.",
+      "evidence_basis": "item_level_context_review",
+      "source_url": "https://arxiv.org/abs/2003.10286"
+    },
+    {
+      "title": "Artificial intelligence for diagnosis and grading of prostate cancer in biopsies: a population-based, diagnostic study",
+      "title_sha256": "f9d3997c0064de799eb1053ce20acf21b4a61cb0290333e8368dd178a377b4df",
+      "paper_urls": [
+        "https://doi.org/10.1016/s1470-2045(19)30738-7"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "deep neural"
+      ],
+      "scope_rationale": "Abstract describes a neural/deep-learning component in the research workflow.",
+      "evidence_basis": "abstract_method_component",
+      "source_url": "https://europepmc.org/article/MED/31926806"
+    },
+    {
+      "title": "An artificial intelligence algorithm for prostate cancer diagnosis in whole slide images of core needle biopsies: a blinded clinical validation and deployment study",
+      "title_sha256": "d623fe8286221cee98ded57f0d1e1610b7a550f3e79638f9ebd19c6e0056cc90",
+      "paper_urls": [
+        "https://doi.org/10.1016/s2589-7500(20)30159-x"
+      ],
+      "relation": "research",
+      "method_terms": [],
+      "scope_rationale": "Item-level scientific classification of the published task, model family and available method/resource description identifies a deep-learning model, deep-feature pipeline or direct supporting dataset/benchmark/review. Literal keyword absence did not determine admission.",
+      "evidence_basis": "item_level_context_review",
+      "source_url": "https://europepmc.org/article/MED/33328045"
+    },
+    {
+      "title": "Pan-cancer image-based detection of clinically actionable genetic alterations",
+      "title_sha256": "8f8e03a99d67f628d6897e02a2086df7d50296ce7d11dd9d9649fd196d0a7224",
+      "paper_urls": [
+        "https://www.nature.com/articles/s43018-020-0087-6"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "deep learning"
+      ],
+      "scope_rationale": "Abstract describes a neural/deep-learning component in the research workflow.",
+      "evidence_basis": "abstract_method_component",
+      "source_url": "https://europepmc.org/article/MED/33763651"
+    },
+    {
+      "title": "Pan-cancer computational histopathology reveals mutations, tumor composition and prognosis",
+      "title_sha256": "aee5874cb9aab19bc8c7f9c969a9dd4e36066b829a3d6890055ce23135dc9644",
+      "paper_urls": [
+        "https://www.nature.com/articles/s43018-020-0085-8"
+      ],
+      "relation": "research",
+      "method_terms": [],
+      "scope_rationale": "Context review confirms direct research on deep pathology/cellular models, pretrained neural features, neural clinical assistance, or supporting model evaluation/data/tooling. Statistical, graph or Bayesian terminology does not negate a substantive neural component.",
+      "evidence_basis": "item_level_context_review",
+      "source_url": "https://europepmc.org/article/MED/35122049"
+    },
+    {
+      "title": "PathFlow-MixMatch for Whole Slide Image Registration: An Investigation of a Segment-Based Scalable Image Registration Method",
+      "title_sha256": "b783eccfd1b6996a66cf7ff8295b4ecfff94492bce82c97efed3fccd83b480ef",
+      "paper_urls": [
+        "https://www.biorxiv.org/content/10.1101/2020.03.22.002402.full"
+      ],
+      "relation": "research",
+      "method_terms": [],
+      "scope_rationale": "Item-level scientific classification of the published task, model family and available method/resource description identifies a deep-learning model, deep-feature pipeline or direct supporting dataset/benchmark/review. Literal keyword absence did not determine admission.",
+      "evidence_basis": "item_level_context_review",
+      "source_url": "https://europepmc.org/article/PPR/PPR118820"
+    },
+    {
+      "title": "Pan-cancer diagnostic consensus through searching archival histopathology images using artificial intelligence",
+      "title_sha256": "011d98fdfb688bea3e73385d64c2d80daca3773903ba1cb0b82745e0428dbed2",
+      "paper_urls": [
+        "https://www.nature.com/articles/s41746-020-0238-2"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "artificial neural networks"
+      ],
+      "scope_rationale": "Reviewed primary abstract or method evidence identifies a substantive neural/deep-learning model, clinical evaluation or directly supporting benchmark/review.",
+      "evidence_basis": "item_level_context_review",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7064517/fullTextXML"
+    }
+  ]
+}
