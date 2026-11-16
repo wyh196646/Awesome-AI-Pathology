@@ -1,0 +1,363 @@
+{
+  "audit": "2026-11-16.json",
+  "candidates": [
+    {
+      "id": "10.21203/rs.3.rs-5985837/v1",
+      "action": "pending_identity",
+      "title": "Closing the Automation Gap: Robust AI for Dual-Stain Cervical Cancer Screening Triage",
+      "version": 1,
+      "reason": "Possible retitled formal counterpart requires primary-source reconciliation.",
+      "review_basis": "title_and_full_available_abstract",
+      "reviewed_on": "2026-11-09",
+      "queue_index": 78,
+      "first_posted_verified": "2025-03-04",
+      "year": 2025,
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR984990",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-5985837%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-5985837%2Fv1",
+        "https://www.researchsquare.com/article/rs-5985837/v1",
+        "https://api.crossref.org/works?query.title=Closing+the+Automation+Gap%3A+Robust+AI+for+Dual-Stain+Cervical+Cancer+Screening+Triage&rows=3"
+      ],
+      "verification_errors": [],
+      "version_history": [
+        {
+          "id": "PPR984990",
+          "source": "PPR",
+          "versionNumber": 1,
+          "firstPublishDate": "2025-03-04",
+          "pubTypeList": {
+            "pubType": [
+              "preprint"
+            ]
+          },
+          "hasEvaluations": "N"
+        }
+      ]
+    },
+    {
+      "id": "10.21203/rs.3.rs-9575788/v1",
+      "action": "pending_scope",
+      "title": "Visual embedding retrieval mitigates the perception–cognition gap of vision-language models in aquatic pathology",
+      "version": 1,
+      "reason": "Fish-disease retrieval benchmark. Verify whether inputs are tissue/cell microscopy or unrelated whole-fish photographs before admission.",
+      "review_basis": "title_and_abstract",
+      "reviewed_on": "2026-11-09"
+    },
+    {
+      "id": "10.21203/rs.3.rs-11313159/v1",
+      "action": "pending_identity",
+      "title": "SCMG: A Multi-Omics and Stage-Resolved Single-Cell Framework for Cancer Driver Gene Prioritization",
+      "version": 1,
+      "reason": "Possible retitled formal counterpart requires primary-source reconciliation.",
+      "review_basis": "title_and_full_available_abstract",
+      "reviewed_on": "2026-11-09",
+      "queue_index": 119,
+      "first_posted_verified": "2026-10-30",
+      "year": 2026,
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1353902",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-11313159%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-11313159%2Fv1",
+        "https://www.researchsquare.com/article/rs-11313159/v1",
+        "https://api.crossref.org/works?query.title=SCMG%3A+A+Multi-Omics+and+Stage-Resolved+Single-Cell+Framework+for+Cancer+Driver+Gene+Prioritization&rows=3"
+      ],
+      "verification_errors": [],
+      "version_history": [
+        {
+          "id": "PPR1353902",
+          "source": "PPR",
+          "versionNumber": 1,
+          "firstPublishDate": "2026-10-30",
+          "pubTypeList": {
+            "pubType": [
+              "preprint"
+            ]
+          },
+          "hasEvaluations": "N"
+        }
+      ]
+    },
+    {
+      "id": "10.21203/rs.3.rs-6314842/v1",
+      "action": "pending_identity",
+      "title": "A Spatial Multi-Omic Framework Identifies Gliomas Permissive to TIL Expansion",
+      "version": 1,
+      "reason": "Possible retitled formal counterpart requires primary-source reconciliation.",
+      "review_basis": "title_and_full_available_abstract",
+      "reviewed_on": "2026-11-09",
+      "queue_index": 128,
+      "first_posted_verified": "2025-04-25",
+      "year": 2025,
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1009697",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-6314842%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-6314842%2Fv1",
+        "https://www.researchsquare.com/article/rs-6314842/v1",
+        "https://api.crossref.org/works?query.title=A+Spatial+Multi-Omic+Framework+Identifies+Gliomas+Permissive+to+TIL+Expansion&rows=3"
+      ],
+      "verification_errors": [],
+      "version_history": [
+        {
+          "id": "PPR1009697",
+          "source": "PPR",
+          "versionNumber": 1,
+          "firstPublishDate": "2025-04-25",
+          "pubTypeList": {
+            "pubType": [
+              "preprint"
+            ]
+          },
+          "hasEvaluations": "N"
+        }
+      ]
+    },
+    {
+      "id": "10.64898/2026.11.02.26367124",
+      "action": "pending_identity",
+      "reason": "Formal counterpart requires author/venue/issue confirmation.",
+      "title": "Unravelling the mechanisms of clozapine-induced neutropenia in treatment-resistant schizophrenia using cellular genomics",
+      "version": 1,
+      "review_basis": "title_and_full_available_abstract",
+      "reviewed_on": "2026-11-09",
+      "first_posted_verified": "2026-11-03",
+      "year": 2026,
+      "verification_sources": [
+        "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-08/1080/json",
+        "https://api.biorxiv.org/details/medrxiv/10.64898/2026.11.02.26367124/na/json",
+        "https://api.crossref.org/works/10.64898%2F2026.11.02.26367124",
+        "https://api.crossref.org/works?query.title=Unravelling+the+mechanisms+of+clozapine-induced+neutropenia+in+treatment-resistant+schizophrenia+using+cellular+genomics&rows=3"
+      ],
+      "verification_errors": [],
+      "version_history": [
+        {
+          "version": "1",
+          "date": "2026-11-03",
+          "published": "NA",
+          "title": "Unravelling the mechanisms of clozapine-induced neutropenia in treatment-resistant schizophrenia using cellular genomics"
+        }
+      ]
+    },
+    {
+      "id": "10.64898/2026.11.02.26367052",
+      "action": "pending_scope",
+      "reason": "Review full computational contribution of the in-house HRD assay before admission.  abstract describes clinical assay validation and concordance.",
+      "title": "Analytical Validation and Clinical Implementation of MedGenome HRD Assay: A Large Comparative Study Against Commercial HRD Assays in Ovarian Cancer",
+      "version": 1,
+      "review_basis": "title_and_full_available_abstract",
+      "reviewed_on": "2026-11-09"
+    },
+    {
+      "id": "10.64898/2026.11.03.26367177",
+      "action": "pending_scope",
+      "reason": "Review breadth of single-cell/tissue computational contribution.  abstract uses cellular localization of one prognostic biomarker.",
+      "title": "The Clinical and Cellular Landscape of DKK1 in Osteosarcoma",
+      "version": 1,
+      "review_basis": "title_and_full_available_abstract",
+      "reviewed_on": "2026-11-09"
+    },
+    {
+      "id": "10.64898/2026.11.02.763843",
+      "title": "Transcriptional contingency in the early hematopoiesis of inherited bone marrow failure syndromes",
+      "version": 1,
+      "action": "pending_identity",
+      "reason": "Earlier same-title/author item is an EWOG-MDS/SAA 2025 meeting abstract in EJC Paediatric Oncology. Full preprint versus abstract-only publication identity requires original full-manuscript confirmation. Official PDF and bioRxiv full-text access failed in this run.",
+      "review_basis": "title_and_full_available_abstract",
+      "reviewed_on": "2026-11-09",
+      "first_posted_verified": "2026-11-03",
+      "year": 2026,
+      "verification_sources": [
+        "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-08/3870/json",
+        "https://api.biorxiv.org/details/biorxiv/10.64898/2026.11.02.763843/na/json",
+        "https://api.crossref.org/works/10.64898%2F2026.11.02.763843",
+        "https://api.crossref.org/works?query.title=Transcriptional+contingency+in+the+early+hematopoiesis+of+inherited+bone+marrow+failure+syndromes&rows=3",
+        "https://www.ewogberlin2025.org/wp-content/uploads/2025/09/EWOGBerlin2025-Abstractbook.pdf",
+        "https://www.ejcped.com/article/S2772-610X(25)00129-1/pdf"
+      ],
+      "verification_errors": [],
+      "version_history": [
+        {
+          "version": "1",
+          "date": "2026-11-03",
+          "published": "NA",
+          "title": "Transcriptional contingency in the early hematopoiesis of inherited bone marrow failure syndromes"
+        }
+      ]
+    },
+    {
+      "id": "10.1101/2025.07.03.662899",
+      "title": "Cortex-Wide, Cellular-Resolution Volumetric Imaging with a Modular Two-Photon Imaging Platform",
+      "version": 4,
+      "action": "pending_scope",
+      "reason": "Primary contribution is a specialized two-photon cortical functional-imaging platform. The abstract mentions supporting motion correction, segmentation and spike inference, while general computational pathology/omics or reusable cell-image-analysis applicability requires further primary evidence.",
+      "review_basis": "title_and_full_available_abstract",
+      "reviewed_on": "2026-11-09",
+      "review_revision": "Initial admission held after PR scope review. Preserve the candidate for further full-method assessment.",
+      "first_posted_verified": "2025-07-03",
+      "year": 2025,
+      "final_title": "Cortex-Wide, Cellular-Resolution Volumetric Imaging with a Modular Two-Photon Imaging Platform",
+      "final_url": "https://www.biorxiv.org/content/10.1101/2025.07.03.662899v4",
+      "final_venue": "bioRxiv",
+      "verification_sources": [
+        "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-08/1560/json",
+        "https://api.biorxiv.org/details/biorxiv/10.1101/2025.07.03.662899/na/json",
+        "https://api.crossref.org/works/10.1101%2F2025.07.03.662899",
+        "https://api.crossref.org/works?query.title=Cortex-Wide%2C+Cellular-Resolution+Volumetric+Imaging+with+a+Modular+Two-Photon+Imaging+Platform&rows=3"
+      ],
+      "verification_errors": [],
+      "version_history": [
+        {
+          "version": "1",
+          "date": "2025-07-03",
+          "published": "NA",
+          "title": "Cortex-Wide, Cellular-Resolution Volumetric Imaging with a Modular Two-Photon Imaging Platform"
+        },
+        {
+          "version": "2",
+          "date": "2025-07-05",
+          "published": "NA",
+          "title": "Cortex-Wide, Cellular-Resolution Volumetric Imaging with a Modular Two-Photon Imaging Platform"
+        },
+        {
+          "version": "3",
+          "date": "2025-07-07",
+          "published": "NA",
+          "title": "Cortex-Wide, Cellular-Resolution Volumetric Imaging with a Modular Two-Photon Imaging Platform"
+        },
+        {
+          "version": "4",
+          "date": "2026-10-24",
+          "published": "NA",
+          "title": "Cortex-Wide, Cellular-Resolution Volumetric Imaging with a Modular Two-Photon Imaging Platform"
+        }
+      ]
+    },
+    {
+      "id": "10.1101/2025.06.05.658079",
+      "title": "Comprehensive molecular impact mapping of common and rare variants at GWAS loci",
+      "version": 2,
+      "action": "pending_scope",
+      "reason": "Sequence-to-function variant model with single-nucleus ATAC validation. Further review required to establish a substantive single-cell method/resource contribution within the collection scope.",
+      "review_basis": "title_and_full_available_abstract",
+      "reviewed_on": "2026-11-09"
+    },
+    {
+      "id": "10.64898/2026.10.21.760645",
+      "title": "Single-nucleus transcriptomics and phosphoproteomics identify misregulated sperm components in mice carrying a selfish supergene",
+      "version": 1,
+      "action": "pending_scope",
+      "reason": "Single-nucleus spermatogenesis analysis mainly addresses transmission distortion/evolution. Biomedical tissue-scope relevance requires further review.",
+      "review_basis": "title_and_full_available_abstract",
+      "reviewed_on": "2026-11-09"
+    },
+    {
+      "id": "10.64898/2026.10.18.760012",
+      "title": "Comparative single-cell transcriptomics links gene expression divergence to Drosophila genital morphogenesis",
+      "version": 1,
+      "action": "pending_scope",
+      "reason": "Comparative insect developmental single-cell atlas mainly addresses morphological evolution. General method versus biomedical tissue relevance requires review.",
+      "review_basis": "title_and_full_available_abstract",
+      "reviewed_on": "2026-11-09"
+    },
+    {
+      "id": "10.64898/2026.10.27.760146",
+      "title": "Recurrent mitotic error and purifying selection shape chromosomal mosaicism across human tissues",
+      "version": 1,
+      "action": "pending_scope",
+      "reason": "Human multi-tissue bulk-WGS mosaicism resource. Further review needed to establish contribution within image/spatial/single-cell or cancer multimodal scope.",
+      "review_basis": "title_and_full_available_abstract",
+      "reviewed_on": "2026-11-09"
+    },
+    {
+      "id": "10.64898/2026.10.27.761882",
+      "title": "Tumour architecture inverts ARNT-dependent growth regulation and reveals CPE-mediated spheroid expansion in luminal breast cancer",
+      "version": 2,
+      "action": "pending_scope",
+      "reason": "Architecture-dependent functional genetics with single-cell validation. Further review required to distinguish substantive single-cell analysis from ancillary validation.",
+      "review_basis": "title_and_full_available_abstract",
+      "reviewed_on": "2026-11-09"
+    },
+    {
+      "id": "10.64898/2026.10.31.762810",
+      "title": "A conserved pituitary response to tissue loss controls regeneration across vertebrates",
+      "version": 1,
+      "action": "pending_scope",
+      "reason": "Regeneration biology supported by single-cell tissue signaling. Extent of the reusable/substantial single-cell contribution requires review.",
+      "review_basis": "title_and_full_available_abstract",
+      "reviewed_on": "2026-11-09"
+    },
+    {
+      "id": "10.64898/2026.11.04.763940",
+      "title": "Platelet-endothelial crosstalk drives distinct endothelial dysfunction in bicuspid aortic valve disease",
+      "version": 1,
+      "action": "pending_scope",
+      "reason": "Bulk endothelial multiomics with inferred cell signaling. Further review needed to establish scope beyond routine mechanistic cell-culture analysis.",
+      "review_basis": "title_and_full_available_abstract",
+      "reviewed_on": "2026-11-09"
+    },
+    {
+      "id": "10.64898/2026.11.04.764222",
+      "title": "Failed allogeneic corneal lenticules show fibrosis and identity loss without dominant T cell rejection",
+      "version": 1,
+      "action": "pending_scope",
+      "reason": "Explant bulk expression and single-cell-reference-calibrated identity scores. Reusable computational contribution and direct single-cell analysis require review.",
+      "review_basis": "title_and_full_available_abstract",
+      "reviewed_on": "2026-11-09"
+    },
+    {
+      "id": "10.64898/2026.11.04.764396",
+      "title": "Sex-specific gene and isoform expression characterizes hippocampal aging in rhesus macaques",
+      "version": 1,
+      "action": "pending_scope",
+      "reason": "Bulk short/long-read aging analysis with public single-nucleus network comparison. Extent of the single-cell resource/method contribution requires review.",
+      "review_basis": "title_and_full_available_abstract",
+      "reviewed_on": "2026-11-09"
+    },
+    {
+      "id": "10.64898/2026.10.14.758964",
+      "title": "Advancing CD38 from a marker of disease activity to an active regulator of interferon responses in juvenile dermatomyositis",
+      "version": 1,
+      "action": "pending_scope",
+      "reason": "In-silico perturbation and drug nomination in disease immune cells. Cell-resolution inputs and computational contribution require primary full-paper review.",
+      "review_basis": "title_and_full_available_abstract",
+      "reviewed_on": "2026-11-09"
+    },
+    {
+      "source": "external_preprint",
+      "id": "10.2139/ssrn.6113571",
+      "version": 1,
+      "title": "Spatial Transcriptomics Profiling Across Tissue Boundaries in the Developing Mouse Brain",
+      "paper_url": "https://doi.org/10.2139/ssrn.6113571",
+      "platform": "SSRN",
+      "action": "pending_review",
+      "reason": "External official-domain discovery retained for abstract/identity review."
+    },
+    {
+      "source": "external_preprint",
+      "id": "10.2139/ssrn.5178720",
+      "version": 1,
+      "title": "A Deep Learning Framework for Histopathological Analysis of Pixel-Level Extracellular Matrix Variation in Standard H&E-Stained Images",
+      "paper_url": "https://doi.org/10.2139/ssrn.5178720",
+      "platform": "SSRN",
+      "action": "pending_review",
+      "reason": "External official-domain discovery retained for abstract/identity review."
+    },
+    {
+      "source": "external_preprint",
+      "id": "10.2139/ssrn.5336840",
+      "version": 1,
+      "title": "Spatial Transcriptomic Reconstruction of Human SCN Reveals Rewiring of Neuropeptide Signaling Network",
+      "paper_url": "https://doi.org/10.2139/ssrn.5336840",
+      "platform": "SSRN",
+      "action": "pending_identity",
+      "reason": "Original server flags acceptance but a formal DOI/venue/year remains unresolved."
+    },
+    {
+      "source": "external_preprint",
+      "id": "10.22541/au.176358612.22623083",
+      "paper_url": "https://api.crossref.org/works/10.22541%2Fau.176358612.22623083",
+      "action": "pending_metadata",
+      "reason": "HTTP Error 404: Not Found"
+    }
+  ]
+}
