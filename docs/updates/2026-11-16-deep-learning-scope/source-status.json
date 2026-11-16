@@ -1,0 +1,159 @@
+{
+  "purpose": "Targeted method-role verification, separate from weekly discovery checkpoints",
+  "requests": [
+    {
+      "title": "Automated Prognostic Assessment of Endometrial Hyperplasia for Progression Risk Evaluation Using Artificial Intelligence",
+      "requested_url": "https://doi.org/10.1016/j.modpat.2023.100116",
+      "status": "blocked_short_interstitial",
+      "characters_retrieved": 13,
+      "error": null
+    },
+    {
+      "title": "Single-Cell Analysis and Classification according to Multiplexed Proteins via Microdroplet-Based Self-Driven Magnetic Surface-Enhanced Raman Spectroscopy Platforms Assisted with Machine Learning Algorithms",
+      "requested_url": "https://doi.org/10.1021/acs.analchem.3c01273",
+      "status": "failed",
+      "characters_retrieved": null,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "title": "Machine learning empowered multi-stress level electromechanical phenotyping for high-dimensional single cell analysis",
+      "requested_url": "https://doi.org/10.1016/j.bios.2023.115086",
+      "status": "blocked_short_interstitial",
+      "characters_retrieved": 13,
+      "error": null
+    },
+    {
+      "title": "Accurate integration of multiple heterogeneous single-cell RNA-seq data sets by learning contrastive biological variation",
+      "requested_url": "https://doi.org/10.1101/gr.277522.122",
+      "status": "failed",
+      "characters_retrieved": null,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "title": "ESICCC as a systematic computational framework for evaluation, selection, and integration of cell-cell communication inference methods",
+      "requested_url": "https://doi.org/10.1101/gr.278001.123",
+      "status": "failed",
+      "characters_retrieved": null,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "title": "Unsupervised Stain Decomposition via Inversion Regulation for Multiplex Immunohistochemistry Images",
+      "requested_url": "https://proceedings.mlr.press/v227/abousamra24a/abousamra24a.pdf",
+      "status": "complete_with_usable_content",
+      "characters_retrieved": 47482,
+      "error": null
+    },
+    {
+      "title": "ImputeHiFI: An Imputation Method for Multiplexed DNA FISH Data by Utilizing Single-Cell Hi-C and RNA FISH Data",
+      "requested_url": "https://doi.org/10.1002/advs.202406364",
+      "status": "failed",
+      "characters_retrieved": null,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "title": "Dimension reduction, cell clustering, and cell-cell communication inference for single-cell transcriptomics with DcjComm",
+      "requested_url": "https://doi.org/10.1186/s13059-024-03385-6",
+      "status": "complete_with_usable_content",
+      "characters_retrieved": 142412,
+      "error": null
+    },
+    {
+      "title": "Machine learning inference of continuous single-cell state transitions during myoblast differentiation and fusion",
+      "requested_url": "https://doi.org/10.1038/s44320-024-00010-3",
+      "status": "complete_with_usable_content",
+      "characters_retrieved": 94799,
+      "error": null
+    },
+    {
+      "title": "Propensity Score Alignment of Unpaired Multimodal Data",
+      "requested_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/ff56c8dc4c61017eab9771481b7fda0d-Paper-Conference.pdf",
+      "status": "complete_with_usable_content",
+      "characters_retrieved": 87225,
+      "error": null
+    },
+    {
+      "title": "Nuclei-Location Based Point Set Registration of Multi-Stained Whole Slide Images",
+      "requested_url": "https://arxiv.org/html/2404.17041v1",
+      "status": "complete_with_usable_content",
+      "characters_retrieved": 40204,
+      "error": null
+    },
+    {
+      "title": "CellPhenoX: An Explainable Machine Learning Method for Identifying Cell Phenotypes To Predict Clinical Outcomes from Single-Cell Multi-Omics",
+      "requested_url": "https://doi.org/10.1002/advs.202503289",
+      "status": "failed",
+      "characters_retrieved": null,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "title": "Automated integration of multi-slice spatial transcriptomics data in 2D and 3D using VR-Omics",
+      "requested_url": "https://doi.org/10.1186/s13059-025-03630-6",
+      "status": "complete_with_usable_content",
+      "characters_retrieved": 107523,
+      "error": null
+    },
+    {
+      "title": "Light-sheet microscopy in cancer pathology: current applications, clinical challenges and future perspectives",
+      "requested_url": "https://arxiv.org/html/2510.21260v2",
+      "status": "failed",
+      "characters_retrieved": null,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "title": "Towards Classifying Histopathological Microscope Images as Time Series Data",
+      "requested_url": "https://arxiv.org/html/2506.15977",
+      "status": "complete_with_usable_content",
+      "characters_retrieved": 26135,
+      "error": null
+    },
+    {
+      "title": "Integrating Radiomics and Computational Pathology to Predict Early Recurrence of Pancreatic Ductal Adenocarcinoma and Uncover Its Biological Basis in Tumor Microenvironment",
+      "requested_url": "https://doi.org/10.1002/advs.202523985",
+      "status": "failed",
+      "characters_retrieved": null,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "title": "Tissue-Agnostic Cellular Morphometric Biomarkers for Risk-Adapted Management Across Gastrointestinal Precancerous Lesions and Cancers",
+      "requested_url": "https://doi.org/10.1002/advs.77353",
+      "status": "failed",
+      "characters_retrieved": null,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "title": "Single-Cell Computational Frameworks for Quantifying BET Bromodomain Inhibitor Resistance and Screening Re-Sensitizer Drugs in Triple-Negative Breast Cancer",
+      "requested_url": "https://doi.org/10.1002/advs.202513246",
+      "status": "failed",
+      "characters_retrieved": null,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "title": "NuclSeg-v2.0: Nuclei segmentation using semi-supervised stain deconvolution with real-time user feedback",
+      "requested_url": "https://doi.org/10.1016/j.patcog.2025.112823",
+      "status": "blocked_short_interstitial",
+      "characters_retrieved": 13,
+      "error": null
+    },
+    {
+      "title": "Spatial transcriptomics: integrating platforms and computational approaches for clinical insights",
+      "requested_url": "https://doi.org/10.1016/j.biotechadv.2025.108791",
+      "status": "blocked_short_interstitial",
+      "characters_retrieved": 13,
+      "error": null
+    },
+    {
+      "title": "QuantCell: machine learning based cell annotation integrating qualitative and quantitative imaging profiles",
+      "requested_url": "https://www.biorxiv.org/content/10.64898/2026.02.15.706033v3",
+      "status": "complete_with_usable_content",
+      "characters_retrieved": 8775,
+      "error": null
+    },
+    {
+      "title": "NucLogic: Logic-based geometric 3D nuclear segmentation for fast and robust analysis of challenging biological imaging data",
+      "requested_url": "https://www.biorxiv.org/content/10.64898/2026.10.05.756154v1.full",
+      "status": "complete_with_usable_content",
+      "characters_retrieved": 92625,
+      "error": null
+    }
+  ]
+}

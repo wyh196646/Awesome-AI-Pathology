@@ -20,6 +20,8 @@ jobs:
           python-version: '3.11'
       - name: Validate journal eligibility
         run: python scripts/journal_policy.py
+      - name: Validate deep-learning admission evidence
+        run: python scripts/deep_learning_scope.py
       - name: Test maintenance safeguards
         run: python -m unittest discover -s tests
       - name: Check generated counts and index

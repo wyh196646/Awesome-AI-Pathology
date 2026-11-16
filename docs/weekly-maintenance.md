@@ -1,11 +1,12 @@
 # Scope and weekly maintenance
 
-Scope and recall safeguards updated **2026-11-08**. This policy supersedes the image-input restriction
+Scope and recall safeguards updated **2026-11-16**. This policy supersedes the image-input restriction
 used in the [2023–2026 search audit](literature-search-2023-2026.md).
 The first expanded search is documented in the [2026-10-05 update](updates/2026-10-05.md).
-The collection covers computational pathology and adjacent computational tissue,
-spatial and single-cell omics. Spatial/single-cell methods do not need a
-histopathology image input to qualify.
+The collection covers deep-learning research in computational pathology, tissue/cell
+imaging, spatial and single-cell omics, and cancer multimodal omics. Each admitted paper
+needs evidence of a substantive deep-learning contribution or a direct supporting role.
+Spatial/single-cell methods can qualify without a histopathology image input.
 The [Chinese search-method explanation](search-method.md) describes source roles,
 keyword families, admission rules and coverage limits.
 
@@ -34,19 +35,46 @@ including CAMELYON, PanNuke, MoNuSeg, CoNSeP, BRACS and NCT-CRC-HE. Bare patholo
 terms intentionally retrieve radiology and other false positives; resolve those
 from actual inputs and contributions rather than removing the broad search term.
 
-Include computational methods, resources, benchmarks, substantial spatial or
-single-cell tissue/disease analyses, and relevant reviews. Cancer multimodal
-omics includes genomics-guided radiomics and survival modeling. Exclude unrelated
-radiology-only, drug/protein-sequence-only and wet-lab-only studies, editorials,
-comments, retractions and duplicate versions. Read abstracts to resolve context.
-For adjacent non-spatial omics, require a reusable computational method/resource
-or a substantive cell/tissue analysis; routine bulk biomarker association alone
-does not qualify. Plant-only applications and unrelated microbial studies are
+Admit research that proposes or substantively studies neural/deep-learning models,
+along with datasets, benchmarks and reviews that directly support or evaluate such
+research. Record a specific architecture, learning method or supporting task and its
+primary abstract/full-text source. Inspect methods when abstracts are ambiguous.
+For atlases and disease analyses, evaluate whether deep learning is a substantive
+research contribution. Routine neural preprocessing alone needs further evidence.
+Exclude pure statistical, Bayesian, kernel and traditional-machine-learning methods,
+descriptive atlases and wet-lab studies that lack a direct deep-learning research or
+supporting role. Apply this rule to every publication year and source. Cancer multimodal
+omics includes deep-learning genomics-guided imaging and survival modeling. Exclude
+unrelated radiology-only, drug/protein-sequence-only studies, editorials, comments,
+retractions and duplicate versions. Plant-only applications and unrelated microbial studies are
 outside the biomedical tissue scope, although general methods can use them as
 additional benchmarks. New backfill entries start in 2023; revisions of older
 papers already in the collection can still be checked and updated. The targeted
 [TPAMI backfill](updates/2026-10-08-tpami.md) additionally recovers three older
 relevant works; the recurring search still starts in 2023.
+
+## Deep-learning admission evidence
+
+Maintain `data/deep-learning-evidence/*.json` with each active paper. Record its
+exact title, normalized title hash, publication URLs, `research` or
+`supporting_resource` relation, a concrete `scope_rationale`, review basis and
+primary `source_url`. A shared conference/journal title may use one evidence
+record listing both verified publication identities. Match the actual neural
+component or direct supporting role. Broad AI wording alone needs contextual
+review. Frozen encoders, model calibration and human–AI evaluation can qualify.
+
+The collectors retain broad retrieval and add `method_scope_exclusion` when a
+candidate matches `data/excluded-method-identities.json`. Consult the recorded
+removal or pending decision and original entry in the
+[whole-collection scope audit](updates/2026-11-16-deep-learning-scope.md).
+Readmission requires new source evidence and a corresponding registry/evidence
+update. Preserve the audit record and auxiliary links. A method flag requires
+review and does not discard a retrieved candidate.
+
+Run `python scripts/deep_learning_scope.py` alongside the journal-policy,
+index-refresh and unit-test checks before each publication. It validates evidence
+coverage and publication identity, and detects reintroduced removed/pending
+identities. Semantic admission still depends on scientific review of the sources.
 
 ## Additional preprint platforms
 

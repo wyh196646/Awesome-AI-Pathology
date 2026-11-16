@@ -87,6 +87,7 @@ class AdditionalPreprintTests(unittest.TestCase):
             (root / "config/literature-keywords.json").write_text(json.dumps({"lookback_overlap_days": 14}))
             (root / "data/weekly-update-state.json").write_text("{}")
             (root / "data/excluded-journal-identities.json").write_text("{}")
+            (root / "data/excluded-method-identities.json").write_text("{}")
             fixed_time = module.dt.datetime(2026, 11, 9, tzinfo=module.dt.timezone.utc)
             with patch.object(module, "ROOT", root), patch.object(module, "collect"), \
                     patch.object(module.dt, "datetime", wraps=module.dt.datetime) as clock, \
@@ -115,6 +116,7 @@ class AdditionalPreprintTests(unittest.TestCase):
             (root / "config/literature-keywords.json").write_text(json.dumps(config))
             (root / "data/weekly-update-state.json").write_text("{}")
             (root / "data/excluded-journal-identities.json").write_text(json.dumps({"identifiers": [], "title_sha256": []}))
+            (root / "data/excluded-method-identities.json").write_text(json.dumps({"identifiers": [], "title_sha256": []}))
 
             def collect(config, since, until, field, cache, log, records, cap, refresh):
                 records[("PPR", "1")] = {"id": "1", "source": "PPR", "title": "Histopathology model"}

@@ -1,0 +1,454 @@
+{
+  "schema_version": 1,
+  "policy": "config/literature-keywords.json",
+  "entries": [
+    {
+      "title": "PolarMask++: Enhanced Polar Representation for Single-Shot Instance Segmentation and Beyond",
+      "title_sha256": "0109d08fab97bf89d0bee1438640106bff2edeb86a469b63ea3e1f7a213b04b2",
+      "paper_urls": [
+        "https://doi.org/10.1109/tpami.2021.3080324"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "convolutional"
+      ],
+      "scope_rationale": "Abstract describes a neural/deep-learning component in the research workflow.",
+      "evidence_basis": "abstract_method_component",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/33989151/"
+    },
+    {
+      "title": "EBHI-Seg: A Novel Enteroscope Biopsy Histopathological Haematoxylin and Eosin Image Dataset for Image Segmentation Tasks",
+      "title_sha256": "c3c7ccf9a1bbc98fede89c2bed5ea260d16335b29edc10a93a3029c65607c33e",
+      "paper_urls": [
+        "https://arxiv.org/abs/2212.00532"
+      ],
+      "relation": "supporting_resource",
+      "method_terms": [
+        "deep learning"
+      ],
+      "scope_rationale": "Abstract explicitly connects the dataset, benchmark or review to deep-learning methods.",
+      "evidence_basis": "abstract_supporting_role",
+      "source_url": "https://arxiv.org/abs/2212.00532"
+    },
+    {
+      "title": "HistoSeg : Quick attention with multi-loss function for multi-structure segmentation in digital histology images",
+      "title_sha256": "4d84f788b1c5a51c23b70a3d6e82d806503d7b3406b4f1001e5cf4d06e61cfbf",
+      "paper_urls": [
+        "https://arxiv.org/abs/2209.00729"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "Encoder-Decoder",
+        "encoder-decoder",
+        "neural networks",
+        "transformers"
+      ],
+      "scope_rationale": "Abstract describes a neural/deep-learning component in the research workflow.",
+      "evidence_basis": "abstract_method_component",
+      "source_url": "https://arxiv.org/abs/2209.00729"
+    },
+    {
+      "title": "MultiPathGAN: Structure Preserving Stain Normalization using Unsupervised Multi-domain Adversarial Network with Perception Loss",
+      "title_sha256": "e8a4206b3ff43114b59c95bdd86fa3501088be756cf46255223a7c553e88ffe3",
+      "paper_urls": [
+        "https://arxiv.org/abs/2204.09782"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "MultiPathGAN"
+      ],
+      "scope_rationale": "Title explicitly identifies a deep-learning method or a study directly about such methods.",
+      "evidence_basis": "explicit_method_in_title_and_metadata",
+      "source_url": "https://arxiv.org/abs/2204.09782"
+    },
+    {
+      "title": "Inference of captions from histopathological patches",
+      "title_sha256": "922c55b5c88479e517056db38e6427c6b7b3ccaf2608f48ab6c9b00bf10c9db7",
+      "paper_urls": [
+        "https://arxiv.org/abs/2202.03432"
+      ],
+      "relation": "research",
+      "method_terms": [],
+      "scope_rationale": "Item-level scientific classification of the published task, model family and available method/resource description identifies a deep-learning model, deep-feature pipeline or direct supporting dataset/benchmark/review. Literal keyword absence did not determine admission.",
+      "evidence_basis": "item_level_context_review",
+      "source_url": "https://arxiv.org/abs/2202.03432"
+    },
+    {
+      "title": "Digital pathology and artificial intelligence in translational medicine and clinical practice",
+      "title_sha256": "55ae237eff9c0f32fec3b6b2bd5586c2fc2d12c762c6e0b0ec0acfd94924cb2b",
+      "paper_urls": [
+        "https://www.nature.com/articles/s41379-021-00919-2"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "CNN",
+        "DNN",
+        "Deep learning",
+        "convolutional neural networks"
+      ],
+      "scope_rationale": "Reviewed primary abstract or method evidence identifies a substantive neural/deep-learning model, clinical evaluation or directly supporting benchmark/review.",
+      "evidence_basis": "item_level_context_review",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8491759/fullTextXML"
+    },
+    {
+      "title": "DigestPath: A benchmark dataset with challenge review for the pathological detection and segmentation of digestive-system",
+      "title_sha256": "c5d3dd9f0c8be13abb51b13060e9e1be90c22d7a88a6c5663112c9926ae19a6a",
+      "paper_urls": [
+        "https://doi.org/10.1016/j.media.2022.102485"
+      ],
+      "relation": "supporting_resource",
+      "method_terms": [],
+      "scope_rationale": "Item-level scientific classification of the published task, model family and available method/resource description identifies a deep-learning model, deep-feature pipeline or direct supporting dataset/benchmark/review. Literal keyword absence did not determine admission.",
+      "evidence_basis": "item_level_context_review",
+      "source_url": "https://europepmc.org/article/MED/35679692"
+    },
+    {
+      "title": "Federated Learning for Computational Pathology on Gigapixel Whole Slide Images",
+      "title_sha256": "5c7187e6df7c5fd4d74952208fec4020b25ebc8eb045667ef23d192367825f76",
+      "paper_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S1361841521003431"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "deep learning"
+      ],
+      "scope_rationale": "Primary method section or official paper discussion identifies a substantive neural/deep-learning component.",
+      "evidence_basis": "primary_method_section",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9340569/fullTextXML"
+    },
+    {
+      "title": "Transformer-based unsupervised contrastive learning for histopathological image classification",
+      "title_sha256": "222081273320a20d2e3b24b6264de2899ee19da26d5aa249c45e3df65917c9cb",
+      "paper_urls": [
+        "https://doi.org/10.1016/j.media.2022.102559"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "Transformer",
+        "contrastive learning"
+      ],
+      "scope_rationale": "Title explicitly identifies a deep-learning method or a study directly about such methods.",
+      "evidence_basis": "explicit_method_in_title_and_metadata",
+      "source_url": "https://europepmc.org/article/MED/35952419"
+    },
+    {
+      "title": "Multi-Layer Pseudo-Supervision for Histopathology Tissue Semantic Segmentation using Patch-level Classification Labels",
+      "title_sha256": "03f3fdc52dac33959464f24033e1eb03b79b8a0b058c311f3ce36dd08b9b11f8",
+      "paper_urls": [
+        "https://doi.org/10.1016/j.media.2022.102487"
+      ],
+      "relation": "research",
+      "method_terms": [],
+      "scope_rationale": "Item-level scientific classification of the published task, model family and available method/resource description identifies a deep-learning model, deep-feature pipeline or direct supporting dataset/benchmark/review. Literal keyword absence did not determine admission.",
+      "evidence_basis": "item_level_context_review",
+      "source_url": "https://europepmc.org/article/MED/35671591"
+    },
+    {
+      "title": "Colour adaptive generative networks for stain normalisation of histopathology images",
+      "title_sha256": "a62e575c1a0761e344e2fb45f94b553247e303e863c2d9bcb69093094cbf2169",
+      "paper_urls": [
+        "https://doi.org/10.1016/j.media.2022.102580"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "generative networks"
+      ],
+      "scope_rationale": "Title explicitly identifies a deep-learning method or a study directly about such methods.",
+      "evidence_basis": "explicit_method_in_title_and_metadata",
+      "source_url": "https://europepmc.org/article/MED/36113326"
+    },
+    {
+      "title": "Scaling Vision Transformers to Gigapixel Images via Hierarchical Self-Supervised Learning",
+      "title_sha256": "b58f89d92d80cf1de315fb70da7a7615030d260f67a19c1cd9d07692a2a094e2",
+      "paper_urls": [
+        "https://openaccess.thecvf.com/content/CVPR2022/html/Chen_Scaling_Vision_Transformers_to_Gigapixel_Images_via_Hierarchical_Self-Supervised_Learning_CVPR_2022_paper.html"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "Self-Supervised Learning",
+        "Transformers"
+      ],
+      "scope_rationale": "Title explicitly identifies a deep-learning method or a study directly about such methods.",
+      "evidence_basis": "explicit_method_in_title_and_metadata",
+      "source_url": "https://openaccess.thecvf.com/content/CVPR2022/html/Chen_Scaling_Vision_Transformers_to_Gigapixel_Images_via_Hierarchical_Self-Supervised_Learning_CVPR_2022_paper.html"
+    },
+    {
+      "title": "DTFD-MIL: Double-Tier Feature Distillation Multiple Instance Learning for Histopathology Whole Slide Image Classification",
+      "title_sha256": "4c35256a050c9e7be9d93e61f34b9ff899f92bf0f707f0e91c816d1658985f9d",
+      "paper_urls": [
+        "https://openaccess.thecvf.com/content/CVPR2022/html/Zhang_DTFD-MIL_Double-Tier_Feature_Distillation_Multiple_Instance_Learning_for_Histopathology_Whole_CVPR_2022_paper.html"
+      ],
+      "relation": "research",
+      "method_terms": [],
+      "scope_rationale": "DTFD-MIL is a deep multiple-instance WSI classifier using two-tier feature distillation.",
+      "evidence_basis": "item_level_context_review",
+      "source_url": "https://openaccess.thecvf.com/content/CVPR2022/html/Zhang_DTFD-MIL_Double-Tier_Feature_Distillation_Multiple_Instance_Learning_for_Histopathology_Whole_CVPR_2022_paper.html"
+    },
+    {
+      "title": "Differentiable Zooming for Multiple Instance Learning on Whole-Slide Images",
+      "title_sha256": "5e6fd2af299b1c9d1a0a9d2ddf644d39a2af0a65ff2eee44761883fa4001c870",
+      "paper_urls": [
+        "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136810689.pdf"
+      ],
+      "relation": "research",
+      "method_terms": [],
+      "scope_rationale": "Item-level scientific classification of the published task, model family and available method/resource description identifies a deep-learning model, deep-feature pipeline or direct supporting dataset/benchmark/review. Literal keyword absence did not determine admission.",
+      "evidence_basis": "item_level_context_review",
+      "source_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136810689.pdf"
+    },
+    {
+      "title": "A Graph-Transformer for Whole Slide Image Classification",
+      "title_sha256": "a7f359d60c5c6564f49c32cddb6f3bbddebe3f00e2f89c912bdb83178a9a678a",
+      "paper_urls": [
+        "https://doi.org/10.1109/TMI.2022.3176598"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "Transformer"
+      ],
+      "scope_rationale": "Title explicitly identifies a deep-learning method or a study directly about such methods.",
+      "evidence_basis": "explicit_method_in_title_and_metadata",
+      "source_url": "https://europepmc.org/article/MED/35594209"
+    },
+    {
+      "title": "A Task Decomposing and Cell Comparing Method for Cervical Lesion Cell Detection",
+      "title_sha256": "7351e0f59b85ee07ae01b58e9dcfb8cdd27ccc663bc730da5da6b0297499d32d",
+      "paper_urls": [
+        "https://doi.org/10.1109/TMI.2022.3163171"
+      ],
+      "relation": "research",
+      "method_terms": [],
+      "scope_rationale": "Item-level scientific classification of the published task, model family and available method/resource description identifies a deep-learning model, deep-feature pipeline or direct supporting dataset/benchmark/review. Literal keyword absence did not determine admission.",
+      "evidence_basis": "item_level_context_review",
+      "source_url": "https://europepmc.org/article/MED/35349436"
+    },
+    {
+      "title": "Pathomic Fusion: An Integrated Framework for Fusing Histopathology and Genomic Features for Cancer Diagnosis and Prognosis",
+      "title_sha256": "80a1070f54950020744892d18638be60bc7e444fee58a6f56fbabd54ceb93a99",
+      "paper_urls": [
+        "https://doi.org/10.1109/TMI.2020.3021387"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "deep learning"
+      ],
+      "scope_rationale": "Abstract describes a neural/deep-learning component in the research workflow.",
+      "evidence_basis": "abstract_method_component",
+      "source_url": "https://europepmc.org/article/MED/32881682"
+    },
+    {
+      "title": "Federated Stain Normalization for Computational Pathology",
+      "title_sha256": "c8f47b236f2c65e70f2867713093626eda9b2095f22ee88d4f86903641bce12f",
+      "paper_urls": [
+        "https://link.springer.com/chapter/10.1007/978-3-031-16434-7_2"
+      ],
+      "relation": "research",
+      "method_terms": [],
+      "scope_rationale": "Item-level scientific classification of the published task, model family and available method/resource description identifies a deep-learning model, deep-feature pipeline or direct supporting dataset/benchmark/review. Literal keyword absence did not determine admission.",
+      "evidence_basis": "item_level_context_review",
+      "source_url": "https://link.springer.com/chapter/10.1007/978-3-031-16434-7_2"
+    },
+    {
+      "title": "Online Easy Example Mining for Weakly-supervised Gland Segmentation from Histology Images",
+      "title_sha256": "3e561b6211eac6ee7eb37a750d77fcdf34e657ac75b362b2ce7be82a2a009998",
+      "paper_urls": [
+        "https://arxiv.org/abs/2206.06665"
+      ],
+      "relation": "research",
+      "method_terms": [],
+      "scope_rationale": "Item-level scientific classification of the published task, model family and available method/resource description identifies a deep-learning model, deep-feature pipeline or direct supporting dataset/benchmark/review. Literal keyword absence did not determine admission.",
+      "evidence_basis": "item_level_context_review",
+      "source_url": "https://arxiv.org/abs/2206.06665"
+    },
+    {
+      "title": "ReMix: A General and Efficient Framework for Multiple Instance Learning Based Whole Slide Image Classification",
+      "title_sha256": "91737fa0d7c9d641a1d284299e019b3ef84c308db6c005e2d68d234707d215a2",
+      "paper_urls": [
+        "https://doi.org/10.1007/978-3-031-16434-7_4"
+      ],
+      "relation": "research",
+      "method_terms": [],
+      "scope_rationale": "Item-level scientific classification of the published task, model family and available method/resource description identifies a deep-learning model, deep-feature pipeline or direct supporting dataset/benchmark/review. Literal keyword absence did not determine admission.",
+      "evidence_basis": "item_level_context_review",
+      "source_url": "https://doi.org/10.1007/978-3-031-16434-7_4"
+    },
+    {
+      "title": "FLamby: Datasets and Benchmarks for Cross-Silo Federated Learning in Realistic Healthcare Settings",
+      "title_sha256": "63ba1d97d4c1aef2c77c8f68c6d2f3b1df2851d4388f33012dc90cfd194962b3",
+      "paper_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2022/file/232eee8ef411a0a316efa298d7be3c2b-Paper-Datasets_and_Benchmarks.pdf"
+      ],
+      "relation": "supporting_resource",
+      "method_terms": [],
+      "scope_rationale": "Item-level scientific classification of the published task, model family and available method/resource description identifies a deep-learning model, deep-feature pipeline or direct supporting dataset/benchmark/review. Literal keyword absence did not determine admission.",
+      "evidence_basis": "item_level_context_review",
+      "source_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/232eee8ef411a0a316efa298d7be3c2b-Paper-Datasets_and_Benchmarks.pdf"
+    },
+    {
+      "title": "Pan-cancer integrative histology-genomic analysis via multimodal deep learning",
+      "title_sha256": "e9feb1f1972ea3bf4786ccf5f01d5293d1c8597fff1b8917332ba97ea8e7fe21",
+      "paper_urls": [
+        "https://doi.org/10.1016/j.ccell.2022.07.004"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "deep learning"
+      ],
+      "scope_rationale": "Title explicitly identifies a deep-learning method or a study directly about such methods.",
+      "evidence_basis": "explicit_method_in_title_and_metadata",
+      "source_url": "https://europepmc.org/article/MED/35944502"
+    },
+    {
+      "title": "Artificial intelligence for diagnosis and Gleason grading of prostate cancer: the PANDA challenge",
+      "title_sha256": "b5fa5bf79d53541aaa4c3bb4bf65d54df4695ecde8a317925d0e8a0d8d3f8dc7",
+      "paper_urls": [
+        "https://www.nature.com/articles/s41591-021-01620-2"
+      ],
+      "relation": "supporting_resource",
+      "method_terms": [],
+      "scope_rationale": "PANDA is a prostate-cancer/Gleason-grading challenge directly supporting deep pathology model training and evaluation.",
+      "evidence_basis": "item_level_context_review",
+      "source_url": "https://europepmc.org/article/MED/35027755"
+    },
+    {
+      "title": "Deep learning-enabled assessment of cardiac allograft rejection from endomyocardial biopsies",
+      "title_sha256": "63acf88c751c47798313fc06a73673d83cf6b5b222df7c8487f1d6f60b2f4b6d",
+      "paper_urls": [
+        "https://www.nature.com/articles/s41591-022-01709-2"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "Deep learning"
+      ],
+      "scope_rationale": "Title explicitly identifies a deep-learning method or a study directly about such methods.",
+      "evidence_basis": "explicit_method_in_title_and_metadata",
+      "source_url": "https://europepmc.org/article/MED/35314822"
+    },
+    {
+      "title": "Swarm learning for decentralized artificial intelligence in cancer histopathology",
+      "title_sha256": "05aaa3148ecdb628b34dcde7f14a33a49891364cce88448e815755ab75bad849",
+      "paper_urls": [
+        "https://www.nature.com/articles/s41591-022-01768-5"
+      ],
+      "relation": "research",
+      "method_terms": [],
+      "scope_rationale": "Reviewed primary abstract or method evidence identifies a substantive neural/deep-learning model, clinical evaluation or directly supporting benchmark/review.",
+      "evidence_basis": "item_level_context_review",
+      "source_url": "https://europepmc.org/article/MED/35469069"
+    },
+    {
+      "title": "Deep learning-inferred multiplex immunofluorescence for immunohistochemical image quantification",
+      "title_sha256": "4aba234e88f2ea9b63fc25c1032c03c087d51ad50e32500ab793bb472c983591",
+      "paper_urls": [
+        "https://www.nature.com/articles/s42256-022-00471-x.epdf?sharing_token=TfIQdFzqGrYolrSS_NyOJtRgN0jAjWel9jnR3ZoTv0P90KdmGq_lkIuepQpaAnx9M_HMX0dkqP8OF91EhA0P9AAsgUeGoCtaqab2DQMx50ft_LVCW8JvZUJ-qQxqZjpYLSzzUo00YLH8PJ-XBckUsuikhsZl8LQ1us1rXPrAWKE="
+      ],
+      "relation": "research",
+      "method_terms": [
+        "Deep learning"
+      ],
+      "scope_rationale": "Title explicitly identifies a deep-learning method or a study directly about such methods.",
+      "evidence_basis": "explicit_method_in_title_and_metadata",
+      "source_url": "https://europepmc.org/article/MED/36118303"
+    },
+    {
+      "title": "Fast and scalable search of whole-slide images via self-supervised deep learning",
+      "title_sha256": "bb0b5ea33a7055fcabd62a19e0c0c4f50375a6c7529e078795bdd76ed8362b16",
+      "paper_urls": [
+        "https://www.nature.com/articles/s41551-022-00929-8"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "deep learning"
+      ],
+      "scope_rationale": "Title explicitly identifies a deep-learning method or a study directly about such methods.",
+      "evidence_basis": "explicit_method_in_title_and_metadata",
+      "source_url": "https://europepmc.org/article/MED/36217022"
+    },
+    {
+      "title": "Image analysis reveals molecularly distinct patterns of tumor-infiltrating lymphocytes in NSCLC associated with treatment outcome",
+      "title_sha256": "aceaadc7b449d46aec630520f4816eefe6f678aff100a7a7f2a0b164e910099a",
+      "paper_urls": [
+        "https://www.nature.com/articles/s41698-022-00277-5"
+      ],
+      "relation": "research",
+      "method_terms": [],
+      "scope_rationale": "Context review confirms direct research on deep pathology/cellular models, pretrained neural features, neural clinical assistance, or supporting model evaluation/data/tooling. Statistical, graph or Bayesian terminology does not negate a substantive neural component.",
+      "evidence_basis": "item_level_context_review",
+      "source_url": "https://europepmc.org/article/MED/35661148"
+    },
+    {
+      "title": "A deep learning model and human-machine fusion for prediction of EBV-associated gastric cancer from histopathology",
+      "title_sha256": "2754c9a7d87c10efb387348cc88eda6e50bc1069d8b253b2889ca023edd8e560",
+      "paper_urls": [
+        "https://www.nature.com/articles/s41467-022-30459-5"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "deep learning"
+      ],
+      "scope_rationale": "Title explicitly identifies a deep-learning method or a study directly about such methods.",
+      "evidence_basis": "explicit_method_in_title_and_metadata",
+      "source_url": "https://europepmc.org/article/MED/35589792"
+    },
+    {
+      "title": "Unleashing the potential of digital pathology data by training computer-aided diagnosis models without human annotations",
+      "title_sha256": "e33c769ffda9f68dddc47d6bb45566dee046ed714ea47cafeea0fc8dd5d7dee6",
+      "paper_urls": [
+        "https://www.nature.com/articles/s41746-022-00635-4"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "CNN",
+        "CNNs",
+        "convolutional neural networks",
+        "deep learning",
+        "deep neural"
+      ],
+      "scope_rationale": "Abstract describes a neural/deep-learning component in the research workflow.",
+      "evidence_basis": "abstract_method_component",
+      "source_url": "https://europepmc.org/article/MED/35869179"
+    },
+    {
+      "title": "Multimodal data integration using machine learning improves risk stratification of high-grade serous ovarian cancer",
+      "title_sha256": "3aa55939d93c72386b6fef630329e52dc5b7b2c90b099414715026040a149666",
+      "paper_urls": [
+        "https://www.nature.com/articles/s43018-022-00388-9"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "ResNet"
+      ],
+      "scope_rationale": "Reviewed primary abstract or method evidence identifies a substantive neural/deep-learning model, clinical evaluation or directly supporting benchmark/review.",
+      "evidence_basis": "item_level_context_review",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9239907/fullTextXML"
+    },
+    {
+      "title": "BCI: Breast Cancer Immunohistochemical Image Generation Through Pyramid Pix2pix",
+      "title_sha256": "eb046ab59e6126306151cb9de0997b0551ba596076f9127cdc199c12af9ee5a3",
+      "paper_urls": [
+        "https://arxiv.org/abs/2204.11425"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "Pix2pix"
+      ],
+      "scope_rationale": "Title explicitly identifies a deep-learning method or a study directly about such methods.",
+      "evidence_basis": "explicit_method_in_title_and_metadata",
+      "source_url": "https://arxiv.org/abs/2204.11425"
+    },
+    {
+      "title": "Whole-cell segmentation of tissue images with human-level performance using large-scale data annotation and deep learning",
+      "title_sha256": "81438555c894e4a4bf262a02a93ad83d9e12c3151ba75290055101a4c1a158c4",
+      "paper_urls": [
+        "https://doi.org/10.1038/s41587-021-01094-0"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "deep learning"
+      ],
+      "scope_rationale": "Title explicitly identifies a deep-learning method or a study directly about such methods.",
+      "evidence_basis": "explicit_method_in_title_and_metadata",
+      "source_url": "https://europepmc.org/article/MED/34795433"
+    }
+  ]
+}

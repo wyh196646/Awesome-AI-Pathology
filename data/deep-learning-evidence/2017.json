@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "policy": "config/literature-keywords.json",
+  "entries": [
+    {
+      "title": "Gland segmentation in colon histology images: The glas challenge contest",
+      "title_sha256": "e559b9560a3a0e865eb40ee389cff3aebffddd8f6ebf458490ce96f64b101a31",
+      "paper_urls": [
+        "https://doi.org/10.1016/j.media.2016.08.008"
+      ],
+      "relation": "supporting_resource",
+      "method_terms": [],
+      "scope_rationale": "Item-level scientific classification of the published task, model family and available method/resource description identifies a deep-learning model, deep-feature pipeline or direct supporting dataset/benchmark/review. Literal keyword absence did not determine admission.",
+      "evidence_basis": "item_level_context_review",
+      "source_url": "https://europepmc.org/article/MED/27614792"
+    },
+    {
+      "title": "Diagnostic Assessment of Deep Learning Algorithms for Detection of Lymph Node Metastases in Women With Breast Cancer",
+      "title_sha256": "8e6acc1fa40969e5f07d0d204ea43ec5538323aa33cc128139d95978acb6b898",
+      "paper_urls": [
+        "https://doi.org/10.1001/jama.2017.14585"
+      ],
+      "relation": "research",
+      "method_terms": [
+        "Deep Learning"
+      ],
+      "scope_rationale": "Title explicitly identifies a deep-learning method or a study directly about such methods.",
+      "evidence_basis": "explicit_method_in_title_and_metadata",
+      "source_url": "https://europepmc.org/article/MED/29234806"
+    }
+  ]
+}

@@ -1,20 +1,29 @@
 {
   "schema_version": 2,
-  "updated": "2026-11-02",
-  "scope": "Computational pathology and adjacent computational tissue, spatial and single-cell omics. Histopathology images are not required for spatial/single-cell methods or cancer multimodal omics.",
+  "updated": "2026-11-16",
+  "scope": "Deep-learning-related computational pathology, tissue/cell imaging, spatial/single-cell omics and cancer multimodal omics. Every admitted paper needs direct deep-learning evidence. Spatial/single-cell methods can qualify without histopathology-image inputs.",
   "screening": {
     "require_abstract_review": true,
+    "require_direct_deep_learning_relevance": true,
+    "deep_learning_criteria": [
+      "A research paper proposes or substantively studies a neural/deep-learning model for an in-scope task",
+      "A dataset, benchmark or review directly supports or evaluates deep-learning research with specific model/task evidence",
+      "Record the method or direct supporting role and its primary abstract/full-text source for each admission",
+      "Inspect methods when the abstract is ambiguous. Keyword absence keeps a retrieval candidate available for review",
+      "Routine use of a neural preprocessing tool alone requires further evidence that deep learning is a substantive contribution"
+    ],
     "include": [
       "Computational histology, cytology, tissue microscopy, slides, staining and pathology reports",
-      "Spatial transcriptomics/proteomics/multi-omics methods, resources, benchmarks and substantive tissue or disease applications",
-      "Single-cell multi-omics integration, annotation, representation learning, foundation models and cell-state or tissue mapping",
+      "Deep-learning spatial transcriptomics/proteomics/multi-omics methods and directly supporting resources, benchmarks and reviews",
+      "Deep-learning single-cell multi-omics integration, annotation, representation learning, foundation models and cell-state or tissue mapping",
       "Computational tissue microenvironment, spatial niches, cell-cell communication and ligand-receptor inference",
       "Cancer multimodal omics, genomics-guided imaging, molecular prediction, missing-modality learning and survival analysis"
     ],
     "exclude": [
       "Unrelated radiology-only methods with no tissue, molecular or cancer multi-omics contribution",
       "General protein/drug/molecular sequence models without a tissue, spatial, single-cell or cancer-omics contribution",
-      "Wet-lab-only studies without a computational method/resource or substantive spatial/single-cell tissue analysis",
+      "Wet-lab-only studies, descriptive atlases and routine spatial/single-cell analyses without a direct deep-learning contribution",
+      "Pure statistical, Bayesian, kernel or traditional-machine-learning methods without substantive deep-learning research or a direct benchmark/resource/review role",
       "Editorials, comments, retracted papers, unrelated meanings of pathology/spatial/cell and duplicate versions"
     ]
   },
