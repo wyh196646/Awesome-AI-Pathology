@@ -194,6 +194,9 @@ this checkout available. See the [official scheduling documentation](https://lea
    [bioRxiv/medRxiv date-interval API](https://api.biorxiv.org/), paginating every
    result in the requested interval. It records errors and exits with a nonzero
    status if any source failed. It never edits papers or advances checkpoints.
+   A changed Rxiv pagination total makes interval completeness unknown. Refresh
+   the affected interval and preserve partial candidates; do not mark that source
+   complete or advance its successful checkpoint merely because a final page exists.
    The arXiv queries are split into short batches. Audit the success and final
    page of every batch; failure of one batch does not mean zero matching papers.
    If the API is unavailable, use fresh official arXiv search pages and official

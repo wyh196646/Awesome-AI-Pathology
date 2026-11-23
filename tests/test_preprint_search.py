@@ -125,6 +125,16 @@ class PreprintSearchTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 module.rxiv_records("biorxiv", "2026-10-01", "2026-10-04", Path("unused"), [])
 
+    def test_rxiv_refuses_changed_pagination_total(self):
+        item = {"doi": "10.1101/example", "title": "Atlas", "date": "2026-10-01", "version": 1}
+        responses = [
+            {"messages": [{"status": "ok", "total": 2}], "collection": [item]},
+            {"messages": [{"status": "ok", "total": 3}], "collection": [item]},
+        ]
+        with patch.object(module, "request", side_effect=[json.dumps(x).encode() for x in responses]):
+            with self.assertRaisesRegex(ValueError, "pagination total changed"):
+                module.rxiv_records("biorxiv", "2026-10-01", "2026-10-04", Path("unused"), [])
+
     def test_arxiv_revised_old_paper_retains_first_posted_year(self):
         feed = b'''<feed xmlns="http://www.w3.org/2005/Atom"
           xmlns:o="http://a9.com/-/spec/opensearch/1.1/">

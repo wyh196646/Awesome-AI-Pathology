@@ -1175,15 +1175,13 @@
       "title": "A fully automated and explainable algorithm for predicting malignant transformation in oral epithelial dysplasia",
       "title_sha256": "e07b6f961fe934b50497e28abec380201cc81957681cc87971996ef346337c97",
       "paper_urls": [
-        "https://doi.org/10.1038/s41698-024-00624-8"
+        "https://doi.org/10.1038/s41698-024-00624-8",
+        "https://doi.org/10.21203/rs.3.rs-3348558/v1"
       ],
       "relation": "research",
-      "method_terms": [
-        "neural network"
-      ],
-      "scope_rationale": "Abstract describes a neural/deep-learning component in the research workflow.",
-      "evidence_basis": "abstract_method_component",
-      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38942998/"
+      "scope_rationale": "OED risk model directly integrates learned nuclear/epithelial segmentation and neural risk prediction.",
+      "evidence_basis": "item_level_full_available_abstract",
+      "source_url": "https://doi.org/10.21203/rs.3.rs-3348558/v1"
     },
     {
       "title": "AI powered quantification of nuclear morphology in cancers enables prediction of genome instability and prognosis",
@@ -10256,6 +10254,17 @@
       "scope_rationale": "Title explicitly identifies a deep-learning method or a study directly about such methods.",
       "evidence_basis": "explicit_method_in_title_and_metadata",
       "source_url": "https://doi.org/10.21203/rs.3.rs-5244032"
+    },
+    {
+      "title": "CoDi: Contrastive distance cell type annotation for spatially resolved transcriptomics",
+      "title_sha256": "5347ed75624a543f048441aa004c6dcd77995fdc47390eca1c53e0594497c6ff",
+      "paper_urls": [
+        "https://doi.org/10.21203/rs.3.rs-4495419/v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Primary author code documents a four-layer contrastive MLP encoder and two-layer classifier for spatial-transcriptomic reference annotation.",
+      "evidence_basis": "full abstract plus author code architecture",
+      "source_url": "https://github.com/STOmics/CoDi"
     }
   ]
 }

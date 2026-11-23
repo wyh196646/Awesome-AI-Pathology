@@ -298,6 +298,7 @@ def arxiv_records(config, since, until, cache, log):
 def rxiv_records(source, since, until, cache, log, category=None):
     records = {}
     cursor = 0
+    expected_total = None
     while True:
         url = f"https://api.biorxiv.org/details/{source}/{since}/{until}/{cursor}/json"
         if category:
@@ -314,6 +315,10 @@ def rxiv_records(source, since, until, cache, log, category=None):
         if status == "ok" and "total" not in message:
             raise ValueError(f"{source}: missing total; interval completeness is unknown")
         total = int(message.get("total", 0))
+        if expected_total is not None and total != expected_total:
+            raise ValueError(f"{source}: pagination total changed from {expected_total} to {total}; "
+                             "interval completeness is unknown, refresh the retrieval")
+        expected_total = total
         if total < 0 or cursor + len(collection) > total:
             raise ValueError(f"{source}: inconsistent pagination total")
         if not collection and cursor < total:

@@ -1,0 +1,217 @@
+{
+  "excluded_formal_publications": [
+    {
+      "id": "10.21203/rs.3.rs-8263420/v1",
+      "title": "Breast Mammary Gland Dataset (BMGD): DAPI-Stained Fluorescent Images for Nuclei Segmentation",
+      "final_title": "Breast mammary gland dataset (BMGD): DAPI-stained fluorescent images for nuclei segmentation",
+      "formal_doi": "10.1016/j.dib.2026.113297",
+      "formal_journal": "Data in Brief",
+      "reason": "Verified formal journal counterpart is outside the SCIE/CAS2025 major-zone1 allowlist.",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1143965",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-8263420%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-8263420%2Fv1",
+        "https://www.researchsquare.com/article/rs-8263420/v1",
+        "https://api.crossref.org/works?query.title=Breast+Mammary+Gland+Dataset+%28BMGD%29%3A+DAPI-Stained+Fluorescent+Images+for+Nuclei+Segmentation&rows=3"
+      ]
+    },
+    {
+      "id": "10.20944/preprints202310.1655.v1",
+      "title": "Graph Neural Networks in Cancer and Oncology Research: Emerging and Future Trends",
+      "final_title": "Graph Neural Networks in Cancer and Oncology Research: Emerging and Future Trends",
+      "formal_doi": "10.3390/cancers15245858",
+      "formal_journal": "Cancers",
+      "reason": "Verified formal journal counterpart is outside the SCIE/CAS2025 major-zone1 allowlist.",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR748235",
+        "https://api.crossref.org/works/10.20944%2Fpreprints202310.1655.v1",
+        "https://api.crossref.org/works/10.20944%2Fpreprints202310.1655.v1",
+        "https://api.crossref.org/works/10.3390%2Fcancers15245858",
+        "https://api.crossref.org/works?query.title=Graph+Neural+Networks+in+Cancer+and+Oncology+Research%3A+Emerging+and+Future+Trends&rows=3"
+      ]
+    },
+    {
+      "id": "10.20944/preprints202606.1606.v1",
+      "title": "Language-Guided Segmentation of Medical Images: A Review of Foundation Models",
+      "final_title": "Language-Guided Segmentation of Medical Images: A Review of Foundation Models",
+      "formal_doi": "10.3390/bioengineering13070803",
+      "formal_journal": "Bioengineering",
+      "reason": "Verified formal journal counterpart is outside the SCIE/CAS2025 major-zone1 allowlist.",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1257451",
+        "https://api.crossref.org/works/10.20944%2Fpreprints202606.1606.v1",
+        "https://api.crossref.org/works/10.20944%2Fpreprints202606.1606.v1",
+        "https://api.crossref.org/works/10.3390%2Fbioengineering13070803",
+        "https://api.crossref.org/works?query.title=Language-Guided+Segmentation+of+Medical+Images%3A+A+Review+of+Foundation+Models&rows=3"
+      ]
+    },
+    {
+      "id": "10.21203/rs.3.rs-10152510/v1",
+      "title": "When Simpler Models Win: A Calibration Benchmark of scGPT for Cell-Type Annotation",
+      "final_title": "An accuracy and calibration benchmark of scGPT pipelines and matched classical models for cell type annotation",
+      "formal_doi": "10.1038/s41598-026-77853-3",
+      "formal_journal": "Scientific Reports",
+      "reason": "Verified formal journal counterpart is outside the SCIE/CAS2025 major-zone1 allowlist.",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1281376",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-10152510%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-10152510%2Fv1",
+        "https://www.researchsquare.com/article/rs-10152510/v1",
+        "https://api.crossref.org/works/10.1038%2Fs41598-026-77853-3",
+        "https://api.crossref.org/works?query.title=When+Simpler+Models+Win%3A+A+Calibration+Benchmark+of+scGPT+for+Cell-Type+Annotation&rows=3"
+      ]
+    },
+    {
+      "id": "10.20944/preprints202407.0478.v1",
+      "title": "Gastric Cancer Image Classification: a Comparative Analysis and Feature Fusion Strategies",
+      "final_title": "Gastric Cancer Image Classification: A Comparative Analysis and Feature Fusion Strategies",
+      "formal_doi": "10.3390/jimaging10080195",
+      "formal_journal": "Journal of Imaging",
+      "reason": "Verified formal journal counterpart is outside the SCIE/CAS2025 major-zone1 allowlist.",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR878614",
+        "https://api.crossref.org/works/10.20944%2Fpreprints202407.0478.v1",
+        "https://api.crossref.org/works/10.20944%2Fpreprints202407.0478.v1",
+        "https://api.crossref.org/works/10.3390%2Fjimaging10080195",
+        "https://api.crossref.org/works?query.title=Gastric+Cancer+Image+Classification%3A+a+Comparative+Analysis+and+Feature+Fusion+Strategies&rows=3"
+      ]
+    },
+    {
+      "id": "10.20944/preprints202502.0251.v1",
+      "title": "Morphological Analysis and Subtype Detection of Acute Myeloid Leukemia in High-Resolution Blood Smears Using ConvNeXT",
+      "final_title": "Morphological Analysis and Subtype Detection of Acute Myeloid Leukemia in High-Resolution Blood Smears Using ConvNeXT",
+      "formal_doi": "10.3390/ai6030045",
+      "formal_journal": "AI",
+      "reason": "Verified formal journal counterpart is outside the SCIE/CAS2025 major-zone1 allowlist.",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR974779",
+        "https://api.crossref.org/works/10.20944%2Fpreprints202502.0251.v1",
+        "https://api.crossref.org/works/10.20944%2Fpreprints202502.0251.v1",
+        "https://api.crossref.org/works/10.3390%2Fai6030045",
+        "https://api.crossref.org/works?query.title=Morphological+Analysis+and+Subtype+Detection+of+Acute+Myeloid+Leukemia+in+High-Resolution+Blood+Smears+Using+ConvNeXT&rows=3"
+      ]
+    },
+    {
+      "id": "10.21203/rs.3.rs-10698568/v1",
+      "title": "A Novel Hybrid Pyramid ViT-ConvFormer Architecture with Dynamic Early Stopping Analysis for Enhanced Diagnostic Efficiency in Diffuse Large B-Cell Lymphoma",
+      "final_title": "A dual-stream Pyramid ViT–ConvFormer architecture leverages dynamic early stopping to classify diffuse large B-cell lymphoma",
+      "formal_doi": "10.1038/s41598-026-78343-2",
+      "formal_journal": "Scientific Reports",
+      "reason": "Verified formal journal counterpart is outside the SCIE/CAS2025 major-zone1 allowlist.",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1312394",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-10698568%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-10698568%2Fv1",
+        "https://www.researchsquare.com/article/rs-10698568/v1",
+        "https://api.crossref.org/works/10.1038%2Fs41598-026-78343-2",
+        "https://api.crossref.org/works?query.title=A+Novel+Hybrid+Pyramid+ViT-ConvFormer+Architecture+with+Dynamic+Early+Stopping+Analysis+for+Enhanced+Diagnostic+Efficiency+in+Diffuse+Large+B-Cell+Lymphoma&rows=3"
+      ]
+    },
+    {
+      "id": "10.21203/rs.3.rs-9994954/v1",
+      "title": "MOSAIC: single-cell expression from H&E histology",
+      "final_title": "MOSAIC (morphology-oriented spatial attention for inferring cell expression)",
+      "formal_doi": "10.1038/s41598-026-77072-w",
+      "formal_journal": "Scientific Reports",
+      "reason": "Verified formal journal counterpart is outside the SCIE/CAS2025 major-zone1 allowlist.",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR1253803",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-9994954%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-9994954%2Fv1",
+        "https://www.researchsquare.com/article/rs-9994954/v1",
+        "https://api.crossref.org/works/10.1038%2Fs41598-026-77072-w",
+        "https://api.crossref.org/works?query.title=MOSAIC%3A+single-cell+expression+from+H%26E+histology&rows=3"
+      ]
+    }
+  ],
+  "formal_additions": [
+    {
+      "source": "europepmc",
+      "id": "10.21203/rs.3.rs-6163153/v1",
+      "version": 1,
+      "title": "Reconstructing the Single-Cell Spatiotemporal Dynamics of Glioblastoma Invasion",
+      "paper_url": "https://doi.org/10.21203/rs.3.rs-6163153/v1",
+      "index_id": "PPR995010",
+      "index_source": "PPR",
+      "platform": "Research Square",
+      "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28SRC%3APPR+OR+PUB_TYPE%3Apreprint%29+AND+UPDATE_DATE%3A%5B2026-11-01+TO+2026-11-22%5D+AND+NOT+%28DOI%3A10.1101%2A+OR+DOI%3A10.64898%2A+OR+DOI%3A10.48550%2A%29+AND+%28TITLE_ABS%3Asingle-cell+OR+TITLE_ABS%3A%22single+cell%22+OR+TITLE_ABS%3AscRNA-seq+OR+TITLE_ABS%3AscRNAseq+OR+TITLE_ABS%3AscATAC-seq+OR+TITLE_ABS%3AscATAC+OR+TITLE_ABS%3A%22single-cell+multiomic%2A%22+OR+TITLE_ABS%3A%22single-cell+multi-omic%2A%22+OR+TITLE_ABS%3A%22single-cell+foundation+model%2A%22+OR+TITLE_ABS%3A%22single-cell+representation%22+OR+TITLE_ABS%3A%22single-cell+annotation%22+OR+TITLE_ABS%3A%22cell+type+annotation%22+OR+TITLE_ABS%3A%22cell+atlas%22+OR+TITLE_ABS%3Acell-state+OR+TITLE_ABS%3A%22cell+state%22+OR+TITLE_ABS%3A%22cross-modal+cell+annotation%22+OR+TITLE_ABS%3A%22RNA+ATAC%22+OR+TITLE_ABS%3ACITE-seq+OR+TITLE_ABS%3Amultiome+OR+TITLE_ABS%3A%22cell+trajectory%22+OR+TITLE_ABS%3A%22cell+fate%22+OR+TITLE_ABS%3A%22cell+perturbation%22+OR+TITLE_ABS%3A%22cell+profiling%22+OR+TITLE_ABS%3A%22cell+phenotyping%22+OR+TITLE_ABS%3ACellProfiler+OR+TITLE_ABS%3A%22cell+painting%22+OR+TITLE_ABS%3Amorpholomic%2A+OR+TITLE_ABS%3Asingle-nucleus+OR+TITLE_ABS%3A%22single+nucleus%22+OR+TITLE_ABS%3AsnRNA-seq+OR+TITLE_ABS%3AsnRNAseq+OR+TITLE_ABS%3AsnATAC%29&format=json&resultType=core&pageSize=1000&cursorMark=%2A",
+      "action": "add_formal",
+      "scope_reason": "GlioTrace combines CNN image analysis and HMMs to track glioma invasion in tissue slices.",
+      "reason": "Registered formal DOI, authors, eligible journal and year verified.",
+      "review_basis": "item_level_full_available_abstract",
+      "reviewed_on": "2026-11-23",
+      "source_url": "https://doi.org/10.21203/rs.3.rs-6163153/v1",
+      "first_posted_verified": "2025-03-25",
+      "year": 2026,
+      "final_title": "Reconstructing the single-cell spatiotemporal dynamics of glioblastoma invasion",
+      "final_url": "https://doi.org/10.1038/s41467-026-78908-9",
+      "final_venue": "Nature Communications",
+      "formal_doi": "10.1038/s41467-026-78908-9",
+      "formal_journal": "Nature Communications",
+      "verification_sources": [
+        "https://europepmc.org/article/PPR/PPR995010",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-6163153%2Fv1",
+        "https://api.crossref.org/works/10.21203%2Frs.3.rs-6163153%2Fv1",
+        "https://www.researchsquare.com/article/rs-6163153/v1",
+        "https://api.crossref.org/works/10.1038%2Fs41467-026-78908-9",
+        "https://api.crossref.org/works?query.title=Reconstructing+the+Single-Cell+Spatiotemporal+Dynamics+of+Glioblastoma+Invasion&rows=3"
+      ],
+      "verification_errors": [],
+      "version_history": [
+        {
+          "id": "PPR995010",
+          "source": "PPR",
+          "versionNumber": 1,
+          "firstPublishDate": "2025-03-25",
+          "pubTypeList": {
+            "pubType": [
+              "preprint"
+            ]
+          },
+          "hasEvaluations": "N"
+        }
+      ]
+    },
+    {
+      "source": "arxiv",
+      "id": "2608.27004",
+      "version": 3,
+      "title": "MVC-Bench: Benchmarking Calibration of Medical Vision-Language Models",
+      "paper_url": "https://arxiv.org/abs/2608.27004v3",
+      "updated": "2026-11-18",
+      "retrieval_url": "https://arxiv.org/search/?query=histopathology&searchtype=all&abstracts=show&order=-announced_date_first&size=200",
+      "action": "add_conference",
+      "scope_reason": "Medical VLM calibration benchmark includes histopathology and prompt tuning under distribution shift.",
+      "reason": "ACL Anthology confirms identical title, nine authors, published Findings volume and year; not merely an author acceptance comment.",
+      "review_basis": "full retrieved abstract",
+      "reviewed_on": "2026-11-23",
+      "source_url": "https://arxiv.org/abs/2608.27004v3",
+      "first_posted_verified": "2026-08-27",
+      "year": 2026,
+      "final_title": "MVC-Bench: Benchmarking Calibration of Medical Vision-Language Models",
+      "final_url": "https://doi.org/10.18653/2026.findings-emnlp.1691",
+      "final_venue": "EMNLP Findings 2026",
+      "formal_doi": "10.18653/2026.findings-emnlp.1691",
+      "verification_sources": [
+        "https://arxiv.org/search/?query=histopathology&searchtype=all&abstracts=show&order=-announced_date_first&size=200",
+        "https://arxiv.org/abs/2608.27004",
+        "https://api.crossref.org/works?query.title=MVC-Bench%3A+Benchmarking+Calibration+of+Medical+Vision-Language+Models&rows=3",
+        "https://aclanthology.org/2026.findings-emnlp.1691/"
+      ],
+      "verification_errors": []
+    }
+  ],
+  "withdrawn_entries": [
+    {
+      "id": "2506.09661",
+      "title": "A Cytology Dataset for Early Detection of Oral Squamous Cell Carcinoma",
+      "path": "papers/2025.md",
+      "original_entry": "- A Cytology Dataset for Early Detection of Oral Squamous Cell Carcinoma [[paper](https://arxiv.org/abs/2506.09661v1)] — *Computational pathology; preprint; first posted 2025-06-11*",
+      "identity_urls": [
+        "https://arxiv.org/abs/2506.09661v1"
+      ],
+      "reason": "Official arXiv v2 is withdrawn,2026-11-06. Authors report script bugs and misleading metrics.",
+      "source_url": "https://arxiv.org/abs/2506.09661"
+    }
+  ]
+}
