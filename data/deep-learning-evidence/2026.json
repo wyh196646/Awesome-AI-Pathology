@@ -7645,16 +7645,13 @@
       "title": "HoloGene: Learning to Lift Sliced Spatial Transcriptomics to Holistic 3D Gene Fields",
       "title_sha256": "1805270c99aeb95c3a3f91ecff978fb5dfb95f07c220d0f98e7cecd2a85e3b63",
       "paper_urls": [
-        "https://neurips.cc/virtual/2026/poster/152255"
+        "https://neurips.cc/virtual/2026/poster/152255",
+        "https://arxiv.org/abs/2611.20368v1"
       ],
       "relation": "research",
-      "method_terms": [
-        "autoencoder",
-        "neural representations"
-      ],
-      "scope_rationale": "Reviewed primary evidence concerns a substantive neural model, neural generative/flow-learning method, or direct deep-model interpretation, benchmarking and supporting resources.",
-      "evidence_basis": "item_level_context_review",
-      "source_url": "https://neurips.cc/virtual/2026/poster/152255"
+      "scope_rationale": "Graph autoencoder, FiLM-conditioned implicit neural representation and signature alignment reconstruct 3D spatial gene fields.",
+      "evidence_basis": "full official abstract",
+      "source_url": "https://arxiv.org/abs/2611.20368"
     },
     {
       "title": "Layout Before Pixels: Topology-Anchored Transcriptome-to-Histology Generation",
@@ -11358,15 +11355,13 @@
       "title": "Panoramic modelling of single-cell transcriptomes at scale with CellNet",
       "title_sha256": "09587d1ba4a327d06ab45193818f41e5a274610af714e280580338dd0c918462",
       "paper_urls": [
-        "https://arxiv.org/abs/2610.21943v1"
+        "https://arxiv.org/abs/2610.21943v1",
+        "https://arxiv.org/abs/2610.21943v2"
       ],
       "relation": "research",
-      "method_terms": [
-        "foundation models"
-      ],
-      "scope_rationale": "Reviewed evidence directly studies neural/vision-language models, neural generative methods, or their calibration, reasoning, privacy, efficiency and evaluation.",
-      "evidence_basis": "item_level_context_review",
-      "source_url": "https://arxiv.org/abs/2610.21943"
+      "scope_rationale": "Image-based foundation model pretraining integrates RNA profiles and DNA-derived gene identities for single-cell representation.",
+      "evidence_basis": "full revised official abstract and existing DL admission evidence",
+      "source_url": "https://arxiv.org/abs/2610.21943v2"
     },
     {
       "title": "Evidence Field for Histopathology: Cross-Centre Evaluation and Replayable Spatial Decisions",
@@ -12104,15 +12099,13 @@
       "title": "FFM-CP: Cross-Backbone Fusion of Vision-Language Foundation Models for Few-Shot Computational Pathology",
       "title_sha256": "306ffd0c749eb87954b7c9f34d47e5bc03b51e0a6abdcbd59f09018b1216686d",
       "paper_urls": [
-        "https://arxiv.org/abs/2609.27710v2"
+        "https://arxiv.org/abs/2609.27710v2",
+        "https://arxiv.org/abs/2609.27710v3"
       ],
       "relation": "research",
-      "method_terms": [
-        "Foundation Models"
-      ],
-      "scope_rationale": "Title explicitly identifies a deep-learning method or a study directly about such methods.",
-      "evidence_basis": "explicit_method_in_title_and_metadata",
-      "source_url": "http://arxiv.org/abs/2609.27710v1"
+      "scope_rationale": "Fusion and graph refinement of pretrained pathology VLM embeddings improves few-shot classification.",
+      "evidence_basis": "full revised official abstract and existing DL admission evidence",
+      "source_url": "https://arxiv.org/abs/2609.27710v3"
     },
     {
       "title": "Do Center Biases Propagate? Robustness of Pathology Foundation Models in Whole-Slide Image Classification",
@@ -17261,13 +17254,13 @@
       "title": "CHRep: Cross-modal Histology Representation and Post-hoc Calibration for Spatial Gene Expression Prediction",
       "title_sha256": "bfb15b4101be4fad1f823adc8c11e6c432adab3186a77584962b32ddb1ecd125",
       "paper_urls": [
-        "https://arxiv.org/abs/2604.21573v1"
+        "https://arxiv.org/abs/2604.21573v1",
+        "https://arxiv.org/abs/2604.21573v2"
       ],
       "relation": "research",
-      "method_terms": [],
-      "scope_rationale": "Scientific review identifies a substantive neural/generative/agentic model, study of learned pathology features or deep-model behavior, or a directly supporting dataset/benchmark/tool. Classical calibration, selection or statistical components do not remove its direct deep-model research role.",
-      "evidence_basis": "item_level_context_review",
-      "source_url": "https://arxiv.org/pdf/2604.21573"
+      "scope_rationale": "Cross-modal neural histology representation learning and learned post-hoc calibration predict spatial expression.",
+      "evidence_basis": "full revised official abstract and existing DL admission evidence",
+      "source_url": "https://arxiv.org/abs/2604.21573v2"
     },
     {
       "title": "GCE-MIL: Faithful and Recoverable Evidence for Multiple Instance Learning in Whole-Slide Imaging",
@@ -18230,15 +18223,13 @@
       "title": "Agentic Discovery Transfer Enables Cross-Cancer Discovery at Scale",
       "title_sha256": "6f206d8b492672ee0c6821a2fc4245a76ead6a25b3051149f54bc820663233d3",
       "paper_urls": [
-        "https://www.biorxiv.org/content/10.64898/2026.10.28.762506v2"
+        "https://www.biorxiv.org/content/10.64898/2026.10.28.762506v2",
+        "https://www.biorxiv.org/content/10.64898/2026.10.28.762506v3"
       ],
       "relation": "research",
-      "method_terms": [
-        "large language model"
-      ],
-      "scope_rationale": "Abstract describes a neural/deep-learning component in the research workflow.",
-      "evidence_basis": "abstract_method_component",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.10.28.762506v1"
+      "scope_rationale": "Multi-agent LLM framework transfers and tests findings across cancer single-cell RNA studies.",
+      "evidence_basis": "full revised official abstract and existing DL admission evidence",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.10.28.762506v3"
     },
     {
       "title": "Predicting clonal mutations from tumour spatial transcriptomics data using a graph convolutional neural network",
@@ -20567,13 +20558,13 @@
       "title": "PerturbBridge: Conditional Latent Schrödinger Bridge for Single-Cell Perturbation Prediction",
       "title_sha256": "1b71429bb1ec963161e98dcb8a5404b611ba2e8b3ba47f9e324805486e299cf7",
       "paper_urls": [
-        "https://www.biorxiv.org/content/10.64898/2026.09.24.754259v1"
+        "https://www.biorxiv.org/content/10.64898/2026.09.24.754259v1",
+        "https://www.biorxiv.org/content/10.64898/2026.09.24.754259v2"
       ],
       "relation": "research",
-      "method_terms": [],
-      "scope_rationale": "Item-level review identifies substantive use or study of deep/neural encoders, generative models or language-model agents, or a dataset/benchmark/review/workflow directly supporting their development, validation or implementation.",
-      "evidence_basis": "item_level_context_review",
-      "source_url": "https://doi.org/10.64898/2026.09.24.754259"
+      "scope_rationale": "Response-anchored autoencoder and perturbation-conditioned bridge Transformer predict single-cell responses.",
+      "evidence_basis": "full revised official abstract and existing DL admission evidence",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.09.24.754259v2"
     },
     {
       "title": "Pop-Corn: Predicting Perturbation Phenotype Effects Across Single-Cell and Spatial Contexts",
@@ -20737,16 +20728,13 @@
       "title": "How Much Can AI Virtual Cells Gain from Unified Perturbational Modeling?",
       "title_sha256": "a6db730661c4f63a846c932a09ac3ee6dcde884a601a97351893fb7aa137f988",
       "paper_urls": [
-        "https://www.biorxiv.org/content/10.64898/2026.10.25.761625v1"
+        "https://www.biorxiv.org/content/10.64898/2026.10.25.761625v1",
+        "https://www.biorxiv.org/content/10.64898/2026.10.25.761625v2"
       ],
       "relation": "research",
-      "method_terms": [
-        "VAE",
-        "variational autoencoder"
-      ],
-      "scope_rationale": "Abstract describes a neural/deep-learning component in the research workflow.",
-      "evidence_basis": "abstract_method_component",
-      "source_url": "https://doi.org/10.64898/2026.10.25.761625"
+      "scope_rationale": "VAE-based unified predictor trains on millions of perturbation cells and heterogeneous cellular contexts.",
+      "evidence_basis": "full revised official abstract and existing DL admission evidence",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.10.25.761625v2"
     },
     {
       "title": "Intelligent SEEQPI enables reconstruction of inhibitory neuronal nuclei and dry-mass mapping deep in the living mouse brain",
@@ -21195,20 +21183,6 @@
       "source_url": "https://www.biorxiv.org/content/10.64898/2026.11.03.763858v1"
     },
     {
-      "title": "Where single-cell foundation models help: a benchmark of annotation, perturbation and regulatory inference against simple baselines",
-      "title_sha256": "75e3e32165405693331b8322e67415c488cc51c26958420db1f762bbcc06d1d9",
-      "paper_urls": [
-        "https://www.biorxiv.org/content/10.64898/2026.11.03.763968v2"
-      ],
-      "relation": "supporting_resource",
-      "method_terms": [
-        "foundation models"
-      ],
-      "scope_rationale": "Title explicitly identifies a deep-learning method or a study directly about such methods.",
-      "evidence_basis": "explicit_method_in_title_and_metadata",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.11.03.763968v1"
-    },
-    {
       "title": "RAPTORGraph: graph-based pathway modeling for causal discovery in single-cell perturbations",
       "title_sha256": "13da5bd7e3690220b639823c6e9159e9b9c1550b1ec1036f999ee37162ee184b",
       "paper_urls": [
@@ -21588,13 +21562,13 @@
       "title": "OmniT2I: a unified table-to-image framework for survival prediction and cross-modal inference with incomplete multimodal cancer data",
       "title_sha256": "7d975ce66395cc65e7e3bd6bb844bf6350b4933dcdea27c9eb7fde6a30c18ef4",
       "paper_urls": [
-        "https://www.biorxiv.org/content/10.64898/2026.11.08.765158v1"
+        "https://www.biorxiv.org/content/10.64898/2026.11.08.765158v1",
+        "https://www.biorxiv.org/content/10.64898/2026.11.08.765158v2"
       ],
       "relation": "research",
-      "method_terms": [],
-      "scope_rationale": "Item-level review identifies substantive use or study of deep/neural encoders, generative models or language-model agents, or a dataset/benchmark/review/workflow directly supporting their development, validation or implementation.",
-      "evidence_basis": "item_level_context_review",
-      "source_url": "https://doi.org/10.64898/2026.11.08.765158"
+      "scope_rationale": "Existing neural table-to-image multimodal survival framework is revised; retain its recorded neural-method evidence and update verified version.",
+      "evidence_basis": "full revised official abstract and existing DL admission evidence",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.11.08.765158v2"
     },
     {
       "title": "Deep Learning Identifies BMI-Associated Morphologic Features in Breast Cancer Tissue",
@@ -23870,6 +23844,1373 @@
       "scope_rationale": "Reviewed evidence directly identifies neural/LLM modeling, deep representation or perturbation learning, clinical neural-image analysis, or a direct deep-model benchmark/resource.",
       "evidence_basis": "item_level_context_review",
       "source_url": "https://europepmc.org/article/MED/42269946"
+    },
+    {
+      "title": "REG2024: a benchmark challenge and curated dataset for pathology report generation from giga- pixel whole-slide images of bladder cancer",
+      "title_sha256": "12e82213df11878124f7d5b4c26f9aa6ba2200a96e93022065abd5946476ad5e",
+      "paper_urls": [
+        "https://doi.org/10.21203/rs.3.rs-10824156/v1"
+      ],
+      "relation": "supporting_resource",
+      "scope_rationale": "Bladder WSI-report dataset and open challenge directly evaluate vision-language report generators.",
+      "evidence_basis": "item_level_full_available_abstract",
+      "source_url": "https://doi.org/10.21203/rs.3.rs-10824156/v1"
+    },
+    {
+      "title": "Deep Learning Based Automated Histological Diagnosis of Eosinophilic Chronic Rhinosinusitis and Clinical Correlation",
+      "title_sha256": "299f8ceaba456cd4c241b761d2b6d3cec3cf51387d3ac03fe3945f09fa04d0aa",
+      "paper_urls": [
+        "https://doi.org/10.21203/rs.3.rs-9764769/v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Develops and clinically evaluates deep eosinophil counting on H&E slides.",
+      "evidence_basis": "item_level_full_available_abstract",
+      "source_url": "https://doi.org/10.21203/rs.3.rs-9764769/v1"
+    },
+    {
+      "title": "Shape-supervised network for cross-domain nuclei instance segmentation",
+      "title_sha256": "2d30c8438842781b5bd2c0296f1167cc986dff2f3c74c7e0ecb91c891ab3d540",
+      "paper_urls": [
+        "https://doi.org/10.21203/rs.3.rs-10940289/v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "SSNet trains UNet with nucleus-shape supervision and cross-domain histology/cytology evaluation.",
+      "evidence_basis": "item_level_full_available_abstract",
+      "source_url": "https://doi.org/10.21203/rs.3.rs-10940289/v1"
+    },
+    {
+      "title": "An Analysis-First Framework for Region-Level Heterogeneity Characterization in Breast Cancer Whole-Slide Images",
+      "title_sha256": "f422d8176cba3d53cf5c2b7de2ff8af9462910a741a954d2036c9da8e34ef4ee",
+      "paper_urls": [
+        "https://doi.org/10.21203/rs.3.rs-11763682/v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Studies tissue heterogeneity in frozen ResNet50 and UNI representations.",
+      "evidence_basis": "item_level_full_available_abstract",
+      "source_url": "https://doi.org/10.21203/rs.3.rs-11763682/v1"
+    },
+    {
+      "title": "The Landscape of Single-Cell Foundation Models: Design Principles, Applications, and Open Challenges",
+      "title_sha256": "4b3050c326517aac24d9688beed4be6e2060586f079d16bae6318e78e0eacea2",
+      "paper_urls": [
+        "https://doi.org/10.20944/preprints202608.1166.v1"
+      ],
+      "relation": "supporting_resource",
+      "scope_rationale": "Reviews single-cell foundation model architectures, pretraining and perturbation/annotation tasks.",
+      "evidence_basis": "item_level_full_available_abstract",
+      "source_url": "https://doi.org/10.20944/preprints202608.1166.v1"
+    },
+    {
+      "title": "A deep learning emulator for single-cell informed deconvolution and state prediction of cancer cells in clinical cohorts",
+      "title_sha256": "6c8d669decd5e43a1bf8bbbb6d141d06dbd9217e505fb4f3d52ef6f121825f72",
+      "paper_urls": [
+        "https://doi.org/10.21203/rs.3.rs-11726977/v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Deep single-cell-informed cancer deconvolution and cell-state prediction.",
+      "evidence_basis": "item_level_full_available_abstract",
+      "source_url": "https://doi.org/10.21203/rs.3.rs-11726977/v1"
+    },
+    {
+      "title": "Artificial Intelligence in Oral Squamous Cell Carcinoma Diagnosis: Exploring Deep Transfer Learning Strategies",
+      "title_sha256": "d2526a8fb05ac3798f543bcd4d4794fd5276c80eb5aad01bcae6d9ba8e5407ad",
+      "paper_urls": [
+        "https://doi.org/10.21203/rs.3.rs-10173984/v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Fine-tunes CNN backbones for microscopic oral-carcinoma classification.",
+      "evidence_basis": "item_level_full_available_abstract",
+      "source_url": "https://doi.org/10.21203/rs.3.rs-10173984/v1"
+    },
+    {
+      "title": "Dynamic Graph and Multi-Stage Mamba Fusion for Multimodal Survival Prediction",
+      "title_sha256": "4fa56903c93b1d243e4fbe3158faf0ba81d23e587f845c30ff9c1737a44463cb",
+      "paper_urls": [
+        "https://doi.org/10.21203/rs.3.rs-11124211/v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Learns WSI-omics survival using sparse pathway-patch graphs and Mamba/state-space fusion.",
+      "evidence_basis": "item_level_full_available_abstract",
+      "source_url": "https://doi.org/10.21203/rs.3.rs-11124211/v1"
+    },
+    {
+      "title": "scRED: Cell-Graph Reconstruction Error Prioritises Autism Risk Genes in Cortical Neurons",
+      "title_sha256": "f37dc2f5decf1c13c74b9bf21d09bad201e68efb00014ce9782c14e8a10884e0",
+      "paper_urls": [
+        "https://doi.org/10.21203/rs.3.rs-11194918/v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Trains graph-convolutional autoencoder on control cortical single-cell data for disease-associated reconstruction scoring.",
+      "evidence_basis": "item_level_full_available_abstract",
+      "source_url": "https://doi.org/10.21203/rs.3.rs-11194918/v1"
+    },
+    {
+      "title": "Landscape and Emerging Directions of Single-Cell Genetic Variation Research Revealed by LLM-Assisted Analysis",
+      "title_sha256": "5ed8be7380042c057cb972c9ad8ad3093839387b8af3ee58727726af0ab87711",
+      "paper_urls": [
+        "https://doi.org/10.21203/rs.3.rs-11657247/v1"
+      ],
+      "relation": "supporting_resource",
+      "scope_rationale": "Evaluates ChatGPT-4o full-text information extraction for single-cell genetic-variation literature against manual annotations.",
+      "evidence_basis": "item_level_full_available_abstract",
+      "source_url": "https://doi.org/10.21203/rs.3.rs-11657247/v1"
+    },
+    {
+      "title": "Quantization Trade-offs in Edge AI: Evaluating Lightweight Neural Architectures for Mobile-Based Healthcare and Agricultural Diagnostics",
+      "title_sha256": "35728acb6f9a94413aa838e8253a3a8e96a9c095383f0b936ab2ba833efe0b0d",
+      "paper_urls": [
+        "https://doi.org/10.21203/rs.3.rs-11685024/v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Benchmarks neural compression with a biomedical malaria blood-smear task alongside other domains.",
+      "evidence_basis": "item_level_full_available_abstract",
+      "source_url": "https://doi.org/10.21203/rs.3.rs-11685024/v1"
+    },
+    {
+      "title": "Reconstructing the single-cell spatiotemporal dynamics of glioblastoma invasion",
+      "title_sha256": "58de9ad2e152c761c392edb52a141d4587f055086fc18674d359d71e2db050be",
+      "paper_urls": [
+        "https://doi.org/10.1038/s41467-026-78908-9",
+        "https://doi.org/10.21203/rs.3.rs-6163153/v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "GlioTrace combines CNN image analysis and HMMs to track glioma invasion in tissue slices.",
+      "evidence_basis": "item_level_full_available_abstract",
+      "source_url": "https://www.nature.com/articles/s41467-026-78908-9"
+    },
+    {
+      "title": "Cluster-guided multimodal deep learning improves gastric cancer prognosis prediction and uncovers interpretable immune phenotypes",
+      "title_sha256": "6dbf9aef671dc7f4c5760e269bfe81f5ba14854530629fbcd119c55a4de41faa",
+      "paper_urls": [
+        "https://doi.org/10.21203/rs.3.rs-9575924/v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Deep multimodal histology/transcriptomic clustering and expert survival prediction.",
+      "evidence_basis": "item_level_full_available_abstract",
+      "source_url": "https://doi.org/10.21203/rs.3.rs-9575924/v1"
+    },
+    {
+      "title": "Hyperbolic neural networks for biologically informed classification of white blood cells and hematopoietic cell states in peripheral blood smears",
+      "title_sha256": "4501a62268dbdb639333c5d2710d645608eb51545529c716c038283bff0150eb",
+      "paper_urls": [
+        "https://doi.org/10.21203/rs.3.rs-9930528/v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "ResNet18 plus hyperbolic prototype classification of blood-cell states.",
+      "evidence_basis": "item_level_full_available_abstract",
+      "source_url": "https://doi.org/10.21203/rs.3.rs-9930528/v1"
+    },
+    {
+      "title": "AI-Driven Cell-Fate Prediction in Microscopy",
+      "title_sha256": "d815ffa9072ecf46c0e5e053c714e753f286cfda225254bf6075aed58baa9f6f",
+      "paper_urls": [
+        "https://doi.org/10.20944/preprints202607.1414.v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Reviews deep microscopy-based cell-fate prediction and its validation.",
+      "evidence_basis": "item_level_full_available_abstract",
+      "source_url": "https://doi.org/10.20944/preprints202607.1414.v1"
+    },
+    {
+      "title": "Explainable Two-Phase Transfer Learning for Accurate Multi-Class Cervical Cell Classification from Optical Microscopy Images",
+      "title_sha256": "0f16ce4145c16131c1f557af8bbfeebe2a5f2305b55321f08dd57c363eba8d6c",
+      "paper_urls": [
+        "https://doi.org/10.21203/rs.3.rs-9256261/v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Transfer-learns CNNs for multiclass cervical cytology with interpretation.",
+      "evidence_basis": "item_level_full_available_abstract",
+      "source_url": "https://doi.org/10.21203/rs.3.rs-9256261/v1"
+    },
+    {
+      "title": "Thyro-HGFormer: Hypergraph-guided multimodal fusion of ultrasound, histopathology, and clinical data for classification of TI- RADS 4a thyroid nodules",
+      "title_sha256": "e79a9aa0d9c6effcc163f998d107e43f33c183da8b5f0d962df57589af8c6129",
+      "paper_urls": [
+        "https://doi.org/10.21203/rs.3.rs-11318460/v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Perceiver-style latent attention and learned hypergraph multimodal fusion include H&E tissue patches.",
+      "evidence_basis": "item_level_full_available_abstract",
+      "source_url": "https://doi.org/10.21203/rs.3.rs-11318460/v1"
+    },
+    {
+      "title": "LG-MIL: Language-Guided Multiple Instance Learning for Coordinate-Aligned Attention Analysis in Whole-Slide Images",
+      "title_sha256": "db16f1de9be5a05d4bac3c66c2cbbf30f727e592f9cc8b662b85eae5019337d4",
+      "paper_urls": [
+        "https://doi.org/10.21203/rs.3.rs-11763838/v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Language-guided deep image/text embeddings and cross-modal attention aggregate WSI patches.",
+      "evidence_basis": "item_level_full_available_abstract",
+      "source_url": "https://doi.org/10.21203/rs.3.rs-11763838/v1"
+    },
+    {
+      "title": "The STP Open Challenge: A Community Effort to Define and Benchmark Spatial Transcriptome-to-Proteome Prediction",
+      "title_sha256": "5fc1e71d31ef9613a71ff35debf14e2e3d293c9e3eb9acdeb1577e3f18a01496",
+      "paper_urls": [
+        "https://doi.org/10.21203/rs.3.rs-10262522/v1"
+      ],
+      "relation": "supporting_resource",
+      "scope_rationale": "Paired spatial RNA/protein challenge directly evaluates learned molecular-prediction models and ensembles.",
+      "evidence_basis": "item_level_full_available_abstract",
+      "source_url": "https://doi.org/10.21203/rs.3.rs-10262522/v1"
+    },
+    {
+      "title": "A Knowledge-grounded Agentic Framework for Single-cell RNA Sequencing Method Hypothesis Generation",
+      "title_sha256": "f7e148a1a52a740ac9721a4ff012fd549f70a4fdf373c2708ff4dc6192da0eca",
+      "paper_urls": [
+        "https://doi.org/10.21203/rs.3.rs-11760251/v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Knowledge-grounded generative agents extract methodological reasoning and generate single-cell method hypotheses.",
+      "evidence_basis": "item_level_full_available_abstract",
+      "source_url": "https://doi.org/10.21203/rs.3.rs-11760251/v1"
+    },
+    {
+      "title": "Predicting Single-Cell Spatial Gene Expression from H&E using Pathology Foundation Models",
+      "title_sha256": "14d435562d6d04da3074c6f5a8b7271d4eb7f4e7acca44fdf95b777589743847",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.13649v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Adapts pathology foundation models to single-cell Xenium expression prediction from H&E.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.13649v1"
+    },
+    {
+      "title": "GESTALT: Fast, Generalizable Histopathology Image Synthesis from Gene Expression with Pretrained Pathology Foundation Models",
+      "title_sha256": "a520fd51307e655ac2d17569573339e218323705279a98b3f62f3c733736eb59",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.01141v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Gene-token transformer predicts pathology embeddings for a frozen or LoRA-adapted diffusion decoder.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.01141v1"
+    },
+    {
+      "title": "From Cross-Section to Cross-Omics: Conditional Cell Nucleus Image Editing in Spatial Transcriptomics",
+      "title_sha256": "c0d90525f841cffc1a74e623168d4ed957587a87584375d935f7c282ad373ef8",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.00226v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "VAE and manifold-aware diffusion edit cell nucleus images conditional on transcriptomic and morphological factors.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.00226v1"
+    },
+    {
+      "title": "Continuous 3D Spatial Transcriptomics Reconstruction via Histology-Informed Implicit Neural Representations",
+      "title_sha256": "57ac59c6d5887d9a289720613d1b2310967c93f357a6202db95da1b3acaecb97",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.14129v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Shared-backbone implicit neural representation reconstructs continuous 3D spatial expression with histology supervision.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.14129v1"
+    },
+    {
+      "title": "Deep Learning for Cervical Cytology Screening: Methods, Algorithms, Challenges and Prospects",
+      "title_sha256": "a2a5f9960a8411b7e8bc66e751ca60f1dfd6a8c3f1a374c91ec3717d8433f559",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.01730v1"
+      ],
+      "relation": "supporting_resource",
+      "scope_rationale": "Review specifically synthesizes deep learning for cell, patch and whole-slide cervical cytology.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.01730v1"
+    },
+    {
+      "title": "When Cell Crops Share a Parent: Measuring and Isolating Acquisition Leakage in Cervical Cytology Benchmarks",
+      "title_sha256": "440294a2c7cf5af40bf7c16c8ad076481296747e0f1049aee949cc8a7ead2385",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.05145v1"
+      ],
+      "relation": "supporting_resource",
+      "scope_rationale": "Cervical cytology benchmark audits acquisition leakage across twelve neural architectures with Grad-CAM controls.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.05145v1"
+    },
+    {
+      "title": "Health-System-Wide Mapping of Demographic Information in Routine Clinical Histopathology",
+      "title_sha256": "5613c55a0825ea63ccc145101ea996a8f06753beccd19fb2d18bc0d9000cee58",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.09851v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Pathology foundation-model features and attention MIL quantify demographic signals across clinical histology.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.09851v1"
+    },
+    {
+      "title": "Agent-Driven Generative Priors for Pathology Image Synthesis and Segmentation",
+      "title_sha256": "a563b92235086e675adb704de8030fddfbef6ed1672f3fdf6412502f25af1371",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.06701v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Agent-screened pathology patches train a generative backbone transferred to cell semantic segmentation.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.06701v1"
+    },
+    {
+      "title": "TME-ContextNet: Class-Conditioned Spatial Supervision and Grouped Decoding for Joint Nuclei Instance Segmentation and Classification",
+      "title_sha256": "446c8f960cfb05d118b61d0db568d15b2c8182ce4dd51926d4854d889d0b292e",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.02671v2"
+      ],
+      "relation": "research",
+      "scope_rationale": "Dilated convolution, self-attention and grouped neural decoders jointly segment and type nuclei.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.02671v2"
+    },
+    {
+      "title": "Nanopath: Fast, Fair, Open Experimentation for Pathology Foundation Models",
+      "title_sha256": "9902263cb1e82425fdaa1e97125ad371dbae763790752d54478ffa8a19c15862",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.10014v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Open framework and fixed-budget benchmark train and compare pathology foundation models.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.10014v1"
+    },
+    {
+      "title": "CaseScope: A Multi-Field Benchmark for Case-Level Pathology Diagnosis with Multimodal LLMs",
+      "title_sha256": "67e4008e9695172be7adfba51b740a8c995c37d4b7d5559c1a9f1474542aaae1",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.15325v1"
+      ],
+      "relation": "supporting_resource",
+      "scope_rationale": "Multi-field pathology diagnosis benchmark evaluates 32 multimodal large language models.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.15325v1"
+    },
+    {
+      "title": "More Genes, Faster Inference: Efficient Large-Panel Spatial Transcriptomics Prediction from Histology",
+      "title_sha256": "7006354a929f02b6aeb208ed91d7ce61dff4de7c7176435d38f6b6e5263d5f1f",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.17899v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Flow-matching gene prediction combines histology and gene tokenizers for large-panel spatial transcriptomics.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.17899v1"
+    },
+    {
+      "title": "Reliability-Aware Benchmarking of Self-Supervised Learning in Histopathology Under 1-10% Label Regimes",
+      "title_sha256": "2e338ecc777e8d936d657c79df785336e272aa45a68a90642a9b2102620e00ec",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.10003v1"
+      ],
+      "relation": "supporting_resource",
+      "scope_rationale": "Benchmarks SimCLR, BYOL and masked reconstruction with frozen ResNet/ViT encoders on histopathology.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.10003v1"
+    },
+    {
+      "title": "Unlocking Fine-Grained Cell Representations via Soft-Interior Rim Dense-Grid Pooling in Pathology Foundation Models",
+      "title_sha256": "984290f5297e8dab4a6088439ce208a835858fc9249a52622831c9b84dd01939",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.19325v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Geometry-aware pooling reads frozen pathology neural encoder tokens for cell classification.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.19325v1"
+    },
+    {
+      "title": "HEmIF-Bench: Benchmarking H&E-to-mIF Models BeyondVirtual-StainFidelity",
+      "title_sha256": "e8d90c0c9f7c9d98d07c681fdb88c3f15e637521eac2fd50a8b6c6479b6bb142",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.19905v1"
+      ],
+      "relation": "supporting_resource",
+      "scope_rationale": "Benchmark compares five neural H&E-to-mIF generators and frozen UNI2 across molecular and clinical tasks.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.19905v1"
+    },
+    {
+      "title": "Contrastive fine-tuning against stain and scanner bias improves robustness and downstream performance across pathology foundation models",
+      "title_sha256": "92886f9ac6efc7efe595d74db821d83be96dac0720f5ab44a2c755aba38eaa8e",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.10093v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "LoRA contrastive post-training removes scanner/stain bias from pathology foundation models.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.10093v1"
+    },
+    {
+      "title": "PathLoop: Self-Evolving Multi-Agent Reasoning for Evidence-Grounded Whole-Slide Image Analysis",
+      "title_sha256": "06bb2ded6356a8d032e57c44871965f114b8ee781b749b0cf0dd5f2ec4b2d23c",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.19527v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Multimodal multi-agent framework uses visual/omics interpretation and evidence-grounded WSI reasoning.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.19527v1"
+    },
+    {
+      "title": "SCOPE: Single-Cell Omics Prediction from Histology via RNA-Protein Prior Enhancement",
+      "title_sha256": "c465c87c2060833d78bd55f8f3a353a30a789d145c98af7e68b4e78400d09039",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.24104v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Shared cross-omics neural backbone predicts single-cell RNA and protein from H&E using biomarker priors.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.24104v1"
+    },
+    {
+      "title": "When Foundation Models Disagree: Representational Heterogeneity for Calibrated Uncertainty in Whole-Slide Image Classification",
+      "title_sha256": "e07c8ecd2f35e2d63127a8947cb18cb2eead83ca9432a2ff586719154a2e8cf9",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.26159v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Frozen pathology encoders with trained nnMIL heads support calibration from representation disagreement.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.26159v1"
+    },
+    {
+      "title": "When Do Histology Foundation Models Need Geometric Test-Time Augmentation?",
+      "title_sha256": "cd9e8344a671bcb256501162f5bf173cab04d83ce3526e679cad691c50fd1426",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.21565v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Benchmark directly evaluates geometric test-time augmentation for histology foundation models and MIL.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.21565v1"
+    },
+    {
+      "title": "SCOUT: Risk-Guided Foundation-Model Escalation for Robust Tissue Detection in Whole-Slide Images",
+      "title_sha256": "34060030c9174c34eca100ca509f3bda052639f2bb0c308885256f614413311c",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.24366v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Audit network selectively escalates WSI tissue-mask errors to frozen pathology foundation models.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.24366v1"
+    },
+    {
+      "title": "C-LiTE: A Lightweight Foundation Model for Cellular feature learning in Histopathology",
+      "title_sha256": "62f1117523841992d7dbf403af8b78b7457c290ca285eed9f5bfc8894806d1c2",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.26316v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Self-supervised ViT foundation model learns cell features from 60 million histopathology crops.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.26316v1"
+    },
+    {
+      "title": "Multi-institutional grading of Barrett's esophagus dysplasia without stain normalization using a pathology foundation model and multiple instance learning",
+      "title_sha256": "69c777863a3b3935fd9b19c7f270aa77c3425338de6ede05d942220d1a0464cf",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.26562v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Pathology foundation-model patch classifiers and attribute-aware MIL grade Barrett dysplasia.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.26562v1"
+    },
+    {
+      "title": "Training-Time Domain Transfer for Generator-Free Diagnostics on Novel Modalities in Computational Pathology",
+      "title_sha256": "530a4bb9cd88427dfc194afde0420dcf487574a1f4dd7c0480ec014c8058deb6",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.02931v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Training-time image domain transfer generates unstained-prostate data for direct diagnostic models.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.02931v1"
+    },
+    {
+      "title": "The DynaCell Evaluation Suite for Dynamic 3D Virtual Staining of Live Cells",
+      "title_sha256": "58cd721cdde207d7a7ee508f738bf9f9d39a0cd604888b4c88966d9a3f20ed66",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.02324v2"
+      ],
+      "relation": "supporting_resource",
+      "scope_rationale": "Paired 3D live-cell virtual-staining benchmark compares regression/generative models and releases checkpoints.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.02324v2"
+    },
+    {
+      "title": "TCINet: Tissue-Conditioned Adaptive Cross-Branch Interaction Network for Nuclei Instance Segmentation",
+      "title_sha256": "230a8e849320de167f84e2e4b6fe0217c9bddb60ecab1eae28c9a9dc78a9dc67",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.04235v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Neural feature adapters and tissue-conditioned cross-branch interaction segment and type nuclei.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.04235v1"
+    },
+    {
+      "title": "The APL Doesn't Fall Far From The Tree: Unsupervised Artefact Prototype Learning in Histopathology",
+      "title_sha256": "f5e7f779224578f5022528b3d782ffc059a43ec66637d1628f7cb0721ef80f3d",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.08838v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Unsupervised artefact prototypes operate on frozen histopathology foundation-model embeddings.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.08838v1"
+    },
+    {
+      "title": "PathoS2VD: From 2D Histopathology to Pseudo Z-Stack Representations",
+      "title_sha256": "dc11b0f21dcd2d9b7bfc4987c03c417dffd1312572b1627de4fb4b570d023b19",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.05974v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Image-to-video latent diffusion learns pseudo-z-stack histology priors for prostate classification.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.05974v1"
+    },
+    {
+      "title": "Scalable Bayesian Gaussian Process Classification for Cancer Histopathology: Calibrated Uncertainty Under Distribution Shift",
+      "title_sha256": "d81bae7f27f786b618631b42d5e3a9b3095ce76a31557e33700653ad8520a074",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.07127v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Bayesian GP operates on frozen Phikon pathology foundation embeddings and directly evaluates neural calibration baselines.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.07127v1"
+    },
+    {
+      "title": "PathXAI: Evidence-guided structured pathology reporting by transferable tissue segmentation",
+      "title_sha256": "13e2a02a5525243e6bcac6301129654de5605e31dfe24d215893def476719d68",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.09117v3"
+      ],
+      "relation": "research",
+      "scope_rationale": "Transferable neural tissue segmentation and pretrained VLM produce evidence-guided pathology reports.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.09117v3"
+    },
+    {
+      "title": "Multimodal Fusion Methods for Whole-Slide Images and Clinical Data in Inflammatory Bowel Disease",
+      "title_sha256": "2163e4bb39a1d08ddf22c77b36b4a6b95b741520baa6a22a7149ae1d3a86de4a",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.05579v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Attention-aggregated frozen pathology embeddings are fused with clinical embeddings for IBD outcomes.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.05579v1"
+    },
+    {
+      "title": "SCALE: Towards Whole-Slide Counterfactual Explanations in Cancer Histopathology",
+      "title_sha256": "8bce9e500db19d72a74e3c8ff68c7a66cc0b46310279ab2cdcc7ed1d071fbc0e",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.18729v2"
+      ],
+      "relation": "research",
+      "scope_rationale": "Counterfactual image framework explains deep histopathology classifiers and is reviewed by pathologists.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.18729v2"
+    },
+    {
+      "title": "The BRIDGE dataset: paired brightfield whole-slide images of prostate core-needle biopsies in paraffin, after deparaffinization and H&E staining",
+      "title_sha256": "aa6814d6bce49ef64b5b7ed019293746a57ebed993470690c492100c177e55ae",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.13883v1"
+      ],
+      "relation": "supporting_resource",
+      "scope_rationale": "Paired unstained/deparaffinized/H&E WSI dataset directly supports deep-learning virtual-staining development.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.13883v1"
+    },
+    {
+      "title": "Predicting Ethanol Drinking Status from Nonhuman Primate Liver Histology: A Proof of Concept for Parameter-efficient Fine-tuning in Few-Shot Vision-Language Modeling",
+      "title_sha256": "1fc308c48ed1cdbcdf354f539aba14b6848a2485229a4251112a05d01d4b956a",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.17105v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "VLM adapters and attention-based MIL classify primate liver histology in few-shot settings.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.17105v1"
+    },
+    {
+      "title": "SRED: Sparse Regional Evidence Distillation Across Magnifications in Whole-Slide Imaging",
+      "title_sha256": "4fd73ff1583e515650a5a39c67aeb4a941e2761087ddc5baaed26d8eff833b55",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.22189v2"
+      ],
+      "relation": "research",
+      "scope_rationale": "Sparse autoencoder on high-magnification teacher features distills evidence into a low-magnification encoder.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.22189v2"
+    },
+    {
+      "title": "EviSlide-MIL: Multi-Query Pooling and Shared Prediction for Class-Incremental Whole-Slide Image Classification",
+      "title_sha256": "78bd6f81deb5ab6e1324cd853879b9f3e57fa1963582bf9b8d4f017c4862fd65",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.23212v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Learnable class queries, frozen patch embeddings and distillation support class-incremental WSI classification.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.23212v1"
+    },
+    {
+      "title": "SlideJev: Order-Stable and Tissue-Grounded Jev Decisions for Whole-Slide Pathology",
+      "title_sha256": "bc3d316a0ed716ab88b5f34f3ea3f372c4701d63dbb83b49ac4ef51ad93bb015",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.22879v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Frozen VLM backbone with trained visual modules grounds whole-slide question answering in tissue.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.22879v1"
+    },
+    {
+      "title": "Attribution-based diagnostics for single-cell foundation models",
+      "title_sha256": "8a5dc06d244f8368784254717fe1c7f0d7bdcdee7baf30a5f2afd63a45fe2a3d",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.02335v2"
+      ],
+      "relation": "research",
+      "scope_rationale": "Attribution benchmark directly audits Cell2Sentence/scGPT annotation and scGPT/STATE perturbation prediction.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.02335v2"
+    },
+    {
+      "title": "Can decision models extract clinical data from cancer pathology reports? An evaluation of accuracy, calibration, and failure modes",
+      "title_sha256": "d80ec80eff3ba84ec81941d66f314cedd3ab85878cb97efeac994d0e4b7defcd",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.20129v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Decision language models are compared with generative LLMs for structured extraction from oral-cancer pathology reports.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.20129v1"
+    },
+    {
+      "title": "MI-Hyper: Generating Multiple Instance Models for Weight Space Transfer Learning in Histopathology via Mixed Tasks Pretrained HyperNetwork",
+      "title_sha256": "4d535543ed55130cb87beb15f069f03df5f4b7a1ca78ba8ce9325d6b17486098",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.22968v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Pretrained hypernetwork generates MIL aggregation/classification weights from pathology task descriptions.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.22968v1"
+    },
+    {
+      "title": "Rethinking One Gene, One Token: Transcriptome-Aware Tokenization for Single-Cell Foundation Models",
+      "title_sha256": "9c2020788b05ea11e6e556e13b0e7adaa2975bcdb4347232bfa8808335f0b9d8",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.05410v2"
+      ],
+      "relation": "research",
+      "scope_rationale": "Adaptive gene-set tokenization reduces Transformer cost for single-cell foundation models.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.05410v2"
+    },
+    {
+      "title": "Publications as benchmarks: auditing AI agents on spatial transcriptomics alignment",
+      "title_sha256": "bddcf0e390d8c4263a97991994925af10b79925a271d6472941ef9ac4e8788a4",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.11796v1"
+      ],
+      "relation": "supporting_resource",
+      "scope_rationale": "Spatial transcriptomics alignment benchmark audits six LLM agents and distills their solutions.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.11796v1"
+    },
+    {
+      "title": "Does Your Neural Network Extrapolate? Feature Engineering as Identifiability Bias for OOD Generalization",
+      "title_sha256": "689a09487c454e82afb136e9e5bad8310fca9b713a83cedd6cc3c266d0c21d15",
+      "paper_urls": [
+        "https://arxiv.org/abs/2605.07483v3"
+      ],
+      "relation": "research",
+      "scope_rationale": "Neural OOD generalization study includes a substantive histopathology setting.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2605.07483v3"
+    },
+    {
+      "title": "CellPlex: Benchmarking Single-Cell Spatial Proteomics Prediction from H&E",
+      "title_sha256": "8d4d2c7ce8a9a56af1b9f73d7e95a7d248dcac6ba42ac207b5193c1f86a8fd75",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.02506v1"
+      ],
+      "relation": "supporting_resource",
+      "scope_rationale": "Cell-resolved H&E-to-spatial-protein benchmark compares adapted pathology foundation models and specialist neural models.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.02506v1"
+    },
+    {
+      "title": "TopoHyperClinicalGraph: A Geometry and Topology-Aware Multimodal Framework for Cancer Survival Prediction",
+      "title_sha256": "14799c33bb135bba35ede6c705cc3d720cccb15c308b2efebd1a42d919d59018",
+      "paper_urls": [
+        "https://arxiv.org/abs/2610.41556v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "UNI2 pathology features, hyperbolic attention and clinical graph learning support cancer survival prediction.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2610.41556v1"
+    },
+    {
+      "title": "Learning Biological Hierarchies in Single-Cell Foundation Models",
+      "title_sha256": "bbecad21bd6b6583d478d6b688cb8e7e81376ecddca913b36620aaeb17f4e732",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.10838v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Cell-ontology triplet learning shapes single-cell foundation-model representation geometry.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.10838v1"
+    },
+    {
+      "title": "MVC-Bench: Benchmarking Calibration of Medical Vision-Language Models",
+      "title_sha256": "580e896c3a066cd2c5a0c06459f209535ff6bea87bc9729fc889977626134cc9",
+      "paper_urls": [
+        "https://doi.org/10.18653/2026.findings-emnlp.1691",
+        "https://arxiv.org/abs/2608.27004v3"
+      ],
+      "relation": "supporting_resource",
+      "scope_rationale": "Medical VLM calibration benchmark includes histopathology and prompt tuning under distribution shift.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2608.27004v3"
+    },
+    {
+      "title": "CytoWave: Perturbation-Centric Pretraining for Single-Cell Response Prediction",
+      "title_sha256": "92704617ce78c8d0a80deec2e79cc3cbac87b80597ea33edd0d534e4002ab500",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.02311v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Masked pretraining and contrastive perturbation objectives learn cross-context single-cell responses.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.02311v1"
+    },
+    {
+      "title": "CellCanon: An Agentic Cellular World Model for Prediction, Explanation, and Observation-Driven Updating",
+      "title_sha256": "5de8f08a41c46f9af234363a43b7199b1df1718ed4e4154872ddc58f26fa847e",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.05890v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "LLM-based cellular agent predicts single-cell expression and updates evidence-grounded biological state.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.05890v1"
+    },
+    {
+      "title": "MUSS: A Multi-scale and Sequence-based Model for Single-cell Gene Regulation",
+      "title_sha256": "9b5d918b284a9c00cb083871766077135106abb67faa74b7be76be291a954f44",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.08086v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Frozen DNA encoder, self-attention and paired scATAC/scRNA training model single-cell regulation.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.08086v1"
+    },
+    {
+      "title": "BAPLe++: Cross-Model Transferability and Prompt-Level Defense of Backdoors in Medical Foundation Models",
+      "title_sha256": "903fffbd517664a44068f6cb266bd3bc5496146a14c710f35b240afdaeafcf9f",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.10764v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Prompt-level backdoor transfer and defense are evaluated on medical neural foundation models including histopathology datasets.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.10764v1"
+    },
+    {
+      "title": "scBIG++: Learning Across Genes and Cells to Predict Single-Cell Perturbation Responses",
+      "title_sha256": "3ae2ac729140796c26f49165faa69b10ef31fa974e663b0ae793cc58daddb4bf",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.11217v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Set graph convolutional autoencoder and latent flow predict full-gene single-cell perturbation responses.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.11217v1"
+    },
+    {
+      "title": "stMIND: Learning multiscale interaction dynamics from spatial-temporal transcriptomics",
+      "title_sha256": "ec4991b259479aa688cfcfb940b67abe4f6f1ff3f06a57adf1c411ab63f6f896",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.12228v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Neural SDE with local graph and nonlocal attention models spatial-temporal transcriptomic interactions.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.12228v1"
+    },
+    {
+      "title": "When Covariance Is Not Enough: Kernel-Based Regularization for Single-Cell Counterfactuals",
+      "title_sha256": "7c550bc7169e485ba0afc3a61b5ef78b64f082be720c78e38721955ee6970670",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.13748v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Nonlinear concept-bottleneck generative model improves single-cell expression counterfactuals.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.13748v1"
+    },
+    {
+      "title": "An Asynchronous Federated Learning Platform for Lung Adenocarcinoma Grading via Foundation Models and Structural Pruning",
+      "title_sha256": "6afb395dc4e8bea4a1027553be624ca3df618ed75b304f10974945e7885fbbfc",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.14590v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "UNI2 and CLAM-SB pathology classifiers are trained through asynchronous federated learning and pruning.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.14590v1"
+    },
+    {
+      "title": "AI for Biologists: The Knowledge Boundaries of Foundation Models in the Age of Agentic Systems",
+      "title_sha256": "544f489cd9e2df6244d1b797d50c55a1516c49ba491b9c1915f073180569f1b9",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.17015v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Review of foundation-model construction and reliability includes single-cell response/agent use.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.17015v1"
+    },
+    {
+      "title": "3D Cell Morphology--Clinical Text Contrastive Learning with Voxel Swin Transformer and Finding Encoder Domain-Adaptation",
+      "title_sha256": "c8148c627fa995bbe184359d9ea7b121ae38b97038d3a3b38cf76cfacd279a7b",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.18686v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "3D SwinUNETR and ClinicalBERT contrastive learning align confocal single-cell volumes with findings.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.18686v1"
+    },
+    {
+      "title": "Neural Latent Gaussian Process for 3D reconstruction of Mouse Brain Lipids",
+      "title_sha256": "3531fe120def270d6d62ccb1d00905b1f9cee856928b0e8ec4902d7fcc25a5be",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.18744v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Neural latent GP with MLP decoder reconstructs 3D spatial lipidomics and benchmarks deep spatial-omics methods.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.18744v1"
+    },
+    {
+      "title": "ST-Dist: Distilling Spatial Transcriptomics Predictions into Interpretable Gene Axes for Distant Metastasis Prediction",
+      "title_sha256": "1f5f2a4be3295e8221364ab82db83a74f6dd488421282b6ed63042d6939bc552",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.18756v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Foundation-model features distill predicted spatial gene expression into interpretable metastasis classifiers.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.18756v1"
+    },
+    {
+      "title": "Where slide-level foundation-model classifiers fail on atypical breast lesions",
+      "title_sha256": "f34cc61d300509c2c3ec174f800489640ce305174f4d626902b6b6a5ac476b79",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.19630v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Four pathology foundation-model classifiers are audited on atypical breast lesions and lesion-level training.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.19630v1"
+    },
+    {
+      "title": "OCCAM: Improved Single-Cell Representation Learning and Perturbation Effect Prediction",
+      "title_sha256": "a07cba0c23aff8025fcc671eb03c529e1da179c1fdd84b09539c832e8bf66466",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.21959v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Denoising MLP representations with gene/text/protein features predict single-cell perturbation effects.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.21959v1"
+    },
+    {
+      "title": "ReliFlow: Reliability-Calibrated Residual Transport for Combinatorial Single-Cell Perturbation Prediction",
+      "title_sha256": "d1fd3ea6153a45fdef1057b58f31cfdbfc0ca99707bf604ad8b21e60b329fc83",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.23999v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Conditional flow matching predicts combinatorial single-cell perturbations using reliability-calibrated transport.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.23999v1"
+    },
+    {
+      "title": "An Explainable and Scalable Hierarchical Tensor Framework for Integrating Multi-Omics and Digital Pathomics",
+      "title_sha256": "be5d921990d69d47c318ce655275fe1efdea9a89e24b458c75a869093fc8fb21",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.25584v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "ViT-derived pathomics and modality-specific autoencoders integrate six cancer molecular/pathology modalities.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.25584v1"
+    },
+    {
+      "title": "LIFT: Latent Flow Matching for Probabilistic Cell Fate Dynamics with Single Cell Snapshots",
+      "title_sha256": "0f9742cc690bbbf95ddbb2415f3e2b10357bd04d767096b7d0d5307f31b08323",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.25917v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Variational inference and conditional mean-flow decoder model probabilistic cell-fate outcomes.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.25917v1"
+    },
+    {
+      "title": "Horizontal Flow Matching for Single-Cell Spatiotemporal Dynamics",
+      "title_sha256": "63d46bdc1c3bc9fd8dcbfff39bf71cd312aa452922867ef9b0bec96d78c8f037",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.24764v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Equivariant Transformer predicts velocity and growth for spatiotemporal single-cell generation.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.24764v1"
+    },
+    {
+      "title": "ST-FateFlow: Continuous Gene-Spatial Reconstruction with Differentiation-Potential Learning from Time-Resolved Spatial Transcriptomics",
+      "title_sha256": "ef256ed1d036ce4a6c1c20398b98d4a8176552d0c82a2cfd7f918e728ad76fa5",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.22256v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Flow-matching neural velocity fields reconstruct gene/spatial dynamics and differentiation potential.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.22256v1"
+    },
+    {
+      "title": "CD-RCM: Generalizable Continuous-Depth Novel View Synthesis for Reflectance Confocal Microscopy",
+      "title_sha256": "c88b7f5cc2d633a4fdcb7ea69dd1bec9c6f0cd4b75b8f4d38402540f8b1f0e11",
+      "paper_urls": [
+        "https://arxiv.org/abs/2606.12635v2"
+      ],
+      "relation": "research",
+      "scope_rationale": "Feedforward neural view synthesis interpolates cellular-resolution reflectance confocal optical biopsies.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2606.12635v2"
+    },
+    {
+      "title": "TabBioMed: A Large-Scale Benchmark for Biomedical Tabular Learning",
+      "title_sha256": "cd3bfc0c0db788eb4c5ed3ddac2eb1d7157bd1caf9ca99b495a52ed22e9db2cc",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.23779v1"
+      ],
+      "relation": "supporting_resource",
+      "scope_rationale": "Biomedical tabular benchmark compares neural/tabular foundation models on single-cell and molecular omics tasks.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.23779v1"
+    },
+    {
+      "title": "Regularizing patch contributions across domain and category shifts",
+      "title_sha256": "755c9f1a9a8251abfc960545bf6c011e6ffb7082b6b221aa003d966df7f3f5d6",
+      "paper_urls": [
+        "https://arxiv.org/abs/2608.12766v2"
+      ],
+      "relation": "research",
+      "scope_rationale": "Learned soft patch weights regularize neural representations with substantive histopathology benchmarks.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2608.12766v2"
+    },
+    {
+      "title": "Expandable Modality Experts for Medical Vision-Language Learning",
+      "title_sha256": "355978d8298d837268564d918b4265e17c9a5c97a42c3819153b31771438e12e",
+      "paper_urls": [
+        "https://arxiv.org/abs/2610.29881v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Expandable Multiway Transformer includes pathology classification and retrieval with preservation checks.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2610.29881v1"
+    },
+    {
+      "title": "Co$^2$ODE: Conditionally Coarse-Grained Model Discovery for Rewiring in Biochemical Networks",
+      "title_sha256": "425e15186bfd87bd78f29cba911d1fd97f167dfaf2d773e614ba3f4b32c4dbe2",
+      "paper_urls": [
+        "https://arxiv.org/abs/2610.41634v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "VAE closure and sparse neural ODE model single-cell cancer phosphoproteomic network rewiring.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2610.41634v1"
+    },
+    {
+      "title": "CAPTOR: text-encoder-free grounding by counting caption co-occurrence over the visual words of a frozen encoder",
+      "title_sha256": "2552461d74ad8fa775ffbf31bc671223afb7a24eeb7f9ec9159c0808a06354bc",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.05599v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Frozen UNI neural patch features support text-guided segmentation on held-out breast cancer slides.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.05599v1"
+    },
+    {
+      "title": "Compiling, Validating, and Using Human Reference Atlas Cell Type Annotation Crosswalks",
+      "title_sha256": "7528cd59d38128e7bd446731c57bb8aa2b9df3273694e81e1d0b5053d62f71c6",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.05888v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Cell-type annotation crosswalk resource directly supports DeepCell and STELLAR spatial-proteomic neural annotators.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.05888v1"
+    },
+    {
+      "title": "MEDALLION: Manifold Embedding Distillation and Attributions for Low-dimensional Latent InterpretatiON",
+      "title_sha256": "26abd8c01b6a22e79b1ca3a0ccec61a4a9d584874193d4e549684aa41ff30a74",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.08767v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Neural encoder distillation and attribution interpret single-cell transcriptomic embeddings.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.08767v1"
+    },
+    {
+      "title": "Elysium: Simulation-Free Unbalanced Schrödinger Bridges",
+      "title_sha256": "316f26b3c35375dc32c7c01398c1be6cac128279c9918e7fdc620c528db6d285",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.24763v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Neural simulation-free unbalanced bridge solver reconstructs single-cell state/population dynamics.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.24763v1"
+    },
+    {
+      "title": "Automated PD-L1 Tumor Proportion Scoring with Uncertainty-Guided Triage in Non-Small Cell Lung Cancer",
+      "title_sha256": "72bfb8558b2aa623ba54d83bfb3a400109bf07e5ba6bd6573924a9bd482363b3",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.16907v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Dual-branch cell-counting network and neural ensemble uncertainty support PD-L1 pathology scoring.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.16907v1"
+    },
+    {
+      "title": "Transferable Named Sparse Features for Morphology-based Gleason Grading",
+      "title_sha256": "b60121c1afd9e294bbc79ed2236430739e9701ad45cbf873985281ec202d7fe9",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.24363v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Sparse autoencoder on pathology foundation tokens yields named Gleason features and neural grading.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.24363v1"
+    },
+    {
+      "title": "MADJEPA: Enhanced Multi-Stage Joint-Embedding Predictive Architecture for Medical Anomaly Detection",
+      "title_sha256": "18e3ad08245049c0d39a51a1b9e32b2194acffcdaf8f29c4f87e80f49c11ddef",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.25194v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Multi-stage JEPA, encoder distillation and pseudo-anomaly classification are benchmarked on histopathology.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.25194v1"
+    },
+    {
+      "title": "Predicting transcriptional interactions with GrnPFN",
+      "title_sha256": "264660838bdd05057ab83463ab381c7617464ee29729ee2b87536435310a8be6",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.14559v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Prior-data fitted neural network predicts combinatorial single-cell transcriptional responses.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.14559v1"
+    },
+    {
+      "title": "ARIPA: Agentic Reasoning for Image-based Pathology Analysis",
+      "title_sha256": "b5a8ea4728cbff68583aeb38cba40eb361f7a414fd0247ac76bbcf267f8fc4cc",
+      "paper_urls": [
+        "https://www.biorxiv.org/content/10.64898/2026.11.16.767159v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Pretrained segmentation networks and a VLM agent perform human-in-the-loop nuclear segmentation of cancer organoid H&E.",
+      "evidence_basis": "full official abstract",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.11.16.767159v1"
+    },
+    {
+      "title": "Uncertainty-Aware Deep Learning for Genomics Applications: Insights from an Empirical Study",
+      "title_sha256": "1c0f6a47269b565ac80b40ffc20a3b9ef58fe9b155f70c3c639176280e4b56d0",
+      "paper_urls": [
+        "https://arxiv.org/abs/2608.11054v2"
+      ],
+      "relation": "research",
+      "scope_rationale": "Direct comparison of Bayesian neural networks, neural ensembles and MC dropout includes single-cell expression analysis.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2608.11054v2"
+    },
+    {
+      "title": "Mitigating Spatial Blindness in Multiple Instance Learning for Whole-Slide Image Analysis",
+      "title_sha256": "5c793a38a04b3a9ec4b1d71aae790ab494d71782e1d61e094ffb7f39270b77ce",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.04337v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Staged neural composition predictor and graph residual MIL model learn WSI spatial organization.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.04337v1"
+    },
+    {
+      "title": "CytoBERT: A Foundation Model for Cytometry Data",
+      "title_sha256": "6c4233df4cc8b7a61afcafe8d6cfb26358e50dd2a39d8b097bdad27783f5ceda",
+      "paper_urls": [
+        "https://arxiv.org/abs/2608.14414v2"
+      ],
+      "relation": "research",
+      "scope_rationale": "Self-supervised foundation model is trained on 50 million cytometry cells and variable protein marker panels.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2608.14414v2"
+    },
+    {
+      "title": "DELTA: Training-free and label-free correction of pathology foundation model embeddings through paired counterfactual stain-appearance interventions",
+      "title_sha256": "3ba1ce0b35a839eab9e1dd16506a92ab3972eab4517c32def3865a778166adc6",
+      "paper_urls": [
+        "https://www.biorxiv.org/content/10.64898/2026.11.18.767727v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Counterfactual stain interventions correct pathology foundation-model embeddings across 20 neural encoders.",
+      "evidence_basis": "full official abstract",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.11.18.767727v1"
+    },
+    {
+      "title": "Deep Barycentric Regression for Optimal Transport Map Estimation and Its Statistical Optimality",
+      "title_sha256": "fb901a97a4a62654bc14ab0f399a35f210dd963d4ce4cf10cf2180cc787c6031",
+      "paper_urls": [
+        "https://arxiv.org/abs/2609.06598v2"
+      ],
+      "relation": "research",
+      "scope_rationale": "Deep neural barycentric regression includes single-cell perturbation prediction experiments.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2609.06598v2"
+    },
+    {
+      "title": "scDNM-VAE enables directly inspectable deep clustering of single-cell RNA-seq data through signed dendritic gating",
+      "title_sha256": "f14bb2133d0134934c1a0e433a6b3fe700ce9c050133b89d41eafc3ffc769ad2",
+      "paper_urls": [
+        "https://arxiv.org/abs/2608.17228v2"
+      ],
+      "relation": "research",
+      "scope_rationale": "VAE with signed dendritic neural gating performs deep clustering of single-cell RNA data.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2608.17228v2"
+    },
+    {
+      "title": "ChanSFormer: A Channel Agnostic Vision Transformer for Multi-Channel Cell Painting Images",
+      "title_sha256": "919a8b8cf3e604f56252855f74a803884585fb9fe53a501c2ea2856f90328671",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.06015v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Channel-agnostic vision Transformer learns Cell Painting representations with CHAMMI and JUMP-CP benchmarks.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.06015v1"
+    },
+    {
+      "title": "Interpretable Multiple-Instance Learning of Glomerular Pathomics and Subtype Ratios for eGFR Classification",
+      "title_sha256": "9b8f80192e89d5253804823cccc691240b60db0d7167743f88c48714e21a2ccf",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.00151v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Attention-based MIL and mean-pooled MLP aggregate renal glomerular pathomics for eGFR classification.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.00151v1"
+    },
+    {
+      "title": "Simulation-free Unbalanced Dynamic Optimal Transport with General Growth Penalty",
+      "title_sha256": "afdb880f0840a55ea0a0a170b21c51b4c3df33d6e36aa54d1a53d0285d41cf4d",
+      "paper_urls": [
+        "https://arxiv.org/abs/2609.04710v2"
+      ],
+      "relation": "research",
+      "scope_rationale": "Neural conditional-path learning and unbalanced flow matching infer single-cell population dynamics.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2609.04710v2"
+    },
+    {
+      "title": "Beyond Accuracy: Uncertainty-Guided Boundary Refinement for Reliable Biomedical Image Segmentation",
+      "title_sha256": "ad4c3af6bdc160523478424cb1d98a2273ecc9a841c5f1000cdb848fc0fe9311",
+      "paper_urls": [
+        "https://arxiv.org/abs/2609.12892v2"
+      ],
+      "relation": "research",
+      "scope_rationale": "UNet++ EfficientNet-B4 segmentation plus gated residual refinement delineate blood-smear nuclei/cytoplasm.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2609.12892v2"
+    },
+    {
+      "title": "RapidMitDet: Boosting Computational Efficiency for Mitosis Detection via Magnification Alignment",
+      "title_sha256": "624747bf447544634fc2cf5f824cf3f8f9a907a7cb6b237093575939029098a6",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.08542v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Magnification-aligned neural distillation and triplet learning accelerate mitosis detection.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.08542v1"
+    },
+    {
+      "title": "AI-based characterization of lymphoid structures and the tumor microenvironment reveals lower mature tertiary lymphoid structures, lymph-node follicles, and plasma cells after neoadjuvant therapy in lung squamous cell carcinoma",
+      "title_sha256": "b73cbf1fb49763907873b4f3624d56e16b589e9616f38f7fd5ee55ea896a3b98",
+      "paper_urls": [
+        "https://arxiv.org/abs/2611.12855v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Dedicated DL model is validated for lymphoid-structure detection and maturity grading in lung cancer H&E.",
+      "evidence_basis": "full retrieved abstract",
+      "source_url": "https://arxiv.org/abs/2611.12855v1"
+    },
+    {
+      "title": "MorphoStain: Physics-Guided Latent Diffusion and Morphological Distillation for Multiplex Stain Decomposition in Alzheimer's Neuropathology",
+      "title_sha256": "c4f8cd338c110ce406a122ca241ea6169e1a52b19686afd9940873eae6c2b63f",
+      "paper_urls": [
+        "https://www.medrxiv.org/content/10.64898/2026.11.15.26368147v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Conditional latent diffusion teacher and distilled FastStudent U-Net decompose multiplex Alzheimer neuropathology stains.",
+      "evidence_basis": "full official abstract",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.11.15.26368147v1"
+    },
+    {
+      "title": "Large language models recover archival pathology data and identify NSE as a candidate prognostic marker in Ewing sarcoma",
+      "title_sha256": "0eb9dedd7cd288681db6d7086766c9b574df4403bce382acd00bb0dfcc1d9123",
+      "paper_urls": [
+        "https://www.biorxiv.org/content/10.64898/2026.02.20.707103v3"
+      ],
+      "relation": "research",
+      "scope_rationale": "OpenAI o3 extracts IHC and histological variables from archival Ewing sarcoma pathology reports with expert-validated accuracy.",
+      "evidence_basis": "full official abstract",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.02.20.707103v3"
+    },
+    {
+      "title": "Integrating Histopathology Foundation Models and PRAME Immunohistochemistry in Melanoma Diagnosis",
+      "title_sha256": "c87d2320860217d13299b37e2c25ee11d5d8a1aceb4c94e7496575743f0c4146",
+      "paper_urls": [
+        "https://www.medrxiv.org/content/10.64898/2026.11.14.26368089v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Virchow2 and STAMP neural WSI models predict melanoma and morphological features integrated with PRAME IHC.",
+      "evidence_basis": "full official abstract",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.11.14.26368089v1"
+    },
+    {
+      "title": "Evaluating the ability of spatial transcriptomics foundation models to learn multi-scale spatial variation",
+      "title_sha256": "bd66140d97ff45a6ea89bab2c69cc5c1aa1a83981d667e3066cac6c12e508985",
+      "paper_urls": [
+        "https://www.biorxiv.org/content/10.64898/2026.08.01.742217v2"
+      ],
+      "relation": "research",
+      "scope_rationale": "Matryoshka sparse autoencoder interprets and benchmarks spatial transcriptomics foundation-model embeddings.",
+      "evidence_basis": "full official abstract",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.08.01.742217v2"
+    },
+    {
+      "title": "Integrating Unsupervised Clustering with Transformer-Based Models for De Novo Cell Population Identification",
+      "title_sha256": "94c99a919b62383f39e2c904310ed2f07ec1bf2962948b1a304991fbf31b513a",
+      "paper_urls": [
+        "https://www.biorxiv.org/content/10.64898/2026.11.12.766182v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Fine-tuned Geneformer Transformer plus probability-matrix clustering identifies colorectal cell populations.",
+      "evidence_basis": "full official abstract",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.11.12.766182v1"
+    },
+    {
+      "title": "Deep learning design and in vivo validation of Müller glia-specific cis-regulatory elements",
+      "title_sha256": "12b2cefc4e8ce816abe2fd25be65ad58f0ddf35a072214ceaecfced94ba61aaf",
+      "paper_urls": [
+        "https://www.biorxiv.org/content/10.64898/2026.07.15.738785v2"
+      ],
+      "relation": "research",
+      "scope_rationale": "Species-specific deep models trained on single-cell ATAC predict cell-type chromatin accessibility and design retinal regulatory elements.",
+      "evidence_basis": "full official abstract",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.15.738785v2"
+    },
+    {
+      "title": "A Biologically Interpretable Single-Cell Pathology Foundation Model for Molecular Decoding of H&E Images",
+      "title_sha256": "805bba1837cb11513ffd025d81e238a587d76372b16f2a9c1dfd44718946f9d0",
+      "paper_urls": [
+        "https://www.biorxiv.org/content/10.64898/2026.11.14.766416v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Loki2 single-cell pathology foundation model is trained on UniSeg cells and evaluated on molecular decoding, retrieval and in-silico protein staining.",
+      "evidence_basis": "full official abstract",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.11.14.766416v1"
+    },
+    {
+      "title": "Large language models complement established workflows for mechanistic model construction and refinement in systems biology",
+      "title_sha256": "cda5eb291588393c343281c5f3c934621fb33345da5e87562405a4b30a94f960",
+      "paper_urls": [
+        "https://www.biorxiv.org/content/10.64898/2026.11.11.766014v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "LLM multi-agent workflow constructs and refines models of cell-cell communication across five immune cell types.",
+      "evidence_basis": "full official abstract",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.11.11.766014v1"
+    },
+    {
+      "title": "scPACE: A Personalized Autoencoder for Cell Evolution in Single-Cell Transcriptomics",
+      "title_sha256": "b7a7b450cc2cf46950f38792a8cf5a31b7c2020a6d01d63618d6b4e23a6f79cd",
+      "paper_urls": [
+        "https://www.biorxiv.org/content/10.64898/2026.11.19.767173v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Hierarchical personalized variational autoencoder models cell/donor states and missing cell types.",
+      "evidence_basis": "full official abstract",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.11.19.767173v1"
+    },
+    {
+      "title": "Learning gene co-regulation across cells with Multicellular Transformer",
+      "title_sha256": "65f37ee6b7604fd808cb9452f07d24b47f2e1a84e8d1d4f42e2b929ca7d9f882",
+      "paper_urls": [
+        "https://www.biorxiv.org/content/10.64898/2026.11.14.766251v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "Multicellular Transformer foundation model learns cross-cell gene context, signaling and perturbation responses from scRNA.",
+      "evidence_basis": "full official abstract",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.11.14.766251v1"
+    },
+    {
+      "title": "Elflow: Automated Quality Control and Self-Supervised Representation Learning for High-Dimensional Cytometry",
+      "title_sha256": "1c72f4a010223555c1378ba08901b8a374ecd738dae8159b31db245350bf9f65",
+      "paper_urls": [
+        "https://www.biorxiv.org/content/10.64898/2026.11.17.767309v1"
+      ],
+      "relation": "research",
+      "scope_rationale": "VICReg self-supervised deep representations support cytometry phenotyping, leukemia diagnosis and patient aggregation.",
+      "evidence_basis": "full official abstract",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.11.17.767309v1"
+    },
+    {
+      "title": "Where single-cell foundation models help: a public-data benchmark of annotation, in silico perturbation and gene regulatory inference",
+      "title_sha256": "1efca9b30faba96598c920121ecc0285167ae72d4946aeb772a258480efc0171",
+      "paper_urls": [
+        "https://www.biorxiv.org/content/10.64898/2026.11.03.763968v2",
+        "https://www.biorxiv.org/content/10.64898/2026.11.03.763968v3"
+      ],
+      "relation": "supporting_resource",
+      "scope_rationale": "Public-data benchmark directly evaluates scGPT, Geneformer, Nicheformer, scFoundation and neural perturbation predictors.",
+      "evidence_basis": "full revised official abstract and existing DL admission evidence",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.11.03.763968v3"
     }
   ]
 }

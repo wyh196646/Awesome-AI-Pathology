@@ -24,7 +24,7 @@ See the [verified journal policy](config/journal-policy.json).
 
 ## Highlights
 
-- 📚 4,043 curated publication entries in computational pathology and tissue omics
+- 📚 4,166 curated publication entries in computational pathology and tissue omics
 - 🧠 Foundation models, WSI analysis, VLMs, agents, and spatial omics
 - 🏛️ Top conferences and journals: CVPR, ICCV, NeurIPS, ICML, ICLR, MICCAI, MIDL, Nature, Cell, Lancet, IEEE TPAMI, IEEE TMI, MedIA
 - 📊 Year-by-year and venue-by-venue paper tracking
@@ -113,13 +113,13 @@ Earlier years remain on this page.
 
 # 2026
 
-**1,726 publications** · [Browse the complete 2026 list](papers/2026.md)
+**1,849 publications** · [Browse the complete 2026 list](papers/2026.md)
 
 - [Nature](papers/2026.md#nature) (3)
 - [Nature Medicine](papers/2026.md#nature-medicine) (6)
 - [Nature Cancer](papers/2026.md#nature-cancer) (5)
 - [Nature Methods](papers/2026.md#nature-methods) (14)
-- [Nature Communications](papers/2026.md#nature-communications) (33)
+- [Nature Communications](papers/2026.md#nature-communications) (34)
 - [Nature Biomedical Engineering](papers/2026.md#nature-biomedical-engineering) (13)
 - [npj Digital Medicine](papers/2026.md#npj-digital-medicine) (27)
 - [The Lancet Digital Health](papers/2026.md#the-lancet-digital-health) (4)
@@ -181,9 +181,9 @@ Earlier years remain on this page.
 - [ECCV 2026](papers/2026.md#eccv-2026) (20)
 - [IJCAI 2026](papers/2026.md#ijcai-2026) (7)
 - [WACV 2026](papers/2026.md#wacv-2026) (13)
-- [arXiv](papers/2026.md#arxiv) (535)
-- [bioRxiv](papers/2026.md#biorxiv) (261)
-- [medRxiv](papers/2026.md#medrxiv) (78)
+- [arXiv](papers/2026.md#arxiv) (624)
+- [bioRxiv](papers/2026.md#biorxiv) (272)
+- [medRxiv](papers/2026.md#medrxiv) (80)
 - [TechRxiv](papers/2026.md#techrxiv) (1)
 - [BMVC 2026](papers/2026.md#bmvc-2026) (1)
 - [ISBI 2026](papers/2026.md#isbi-2026) (11)
@@ -193,17 +193,18 @@ Earlier years remain on this page.
 - [CBMS 2026](papers/2026.md#cbms-2026) (1)
 - [ICETCI 2026](papers/2026.md#icetci-2026) (1)
 - [ICIP 2026](papers/2026.md#icip-2026) (1)
-- [Research Square](papers/2026.md#research-square) (43)
-- [Preprints.org](papers/2026.md#preprintsorg) (10)
+- [Research Square](papers/2026.md#research-square) (60)
+- [Preprints.org](papers/2026.md#preprintsorg) (12)
 - [ScienceOpen Preprints](papers/2026.md#scienceopen-preprints) (2)
 - [SSRN](papers/2026.md#ssrn) (5)
 - [Gastroenterology](papers/2026.md#gastroenterology) (1)
+- [EMNLP Findings 2026](papers/2026.md#emnlp-findings-2026) (1)
 
 ---
 
 # 2025
 
-**1,027 publications** · [Browse the complete 2025 list](papers/2025.md)
+**1,026 publications** · [Browse the complete 2025 list](papers/2025.md)
 
 - [Nature](papers/2025.md#nature) (4)
 - [Nature Medicine](papers/2025.md#nature-medicine) (3)
@@ -272,7 +273,7 @@ Earlier years remain on this page.
 - [EMNLP 2025](papers/2025.md#emnlp-2025) (2)
 - [MIDL 2025](papers/2025.md#midl-2025) (13)
 - [ML4H 2025](papers/2025.md#ml4h-2025) (3)
-- [arXiv](papers/2025.md#arxiv) (344)
+- [arXiv](papers/2025.md#arxiv) (343)
 - [bioRxiv](papers/2025.md#biorxiv) (14)
 - [medRxiv](papers/2025.md#medrxiv) (12)
 - [CIKM 2025](papers/2025.md#cikm-2025) (1)
@@ -293,7 +294,7 @@ Earlier years remain on this page.
 
 # 2024
 
-**731 publications** · [Browse the complete 2024 list](papers/2024.md)
+**732 publications** · [Browse the complete 2024 list](papers/2024.md)
 
 - [Nature](papers/2024.md#nature) (3)
 - [Nature Medicine](papers/2024.md#nature-medicine) (10)
@@ -371,7 +372,7 @@ Earlier years remain on this page.
 - [ICME 2024](papers/2024.md#icme-2024) (1)
 - [ICBME 2024](papers/2024.md#icbme-2024) (1)
 - [medRxiv](papers/2024.md#medrxiv) (7)
-- [Research Square](papers/2024.md#research-square) (3)
+- [Research Square](papers/2024.md#research-square) (4)
 
 ---
 

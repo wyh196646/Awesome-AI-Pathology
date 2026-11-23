@@ -31,6 +31,8 @@ def validate_scope(root=ROOT):
                 raise ValueError(f"Repeated evidence title in {path}: {entry['title']}")
             evidence[key] = entry
     exclusions = json.loads((root / "data/excluded-method-identities.json").read_text(encoding="utf-8"))
+    withdrawal_path = root / "data/withdrawn-preprints.json"
+    withdrawals = json.loads(withdrawal_path.read_text(encoding="utf-8")) if withdrawal_path.exists() else None
     seen = set()
     errors = []
     active_count = 0
@@ -46,6 +48,8 @@ def validate_scope(root=ROOT):
         record = {"title": title, "id": urls[0], "linked_publication_dois": urls[1:]}
         if matches_exclusion_identities(record, exclusions):
             errors.append(f"{path.relative_to(root)}:{number}: prior scope removal/pending identity")
+        if withdrawals and matches_exclusion_identities(record, withdrawals):
+            errors.append(f"{path.relative_to(root)}:{number}: known withdrawn preprint identity")
         entry = evidence.get(key)
         if entry is None:
             errors.append(f"{path.relative_to(root)}:{number}: missing deep-learning admission evidence")

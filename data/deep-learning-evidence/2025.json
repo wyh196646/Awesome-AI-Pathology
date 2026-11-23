@@ -13128,18 +13128,6 @@
       "source_url": "https://arxiv.org/pdf/2506.07023"
     },
     {
-      "title": "A Cytology Dataset for Early Detection of Oral Squamous Cell Carcinoma",
-      "title_sha256": "6aa24062bde3bb0f352311978cd36e016f9ec0e608b4674777889c4ccce0f223",
-      "paper_urls": [
-        "https://arxiv.org/abs/2506.09661v1"
-      ],
-      "relation": "supporting_resource",
-      "method_terms": [],
-      "scope_rationale": "Reviewed task, named model family and available abstract/method descriptions establish substantive neural representation/prediction/generation, evaluation of deep models, or a directly supporting resource. Frozen neural features, learned MIL aggregation and model-focused statistical analysis qualify.",
-      "evidence_basis": "item_level_context_review",
-      "source_url": "https://arxiv.org/pdf/2506.09661"
-    },
-    {
       "title": "AI Assisted Cervical Cancer Screening for Cytology Samples in Developing Countries",
       "title_sha256": "174f5bf944074a2cc707236c9d45e8035f62de54450ec6738514bfe1e1fe3039",
       "paper_urls": [
@@ -13436,15 +13424,13 @@
       "title": "3D-Guided Scalable Flow Matching for Generating Volumetric Tissue Spatial Transcriptomics from Serial Histology",
       "title_sha256": "cdc3cf522c7baa0ef1fefa017091955768334e52e30b5d09787710ca7d98944f",
       "paper_urls": [
-        "https://arxiv.org/abs/2511.14613v2"
+        "https://arxiv.org/abs/2511.14613v2",
+        "https://arxiv.org/abs/2511.14613v3"
       ],
       "relation": "research",
-      "method_terms": [
-        "Flow Matching"
-      ],
-      "scope_rationale": "Title explicitly identifies a deep-learning method or a study directly about such methods.",
-      "evidence_basis": "explicit_method_in_title_and_metadata",
-      "source_url": "http://arxiv.org/abs/2511.14613v3"
+      "scope_rationale": "ControlNet-conditioned neural flow matching with ZINB prior reconstructs volumetric transcriptomics from serial histology.",
+      "evidence_basis": "full revised official abstract and existing DL admission evidence",
+      "source_url": "https://arxiv.org/abs/2511.14613v3"
     },
     {
       "title": "PathAgent: Toward Interpretable Analysis of Whole-slide Pathology Images via Large Language Model-based Agentic Reasoning",

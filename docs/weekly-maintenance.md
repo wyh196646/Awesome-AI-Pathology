@@ -76,6 +76,13 @@ index-refresh and unit-test checks before each publication. It validates evidenc
 coverage and publication identity, and detects reintroduced removed/pending
 identities. Semantic admission still depends on scientific review of the sources.
 
+Keep confirmed withdrawals in `data/withdrawn-preprints.json` with the original
+notice and archived entry. Both collectors flag matching identities across titles
+and versions, and publication validation rejects their return to the active list.
+Retain flagged candidates for status review. Readmission requires an explicit
+primary-source restoration and a documented update of the active registry keys,
+while preserving the historical withdrawal evidence.
+
 ## Additional preprint platforms
 
 Keep the arXiv, bioRxiv and medRxiv collectors and run
@@ -194,6 +201,13 @@ this checkout available. See the [official scheduling documentation](https://lea
    [bioRxiv/medRxiv date-interval API](https://api.biorxiv.org/), paginating every
    result in the requested interval. It records errors and exits with a nonzero
    status if any source failed. It never edits papers or advances checkpoints.
+   A changed Rxiv pagination total makes interval completeness unknown. Refresh
+   the affected interval and preserve partial candidates; do not mark that source
+   complete or advance its successful checkpoint merely because a final page exists.
+   The packet retains candidates from validated pages even when a later request
+   fails. A total-change marker makes the next attempt bypass all cached pages
+   for that source/interval/category. Use `--refresh-cache` when deliberately
+   revisiting an old explicit cache, including retries without a detected mismatch.
    The arXiv queries are split into short batches. Audit the success and final
    page of every batch; failure of one batch does not mean zero matching papers.
    If the API is unavailable, use fresh official arXiv search pages and official

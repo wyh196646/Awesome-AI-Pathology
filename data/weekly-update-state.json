@@ -12,7 +12,7 @@
       "last_successful_until": "2026-11-01"
     }
   },
-  "last_audit": "docs/updates/2026-11-16.json",
+  "last_audit": "docs/updates/2026-11-23.json",
   "pending_publication_checks": [
     {
       "arxiv_id": "2509.23097",
@@ -122,17 +122,10 @@
     },
     {
       "source": "europepmc",
-      "id": "10.21203/rs.3.rs-9575788/v1",
-      "title": "Visual embedding retrieval mitigates the perception–cognition gap of vision-language models in aquatic pathology",
-      "reason": "Fish disease-image benchmark. Primary image modality still requires confirmation to distinguish tissue/cell microscopy from gross animal photographs.",
-      "last_checked": "2026-11-16"
-    },
-    {
-      "source": "europepmc",
       "id": "10.21203/rs.3.rs-11313159/v1",
       "title": "SCMG: A Multi-Omics and Stage-Resolved Single-Cell Framework for Cancer Driver Gene Prioritization",
-      "reason": "Possible retitled formal counterpart requires primary-source reconciliation.",
-      "last_checked": "2026-11-09"
+      "reason": "Specific neural method or deep-model benchmark role needs primary-method verification.",
+      "last_checked": "2026-11-23"
     },
     {
       "source": "europepmc",
@@ -261,13 +254,6 @@
       "last_checked": "2026-11-16"
     },
     {
-      "id": "10.21203/rs.3.rs-11275186/v1",
-      "source": "europepmc",
-      "title": "A physics-guided graph neural framework for real-time reconstruction of mechanical microenvironments in engineered cartilage scaffolds",
-      "reason": "Scaffold finite-element surrogate model reconstructs mechanical fields. Direct tissue/cell analysis applicability beyond engineered-material simulation requires confirmation.",
-      "last_checked": "2026-11-16"
-    },
-    {
       "id": "10.20944/preprints202611.0229.v1",
       "source": "europepmc",
       "title": "Development of a Modular Computational Virtual-Cell Framework Integrating Drug–Target Interactions, Intracellular Signaling, Energy Metabolism, and Vesicular Trafficking",
@@ -287,6 +273,153 @@
       "title": "Dynamic regulation of single-cell contractile heterogeneity in the human trabecular meshwork",
       "reason": "Contractility wet-lab assay; abstract does not establish computational image-analysis or molecular single-cell method contribution. Hold for full-text scope review.",
       "last_checked": "2026-11-16"
+    },
+    {
+      "id": "10.21203/rs.3.rs-6167948/v1",
+      "source": "europepmc",
+      "title": "XpressO: An explanatory deep learning pipeline for the prediction and visualization of gene expression heterogeneity in breast tumors",
+      "reason": "Possible retitled formal counterpart requires primary-source reconciliation.",
+      "last_checked": "2026-11-23"
+    },
+    {
+      "id": "10.37044/osf.io/9ej32",
+      "source": "europepmc",
+      "title": "Bioconductor Spatial Data and Image Analysis Hackathon",
+      "reason": "Scope review remains unresolved.",
+      "last_checked": "2026-11-23"
+    },
+    {
+      "id": "10.37044/osf.io/9ej32_v1",
+      "source": "europepmc",
+      "title": "Bioconductor Spatial Data and Image Analysis Hackathon",
+      "reason": "Scope review remains unresolved.",
+      "last_checked": "2026-11-23"
+    },
+    {
+      "id": "10.20944/preprints202506.0882.v1",
+      "source": "europepmc",
+      "title": "Artificial Intelligence in Thyroid Surgery: A new Frontier in Precision Endocrine Care",
+      "reason": "Scope review remains unresolved.",
+      "last_checked": "2026-11-23"
+    },
+    {
+      "id": "10.21203/rs.3.rs-11356792/v1",
+      "source": "europepmc",
+      "title": "XevaDB enables AI-driven longitudinal pharmacogenomic modeling in patient-derived xenografts",
+      "reason": "Possible retitled formal counterpart requires primary-source reconciliation.",
+      "last_checked": "2026-11-23"
+    },
+    {
+      "id": "10.21203/rs.3.rs-11119348/v1",
+      "source": "europepmc",
+      "title": "Reference-cell design shapes model evaluation in single-cell perturbation prediction",
+      "reason": "Specific neural method or deep-model benchmark role needs primary-method verification.",
+      "last_checked": "2026-11-23"
+    },
+    {
+      "id": "2611.05925",
+      "source": "arxiv",
+      "title": "3D Banff Glomerulitis Scoring for Kidney Transplant Pathology: Feasibility Study for Volumetric Quantification",
+      "reason": "Need full methods to establish a substantive neural role in serial-section Banff scoring.",
+      "last_checked": "2026-11-23"
+    },
+    {
+      "id": "2611.07935",
+      "source": "arxiv",
+      "title": "Towards Scalable Diagnostic-Driven Whole-Slide Image Retrieval for Pathology Archives",
+      "reason": "Neural architecture/backbone for slide retrieval needs full-method verification.",
+      "last_checked": "2026-11-23"
+    },
+    {
+      "id": "2611.09104",
+      "source": "arxiv",
+      "title": "Optical microscopy for pathological imaging: past, present, and future",
+      "reason": "Need assess whether the optical-microscopy review has substantive DL scope rather than incidental AI mention.",
+      "last_checked": "2026-11-23"
+    },
+    {
+      "id": "2611.10207",
+      "source": "arxiv",
+      "title": "Synaptic Dendritic Neuron Model (scDNM) for Cell Type Classification in Single-Cell RNA Sequencing Data",
+      "reason": "Dendritic neuron model is not established as deep learning by this abstract; inspect architecture.",
+      "last_checked": "2026-11-23"
+    },
+    {
+      "id": "2611.11745",
+      "source": "arxiv",
+      "title": "Reproducible quantum clustering for single-cell transcriptome atlases",
+      "reason": "Training-free quantum clustering with scVI comparisons needs adjudication of substantive deep-learning relation.",
+      "last_checked": "2026-11-23"
+    },
+    {
+      "id": "2611.12686",
+      "source": "arxiv",
+      "title": "Differentiable Inverse Rendering Recovers Intrinsic Properties from Intravascular Optical Coherence Tomography",
+      "reason": "Physics-based gradient optimization alone is not deep learning; retain pending for architecture check.",
+      "last_checked": "2026-11-23"
+    },
+    {
+      "id": "2610.36379",
+      "source": "arxiv",
+      "title": "Evaluating Federated Vision-Language and Vision-Only Models for Privacy-Aware Breast Cancer Imaging",
+      "reason": "Need establish whether the two breast imaging datasets include histopathology rather than radiology alone.",
+      "last_checked": "2026-11-23"
+    },
+    {
+      "id": "2611.03056",
+      "source": "arxiv",
+      "title": "Coupling cellular trajectories and RNA kinetics on continuous expression manifolds with ManifoldVelo",
+      "reason": "Continuous trajectory learning needs explicit neural-architecture evidence.",
+      "last_checked": "2026-11-23"
+    },
+    {
+      "id": "2611.08853",
+      "source": "arxiv",
+      "title": "Synchronized Optimal Transport Reconstructs Coupled Transcriptomic and Chromatin Dynamics",
+      "reason": "Optimal-transport trajectory reconstruction needs explicit neural-architecture evidence.",
+      "last_checked": "2026-11-23"
+    },
+    {
+      "id": "2611.17302",
+      "source": "arxiv",
+      "title": "FLEX-LBP: Learning Local Binary Patterns with Exact Binary Inference for Texture Classification",
+      "reason": "Trainable binary descriptor is shallow; compare scope of neural benchmark contribution before inclusion.",
+      "last_checked": "2026-11-23"
+    },
+    {
+      "id": "2611.18793",
+      "source": "arxiv",
+      "title": "Multimodal Fusion: A Review of Breast Cancer Advanced and Traditional Modalities",
+      "reason": "Need confirm substantive DL histopathology/multi-omics content within broad radiology fusion review.",
+      "last_checked": "2026-11-23"
+    },
+    {
+      "id": "2611.22567",
+      "source": "arxiv",
+      "title": "Nonreciprocal Hopfield nets for angiogenesis",
+      "reason": "Fitted nonreciprocal Hopfield dynamics may be a mechanistic shallow network rather than deep learning.",
+      "last_checked": "2026-11-23"
+    },
+    {
+      "id": "2611.24994",
+      "source": "arxiv",
+      "title": "What the model knows but does not say: monitoring medical LLMs through verbalized thoughts",
+      "reason": "Clinical attack tasks require confirmation of pathology-specific input/contribution.",
+      "last_checked": "2026-11-23"
+    },
+    {
+      "id": "10.64898/2026.04.29.721704",
+      "source": "biorxiv",
+      "title": "Imageomics quantifies epidermal aging of sun-protected human skin and its rejuvenation by xenografting",
+      "reason": "Histological age model architecture is not specified in abstract; need methods to establish substantive DL.",
+      "last_checked": "2026-11-23"
+    },
+    {
+      "id": "10.64898/2026.05.18.26353541",
+      "source": "medrxiv",
+      "title": "Privacy-Preserving Large Language Model Deployment for Oncology Registry Abstraction: Structure-Aware Evaluation in a Real-World Clinical Setting",
+      "reason": "Need full-text confirmation of substantive pathology workflow/report contribution within general oncology-note abstraction.",
+      "last_checked": "2026-11-23"
     }
   ],
   "pending_acceptance_checks": [
@@ -333,19 +466,28 @@
   ],
   "pending_recall_review": {
     "scope_revision": "2026-11-02",
-    "retrieval_cutoff_utc": "2026-11-15",
-    "pending_item_level_review": 1803,
+    "retrieval_cutoff_utc": "2026-11-22",
+    "pending_item_level_review": 2838,
     "files": [
-      "docs/updates/2026-11-16-pending-01.json",
-      "docs/updates/2026-11-16-pending-02.json",
-      "docs/updates/2026-11-16-pending-03.json",
-      "docs/updates/2026-11-16-pending-04.json",
-      "docs/updates/2026-11-16-pending-05.json"
+      "docs/updates/2026-11-23-pending-01.json",
+      "docs/updates/2026-11-23-pending-02.json",
+      "docs/updates/2026-11-23-pending-03.json",
+      "docs/updates/2026-11-23-pending-04.json",
+      "docs/updates/2026-11-23-pending-05.json",
+      "docs/updates/2026-11-23-pending-06.json",
+      "docs/updates/2026-11-23-pending-07.json",
+      "docs/updates/2026-11-23-pending-08.json",
+      "docs/updates/2026-11-23-pending-09.json",
+      "docs/updates/2026-11-23-pending-10.json",
+      "docs/updates/2026-11-23-pending-11.json",
+      "docs/updates/2026-11-23-pending-12.json",
+      "docs/updates/2026-11-23-pending-13.json"
     ],
-    "arxiv_revision_coverage": "pending_expanded_vocabulary_recovery",
+    "arxiv_revision_coverage": "pending_HTTP429_and_official_index_recall_gaps",
     "checkpoint_rule": "Recover pending records and complete the relevant source interval review before advancing that source checkpoint.",
-    "latest_batch": "docs/updates/2026-11-16.json",
-    "pending_total": 1817
+    "latest_batch": "docs/updates/2026-11-23.json",
+    "pending_total": 3076,
+    "biorxiv_interval_coverage": "pending_pagination_total_drift_refresh"
   },
   "pending_conference_checks": [
     {
@@ -369,24 +511,24 @@
     "europepmc_preprints": {
       "last_successful_until": null,
       "bootstrap_since": "2023-01-01",
-      "last_retrieval_until": "2026-11-15",
+      "last_retrieval_until": "2026-11-22",
       "retrieval_status": "complete",
       "review_status": "partial",
-      "pending_index_candidates": 25289,
+      "pending_index_candidates": 25548,
       "pending_files": [
-        "docs/updates/2026-11-16-additional-queue-01.json",
-        "docs/updates/2026-11-16-additional-queue-02.json",
-        "docs/updates/2026-11-16-additional-queue-03.json",
-        "docs/updates/2026-11-16-additional-queue-04.json",
-        "docs/updates/2026-11-16-additional-queue-05.json",
-        "docs/updates/2026-11-16-additional-queue-06.json"
+        "docs/updates/2026-11-23-additional-queue-01.json",
+        "docs/updates/2026-11-23-additional-queue-02.json",
+        "docs/updates/2026-11-23-additional-queue-03.json",
+        "docs/updates/2026-11-23-additional-queue-04.json",
+        "docs/updates/2026-11-23-additional-queue-05.json",
+        "docs/updates/2026-11-23-additional-queue-06.json"
       ],
-      "pending_external_records": "docs/updates/2026-11-16-external-pending.json",
-      "official_domain_leads": "docs/updates/2026-11-16-queries.json",
+      "pending_external_records": "docs/updates/2026-11-23-external-pending.json",
+      "official_domain_leads": "docs/updates/2026-11-23-queries.json",
       "checkpoint_rule": "Finish source review and publish before advancing. Retrieve recent updates independently while preserving the historical queue.",
       "pending_manifest_format": "consolidated_snapshot",
-      "pending_snapshot_date": "2026-11-16",
-      "latest_delta": "docs/updates/2026-11-16-additional-pending.json"
+      "pending_snapshot_date": "2026-11-23",
+      "latest_delta": "docs/updates/2026-11-23-additional-pending.json"
     }
   }
 }

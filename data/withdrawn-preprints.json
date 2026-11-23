@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "updated": "2026-11-23",
+  "purpose": "Prevent confirmed withdrawn manuscripts returning as new admissions. Candidate flags retain visibility; primary-source restoration requires explicit registry reconciliation.",
+  "identifiers": [
+    "arxiv:2506.09661",
+    "doi:10.48550/arxiv.2506.09661"
+  ],
+  "title_sha256": [
+    "6aa24062bde3bb0f352311978cd36e016f9ec0e608b4674777889c4ccce0f223"
+  ],
+  "records": [
+    {
+      "id": "2506.09661",
+      "title": "A Cytology Dataset for Early Detection of Oral Squamous Cell Carcinoma",
+      "confirmed_withdrawn_version": 2,
+      "withdrawn_on": "2026-11-06",
+      "verified_on": "2026-11-23",
+      "source_url": "https://arxiv.org/abs/2506.09661",
+      "archive": "docs/updates/2026-11-23-publication-evidence.json",
+      "reason": "Official v2 withdrawal notice; authors report script bugs causing materially different metrics."
+    }
+  ]
+}

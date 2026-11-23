@@ -1,0 +1,94 @@
+{
+  "date": "2026-11-23",
+  "cutoff_utc": "2026-11-22",
+  "baseline_commit": "b27d70f48c41749f3026bdc5a8841597916f56e6",
+  "baseline_entries": 4043,
+  "additions": 124,
+  "preprint_additions": 122,
+  "formal_journal_additions": 1,
+  "formal_conference_additions": 1,
+  "formal_migrations": 0,
+  "revision_updates": 9,
+  "corrections": 9,
+  "withdrawn_removals": 1,
+  "total_entries": 4166,
+  "reviewed_records": 262,
+  "primary_identity_checks": 146,
+  "review_actions": {
+    "add_preprint": 122,
+    "exclude_topic": 66,
+    "exclude_journal_policy": 8,
+    "add_formal": 1,
+    "pending_identity": 2,
+    "pending_scope": 6,
+    "duplicate_existing": 11,
+    "exclude_non_DL": 3,
+    "pending": 13,
+    "add_conference": 1,
+    "exclude_non_dl": 25,
+    "pending_method": 1,
+    "exclude_withdrawn": 3
+  },
+  "by_year": {
+    "2026": 123,
+    "2024": 1
+  },
+  "by_venue": {
+    "Research Square": 18,
+    "Preprints.org": 2,
+    "Nature Communications": 1,
+    "arXiv": 89,
+    "EMNLP Findings 2026": 1,
+    "bioRxiv": 11,
+    "medRxiv": 2
+  },
+  "core_pending": 3076,
+  "additional_index_pending": 25548,
+  "additional_new_unreviewed_ids": 300,
+  "additional_resolved_from_baseline": 41,
+  "checkpoints_advanced": false,
+  "checkpoint_reason": "arXiv updated-date API fails, bioRxiv pagination drifts, and current/historical item review remains partial. All original-source successful checkpoints stay2026-11-01; additional successful checkpoint staysnull.",
+  "retrieval_cursor_advanced": {
+    "europepmc_preprints": "2026-11-22"
+  },
+  "source_status": {
+    "arxiv": "partial_fallback_HTTP429_and_index_gaps",
+    "biorxiv": "partial_pagination_total_drift",
+    "medrxiv": "complete_retrieval_partial_review",
+    "europepmc_preprints": "complete_retrieval_partial_review"
+  },
+  "rxiv_page_count": 348,
+  "pathology_category_candidates": 66,
+  "validation": {
+    "unit_tests": 46,
+    "journal_policy": "passed",
+    "deep_learning_evidence": "passed",
+    "index_refresh": "passed",
+    "homepage_dated_logs": false,
+    "original_entries_preserved": 4042,
+    "original_entries_archived": 1,
+    "auxiliary_links_preserved": true,
+    "new_duplicate_titles": 0,
+    "max_annual_page_bytes": 346111,
+    "successful_checkpoints_unchanged": true
+  },
+  "candidate_local_archive": "C:\\Users\\Microgle\\Documents\\Codex\\2026-10-03\\https-github-com-wyh196646-awesome-ai\\work\\literature_update\\weekly-2026-11-23",
+  "decision_file": "docs/updates/2026-11-23-decisions.json",
+  "query_file": "docs/updates/2026-11-23-queries.json",
+  "rxiv_version_rows": {
+    "page_rows": {
+      "biorxiv": 8179,
+      "medrxiv": 2221
+    },
+    "unique_doi_versions": {
+      "biorxiv": 8177,
+      "medrxiv": 2221
+    }
+  },
+  "review_followup": {
+    "partial_candidates": "Post-review collector rerun preserves315bioRxiv candidates in failed source output, while medRxiv retains209candidates. Failure and checkpoints remain explicit.",
+    "cache_retry": "--refresh-cache bypasses old API bodies; a per-interval/category marker automatically refreshes the next retry after total drift. Stable completion clears that marker.",
+    "withdrawal_registry": "data/withdrawn-preprints.json flags both collectors and blocks active reintroduction in publication validation.",
+    "arxiv_dates": "Original v1 histories directly reconfirmed for2611.00226,2611.00151,2611.05410; October dates retained as stated by arXiv rather than inferred from identifier month."
+  }
+}

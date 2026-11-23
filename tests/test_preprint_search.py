@@ -1,5 +1,7 @@
 """Guard against silent omissions, duplicate revisions and lexical false positives."""
 import importlib.util
+import hashlib
+import io
 import json
 import tempfile
 import unittest
@@ -124,6 +126,84 @@ class PreprintSearchTests(unittest.TestCase):
         with patch.object(module, "request", return_value=json.dumps(response).encode()):
             with self.assertRaises(ValueError):
                 module.rxiv_records("biorxiv", "2026-10-01", "2026-10-04", Path("unused"), [])
+
+    def test_rxiv_refuses_changed_pagination_total(self):
+        item = {"doi": "10.1101/example", "title": "Atlas", "date": "2026-10-01", "version": 1}
+        responses = [
+            {"messages": [{"status": "ok", "total": 2}], "collection": [item]},
+            {"messages": [{"status": "ok", "total": 3}], "collection": [item]},
+        ]
+        with tempfile.TemporaryDirectory() as directory:
+            with patch.object(module, "request", side_effect=[json.dumps(x).encode() for x in responses]):
+                with self.assertRaisesRegex(ValueError, "pagination total changed"):
+                    module.rxiv_records("biorxiv", "2026-10-01", "2026-10-04", Path(directory), [])
+
+    def test_rxiv_partial_records_survive_and_retry_refreshes_stale_interval(self):
+        def item(name):
+            return {"doi": "10.1101/" + name, "title": "Human histology " + name,
+                    "date": "2026-10-01", "version": 1}
+        def page(total, names):
+            return json.dumps({"messages": [{"status": "ok", "total": total}],
+                               "collection": [item(n) for n in names]}).encode()
+        with tempfile.TemporaryDirectory() as directory:
+            cache = Path(directory)
+            partial = {}
+            with patch.object(module, "request", side_effect=[page(2, ["a"]), page(3, ["b"])]):
+                with self.assertRaisesRegex(ValueError, "pagination total changed"):
+                    module.rxiv_records("biorxiv", "2026-10-01", "2026-10-04", cache, [],
+                                         partial_records=partial)
+            self.assertEqual(set(partial), {"10.1101/a", "10.1101/b"})
+            self.assertEqual(len(list(cache.glob("*.required"))), 1)
+            with patch.object(module, "request", side_effect=[page(3, ["a", "b"]), page(3, ["c"])]) as request:
+                rows = module.rxiv_records("biorxiv", "2026-10-01", "2026-10-04", cache, [])
+            self.assertEqual(len(rows), 3)
+            self.assertTrue(all(call.kwargs["refresh"] for call in request.call_args_list))
+            self.assertEqual(list(cache.glob("*.required")), [])
+
+    def test_explicit_refresh_bypasses_cached_response(self):
+        with tempfile.TemporaryDirectory() as directory:
+            cache = Path(directory)
+            url = "https://api.biorxiv.org/test"
+            path = cache / (hashlib.sha256(url.encode()).hexdigest() + ".response")
+            path.write_bytes(b"old")
+            with patch.object(module.urllib.request, "urlopen", return_value=io.BytesIO(b"new")) as fetch:
+                with patch.object(module.time, "sleep"):
+                    self.assertEqual(module.request(url, cache, "biorxiv"), b"old")
+                    fetch.assert_not_called()
+                    self.assertEqual(module.request(url, cache, "biorxiv", refresh=True), b"new")
+            self.assertEqual(path.read_bytes(), b"new")
+
+    def test_shrinking_total_also_marks_the_interval_for_refresh(self):
+        item = {"doi": "10.1101/example", "title": "Atlas", "date": "2026-10-01", "version": 1}
+        responses = [
+            {"messages": [{"status": "ok", "total": 3}], "collection": [item, item]},
+            {"messages": [{"status": "ok", "total": 1}], "collection": [item]},
+        ]
+        with tempfile.TemporaryDirectory() as directory:
+            cache = Path(directory)
+            with patch.object(module, "request", side_effect=[json.dumps(x).encode() for x in responses]):
+                with self.assertRaises(ValueError):
+                    module.rxiv_records("biorxiv", "2026-10-01", "2026-10-04", cache, [])
+            self.assertEqual(len(list(cache.glob("*.required"))), 1)
+
+    def test_failed_main_packet_keeps_partial_candidates(self):
+        def interrupted(source, since, until, cache, log, category, refresh, partial):
+            partial["10.1101/partial"] = {"id": "10.1101/partial", "source": source,
+                "title": "Human histopathology representation learning", "abstract": "Deep learning on tissue images.",
+                "version": 1, "paper_url": "https://www.biorxiv.org/content/10.1101/partialv1"}
+            raise ValueError("pagination total changed")
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory) / "candidates.json"
+            args = ["search_preprints.py", "--sources", "biorxiv", "--since", "2026-10-01",
+                    "--until", "2026-10-04", "--cache-dir", str(Path(directory) / "cache"),
+                    "--output", str(output)]
+            with patch.object(module.sys, "argv", args), patch.object(module, "existing_entries", return_value=[]):
+                with patch.object(module, "rxiv_records", side_effect=interrupted):
+                    self.assertEqual(module.main(), 1)
+            packet = json.loads(output.read_text())
+            self.assertEqual(packet["source_status"]["biorxiv"]["status"], "failed")
+            self.assertTrue(packet["source_status"]["biorxiv"]["partial_candidates_preserved"])
+            self.assertEqual([r["id"] for r in packet["candidates"]], ["10.1101/partial"])
 
     def test_arxiv_revised_old_paper_retains_first_posted_year(self):
         feed = b'''<feed xmlns="http://www.w3.org/2005/Atom"

@@ -69,6 +69,21 @@ class DeepLearningScopeTests(unittest.TestCase):
         record["linked_publication_dois"] = []
         self.assertIsNone(search.method_scope_exclusion(record, registry))
 
+    def test_withdrawn_identity_cannot_return_as_a_renamed_revision(self):
+        registry = {"title_sha256": [], "identifiers": ["arxiv:2610.12345"]}
+        self.assertIsNotNone(search.withdrawal_status_exclusion(
+            {"id": "2610.12345v3", "title": "A renamed model"}, registry))
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            self.make_collection(root)
+            (root / "data/withdrawn-preprints.json").write_text(json.dumps(registry))
+            with self.assertRaisesRegex(ValueError, "known withdrawn preprint identity"):
+                scope.validate_scope(root)
+        registry["identifiers"].append("doi:10.48550/arxiv.2610.12345")
+        self.assertIsNotNone(search.withdrawal_status_exclusion(
+            {"id": "10.21203/rs.3.rs-12345/v1", "title": "Another title",
+             "linked_publication_dois": ["10.48550/arxiv.2610.12345"]}, registry))
+
 
 if __name__ == "__main__":
     unittest.main()
