@@ -192,6 +192,13 @@ def method_scope_exclusion(record, exclusions):
     return None
 
 
+def withdrawal_status_exclusion(record, exclusions):
+    """Keep a prior withdrawal visible across titles, platforms and revisions."""
+    if exclusions and matches_exclusion_identities(record, exclusions):
+        return "Previously confirmed withdrawn preprint; verify an explicit primary-source restoration before admission"
+    return None
+
+
 def request(url, cache, source, allow_html=False, validator=None, refresh=False):
     destination = cache / (hashlib.sha256(url.encode()).hexdigest() + ".response")
     if destination.exists() and not refresh:
@@ -241,8 +248,8 @@ def arxiv_queries(config):
             yield group, batch, "(" + " OR ".join(clauses) + ")"
 
 
-def arxiv_records(config, since, until, cache, log):
-    records = {}
+def arxiv_records(config, since, until, cache, log, refresh_cache=False, partial_records=None):
+    records = {} if partial_records is None else partial_records
     page_size = config["arxiv_page_size"]
     for group, batch, query in arxiv_queries(config):
         complete = False
@@ -250,7 +257,7 @@ def arxiv_records(config, since, until, cache, log):
             params = {"search_query": query, "start": page * page_size, "max_results": page_size,
                       "sortBy": "lastUpdatedDate", "sortOrder": "descending"}
             url = "https://export.arxiv.org/api/query?" + urllib.parse.urlencode(params)
-            feed = ET.fromstring(request(url, cache, "arxiv"))
+            feed = ET.fromstring(request(url, cache, "arxiv", refresh=refresh_cache))
             total_node = feed.find("o:totalResults", NS)
             if total_node is None:
                 raise ValueError("arXiv response missing totalResults")
@@ -295,15 +302,19 @@ def arxiv_records(config, since, until, cache, log):
     return list(records.values())
 
 
-def rxiv_records(source, since, until, cache, log, category=None):
-    records = {}
+def rxiv_records(source, since, until, cache, log, category=None, refresh_cache=False,
+                 partial_records=None):
+    records = {} if partial_records is None else partial_records
     cursor = 0
     expected_total = None
+    interval_key = json.dumps([source, since, until, category]).encode()
+    refresh_marker = cache / ("rxiv-refresh-" + hashlib.sha256(interval_key).hexdigest() + ".required")
+    refresh_cache = refresh_cache or refresh_marker.exists()
     while True:
         url = f"https://api.biorxiv.org/details/{source}/{since}/{until}/{cursor}/json"
         if category:
             url += "?" + urllib.parse.urlencode({"category": category})
-        data = json.loads(request(url, cache, source))
+        data = json.loads(request(url, cache, source, refresh=refresh_cache))
         messages = data.get("messages") or []
         if not messages:
             raise ValueError(f"{source}: missing API status")
@@ -315,16 +326,19 @@ def rxiv_records(source, since, until, cache, log, category=None):
         if status == "ok" and "total" not in message:
             raise ValueError(f"{source}: missing total; interval completeness is unknown")
         total = int(message.get("total", 0))
-        if expected_total is not None and total != expected_total:
-            raise ValueError(f"{source}: pagination total changed from {expected_total} to {total}; "
-                             "interval completeness is unknown, refresh the retrieval")
-        expected_total = total
+        total_changed = expected_total is not None and total != expected_total
+        if expected_total is None:
+            expected_total = total
+        if total_changed:
+            refresh_marker.write_text(json.dumps({"expected_total": expected_total,
+                                                  "observed_total": total}), encoding="utf-8")
         if total < 0 or cursor + len(collection) > total:
             raise ValueError(f"{source}: inconsistent pagination total")
         if not collection and cursor < total:
             raise ValueError(f"{source}: empty page before advertised total")
         log.append({"source": source, "url": url, "cursor": cursor, "total": total,
-                    "retrieved": len(collection)})
+                    "retrieved": len(collection), "cache_refresh": refresh_cache,
+                    "pagination_total_changed": total_changed})
         for item in collection:
             doi = item.get("doi", "").lower()
             posted = item.get("date", "")
@@ -341,11 +355,17 @@ def rxiv_records(source, since, until, cache, log, category=None):
                       "retrieval_url": url}
             if doi not in records or version > records[doi]["version"]:
                 records[doi] = record
+        if total_changed:
+            # Keep both the candidates and the stale evidence. The next attempt
+            # bypasses every cached page for this interval instead of replaying it.
+            raise ValueError(f"{source}: pagination total changed from {expected_total} to {total}; "
+                             "interval completeness is unknown, next retry refreshes the interval")
         cursor += len(collection)
         if cursor >= total:
             break
         if not collection:
             raise ValueError(f"{source}: pagination made no progress")
+    refresh_marker.unlink(missing_ok=True)
     return list(records.values())
 
 
@@ -356,6 +376,8 @@ def main():
     parser.add_argument("--sources", nargs="+", choices=["arxiv", "biorxiv", "medrxiv"])
     parser.add_argument("--output", default=str(ROOT / ".cache" / "preprint-candidates.json"))
     parser.add_argument("--cache-dir", help="Separate cache directory for an independent recall audit")
+    parser.add_argument("--refresh-cache", action="store_true",
+                        help="Refetch API pages even when the selected cache already exists")
     parser.add_argument("--category", help="Rxiv subject-category backfill; not an admission decision")
     args = parser.parse_args()
     config = json.loads((ROOT / "config/literature-keywords.json").read_text(encoding="utf-8"))
@@ -370,6 +392,8 @@ def main():
     exclusions = {"title_sha256": set(exclusions["title_sha256"]),
                   "identifiers": set(exclusions["identifiers"])}
     method_exclusions = json.loads((ROOT / "data/excluded-method-identities.json").read_text(encoding="utf-8"))
+    withdrawal_path = ROOT / "data/withdrawn-preprints.json"
+    withdrawals = json.loads(withdrawal_path.read_text(encoding="utf-8")) if withdrawal_path.exists() else {}
     candidates, retrievals, source_status = [], [], {}
     for source in args.sources or config["sources"]:
         checkpoint = state["sources"][source]["last_successful_until"]
@@ -379,34 +403,41 @@ def main():
         if dt.date.fromisoformat(since) > until_date:
             parser.error(f"{source}: --since must be no later than --until")
         print(f"Searching {source}: {since} to {args.until}", flush=True)
+        partial_records = {}
+        failure = None
         try:
-            records = (arxiv_records(config, since, args.until, cache, retrievals) if source == "arxiv"
-                       else rxiv_records(source, since, args.until, cache, retrievals, args.category))
-            count = 0
-            for record in records:
-                eligible, groups, methods = topic_matches(record, config)
-                category = record.get("category", "").lower()
-                category_fallback = category in config.get("retrieval_policy", {}).get(
-                    "subject_categories", {}).get(source, [])
-                category_requested = bool(args.category and source != "arxiv")
-                eligible = eligible or category_fallback or category_requested
-                if not eligible:
-                    continue
-                record["matched_topics"], record["matched_methods"] = groups, methods
-                record["retrieval_basis"] = "keywords_and_category" if groups and category_fallback else (
-                    "subject_category" if category_fallback or category_requested else "keywords")
-                record["existing_matches"] = matching_existing(record, previous)
-                record["journal_policy_exclusion"] = journal_policy_exclusion(record, exclusions)
-                record["method_scope_exclusion"] = method_scope_exclusion(record, method_exclusions)
-                candidates.append(record)
-                count += 1
-            source_status[source] = {"status": "complete", "since": since, "until": args.until,
-                                     "retrieved_unique": len(records), "candidates": count}
-            print(f"{source}: {len(records)} unique records, {count} candidates", flush=True)
+            records = (arxiv_records(config, since, args.until, cache, retrievals,
+                                     args.refresh_cache, partial_records) if source == "arxiv"
+                       else rxiv_records(source, since, args.until, cache, retrievals, args.category,
+                                         args.refresh_cache, partial_records))
         except Exception as error:
-            source_status[source] = {"status": "failed", "since": since, "until": args.until,
-                                     "error": f"{type(error).__name__}: {error}"}
+            failure = f"{type(error).__name__}: {error}"
+            records = list(partial_records.values())
             print(f"{source}: FAILED: {error}", flush=True)
+        count = 0
+        for record in records:
+            eligible, groups, methods = topic_matches(record, config)
+            category = record.get("category", "").lower()
+            category_fallback = category in config.get("retrieval_policy", {}).get(
+                "subject_categories", {}).get(source, [])
+            category_requested = bool(args.category and source != "arxiv")
+            if not (eligible or category_fallback or category_requested):
+                continue
+            record["matched_topics"], record["matched_methods"] = groups, methods
+            record["retrieval_basis"] = "keywords_and_category" if groups and category_fallback else (
+                "subject_category" if category_fallback or category_requested else "keywords")
+            record["existing_matches"] = matching_existing(record, previous)
+            record["journal_policy_exclusion"] = journal_policy_exclusion(record, exclusions)
+            record["method_scope_exclusion"] = method_scope_exclusion(record, method_exclusions)
+            record["withdrawal_status_exclusion"] = withdrawal_status_exclusion(record, withdrawals)
+            candidates.append(record)
+            count += 1
+        source_status[source] = {"status": "failed" if failure else "complete", "since": since,
+                                 "until": args.until, "retrieved_unique": len(records), "candidates": count}
+        if failure:
+            source_status[source]["error"] = failure
+            source_status[source]["partial_candidates_preserved"] = True
+        print(f"{source}: {len(records)} unique records, {count} candidates", flush=True)
     output = Path(args.output)
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps({"generated_at": dt.datetime.now(dt.timezone.utc).isoformat(),

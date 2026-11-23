@@ -114,6 +114,24 @@
         "retrieved_unique": 13,
         "candidates": 13
       }
+    },
+    "core-postreview-validation.json": {
+      "biorxiv": {
+        "status": "failed",
+        "since": "2026-10-18",
+        "until": "2026-11-22",
+        "retrieved_unique": 1639,
+        "candidates": 315,
+        "error": "ValueError: biorxiv: pagination total changed from 8179 to 8181; interval completeness is unknown, next retry refreshes the interval",
+        "partial_candidates_preserved": true
+      },
+      "medrxiv": {
+        "status": "complete",
+        "since": "2026-10-18",
+        "until": "2026-11-22",
+        "retrieved_unique": 2090,
+        "candidates": 209
+      }
     }
   },
   "retrievals": [
@@ -8051,6 +8069,1316 @@
       "cursor": 0,
       "total": 13,
       "retrieved": 13
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/0/json",
+      "cursor": 0,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/30/json",
+      "cursor": 30,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/60/json",
+      "cursor": 60,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/90/json",
+      "cursor": 90,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/120/json",
+      "cursor": 120,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/150/json",
+      "cursor": 150,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/180/json",
+      "cursor": 180,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/210/json",
+      "cursor": 210,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/240/json",
+      "cursor": 240,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/270/json",
+      "cursor": 270,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/300/json",
+      "cursor": 300,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/330/json",
+      "cursor": 330,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/360/json",
+      "cursor": 360,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/390/json",
+      "cursor": 390,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/420/json",
+      "cursor": 420,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/450/json",
+      "cursor": 450,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/480/json",
+      "cursor": 480,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/510/json",
+      "cursor": 510,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/540/json",
+      "cursor": 540,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/570/json",
+      "cursor": 570,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/600/json",
+      "cursor": 600,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/630/json",
+      "cursor": 630,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/660/json",
+      "cursor": 660,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/690/json",
+      "cursor": 690,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/720/json",
+      "cursor": 720,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/750/json",
+      "cursor": 750,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/780/json",
+      "cursor": 780,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/810/json",
+      "cursor": 810,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/840/json",
+      "cursor": 840,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/870/json",
+      "cursor": 870,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/900/json",
+      "cursor": 900,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/930/json",
+      "cursor": 930,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/960/json",
+      "cursor": 960,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/990/json",
+      "cursor": 990,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/1020/json",
+      "cursor": 1020,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/1050/json",
+      "cursor": 1050,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/1080/json",
+      "cursor": 1080,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/1110/json",
+      "cursor": 1110,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/1140/json",
+      "cursor": 1140,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/1170/json",
+      "cursor": 1170,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/1200/json",
+      "cursor": 1200,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/1230/json",
+      "cursor": 1230,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/1260/json",
+      "cursor": 1260,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/1290/json",
+      "cursor": 1290,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/1320/json",
+      "cursor": 1320,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/1350/json",
+      "cursor": 1350,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/1380/json",
+      "cursor": 1380,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/1410/json",
+      "cursor": 1410,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/1440/json",
+      "cursor": 1440,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/1470/json",
+      "cursor": 1470,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/1500/json",
+      "cursor": 1500,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/1530/json",
+      "cursor": 1530,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/1560/json",
+      "cursor": 1560,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/1590/json",
+      "cursor": 1590,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/1620/json",
+      "cursor": 1620,
+      "total": 8179,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "biorxiv",
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-18/2026-11-22/1650/json",
+      "cursor": 1650,
+      "total": 8181,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": true
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/0/json",
+      "cursor": 0,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/30/json",
+      "cursor": 30,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/60/json",
+      "cursor": 60,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/90/json",
+      "cursor": 90,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/120/json",
+      "cursor": 120,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/150/json",
+      "cursor": 150,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/180/json",
+      "cursor": 180,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/210/json",
+      "cursor": 210,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/240/json",
+      "cursor": 240,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/270/json",
+      "cursor": 270,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/300/json",
+      "cursor": 300,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/330/json",
+      "cursor": 330,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/360/json",
+      "cursor": 360,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/390/json",
+      "cursor": 390,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/420/json",
+      "cursor": 420,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/450/json",
+      "cursor": 450,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/480/json",
+      "cursor": 480,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/510/json",
+      "cursor": 510,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/540/json",
+      "cursor": 540,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/570/json",
+      "cursor": 570,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/600/json",
+      "cursor": 600,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/630/json",
+      "cursor": 630,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/660/json",
+      "cursor": 660,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/690/json",
+      "cursor": 690,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/720/json",
+      "cursor": 720,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/750/json",
+      "cursor": 750,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/780/json",
+      "cursor": 780,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/810/json",
+      "cursor": 810,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/840/json",
+      "cursor": 840,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/870/json",
+      "cursor": 870,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/900/json",
+      "cursor": 900,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/930/json",
+      "cursor": 930,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/960/json",
+      "cursor": 960,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/990/json",
+      "cursor": 990,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/1020/json",
+      "cursor": 1020,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/1050/json",
+      "cursor": 1050,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/1080/json",
+      "cursor": 1080,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/1110/json",
+      "cursor": 1110,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/1140/json",
+      "cursor": 1140,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/1170/json",
+      "cursor": 1170,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/1200/json",
+      "cursor": 1200,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/1230/json",
+      "cursor": 1230,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/1260/json",
+      "cursor": 1260,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/1290/json",
+      "cursor": 1290,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/1320/json",
+      "cursor": 1320,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/1350/json",
+      "cursor": 1350,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/1380/json",
+      "cursor": 1380,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/1410/json",
+      "cursor": 1410,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/1440/json",
+      "cursor": 1440,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/1470/json",
+      "cursor": 1470,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/1500/json",
+      "cursor": 1500,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/1530/json",
+      "cursor": 1530,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/1560/json",
+      "cursor": 1560,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/1590/json",
+      "cursor": 1590,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/1620/json",
+      "cursor": 1620,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/1650/json",
+      "cursor": 1650,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/1680/json",
+      "cursor": 1680,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/1710/json",
+      "cursor": 1710,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/1740/json",
+      "cursor": 1740,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/1770/json",
+      "cursor": 1770,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/1800/json",
+      "cursor": 1800,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/1830/json",
+      "cursor": 1830,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/1860/json",
+      "cursor": 1860,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/1890/json",
+      "cursor": 1890,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/1920/json",
+      "cursor": 1920,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/1950/json",
+      "cursor": 1950,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/1980/json",
+      "cursor": 1980,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/2010/json",
+      "cursor": 2010,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/2040/json",
+      "cursor": 2040,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/2070/json",
+      "cursor": 2070,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/2100/json",
+      "cursor": 2100,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/2130/json",
+      "cursor": 2130,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/2160/json",
+      "cursor": 2160,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/2190/json",
+      "cursor": 2190,
+      "total": 2221,
+      "retrieved": 30,
+      "cache_refresh": false,
+      "pagination_total_changed": false
+    },
+    {
+      "packet": "core-postreview-validation.json",
+      "source": "medrxiv",
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-18/2026-11-22/2220/json",
+      "cursor": 2220,
+      "total": 2221,
+      "retrieved": 1,
+      "cache_refresh": false,
+      "pagination_total_changed": false
     }
   ],
   "official_domain_queries": [
@@ -8298,5 +9626,14 @@
     "Europe PMC is a preprint index;1977 unique index records/1421 candidates are not full original-platform coverage. Historical2023–2026 first-date discovery was run previously; unresolved queues persist.",
     "OSF/Zenodo datasets, models, code and project records are discovery/resource leads rather than automatic paper entries.",
     "Full available abstracts underpin recorded scope judgments, with targeted primary-method/identity checks; most broad candidates remain unreviewed."
-  ]
+  ],
+  "authoritative_source_status": {
+    "arxiv": "partial_HTTP429_and_index_gaps",
+    "biorxiv": "partial_pagination_total_drift",
+    "medrxiv": "complete_retrieval_partial_review",
+    "europepmc_preprints": "complete_retrieval_partial_review"
+  },
+  "superseded_attempts": {
+    "core-candidates.json:biorxiv": "The initial pre-guard complete flag is invalidated by the observed total drift, both validation reruns and8177distinctDOI/version pairs versus advertised8181."
+  }
 }

@@ -60,7 +60,7 @@
   "rxiv_page_count": 348,
   "pathology_category_candidates": 66,
   "validation": {
-    "unit_tests": 41,
+    "unit_tests": 46,
     "journal_policy": "passed",
     "deep_learning_evidence": "passed",
     "index_refresh": "passed",
@@ -84,5 +84,11 @@
       "biorxiv": 8177,
       "medrxiv": 2221
     }
+  },
+  "review_followup": {
+    "partial_candidates": "Post-review collector rerun preserves315bioRxiv candidates in failed source output, while medRxiv retains209candidates. Failure and checkpoints remain explicit.",
+    "cache_retry": "--refresh-cache bypasses old API bodies; a per-interval/category marker automatically refreshes the next retry after total drift. Stable completion clears that marker.",
+    "withdrawal_registry": "data/withdrawn-preprints.json flags both collectors and blocks active reintroduction in publication validation.",
+    "arxiv_dates": "Original v1 histories directly reconfirmed for2611.00226,2611.00151,2611.05410; October dates retained as stated by arXiv rather than inferred from identifier month."
   }
 }

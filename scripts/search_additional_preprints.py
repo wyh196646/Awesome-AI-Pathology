@@ -244,6 +244,8 @@ def main():
                 by_identity.setdefault(identity, []).append(entry)
     exclusions = json.loads((ROOT / "data/excluded-journal-identities.json").read_text(encoding="utf-8"))
     method_exclusions = json.loads((ROOT / "data/excluded-method-identities.json").read_text(encoding="utf-8"))
+    withdrawal_path = ROOT / "data/withdrawn-preprints.json"
+    withdrawals = json.loads(withdrawal_path.read_text(encoding="utf-8")) if withdrawal_path.exists() else {}
     candidates = []
     for raw in records.values():
         try:
@@ -261,7 +263,8 @@ def main():
         record.update(matched_topics=topics, matched_methods=methods,
                       existing_matches=sp.matching_existing(record, unique_matches),
                       journal_policy_exclusion=sp.journal_policy_exclusion(record, exclusions),
-                      method_scope_exclusion=sp.method_scope_exclusion(record, method_exclusions))
+                      method_scope_exclusion=sp.method_scope_exclusion(record, method_exclusions),
+                      withdrawal_status_exclusion=sp.withdrawal_status_exclusion(record, withdrawals))
         candidates.append(record)
     status = {"status": "failed" if errors else "complete", "since": since, "until": args.until,
               "date_field": args.date_field, "retrieved_unique": len(records), "candidates": len(candidates),

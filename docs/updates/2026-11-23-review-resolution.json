@@ -1,0 +1,36 @@
+{
+  "audit": "2026-11-23.json",
+  "pull_request": 23,
+  "reviewed_head": "261a07418015b41c07173d393ac5a3e918e437d2",
+  "fixes": [
+    "Preserve partial arXiv/Rxiv candidates in failed packets.",
+    "Explicit refresh flag plus automatic whole-interval refresh marker after pagination drift.",
+    "Persist confirmed withdrawal identities; surface flags without silently dropping retrievals, and block active reintroduction."
+  ],
+  "date_verification": [
+    {
+      "id": "2611.00226",
+      "official_v1_date": "2026-10-30",
+      "source_url": "https://arxiv.org/abs/2611.00226",
+      "decision": "unchanged; original history confirms displayed date"
+    },
+    {
+      "id": "2611.00151",
+      "official_v1_date": "2026-10-30",
+      "source_url": "https://arxiv.org/abs/2611.00151",
+      "decision": "unchanged; original history confirms displayed date"
+    },
+    {
+      "id": "2611.05410",
+      "official_v1_date": "2026-10-21",
+      "source_url": "https://arxiv.org/abs/2611.05410",
+      "decision": "unchanged; v2 is2026-11-09, v1 remainsOctober21"
+    }
+  ],
+  "validation": {
+    "unit_tests": 46,
+    "live_cached_collector_failed_biorxiv_partial_candidates": 315,
+    "live_cached_collector_complete_medrxiv_candidates": 209,
+    "success_checkpoints_advanced": false
+  }
+}
